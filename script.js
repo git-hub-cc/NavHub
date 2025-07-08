@@ -61,6 +61,87 @@ document.addEventListener('DOMContentLoaded', () => {
     const searchForm = document.getElementById('search-form');
     const searchInput = document.getElementById('search-input');
     const suggestionsList = document.getElementById('suggestions-list');
+    const alertConfirmModal = document.getElementById('alert-confirm-modal');
+    const alertConfirmTitle = document.getElementById('alert-confirm-title');
+    const alertConfirmMessage = document.getElementById('alert-confirm-message');
+    const alertConfirmOkBtn = document.getElementById('alert-confirm-ok-btn');
+    const alertConfirmCancelBtn = document.getElementById('alert-confirm-cancel-btn');
+
+    // =========================================================================
+    // 通用模态框 (MODAL HELPERS)
+    // =========================================================================
+    function showModal(modalElement) {
+        modalElement.classList.remove('modal-hidden');
+    }
+
+    function hideModal(modalElement) {
+        modalElement.classList.add('modal-hidden');
+    }
+
+    function showAlert(message, title = '提示') {
+        return new Promise(resolve => {
+            alertConfirmTitle.textContent = title;
+            alertConfirmMessage.innerHTML = message.replace(/\n/g, '<br>');
+
+            alertConfirmOkBtn.textContent = '确认';
+            alertConfirmOkBtn.style.display = 'inline-block';
+            alertConfirmCancelBtn.style.display = 'none';
+
+            const cleanup = () => {
+                hideModal(alertConfirmModal);
+                alertConfirmOkBtn.removeEventListener('click', okListener);
+                alertConfirmModal.removeEventListener('click', overlayListener);
+                resolve(true);
+            };
+
+            const okListener = () => cleanup();
+            const overlayListener = (e) => {
+                if (e.target === alertConfirmModal) {
+                    cleanup();
+                }
+            };
+
+            alertConfirmOkBtn.addEventListener('click', okListener);
+            alertConfirmModal.addEventListener('click', overlayListener);
+
+            showModal(alertConfirmModal);
+        });
+    }
+
+    function showConfirm(message, title = '请确认') {
+        return new Promise(resolve => {
+            alertConfirmTitle.textContent = title;
+            alertConfirmMessage.innerHTML = message.replace(/\n/g, '<br>');
+
+            alertConfirmOkBtn.textContent = '确认';
+            alertConfirmCancelBtn.textContent = '取消';
+            alertConfirmOkBtn.style.display = 'inline-block';
+            alertConfirmCancelBtn.style.display = 'inline-block';
+
+            const cleanup = (result) => {
+                hideModal(alertConfirmModal);
+                alertConfirmOkBtn.removeEventListener('click', okListener);
+                alertConfirmCancelBtn.removeEventListener('click', cancelListener);
+                alertConfirmModal.removeEventListener('click', overlayListener);
+                resolve(result);
+            };
+
+            const okListener = () => cleanup(true);
+            const cancelListener = () => cleanup(false);
+            const overlayListener = (e) => {
+                if (e.target === alertConfirmModal) {
+                    cleanup(false);
+                }
+            };
+
+            alertConfirmOkBtn.addEventListener('click', okListener);
+            alertConfirmCancelBtn.addEventListener('click', cancelListener);
+            alertConfirmModal.addEventListener('click', overlayListener);
+
+            showModal(alertConfirmModal);
+        });
+    }
+
 
     // =========================================================================
     // 数据导入/导出 (DATA IMPORT/EXPORT)
@@ -92,17 +173,17 @@ document.addEventListener('DOMContentLoaded', () => {
             try {
                 pendingImportData = JSON.parse(e.target.result);
                 if (!pendingImportData || !Array.isArray(pendingImportData.categories)) {
-                    throw new Error("Invalid NavHub file format.")
+                    throw new Error("无效的 NavHub 文件格式。")
                 }
                 importNameModal.classList.remove('modal-hidden');
                 importNameInput.focus()
             } catch (error) {
-                alert(`无法解析文件: ${error.message}`);
+                showAlert(`无法解析文件: ${error.message}`, '导入错误');
                 pendingImportData = null
             }
         };
         reader.onerror = () => {
-            alert('读取文件时出错。')
+            showAlert('读取文件时出错。', '文件读取失败');
         };
         reader.readAsText(file);
         event.target.value = ''
@@ -157,17 +238,17 @@ document.addEventListener('DOMContentLoaded', () => {
         pendingImportData = null
     }
 
-    function handleDeleteSource() {
+    async function handleDeleteSource() {
         const sourceIdentifier = dataSourceSelect.value;
         const source = allSiteDataSources.find(s => (s.path || s.name) === sourceIdentifier);
 
-        // Double-check if the source is a default one. Should be prevented by disabled state, but as a safeguard.
         if (!source || source.path) {
-            alert('无法删除内置的默认数据源。');
+            await showAlert('无法删除内置的默认数据源。');
             return;
         }
 
-        if (!confirm(`确定要删除数据源 "${source.name}" 吗？此操作不可撤销。`)) {
+        const confirmed = await showConfirm(`确定要删除数据源 "${source.name}" 吗？此操作不可撤销。`);
+        if (!confirmed) {
             return;
         }
 
@@ -176,8 +257,9 @@ document.addEventListener('DOMContentLoaded', () => {
         const updatedCustomSources = customSources.filter(s => s.name !== source.name);
         localStorage.setItem(NAV_CUSTOM_SOURCES_KEY, JSON.stringify(updatedCustomSources));
 
+        await showAlert(`数据源 "${source.name}" 已被删除。`);
+
         // Reload and switch to a safe default
-        alert(`数据源 "${source.name}" 已被删除。`);
         loadAllDataSources();
         populateDataSourceSelector();
         // Switch to the very first default data source
@@ -305,7 +387,7 @@ document.addEventListener('DOMContentLoaded', () => {
             return
         }
         if (checkedEngines.length === 0) {
-            alert('请至少选择一个搜索引擎！');
+            showAlert('请至少选择一个搜索引擎！');
             return
         }
         checkedEngines.forEach(engineCheckbox => {
@@ -450,7 +532,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 newBaseData = source.data;
             }
         } catch (error) {
-            alert(`加载数据源失败: ${source.name}\n${error.message}`);
+            showAlert(`加载数据源失败: ${source.name}\n${error.message}`, '加载错误');
             dataSourceSelect.value = originalDataSourceValue; // Revert dropdown
             updateDeleteButtonState(); // Update button state on revert
             return;

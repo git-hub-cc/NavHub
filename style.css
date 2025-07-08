@@ -619,7 +619,7 @@ html[data-theme='dark'] .card:hover {
     transform: scale(0.9);
 }
 
-#modal-title, #confirmation-title {
+#modal-title, #alert-confirm-title {
     margin-top: 0;
     margin-bottom: 20px;
     font-size: 22px;

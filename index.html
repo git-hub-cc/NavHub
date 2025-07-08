@@ -10,7 +10,6 @@
     <!-- SEO Meta Tags End -->
     <title>NavHub</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🧭</text></svg>">
 </head>
 <body>
 <div class="container">
@@ -117,8 +116,6 @@
     </div>
 </div>
 
-<!-- --- REMOVED --- Confirmation modal is no longer needed. -->
-
 <!-- 导入命名模态框 -->
 <div id="import-name-modal" class="modal-overlay modal-hidden">
     <div class="modal-content">
@@ -134,6 +131,20 @@
                 <button type="submit" class="btn-primary">确认导入</button>
             </div>
         </form>
+    </div>
+</div>
+
+<!-- 通用提示/确认模态框 -->
+<div id="alert-confirm-modal" class="modal-overlay modal-hidden">
+    <div class="modal-content">
+        <h3 id="alert-confirm-title">提示</h3>
+        <div class="modal-body">
+            <p id="alert-confirm-message"></p>
+        </div>
+        <div class="form-actions">
+            <button type="button" id="alert-confirm-cancel-btn" class="btn-secondary">取消</button>
+            <button type="button" id="alert-confirm-ok-btn" class="btn-primary">确认</button>
+        </div>
     </div>
 </div>
 
