@@ -1,0 +1,819 @@
+/* ==========================================================================
+   1. 全局样式和变量 (Global Styles & Variables)
+   ========================================================================== */
+:root {
+    --bg-color: #f4f7fa;
+    --sidebar-bg: #ffffff;
+    --card-bg: #ffffff;
+    --text-color: #333;
+    --text-light-color: #888;
+    --accent-color: #007bff;
+    --border-color: #e9ecef;
+    --shadow-color: rgba(0, 0, 0, 0.05);
+    --warning-color: #ffc107;
+    --font-family: 'Helvetica Neue', Arial, 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', sans-serif;
+
+    /* 主题化变量 */
+    --search-focus-shadow: rgba(0, 123, 255, 0.1);
+    --btn-secondary-bg: #f1f3f5;
+    --btn-secondary-hover-bg: #e9ecef;
+    --placeholder-bg: #e9ecef;
+    --placeholder-border: var(--accent-color);
+    --slider-bg: #ccc;
+}
+
+html[data-theme='dark'] {
+    --bg-color: #212529;
+    --sidebar-bg: #2d3339;
+    --card-bg: #2d3339;
+    --text-color: #e9ecef;
+    --text-light-color: #adb5bd;
+    --accent-color: #0d6efd;
+    --border-color: #495057;
+    --shadow-color: rgba(0, 0, 0, 0.2);
+    --warning-color: #ffca2c;
+
+    /* 主题化变量 (暗色) */
+    --search-focus-shadow: rgba(13, 110, 253, 0.25);
+    --btn-secondary-bg: #343a40;
+    --btn-secondary-hover-bg: #495057;
+    --placeholder-bg: #343a40;
+    --placeholder-border: var(--accent-color);
+    --slider-bg: #555;
+}
+
+body {
+    margin: 0;
+    font-family: var(--font-family);
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    line-height: 1.6;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+
+/* ==========================================================================
+   2. 页面布局 (Layout)
+   ========================================================================== */
+.container {
+    display: flex;
+}
+
+.sidebar {
+    width: 240px;
+    background-color: var(--sidebar-bg);
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    border-right: 1px solid var(--border-color);
+    padding: 20px 0;
+    transition: transform 0.3s ease, background-color 0.3s, border-color 0.3s, width 0.3s, height 0.3s;
+    z-index: 100;
+    display: flex;
+    flex-direction: column;
+    /* --- MODIFICATION --- */
+    /* Removed justify-content: space-between to allow the middle section to grow and scroll */
+}
+
+.main-content {
+    margin-left: 240px;
+    width: calc(100% - 240px);
+    box-sizing: border-box;
+    transition: margin-left 0.3s ease;
+}
+
+.main-content-inner {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+/* ==========================================================================
+   3. 增强搜索 (Enhanced Search)
+   ========================================================================== */
+
+.enhanced-search-header {
+    background-color: var(--card-bg);
+    padding: 20px;
+    border-radius: 12px;
+    margin-bottom: 30px;
+    box-shadow: 0 4px 12px var(--shadow-color);
+    transition: background-color 0.3s;
+}
+
+.category-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-bottom: 15px;
+}
+
+.category-btn {
+    padding: 8px 16px;
+    font-size: 14px;
+    border: 1px solid var(--border-color);
+    background-color: transparent;
+    color: var(--text-color);
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background-color 0.2s, color 0.2s, border-color 0.2s;
+}
+
+.category-btn:hover {
+    background-color: var(--btn-secondary-bg);
+    border-color: var(--accent-color);
+}
+
+.category-btn.active {
+    background-color: var(--accent-color);
+    color: white;
+    border-color: var(--accent-color);
+}
+
+.search-engines {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin-bottom: 15px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid var(--border-color);
+    transition: border-color 0.3s;
+}
+
+.engine-checkbox {
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    cursor: pointer;
+    user-select: none;
+}
+
+.engine-checkbox input {
+    margin-right: 6px;
+    cursor: pointer;
+}
+
+.search-form {
+    display: flex;
+    gap: 10px;
+}
+
+.search-input-wrapper {
+    position: relative;
+    flex-grow: 1;
+}
+
+#search-input {
+    width: 100%;
+    padding: 12px 15px;
+    font-size: 16px;
+    border: 1px solid var(--border-color);
+    border-radius: 8px;
+    box-sizing: border-box;
+    transition: box-shadow 0.2s, background-color 0.3s, border-color 0.3s, color 0.3s;
+    background-color: var(--bg-color);
+    color: var(--text-color);
+}
+
+#search-input:focus {
+    outline: none;
+    border-color: var(--accent-color);
+    box-shadow: 0 0 0 3px var(--search-focus-shadow);
+}
+
+#search-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    flex-shrink: 0;
+}
+
+.suggestions-list {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    background-color: var(--card-bg);
+    border: 1px solid var(--border-color);
+    border-top: none;
+    border-radius: 0 0 8px 8px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    z-index: 10;
+    box-shadow: 0 8px 16px var(--shadow-color);
+    max-height: 300px;
+    overflow-y: auto;
+    display: none;
+}
+
+.suggestion-item {
+    padding: 10px 15px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+.suggestion-item:hover {
+    background-color: var(--btn-secondary-bg);
+}
+
+/* ==========================================================================
+   4. 侧边栏 (Sidebar)
+   ========================================================================== */
+
+/* --- MODIFICATION --- */
+/* This new rule targets the container of the logo and category list */
+.sidebar > div:first-child {
+    flex: 1; /* Allows this section to grow and fill the available vertical space */
+    display: flex;
+    flex-direction: column;
+    min-height: 0; /* A flexbox trick to allow the child element (category-list) to actually scroll */
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    padding: 0 20px 20px;
+    color: var(--accent-color);
+    flex-shrink: 0; /* Prevents the logo from shrinking */
+}
+
+.category-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    /* --- MODIFICATION --- */
+    overflow-y: auto; /* Adds a vertical scrollbar ONLY when the content overflows */
+    flex-grow: 1;     /* Allows the list to expand and fill the space given by its parent */
+}
+
+.category-list a {
+    display: block;
+    padding: 12px 20px;
+    color: var(--text-color);
+    text-decoration: none;
+    font-size: 16px;
+    transition: background-color 0.2s, color 0.2s;
+    border-left: 3px solid transparent;
+}
+
+.category-list a:hover {
+    background-color: #f8f9fa;
+}
+
+html[data-theme='dark'] .category-list a:hover {
+    background-color: #343a40;
+}
+
+.category-list a.active {
+    color: var(--accent-color);
+    font-weight: bold;
+    border-left-color: var(--accent-color);
+}
+
+.menu-bottom-section {
+    padding: 15px 20px;
+    border-top: 1px solid var(--border-color);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    transition: border-color 0.3s, padding 0.3s;
+    flex-shrink: 0; /* Prevents the bottom section from shrinking */
+}
+
+.data-actions {
+    display: flex;
+    width: 100%;
+    gap: 10px;
+}
+
+.data-actions button {
+    flex-grow: 1;
+    padding: 8px;
+    font-size: 14px;
+}
+
+.data-source-selector {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.data-source-selector label {
+    font-size: 14px;
+    font-weight: 500;
+    color: var(--text-light-color);
+    padding-left: 2px;
+}
+
+.data-source-selector select {
+    width: 100%;
+    padding: 8px;
+    border-radius: 6px;
+    border: 1px solid var(--border-color);
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    cursor: pointer;
+    font-size: 14px;
+    transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+}
+
+.social-links {
+    display: flex;
+    gap: 15px;
+}
+
+.social-links a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    background-color: var(--btn-secondary-bg);
+    color: var(--text-light-color);
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.2s, color 0.2s;
+}
+
+.social-links a:hover {
+    background-color: var(--btn-secondary-hover-bg);
+    color: var(--text-color);
+}
+
+.dark-mode-toggle label {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    cursor: pointer;
+}
+
+.dark-mode-toggle input[type="checkbox"] {
+    opacity: 0;
+    width: 0;
+    height: 0;
+    position: absolute;
+}
+
+.dark-mode-toggle .slider {
+    position: relative;
+    width: 44px;
+    height: 24px;
+    background-color: var(--slider-bg);
+    border-radius: 12px;
+    transition: background-color 0.3s;
+}
+
+.dark-mode-toggle .slider::before {
+    content: '';
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    left: 2px;
+    top: 2px;
+    background-color: white;
+    border-radius: 50%;
+    transition: transform 0.3s;
+}
+
+.dark-mode-toggle input:checked + .slider {
+    background-color: var(--accent-color);
+}
+
+.dark-mode-toggle input:checked + .slider::before {
+    transform: translateX(20px);
+}
+
+.sun-icon-emoji, .moon-icon-emoji {
+    font-size: 18px;
+    line-height: 1;
+}
+
+.copyright {
+    font-size: 12px;
+    color: var(--text-light-color);
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* ==========================================================================
+   5. 内容区域和卡片 (Content & Cards)
+   ========================================================================== */
+.category-section {
+    margin-bottom: 40px;
+}
+
+.category-title-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid var(--border-color);
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    transition: border-color 0.3s;
+}
+
+.category-title {
+    font-size: 22px;
+    font-weight: 600;
+    margin: 0;
+}
+
+.title-actions .action-btn {
+    background-color: var(--btn-secondary-bg);
+    border: none;
+    padding: 8px 16px;
+    font-size: 14px;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.2s, color 0.2s;
+    margin-left: 10px;
+    color: var(--text-color);
+}
+
+.title-actions .action-btn:hover {
+    background-color: var(--btn-secondary-hover-bg);
+}
+
+.title-actions .action-btn.active {
+    background-color: var(--accent-color);
+    color: white;
+}
+
+.card-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 20px;
+    min-height: 100px;
+}
+
+.card {
+    position: relative;
+    background-color: var(--card-bg);
+    border-radius: 12px;
+    box-shadow: 0 4px 12px var(--shadow-color);
+    padding: 20px;
+    transition: transform 0.2s ease, box-shadow 0.2s ease, background-color 0.3s;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    user-select: none;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+}
+
+html[data-theme='dark'] .card:hover {
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.25);
+}
+
+.card-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.card-icon {
+    width: 32px;
+    height: 32px;
+    margin-right: 15px;
+    flex-shrink: 0;
+}
+
+.card-title {
+    font-size: 18px;
+    font-weight: 600;
+    margin: 0;
+}
+
+.card-desc {
+    font-size: 14px;
+    color: var(--text-light-color);
+    flex-grow: 1;
+    margin: 0;
+}
+
+.proxy-badge {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: var(--warning-color);
+    color: #333;
+    font-size: 10px;
+    font-weight: bold;
+    padding: 3px 6px;
+    border-radius: 4px;
+    user-select: none;
+}
+
+
+/* ==========================================================================
+   6. 交互状态 (Interactive States)
+   ========================================================================== */
+.card.dragging {
+    opacity: 0.5;
+    background: #cce5ff;
+}
+
+.placeholder {
+    background-color: var(--placeholder-bg);
+    border: 2px dashed var(--placeholder-border);
+    border-radius: 12px;
+    box-sizing: border-box;
+}
+
+@keyframes wobble {
+    0% { transform: rotate(0deg); }
+    25% { transform: rotate(-1.5deg); }
+    50% { transform: rotate(1.5deg); }
+    75% { transform: rotate(-1.5deg); }
+    100% { transform: rotate(0deg); }
+}
+
+/* --- BUG FIX: Scoped all editing/deleting styles to only affect cards within the user's custom section --- */
+.content-wrapper.is-editing #custom-user-sites .card {
+    animation: wobble 0.5s infinite;
+    cursor: grab;
+}
+
+.content-wrapper.is-editing #custom-user-sites .card:hover {
+    animation-play-state: paused;
+}
+
+.content-wrapper.is-deleting #custom-user-sites .card {
+    cursor: pointer;
+}
+
+.content-wrapper.is-deleting #custom-user-sites .card:hover {
+    transform: none; /* Disable hover lift effect in delete mode */
+    box-shadow: 0 4px 12px var(--shadow-color);
+}
+
+.content-wrapper.is-deleting #custom-user-sites .card::after {
+    content: '🗑️';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(220, 53, 69, 0.7);
+    border-radius: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    color: white;
+    transition: background-color 0.2s;
+}
+
+.content-wrapper.is-deleting #custom-user-sites .card:hover::after {
+    background-color: rgba(220, 53, 69, 0.85);
+}
+
+
+/* ==========================================================================
+   7. 模态框 (Modal)
+   ========================================================================== */
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+    opacity: 1;
+    transition: opacity 0.3s ease;
+}
+
+.modal-overlay.modal-hidden {
+    opacity: 0;
+    pointer-events: none;
+}
+
+.modal-content {
+    background: var(--sidebar-bg);
+    padding: 25px 30px;
+    border-radius: 12px;
+    width: 90%;
+    max-width: 500px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    transform: scale(1);
+    transition: transform 0.3s ease, background-color 0.3s;
+}
+
+.modal-hidden .modal-content {
+    transform: scale(0.9);
+}
+
+#modal-title, #confirmation-title {
+    margin-top: 0;
+    margin-bottom: 20px;
+    font-size: 22px;
+}
+
+.modal-body {
+    margin-bottom: 25px;
+    line-height: 1.7;
+    color: var(--text-color);
+}
+.modal-body p {
+    margin: 0;
+}
+
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.form-group input[type="text"],
+.form-group input[type="url"],
+.form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid var(--border-color);
+    border-radius: 6px;
+    font-size: 16px;
+    box-sizing: border-box;
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+}
+
+.form-group-checkbox {
+    display: flex;
+    align-items: center;
+}
+
+.form-group-checkbox input {
+    margin-right: 10px;
+}
+
+.form-actions {
+    margin-top: 25px;
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+}
+
+.form-actions button,
+#search-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+.btn-primary {
+    background-color: var(--accent-color);
+    color: white;
+}
+.btn-primary:hover {
+    background-color: #0056b3;
+}
+html[data-theme='dark'] .btn-primary:hover {
+    background-color: #0b5ed7;
+}
+
+.btn-secondary {
+    background-color: var(--btn-secondary-bg);
+    color: var(--text-color);
+}
+.btn-secondary:hover {
+    background-color: var(--btn-secondary-hover-bg);
+}
+.btn-danger {
+    color: #dc3545;
+    border-color: #dc3545;
+}
+.btn-danger:hover {
+    background-color: #dc3545;
+    color: #fff;
+}
+.btn-danger:disabled {
+    color: #6c757d;
+    border-color: #6c757d;
+    background-color: transparent;
+    cursor: not-allowed;
+    opacity: 0.5;
+}
+
+
+/* ==========================================================================
+   8. 响应式设计 (Responsive Design)
+   ========================================================================== */
+@media (max-width: 768px) {
+    /* On mobile, the scrollable sidebar is not needed as it becomes a bottom bar */
+    .sidebar > div:first-child {
+        display: none;
+    }
+
+    .copyright {
+        margin-bottom: 0;
+    }
+
+    .sidebar {
+        width: 100%;
+        height: auto;
+        top: auto;
+        bottom: 0;
+        border-right: none;
+        border-top: 1px solid var(--border-color);
+        padding: 0;
+    }
+
+    .menu-bottom-section {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        align-items: center;
+        padding: 10px;
+        border-top: none;
+        gap: 10px 20px;
+    }
+
+    .data-source-selector {
+        order: 3; /* Place after social and theme toggle */
+        flex-basis: 100%;
+        flex-direction: row;
+        align-items: center;
+        gap: 10px;
+        justify-content: center;
+        padding: 5px 0;
+    }
+
+    .data-source-selector select {
+        max-width: 200px;
+    }
+
+    .main-content {
+        margin-left: 0;
+        width: 100%;
+    }
+
+    .main-content-inner {
+        padding: 15px 15px 120px 15px; /* Increased bottom padding */
+    }
+
+    .enhanced-search-header {
+        padding: 15px;
+    }
+
+    .search-form {
+        flex-direction: column;
+    }
+
+    .card-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .category-title {
+        font-size: 20px;
+    }
+}
+
+/* ==========================================================================
+   9. 滚动条样式 (Scrollbar Styles)
+   ========================================================================== */
+/* For Webkit-based browsers (Chrome, Safari, Edge) */
+::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: var(--border-color);
+    border-radius: 10px;
+    border: 2px solid var(--bg-color);
+    background-clip: padding-box;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background-color: var(--accent-color);
+}

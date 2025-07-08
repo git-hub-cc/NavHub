@@ -1,0 +1,546 @@
+{
+  "categories": [
+    {
+      "categoryName": "系统工具",
+      "categoryId": "system-utilities",
+      "sites": [
+        {
+          "title": "虚拟机",
+          "url": "https://docs.qq.com/doc/DYXZ0U0xpR3pqWFBj",
+          "desc": "虚拟机"
+        },
+        {
+          "title": "文件复制",
+          "url": "https://www.yuque.com/docs/share/070518e0-6ecf-4b96-8ce3-1fd208b21e33",
+          "desc": "文件复制"
+        },
+        {
+          "title": "文件加密",
+          "url": "https://www.yuque.com/docs/share/422befb6-3a92-4875-b357-a145e17091ab",
+          "desc": "文件加密"
+        },
+        {
+          "title": "KeePass",
+          "url": "https://www.yuque.com/docs/share/6f8a767e-e486-4b63-9287-58fe71cecf68",
+          "desc": "KeePass"
+        },
+        {
+          "title": "全文检索",
+          "url": "https://www.yuque.com/docs/share/e4dd2a9f-2d9f-422e-80ea-d2229a9a7624",
+          "desc": "全文检索／全文搜索"
+        },
+        {
+          "title": "安卓权限管理",
+          "url": "https://www.yuque.com/docs/share/61748620-91ca-4496-88fe-636373e9f04b",
+          "desc": "安卓权限管理"
+        },
+        {
+          "title": "安卓通知管理",
+          "url": "https://www.yuque.com/docs/share/f2a54a38-4bb2-4d85-a497-cc903204b9b6",
+          "desc": "安卓通知管理"
+        },
+        {
+          "title": "驱动管理",
+          "url": "https://www.yuque.com/docs/share/9e6e6a15-fb48-4ffe-b053-b76c4d088a6b",
+          "desc": "驱动管理"
+        },
+        {
+          "title": "系统清理工具",
+          "url": "https://www.yuque.com/docs/share/b5547943-466d-4a02-ad20-8eeaf69fd869",
+          "desc": "安卓清理／手机清理"
+        },
+        {
+          "title": "数据恢复",
+          "url": "https://www.yuque.com/docs/share/a82fe47c-9645-4049-a264-9f37dfe8dc58",
+          "desc": "数据恢复"
+        },
+        {
+          "title": "管理员权限",
+          "url": "https://www.yuque.com/docs/share/c713f5b0-34ab-4f68-8ddd-fdac2e76d17c",
+          "desc": "管理员权限"
+        },
+        {
+          "title": "截图",
+          "url": "https://www.yuque.com/docs/share/6eba77ea-0674-4bb2-be46-f82b1a9821f8",
+          "desc": "截图"
+        },
+        {
+          "title": "解除占用",
+          "url": "https://www.yuque.com/docs/share/fdb12697-ee60-41dc-9ebb-3ac0e8df53a2",
+          "desc": "解除占用"
+        },
+        {
+          "title": "禁止更新",
+          "url": "https://www.yuque.com/docs/share/de485551-ed7a-4dcc-aebd-2ee836bf3ab1",
+          "desc": "禁止更新／禁止Windows更新／禁止系统更新"
+        },
+        {
+          "title": "旧版APP",
+          "url": "https://www.yuque.com/docs/share/31bd7ab0-58c4-4ebe-9f8a-ee0507be240a",
+          "desc": "旧版APP／iOS旧版"
+        },
+        {
+          "title": "桌面美化工具",
+          "url": "https://www.yuque.com/docs/share/e3d359aa-24a0-4967-8dc5-68d1a4a43880",
+          "desc": "透明任务栏／显示网速／内存清理／温度监控"
+        },
+        {
+          "title": "Windows激活",
+          "url": "https://docs.qq.com/doc/DYVR5S2NZWHVXaWRC",
+          "desc": "Windows激活／系统激活／电脑激活／激活电脑"
+        },
+        {
+          "title": "运行库",
+          "url": "https://www.yuque.com/docs/share/f25e0ef5-9efb-437b-8547-fa56bf8a13f5",
+          "desc": "运行库"
+        },
+        {
+          "title": "资源管理器",
+          "url": "https://www.yuque.com/docs/share/f0da88ea-6ae6-4bab-9916-2c414671708f",
+          "desc": "资源管理器"
+        },
+        {
+          "title": "压缩包解密",
+          "url": "https://www.yuque.com/docs/share/7bea7897-10b6-4a3b-b9ae-29e4442867b9",
+          "desc": "压缩包解密／压缩包破解"
+        },
+        {
+          "title": "看图/压缩/重命名工具",
+          "url": "https://www.yuque.com/docs/share/fa7d2f5d-8370-49e8-9b87-fedef0b44afa",
+          "desc": "2345看图王／好压/解压缩／批量重命名"
+        }
+      ]
+    },
+    {
+      "categoryName": "影音处理",
+      "categoryId": "media-processing",
+      "sites": [
+        {
+          "title": "AI 视频修复",
+          "url": "https://www.yuque.com/docs/share/a2a26499-5c5f-40d6-9e3e-03bafd501d38",
+          "desc": "视频清晰化／视频插帧／视频补帧"
+        },
+        {
+          "title": "听书",
+          "url": "https://www.yuque.com/docs/share/3eee73b5-d4fe-42cb-b1a6-c5a8ca4c85f3",
+          "desc": "听书"
+        },
+        {
+          "title": "千千静听",
+          "url": "https://www.yuque.com/docs/share/6b292f34-046d-4dcd-9023-324bcbe119d4",
+          "desc": "千千静听"
+        },
+        {
+          "title": "视频下载",
+          "url": "https://www.yuque.com/docs/share/cf6bdb72-31c0-4fd9-94fb-9cdebdf644ae",
+          "desc": "视频下载／IDM"
+        },
+        {
+          "title": "m3u8",
+          "url": "https://www.yuque.com/docs/share/a3265990-bc94-452b-9014-b3d81dad063c",
+          "desc": "m3u8"
+        },
+        {
+          "title": "音乐标签编辑器",
+          "url": "https://www.yuque.com/docs/share/e7eac68a-985c-4d7e-bbe0-70172670e0b8",
+          "desc": "mp3tag／foobar2000／iTunes／poweramp"
+        },
+        {
+          "title": "B站下载",
+          "url": "https://www.yuque.com/docs/share/19e5f833-46ad-4208-8a2d-ff2346d179ad",
+          "desc": "B站下载／哔哩哔哩下载"
+        },
+        {
+          "title": "加密视频格式转换",
+          "url": "https://www.yuque.com/docs/share/0f739b0c-c02a-487a-a16d-9c2dfada2c0a",
+          "desc": "qlv转码／qsv转码／kux转码／维棠／腾讯／优酷／爱奇艺／迅捷转码"
+        },
+        {
+          "title": "人声/伴奏分离",
+          "url": "https://www.yuque.com/docs/share/3f354315-247f-45df-9dfd-f11c33cb833a",
+          "desc": "伴奏提取／人声分离／视频消音"
+        },
+        {
+          "title": "视频容器格式转换",
+          "url": "https://www.yuque.com/docs/share/b32d514a-d42e-4bba-8c7a-52f34985f74e",
+          "desc": "TS转MP4／MKV转MP4／FLV转MP4／F4V转MP4／TS合并／小丸工具箱"
+        },
+        {
+          "title": "去旧版爱剪辑视频片头片尾工具",
+          "url": "https://www.yuque.com/docs/share/55137dbf-4417-41f0-afd3-2c7923d3a0de",
+          "desc": "去旧版爱剪辑视频片头片尾工具"
+        },
+        {
+          "title": "GIF压缩",
+          "url": "https://www.yuque.com/docs/share/40a16b9e-60bf-474e-815d-276a4430f98e",
+          "desc": "GIF压缩"
+        },
+        {
+          "title": "视频去水印",
+          "url": "https://www.yuque.com/docs/share/2fc4ac8d-c425-4128-85a3-6a2e399b9d0c",
+          "desc": "视频去水印"
+        },
+        {
+          "title": "视频压缩",
+          "url": "https://www.yuque.com/docs/share/e92a5705-9cc7-4f39-8754-1d2fd4b7b8e5",
+          "desc": "视频压缩"
+        },
+        {
+          "title": "视频转GIF",
+          "url": "https://www.yuque.com/docs/share/b1955f96-0e37-49db-a027-3b10ab85a273",
+          "desc": "视频转GIF"
+        },
+        {
+          "title": "漫威电影合集",
+          "url": "https://share.weiyun.com/54ygigl",
+          "desc": "漫威20部电影 (密码: pq7qrz)"
+        },
+        {
+          "title": "动漫/影视资源",
+          "url": "https://txt.fyi/-/219/b5c1c3a2/",
+          "desc": "死狂／剑豪生死斗／东京喰种／东京食尸鬼／零之使魔／权利的游戏／妖精的旋律／权力的游戏／去他妈的世界／进击的巨人"
+        },
+        {
+          "title": "语音文字互转",
+          "url": "https://www.yuque.com/docs/share/5a404042-a7f8-426b-a8f5-2d4544c5756a",
+          "desc": "语音转文字／文字转语音／音频编辑"
+        },
+        {
+          "title": "视频录制",
+          "url": "https://www.yuque.com/docs/share/bf148caa-fba6-4fc7-8772-95bdcb9da25f",
+          "desc": "视频录制／录屏／屏幕录制"
+        },
+        {
+          "title": "视频剪辑",
+          "url": "https://www.yuque.com/docs/share/87f9c869-fb08-4f28-a9eb-0671bf0d2a1b",
+          "desc": "视频剪辑"
+        },
+        {
+          "title": "GIF录制",
+          "url": "https://www.yuque.com/docs/share/40534111-95ce-41fe-8d38-b9421cd306a9",
+          "desc": "GIF录制"
+        },
+        {
+          "title": "苏打绿音乐全集",
+          "url": "https://txt.fyi/-/219/55f567e1/",
+          "desc": "苏打绿共34首专辑 + 一些未发表和翻唱"
+        },
+        {
+          "title": "周杰伦音乐全集",
+          "url": "https://txt.fyi/-/219/d77ec7d2/",
+          "desc": "周杰伦全专辑（含单曲+演唱会曲目）"
+        },
+        {
+          "title": "通用格式转换",
+          "url": "https://www.yuque.com/docs/share/22254f7b-de7c-4f7c-b985-f9b993dd6dab",
+          "desc": "格式转换／视频转码"
+        },
+        {
+          "title": "加密音乐格式转换",
+          "url": "https://www.yuque.com/docs/share/eab3d028-8cc4-47bd-bf5b-4691eb65803d",
+          "desc": "NCM／QMC／KGM／XM／KWM／mgg／x2m格式音乐转码"
+        }
+      ]
+    },
+    {
+      "categoryName": "图片设计",
+      "categoryId": "image-design",
+      "sites": [
+        {
+          "title": "图种",
+          "url": "https://www.yuque.com/docs/share/daec6e32-4ba7-41f1-90cb-f3f661bb0e12",
+          "desc": "图种"
+        },
+        {
+          "title": "Adobe 全家桶插件",
+          "url": "https://www.yuque.com/docs/share/1baed56b-819b-4585-a458-d237e44b1d0b",
+          "desc": "PS插件／PR插件／AE插件"
+        },
+        {
+          "title": "AI上色",
+          "url": "https://www.yuque.com/docs/share/80ac2bb4-bc08-461a-a80d-e8448253f898",
+          "desc": "AI上色"
+        },
+        {
+          "title": "图片去重",
+          "url": "https://www.yuque.com/docs/share/f540e0b7-7481-4455-a88c-de075d74e089",
+          "desc": "图片去重"
+        },
+        {
+          "title": "P站",
+          "url": "https://www.yuque.com/docs/share/8c4b9e23-c826-40c1-94b8-37bcbb0aa757",
+          "desc": "P站"
+        },
+        {
+          "title": "手机壁纸",
+          "url": "https://www.yuque.com/docs/share/86f5ff34-7323-4f60-b9d1-3ce7d7bdb2c4",
+          "desc": "手机壁纸／壁纸"
+        },
+        {
+          "title": "PicsArt",
+          "url": "https://www.yuque.com/docs/share/cee4d3db-c0cc-4fd2-993e-022d3cf3b6d3",
+          "desc": "PicsArt／VSCO（更多P图／滤镜软件请看储物间第6－2栏）"
+        },
+        {
+          "title": "图片去水印",
+          "url": "https://www.yuque.com/docs/share/37116960-7825-4a0b-8615-f2bf48f0a05b",
+          "desc": "图片去水印"
+        },
+        {
+          "title": "高清贴图",
+          "url": "https://txt.fyi/-/219/e35d6a2a/",
+          "desc": "高清贴图"
+        },
+        {
+          "title": "拼图",
+          "url": "https://www.yuque.com/docs/share/7d309a92-8d62-444c-9987-035aaac741ee",
+          "desc": "拼图"
+        },
+        {
+          "title": "图片放大",
+          "url": "https://www.yuque.com/docs/share/9327a464-715c-453c-80c0-e24e520880e4",
+          "desc": "图片放大"
+        },
+        {
+          "title": "小表情",
+          "url": "https://www.yuque.com/docs/share/f707a589-9dd6-49e2-b0f0-bec98c3ad6bf",
+          "desc": "小表情"
+        },
+        {
+          "title": "小鹦鹉",
+          "url": "https://www.yuque.com/docs/share/b33228c8-3a40-4386-b221-82cf088d2960",
+          "desc": "小鹦鹉／阿鲁表情／AC娘／贴吧表情／微博表情／小人表情／Menhera酱"
+        }
+      ]
+    },
+    {
+      "categoryName": "文档办公",
+      "categoryId": "docs-office",
+      "sites": [
+        {
+          "title": "Office插件",
+          "url": "https://www.yuque.com/docs/share/3a3f3c90-8a39-4f45-94f8-b1caf7e65f1f",
+          "desc": "Office插件"
+        },
+        {
+          "title": "公文写作",
+          "url": "https://www.yuque.com/docs/share/7620ec80-4e9f-4f27-a118-4e723865a63d",
+          "desc": "公文写作"
+        },
+        {
+          "title": "操作录制",
+          "url": "https://www.yuque.com/docs/share/6c921e79-2a8a-4fce-a17f-7300e6131b0f",
+          "desc": "操作录制／PDF编辑／PDF分页"
+        },
+        {
+          "title": "读秀下载",
+          "url": "https://www.yuque.com/docs/share/f821359d-6916-41e4-bf8b-dbb885b03a21",
+          "desc": "读秀下载"
+        },
+        {
+          "title": "字体",
+          "url": "https://txt.fyi/-/219/7adcec7b/",
+          "desc": "字体"
+        },
+        {
+          "title": "原创保护",
+          "url": "https://www.yuque.com/docs/share/9ae72424-b59e-4af6-8151-11f60f363f1d",
+          "desc": "原创保护"
+        },
+        {
+          "title": "PDF转换",
+          "url": "https://www.yuque.com/docs/share/e3309e7e-10ef-4c24-86e7-938ac4ad8813",
+          "desc": "PDF转换／PDF转WORD"
+        },
+        {
+          "title": "PPT模板",
+          "url": "https://txt.fyi/-/219/18552a18/",
+          "desc": "PPT模板"
+        },
+        {
+          "title": "Office",
+          "url": "https://www.yuque.com/docs/share/8886abd2-80b6-4463-b9f3-3113fe915ddd",
+          "desc": "Office／Word／Excel／PPT"
+        },
+        {
+          "title": "WPS",
+          "url": "https://mp.weixin.qq.com/s/60Jbep8yLuuuKHuKmD954A",
+          "desc": "WPS"
+        },
+        {
+          "title": "文库下载",
+          "url": "https://www.yuque.com/docs/share/63e0fe67-d11f-4f3b-99c7-3aa331d4483b",
+          "desc": "百度文库／豆丁当当／道客／文档下载／冰点文库"
+        },
+        {
+          "title": "电子书",
+          "url": "https://txt.fyi/-/219/790438bb/",
+          "desc": "电子书"
+        },
+        {
+          "title": "简历",
+          "url": "https://txt.fyi/-/219/81f208a6/",
+          "desc": "简历"
+        },
+        {
+          "title": "教师资格证",
+          "url": "https://www.yuque.com/docs/share/558085c3-e33b-491a-9a87-2ef97443a932",
+          "desc": "教师资格证"
+        },
+        {
+          "title": "流程图",
+          "url": "https://www.yuque.com/docs/share/7e348dff-2bd4-4d69-b513-dd2876951205",
+          "desc": "流程图"
+        },
+        {
+          "title": "英语词典",
+          "url": "https://txt.fyi/-/219/dce55eae/",
+          "desc": "英语词典／日语词典"
+        },
+        {
+          "title": "OCR",
+          "url": "https://www.yuque.com/docs/share/177c6f55-dfff-4fd5-8d71-7374c7128a5e",
+          "desc": "OCR／图片文字识别"
+        },
+        {
+          "title": "PDF去水印",
+          "url": "https://www.yuque.com/docs/share/12536d1d-1d43-4d0e-ab20-a8dae2cfc081",
+          "desc": "PDF去水印"
+        },
+        {
+          "title": "ANKI",
+          "url": "https://www.yuque.com/docs/share/73d717ab-05e2-4b22-8aa5-46edb08c0133",
+          "desc": "ANKI"
+        },
+        {
+          "title": "论文查重",
+          "url": "https://www.yuque.com/docs/share/bbed5226-8c5d-4ac8-a448-c35d6746f040",
+          "desc": "论文查重"
+        }
+      ]
+    },
+    {
+      "categoryName": "网络与下载",
+      "categoryId": "network-download",
+      "sites": [
+        {
+          "title": "公众号下载",
+          "url": "https://www.yuque.com/docs/share/24af1740-d97c-4ad1-a3be-9bfe65d32e05",
+          "desc": "公众号下载"
+        },
+        {
+          "title": "抓包",
+          "url": "https://www.yuque.com/docs/share/3b20bed5-2075-4c26-90e8-18e217bf3c95",
+          "desc": "抓包"
+        },
+        {
+          "title": "今日热榜",
+          "url": "https://www.yuque.com/docs/share/bf2c8b25-8c76-482c-8c2e-949c6af04662",
+          "desc": "今日热榜／后续"
+        },
+        {
+          "title": "QQ相册",
+          "url": "https://www.yuque.com/docs/share/2d592174-c15c-49f2-91b4-16e9a3ec2193",
+          "desc": "QQ相册"
+        },
+        {
+          "title": "WiFi",
+          "url": "https://www.yuque.com/docs/share/5a9b70f9-d977-457a-8ec8-d46d36a734f9",
+          "desc": "WiFi／Wi-Fi"
+        },
+        {
+          "title": "MiPony",
+          "url": "https://www.yuque.com/docs/share/b00fd62c-b9a0-4002-859a-8cd2d600de5f",
+          "desc": "MiPony／白马下载"
+        },
+        {
+          "title": "蓝奏云",
+          "url": "https://www.yuque.com/docs/share/8d763773-5f13-449b-8166-e849002e76ad",
+          "desc": "蓝奏云"
+        },
+        {
+          "title": "城通网盘下载器",
+          "url": "https://www.yuque.com/docs/share/007af7cf-cc42-472f-a9d3-16b761fd92be",
+          "desc": "城通网盘下载器"
+        },
+        {
+          "title": "广告屏蔽",
+          "url": "https://www.yuque.com/docs/share/76788621-6209-4d5a-b2c7-7047bb48b322",
+          "desc": "广告屏蔽／广告拦截／屏蔽广告"
+        },
+        {
+          "title": "资源嗅探",
+          "url": "https://www.yuque.com/docs/share/440c5885-9449-4771-99a9-b157f2d067d0",
+          "desc": "资源嗅探"
+        },
+        {
+          "title": "网络修复",
+          "url": "https://www.yuque.com/docs/share/a7d7a05f-ddf5-40ef-aeef-888d87417c07",
+          "desc": "网络修复／DNS优选"
+        },
+        {
+          "title": "百度云",
+          "url": "https://www.yuque.com/docs/share/93ab97f6-e40f-449a-b16f-e102c9473927",
+          "desc": "百度云／网盘限速破解"
+        },
+        {
+          "title": "微盘",
+          "url": "https://www.yuque.com/docs/share/084fde62-8327-4626-a4b9-83d62684c9b4",
+          "desc": "微盘"
+        }
+      ]
+    },
+    {
+      "categoryName": "编程开发",
+      "categoryId": "dev-tools",
+      "sites": [
+        {
+          "title": "MATLAB",
+          "url": "https://share.weiyun.com/9cLyaJ90",
+          "desc": "MATLAB／Maple／三大数学软件 (密码: fee8on)"
+        },
+        {
+          "title": "Easyfind汉化包",
+          "url": "https://www.yuque.com/docs/share/f83f7bb8-0ada-4a5d-ab41-93093a37794c",
+          "desc": "Easyfind汉化包"
+        },
+        {
+          "title": "单文件制作程序",
+          "url": "https://www.yuque.com/docs/share/895fe50e-0834-4c41-b68a-c085d3792f0f",
+          "desc": "单文件制作程序"
+        }
+      ]
+    },
+    {
+      "categoryName": "其他工具",
+      "categoryId": "misc-tools",
+      "sites": [
+        {
+          "title": "软件商店",
+          "url": "https://www.yuque.com/docs/share/67c3fa71-3ce0-4a4e-a577-0e2c16b1fdb2",
+          "desc": "软件商店"
+        },
+        {
+          "title": "小工具",
+          "url": "https://www.yuque.com/docs/share/80b3169b-a7e2-4d3a-825a-3b06a7ff708b",
+          "desc": "小工具"
+        },
+        {
+          "title": "一键搜题",
+          "url": "https://www.yuque.com/docs/share/a647f998-e212-4d5d-bf67-4b86fd820090",
+          "desc": "一键搜题"
+        },
+        {
+          "title": "动态二维码（部分已失效，待更新）",
+          "url": "https://www.yuque.com/docs/share/c7241752-2bcd-48bf-b6e4-85b18b1f0fce",
+          "desc": "动态二维码（部分已失效，待更新）"
+        },
+        {
+          "title": "计算器",
+          "url": "https://www.yuque.com/docs/share/acc1e95b-25ff-428f-ad2b-0eb4727c173d",
+          "desc": "计算器"
+        }
+      ]
+    }
+  ]
+}

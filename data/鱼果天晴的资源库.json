@@ -1,0 +1,580 @@
+{
+  "categories": [
+    {
+      "categoryName": "影视影音 (Media)",
+      "categoryId": "media",
+      "sites": [
+        {
+          "title": "电影淘淘",
+          "url": "https://www.dianyingtaotao.com/",
+          "desc": "电影搜索网站，电影狗的翻版。",
+          "proxy": false
+        },
+        {
+          "title": "Neets",
+          "url": "https://neets.cc/",
+          "desc": "在线影视搜索和观看。",
+          "proxy": false
+        },
+        {
+          "title": "茶杯狐",
+          "url": "https://www.cupfox.com/",
+          "desc": "聚合影视搜索，cupfox 让看片变得简单。",
+          "proxy": false
+        },
+        {
+          "title": "电影狗",
+          "url": "https://www.dianyinggou.com/",
+          "desc": "强大的影视资源聚合搜索引擎。",
+          "proxy": false
+        },
+        {
+          "title": "AGE动漫",
+          "url": "https://www.agefans.net/",
+          "desc": "在线动漫观看网站。备用：www.agefans.cc",
+          "proxy": false
+        },
+        {
+          "title": "樱花动漫",
+          "url": "https://www.momdm.cc/",
+          "desc": "丰富的在线动漫资源。",
+          "proxy": false
+        },
+        {
+          "title": "哔嘀影视",
+          "url": "https://www.bde4.cc/",
+          "desc": "高清在线影视观看网站。",
+          "proxy": false
+        },
+        {
+          "title": "低端影视",
+          "url": "http://ddrk.me/",
+          "desc": "专注于高清、简洁的影视在线观看体验。",
+          "proxy": false
+        },
+        {
+          "title": "真·墙洞",
+          "url": "https://www.domp4.cc/",
+          "desc": "资源丰富的在线影视站。",
+          "proxy": false
+        },
+        {
+          "title": "在线之家",
+          "url": "https://www.zxzj.me/",
+          "desc": "提供美剧、日韩剧等在线观看。",
+          "proxy": false
+        },
+        {
+          "title": "91美剧网",
+          "url": "https://mjw21.com/",
+          "desc": "美剧爱好者的在线观看和下载站。",
+          "proxy": false
+        },
+        {
+          "title": "人人影视",
+          "url": "https://yyets.dmesg.app/index.html",
+          "desc": "知名影视字幕组，提供影视资源下载。",
+          "proxy": false
+        },
+        {
+          "title": "片库",
+          "url": "https://www.pianku.li/",
+          "desc": "提供高清电影和剧集下载。",
+          "proxy": false
+        },
+        {
+          "title": "奈飞星",
+          "url": "https://nfxhd.com/",
+          "desc": "提供Netflix等流媒体影视内容。",
+          "proxy": false
+        },
+        {
+          "title": "LIBVIO",
+          "url": "https://www.libvio.com",
+          "desc": "一个简洁的在线影视网站。",
+          "proxy": false
+        },
+        {
+          "title": "直播吧",
+          "url": "https://www.zhibo8.cc/",
+          "desc": "知名的体育赛事直播和资讯平台。",
+          "proxy": false
+        },
+        {
+          "title": "JRS直播",
+          "url": "http://jrszb.com/",
+          "desc": "提供NBA、足球等体育赛事直播。",
+          "proxy": false
+        },
+        {
+          "title": "MVCAT",
+          "url": "https://www.mvcat.com/",
+          "desc": "影视推荐和信息站。",
+          "proxy": false
+        }
+      ]
+    },
+    {
+      "categoryName": "软件资源 (Software)",
+      "categoryId": "software-resources",
+      "sites": [
+        {
+          "title": "423Down",
+          "url": "https://www.423down.com/",
+          "desc": "专注于分享绿色、纯净的电脑软件。",
+          "proxy": false
+        },
+        {
+          "title": "大眼仔旭",
+          "url": "http://www.dayanzai.me/",
+          "desc": "分享各类优秀软件资源和技术文章。",
+          "proxy": false
+        },
+        {
+          "title": "异次元软件世界",
+          "url": "https://www.iplaysoft.com/",
+          "desc": "“爱免费，爱分享”，提供高质量软件推荐。",
+          "proxy": false
+        },
+        {
+          "title": "果核剥壳",
+          "url": "https://www.ghxi.com/",
+          "desc": "分享各种好用的电脑和手机软件。",
+          "proxy": false
+        },
+        {
+          "title": "吾爱破解",
+          "url": "https://www.52pojie.cn/",
+          "desc": "知名的安全技术交流和软件分享论坛。",
+          "proxy": false
+        },
+        {
+          "title": "酷安",
+          "url": "https://coolapk.com/",
+          "desc": "发现应用的乐趣，高质量的安卓应用社区。",
+          "proxy": false
+        },
+        {
+          "title": "马克喵",
+          "url": "https://www.macat.vip/",
+          "desc": "分享Mac软件资源的网站。",
+          "proxy": false
+        },
+        {
+          "title": "Office Tool Plus",
+          "url": "https://otp.landian.vip/zh-cn/",
+          "desc": "一个强大且实用的 Office 部署和管理工具。",
+          "proxy": false
+        },
+        {
+          "title": "vposy",
+          "url": "https://weibo.com/vposy?sudaref=www.axutongxue.com&is_hot=1#_loginLayer_1622002688768",
+          "desc": "Adobe系列软件的知名打包和分享者（微博）。",
+          "proxy": false
+        },
+        {
+          "title": "IDM下载器",
+          "url": "https://ygtq.lanzoui.com/ibTcipyjrrc",
+          "desc": "Internet Download Manager，强大的多线程下载工具。",
+          "proxy": false
+        },
+        {
+          "title": "ZY Player",
+          "url": "https://ygtq.lanzoui.com/iUenNvanurg",
+          "desc": "跨平台视频资源播放器，整合了多个资源站。密码:ajyx",
+          "proxy": false
+        }
+      ]
+    },
+    {
+      "categoryName": "学习教育 (Education)",
+      "categoryId": "learning-education",
+      "sites": [
+        {
+          "title": "我要自学网",
+          "url": "https://www.51zxw.net/",
+          "desc": "提供海量视频教程，涵盖电脑、设计、办公等领域。",
+          "proxy": false
+        },
+        {
+          "title": "慕课网",
+          "url": "https://www.imooc.com/",
+          "desc": "程序员的梦工厂，IT技能学习平台。",
+          "proxy": false
+        },
+        {
+          "title": "CSDN",
+          "url": "https://www.csdn.net/",
+          "desc": "全球知名中文IT技术交流平台。",
+          "proxy": false
+        },
+        {
+          "title": "爱课程",
+          "url": "http://www.icourses.cn/home/",
+          "desc": "中国大学MOOC官方网站，汇集顶尖高校课程。",
+          "proxy": false
+        },
+        {
+          "title": "网易公开课",
+          "url": "https://open.163.com/ted/",
+          "desc": "汇集国内外名校公开课和演讲，如TED。",
+          "proxy": false
+        },
+        {
+          "title": "可可英语",
+          "url": "http://www.kekenet.com/",
+          "desc": "全面的英语学习网站，提供听力、口语、阅读等资料。",
+          "proxy": false
+        },
+        {
+          "title": "美国之音 (VOA)",
+          "url": "https://www.51voa.com/",
+          "desc": "VOA慢速英语，练习英语听力的好材料。",
+          "proxy": false
+        },
+        {
+          "title": "廖雪峰的官方网站",
+          "url": "https://www.liaoxuefeng.com/",
+          "desc": "提供高质量的Python、Java、Git等在线教程。",
+          "proxy": false
+        },
+        {
+          "title": "中国知网",
+          "url": "https://www.cnki.net/",
+          "desc": "全球领先的数字出版平台，提供学术文献检索服务。",
+          "proxy": false
+        },
+        {
+          "title": "iData知识检索",
+          "url": "https://www.cn-ki.net/",
+          "desc": "公益性文献检索和下载网站，每日有免费额度。",
+          "proxy": false
+        },
+        {
+          "title": "百度学术",
+          "url": "https://xueshu.baidu.com/",
+          "desc": "百度旗下的学术资源搜索平台。",
+          "proxy": false
+        }
+      ]
+    },
+    {
+      "categoryName": "在线工具 (Online Tools)",
+      "categoryId": "online-tools",
+      "sites": [
+        {
+          "title": "一个木函",
+          "url": "https://web.woobx.cn/",
+          "desc": "集合了众多实用小工具的在线工具箱。",
+          "proxy": false
+        },
+        {
+          "title": "MikuTools",
+          "url": "https://tools.miku.ac/",
+          "desc": "一个轻量的、好用的、有趣的工具集合。",
+          "proxy": false
+        },
+        {
+          "title": "刘明野的工具箱",
+          "url": "https://tool.liumingye.cn/",
+          "desc": "包含媒体、图片、文本等多种实用在线工具。",
+          "proxy": false
+        },
+        {
+          "title": "iLovePDF",
+          "url": "https://www.ilovepdf.com/",
+          "desc": "完全免费的PDF文件在线处理工具，功能强大。",
+          "proxy": false
+        },
+        {
+          "title": "lightpdf",
+          "url": "https://lightpdf.com/zh/",
+          "desc": "提供PDF转换、编辑、签名等一站式在线服务。",
+          "proxy": false
+        },
+        {
+          "title": "tinypng",
+          "url": "https://tinypng.com/",
+          "desc": "智能的PNG和JPEG图片在线压缩工具。",
+          "proxy": false
+        },
+        {
+          "title": "docsmall",
+          "url": "https://docsmall.com/",
+          "desc": "免费在线图片压缩、GIF压缩和PDF处理工具。",
+          "proxy": false
+        },
+        {
+          "title": "Remove.bg",
+          "url": "https://www.remove.bg/",
+          "desc": "免费的在线AI抠图工具，一键移除图片背景。",
+          "proxy": false
+        },
+        {
+          "title": "草料二维码",
+          "url": "http://cli.im/",
+          "desc": "专业的二维码生成和管理工具。",
+          "proxy": false
+        },
+        {
+          "title": "YOPmail",
+          "url": "http://www.yopmail.com/zh/",
+          "desc": "提供免费、匿名的临时邮箱服务。",
+          "proxy": false
+        },
+        {
+          "title": "Temp Mail",
+          "url": "https://temp-mail.org/",
+          "desc": "一次性临时电子邮件服务，保护您的隐私。",
+          "proxy": false
+        },
+        {
+          "title": "云短信",
+          "url": "https://yunduanxin.net/",
+          "desc": "提供免费的在线短信接收服务。",
+          "proxy": false
+        }
+      ]
+    },
+    {
+      "categoryName": "资源搜索 (Search)",
+      "categoryId": "search-resources",
+      "sites": [
+        {
+          "title": "鸠摩搜索",
+          "url": "https://www.jiumodiary.com/",
+          "desc": "强大的电子书搜索引擎。",
+          "proxy": false
+        },
+        {
+          "title": "熊猫搜书",
+          "url": "https://xmsoushu.com/#/",
+          "desc": "聚合多个站点的电子书搜索。",
+          "proxy": false
+        },
+        {
+          "title": "磁力熊",
+          "url": "https://www.cilixiong.com/",
+          "desc": "简洁好用的磁力链接搜索引擎。",
+          "proxy": false
+        },
+        {
+          "title": "SOBT",
+          "url": "http://www.sobt5.com/",
+          "desc": "一个磁力链接搜索网站。",
+          "proxy": false
+        },
+        {
+          "title": "快点搜",
+          "url": "https://quickso.cn/",
+          "desc": "百度网盘资源搜索引擎。",
+          "proxy": false
+        },
+        {
+          "title": "小白盘",
+          "url": "https://www.xiaobaipan.com/",
+          "desc": "好用的百度网盘资源搜索站。",
+          "proxy": false
+        },
+        {
+          "title": "阿里盘搜",
+          "url": "https://www.alipanso.com/",
+          "desc": "阿里云盘资源搜索引擎。",
+          "proxy": false
+        },
+        {
+          "title": "懒盘聚合",
+          "url": "https://lzpan.com/",
+          "desc": "聚合蓝奏云、百度云等多种网盘搜索。",
+          "proxy": false
+        },
+        {
+          "title": "龙喵网址导航",
+          "url": "https://ailongmiao.com/movie/",
+          "desc": "专注于影视资源的导航网站。",
+          "proxy": false
+        },
+        {
+          "title": "果汁导航",
+          "url": "http://guozhivip.com/",
+          "desc": "一个简洁、实用的导航网站。",
+          "proxy": false
+        },
+        {
+          "title": "书签地球",
+          "url": "https://www.bookmarkearth.com/",
+          "desc": "发现和分享全球优质网站的社区。",
+          "proxy": false
+        }
+      ]
+    },
+    {
+      "categoryName": "设计素材 (Design)",
+      "categoryId": "design-assets",
+      "sites": [
+        {
+          "title": "优品PPT",
+          "url": "https://www.ypppt.com/",
+          "desc": "提供高质量、免费的PPT模板下载。",
+          "proxy": false
+        },
+        {
+          "title": "第一PPT",
+          "url": "http://www.1ppt.com/",
+          "desc": "海量免费PPT模板、图表、背景等资源下载。",
+          "proxy": false
+        },
+        {
+          "title": "Pexels",
+          "url": "https://www.pexels.com/zh-cn/",
+          "desc": "提供免费、可商用的高清图片和视频素材。",
+          "proxy": false
+        },
+        {
+          "title": "Pixabay",
+          "url": "https://pixabay.com/",
+          "desc": "一个充满活力的创意社区，分享免费图片和视频。",
+          "proxy": false
+        },
+        {
+          "title": "wallhaven",
+          "url": "https://wallhaven.cc/",
+          "desc": "高质量的壁纸网站，动漫、游戏、风景等。",
+          "proxy": false
+        },
+        {
+          "title": "极简壁纸",
+          "url": "https://bz.zzzmh.cn/index#anime",
+          "desc": "简洁无广告的电脑壁纸和手机壁纸下载站。",
+          "proxy": false
+        },
+        {
+          "title": "爱给网",
+          "url": "https://www.aigei.com/",
+          "desc": "提供音效、配乐、视频、3D等免费素材。",
+          "proxy": false
+        },
+        {
+          "title": "soogif",
+          "url": "https://www.soogif.com/",
+          "desc": "中文GIF动图搜索和制作平台。",
+          "proxy": false
+        },
+        {
+          "title": "千库网",
+          "url": "http://588ku.com/",
+          "desc": "提供海量免费PNG图片、背景、模板等素材。",
+          "proxy": false
+        },
+        {
+          "title": "100font",
+          "url": "https://www.100font.com",
+          "desc": "一个专门收集免费可商用字体的网站。",
+          "proxy": false
+        }
+      ]
+    },
+    {
+      "categoryName": "阅读文库 (Reading)",
+      "categoryId": "reading-library",
+      "sites": [
+        {
+          "title": "sobooks",
+          "url": "https://sobooks.cc/",
+          "desc": "优质的kindle电子书下载和推送网站。",
+          "proxy": false
+        },
+        {
+          "title": "书栈网",
+          "url": "https://www.bookstack.cn/",
+          "desc": "开源书籍和IT文档分享，可在线阅读和下载。",
+          "proxy": false
+        },
+        {
+          "title": "知轩藏书",
+          "url": "http://zxcs.info/",
+          "desc": "精校TXT小说下载，网络小说爱好者的选择。",
+          "proxy": false
+        },
+        {
+          "title": "笔趣阁",
+          "url": "https://www.biquge5200.com/",
+          "desc": "知名网络小说阅读和更新网站。",
+          "proxy": false
+        },
+        {
+          "title": "Z-Library",
+          "url": "https://art1lib.org/",
+          "desc": "全球最大的数字图书馆之一，资源极其丰富。",
+          "proxy": false
+        },
+        {
+          "title": "脚本之家电子书",
+          "url": "https://www.jb51.net/books/",
+          "desc": "提供大量计算机技术相关的PDF电子书下载。",
+          "proxy": false
+        },
+        {
+          "title": "广东省立中山图书馆",
+          "url": "http://gdslzstsg.superlib.libsou.com/node/409.jspx",
+          "desc": "官方电子图书免费下载平台。",
+          "proxy": false
+        },
+        {
+          "title": "世界数字图书馆",
+          "url": "http://t.cn/A65M2uSF",
+          "desc": "由联合国教科文组织支持，提供全球文化珍品。",
+          "proxy": false
+        }
+      ]
+    },
+    {
+      "categoryName": "生活其它 (Lifestyle)",
+      "categoryId": "lifestyle-misc",
+      "sites": [
+        {
+          "title": "下厨房",
+          "url": "https://www.xiachufang.com/",
+          "desc": "中文菜谱最全、最受欢迎的美食社区。",
+          "proxy": false
+        },
+        {
+          "title": "什么值得买",
+          "url": "https://www.smzdm.com/",
+          "desc": "消费决策平台，分享高性价比的网购产品。",
+          "proxy": false
+        },
+        {
+          "title": "新榜",
+          "url": "http://www.newrank.cn/",
+          "desc": "内容产业数据平台，提供公众号、抖音等榜单和数据分析。",
+          "proxy": false
+        },
+        {
+          "title": "36氪",
+          "url": "http://36kr.com/",
+          "desc": "关注中国创新创业的商业媒体。",
+          "proxy": false
+        },
+        {
+          "title": "数英网",
+          "url": "http://www.digitaling.com/",
+          "desc": "数字媒体及职业招聘网站，汇集营销、广告、创意案例。",
+          "proxy": false
+        },
+        {
+          "title": "太平洋时尚网",
+          "url": "https://www.pclady.com.cn/",
+          "desc": "提供时尚、美容、服饰等潮流资讯。",
+          "proxy": false
+        },
+        {
+          "title": "香水时代",
+          "url": "https://www.nosetime.com/",
+          "desc": "专业的香水资讯、测评和交流社区。",
+          "proxy": false
+        }
+      ]
+    }
+  ]
+}

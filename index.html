@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- SEO Meta Tags Start -->
+    <meta name="author" content="git-hub-cc">
+    <meta name="description" content="NavHub - 一个轻量、优雅且功能强大的纯前端个人导航/起始页。支持聚合搜索、网站拖拽管理、暗黑模式切换和响应式设计。零依赖, 易部署, 打造属于你自己的浏览器主页。">
+    <meta name="keywords" content="NavHub, 个人导航, 导航页, 起始页, 浏览器主页, 聚合搜索, 静态网站, 纯前端, 开源项目, 高度可定制, 效率工具, 暗黑模式">
+    <!-- SEO Meta Tags End -->
+    <title>NavHub</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🧭</text></svg>">
+</head>
+<body>
+<div class="container">
+    <!-- 侧边栏 -->
+    <nav class="sidebar">
+        <div>
+            <div class="logo">NavHub</div>
+            <ul class="category-list">
+                <!-- 分类列表将由 JS 动态生成 -->
+            </ul>
+        </div>
+        <!-- 侧边栏底部区域 -->
+        <div class="menu-bottom-section">
+            <div class="data-actions">
+                <button id="import-btn" class="btn-secondary">导入</button>
+                <button id="export-btn" class="btn-secondary">导出</button>
+                <!-- --- MODIFICATION START --- -->
+                <button id="delete-source-btn" class="btn-secondary btn-danger">删除</button>
+                <!-- --- MODIFICATION END --- -->
+                <input type="file" id="import-file-input" accept=".json" style="display: none;">
+            </div>
+            <div class="data-source-selector">
+                <label for="data-source-select">数据源</label>
+                <select id="data-source-select"></select>
+            </div>
+            <div class="social-links">
+                <a href="https://github.com/git-hub-cc/NavHub" target="_blank" aria-label="GitHub">G</a>
+                <a href="https://space.bilibili.com" target="_blank" aria-label="Bilibili">B</a>
+            </div>
+            <div class="dark-mode-toggle">
+                <label for="dark-mode-switch">
+                    <span class="sun-icon-emoji">☀️</span>
+                    <input type="checkbox" id="dark-mode-switch" />
+                    <span class="slider"></span>
+                    <span class="moon-icon-emoji">🌙</span>
+                </label>
+            </div>
+            <div class="copyright">
+                ©粤ICP备2024271251号
+            </div>
+        </div>
+    </nav>
+
+    <!-- 主内容区 -->
+    <main class="main-content">
+        <div class="main-content-inner">
+            <!-- 增强搜索头部 -->
+            <header class="header enhanced-search-header">
+                <div id="search-category-buttons" class="category-buttons">
+                    <!-- 搜索类别按钮将由 JS 动态生成 -->
+                </div>
+                <div id="search-engine-checkboxes" class="search-engines">
+                    <!-- 搜索引擎复选框将由 JS 动态生成 -->
+                </div>
+                <form id="search-form" class="search-form" @submit.prevent>
+                    <div class="search-input-wrapper">
+                        <input type="text" id="search-input" autocomplete="off" placeholder="输入并搜索...">
+                        <ul id="suggestions-list" class="suggestions-list"></ul>
+                    </div>
+                    <button type="submit" id="search-button" class="btn-primary">搜索</button>
+                </form>
+            </header>
+
+            <!-- 所有内容将由JS在此处动态渲染 -->
+            <div class="content-wrapper" id="content-wrapper">
+                <!-- 动态内容区域 -->
+            </div>
+        </div>
+    </main>
+</div>
+
+<!-- 网站编辑模态框 -->
+<div id="site-modal" class="modal-overlay modal-hidden">
+    <div class="modal-content">
+        <h3 id="modal-title">新增网站</h3>
+        <form id="site-form">
+            <input type="hidden" id="site-id">
+            <input type="hidden" id="category-id">
+            <div class="form-group">
+                <label for="site-url">网址</label>
+                <input type="url" id="site-url" placeholder="https://example.com" required>
+            </div>
+            <div class="form-group">
+                <label for="site-title">标题</label>
+                <input type="text" id="site-title" placeholder="网站标题" required>
+            </div>
+            <div class="form-group">
+                <label for="site-icon">图标 URL</label>
+                <input type="url" id="site-icon" placeholder="https://example.com/favicon.ico">
+            </div>
+            <div class="form-group">
+                <label for="site-desc">描述</label>
+                <textarea id="site-desc" rows="3" placeholder="网站的一句话描述"></textarea>
+            </div>
+            <div class="form-group form-group-checkbox">
+                <input type="checkbox" id="site-proxy">
+                <label for="site-proxy">需要代理访问</label>
+            </div>
+            <div class="form-actions">
+                <button type="button" id="cancel-btn" class="btn-secondary">取消</button>
+                <button type="submit" class="btn-primary">保存</button>
+            </div>
+        </form>
+    </div>
+</div>
+
+<!-- --- REMOVED --- Confirmation modal is no longer needed. -->
+
+<!-- 导入命名模态框 -->
+<div id="import-name-modal" class="modal-overlay modal-hidden">
+    <div class="modal-content">
+        <h3>命名数据源</h3>
+        <form id="import-name-form">
+            <div class="form-group">
+                <label for="import-name-input">为这个导入的数据源起一个名字</label>
+                <input type="text" id="import-name-input" required placeholder="例如：我的工作导航">
+                <p id="import-name-error" class="form-error-message" style="display: none; color: #dc3545; font-size: 14px; margin-top: 5px;"></p>
+            </div>
+            <div class="form-actions">
+                <button type="button" id="cancel-import-name-btn" class="btn-secondary">取消</button>
+                <button type="submit" class="btn-primary">确认导入</button>
+            </div>
+        </form>
+    </div>
+</div>
+
+<script src="pinyin-converter.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
