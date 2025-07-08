@@ -163,13 +163,6 @@
           "proxy": false
         },
         {
-          "title": "逼格PPT",
-          "url": "https://www.tretars.com/",
-          "desc": "模板下载",
-          "proxy": false,
-          "icon": "https://www.tretars.com/wp-content/uploads/2018/03/logo-fav.png"
-        },
-        {
           "title": "officePLUS",
           "url": "https://www.officeplus.cn",
           "desc": "模板下载",
@@ -187,13 +180,6 @@
           "url": "https://ppt.sotary.com/web/wxapp/index.html",
           "desc": "PPT模板网站",
           "proxy": false
-        },
-        {
-          "title": "演界网",
-          "url": "https://www.yanj.cn/",
-          "desc": "PPT模板网站",
-          "proxy": false,
-          "icon": "https://www.yanj.cn/favicon.ico"
         },
         {
           "title": "智能PPT",
@@ -2331,13 +2317,6 @@
           "proxy": false
         },
         {
-          "title": "Wallls",
-          "url": "https://wallls.com/",
-          "desc": "分类齐全的免费壁纸站",
-          "icon": "https://wallls.com/favicon.ico",
-          "proxy": false
-        },
-        {
           "title": "Zedge",
           "url": "https://www.zedge.net/wallpapers",
           "desc": "手机壁纸下载站  非APP需等10秒",
@@ -2536,13 +2515,6 @@
           "url": "https://www.zhijianshang.com/",
           "desc": "海量全面精美的VR全景旅游景点介绍",
           "icon": "https://www.zhijianshang.com/favicon.ico",
-          "proxy": false
-        },
-        {
-          "title": "中国插画网",
-          "url": "https://www.chahua.org/drawn/new.php?hid=3",
-          "desc": "国内插画师作品展示与交流平台。",
-          "icon": "https://www.chahua.org/favicon.ico",
           "proxy": false
         },
         {
@@ -3264,13 +3236,6 @@
           "proxy": false
         },
         {
-          "title": "球迷网",
-          "url": "https://www.qm5.cc/",
-          "desc": "提供足球、篮球等赛事录像下载和资讯。",
-          "icon": "https://www.qm5.cc/favicon.ico",
-          "proxy": false
-        },
-        {
           "title": "球吧网",
           "url": "https://www.ballbar.cc",
           "desc": "直播源挺多的，很多体育比赛都有",
@@ -3286,7 +3251,7 @@
           "title": "腾讯体育直播",
           "url": "https://sports.qq.com/kbsweb/",
           "desc": "腾讯官方体育赛事直播平台。",
-          "icon": "https://mat1.gtimg.com/sports/kbsweb/favicon.ico",
+          "icon": "img/favicon/gtimg/favicon.ico",
           "proxy": false
         },
         {
@@ -3356,23 +3321,9 @@
       "categoryId": "yingyinyule-zaixiandongmanwangzhanhuizong",
       "sites": [
         {
-          "title": "ANG动漫,动漫免费在线播放",
-          "url": "https://angdm.com/",
-          "desc": "一个提供免费动漫在线观看的网站。",
-          "icon": "https://angdm.com/favicon.ico",
-          "proxy": false
-        },
-        {
           "title": "EDD动漫",
           "url": "https://www.edddh.net/",
           "desc": "提供新番和完结动漫在线观看。",
-          "proxy": false
-        },
-        {
-          "title": "zzzfun",
-          "url": "https://www.zzzfun.com/",
-          "desc": "一个弹幕动漫视频网站，资源更新快。",
-          "icon": "https://www.zzzfun.com/favicon.ico",
           "proxy": false
         },
         {
@@ -3400,13 +3351,6 @@
           "proxy": false
         },
         {
-          "title": "哈哩哈哩",
-          "url": "https://halihali.li/",
-          "desc": "一个动漫迷的聚集地，提供丰富的动漫资源。",
-          "icon": "https://halihali.li/favicon.ico",
-          "proxy": false
-        },
-        {
           "title": "天乐动漫",
           "url": "https://www.kudm.net/index.html",
           "desc": "提供最新最全的动漫在线观看。",
@@ -3417,20 +3361,6 @@
           "url": "https://www.tmdm.tv/",
           "desc": "一个在线动漫视频网站。",
           "icon": "data:;base64,iVBORw0KGgo=",
-          "proxy": false
-        },
-        {
-          "title": "异世界动漫",
-          "url": "https://www.ysjdm.com/",
-          "desc": "以异世界题材为主的动漫在线观看网站。",
-          "icon": "https://www.ysjdm.com/favicon.ico",
-          "proxy": false
-        },
-        {
-          "title": "追番网",
-          "url": "https://baozangku.ys168.com/",
-          "desc": "哆啦A梦的宝藏库，提供各类资源。",
-          "icon": "https://baozangku.ys168.com/favicon.ico",
           "proxy": false
         },
         {
@@ -3807,13 +3737,6 @@
           "proxy": false
         },
         {
-          "title": "看点网",
-          "url": "https://www.zlook.com/",
-          "desc": "影迷互动交流社区",
-          "icon": "https://www.zlook.com/favicon.ico",
-          "proxy": false
-        },
-        {
           "title": "烂番茄",
           "url": "https://www.rottentomatoes.com/",
           "desc": "国外影评网站，安装了广告拦截插件无法用",
@@ -3839,31 +3762,10 @@
           "proxy": true
         },
         {
-          "title": "全民VIP视频在线解析",
-          "url": "https://v.cnv3.com/",
-          "desc": "用于解析各大视频平台VIP视频的工具。",
-          "icon": "https://v.cnv3.com/favicon.ico",
-          "proxy": false
-        },
-        {
-          "title": "速影TV",
-          "url": "https://xn--256-zm3fr26s.xyz/",
-          "desc": "一个影视在线观看网站。",
-          "icon": "https://xn--256-zm3fr26s.xyz/favicon.ico",
-          "proxy": false
-        },
-        {
           "title": "香港电影评论学会",
           "url": "https://www.filmcritics.org.hk/index.php",
           "desc": "香港电影评论学会的官方网站，提供专业的影评和资讯。",
           "icon": "https://www.filmcritics.org.hk/themes/custom/filmcritics/favicon.ico",
-          "proxy": false
-        },
-        {
-          "title": "新奇遇",
-          "url": "https://www.newqiyu.com/",
-          "desc": "一个影视资源分享和在线观看网站。",
-          "icon": "https://www.newqiyu.com/favicon.ico",
           "proxy": false
         },
         {
@@ -3900,31 +3802,10 @@
           "proxy": false
         },
         {
-          "title": "字幕下载",
-          "url": "https://www.zmxiazai.com/",
-          "desc": "提供各类影视剧字幕下载。",
-          "icon": "https://www.zmxiazai.com/favicon.ico",
-          "proxy": false
-        },
-        {
-          "title": "爱酷看看",
-          "url": "https://www.ikukk.com/",
-          "desc": "一个提供高清影视在线观看的网站。",
-          "icon": "https://www.ikukk.com/favicon.ico",
-          "proxy": false
-        },
-        {
           "title": "爱尚影视",
           "url": "https://www.138vcd.com/",
           "desc": "提供在线影视观看服务。",
           "icon": "https://www.138vcd.com/html/1670272466/static/favicon.ico",
-          "proxy": false
-        },
-        {
-          "title": "电影天堂",
-          "url": "https://www.dyttv.com/",
-          "desc": "清晰度不错",
-          "icon": "https://www.dyttv.com/favicon.ico",
           "proxy": false
         },
         {
@@ -3946,24 +3827,10 @@
           "proxy": false
         },
         {
-          "title": "七七影院",
-          "url": "https://www.tv772.com/",
-          "desc": "提供电影、电视剧、综艺等在线观看。",
-          "icon": "https://www.tv772.com/favicon.ico",
-          "proxy": false
-        },
-        {
           "title": "无厘头影视",
           "url": "https://www.wltmv.com/",
           "desc": "也有一些海外剧",
           "icon": "data:;base64,iVBORw0KGgo=",
-          "proxy": false
-        },
-        {
-          "title": "影猫【专业的电影推荐平台】",
-          "url": "https://www.mvcat.com/",
-          "desc": "根据类型、标签、情绪等推荐电影的专业平台。",
-          "icon": "https://www.mvcat.com/img/logo_appicon_black.png",
           "proxy": false
         }
       ]
@@ -4199,7 +4066,7 @@
           "title": "AIO Search",
           "url": "https://www.aiosearch.com/",
           "desc": "国外磁力下载站",
-          "icon": "https://www.aiosearch.com/apple-touch-icon.png",
+          "icon": "img/favicon/aiosearch/apple-touch-icon.png",
           "proxy": true
         },
         {
@@ -4222,13 +4089,6 @@
           "desc": "国外磁力下载站",
           "icon": "https://animetosho.org/inc/favicon.ico?cache=37381f97e8ac6694b319d0fef817662b",
           "proxy": true
-        },
-        {
-          "title": "BT世界",
-          "url": "https://www.btsj5.com/",
-          "desc": "一个提供BT种子和磁力链接的影视资源下载站。",
-          "icon": "https://www.btsj5.com/favicon.ico",
-          "proxy": false
         },
         {
           "title": "EZTV片源",
@@ -4351,13 +4211,6 @@
           "proxy": false
         },
         {
-          "title": "星宫BT",
-          "url": "https://www.cosxcos.org/",
-          "desc": "一个动漫BT下载站。",
-          "icon": "https://www.cosxcos.org/favicon.ico",
-          "proxy": false
-        },
-        {
           "title": "音范丝 4K 电影【强烈推荐】",
           "url": "https://www.yinfans.me/",
           "desc": "专注于分享4K超高清电影资源的网站。",
@@ -4436,7 +4289,7 @@
         {
           "title": "阿里云盘",
           "url": "https://www.aliyundrive.com/",
-          "icon": "https://img.alicdn.com/imgextra/i1/O1CN01fH6Amz1v8x2i2b3r1_!!6000000006132-2-tps-1024-1024.png",
+          "icon": "img/favicon/aliyundrive/favicon.ico",
           "desc": "不限速的网盘，你的数字世界。",
           "proxy": false
         },

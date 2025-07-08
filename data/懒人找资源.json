@@ -207,13 +207,6 @@
           "proxy": false
         },
         {
-          "title": "电影港",
-          "url": "https://www.dygang.com/",
-          "icon": "https://www.dygang.com/favicon.ico",
-          "desc": "提供磁力/百度云下载。",
-          "proxy": false
-        },
-        {
           "title": "6V电影",
           "url": "https://www.hao6v.net/",
           "icon": "",
@@ -261,13 +254,6 @@
       "categoryName": "磁力与BT",
       "categoryId": "magnet-bt",
       "sites": [
-        {
-          "title": "BT世界",
-          "url": "https://www.btsj5.com/",
-          "icon": "https://www.btsj5.com/favicon.ico",
-          "desc": "提供在线播放和电驴下载。",
-          "proxy": false
-        },
         {
           "title": "磁力猫",
           "url": "https://clm.la/",
@@ -344,13 +330,6 @@
       "categoryId": "online-tools-nav",
       "sites": [
         {
-          "title": "懒人导航",
-          "url": "https://nav.lazymovie.me/",
-          "icon": "https://nav.lazymovie.me/favicon.ico",
-          "desc": "懒人找资源官方导航站。👍",
-          "proxy": false
-        },
-        {
           "title": "在线工具 - 程序员的工具箱",
           "url": "https://tool.lu/",
           "icon": "https://tool.lu/favicon.ico",
@@ -414,13 +393,6 @@
           "proxy": false
         },
         {
-          "title": "临时邮箱",
-          "url": "https://24mail.chacuo.net/",
-          "icon": "https://24mail.chacuo.net/favicon.ico",
-          "desc": "提供24小时有效的临时邮箱地址。",
-          "proxy": false
-        },
-        {
           "title": "短信接码平台",
           "url": "https://www.pdflibr.com/",
           "icon": "https://www.pdflibr.com/static/favicon/android-icon-192x192.png",
@@ -445,20 +417,6 @@
           "url": "https://www.examcoo.com/",
           "icon": "https://www.examcoo.com/favicon.ico",
           "desc": "各行各业全面的在线考试题库。👍",
-          "proxy": false
-        },
-        {
-          "title": "高考试题库",
-          "url": "https://tiku.gaokao.com/gaokao/",
-          "icon": "https://tiku.gaokao.com/logo.png",
-          "desc": "历年高考真题及答案汇总。",
-          "proxy": false
-        },
-        {
-          "title": "大学生自学网",
-          "url": "https://v.dxsbb.com/",
-          "icon": "https://v.dxsbb.com/favicon.ico",
-          "desc": "汇集各类大学课程视频资源。",
           "proxy": false
         },
         {

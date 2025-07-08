@@ -81,13 +81,6 @@
           "proxy": false
         },
         {
-          "title": "Zzzfun",
-          "url": "https://www.zzzfun.com/",
-          "icon": "https://icon.horse/icon/zzzfun.com",
-          "desc": "Z站，一个拥有丰富资源的弹幕动漫视频网。",
-          "proxy": false
-        },
-        {
           "title": "ZY Player",
           "url": "https://zyplayer.fun/",
           "icon": "https://icon.horse/icon/zyplayer.fun",

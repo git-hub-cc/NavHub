@@ -66,13 +66,6 @@
           "icon": "https://res.hexiaotu.com/sousuo/xiaomapan/favicon.ico",
           "desc": "网盘搜索，需关注公众号才能搜索。",
           "proxy": false
-        },
-        {
-          "title": "V盘搜",
-          "url": "https://www.vpansou.com/",
-          "icon": "https://www.vpansou.com/favicon.ico",
-          "desc": "网盘搜索，需关注公众号才能搜索。",
-          "proxy": false
         }
       ]
     },
@@ -115,31 +108,10 @@
           "proxy": false
         },
         {
-          "title": "无损音乐网",
-          "url": "https://www.ape-flac.com/",
-          "icon": "https://www.ape-flac.com/favicon.ico",
-          "desc": "提供APE、FLAC等无损格式音乐下载。",
-          "proxy": false
-        },
-        {
           "title": "MYFREEMP3",
           "url": "https://tool.liumingye.cn/music/?page=homePage",
           "icon": "https://ae01.alicdn.com/kf/H085a1499a38d4d8a920a396abceffa2bW.jpg",
           "desc": "在线音乐播放下载站点。",
-          "proxy": false
-        },
-        {
-          "title": "古风音乐",
-          "url": "https://www.52qingyin.cn/",
-          "icon": "https://www.52qingyin.cn/wp-content/themes/QQOQ/img/favicon.ico",
-          "desc": "古风音乐在线听和下载。",
-          "proxy": false
-        },
-        {
-          "title": "极速追剧",
-          "url": "https://blilip.cn/",
-          "icon": "https://blilip.cn/favicon.ico",
-          "desc": "影视网盘资源下载站。",
           "proxy": false
         },
         {
@@ -153,13 +125,6 @@
           "url": "https://www.peiyin.net/bbs/",
           "icon": "https://www.peiyin.net/assets/logo.webp",
           "desc": "影视配音资源论坛。",
-          "proxy": false
-        },
-        {
-          "title": "6v电影网",
-          "url": "https://www.hao6v.com/",
-          "icon": "https://www.hao6v.com/favicon.ico",
-          "desc": "提供迅雷、网盘、磁力等多种下载方式。",
           "proxy": false
         },
         {
@@ -278,20 +243,6 @@
           "proxy": false
         },
         {
-          "title": "怡萱动漫",
-          "url": "https://omofun.tv/",
-          "icon": "https://omofun.tv/favicon.ico",
-          "desc": "在线动画与动漫下载。",
-          "proxy": false
-        },
-        {
-          "title": "森之屋动漫",
-          "url": "https://www.senfun.net/",
-          "icon": "https://www.senfun.net/favicon.ico",
-          "desc": "高质量在线动漫网站-S站。",
-          "proxy": false
-        },
-        {
           "title": "ACG.RIP",
           "url": "https://acg.rip/",
           "icon": "https://acg.rip/favicon.ico",
@@ -317,13 +268,6 @@
           "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAIAAACQd1PeAAAADElEQVQI12P4//8/AAX+Av7czFnnAAAAAElFTkSuQmCC",
           "desc": "动漫生肉资源下载。",
           "proxy": false
-        },
-        {
-          "title": "GogoAnime",
-          "url": "https://gogoanime.film/",
-          "icon": "https://gogoanime.film/favicon.ico",
-          "desc": "英文动漫在线观看网站。",
-          "proxy": true
         },
         {
           "title": "梦蓝字幕组",
@@ -352,13 +296,6 @@
           "proxy": true
         },
         {
-          "title": "亿万同人字幕组",
-          "url": "https://ywtrzm.com/",
-          "icon": "https://ywtrzm.com/favicon.ico",
-          "desc": "主要翻译LGBTQ类型的美剧、德剧等。",
-          "proxy": false
-        },
-        {
           "title": "伪射手",
           "url": "https://assrt.net/",
           "icon": "https://assrt.net/favicon.ico",
@@ -383,13 +320,6 @@
           "title": "24直播吧",
           "url": "https://24zhiboba.com/#/",
           "icon": "https://24zhiboba.com/favicon.ico",
-          "desc": "体育赛事直播网站。",
-          "proxy": false
-        },
-        {
-          "title": "球趣直播网",
-          "url": "https://qiuquzhibo.com/",
-          "icon": "https://qiuquzhibo.com/favicon.ico",
           "desc": "体育赛事直播网站。",
           "proxy": false
         },
@@ -484,13 +414,6 @@
           "title": "Deskpins",
           "url": "https://efotinis.neocities.org/deskpins/",
           "desc": "简洁实用的窗口置顶小工具。",
-          "proxy": false
-        },
-        {
-          "title": "BookxNote",
-          "url": "https://www.bookxnote.com/",
-          "icon": "https://www.bookxnote.com/favicon.ico",
-          "desc": "一款功能强大的电子书阅读和笔记整理工具。",
           "proxy": false
         },
         {
@@ -902,13 +825,6 @@
           "proxy": false
         },
         {
-          "title": "龙轩导航",
-          "url": "https://m.ilxdh.com/",
-          "icon": "https://m.ilxdh.com/favicon.ico",
-          "desc": "一个内容非常全面的网址导航站。",
-          "proxy": false
-        },
-        {
           "title": "酷站",
           "url": "https://ruby-china.org/sites",
           "icon": "https://l.ruby-china.com/photo/2016/c309db0b49cab85a32f756541ea0e2b0.png",
@@ -999,13 +915,6 @@
           "proxy": false
         },
         {
-          "title": "猪猪盘",
-          "url": "https://www.zhuzhupan.com/",
-          "icon": "https://www.zhuzhupan.com/favicon.ico",
-          "desc": "搜索的东西比较老",
-          "proxy": false
-        },
-        {
           "title": "大圣盘",
           "url": "https://www.dashengpan.com/",
           "icon": "https://res.hexiaotu.com/sousuo/dashengpan/favicon.ico",
@@ -1017,13 +926,6 @@
           "url": "https://www.chaonengso.com/",
           "icon": "https://www.chaonengso.com/favicon.ico",
           "desc": "聚合搜索，汇聚十几个搜索站点",
-          "proxy": false
-        },
-        {
-          "title": "采书",
-          "url": "https://ebook.name/",
-          "icon": "https://ebook.name/favicon.ico",
-          "desc": "聚合站",
           "proxy": false
         },
         {
@@ -1047,31 +949,10 @@
           "proxy": false
         },
         {
-          "title": "ZzzFun",
-          "url": "https://www.zzzfun.com/",
-          "icon": "https://www.zzzfun.com/favicon.ico",
-          "desc": "UI我就很喜欢，在线观看",
-          "proxy": false
-        },
-        {
-          "title": "哔咪哔咪",
-          "url": "https://www.bimiacg.com/",
-          "icon": "https://www.bimiacg.com/favicon.ico",
-          "desc": "m站以及bimibimi",
-          "proxy": false
-        },
-        {
           "title": "嘶哩嘶哩",
           "url": "https://www.silisili.cc/",
           "icon": "https://www.silisili.cc/favicon.png",
           "desc": "一个在线动漫观看与分享网站。",
-          "proxy": false
-        },
-        {
-          "title": "奇米奇米",
-          "url": "https://www.qimiqimi.co/",
-          "icon": "https://www.qimiqimi.co/favicon.ico",
-          "desc": "一个提供在线动漫观看的网站。",
           "proxy": false
         },
         {
@@ -1294,13 +1175,6 @@
           "url": "https://www.yuque.com/qjl988/kyzl",
           "icon": "https://www.yuque.com/favicon.ico",
           "desc": "英语、政治、数学，资源新，免费分享",
-          "proxy": false
-        },
-        {
-          "title": "Free考研资料",
-          "url": "https://bbs.freekaoyan.com/forum.php",
-          "icon": "https://bbs.freekaoyan.com/favicon.ico",
-          "desc": "免费考研论坛",
           "proxy": false
         },
         {
@@ -1551,13 +1425,6 @@
           "proxy": true
         },
         {
-          "title": "十分钟邮箱",
-          "url": "https://24mail.chacuo.net/",
-          "icon": "https://24mail.chacuo.net/favicon.ico",
-          "desc": "临时邮箱服务",
-          "proxy": false
-        },
-        {
           "title": "Have I Been Pwned",
           "url": "https://haveibeenpwned.com/",
           "icon": "https://haveibeenpwned.com/favicon-96x96.png",
@@ -1610,13 +1477,6 @@
           "url": "https://ghproxy.link/",
           "icon": "https://ghproxy.link/favicon.ico",
           "desc": "一个GitHub的代理服务，提升国内访问速度。",
-          "proxy": false
-        },
-        {
-          "title": "记忆力博客网盘",
-          "url": "https://qq351605872.ys168.com/",
-          "icon": "https://qq351605872.ys168.com/favicon.ico",
-          "desc": "海量学习提升教程资源，亲子、小初高大学教程资源",
           "proxy": false
         }
       ]

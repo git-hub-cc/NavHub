@@ -173,13 +173,6 @@
           "proxy": false
         },
         {
-          "title": "考研资料-金榜题名",
-          "url": "https://qzbltushu.ys168.com/",
-          "icon": "https://qzbltushu.ys168.com/favicon.ico",
-          "desc": "一个ys168网盘，提供大量考研课程和资料，更新及时。",
-          "proxy": false
-        },
-        {
           "title": "英语真题在线",
           "url": "https://zhenti.burningvocabulary.com/",
           "icon": "https://zhenti.burningvocabulary.com/favicon-32x32.png",
@@ -333,13 +326,6 @@
           "url": "https://www.yikm.net/",
           "icon": "https://www.yikm.net/f.png",
           "desc": "在线红白机(FC)模拟器，无需安装即可畅玩魂斗罗、超级玛丽等经典游戏。",
-          "proxy": false
-        },
-        {
-          "title": "临时邮箱",
-          "url": "https://24mail.chacuo.net/",
-          "icon": "https://24mail.chacuo.net/favicon.ico",
-          "desc": "用于临时接收邮件，避免个人邮箱被垃圾邮件骚扰。",
           "proxy": false
         },
         {

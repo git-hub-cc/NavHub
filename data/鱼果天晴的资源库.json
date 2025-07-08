@@ -59,13 +59,6 @@
           "icon": "https://jrszb.com/favicon.ico",
           "desc": "提供NBA、足球等体育赛事直播。",
           "proxy": false
-        },
-        {
-          "title": "MVCAT",
-          "url": "https://www.mvcat.com/",
-          "icon": "https://www.mvcat.com/img/logo_appicon_black.png",
-          "desc": "影视推荐和信息站。",
-          "proxy": false
         }
       ]
     },
@@ -306,13 +299,6 @@
           "url": "https://www.cilixiong.com/",
           "icon": "https://www.cilixiong.com/favicon.ico",
           "desc": "简洁好用的磁力链接搜索引擎。",
-          "proxy": false
-        },
-        {
-          "title": "SOBT",
-          "url": "https://www.sobt5.com/",
-          "icon": "https://www.sobt5.com/favicon.ico",
-          "desc": "一个磁力链接搜索网站。",
           "proxy": false
         },
         {

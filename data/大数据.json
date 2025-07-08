@@ -67,13 +67,6 @@
           "proxy": true
         },
         {
-          "title": "Alexa网站排名查询",
-          "url": "https://www.alexa.cn/",
-          "icon": "https://www.alexa.cn/favicon.ico",
-          "desc": "提供中文网站Alexa排名查询服务。",
-          "proxy": false
-        },
-        {
           "title": "Quantcast",
           "url": "https://www.quantcast.com/",
           "icon": "https://static.quantcast.com/marketing-site/quantcast-favicon-bright-blue.png",
@@ -208,13 +201,6 @@
           "url": "https://www.bloomberg.com/markets/stocks/world-indexes/",
           "icon": "https://icon.horse/icon/bloomberg.com",
           "desc": "彭博社提供的全球主要股票市场指数数据。",
-          "proxy": true
-        },
-        {
-          "title": "Investopedia（英）",
-          "url": "https://www.companyspotlight.com/",
-          "icon": "https://www.companyspotlight.com/favicon.ico",
-          "desc": "提供金融教育、市场分析和投资工具的网站。",
           "proxy": true
         },
         {
@@ -741,7 +727,7 @@
         {
           "title": "企鹅智酷",
           "url": "https://re.qq.com/",
-          "icon": "https://mat1.gtimg.com/qqcdn/qqindex2021/favicon.ico",
+          "icon": "img/favicon/gtimg/favicon.ico",
           "desc": "腾讯科技旗下核心研究平台，专注TMT领域前沿趋势。",
           "proxy": false
         },
