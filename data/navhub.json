@@ -21,14 +21,14 @@
         {
           "title": "阿里云盘",
           "url": "https://www.aliyundrive.com/",
-          "icon": "https://img.alicdn.com/imgextra/i1/O1CN01fH6Amz1v8x2i2b3r1_!!6000000006132-2-tps-1024-1024.png",
+          "icon": "./img/favicon/aliyundrive/favicon.ico",
           "desc": "不限速的网盘，你的数字世界。",
           "proxy": false
         },
         {
           "title": "QQ邮箱",
           "url": "https://mail.qq.com/",
-          "icon": "https://res.mail.qq.com/zh_CN/htmledition/images/favicon/qqmail_logo_16h.png",
+          "icon": "https://mail.qq.com/zh_CN/htmledition/images/favicon/qqmail_favicon_96h.png",
           "desc": "简洁直观，安全稳定的电子邮件服务。",
           "proxy": false
         },
@@ -107,13 +107,6 @@
           "icon": "https://hellogithub.com/favicon.ico",
           "desc": "分享有趣、入门级的开源项目。",
           "proxy": false
-        },
-        {
-          "title": "Regexr",
-          "url": "https://regexr.com/",
-          "icon": "https://regexr.com/favicon.ico",
-          "desc": "强大的在线正则表达式测试和学习工具。",
-          "proxy": false
         }
       ]
     },
@@ -131,35 +124,35 @@
         {
           "title": "Google Gemini",
           "url": "https://gemini.google.com/",
-          "icon": "https://www.gstatic.com/lamda/images/gemini_favicon_512x512_462a356c9a59b1328086a42790e9aec2.png",
+          "icon": "https://www.gstatic.com/lamda/images/gemini_favicon_f069958c85030456e93de685481c559f160ea06b.png",
           "desc": "Google 推出的多模态 AI 模型。",
           "proxy": true
         },
         {
           "title": "DeepSeek",
           "url": "https://chat.deepseek.com/",
-          "icon": "https://chat.deepseek.com/favicon.ico",
+          "icon": "https://chat.deepseek.com/favicon.svg",
           "desc": "由深度求索公司开发的免费 AI 对话模型。",
           "proxy": false
         },
         {
           "title": "腾讯混元",
           "url": "https://hunyuan.tencent.com/",
-          "icon": "https://hunyuan.tencent.com/bot/assets/logo-13c3b2f5.png",
+          "icon": "https://cdn-portal.hunyuan.tencent.com/public/static/logo/favicon.png",
           "desc": "腾讯自研的通用大语言模型。",
           "proxy": false
         },
         {
           "title": "Google AI Studio",
           "url": "https://aistudio.google.com/",
-          "icon": "https://www.gstatic.com/aistudio/images/favicon_aistudio.png",
+          "icon": "\nhttps://www.gstatic.com/aistudio/ai_studio_favicon_180x180.png",
           "desc": "在浏览器中快速原型化和测试生成式 AI 模型。",
           "proxy": true
         },
         {
           "title": "Suno",
           "url": "https://suno.com/",
-          "icon": "https://cdn1.suno.ai/image/icons/icon-72x72.png",
+          "icon": "\nhttps://suno.com/favicon.ico",
           "desc": "AI 音乐创作工具，用文字生成歌曲。",
           "proxy": true
         },
@@ -186,7 +179,7 @@
         {
           "title": "Dribbble",
           "url": "https://dribbble.com/",
-          "icon": "https://cdn.dribbble.com/assets/favicon-63b29092723ee133a08b6175e0707379656088e845f762f8c5b523e19842a420.ico",
+          "icon": "https://cdn.dribbble.com/assets/favicon-99944ff731bb44d3a947810ca8728f177f8deac035a3a4342120c385fd7acb9d.svg",
           "desc": "发现和展示创意作品的设计师社区。",
           "proxy": true
         },
@@ -207,21 +200,21 @@
         {
           "title": "Iconfont",
           "url": "https://www.iconfont.cn/",
-          "icon": "https://img.alicdn.com/imgextra/i4/O1CN01Z5paLz1O0zuCC7osg_!!6000000001642-55-tps-32-32.svg",
+          "icon": "https://img.alicdn.com/imgextra/i3/O1CN0144IbfA22u2KBuLbC1_!!6000000007179-2-tps-2796-1972.png",
           "desc": "阿里巴巴矢量图标库，功能强大，图标内容丰富。",
           "proxy": false
         },
         {
           "title": "Storyset",
           "url": "https://storyset.com/",
-          "icon": "https://storyset.com/favicon.ico",
+          "icon": "https://storyset.com/favicon.svg",
           "desc": "免费的可定制化插图资源库。",
           "proxy": false
         },
         {
           "title": "Coolors",
           "url": "https://coolors.co/",
-          "icon": "https://coolors.co/assets/img/favicon.png",
+          "icon": "./img/favicon/coolors/favicon.png",
           "desc": "快速的配色方案生成器。",
           "proxy": false
         }
@@ -255,14 +248,14 @@
         {
           "title": "Cobalt",
           "url": "https://cobalt.tools/",
-          "icon": "https://cobalt.tools/favicon.ico",
+          "icon": "https://cobalt.tools/icons/android-chrome-192x192.png",
           "desc": "一个友好、无广告、注重隐私的媒体下载器。",
           "proxy": false
         },
         {
           "title": "PicWish",
           "url": "https://picwish.cn/",
-          "icon": "https://picwish.cn/favicon.ico",
+          "icon": "https://qncdn.aoscdn.com/astro/picwish/_astro/favicon@30w.61721eae.png",
           "desc": "免费的在线抠图、图片编辑工具。",
           "proxy": false
         },

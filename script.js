@@ -2,6 +2,7 @@ document.addEventListener('DOMContentLoaded', () => {
     // === 全局状态和常量 ===
     const THEME_STORAGE_KEY = 'theme-preference';
     const NAV_DATA_STORAGE_KEY = 'my-awesome-nav-data';
+    const NAV_DATA_SOURCE_PREFERENCE_KEY = 'nav-data-source-preference'; // Cache the data source choice
     const NAV_CUSTOM_SOURCES_KEY = 'nav-custom-data-sources';
     const NAV_CUSTOM_USER_SITES_KEY = 'nav-user-custom-sites-data';
     const CUSTOM_CATEGORY_ID = 'custom-user-sites';
@@ -16,14 +17,14 @@ document.addEventListener('DOMContentLoaded', () => {
     let originalDataSourceValue = null;
 
     const defaultSiteDataSources = [
-        {name: "小帅同学", path: "data/小帅同学.json"},
         {name: "NavHub", path: "data/navhub.json"},
+        {name: "资源船舱", path: "data/资源船舱.json"},
+        {name: "大数据", path: "data/大数据.json"},
         {name: "哆啦A梦的神奇口袋", path: "data/哆啦A梦的神奇口袋.json"},
+        {name: "小帅同学", path: "data/小帅同学.json"},
         {name: "懒人找资源", path: "data/懒人找资源.json"},
         {name: "薛信的资料室", path: "data/薛信的资料室.json"},
-        {name: "资源公社&语雀分享", path: "data/资源公社&语雀分享.json"},
-        {name: "资源汇社区资源库", path: "data/资源汇社区资源库.json"},
-        {name: "金榜题名", path: "data/金榜题名.json"},
+        {name: "资源汇总", path: "data/资源汇总.json"},
         {name: "阿虚同学", path: "data/阿虚同学.json"},
         {name: "阿虚软件库", path: "data/阿虚软件库.json"},
         {name: "陈蛋蛋的宝藏库", path: "data/陈蛋蛋的宝藏库.json"},
@@ -218,6 +219,7 @@ document.addEventListener('DOMContentLoaded', () => {
         renderNavPage();
         dataSourceSelect.value = newName;
         originalDataSourceValue = newName;
+        localStorage.setItem(NAV_DATA_SOURCE_PREFERENCE_KEY, newName); // Save preference on import
         updateDeleteButtonState(); // Update button state after import
 
         closeImportNameModal();
@@ -510,34 +512,59 @@ document.addEventListener('DOMContentLoaded', () => {
     function handleDataSourceChange(e) {
         const newIdentifier = e.target.value;
         performDataSourceSwitch(newIdentifier);
-        updateDeleteButtonState(); // Update on every change
     }
 
-    async function performDataSourceSwitch(identifier) {
-        const source = allSiteDataSources.find(s => (s.path || s.name) === identifier);
-        if (!source) {
-            console.error("Data source not found:", identifier);
-            dataSourceSelect.value = originalDataSourceValue; // Revert dropdown on error
-            updateDeleteButtonState(); // Update button state on revert
-            return;
-        }
-
+    async function performDataSourceSwitch(identifier, useCache = false) {
         let newBaseData;
-        try {
-            if (source.path) { // It's a default source from a file
-                const response = await fetch(source.path);
-                if (!response.ok) throw new Error(`HTTP error! status: ${response.status}`);
-                newBaseData = await response.json();
-            } else { // It's a custom source from localStorage
-                newBaseData = source.data;
+
+        // 1. Try to load from cache on initial page load
+        if (useCache) {
+            const storedBaseData = localStorage.getItem(NAV_DATA_STORAGE_KEY);
+            if (storedBaseData) {
+                try {
+                    newBaseData = JSON.parse(storedBaseData);
+                } catch (e) {
+                    console.error("Failed to parse cached data, fetching fresh.", e);
+                    // newBaseData remains null, will proceed to fetch
+                }
             }
-        } catch (error) {
-            showAlert(`加载数据源失败: ${source.name}\n${error.message}`, '加载错误');
-            dataSourceSelect.value = originalDataSourceValue; // Revert dropdown
-            updateDeleteButtonState(); // Update button state on revert
-            return;
         }
 
+        // 2. If no data from cache, fetch from source
+        if (!newBaseData) {
+            let source = allSiteDataSources.find(s => (s.path || s.name) === identifier);
+
+            // Handle case where saved source might not exist anymore
+            if (!source) {
+                const fallbackIdentifier = DEFAULT_SITES_PATH;
+                if (useCache) { // Only log warning on initial load
+                    console.warn(`Saved data source "${identifier}" not found, falling back to default.`);
+                } else { // Alert on manual action
+                    await showAlert(`数据源 "${identifier}" 未找到，将切换到默认数据源。`);
+                }
+                identifier = fallbackIdentifier;
+                source = allSiteDataSources.find(s => s.path === identifier);
+            }
+
+            try {
+                if (source.path) { // It's a default source from a file
+                    const response = await fetch(source.path);
+                    if (!response.ok) throw new Error(`HTTP error! status: ${response.status}`);
+                    newBaseData = await response.json();
+                } else { // It's a custom source from localStorage
+                    newBaseData = source.data;
+                }
+            } catch (error) {
+                showAlert(`加载数据源失败: ${source.name}\n${error.message}`, '加载错误');
+                if (!useCache) { // Revert dropdown only on manual switch fail
+                    dataSourceSelect.value = originalDataSourceValue;
+                }
+                updateDeleteButtonState(); // Update button state regardless
+                return;
+            }
+        }
+
+        // 3. Merge with custom user sites
         let customCategory;
         try {
             const customDataRaw = localStorage.getItem(NAV_CUSTOM_USER_SITES_KEY);
@@ -548,68 +575,28 @@ document.addEventListener('DOMContentLoaded', () => {
         }
 
         const otherCategories = newBaseData.categories.filter(c => c.categoryId !== CUSTOM_CATEGORY_ID);
-
         const newMergedData = {
             ...newBaseData,
             categories: [customCategory, ...otherCategories]
         };
-
         siteData = JSON.parse(JSON.stringify(newMergedData));
 
+        // 4. Persist data and state
         saveNavData();
         originalDataSourceValue = identifier;
+        localStorage.setItem(NAV_DATA_SOURCE_PREFERENCE_KEY, identifier);
         if (dataSourceSelect) dataSourceSelect.value = identifier;
 
+        // 5. Re-render UI
         renderNavPage();
         searchInput.value = '';
         filterNavCards('');
-        updateDeleteButtonState(); // Update button state after a successful switch
+        updateDeleteButtonState();
     }
 
     // =========================================================================
     // 导航卡片逻辑 (NAV CARDS LOGIC)
     // =========================================================================
-    async function loadNavData(filePath = DEFAULT_SITES_PATH) {
-        let baseData;
-        const storedBaseData = localStorage.getItem(NAV_DATA_STORAGE_KEY);
-
-        if (storedBaseData) {
-            baseData = JSON.parse(storedBaseData);
-        } else {
-            try {
-                const response = await fetch(filePath);
-                if (!response.ok) throw new Error(`HTTP error! status: ${response.status}`);
-                baseData = await response.json();
-            } catch (error) {
-                console.error(`无法加载或处理导航配置文件: ${filePath}`, error);
-                baseData = { categories: [] };
-            }
-        }
-
-        let customCategory;
-        try {
-            const customDataRaw = localStorage.getItem(NAV_CUSTOM_USER_SITES_KEY);
-            customCategory = customDataRaw ? JSON.parse(customDataRaw) : { categoryName: '我的导航', categoryId: CUSTOM_CATEGORY_ID, sites: [] };
-        } catch (e) {
-            console.error("Failed to parse custom user sites, resetting.", e);
-            customCategory = { categoryName: '我的导航', categoryId: CUSTOM_CATEGORY_ID, sites: [] };
-        }
-
-        const otherCategories = baseData.categories.filter(c => c.categoryId !== CUSTOM_CATEGORY_ID);
-        siteData = {
-            ...baseData,
-            categories: [customCategory, ...otherCategories]
-        };
-
-        saveNavData();
-
-        const lastUsedSourceIdentifier = originalDataSourceValue || filePath;
-        const currentSource = allSiteDataSources.find(s => (s.path || s.name) === lastUsedSourceIdentifier) || allSiteDataSources[0];
-        const currentIdentifier = currentSource.path || currentSource.name;
-        originalDataSourceValue = currentIdentifier;
-        if (dataSourceSelect) dataSourceSelect.value = currentIdentifier
-    }
-
     async function loadSearchConfig() {
         try {
             const response = await fetch('data/engines.json');
@@ -923,16 +910,17 @@ document.addEventListener('DOMContentLoaded', () => {
         setupStaticNavEventListeners();
         setupDynamicNavEventListeners();
 
+        // Determine initial source from saved preference or use default
+        const lastUsedSource = localStorage.getItem(NAV_DATA_SOURCE_PREFERENCE_KEY) || DEFAULT_SITES_PATH;
+
         // Use Promise.all to load all necessary data concurrently
         await Promise.all([
-            loadNavData(),
+            performDataSourceSwitch(lastUsedSource, true), // Load initial data, using cache if available
             loadSearchConfig(),
             pinyinConverter.loadMap('data/pinyin-map.json')
         ]);
 
-        renderNavPage();
         initEnhancedSearch();
-        updateDeleteButtonState(); // Set initial state of the delete button
     }
 
     init();

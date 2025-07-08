@@ -41,9 +41,12 @@ const pinyinConverter = (function() {
                 fullPinyin += pinyin;
                 initials += pinyin.charAt(0);
             } else {
-                // 对于非中文字符，直接保留
+                // 对于非中文字符，只将其保留在全拼（fullPinyin）中。
+                // 不将其添加到首字母（initials）字符串中，以避免混合字符导致的不准确匹配。
+                // 例如，"数学-李" 的首字母串不应是 "sx-l"，而应是 "sxl"。
+                // 这可以防止 "xl" 错误地匹配 "学-李"，并确保 "sx" 能正确匹配 "数学"。
                 fullPinyin += char;
-                initials += char;
+                // 此处原有的 'initials += char;' 已被移除，以修复bug。
             }
         }
         return {

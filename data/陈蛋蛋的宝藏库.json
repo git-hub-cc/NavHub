@@ -7,18 +7,21 @@
         {
           "title": "Office Tool Plus",
           "url": "https://otp.landian.vip/zh-cn/",
+          "icon": "https://otp.landian.vip/favicon.ico",
           "desc": "强大的 Office 部署工具，支持 Office 的下载、安装、激活与管理。",
           "proxy": false
         },
         {
           "title": "WPS Office 企业版",
           "url": "https://ep.wps.cn/download",
+          "icon": "https://ep.wps.cn/favicon.ico",
           "desc": "WPS 官方企业版，资源包内附带激活码和激活工具。",
           "proxy": false
         },
         {
           "title": "ProcessOn",
           "url": "https://www.processon.com/",
+          "icon": "https://www.processon.com/favicon.ico",
           "desc": "免费在线作图、实时协作，支持流程图、思维导图等。",
           "proxy": false
         },
@@ -31,6 +34,7 @@
         {
           "title": "Panda OCR",
           "url": "https://github.com/miaomiaosoft/PandaOCR.Pro",
+          "icon": "https://github.githubassets.com/favicons/favicon.svg",
           "desc": "多功能OCR文字识别工具，支持多个OCR和翻译引擎。",
           "proxy": false
         },
@@ -43,6 +47,7 @@
         {
           "title": "iSlide",
           "url": "https://www.islide.cc/",
+          "icon": "https://www.islide.cc/favicon.ico",
           "desc": "强大的PPT插件，提供海量模板、图示和图标，极大提升PPT制作效率。",
           "proxy": false
         }
@@ -54,55 +59,50 @@
       "sites": [
         {
           "title": "Adobe 全家桶 (by vposy)",
-          "url": "https://www.423down.com/adobe-vposy.html",
+          "url": "https://www.423down.com",
+          "icon": "https://www.423down.com/wp-content/themes/D7/img/favicon.ico",
           "desc": "由@vposy大神整理的 Adobe 全家桶系列，包含2020、2021等多个版本及Mac版，安全稳定。原HTML内所有Adobe资源均出自此处。",
           "proxy": false
         },
         {
           "title": "Snipaste",
           "url": "https://chendandan.lanzoux.com/iiiZZdn2byd",
+          "icon": "https://assets.woozooo.com/assets/favicon.ico",
           "desc": "强大且免费的截图贴图工具，极大地提升工作效率。",
           "proxy": false
         },
         {
           "title": "剪映桌面版",
           "url": "https://lv.ulikecam.com/",
+          "icon": "https://lf3-s.vlabstatic.com/obj/vilab-static/ies/ulike/web/resource/fe_official/assets/imgs/lv/favicon.ico",
           "desc": "字节跳动出品的免费视频剪辑软件，功能强大，易于上手。",
-          "proxy": false
-        },
-        {
-          "title": "Unsplash",
-          "url": "https://unsplash.com/",
-          "desc": "全球知名的免费高质量、可商用图片库。",
-          "proxy": true
-        },
-        {
-          "title": "Pixabay",
-          "url": "https://pixabay.com/zh/",
-          "desc": "拥有超过百万张免费图片、矢量图和视频素材的素材库。",
           "proxy": false
         },
         {
           "title": "Iconfont",
           "url": "https://www.iconfont.cn/",
+          "icon": "https://img.alicdn.com/imgextra/i4/O1CN01Z5paLz1O0zuCC7osS_!!6000000001644-55-tps-83-82.svg",
           "desc": "阿里巴巴矢量图标库，功能强大，图标内容丰富，设计师和开发者必备。",
           "proxy": false
         },
         {
           "title": "优品PPT",
-          "url": "http://www.ypppt.com/",
+          "url": "https://www.ypppt.com/",
+          "icon": "https://www.ypppt.com/favicon.ico",
           "desc": "一个有情怀的免费PPT模板下载网站，质量很高。",
           "proxy": false
         },
         {
           "title": "中国色",
-          "url": "http://zhongguose.com/",
+          "url": "https://zhongguose.com/",
+          "icon": "https://zhongguose.com/img/favicon.ico",
           "desc": "收集了各种中国传统色彩的名称和色值，点击即可复制。",
           "proxy": false
         },
         {
           "title": "Remove.bg",
           "url": "https://www.remove.bg/zh",
+          "icon": "https://www.remove.bg/favicon-32x32.png?v=fc0bfce6e1310f1539afec9729716721",
           "desc": "在线智能抠图工具，一键上传即可移除图片背景。",
           "proxy": false
         }
@@ -113,51 +113,31 @@
       "categoryId": "media",
       "sites": [
         {
-          "title": "低端影视",
-          "url": "https://ddrk.me/",
-          "desc": "高清无广告影视站，更新快，提供在线观看和下载链接。",
-          "proxy": false
-        },
-        {
-          "title": "片库",
-          "url": "https://www.pkmp4.com/",
-          "desc": "资源丰富的影视下载站，提供磁力链接和网盘资源。",
-          "proxy": false
-        },
-        {
-          "title": "在线之家",
-          "url": "https://www.zxzjtv.com/",
-          "desc": "高清、播放速度快的在线影视网站。",
-          "proxy": false
-        },
-        {
           "title": "茶杯狐",
           "url": "https://cupfox.app/",
+          "icon": "https://picx.zhimg.com/80/v2-5393cb76a824b11d7771ecdce592c87d.png",
           "desc": "聚合全网影视资源的搜索引擎，找片首选。",
           "proxy": false
         },
         {
           "title": "音范丝",
-          "url": "http://www.yinfans.me/",
+          "url": "https://www.yinfans.me/",
+          "icon": "https://www.yinfans.me/wp-content/themes/Loos2/images/favicon.ico",
           "desc": "专注4K、蓝光原盘电影下载，影音发烧友必备。",
           "proxy": false
         },
         {
           "title": "PotPlayer",
           "url": "https://chendandan.lanzoux.com/iwzU5dn2bqf",
+          "icon": "https://assets.woozooo.com/assets/favicon.ico",
           "desc": "最好用的本地视频播放器之一，资源内附带皮肤和直播源。",
           "proxy": false
         },
         {
           "title": "洛雪音乐助手",
           "url": "https://github.com/lyswhut/lx-music-desktop/releases",
+          "icon": "https://github.githubassets.com/favicons/favicon.svg",
           "desc": "免费开源的全网音乐聚合和下载工具，支持Windows和Mac。",
-          "proxy": false
-        },
-        {
-          "title": "Hifini",
-          "url": "https://www.hifini.com/",
-          "desc": "高品质无损音乐论坛和下载站。",
           "proxy": false
         }
       ]
@@ -175,36 +155,34 @@
         {
           "title": "鸠摩搜索",
           "url": "https://www.jiumodiary.com/",
+          "icon": "https://www.jiumodiary.com/images/favicon.png",
           "desc": "强大的电子书聚合搜索引擎，专注网盘电子书资源。",
           "proxy": false
         },
         {
           "title": "全国图书馆参考咨询联盟",
-          "url": "http://www.ucdrs.superlib.net/",
+          "url": "https://www.ucdrs.superlib.net/",
           "desc": "官方的图书文献检索和获取平台，可用于下载学术资料。",
           "proxy": false
         },
         {
-          "title": "Sci-Hub",
-          "url": "https://sci-hub.se/",
-          "desc": "著名的免费下载付费学术论文的网站。",
-          "proxy": true
-        },
-        {
           "title": "中国大学MOOC",
           "url": "https://www.icourse163.org/",
+          "icon": "https://edu-image.nosdn.127.net/32a8dd2a-b9aa-4ec9-abd5-66cd8751befb.png?imageView&quality=100",
           "desc": "汇集国内顶尖高校的在线公开课，免费学习。",
           "proxy": false
         },
         {
           "title": "考研资料-金榜题名",
-          "url": "http://qzbltushu.ys168.com/",
+          "url": "https://qzbltushu.ys168.com/",
+          "icon": "https://qzbltushu.ys168.com/favicon.ico",
           "desc": "一个ys168网盘，提供大量考研课程和资料，更新及时。",
           "proxy": false
         },
         {
           "title": "英语真题在线",
           "url": "https://zhenti.burningvocabulary.com/",
+          "icon": "https://zhenti.burningvocabulary.com/favicon-32x32.png",
           "desc": "收录了历年四六级、考研等英语考试真题，并提供详细解析。",
           "proxy": false
         }
@@ -217,36 +195,42 @@
         {
           "title": "吾爱破解",
           "url": "https://www.52pojie.cn/",
+          "icon": "https://www.52pojie.cn/favicon.ico",
           "desc": "国内知名的安全技术和软件破解分享论坛。",
           "proxy": false
         },
         {
           "title": "423Down",
           "url": "https://www.423down.com/",
+          "icon": "https://www.423down.com/wp-content/themes/D7/img/favicon.ico",
           "desc": "专注分享绿色、便携、去广告的电脑软件。",
           "proxy": false
         },
         {
           "title": "果核剥壳",
           "url": "https://www.ghpym.com/",
+          "icon": "https://www.ghpym.com/favicon.ico",
           "desc": "分享各类实用、有趣的电脑和手机软件资源。",
           "proxy": false
         },
         {
           "title": "异次元软件世界",
           "url": "https://www.iplaysoft.com/",
+          "icon": "https://cdn.iplaysoft.com/ips/icon/favicon-v1/favicon.ico",
           "desc": "推荐各种新奇有趣的软件和网络服务，老牌软件分享博客。",
           "proxy": false
         },
         {
           "title": "MSDN, I tell you",
           "url": "https://next.itellyou.cn/",
+          "icon": "https://next.itellyou.cn/favicon.ico",
           "desc": "原版Windows和Office等微软系软件镜像下载站。",
           "proxy": false
         },
         {
           "title": "MacWk",
           "url": "https://macwk.com/",
+          "icon": "https://macwk.com/favicon-32x32.ico",
           "desc": "非常优秀的Mac软件免费下载站。",
           "proxy": false
         }
@@ -259,19 +243,15 @@
         {
           "title": "大力盘搜",
           "url": "https://www.dalipan.com/",
+          "icon": "https://res.hexiaotu.com/sousuo/dalipan/favicon.ico",
           "desc": "一个干净高效的百度网盘搜索引擎。",
           "proxy": false
         },
         {
           "title": "阿里盘搜",
           "url": "https://www.alipansou.com/",
+          "icon": "https://www.alipansou.com/favicon.ico",
           "desc": "专注阿里云盘资源的搜索引擎。",
-          "proxy": false
-        },
-        {
-          "title": "奈斯搜索",
-          "url": "https://www.niceso.fun/",
-          "desc": "阿里云盘资源聚合搜索，资源丰富。",
           "proxy": false
         },
         {
@@ -281,20 +261,16 @@
           "proxy": false
         },
         {
-          "title": "聚BT",
-          "url": "https://jubt.gq/cn/index.html",
-          "desc": "磁力网站的导航站，收录了全球主流的BT站点。",
-          "proxy": true
-        },
-        {
           "title": "文叔叔",
           "url": "https://www.wenshushu.cn/",
+          "icon": "https://www.wenshushu.cn/favicon.ico",
           "desc": "不限速的大文件临时传输网盘，无需登录即可使用。",
           "proxy": false
         },
         {
           "title": "奶牛快传",
           "url": "https://cowtransfer.com/",
+          "icon": "img/favicon/c-t/favicon.png",
           "desc": "提供高速、稳定的临时文件分享服务。",
           "proxy": false
         }
@@ -307,37 +283,36 @@
         {
           "title": "Via浏览器",
           "url": "https://chendandan.lanzoux.com/iblm0ed",
+          "icon": "https://assets.woozooo.com/assets/favicon.ico",
           "desc": "安卓平台极简、快速的浏览器，体积小巧，功能强大。",
           "proxy": false
         },
         {
           "title": "酷我音乐(破解版)",
           "url": "https://chendandan.lanzoux.com/icicm2b",
+          "icon": "https://assets.woozooo.com/assets/favicon.ico",
           "desc": "安卓版酷我音乐，解锁VIP功能，免费下载无损音质。",
           "proxy": false
         },
         {
           "title": "扫描全能王(高级版)",
           "url": "https://chendandan.lanzoux.com/iGf6Zdorfnc",
+          "icon": "https://assets.woozooo.com/assets/favicon.ico",
           "desc": "安卓版扫描全能王，解锁高级版功能，无限制使用。",
           "proxy": false
         },
         {
           "title": "搜书大师",
           "url": "https://chendandan.lanzoux.com/icj4jcb",
+          "icon": "https://assets.woozooo.com/assets/favicon.ico",
           "desc": "安卓端强大的小说搜书和阅读工具，聚合了海量书源。",
           "proxy": false
         },
         {
           "title": "轻启动",
           "url": "https://chendandan.lanzoux.com/igx0Sdceczg",
+          "icon": "https://assets.woozooo.com/assets/favicon.ico",
           "desc": "安卓App，可以自动跳过大多数应用的开屏广告。",
-          "proxy": false
-        },
-        {
-          "title": "大师兄影视",
-          "url": "https://tv.ci/app/",
-          "desc": "支持安卓和iOS的免费影视App，资源全，更新快。",
           "proxy": false
         }
       ]
@@ -349,36 +324,35 @@
         {
           "title": "全能工具箱",
           "url": "https://www.dute.org/",
+          "icon": "https://cdn-v2.tool.dute.me/assets/images/web/favicon.ico",
           "desc": "一个集合了生活、开发、查询等多种功能的在线工具网站。",
           "proxy": false
         },
         {
           "title": "小霸王游戏机",
           "url": "https://www.yikm.net/",
+          "icon": "https://www.yikm.net/f.png",
           "desc": "在线红白机(FC)模拟器，无需安装即可畅玩魂斗罗、超级玛丽等经典游戏。",
           "proxy": false
         },
         {
           "title": "临时邮箱",
-          "url": "http://24mail.chacuo.net/",
+          "url": "https://24mail.chacuo.net/",
+          "icon": "https://24mail.chacuo.net/favicon.ico",
           "desc": "用于临时接收邮件，避免个人邮箱被垃圾邮件骚扰。",
           "proxy": false
         },
         {
-          "title": "发表情",
-          "url": "https://fabiaoqing.com/",
-          "desc": "海量沙雕、有趣的表情包，斗图必备。",
-          "proxy": false
-        },
-        {
           "title": "全景故宫",
-          "url": "https://pano.dpm.org.cn/gugong_app_pc/index.html",
+          "url": "https://pano.dpm.org.cn",
+          "icon": "https://pano.dpm.org.cn/resource/favicon.ico",
           "desc": "故宫博物院官方出品，可以720°在线云游故宫。",
           "proxy": false
         },
         {
           "title": "虫部落",
           "url": "https://www.chongbuluo.com/",
+          "icon": "https://www.chongbuluo.com/favicon.ico",
           "desc": "强大的聚合搜索引擎入口，帮你快速切换不同引擎找到所需信息。",
           "proxy": false
         }

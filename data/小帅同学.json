@@ -8,49 +8,64 @@
           "title": "吾爱破解",
           "url": "https://www.52pojie.cn/",
           "icon": "https://icon.horse/icon/52pojie.cn",
-          "desc": "国内知名的安全技术交流论坛，分享各类软件、逆向工程及安全知识。"
+          "desc": "国内知名的安全技术交流论坛，分享各类软件、逆向工程及安全知识。",
+          "proxy": false
         },
         {
           "title": "423down",
           "url": "https://www.423down.com/",
           "icon": "https://icon.horse/icon/423down.com",
-          "desc": "专注分享绿色、便携、优质的 Windows 软件资源。"
+          "desc": "专注分享绿色、便携、优质的 Windows 软件资源。",
+          "proxy": false
         },
         {
           "title": "懒得勤快",
           "url": "https://ldqk.org/",
           "icon": "https://icon.horse/icon/ldqk.org",
-          "desc": "分享各类实用工具、绿色软件和网络资源的博客站点。"
+          "desc": "分享各类实用工具、绿色软件和网络资源的博客站点。",
+          "proxy": false
         },
         {
           "title": "果核剥壳",
           "url": "https://www.ghpym.com/",
           "icon": "https://icon.horse/icon/ghpym.com",
-          "desc": "提供各类电脑软件、安卓应用和教程的资源分享网站。"
+          "desc": "提供各类电脑软件、安卓应用和教程的资源分享网站。",
+          "proxy": false
         },
         {
           "title": "异次元软件世界",
           "url": "https://www.iplaysoft.com/",
           "icon": "https://icon.horse/icon/iplaysoft.com",
-          "desc": "“爱免费，爱软件”，分享有趣、实用、免费的软件和网络服务。"
+          "desc": "“爱免费，爱软件”，分享有趣、实用、免费的软件和网络服务。",
+          "proxy": false
         },
         {
           "title": "大眼仔旭",
-          "url": "http://www.dayanzai.me/",
+          "url": "https://www.dayanzai.me/",
           "icon": "https://icon.horse/icon/dayanzai.me",
-          "desc": "分享免费、优秀、实用的 Windows、Android 软件资源。"
+          "desc": "分享免费、优秀、实用的 Windows、Android 软件资源。",
+          "proxy": false
         },
         {
           "title": "lrepacks",
           "url": "https://lrepacks.ru/",
           "icon": "https://icon.horse/icon/lrepacks.ru",
-          "desc": "俄罗斯著名的软件“重新包装”网站，提供大量绿色便携版软件。"
+          "desc": "俄罗斯著名的软件“重新包装”网站，提供大量绿色便携版软件。",
+          "proxy": true
         },
         {
           "title": "马克喵",
           "url": "https://www.macat.vip/",
           "icon": "https://icon.horse/icon/macat.vip",
-          "desc": "精品Mac破解软件下载站，资源更新及时。"
+          "desc": "精品Mac破解软件下载站，资源更新及时。",
+          "proxy": false
+        },
+        {
+          "title": "蓝奏云第三方客户端 v1.0.9",
+          "url": "https://www.lanzoui.com/i1S2v01xbfzg",
+          "icon": "https://assets.woozooo.com/assets/favicon.ico",
+          "desc": "最近更新的破解版或绿色版软件，由爬虫自动更新。",
+          "proxy": false
         }
       ]
     },
@@ -59,52 +74,25 @@
       "categoryId": "media",
       "sites": [
         {
-          "title": "茶杯狐",
-          "url": "https://www.cupfox.com/",
-          "icon": "https://icon.horse/icon/cupfox.com",
-          "desc": "强大的影视资源聚合搜索引擎，快速找到全网影视资源。"
-        },
-        {
           "title": "低端影视",
           "url": "https://ddrk.me/",
           "icon": "https://icon.horse/icon/ddrk.me",
-          "desc": "提供高清、无广告的在线影视观看服务，更新及时。"
-        },
-        {
-          "title": "真不卡影院",
-          "url": "http://www.zhenbuka.vip/",
-          "icon": "https://icon.horse/icon/zhenbuka.vip",
-          "desc": "提供流畅、高清的在线影视观看体验，资源丰富。"
-        },
-        {
-          "title": "AGE动漫",
-          "url": "https://www.agefans.net/",
-          "icon": "https://icon.horse/icon/agefans.net",
-          "desc": "资源丰富的在线动漫观看网站，更新速度快，无广告。"
-        },
-        {
-          "title": "樱花动漫",
-          "url": "http://www.yhdm.so/",
-          "icon": "https://icon.horse/icon/yhdm.so",
-          "desc": "老牌动漫网站，提供海量动漫资源在线观看。"
+          "desc": "提供高清、无广告的在线影视观看服务，更新及时。",
+          "proxy": false
         },
         {
           "title": "Zzzfun",
-          "url": "http://www.zzzfun.com/",
+          "url": "https://www.zzzfun.com/",
           "icon": "https://icon.horse/icon/zzzfun.com",
-          "desc": "Z站，一个拥有丰富资源的弹幕动漫视频网。"
+          "desc": "Z站，一个拥有丰富资源的弹幕动漫视频网。",
+          "proxy": false
         },
         {
           "title": "ZY Player",
-          "url": "http://zyplayer.fun/",
+          "url": "https://zyplayer.fun/",
           "icon": "https://icon.horse/icon/zyplayer.fun",
-          "desc": "跨平台桌面端视频资源播放器，聚合全网高清影视资源。"
-        },
-        {
-          "title": "MyFreeMP3",
-          "url": "http://tool.liumingye.cn/music/",
-          "icon": "https://icon.horse/icon/liumingye.cn",
-          "desc": "免费的在线音乐播放和下载网站，聚合多个音乐平台资源。"
+          "desc": "跨平台桌面端视频资源播放器，聚合全网高清影视资源。",
+          "proxy": false
         }
       ]
     },
@@ -116,49 +104,29 @@
           "title": "鸠摩搜书",
           "url": "https://www.jiumodiary.com/",
           "icon": "https://icon.horse/icon/jiumodiary.com",
-          "desc": "强大的电子书聚合搜索引擎，专注提供各类文档和电子书资源。"
-        },
-        {
-          "title": "Z-Library",
-          "url": "https://1lib.limited/",
-          "icon": "https://icon.horse/icon/1lib.limited",
-          "desc": "全球最大的数字图书馆，提供数百万本免费电子书下载。"
+          "desc": "强大的电子书聚合搜索引擎，专注提供各类文档和电子书资源。",
+          "proxy": false
         },
         {
           "title": "大力盘",
           "url": "https://www.dalipan.com/",
           "icon": "https://icon.horse/icon/dalipan.com",
-          "desc": "简洁高效的百度网盘资源搜索引擎。"
-        },
-        {
-          "title": "fastsoso",
-          "url": "https://www.fastsoso.cn/",
-          "icon": "https://icon.horse/icon/fastsoso.cn",
-          "desc": "快速、干净的百度网盘资源搜索引擎。"
-        },
-        {
-          "title": "小蛇聚合",
-          "url": "http://nav.xiaoshesoso.com/",
-          "icon": "https://icon.horse/icon/xiaoshesoso.com",
-          "desc": "聚合多个网盘搜索引擎，提供一站式资源搜索服务。"
-        },
-        {
-          "title": "Magi",
-          "url": "https://magi.com/",
-          "icon": "https://icon.horse/icon/magi.com",
-          "desc": "基于机器学习的知识引擎，能有效聚合和溯源信息。"
+          "desc": "简洁高效的百度网盘资源搜索引擎。",
+          "proxy": false
         },
         {
           "title": "Yandex识图",
           "url": "https://yandex.com/images/",
           "icon": "https://icon.horse/icon/yandex.com",
-          "desc": "功能强大的图片反向搜索引擎，找原图、识图源的利器。"
+          "desc": "功能强大的图片反向搜索引擎，找原图、识图源的利器。",
+          "proxy": true
         },
         {
           "title": "Trace.moe",
           "url": "https://trace.moe/",
           "icon": "https://icon.horse/icon/trace.moe",
-          "desc": "动漫场景搜索引擎，通过截图轻松找到动漫出处。"
+          "desc": "动漫场景搜索引擎，通过截图轻松找到动漫出处。",
+          "proxy": false
         }
       ]
     },
@@ -167,52 +135,32 @@
       "categoryId": "online-tools",
       "sites": [
         {
-          "title": "一个木涵工具箱",
-          "url": "https://web.woobx.cn/",
-          "icon": "https://icon.horse/icon/woobx.cn",
-          "desc": "一个功能丰富的在线工具集合网站。"
-        },
-        {
           "title": "MikuTools",
           "url": "https://tools.miku.ac/",
           "icon": "https://icon.horse/icon/miku.ac",
-          "desc": "一个轻量、实用的工具集合，提供多种便捷的在线小工具。"
+          "desc": "一个轻量、实用的工具集合，提供多种便捷的在线小工具。",
+          "proxy": false
         },
         {
           "title": "菜鸟工具",
           "url": "https://c.runoob.com/",
           "icon": "https://icon.horse/icon/runoob.com",
-          "desc": "菜鸟教程出品的在线工具箱，包含各种开发和常用工具。"
+          "desc": "菜鸟教程出品的在线工具箱，包含各种开发和常用工具。",
+          "proxy": false
         },
         {
           "title": "草料二维码",
           "url": "https://cli.im/",
           "icon": "https://icon.horse/icon/cli.im",
-          "desc": "专业的二维码生成及美化服务，支持生成动态码、活码。"
-        },
-        {
-          "title": "临时邮箱",
-          "url": "https://linshiyouxiang.cn/",
-          "icon": "https://icon.horse/icon/linshiyouxiang.cn",
-          "desc": "提供临时、匿名的电子邮箱地址，用于注册临时账号。"
-        },
-        {
-          "title": "闪速短网址",
-          "url": "https://ssdwz.cn/",
-          "icon": "https://icon.horse/icon/ssdwz.cn",
-          "desc": "稳定、快速的在线网址缩短服务。"
-        },
-        {
-          "title": "北斗文档",
-          "url": "http://api.bdwenku.com/",
-          "icon": "https://icon.horse/icon/bdwenku.com",
-          "desc": "免费的百度文库下载工具，可将文库文档转换为PDF或Word。"
+          "desc": "专业的二维码生成及美化服务，支持生成动态码、活码。",
+          "proxy": false
         },
         {
           "title": "Carbon",
           "url": "https://carbon.now.sh/",
           "icon": "https://icon.horse/icon/carbon.now.sh",
-          "desc": "创建和分享源代码的精美图像，支持多种语言和主题。"
+          "desc": "创建和分享源代码的精美图像，支持多种语言和主题。",
+          "proxy": true
         }
       ]
     },
@@ -221,52 +169,46 @@
       "categoryId": "design-assets",
       "sites": [
         {
-          "title": "新CG儿",
-          "url": "https://www.newcger.com/",
-          "icon": "https://icon.horse/icon/newcger.com",
-          "desc": "提供AE模板、视频素材、PR插件等后期制作资源的分享网站。"
-        },
-        {
           "title": "第一PPT",
-          "url": "http://www.1ppt.com/",
+          "url": "https://www.1ppt.com/",
           "icon": "https://icon.horse/icon/1ppt.com",
-          "desc": "提供海量免费PPT模板、图表、背景和素材下载。"
+          "desc": "提供海量免费PPT模板、图表、背景和素材下载。",
+          "proxy": false
         },
         {
           "title": "Pixabay",
           "url": "https://pixabay.com/zh/",
           "icon": "https://icon.horse/icon/pixabay.com",
-          "desc": "全球知名的免费正版高清图片、视频素材库。"
+          "desc": "全球知名的免费正版高清图片、视频素材库。",
+          "proxy": false
         },
         {
           "title": "Pexels",
           "url": "https://www.pexels.com/zh-cn/",
           "icon": "https://icon.horse/icon/pexels.com",
-          "desc": "提供海量共享图片、视频素材，可免费用于个人和商业用途。"
+          "desc": "提供海量共享图片、视频素材，可免费用于个人和商业用途。",
+          "proxy": false
         },
         {
           "title": "iconmonster",
           "url": "https://iconmonstr.com/",
           "icon": "https://icon.horse/icon/iconmonstr.com",
-          "desc": "一个提供大量免费、简洁、高质量图标的网站。"
+          "desc": "一个提供大量免费、简洁、高质量图标的网站。",
+          "proxy": true
         },
         {
           "title": "遇见图床",
           "url": "https://www.hualigs.cn/",
           "icon": "https://icon.horse/icon/hualigs.cn",
-          "desc": "稳定、快速的免费图床服务，支持多种图片上传和外链分享。"
-        },
-        {
-          "title": "catbox",
-          "url": "https://catbox.moe/",
-          "icon": "https://icon.horse/icon/catbox.moe",
-          "desc": "一个简单、免费的文件托管服务，支持图片、音频、视频等多种文件类型。"
+          "desc": "稳定、快速的免费图床服务，支持多种图片上传和外链分享。",
+          "proxy": false
         },
         {
           "title": "插画世界 (vilipix)",
           "url": "https://www.vilipix.com/",
           "icon": "https://icon.horse/icon/vilipix.com",
-          "desc": "一个高质量的插画、动漫图片分享社区，Pixiv的优秀镜像站。"
+          "desc": "一个高质量的插画、动漫图片分享社区，Pixiv的优秀镜像站。",
+          "proxy": false
         }
       ]
     },
@@ -275,52 +217,60 @@
       "categoryId": "learning",
       "sites": [
         {
-          "title": "国家中小学智慧教育平台",
-          "url": "https://ykt.eduyun.cn/ykt/sjykt/index.html",
-          "icon": "https://icon.horse/icon/eduyun.cn",
-          "desc": "官方提供的免费中小学课程资源，涵盖各个年级和科目。"
+          "title": "数字教育服务平台",
+          "url": "https://www.eduyun.cn/",
+          "icon": "https://www.eduyun.cn/images/logo.png",
+          "desc": "官方提供的免费中小学课程资源，涵盖各个年级和科目。",
+          "proxy": false
         },
         {
           "title": "可汗学院",
           "url": "https://zh.khanacademy.org/",
           "icon": "https://icon.horse/icon/khanacademy.org",
-          "desc": "著名的非营利教育组织，提供数学、科学等各学科的免费在线课程。"
+          "desc": "著名的非营利教育组织，提供数学、科学等各学科的免费在线课程。",
+          "proxy": false
         },
         {
           "title": "第一教程网",
           "url": "https://www.diyijc.com/",
           "icon": "https://icon.horse/icon/diyijc.com",
-          "desc": "提供中小学、考研、编程等各类免费视频教程。"
+          "desc": "提供中小学、考研、编程等各类免费视频教程。",
+          "proxy": false
         },
         {
           "title": "欧路词典",
-          "url": "http://www.eudic.net/v4/en/app/download",
+          "url": "https://www.eudic.net/v4/en/app/download",
           "icon": "https://icon.horse/icon/eudic.net",
-          "desc": "专业的离线词典软件，支持加载多种词典库，提供精准的查词和翻译服务。"
+          "desc": "专业的离线词典软件，支持加载多种词典库，提供精准的查词和翻译服务。",
+          "proxy": false
         },
         {
           "title": "MSDN, I Tell You",
           "url": "https://msdn.itellyou.cn/",
           "icon": "https://icon.horse/icon/itellyou.cn",
-          "desc": "知名的微软操作系统及软件镜像下载站，提供纯净的官方系统镜像。"
+          "desc": "知名的微软操作系统及软件镜像下载站，提供纯净的官方系统镜像。",
+          "proxy": false
         },
         {
           "title": "清华大学开源软件镜像站",
           "url": "https://mirrors.tuna.tsinghua.edu.cn/",
           "icon": "https://icon.horse/icon/tsinghua.edu.cn",
-          "desc": "提供各类开源软件、操作系统及Linux发行版的镜像下载服务。"
+          "desc": "提供各类开源软件、操作系统及Linux发行版的镜像下载服务。",
+          "proxy": false
         },
         {
           "title": "阿里云官方镜像站",
           "url": "https://developer.aliyun.com/mirror/",
           "icon": "https://icon.horse/icon/aliyun.com",
-          "desc": "阿里巴巴提供的开源镜像站，下载速度快，资源丰富。"
+          "desc": "阿里巴巴提供的开源镜像站，下载速度快，资源丰富。",
+          "proxy": false
         },
         {
           "title": "3DM游戏网",
           "url": "https://dl.3dmgame.com/",
           "icon": "https://icon.horse/icon/3dmgame.com",
-          "desc": "国内老牌的单机游戏门户网站，提供游戏资讯、攻略和资源下载。"
+          "desc": "国内老牌的单机游戏门户网站，提供游戏资讯、攻略和资源下载。",
+          "proxy": false
         }
       ]
     },
@@ -332,49 +282,50 @@
           "title": "阿虚的储物间",
           "url": "https://axutongxue.com/",
           "icon": "https://icon.horse/icon/axutongxue.com",
-          "desc": "知名资源博主阿虚的博客，分享海量实用软件、网站和资源。"
+          "desc": "知名资源博主阿虚的博客，分享海量实用软件、网站和资源。",
+          "proxy": false
         },
         {
           "title": "奔跑中的奶酪",
           "url": "https://www.runningcheese.com/",
           "icon": "https://icon.horse/icon/runningcheese.com",
-          "desc": "致力于分享高效办公方法、优质软件和浏览器使用技巧的博客。"
+          "desc": "致力于分享高效办公方法、优质软件和浏览器使用技巧的博客。",
+          "proxy": false
         },
         {
           "title": "不死鸟",
           "url": "https://iao.su/",
           "icon": "https://icon.horse/icon/iao.su",
-          "desc": "分享为王，一个长期更新各类实用、有趣网络资源的分享网站。"
+          "desc": "分享为王，一个长期更新各类实用、有趣网络资源的分享网站。",
+          "proxy": false
         },
         {
           "title": "酷安",
           "url": "https://coolapk.com/",
           "icon": "https://icon.horse/icon/coolapk.com",
-          "desc": "发现应用的乐趣，一个以搞机、应用分享和科技资讯为主的社区。"
-        },
-        {
-          "title": "XDA Developers",
-          "url": "https://forum.xda-developers.com/",
-          "icon": "https://icon.horse/icon/xda-developers.com",
-          "desc": "全球最大的移动开发者社区，提供丰富的ROM、Root工具和玩机教程。"
+          "desc": "发现应用的乐趣，一个以搞机、应用分享和科技资讯为主的社区。",
+          "proxy": false
         },
         {
           "title": "致美化",
           "url": "https://zhutix.com/",
           "icon": "https://icon.horse/icon/zhutix.com",
-          "desc": "专业的Windows桌面美化交流平台，提供主题、壁纸、图标等美化资源。"
+          "desc": "专业的Windows桌面美化交流平台，提供主题、壁纸、图标等美化资源。",
+          "proxy": false
         },
         {
           "title": "iMyShare 资源导航",
           "url": "https://imyshare.com/",
           "icon": "https://icon.horse/icon/imyshare.com",
-          "desc": "汇集优质软件工具、学习资源和网站的综合性导航站。"
+          "desc": "汇集优质软件工具、学习资源和网站的综合性导航站。",
+          "proxy": false
         },
         {
           "title": "Greasy Fork",
           "url": "https://greasyfork.org/zh-CN",
           "icon": "https://icon.horse/icon/greasyfork.org",
-          "desc": "安全、实用的用户脚本分享中心，提供海量油猴脚本。"
+          "desc": "安全、实用的用户脚本分享中心，提供海量油猴脚本。",
+          "proxy": true
         }
       ]
     }

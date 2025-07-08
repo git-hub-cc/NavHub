@@ -5,51 +5,44 @@
       "categoryId": "dev-tools",
       "sites": [
         {
-          "title": "Extfans扩展迷",
-          "url": "https://www.extfans.com/",
-          "icon": "",
-          "desc": "Chrome国内镜像应用商店，部分下载需验证码。",
-          "proxy": false
-        },
-        {
           "title": "极简插件",
           "url": "https://chrome.zzzmh.cn/",
-          "icon": "",
+          "icon": "https://chrome.zzzmh.cn/favicon.ico",
           "desc": "严选有趣、实用、适合国内的Chrome扩展插件，可直接下载。",
           "proxy": false
         },
         {
           "title": "Tampermonkey",
           "url": "https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo",
-          "icon": "",
+          "icon": "https://chrome.google.com/chrome/static/images/favicons/favicon.ico",
           "desc": "一款免费的浏览器扩展和最为流行的用户脚本管理器。",
           "proxy": true
         },
         {
           "title": "Greasy Fork",
           "url": "https://greasyfork.org/zh-CN",
-          "icon": "",
+          "icon": "https://greasyfork.org/vite/assets/blacklogo16-DftkYuVe.png",
           "desc": "最受欢迎的油猴脚本资源库。",
           "proxy": false
         },
         {
           "title": "GitHub加速",
           "url": "https://chrome.google.com/webstore/detail/github加速/mfnkflidjnladnkldfonnaicljppahpg?utm_source=chrome-ntp-icon",
-          "icon": "",
+          "icon": "https://chrome.google.com/chrome/static/images/favicons/favicon.ico",
           "desc": "提高中国开发者访问GitHub的速度，提升克隆Git仓库的速度。",
           "proxy": true
         },
         {
           "title": "菜鸟教程",
           "url": "https://www.runoob.com/",
-          "icon": "",
+          "icon": "https://static.jyshare.com/images/favicon.ico",
           "desc": "学的不仅仅是技术，更是梦想。提供各类编程入门教程。",
           "proxy": false
         },
         {
           "title": "Python-100-Days",
           "url": "https://github.com/jackfrued/Python-100-Days",
-          "icon": "",
+          "icon": "https://github.githubassets.com/favicons/favicon.svg",
           "desc": "GitHub项目，Python从新手到大师的100天学习路径。",
           "proxy": false
         }
@@ -62,91 +55,77 @@
         {
           "title": "奶牛快传",
           "url": "https://cowtransfer.com/",
-          "icon": "",
+          "icon": "img/favicon/c-t/favicon.png",
           "desc": "非登录用户单次传输文件总大小上限为2GB，不限速下载。",
           "proxy": false
         },
         {
           "title": "文叔叔",
           "url": "https://www.wenshushu.cn/?i=H4VJG6",
-          "icon": "",
+          "icon": "https://www.wenshushu.cn/favicon.ico",
           "desc": "上传、下载单个文件，最大支持 5GB，不限速。",
-          "proxy": false
-        },
-        {
-          "title": "小鹿快传",
-          "url": "https://deershare.com/send",
-          "icon": "",
-          "desc": "P2P技术，文件数据不走服务器，直接发送给对方，无限速。",
-          "proxy": false
-        },
-        {
-          "title": "Alpix在线图片编辑器",
-          "url": "https://aipix.net/editor/?lang=zh",
-          "icon": "",
-          "desc": "超实用的一键自动抠图、图片编辑工具。",
           "proxy": false
         },
         {
           "title": "remove.bg",
           "url": "https://www.remove.bg/zh",
-          "icon": "",
+          "icon": "https://www.remove.bg/favicon-32x32.png?v=fc0bfce6e1310f1539afec9729716721",
           "desc": "在线AI抠图工具，可免费下载有限尺寸的预览图。",
           "proxy": false
         },
         {
           "title": "waifu2x",
-          "url": "http://waifu2x.udp.jp/index.zh-CN.html",
-          "icon": "",
+          "url": "https://waifu2x.udp.jp/index.zh-CN.html",
+          "icon": "https://waifu2x.udp.jp/favicon.ico",
           "desc": "对图片进行放大和降噪，效果很好，尤其适合动漫图片。",
           "proxy": false
         },
         {
           "title": "Bigjpg",
           "url": "https://bigjpg.com/",
-          "icon": "",
+          "icon": "https://bigjpg.com/htdocs/favicon.ico",
           "desc": "使用AI对图片进行无损放大。",
           "proxy": false
         },
         {
           "title": "Picdiet",
           "url": "https://www.picdiet.com/zh-cn",
-          "icon": "",
+          "icon": "https://www.picdiet.com/css/favicon.ico",
           "desc": "强大的在线图片压缩工具，可预览结果，无数量限制。",
           "proxy": false
         },
         {
           "title": "iLoveIMG",
           "url": "https://www.iloveimg.com/zh-cn",
-          "icon": "",
+          "icon": "https://www.iloveimg.com/img/favicons-img/favicon-16x16.png",
           "desc": "功能全面的在线图片处理工具，能批量压缩、转换格式等。",
           "proxy": false
         },
         {
           "title": "Smallpdf",
           "url": "https://smallpdf.com/cn",
-          "icon": "",
+          "icon": "https://smallpdf.com/favicon.png",
           "desc": "简单好用的线上 PDF 工具，功能一应俱全，免费版有使用次数限制。",
           "proxy": false
         },
         {
           "title": "MikuTools",
           "url": "https://tools.miku.ac/",
-          "icon": "",
+          "icon": "https://tools.miku.ac/favicon.ico",
           "desc": "一个简洁有趣的在线工具集合网站。",
           "proxy": false
         },
         {
           "title": "刘明野的工具箱",
-          "url": "http://tool.liumingye.cn/",
-          "icon": "",
+          "url": "https://tool.liumingye.cn/",
+          "icon": "https://ae01.alicdn.com/kf/H085a1499a38d4d8a920a396abceffa2bW.jpg",
           "desc": "提供好用、易用的工具，网站简洁明了。",
           "proxy": false
         },
         {
           "title": "白描网页版",
           "url": "https://web.baimiaoapp.com/",
-          "icon": "",
+          "icon": "https://web.baimiaoapp.com/favicon.ico",
           "desc": "一个完全免费的在线文字识别（OCR）网站。",
           "proxy": false
         }
@@ -159,64 +138,57 @@
         {
           "title": "果核剥壳",
           "url": "https://www.ghxi.com/",
-          "icon": "",
+          "icon": "https://www.ghxi.com/favicon.ico",
           "desc": "很著名的软件资源网站，提供各种免费、修改版软件。",
           "proxy": false
         },
         {
           "title": "大眼仔旭",
-          "url": "http://www.dayanzai.me/",
-          "icon": "",
+          "url": "https://www.dayanzai.me/",
+          "icon": "https://www.dayanzai.me/favicon.ico",
           "desc": "分享和推送很多破解、汉化软件。",
           "proxy": false
         },
         {
           "title": "Xclient",
           "url": "https://xclient.info/",
-          "icon": "",
+          "icon": "https://img.xclient.info/icon/favicon.ico",
           "desc": "优质的Mac OS软件分享平台，软件多且质量高。",
           "proxy": false
         },
         {
           "title": "Macwk",
           "url": "https://macwk.com/",
-          "icon": "",
+          "icon": "https://macwk.com/favicon-32x32.ico",
           "desc": "界面UI优秀的Mac软件站，分类齐全。",
           "proxy": false
         },
         {
           "title": "观道",
-          "url": "http://www.guandao.cc/",
+          "url": "https://www.guandao.cc/",
           "icon": "",
           "desc": "国外APP下载，相当于镜像的谷歌商店，下载速度快。",
           "proxy": false
         },
         {
-          "title": "芥子空间",
-          "url": "https://www.lieyou888.com/",
-          "icon": "",
-          "desc": "海内外热门游戏、全球应用下载。",
-          "proxy": false
-        },
-        {
           "title": "MSDN, I tell you",
           "url": "https://msdn.itellyou.cn/",
-          "icon": "",
+          "icon": "https://msdn.itellyou.cn/favicon.ico",
           "desc": "著名的系统镜像下载网站。",
           "proxy": false
         },
         {
           "title": "微PE工具箱",
-          "url": "http://www.wepe.com.cn/",
-          "icon": "",
+          "url": "https://www.wepe.com.cn/",
+          "icon": "https://www.wepe.com.cn/favicon.ico",
           "desc": "纯净、无广告的WinPE装机维护工具。",
           "proxy": false
         },
         {
-          "title": "GitHub Proxy",
-          "url": "https://ghproxy.com/",
-          "icon": "",
-          "desc": "GitHub 文件加速下载服务。",
+          "title": "蓝奏云第三方客户端 v1.0.9",
+          "url": "https://www.lanzoui.com/i1S2v01xbfzg",
+          "icon": "https://assets.woozooo.com/assets/favicon.ico",
+          "desc": "最近更新的破解版或绿色版软件，由爬虫自动更新。",
           "proxy": false
         }
       ]
@@ -228,35 +200,28 @@
         {
           "title": "超能搜",
           "url": "https://www.chaonengso.com/",
-          "icon": "",
+          "icon": "https://www.chaonengso.com/favicon.ico",
           "desc": "网盘搜索引擎合集。",
           "proxy": false
         },
         {
           "title": "毕方铺",
           "url": "https://www.iizhi.cn/",
-          "icon": "",
+          "icon": "https://cdn.iizhi.cn/zhi/mlogo.png",
           "desc": "百度云资源搜索引擎。",
           "proxy": false
         },
         {
           "title": "无解搜",
-          "url": "http://wujiesou.com/",
+          "url": "https://wujiesou.com/",
           "icon": "",
           "desc": "多功能的聚合搜素引擎，支持网页、影视、音乐、软件、网盘等。",
           "proxy": false
         },
         {
-          "title": "Torrent Kitty",
-          "url": "http://torrentkittyurl.com/tk/",
-          "icon": "",
-          "desc": "免费的磁力搜索网站发布页。",
-          "proxy": false
-        },
-        {
           "title": "磁力岛",
           "url": "https://openbt.net/",
-          "icon": "",
+          "icon": "https://openbt.net/favicon.ico",
           "desc": "磁力搜索引擎发布页。",
           "proxy": false
         }
@@ -267,65 +232,44 @@
       "categoryId": "media-entertainment",
       "sites": [
         {
-          "title": "茶杯狐",
-          "url": "https://www.cupfox.com/",
-          "icon": "",
-          "desc": "努力让找电影变得简单，聚合全网影视资源。",
-          "proxy": false
-        },
-        {
-          "title": "低端影视",
-          "url": "https://ddrk.me/",
-          "icon": "",
-          "desc": "提供超清在线影视观看，画质好。",
-          "proxy": false
-        },
-        {
           "title": "FIX字幕侠",
           "url": "https://www.zimuxia.cn/",
-          "icon": "",
+          "icon": "https://www.zimuxia.cn/wp-content/uploads/2016/03/cropped-logo2-32x32.png",
           "desc": "字幕制作平台，不提供在线播放，但有下载链接，很全。",
           "proxy": false
         },
         {
           "title": "MyFreeMP3",
-          "url": "http://tool.liumingye.cn/music/",
-          "icon": "",
+          "url": "https://tool.liumingye.cn/music/",
+          "icon": "https://ae01.alicdn.com/kf/H085a1499a38d4d8a920a396abceffa2bW.jpg",
           "desc": "包含了国内各大音乐平台中的内容，可免费在线听和下载。",
           "proxy": false
         },
         {
           "title": "YesPlayMusic",
           "url": "https://github.com/qier222/YesPlayMusic",
-          "icon": "",
+          "icon": "https://github.githubassets.com/favicons/favicon.svg",
           "desc": "高颜值的第三方网易云播放器。",
           "proxy": false
         },
         {
-          "title": "AGE动漫",
-          "url": "https://www.agefans.org/",
-          "icon": "",
-          "desc": "资源丰富的在线动漫番剧网站。",
-          "proxy": false
-        },
-        {
           "title": "ZzzFun动漫视频网",
-          "url": "http://www.zzzfun.com/",
-          "icon": "",
+          "url": "https://www.zzzfun.com/",
+          "icon": "https://www.zzzfun.com/favicon.ico",
           "desc": "弹幕动漫视频网站。",
           "proxy": false
         },
         {
           "title": "3DMGAME",
           "url": "https://www.3dmgame.com/",
-          "icon": "",
+          "icon": "https://www.3dmgame.com/favicon.ico",
           "desc": "老牌的单机游戏门户网站，提供游戏资讯和资源下载。",
           "proxy": false
         },
         {
           "title": "游侠网",
           "url": "https://www.ali213.net/",
-          "icon": "",
+          "icon": "https://www.ali213.net/favicon.ico",
           "desc": "老牌单机游戏网站，提供破解游戏和MOD资源。",
           "proxy": false
         }
@@ -338,49 +282,42 @@
         {
           "title": "极简简历",
           "url": "https://www.polebrief.com/index",
-          "icon": "",
+          "icon": "https://www.polebrief.com/favicon.ico",
           "desc": "最优质的简历制作平台，免登陆，免费下载。",
           "proxy": false
         },
         {
-          "title": "PPT超级市场",
-          "url": "https://ppt.sotary.com/web/wxapp/index.html",
-          "icon": "",
-          "desc": "免费、优质、高效、安全，提供一站式PPT服务。",
-          "proxy": false
-        },
-        {
           "title": "中国色",
-          "url": "http://zhongguose.com/",
-          "icon": "",
+          "url": "https://zhongguose.com/",
+          "icon": "https://zhongguose.com/img/favicon.ico",
           "desc": "展示中国传统颜色的网站。",
           "proxy": false
         },
         {
           "title": "wallhaven",
           "url": "https://wallhaven.cc/",
-          "icon": "",
+          "icon": "https://wallhaven.cc/favicon.ico",
           "desc": "高质量壁纸网站，资源非常丰富。",
           "proxy": true
         },
         {
           "title": "极简壁纸",
           "url": "https://bz.zzzmh.cn/",
-          "icon": "",
+          "icon": "https://bz.zzzmh.cn/favicon.ico",
           "desc": "海量电脑壁纸，最潮壁纸库。",
           "proxy": false
         },
         {
           "title": "致美化",
           "url": "https://zhutix.com/",
-          "icon": "",
+          "icon": "https://zhutix.com/favicon.ico",
           "desc": "专业的桌面美化交流平台，提供系统主题、美化工具等。",
           "proxy": false
         },
         {
           "title": "Lively Wallpaper",
           "url": "https://rocksdanister.github.io/lively/",
-          "icon": "",
+          "icon": "https://rocksdanister.github.io/favicon_io/favicon.ico",
           "desc": "免费版的Wallpaper Engine，可自定义动态桌面。",
           "proxy": false
         }
@@ -393,42 +330,21 @@
         {
           "title": "鸠摩搜书",
           "url": "https://www.jiumodiary.com/",
-          "icon": "",
+          "icon": "https://www.jiumodiary.com/images/favicon.png",
           "desc": "非常简洁好用的电子书搜索引擎。",
           "proxy": false
         },
         {
-          "title": "熊猫·搜书",
-          "url": "https://ebook.huzerui.com/#/",
-          "icon": "",
-          "desc": "一个聚合性电子书搜索网站。",
-          "proxy": false
-        },
-        {
-          "title": "SoBooks",
-          "url": "https://sobooks.cc/",
-          "icon": "",
-          "desc": "优质电子书资源免费下载网站。",
-          "proxy": false
-        },
-        {
-          "title": "Z-Library",
-          "url": "https://zh.b-ok.global/",
-          "icon": "",
-          "desc": "全球最大的数字图书馆，需要用特殊方法访问。",
-          "proxy": true
-        },
-        {
           "title": "PDF Drive",
           "url": "https://www.pdfdrive.com/",
-          "icon": "",
+          "icon": "https://www.pdfdrive.com/favicon.ico",
           "desc": "强大的外文PDF文件搜索引擎。",
           "proxy": true
         },
         {
           "title": "满小分论坛",
-          "url": "http://manxiaofen.com/",
-          "icon": "",
+          "url": "https://manxiaofen.com/",
+          "icon": "https://manxiaofen.com/favicon.ico",
           "desc": "考试资料共享平台，涉及建筑、会计、公考、外语、考研等。",
           "proxy": false
         },
@@ -447,43 +363,36 @@
       "sites": [
         {
           "title": "大数据导航",
-          "url": "http://hao.199it.com/",
-          "icon": "",
+          "url": "https://hao.199it.com/",
+          "icon": "https://hao.199it.com/favicon.ico",
           "desc": "各行各业、各门类的大数据分析网站导航。",
           "proxy": false
         },
         {
-          "title": "科塔学术导航",
-          "url": "https://site.sciping.com/",
-          "icon": "",
-          "desc": "非常专业、准确、及时、全面的科研与学术资源导航平台。",
-          "proxy": false
-        },
-        {
           "title": "创造狮",
-          "url": "http://chuangzaoshi.com/",
-          "icon": "",
+          "url": "https://chuangzaoshi.com/",
+          "icon": "https://chuangzaoshi.com/assets/images/favicon.png",
           "desc": "设计创意类网站的聚合导航，灵感聚集地。",
           "proxy": false
         },
         {
           "title": "PICKFREE",
-          "url": "http://www.pickfree.cn/",
-          "icon": "",
+          "url": "https://www.pickfree.cn/",
+          "icon": "https://www.pickfree.cn/favicon.png",
           "desc": "免费、免版权设计素材资源导航网站。",
           "proxy": false
         },
         {
           "title": "影视森林",
-          "url": "http://www.549.tv/",
-          "icon": "",
+          "url": "https://www.549.tv/",
+          "icon": "https://yanxuan.nosdn.127.net/739c5560d0646b1d1d4eb6263de8bc0b.png",
           "desc": "聚合各类影视网站和APP，观影第一站。",
           "proxy": false
         },
         {
           "title": "萌导航",
           "url": "https://mengdaohang.com/",
-          "icon": "",
+          "icon": "https://cccc.mengdaohang.com/img/tubiao.ico",
           "desc": "专业收录二次元动漫相关网站的导航。",
           "proxy": false
         }
@@ -496,29 +405,15 @@
         {
           "title": "wikihow",
           "url": "https://zh.wikihow.com/首页",
-          "icon": "",
+          "icon": "https://zh.wikihow.com/favicon_round.ico",
           "desc": "互联网上最有用的万事指南。",
           "proxy": false
         },
         {
-          "title": "Firefox Monitor",
-          "url": "https://monitor.firefox.com/",
-          "icon": "",
-          "desc": "可以查看自己的邮箱账号是否在数据泄露事件中出现。",
-          "proxy": true
-        },
-        {
           "title": "能不能好好说话",
           "url": "https://lab.magiconch.com/nbnhhsh/",
-          "icon": "",
+          "icon": "https://lab.magiconch.com/favicon.ico",
           "desc": "拼音首字母缩写释义工具。",
-          "proxy": false
-        },
-        {
-          "title": "声带去除和隔离",
-          "url": "https://vocalremover.org/ch/",
-          "icon": "",
-          "desc": "借助强大的AI算法将歌曲中的人声与伴奏分离开来。",
           "proxy": false
         },
         {
@@ -531,14 +426,14 @@
         {
           "title": "小鸡词典",
           "url": "https://jikipedia.com/",
-          "icon": "",
+          "icon": "https://jikipedia.com/favicon.ico",
           "desc": "查网络流行语，就上小鸡词典。",
           "proxy": false
         },
         {
           "title": "FUUN.FUN",
           "url": "https://fuun.fun/",
-          "icon": "",
+          "icon": "https://fuun.fun/favicon-32x32.png",
           "desc": "奇趣网站收藏家，收藏的网站都很有意思。",
           "proxy": false
         }

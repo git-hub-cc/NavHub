@@ -72,6 +72,8 @@ Upload the entire project folder (including all `.html`, `.css`, `.js`, and `.js
 *   The search suggestion feature is implemented by dynamically loading data from the [Baidu Suggestion API](https://www.baidu.com/s?wd=).
 *   The interface design is from[onenav](https://github.com/helloxz/onenav).
 *   The raw Pinyin data is sourced from [pinyin-data](https://github.com/mozillazg/pinyin-data).
+*   `资源船舱.json` is from [学习资源船舱](https://link3.cc/studyship).
+*   `大数据.json` is from [大数据](hao.199it.com)
 *   Thanks to **哆啦A梦的神奇口袋** for their organization and sharing!
 *   Thanks to **小帅同学** for their organization and sharing!
 *   Thanks to **懒人找资源** for their organization and sharing!

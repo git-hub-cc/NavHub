@@ -72,6 +72,8 @@
 *   搜索建议功能通过动态加载[百度 Suggestion API](https://www.baidu.com/s?wd=) 实现。
 *   界面设计来自[onenav](https://github.com/helloxz/onenav)
 *   拼音数据来自[pinyin-data](https://github.com/mozillazg/pinyin-data)
+*   `资源船舱.json`来自[学习资源船舱](https://link3.cc/studyship)
+*   `大数据.json`来自[大数据](hao.199it.com)
 *   感谢 **哆啦A梦的神奇口袋** 的整理与分享！
 *   感谢 **小帅同学** 的整理与分享！
 *   感谢 **懒人找资源** 的整理与分享！
