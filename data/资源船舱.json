@@ -1,7 +1,7 @@
 {
   "categories": [
     {
-      "categoryName": "少儿教育-阿里",
+      "categoryName": "少儿教育",
       "categoryId": "child-edu",
       "sites": [
         {
@@ -56,7 +56,7 @@
       ]
     },
     {
-      "categoryName": "小学教育-阿里",
+      "categoryName": "小学教育",
       "categoryId": "primary-school",
       "sites": [
         {
@@ -83,7 +83,7 @@
       ]
     },
     {
-      "categoryName": "初中教育-阿里",
+      "categoryName": "初中教育",
       "categoryId": "junior-high",
       "sites": [
         {
@@ -117,7 +117,7 @@
       ]
     },
     {
-      "categoryName": "高中教育-阿里",
+      "categoryName": "高中教育",
       "categoryId": "senior-high",
       "sites": [
         {
@@ -242,7 +242,7 @@
       ]
     },
     {
-      "categoryName": "学科竞赛-阿里",
+      "categoryName": "学科竞赛",
       "categoryId": "competitions",
       "sites": [
         {
@@ -276,7 +276,7 @@
       ]
     },
     {
-      "categoryName": "专升本-阿里",
+      "categoryName": "专升本",
       "categoryId": "college-transfer",
       "sites": [
         {
@@ -310,7 +310,7 @@
       ]
     },
     {
-      "categoryName": "大学教育-阿里",
+      "categoryName": "大学教育",
       "categoryId": "university",
       "sites": [
         {
@@ -379,7 +379,7 @@
       ]
     },
     {
-      "categoryName": "职业考试-阿里",
+      "categoryName": "职业考试",
       "categoryId": "professional-exams",
       "sites": [
         {
@@ -441,7 +441,7 @@
       ]
     },
     {
-      "categoryName": "文学与阅读-阿里",
+      "categoryName": "文学与阅读",
       "categoryId": "literature-reading",
       "sites": [
         {
@@ -503,7 +503,7 @@
       ]
     },
     {
-      "categoryName": "英语学习-阿里",
+      "categoryName": "英语学习",
       "categoryId": "english-learning",
       "sites": [
         {
@@ -915,7 +915,7 @@
       ]
     },
     {
-      "categoryName": "日语学习-阿里",
+      "categoryName": "日语学习",
       "categoryId": "japanese-learning",
       "sites": [
         {
@@ -928,7 +928,7 @@
       ]
     },
     {
-      "categoryName": "社科人文-阿里",
+      "categoryName": "社科人文",
       "categoryId": "social-sciences",
       "sites": [
         {
@@ -955,7 +955,7 @@
       ]
     },
     {
-      "categoryName": "自然科学-阿里",
+      "categoryName": "自然科学",
       "categoryId": "natural-sciences",
       "sites": [
         {
@@ -975,7 +975,7 @@
       ]
     },
     {
-      "categoryName": "综合技能课程-阿里",
+      "categoryName": "综合技能课程",
       "categoryId": "general-skills",
       "sites": [
         {
@@ -1044,7 +1044,7 @@
       ]
     },
     {
-      "categoryName": "搜索技巧-阿里",
+      "categoryName": "搜索技巧",
       "categoryId": "search-skills",
       "sites": [
         {
@@ -1078,7 +1078,7 @@
       ]
     },
     {
-      "categoryName": "人工智能 (AIGC)-阿里",
+      "categoryName": "人工智能 (AIGC)",
       "categoryId": "ai-aigc",
       "sites": [
         {
@@ -1091,7 +1091,7 @@
       ]
     },
     {
-      "categoryName": "编程开发-阿里",
+      "categoryName": "编程开发",
       "categoryId": "programming",
       "sites": [
         {
@@ -1118,7 +1118,7 @@
       ]
     },
     {
-      "categoryName": "绘画设计-阿里",
+      "categoryName": "绘画设计",
       "categoryId": "drawing-design",
       "sites": [
         {
@@ -1159,7 +1159,7 @@
       ]
     },
     {
-      "categoryName": "职场技能-阿里",
+      "categoryName": "职场技能",
       "categoryId": "workplace-skills",
       "sites": [
         {
@@ -1221,7 +1221,7 @@
       ]
     },
     {
-      "categoryName": "短剧-阿里",
+      "categoryName": "短剧",
       "categoryId": "short-drama",
       "sites": [
         {
@@ -1234,7 +1234,7 @@
       ]
     },
     {
-      "categoryName": "电影-阿里",
+      "categoryName": "电影",
       "categoryId": "movies",
       "sites": [
         {
@@ -1254,7 +1254,7 @@
       ]
     },
     {
-      "categoryName": "国产剧-阿里",
+      "categoryName": "国产剧",
       "categoryId": "chinese-drama",
       "sites": [
         {
@@ -1267,12 +1267,7 @@
       ]
     },
     {
-      "categoryName": "美剧-阿里",
-      "categoryId": "us-drama",
-      "sites": []
-    },
-    {
-      "categoryName": "纪录片-阿里",
+      "categoryName": "纪录片",
       "categoryId": "documentaries",
       "sites": [
         {
@@ -1285,7 +1280,7 @@
       ]
     },
     {
-      "categoryName": "戏曲与综合-阿里",
+      "categoryName": "戏曲与综合",
       "categoryId": "opera-variety",
       "sites": [
         {
@@ -1312,7 +1307,7 @@
       ]
     },
     {
-      "categoryName": "浏览器书签-阿里",
+      "categoryName": "浏览器书签",
       "categoryId": "bookmarks",
       "sites": [
         {
@@ -1332,7 +1327,7 @@
       ]
     },
     {
-      "categoryName": "浏览器插件-阿里",
+      "categoryName": "浏览器插件",
       "categoryId": "browser-extensions",
       "sites": [
         {
@@ -1345,7 +1340,7 @@
       ]
     },
     {
-      "categoryName": "电脑软件-阿里",
+      "categoryName": "电脑软件",
       "categoryId": "pc-software",
       "sites": [
         {
@@ -1918,7 +1913,7 @@
       ]
     },
     {
-      "categoryName": "影视后期软件-阿里",
+      "categoryName": "影视后期软件",
       "categoryId": "video-editing-software",
       "sites": [
         {
@@ -2246,7 +2241,7 @@
       ]
     },
     {
-      "categoryName": "安卓应用-阿里",
+      "categoryName": "安卓应用",
       "categoryId": "android-apps",
       "sites": [
         {
@@ -2259,7 +2254,7 @@
       ]
     },
     {
-      "categoryName": "苹果应用 (IPA)-阿里",
+      "categoryName": "苹果应用 (IPA)",
       "categoryId": "ios-apps",
       "sites": [
         {
@@ -2272,7 +2267,7 @@
       ]
     },
     {
-      "categoryName": "素材与模板-阿里",
+      "categoryName": "素材与模板",
       "categoryId": "assets-templates",
       "sites": [
         {
@@ -2299,7 +2294,7 @@
       ]
     },
     {
-      "categoryName": "论文文献-阿里",
+      "categoryName": "论文文献",
       "categoryId": "papers-literature",
       "sites": [
         {
@@ -2312,7 +2307,7 @@
       ]
     },
     {
-      "categoryName": "资源链接汇总-阿里",
+      "categoryName": "资源链接汇总",
       "categoryId": "link-collections",
       "sites": [
         {
@@ -2325,7 +2320,7 @@
       ]
     },
     {
-      "categoryName": "B站百大UP主-阿里",
+      "categoryName": "B站百大UP主",
       "categoryId": "bilibili-top-100",
       "sites": [
         {
@@ -2338,7 +2333,7 @@
       ]
     },
     {
-      "categoryName": "网站书签-阿里",
+      "categoryName": "网站书签",
       "categoryId": "web-bookmarks",
       "sites": [
         {
@@ -2351,7 +2346,7 @@
       ]
     },
     {
-      "categoryName": "音乐资源-阿里",
+      "categoryName": "音乐资源",
       "categoryId": "music-resources",
       "sites": [
         {
@@ -2378,12 +2373,7 @@
       ]
     },
     {
-      "categoryName": "表情包-阿里",
-      "categoryId": "emoji-stickers",
-      "sites": []
-    },
-    {
-      "categoryName": "壁纸资源-阿里",
+      "categoryName": "壁纸资源",
       "categoryId": "wallpapers",
       "sites": [
         {

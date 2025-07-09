@@ -1,28 +1,14 @@
 {
   "categories": [
     {
-      "categoryName": "影视影音 (Media)",
+      "categoryName": "影视影音",
       "categoryId": "media",
       "sites": [
         {
           "title": "电影狗",
           "url": "https://www.dianyinggou.com/",
-          "icon": "",
+          "icon": "data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22%3E%3Ctext y=%22.9em%22 font-size=%2290%22%3E🌐%3C/text%3E%3C/svg%3E",
           "desc": "强大的影视资源聚合搜索引擎。",
-          "proxy": false
-        },
-        {
-          "title": "樱花动漫",
-          "url": "https://www.momdm.cc/",
-          "icon": "data:;base64,iVBORw0KGgo=",
-          "desc": "丰富的在线动漫资源。",
-          "proxy": false
-        },
-        {
-          "title": "哔嘀影视",
-          "url": "https://www.bde4.cc/",
-          "icon": "data:;base64,iVBORw0KGgo=",
-          "desc": "高清在线影视观看网站。",
           "proxy": false
         },
         {
@@ -35,14 +21,14 @@
         {
           "title": "奈飞星",
           "url": "https://nfxhd.com/",
-          "icon": "",
+          "icon": "data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22%3E%3Ctext y=%22.9em%22 font-size=%2290%22%3E🌐%3C/text%3E%3C/svg%3E",
           "desc": "提供Netflix等流媒体影视内容。",
           "proxy": false
         },
         {
           "title": "LIBVIO",
           "url": "https://www.libvio.com",
-          "icon": "",
+          "icon": "data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22%3E%3Ctext y=%22.9em%22 font-size=%2290%22%3E🌐%3C/text%3E%3C/svg%3E",
           "desc": "一个简洁的在线影视网站。",
           "proxy": false
         },
@@ -52,18 +38,11 @@
           "icon": "https://www.zhibo8.cc/favicon.ico",
           "desc": "知名的体育赛事直播和资讯平台。",
           "proxy": false
-        },
-        {
-          "title": "JRS直播",
-          "url": "https://jrszb.com/",
-          "icon": "https://jrszb.com/favicon.ico",
-          "desc": "提供NBA、足球等体育赛事直播。",
-          "proxy": false
         }
       ]
     },
     {
-      "categoryName": "软件资源 (Software)",
+      "categoryName": "软件资源",
       "categoryId": "software-resources",
       "sites": [
         {
@@ -146,7 +125,7 @@
       ]
     },
     {
-      "categoryName": "学习教育 (Education)",
+      "categoryName": "学习教育",
       "categoryId": "learning-education",
       "sites": [
         {
@@ -222,7 +201,7 @@
       ]
     },
     {
-      "categoryName": "在线工具 (Online Tools)",
+      "categoryName": "在线工具",
       "categoryId": "online-tools",
       "sites": [
         {
@@ -284,7 +263,7 @@
       ]
     },
     {
-      "categoryName": "资源搜索 (Search)",
+      "categoryName": "资源搜索",
       "categoryId": "search-resources",
       "sites": [
         {
@@ -314,18 +293,11 @@
           "icon": "https://media.ailongmiao.com/uploads/2021/09/favicon.png",
           "desc": "专注于影视资源的导航网站。",
           "proxy": false
-        },
-        {
-          "title": "果汁导航",
-          "url": "https://guozhivip.com/",
-          "icon": "https://guozhivip.com/images/ic.ico",
-          "desc": "一个简洁、实用的导航网站。",
-          "proxy": false
         }
       ]
     },
     {
-      "categoryName": "设计素材 (Design)",
+      "categoryName": "设计素材",
       "categoryId": "design-assets",
       "sites": [
         {
@@ -380,14 +352,14 @@
         {
           "title": "100font",
           "url": "https://www.100font.com",
-          "icon": "",
+          "icon": "data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22%3E%3Ctext y=%22.9em%22 font-size=%2290%22%3E🌐%3C/text%3E%3C/svg%3E",
           "desc": "一个专门收集免费可商用字体的网站。",
           "proxy": false
         }
       ]
     },
     {
-      "categoryName": "阅读文库 (Reading)",
+      "categoryName": "阅读文库",
       "categoryId": "reading-library",
       "sites": [
         {
@@ -407,7 +379,7 @@
         {
           "title": "笔趣阁",
           "url": "https://www.biquge5200.com/",
-          "icon": "",
+          "icon": "data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22%3E%3Ctext y=%22.9em%22 font-size=%2290%22%3E🌐%3C/text%3E%3C/svg%3E",
           "desc": "知名网络小说阅读和更新网站。",
           "proxy": false
         },
@@ -428,7 +400,7 @@
       ]
     },
     {
-      "categoryName": "生活其它 (Lifestyle)",
+      "categoryName": "生活其它",
       "categoryId": "lifestyle-misc",
       "sites": [
         {
@@ -441,7 +413,7 @@
         {
           "title": "什么值得买",
           "url": "https://www.smzdm.com/",
-          "icon": "",
+          "icon": "data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22%3E%3Ctext y=%22.9em%22 font-size=%2290%22%3E🌐%3C/text%3E%3C/svg%3E",
           "desc": "消费决策平台，分享高性价比的网购产品。",
           "proxy": false
         },

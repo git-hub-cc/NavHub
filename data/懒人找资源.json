@@ -181,14 +181,14 @@
         {
           "title": "疯狂影视搜索",
           "url": "https://ifkdy.com/",
-          "icon": "",
+          "icon": "data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22%3E%3Ctext y=%22.9em%22 font-size=%2290%22%3E🌐%3C/text%3E%3C/svg%3E",
           "desc": "聚合搜索，提供磁力链接等多种下载方式。",
           "proxy": false
         },
         {
           "title": "电影狗",
           "url": "https://www.dianyinggou.com/",
-          "icon": "",
+          "icon": "data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22%3E%3Ctext y=%22.9em%22 font-size=%2290%22%3E🌐%3C/text%3E%3C/svg%3E",
           "desc": "聚合搜索，一站查找多家影视站资源。",
           "proxy": false
         },
@@ -202,14 +202,14 @@
         {
           "title": "奈菲影视",
           "url": "https://www.nfmovies.com/",
-          "icon": "",
+          "icon": "data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22%3E%3Ctext y=%22.9em%22 font-size=%2290%22%3E🌐%3C/text%3E%3C/svg%3E",
           "desc": "在线观看，广告较多。",
           "proxy": false
         },
         {
           "title": "6V电影",
           "url": "https://www.hao6v.net/",
-          "icon": "",
+          "icon": "data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22%3E%3Ctext y=%22.9em%22 font-size=%2290%22%3E🌐%3C/text%3E%3C/svg%3E",
           "desc": "提供磁力下载。（备用：hao6v.com, 6vhao.tv）",
           "proxy": false
         },
@@ -271,7 +271,7 @@
         {
           "title": "迅雷-免会员精简去限速版",
           "url": "https://www.lanzous.com/i8mip2f",
-          "icon": "",
+          "icon": "data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22%3E%3Ctext y=%22.9em%22 font-size=%2290%22%3E🌐%3C/text%3E%3C/svg%3E",
           "desc": "安卓版迅雷，精简去广告。",
           "proxy": false
         }
@@ -291,7 +291,7 @@
         {
           "title": "静然书屋",
           "url": "https://books.andrewjr.workers.dev/0:/",
-          "icon": "",
+          "icon": "data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22%3E%3Ctext y=%22.9em%22 font-size=%2290%22%3E🌐%3C/text%3E%3C/svg%3E",
           "desc": "界面简洁的电子书网盘，资源质量高。👍👍👍",
           "proxy": false
         },
@@ -491,7 +491,7 @@
         {
           "title": "Dribbble",
           "url": "https://dribbble.com/",
-          "icon": "",
+          "icon": "data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22%3E%3Ctext y=%22.9em%22 font-size=%2290%22%3E🌐%3C/text%3E%3C/svg%3E",
           "desc": "设计师作品分享与交流平台。",
           "proxy": false
         },

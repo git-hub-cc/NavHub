@@ -540,26 +540,27 @@ html[data-theme='dark'] .card:hover {
     100% { transform: rotate(0deg); }
 }
 
-/* --- BUG FIX: Scoped all editing/deleting styles to only affect cards within the user's custom section --- */
-.content-wrapper.is-editing #custom-user-sites .card {
+/* --- MODIFICATION: Scoped all editing/deleting styles to a class instead of an ID --- */
+/* This makes the styles apply to any category within a custom/editable data source. */
+.content-wrapper.is-editing .custom-source-section .card {
     animation: wobble 0.5s infinite;
     cursor: grab;
 }
 
-.content-wrapper.is-editing #custom-user-sites .card:hover {
+.content-wrapper.is-editing .custom-source-section .card:hover {
     animation-play-state: paused;
 }
 
-.content-wrapper.is-deleting #custom-user-sites .card {
+.content-wrapper.is-deleting .custom-source-section .card {
     cursor: pointer;
 }
 
-.content-wrapper.is-deleting #custom-user-sites .card:hover {
+.content-wrapper.is-deleting .custom-source-section .card:hover {
     transform: none; /* Disable hover lift effect in delete mode */
     box-shadow: 0 4px 12px var(--shadow-color);
 }
 
-.content-wrapper.is-deleting #custom-user-sites .card::after {
+.content-wrapper.is-deleting .custom-source-section .card::after {
     content: '🗑️';
     position: absolute;
     top: 0;
@@ -576,7 +577,7 @@ html[data-theme='dark'] .card:hover {
     transition: background-color 0.2s;
 }
 
-.content-wrapper.is-deleting #custom-user-sites .card:hover::after {
+.content-wrapper.is-deleting .custom-source-section .card:hover::after {
     background-color: rgba(220, 53, 69, 0.85);
 }
 
@@ -808,7 +809,7 @@ html[data-theme='dark'] .btn-primary:hover {
 }
 
 ::-webkit-scrollbar-thumb {
-    background-color: var(--border-color);
+    background-color: var(--accent-color);
     border-radius: 10px;
     border: 2px solid var(--bg-color);
     background-clip: padding-box;

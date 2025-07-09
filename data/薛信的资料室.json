@@ -166,7 +166,7 @@
         {
           "title": "观道",
           "url": "https://www.guandao.cc/",
-          "icon": "",
+          "icon": "data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22%3E%3Ctext y=%22.9em%22 font-size=%2290%22%3E🌐%3C/text%3E%3C/svg%3E",
           "desc": "国外APP下载，相当于镜像的谷歌商店，下载速度快。",
           "proxy": false
         },
@@ -214,7 +214,7 @@
         {
           "title": "无解搜",
           "url": "https://wujiesou.com/",
-          "icon": "",
+          "icon": "data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22%3E%3Ctext y=%22.9em%22 font-size=%2290%22%3E🌐%3C/text%3E%3C/svg%3E",
           "desc": "多功能的聚合搜素引擎，支持网页、影视、音乐、软件、网盘等。",
           "proxy": false
         },
@@ -344,7 +344,7 @@
         {
           "title": "科学文库",
           "url": "https://book.sciencereading.cn/shop/main/Login/shopFrame.do",
-          "icon": "",
+          "icon": "data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22%3E%3Ctext y=%22.9em%22 font-size=%2290%22%3E🌐%3C/text%3E%3C/svg%3E",
           "desc": "提供了非常丰富的大学教材，涵盖多个学科。",
           "proxy": false
         }
@@ -412,7 +412,7 @@
         {
           "title": "诺基亚短信图片生成器",
           "url": "https://zzkia.noddl.me/",
-          "icon": "",
+          "icon": "data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22%3E%3Ctext y=%22.9em%22 font-size=%2290%22%3E🌐%3C/text%3E%3C/svg%3E",
           "desc": "可以生成带有任意文字的诺基亚经典短信照片。",
           "proxy": false
         },

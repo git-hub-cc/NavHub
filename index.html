@@ -1,3 +1,5 @@
+--- START OF FILE index.html ---
+
 <!DOCTYPE html>
 <html lang="zh-CN">
 <head>
@@ -8,6 +10,26 @@
     <meta name="description" content="NavHub - 一个轻量、优雅且功能强大的纯前端个人导航/起始页。支持聚合搜索、网站拖拽管理、暗黑模式切换和响应式设计。零依赖, 易部署, 打造属于你自己的浏览器主页。">
     <meta name="keywords" content="NavHub, 个人导航, 导航页, 起始页, 浏览器主页, 聚合搜索, 静态网站, 纯前端, 开源项目, 高度可定制, 效率工具, 暗黑模式">
     <!-- SEO Meta Tags End -->
+
+    <!-- Theme Initialization Script (to prevent theme flicker on refresh) -->
+    <script>
+        (function() {
+            try {
+                const preference = localStorage.getItem('theme-preference');
+                const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+                let theme = 'light'; // Default theme
+                if (preference) {
+                    theme = preference;
+                } else if (prefersDark) {
+                    theme = 'dark';
+                }
+                document.documentElement.setAttribute('data-theme', theme);
+            } catch (e) {
+                // Fails silently if localStorage or matchMedia is not available.
+            }
+        })();
+    </script>
+
     <title>NavHub</title>
     <link rel="stylesheet" href="style.css">
 </head>
@@ -26,10 +48,8 @@
             <div class="data-actions">
                 <button id="import-btn" class="btn-secondary">导入</button>
                 <button id="export-btn" class="btn-secondary">导出</button>
-                <!-- --- MODIFICATION START --- -->
                 <button id="delete-source-btn" class="btn-secondary btn-danger">删除</button>
-                <!-- --- MODIFICATION END --- -->
-                <input type="file" id="import-file-input" accept=".json" style="display: none;">
+                <input type="file" id="import-file-input" accept=".json,.html" style="display: none;">
             </div>
             <div class="data-source-selector">
                 <label for="data-source-select">数据源</label>
@@ -57,7 +77,7 @@
     <main class="main-content">
         <div class="main-content-inner">
             <!-- 增强搜索头部 -->
-            <header class="header enhanced-search-header">
+            <header class="enhanced-search-header">
                 <div id="search-category-buttons" class="category-buttons">
                     <!-- 搜索类别按钮将由 JS 动态生成 -->
                 </div>
@@ -148,7 +168,19 @@
     </div>
 </div>
 
-<script src="pinyin-converter.js"></script>
-<script src="script.js"></script>
+<!-- ========================================================================== -->
+<!--                        脚本加载 (Scripts Loading)                        -->
+<!-- ========================================================================== -->
+<!--
+    加载顺序非常重要:
+    1. pinyin-converter.js: 这是一个传统的脚本，它会创建一个全局的 `pinyinConverter` 对象。
+       它必须首先加载，这样后续的模块才能访问到这个全局对象。
+    2. main.js: 这是一个ES模块 (`type="module"`)，是整个应用的入口。
+       它会负责导入并执行 data.js, ui.js, import-export.js 中的逻辑。
+       模块脚本默认是 `defer` 的，会在文档解析完毕后执行。
+-->
+<script src="./js/pinyin-converter.js"></script>
+<script type="module" src="./js/main.js"></script>
+
 </body>
 </html>

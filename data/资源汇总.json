@@ -373,12 +373,14 @@
         {
           "title": "文件夹大小排序",
           "url": "https://pan.baidu.com/s/13v-ym1vnoxgF2K5eQJjIQQ",
+          "icon": "img/favicon/panbaidu/favicon.ico",
           "desc": "显示文件夹大小并排序的工具，【提取码：rq43】。",
           "proxy": false
         },
         {
           "title": "SpleeterGui",
           "url": "https://pan.baidu.com/s/1Mzihk3yJJIqxb09mNtMsWw",
+          "icon": "img/favicon/panbaidu/favicon.ico",
           "desc": "消人声利器，可分离人声和伴奏，【提取码：ayx2】。",
           "proxy": false
         },
@@ -866,16 +868,9 @@
           "proxy": false
         },
         {
-          "title": "橘子盘搜",
-          "url": "https://www.nmme.cc/",
-          "icon": "https://www.nmme.cc/favicon.ico",
-          "desc": "支持搜索百度、阿里云盘影视资源",
-          "proxy": false
-        },
-        {
           "title": "电影狗",
           "url": "https://www.dianyinggou.com/",
-          "icon": "",
+          "icon": "data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22%3E%3Ctext y=%22.9em%22 font-size=%2290%22%3E🌐%3C/text%3E%3C/svg%3E",
           "desc": "支持源多，优质，有App",
           "proxy": false
         },
@@ -965,7 +960,7 @@
         {
           "title": "免费看电影",
           "url": "https://mfkys.com/",
-          "icon": "",
+          "icon": "data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22%3E%3Ctext y=%22.9em%22 font-size=%2290%22%3E🌐%3C/text%3E%3C/svg%3E",
           "desc": "备用mfkys.tv mfkys.vip 播放不卡顿、高清",
           "proxy": false
         },
@@ -1111,7 +1106,7 @@
         {
           "title": "逍遥安卓模拟器",
           "url": "https://pan.baidu.com/s/1RU6oMskoDM4ZaXp4RYEagw",
-          "icon": "",
+          "icon": "img/favicon/panbaidu/favicon.ico",
           "desc": "绿色无广告7.5.0版本",
           "proxy": false
         },
@@ -1221,7 +1216,7 @@
         {
           "title": "科学文库",
           "url": "https://book.sciencereading.cn/shop/main/Login/shopFrame.do",
-          "icon": "",
+          "icon": "data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22%3E%3Ctext y=%22.9em%22 font-size=%2290%22%3E🌐%3C/text%3E%3C/svg%3E",
           "desc": "各行各业，真的太全了，仅支持在线阅读",
           "proxy": false
         }
@@ -1255,7 +1250,7 @@
         {
           "title": "Logo神器",
           "url": "https://www.logosc.cn/",
-          "icon": "",
+          "icon": "data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22%3E%3Ctext y=%22.9em%22 font-size=%2290%22%3E🌐%3C/text%3E%3C/svg%3E",
           "desc": "一键生成logo",
           "proxy": false
         }
@@ -1296,7 +1291,7 @@
         {
           "title": "在线PS修图",
           "url": "https://www.photopea.com",
-          "icon": "",
+          "icon": "data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22%3E%3Ctext y=%22.9em%22 font-size=%2290%22%3E🌐%3C/text%3E%3C/svg%3E",
           "desc": "强大的在线PS",
           "proxy": true
         },
@@ -1337,14 +1332,14 @@
         {
           "title": "什么值得买",
           "url": "https://www.smzdm.com/",
-          "icon": "",
+          "icon": "data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22%3E%3Ctext y=%22.9em%22 font-size=%2290%22%3E🌐%3C/text%3E%3C/svg%3E",
           "desc": "多网站推荐此站，多产品测评",
           "proxy": false
         },
         {
           "title": "慢慢买",
           "url": "https://www.manmanbuy.com",
-          "icon": "",
+          "icon": "data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22%3E%3Ctext y=%22.9em%22 font-size=%2290%22%3E🌐%3C/text%3E%3C/svg%3E",
           "desc": "比价购物",
           "proxy": false
         },
@@ -1413,7 +1408,7 @@
         {
           "title": "腾讯哈勃分析",
           "url": "https://habo.qq.com/",
-          "icon": "",
+          "icon": "data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22%3E%3Ctext y=%22.9em%22 font-size=%2290%22%3E🌐%3C/text%3E%3C/svg%3E",
           "desc": "在线病毒检测，普通用户不超过30MB",
           "proxy": false
         },
@@ -1447,7 +1442,7 @@
         {
           "title": "合集网",
           "url": "https://heji.ru/",
-          "icon": "",
+          "icon": "data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22%3E%3Ctext y=%22.9em%22 font-size=%2290%22%3E🌐%3C/text%3E%3C/svg%3E",
           "desc": "3000+优质网站资源汇总，分类清晰，整理的都是合集，超级优质！",
           "proxy": false
         },
@@ -1488,23 +1483,18 @@
         {
           "title": "数学 - 历年真题 (2023版)",
           "url": "https://pan.baidu.com/s/1cZgwU9g0bDjiY5wYyDpf6w",
-          "icon": "https://pan.baidu.com/favicon.ico",
+          "icon": "img/favicon/panbaidu/favicon.ico",
           "desc": "2023考研数学历年真题。提取码: 4guc",
           "proxy": false
         },
         {
           "title": "英语 - 历年真题 (2023版)",
           "url": "https://pan.baidu.com/s/1ywPzaIrI4bSPnhjBz4CjBA",
-          "icon": "https://pan.baidu.com/favicon.ico",
+          "icon": "img/favicon/panbaidu/favicon.ico",
           "desc": "2023考研英语历年真题。提取码: 7k2g",
           "proxy": false
         }
       ]
-    },
-    {
-      "categoryName": "考研专业课",
-      "categoryId": "kaoyan-major",
-      "sites": []
     },
     {
       "categoryName": "考研复试",
@@ -1513,42 +1503,42 @@
         {
           "title": "腿姐团队复试指导",
           "url": "https://pan.baidu.com/s/1dsBwGk-fu3rSn3EtU6zXrw",
-          "icon": "https://pan.baidu.com/favicon.ico",
+          "icon": "img/favicon/panbaidu/favicon.ico",
           "desc": "2022复试资料。提取码: 4q9s",
           "proxy": false
         },
         {
           "title": "文都特训复试班",
           "url": "https://pan.baidu.com/s/1OE40p00CGfeHL8OieQjfcA",
-          "icon": "https://pan.baidu.com/favicon.ico",
+          "icon": "img/favicon/panbaidu/favicon.ico",
           "desc": "2022复试资料。提取码: 6414",
           "proxy": false
         },
         {
           "title": "新东方复试特训车",
           "url": "https://pan.baidu.com/s/12bpDzNKM0N_Ts9eelhmvXg",
-          "icon": "https://pan.baidu.com/favicon.ico",
+          "icon": "img/favicon/panbaidu/favicon.ico",
           "desc": "2022复试资料。提取码: er3x",
           "proxy": false
         },
         {
           "title": "复试技巧及简历模板",
           "url": "https://pan.baidu.com/s/1Kn5_412RoX6udhg_PVjqMw",
-          "icon": "https://pan.baidu.com/favicon.ico",
+          "icon": "img/favicon/panbaidu/favicon.ico",
           "desc": "往期版本，仍有参考价值。提取码: jusi",
           "proxy": false
         },
         {
           "title": "法硕复试系列",
           "url": "https://pan.baidu.com/s/1ZwULkYOxc6_ObNejfHXOGg",
-          "icon": "https://pan.baidu.com/favicon.ico",
+          "icon": "img/favicon/panbaidu/favicon.ico",
           "desc": "2022法硕复试资料。提取码: q9qy",
           "proxy": false
         },
         {
           "title": "计算机复试系列",
           "url": "https://pan.baidu.com/s/1rmX4grvpHZphu2yteMeKsw",
-          "icon": "https://pan.baidu.com/favicon.ico",
+          "icon": "img/favicon/panbaidu/favicon.ico",
           "desc": "2022计算机复试资料。提取码: tiiu",
           "proxy": false
         }
@@ -1561,28 +1551,28 @@
         {
           "title": "英语专业四级 (TEM-4)",
           "url": "https://pan.baidu.com/s/1iQbSjBHnDoXq6rX34Lm2xQ",
-          "icon": "https://pan.baidu.com/favicon.ico",
+          "icon": "img/favicon/panbaidu/favicon.ico",
           "desc": "英语专业四级备考资料。提取码: e30r",
           "proxy": false
         },
         {
           "title": "英语专业八级 (TEM-8)",
           "url": "https://pan.baidu.com/s/1mXey9m2SIcQ3twzzD5w-9w",
-          "icon": "https://pan.baidu.com/favicon.ico",
+          "icon": "img/favicon/panbaidu/favicon.ico",
           "desc": "英语专业八级备考资料。提取码: a3ip",
           "proxy": false
         },
         {
           "title": "大学英语四级 (CET-4)",
           "url": "https://pan.baidu.com/s/1c5qXDATD9kVSlvLXkYh7oQ",
-          "icon": "https://pan.baidu.com/favicon.ico",
+          "icon": "img/favicon/panbaidu/favicon.ico",
           "desc": "2021年四级备考资料。提取码: 9qb2",
           "proxy": false
         },
         {
           "title": "大学英语六级 (CET-6)",
           "url": "https://pan.baidu.com/s/1Pmr4cNJd-4o_xuZIh08REg",
-          "icon": "https://pan.baidu.com/favicon.ico",
+          "icon": "img/favicon/panbaidu/favicon.ico",
           "desc": "2021年六级备考资料。提取码: olp6",
           "proxy": false
         }
