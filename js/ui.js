@@ -367,12 +367,9 @@ export function filterNavCards(query) {
             }
         });
 
-        // 任何可编辑的分类（即自定义源中的分类）即使内容为空也应显示
-        if (section.classList.contains('custom-source-section')) {
-            section.style.display = '';
-        } else {
-            section.style.display = visibleCardsInSection > 0 ? '' : 'none';
-        }
+        // --- MODIFICATION ---
+        // 如果分类中没有可见的卡片，则隐藏整个分类板块
+        section.style.display = visibleCardsInSection > 0 ? '' : 'none';
     });
 }
 
