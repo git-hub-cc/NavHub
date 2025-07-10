@@ -1,6 +1,82 @@
 {
   "categories": [
     {
+      "categoryName": "AI 工具",
+      "categoryId": "ai-tools",
+      "sites": [
+        {
+          "title": "Kimi.ai",
+          "url": "https://kimi.moonshot.cn/",
+          "icon": "https://icon.horse/icon/kimi.moonshot.cn",
+          "desc": "月之暗面出品的智能助手，支持超长无损上下文，能高效阅读、分析和总结文件。",
+          "proxy": false
+        },
+        {
+          "title": "DeepSeek",
+          "url": "https://chat.deepseek.com/",
+          "icon": "https://icon.horse/icon/deepseek.com",
+          "desc": "深度求索出品的高性能AI大模型，在代码和数学领域表现出色。",
+          "proxy": false
+        },
+        {
+          "title": "通义千问",
+          "url": "https://chat.qwenlm.ai/",
+          "icon": "https://icon.horse/icon/qwenlm.ai",
+          "desc": "阿里巴巴通义千问大模型，功能全面的智能对话助手。",
+          "proxy": false
+        },
+        {
+          "title": "豆包",
+          "url": "https://www.doubao.com/chat/",
+          "icon": "https://icon.horse/icon/doubao.com",
+          "desc": "字节跳动出品的AI智能助手，提供聊天、写作、问答等多种服务。",
+          "proxy": false
+        },
+        {
+          "title": "腾讯元宝",
+          "url": "https://yuanbao.tencent.com/chat/naQivTmsDa",
+          "icon": "https://icon.horse/icon/yuanbao.tencent.com",
+          "desc": "腾讯出品的AI助手，专注于工作效率和生活服务场景。",
+          "proxy": false
+        },
+        {
+          "title": "文心一言",
+          "url": "https://yiyan.baidu.com/",
+          "icon": "https://icon.horse/icon/yiyan.baidu.com",
+          "desc": "百度研发的知识增强大语言模型，提供创作、问答、代码编写等能力。",
+          "proxy": false
+        },
+        {
+          "title": "星火大模型",
+          "url": "https://xinghuo.xfyun.cn/",
+          "icon": "https://icon.horse/icon/xfyun.cn",
+          "desc": "科大讯飞推出的认知大模型，具备跨领域的知识和语言理解能力。",
+          "proxy": false
+        },
+        {
+          "title": "腾讯混元",
+          "url": "https://hunyuan.tencent.com/",
+          "icon": "https://icon.horse/icon/hunyuan.tencent.com",
+          "desc": "腾讯自研的实用级大模型，支持文生图、实时生图等多种AI能力。",
+          "proxy": false
+        },
+        {
+          "title": "Kling AI",
+          "url": "https://app.klingai.com/cn/",
+          "icon": "https://icon.horse/icon/klingai.com",
+          "desc": "快手推出的AI视频生成大模型，能够生成长达2分钟、高分辨率的视频内容。",
+          "proxy": false
+        },
+        {
+          "title": "Runway",
+          "url": "https://app.runwayml.com/",
+          "icon": "https://icon.horse/icon/runwayml.com",
+          "desc": "领先的AI视频创作平台，提供文生视频、视频编辑等多种强大的AI工具。",
+          "proxy": true
+        }
+      ]
+    },
+    {
       "categoryName": "精品软件站",
       "categoryId": "software-hubs",
       "sites": [
@@ -61,7 +137,7 @@
           "proxy": false
         },
         {
-          "title": "蓝奏云第三方客户端 v1.0.9",
+          "title": "蓝奏云第三方客户端",
           "url": "https://www.lanzoui.com/i1S2v01xbfzg",
           "icon": "https://assets.woozooo.com/assets/favicon.ico",
           "desc": "最近更新的破解版或绿色版软件，由爬虫自动更新。",
@@ -70,7 +146,55 @@
       ]
     },
     {
-      "categoryName": "影音媒体",
+      "categoryName": "系统工具",
+      "categoryId": "system-tools",
+      "sites": [
+        {
+          "title": "火绒安全",
+          "url": "https://www.huorong.cn/",
+          "icon": "https://icon.horse/icon/huorong.cn",
+          "desc": "国产免费安全软件，功能强大，轻巧干净，有效防御病毒和流氓软件。",
+          "proxy": false
+        },
+        {
+          "title": "Everything",
+          "url": "https://www.voidtools.com/zh-cn/downloads/",
+          "icon": "https://icon.horse/icon/voidtools.com",
+          "desc": "Windows上一款速度极快的全盘文件搜索工具，秒级响应。",
+          "proxy": false
+        },
+        {
+          "title": "Ventoy",
+          "url": "https://www.ventoy.net/cn/index.html",
+          "icon": "https://icon.horse/icon/ventoy.net",
+          "desc": "新一代多合一启动U盘解决方案，无需反复格式化即可直接启动ISO/WIM/IMG等文件。",
+          "proxy": false
+        },
+        {
+          "title": "微PE工具箱",
+          "url": "http://www.wepe.com.cn/download.html",
+          "icon": "https://icon.horse/icon/wepe.com.cn",
+          "desc": "纯净、无广告的WinPE工具箱，是电脑维护和系统安装的得力助手。",
+          "proxy": false
+        },
+        {
+          "title": "Office Tool Plus",
+          "url": "https://otp.landian.vip/zh-cn/",
+          "icon": "https://icon.horse/icon/landian.vip",
+          "desc": "一个强大且实用的 Office 部署、激活和管理工具。",
+          "proxy": false
+        },
+        {
+          "title": "7-zip",
+          "url": "https://www.7-zip.org/download.html",
+          "icon": "https://icon.horse/icon/7-zip.org",
+          "desc": "开源免费的文件压缩/解压软件，支持多种格式，压缩率高。",
+          "proxy": false
+        }
+      ]
+    },
+    {
+      "categoryName": "影音 & 媒体",
       "categoryId": "media",
       "sites": [
         {
@@ -86,11 +210,39 @@
           "icon": "https://icon.horse/icon/zyplayer.fun",
           "desc": "跨平台桌面端视频资源播放器，聚合全网高清影视资源。",
           "proxy": false
+        },
+        {
+          "title": "Bilibili",
+          "url": "https://www.bilibili.com/",
+          "icon": "https://icon.horse/icon/bilibili.com",
+          "desc": "国内知名的视频弹幕网站，拥有丰富的二次元、游戏、科技和生活内容。",
+          "proxy": false
+        },
+        {
+          "title": "FreeOk",
+          "url": "https://freeokvod.com/",
+          "icon": "https://icon.horse/icon/freeokvod.com",
+          "desc": "无广告、多源、更新及时的在线影视观看网站。",
+          "proxy": false
+        },
+        {
+          "title": "洛雪音乐助手",
+          "url": "https://lxmusic.toside.cn",
+          "icon": "https://icon.horse/icon/toside.cn",
+          "desc": "一个聚合各大音乐平台资源的免费桌面音乐播放器。",
+          "proxy": false
+        },
+        {
+          "title": "Listen1",
+          "url": "https://listen1.github.io/listen1",
+          "icon": "https://icon.horse/icon/github.io",
+          "desc": "一个可以搜索和播放来自多个主流音乐网站歌曲的开源音乐播放器。",
+          "proxy": false
         }
       ]
     },
     {
-      "categoryName": "资源搜索",
+      "categoryName": "资源 & 搜索",
       "categoryId": "resource-search",
       "sites": [
         {
@@ -119,6 +271,27 @@
           "url": "https://trace.moe/",
           "icon": "https://icon.horse/icon/trace.moe",
           "desc": "动漫场景搜索引擎，通过截图轻松找到动漫出处。",
+          "proxy": false
+        },
+        {
+          "title": "PanSearch",
+          "url": "https://www.pansearch.me/",
+          "icon": "https://icon.horse/icon/pansearch.me",
+          "desc": "聚合多个网盘的搜索引擎，快速查找全网资源。",
+          "proxy": false
+        },
+        {
+          "title": "Z-Library",
+          "url": "https://zh.z-library.se/",
+          "icon": "https://icon.horse/icon/z-library.se",
+          "desc": "全球最大的数字图书馆之一，提供海量电子书免费下载。",
+          "proxy": true
+        },
+        {
+          "title": "茶杯狐",
+          "url": "https://www.acupfox.com/",
+          "icon": "https://icon.horse/icon/acupfox.com",
+          "desc": "聚合全网影视资源的搜索引擎，让你轻松找到想看的影片。",
           "proxy": false
         }
       ]
@@ -154,11 +327,25 @@
           "icon": "https://icon.horse/icon/carbon.now.sh",
           "desc": "创建和分享源代码的精美图像，支持多种语言和主题。",
           "proxy": true
+        },
+        {
+          "title": "draw.io",
+          "url": "https://app.diagrams.net/",
+          "icon": "https://icon.horse/icon/diagrams.net",
+          "desc": "强大免费的在线图表绘制工具，支持流程图、UML、网络拓扑图等。",
+          "proxy": false
+        },
+        {
+          "title": "iLovePDF",
+          "url": "https://www.ilovepdf.com/zh-cn",
+          "icon": "https://icon.horse/icon/ilovepdf.com",
+          "desc": "完全免费的在线PDF工具集，支持合并、拆分、压缩、转换等多种功能。",
+          "proxy": false
         }
       ]
     },
     {
-      "categoryName": "设计与素材",
+      "categoryName": "设计 & 素材",
       "categoryId": "design-assets",
       "sites": [
         {
@@ -197,16 +384,64 @@
           "proxy": false
         },
         {
-          "title": "插画世界 (vilipix)",
+          "title": "插画世界",
           "url": "https://www.vilipix.com/",
           "icon": "https://icon.horse/icon/vilipix.com",
           "desc": "一个高质量的插画、动漫图片分享社区，Pixiv的优秀镜像站。",
+          "proxy": false
+        },
+        {
+          "title": "iconfont",
+          "url": "https://www.iconfont.cn/plus",
+          "icon": "https://icon.horse/icon/iconfont.cn",
+          "desc": "阿里巴巴官方矢量图标库，提供海量图标资源免费下载和管理。",
           "proxy": false
         }
       ]
     },
     {
-      "categoryName": "学习与教育",
+      "categoryName": "开发工具",
+      "categoryId": "dev-tools",
+      "sites": [
+        {
+          "title": "Visual Studio Code",
+          "url": "https://code.visualstudio.com/Download",
+          "icon": "https://icon.horse/icon/visualstudio.com",
+          "desc": "微软出品的免费、开源、跨平台的代码编辑器，生态强大。",
+          "proxy": false
+        },
+        {
+          "title": "Cursor",
+          "url": "https://www.cursor.com/cn",
+          "icon": "https://icon.horse/icon/cursor.com",
+          "desc": "一款专为AI辅助编程设计的代码编辑器，深度集成GPT能力。",
+          "proxy": false
+        },
+        {
+          "title": "GitHub Copilot",
+          "url": "https://github.com/copilot/c/c6eb74e4-33c5-408d-9d76-b9914f382998",
+          "icon": "https://icon.horse/icon/github.com",
+          "desc": "GitHub与OpenAI合作开发的AI代码补全工具，提升编程效率。",
+          "proxy": false
+        },
+        {
+          "title": "Supermaven",
+          "url": "https://supermaven.com/",
+          "icon": "https://icon.horse/icon/supermaven.com",
+          "desc": "号称比Copilot更快的AI代码补全工具，拥有更大的上下文窗口。",
+          "proxy": false
+        },
+        {
+          "title": "Gopeed",
+          "url": "https://gopeed.com/zh-CN",
+          "icon": "https://icon.horse/icon/gopeed.com",
+          "desc": "一款开源、跨平台、轻量级的高速下载器，支持HTTP、BT、磁力等协议。",
+          "proxy": false
+        }
+      ]
+    },
+    {
+      "categoryName": "学习 & 教育",
       "categoryId": "learning",
       "sites": [
         {
@@ -259,16 +494,64 @@
           "proxy": false
         },
         {
-          "title": "3DM游戏网",
-          "url": "https://dl.3dmgame.com/",
-          "icon": "https://icon.horse/icon/3dmgame.com",
-          "desc": "国内老牌的单机游戏门户网站，提供游戏资讯、攻略和资源下载。",
+          "title": "LeetCode",
+          "url": "https://leetcode-cn.com/",
+          "icon": "https://icon.horse/icon/leetcode-cn.com",
+          "desc": "全球知名的程序员算法刷题和求职准备平台。",
+          "proxy": false
+        },
+        {
+          "title": "菜鸟教程",
+          "url": "https://www.runoob.com/",
+          "icon": "https://icon.horse/icon/runoob.com",
+          "desc": "提供全面的Web技术、编程语言基础教程，适合初学者入门。",
+          "proxy": false
+        },
+        {
+          "title": "JavaGuide",
+          "url": "https://javaguide.cn/",
+          "icon": "https://icon.horse/icon/javaguide.cn",
+          "desc": "一份超详细的Java面试指南，涵盖核心知识点与面试题。",
           "proxy": false
         }
       ]
     },
     {
-      "categoryName": "社区与导航",
+      "categoryName": "游戏 & 娱乐",
+      "categoryId": "gaming-entertainment",
+      "sites": [
+        {
+          "title": "3DM游戏网",
+          "url": "https://dl.3dmgame.com/",
+          "icon": "https://icon.horse/icon/3dmgame.com",
+          "desc": "国内老牌的单机游戏门户网站，提供游戏资讯、攻略和资源下载。",
+          "proxy": false
+        },
+        {
+          "title": "游侠网",
+          "url": "https://down.ali213.net/pcgame/",
+          "icon": "https://icon.horse/icon/ali213.net",
+          "desc": "国内知名的单机游戏网站，提供丰富的游戏资源、MOD和汉化补丁。",
+          "proxy": false
+        },
+        {
+          "title": "TapTap",
+          "url": "https://www.taptap.com/",
+          "icon": "https://icon.horse/icon/taptap.com",
+          "desc": "发现好游戏，一个高质量的手机游戏分享社区。",
+          "proxy": false
+        },
+        {
+          "title": "小霸王",
+          "url": "https://www.yikm.net/",
+          "icon": "https://icon.horse/icon/yikm.net",
+          "desc": "在线红白机(FC/NES)游戏模拟器，重温童年经典游戏。",
+          "proxy": false
+        }
+      ]
+    },
+    {
+      "categoryName": "社区 & 导航",
       "categoryId": "communities-navs",
       "sites": [
         {
@@ -319,6 +602,27 @@
           "icon": "https://icon.horse/icon/greasyfork.org",
           "desc": "安全、实用的用户脚本分享中心，提供海量油猴脚本。",
           "proxy": true
+        },
+        {
+          "title": "GitHub",
+          "url": "https://github.com/",
+          "icon": "https://icon.horse/icon/github.com",
+          "desc": "全球最大的代码托管平台和开源社区，汇集了海量项目与开发者。",
+          "proxy": false
+        },
+        {
+          "title": "CSDN",
+          "url": "https://www.csdn.net/",
+          "icon": "https://icon.horse/icon/csdn.net",
+          "desc": "全球知名的中文IT技术交流平台，提供博客、论坛、资源下载等服务。",
+          "proxy": false
+        },
+        {
+          "title": "Gitee",
+          "url": "https://gitee.com/explore",
+          "icon": "https://icon.horse/icon/gitee.com",
+          "desc": "国内领先的代码托管和协作开发平台，提供Git仓库服务。",
+          "proxy": false
         }
       ]
     }

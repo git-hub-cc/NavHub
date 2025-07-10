@@ -175,6 +175,67 @@
       ]
     },
     {
+      "categoryName": "软件网站",
+      "categoryId": "software-resources",
+      "sites": [
+        {
+          "title": "异次元软件世界",
+          "url": "http://www.iplaysoft.com/",
+          "icon": "data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22%3E%3Ctext y=%22.9em%22 font-size=%2290%22%3E🌐%3C/text%3E%3C/svg%3E",
+          "desc": "分享最新优秀、有趣、实用的各类软件、APP及数码资讯。",
+          "proxy": false
+        },
+        {
+          "title": "小众软件",
+          "url": "https://www.appinn.com/",
+          "icon": "data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22%3E%3Ctext y=%22.9em%22 font-size=%2290%22%3E🌐%3C/text%3E%3C/svg%3E",
+          "desc": "分享免费、小巧、实用、有趣、绿色的软件。",
+          "proxy": false
+        },
+        {
+          "title": "果核剥壳",
+          "url": "https://www.ghxi.com/",
+          "icon": "data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22%3E%3Ctext y=%22.9em%22 font-size=%2290%22%3E🌐%3C/text%3E%3C/svg%3E",
+          "desc": "发现优秀软件，分享各种类型的软件应用与玩机技巧。",
+          "proxy": false
+        },
+        {
+          "title": "FOSSHUB",
+          "url": "https://www.fosshub.com/",
+          "icon": "data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22%3E%3Ctext y=%22.9em%22 font-size=%2290%22%3E🌐%3C/text%3E%3C/svg%3E",
+          "desc": "一个安全、快速的开源软件下载平台。",
+          "proxy": false
+        }
+      ]
+    },
+    {
+      "categoryName": "在线影音",
+      "categoryId": "music-video",
+      "sites": [
+        {
+          "title": "哔哩哔哩",
+          "url": "https://www.bilibili.com/",
+          "icon": "data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22%3E%3Ctext y=%22.9em%22 font-size=%2290%22%3E🌐%3C/text%3E%3C/svg%3E",
+          "desc": "国内知名的视频弹幕网站，拥有丰富的ACG和生活娱乐内容。",
+          "proxy": false
+        },
+        {
+          "title": "网易云音乐",
+          "url": "https://music.163.com/",
+          "icon": "data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22%3E%3Ctext y=%22.9em%22 font-size=%2290%22%3E🌐%3C/text%3E%3C/svg%3E",
+          "desc": "专注于发现与分享的音乐产品，以个性化推荐和乐评著称。",
+          "proxy": false
+        },
+        {
+          "title": "开眼视频",
+          "url": "https://www.eyepetizer.net/",
+          "icon": "data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22%3E%3Ctext y=%22.9em%22 font-size=%2290%22%3E🌐%3C/text%3E%3C/svg%3E",
+          "desc": "每日精选全球优质短视频的平台，提供创意、广告、旅行等内容。",
+          "proxy": false
+        }
+      ]
+    },
+    {
       "categoryName": "影视资源与下载",
       "categoryId": "media-resources",
       "sites": [
@@ -278,6 +339,47 @@
       ]
     },
     {
+      "categoryName": "聚合搜索",
+      "categoryId": "search-engines",
+      "sites": [
+        {
+          "title": "Bing",
+          "url": "https://cn.bing.com/",
+          "icon": "data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22%3E%3Ctext y=%22.9em%22 font-size=%2290%22%3E🌐%3C/text%3E%3C/svg%3E",
+          "desc": "微软出品的搜索引擎，提供高质量的网页和图片搜索。",
+          "proxy": false
+        },
+        {
+          "title": "DuckDuckGo",
+          "url": "https://duckduckgo.com/",
+          "icon": "data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22%3E%3Ctext y=%22.9em%22 font-size=%2290%22%3E🌐%3C/text%3E%3C/svg%3E",
+          "desc": "一个注重隐私保护，不会追踪用户搜索记录的搜索引擎。",
+          "proxy": false
+        },
+        {
+          "title": "WolframAlpha",
+          "url": "https://www.wolframalpha.com/",
+          "icon": "data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22%3E%3Ctext y=%22.9em%22 font-size=%2290%22%3E🌐%3C/text%3E%3C/svg%3E",
+          "desc": "知识型计算引擎，能直接回答事实性问题而非返回网页链接。",
+          "proxy": false
+        },
+        {
+          "title": "企查查",
+          "url": "https://www.qcc.com/",
+          "icon": "data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22%3E%3Ctext y=%22.9em%22 font-size=%2290%22%3E🌐%3C/text%3E%3C/svg%3E",
+          "desc": "提供企业工商信息、股东、高管、法律诉讼等信息的查询服务。",
+          "proxy": false
+        },
+        {
+          "title": "盘么么",
+          "url": "http://www.panmeme.com/",
+          "icon": "data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22%3E%3Ctext y=%22.9em%22 font-size=%2290%22%3E🌐%3C/text%3E%3C/svg%3E",
+          "desc": "一个网盘资源搜索引擎，聚合多家网盘的公开分享链接。",
+          "proxy": false
+        }
+      ]
+    },
+    {
       "categoryName": "电子书与漫画",
       "categoryId": "ebooks-comics",
       "sites": [
@@ -293,6 +395,20 @@
           "url": "https://books.andrewjr.workers.dev/0:/",
           "icon": "data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22%3E%3Ctext y=%22.9em%22 font-size=%2290%22%3E🌐%3C/text%3E%3C/svg%3E",
           "desc": "界面简洁的电子书网盘，资源质量高。👍👍👍",
+          "proxy": false
+        },
+        {
+          "title": "书格",
+          "url": "https://new.shuge.org/",
+          "icon": "data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22%3E%3Ctext y=%22.9em%22 font-size=%2290%22%3E🌐%3C/text%3E%3C/svg%3E",
+          "desc": "自由开放的在线古籍图书馆，提供高清古籍影像下载。",
+          "proxy": false
+        },
+        {
+          "title": "云海电子图书馆",
+          "url": "http://www.pdfbook.cn/",
+          "icon": "data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22%3E%3Ctext y=%22.9em%22 font-size=%2290%22%3E🌐%3C/text%3E%3C/svg%3E",
+          "desc": "提供PDF格式电子书下载的个人网站，藏书量丰富。",
           "proxy": false
         },
         {
@@ -344,6 +460,34 @@
           "proxy": false
         },
         {
+          "title": "微信文件传输助手",
+          "url": "https://filehelper.weixin.qq.com/",
+          "icon": "data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22%3E%3Ctext y=%22.9em%22 font-size=%2290%22%3E🌐%3C/text%3E%3C/svg%3E",
+          "desc": "微信官方网页版文件传输助手，方便电脑和手机间互传文件。",
+          "proxy": false
+        },
+        {
+          "title": "草料二维码",
+          "url": "https://cli.im/",
+          "icon": "data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22%3E%3Ctext y=%22.9em%22 font-size=%2290%22%3E🌐%3C/text%3E%3C/svg%3E",
+          "desc": "专业的二维码在线生成和美化工具。",
+          "proxy": false
+        },
+        {
+          "title": "临时邮箱",
+          "url": "https://www.linshiyouxiang.net/",
+          "icon": "data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22%3E%3Ctext y=%22.9em%22 font-size=%2290%22%3E🌐%3C/text%3E%3C/svg%3E",
+          "desc": "提供临时、匿名的电子邮箱地址，用于接收邮件和保护隐私。",
+          "proxy": false
+        },
+        {
+          "title": "文本比较工具",
+          "url": "https://www.dute.org/diff",
+          "icon": "data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22%3E%3Ctext y=%22.9em%22 font-size=%2290%22%3E🌐%3C/text%3E%3C/svg%3E",
+          "desc": "在线比对两个文本文档的差异，并高亮显示不同之处。",
+          "proxy": false
+        },
+        {
           "title": "PDF24 Tools",
           "url": "https://tools.pdf24.org/zh/",
           "icon": "https://tools.pdf24.org/static/img/pdf24.png?v=658057a1",
@@ -372,8 +516,8 @@
           "proxy": false
         },
         {
-          "title": "Removebg",
-          "url": "https://www.remove.bg/",
+          "title": "在线抠图 (Remove.bg)",
+          "url": "https://www.remove.bg/zh",
           "icon": "https://www.remove.bg/favicon-32x32.png?v=fc0bfce6e1310f1539afec9729716721",
           "desc": "智能在线抠图工具，效果出色。👍",
           "proxy": false
@@ -402,9 +546,119 @@
       ]
     },
     {
+      "categoryName": "科技资讯",
+      "categoryId": "tech-news",
+      "sites": [
+        {
+          "title": "IT之家",
+          "url": "https://www.ithome.com/",
+          "icon": "data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22%3E%3Ctext y=%22.9em%22 font-size=%2290%22%3E🌐%3C/text%3E%3C/svg%3E",
+          "desc": "提供最新的IT科技新闻和数码产品资讯。",
+          "proxy": false
+        },
+        {
+          "title": "36氪",
+          "url": "https://www.36kr.com/",
+          "icon": "data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22%3E%3Ctext y=%22.9em%22 font-size=%2290%22%3E🌐%3C/text%3E%3C/svg%3E",
+          "desc": "关注互联网创业的科技媒体，提供前沿商业和科技报道。",
+          "proxy": false
+        },
+        {
+          "title": "爱范儿",
+          "url": "https://www.ifanr.com/",
+          "icon": "data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22%3E%3Ctext y=%22.9em%22 font-size=%2290%22%3E🌐%3C/text%3E%3C/svg%3E",
+          "desc": "专注于消费科技领域的媒体，提供高品质的产品评测和行业洞察。",
+          "proxy": false
+        },
+        {
+          "title": "量子位",
+          "url": "https://www.qbitai.com/",
+          "icon": "data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22%3E%3Ctext y=%22.9em%22 font-size=%2290%22%3E🌐%3C/text%3E%3C/svg%3E",
+          "desc": "聚焦人工智能和前沿科技的专业媒体。",
+          "proxy": false
+        },
+        {
+          "title": "SegmentFault",
+          "url": "https://segmentfault.com/",
+          "icon": "data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22%3E%3Ctext y=%22.9em%22 font-size=%2290%22%3E🌐%3C/text%3E%3C/svg%3E",
+          "desc": "一个服务于开发者的技术问答和交流社区。",
+          "proxy": false
+        },
+        {
+          "title": "稀土掘金",
+          "url": "https://juejin.cn/",
+          "icon": "data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22%3E%3Ctext y=%22.9em%22 font-size=%2290%22%3E🌐%3C/text%3E%3C/svg%3E",
+          "desc": "面向开发者的技术内容分享和交流平台。",
+          "proxy": false
+        }
+      ]
+    },
+    {
+      "categoryName": "百科知识",
+      "categoryId": "knowledge-wiki",
+      "sites": [
+        {
+          "title": "维基百科",
+          "url": "https://zh.wikipedia.org/zh-cn/",
+          "icon": "data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22%3E%3Ctext y=%22.9em%22 font-size=%2290%22%3E🌐%3C/text%3E%3C/svg%3E",
+          "desc": "全球性的多语言网络百科全书，内容由志愿者共同编辑。",
+          "proxy": false
+        },
+        {
+          "title": "萌娘百科",
+          "url": "https://zh.moegirl.org/Mainpage",
+          "icon": "data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22%3E%3Ctext y=%22.9em%22 font-size=%2290%22%3E🌐%3C/text%3E%3C/svg%3E",
+          "desc": "一个以ACGN文化为主题的在线百科全书。",
+          "proxy": false
+        },
+        {
+          "title": "全历史",
+          "url": "https://www.allhistory.com/",
+          "icon": "data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22%3E%3Ctext y=%22.9em%22 font-size=%2290%22%3E🌐%3C/text%3E%3C/svg%3E",
+          "desc": "以AI知识图谱为核心，通过时间地图、关系图谱等方式展现历史。",
+          "proxy": false
+        },
+        {
+          "title": "Topbook",
+          "url": "https://topbook.cc/overview",
+          "icon": "data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22%3E%3Ctext y=%22.9em%22 font-size=%2290%22%3E🌐%3C/text%3E%3C/svg%3E",
+          "desc": "一个结构化知识学习平台，提供高效的技能学习路径。",
+          "proxy": false
+        },
+        {
+          "title": "IMDb",
+          "url": "http://www.imdb.com/?ref_=nv_home",
+          "icon": "data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22%3E%3Ctext y=%22.9em%22 font-size=%2290%22%3E🌐%3C/text%3E%3C/svg%3E",
+          "desc": "全球最权威的电影、电视和名人信息数据库。",
+          "proxy": false
+        }
+      ]
+    },
+    {
       "categoryName": "学习与考试",
       "categoryId": "learning-exams",
       "sites": [
+        {
+          "title": "中国大学慕课",
+          "url": "https://www.icourse163.org/",
+          "icon": "data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22%3E%3Ctext y=%22.9em%22 font-size=%2290%22%3E🌐%3C/text%3E%3C/svg%3E",
+          "desc": "汇集国内多所知名大学的MOOC课程，提供免费的在线学习资源。",
+          "proxy": false
+        },
+        {
+          "title": "人人都是产品经理",
+          "url": "https://www.woshipm.com/",
+          "icon": "data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22%3E%3Ctext y=%22.9em%22 font-size=%2290%22%3E🌐%3C/text%3E%3C/svg%3E",
+          "desc": "面向产品经理和互联网从业者的学习、交流和分享社区。",
+          "proxy": false
+        },
+        {
+          "title": "阮一峰的网络日志",
+          "url": "http://www.ruanyifeng.com/blog/",
+          "icon": "data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22%3E%3Ctext y=%22.9em%22 font-size=%2290%22%3E🌐%3C/text%3E%3C/svg%3E",
+          "desc": "知名技术博客，内容涵盖前后端技术、科技动态和个人思考。",
+          "proxy": false
+        },
         {
           "title": "SCI-Hub",
           "url": "https://tool.yovisun.com/scihub/",
@@ -450,7 +704,7 @@
       ]
     },
     {
-      "categoryName": "设计与影视",
+      "categoryName": "设计与素材",
       "categoryId": "design-production",
       "sites": [
         {
@@ -458,6 +712,34 @@
           "url": "https://hao.uisdc.com/",
           "icon": "https://www.uisdc.com/favicon.ico",
           "desc": "设计师必备的网站导航。",
+          "proxy": false
+        },
+        {
+          "title": "Iconfont-阿里巴巴矢量图标库",
+          "url": "https://www.iconfont.cn/",
+          "icon": "https://img.alicdn.com/imgextra/i4/O1CN01Z5paLz1O0zuCC7osS_!!6000000001644-55-tps-83-82.svg",
+          "desc": "阿里巴巴官方矢量图标库，提供海量图标下载和管理。",
+          "proxy": false
+        },
+        {
+          "title": "稿定设计",
+          "url": "https://www.gaoding.com/",
+          "icon": "data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22%3E%3Ctext y=%22.9em%22 font-size=%2290%22%3E🌐%3C/text%3E%3C/svg%3E",
+          "desc": "一个多场景的在线设计平台，提供海量模板和素材。",
+          "proxy": false
+        },
+        {
+          "title": "花瓣网",
+          "url": "https://huaban.com/",
+          "icon": "data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22%3E%3Ctext y=%22.9em%22 font-size=%2290%22%3E🌐%3C/text%3E%3C/svg%3E",
+          "desc": "一个设计师寻找灵感、采集和分享图片的图片社区。",
+          "proxy": false
+        },
+        {
+          "title": "极简壁纸",
+          "url": "https://bz.zzzmh.cn/",
+          "icon": "data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22%3E%3Ctext y=%22.9em%22 font-size=%2290%22%3E🌐%3C/text%3E%3C/svg%3E",
+          "desc": "提供高质量、无水印的极简风格电脑和手机壁纸。",
           "proxy": false
         },
         {
@@ -472,13 +754,6 @@
           "url": "https://www.cgown.com/",
           "icon": "https://www.cgown.com/favicon.ico",
           "desc": "分享AE/PR模板及插件等CG资源。👍",
-          "proxy": false
-        },
-        {
-          "title": "Iconfont",
-          "url": "https://www.iconfont.cn/",
-          "icon": "https://img.alicdn.com/imgextra/i4/O1CN01Z5paLz1O0zuCC7osS_!!6000000001644-55-tps-83-82.svg",
-          "desc": "阿里巴巴矢量图标库。",
           "proxy": false
         },
         {
@@ -514,6 +789,47 @@
           "url": "https://colorhunt.co/",
           "icon": "https://colorhunt.co/img/colorhunt-favicon.svg?2",
           "desc": "提供海量优秀配色方案。",
+          "proxy": false
+        }
+      ]
+    },
+    {
+      "categoryName": "趣味网站",
+      "categoryId": "fun-sites",
+      "sites": [
+        {
+          "title": "信任的进化",
+          "url": "https://sekai.co/trust/",
+          "icon": "data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22%3E%3Ctext y=%22.9em%22 font-size=%2290%22%3E🌐%3C/text%3E%3C/svg%3E",
+          "desc": "一个解释博弈论中信任如何运作的互动小游戏。",
+          "proxy": false
+        },
+        {
+          "title": "自由钢琴",
+          "url": "https://www.autopiano.cn/",
+          "icon": "data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22%3E%3Ctext y=%22.9em%22 font-size=%2290%22%3E🌐%3C/text%3E%3C/svg%3E",
+          "desc": "在线弹奏钢琴，支持自动演奏和乐谱，体验音乐乐趣。",
+          "proxy": false
+        },
+        {
+          "title": "100,000 Stars",
+          "url": "http://stars.chromeexperiments.com/",
+          "icon": "data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22%3E%3Ctext y=%22.9em%22 font-size=%2290%22%3E🌐%3C/text%3E%3C/svg%3E",
+          "desc": "一个交互式的银河系可视化网站，带你探索宇宙星辰。",
+          "proxy": false
+        },
+        {
+          "title": "卡巴斯基攻击地图",
+          "url": "https://cybermap.kaspersky.com/",
+          "icon": "data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22%3E%3Ctext y=%22.9em%22 font-size=%2290%22%3E🌐%3C/text%3E%3C/svg%3E",
+          "desc": "实时可视化全球网络攻击的动态地图。",
+          "proxy": false
+        },
+        {
+          "title": "小霸王",
+          "url": "https://www.yikm.net/",
+          "icon": "data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22%3E%3Ctext y=%22.9em%22 font-size=%2290%22%3E🌐%3C/text%3E%3C/svg%3E",
+          "desc": "一个在线红白机（FC/NES）游戏模拟器，重温童年经典。",
           "proxy": false
         }
       ]

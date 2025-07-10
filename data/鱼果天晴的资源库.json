@@ -7,29 +7,29 @@
         {
           "title": "电影狗",
           "url": "https://www.dianyinggou.com/",
-          "icon": "data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22%3E%3Ctext y=%22.9em%22 font-size=%2290%22%3E🌐%3C/text%3E%3C/svg%3E",
-          "desc": "强大的影视资源聚合搜索引擎。",
+          "icon": "https://www.dianyinggou.com/favicon.ico",
+          "desc": "强大的影视资源聚合搜索引擎，可搜索全网影视资源。",
           "proxy": false
         },
         {
           "title": "人人影视",
-          "url": "https://yyets.dmesg.app/index.html",
+          "url": "https://yyets.dmesg.app/home",
           "icon": "https://yyets.dmesg.app/favicon.ico",
-          "desc": "知名影视字幕组，提供影视资源下载。",
+          "desc": "知名影视字幕组，提供海量美剧、电影等资源下载。",
           "proxy": false
         },
         {
           "title": "奈飞星",
-          "url": "https://nfxhd.com/",
+          "url": "https://netfly.tv/",
           "icon": "data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22%3E%3Ctext y=%22.9em%22 font-size=%2290%22%3E🌐%3C/text%3E%3C/svg%3E",
-          "desc": "提供Netflix等流媒体影视内容。",
+          "desc": "提供Netflix等流媒体影视内容的在线观看服务。",
           "proxy": false
         },
         {
-          "title": "LIBVIO",
-          "url": "https://www.libvio.com",
+          "title": "HDmoli",
+          "url": "https://www.hdmoli.pro/",
           "icon": "data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22%3E%3Ctext y=%22.9em%22 font-size=%2290%22%3E🌐%3C/text%3E%3C/svg%3E",
-          "desc": "一个简洁的在线影视网站。",
+          "desc": "提供高清电影和剧集的在线观看及下载服务。",
           "proxy": false
         },
         {
@@ -38,32 +38,46 @@
           "icon": "https://www.zhibo8.cc/favicon.ico",
           "desc": "知名的体育赛事直播和资讯平台。",
           "proxy": false
+        },
+        {
+          "title": "影视森林",
+          "url": "http://www.549.tv/",
+          "icon": "data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22%3E%3Ctext y=%22.9em%22 font-size=%2290%22%3E🌐%3C/text%3E%3C/svg%3E",
+          "desc": "一个在线影视观看网站，聚合各类影视资源。",
+          "proxy": false
+        },
+        {
+          "title": "555电影",
+          "url": "https://www.5ying.fun/",
+          "icon": "data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22%3E%3Ctext y=%22.9em%22 font-size=%2290%22%3E🌐%3C/text%3E%3C/svg%3E",
+          "desc": "提供免费高清电影、电视剧在线观看的影视网站。",
+          "proxy": false
+        },
+        {
+          "title": "FreeOK",
+          "url": "https://www.freeok.vip/",
+          "icon": "data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22%3E%3Ctext y=%22.9em%22 font-size=%2290%22%3E🌐%3C/text%3E%3C/svg%3E",
+          "desc": "免费在线影视站，提供最新最全的影视资源。",
+          "proxy": false
+        },
+        {
+          "title": "新视觉影视",
+          "url": "https://www.80yy3.com/",
+          "icon": "data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22%3E%3Ctext y=%22.9em%22 font-size=%2290%22%3E🌐%3C/text%3E%3C/svg%3E",
+          "desc": "提供高清电影、电视剧、综艺、动漫等在线观看服务。",
+          "proxy": false
         }
       ]
     },
     {
-      "categoryName": "软件资源",
+      "categoryName": "软件与资源",
       "categoryId": "software-resources",
       "sites": [
         {
-          "title": "423Down",
-          "url": "https://www.423down.com/",
-          "icon": "https://www.423down.com/wp-content/themes/D7/img/favicon.ico",
-          "desc": "专注于分享绿色、纯净的电脑软件。",
-          "proxy": false
-        },
-        {
-          "title": "大眼仔旭",
-          "url": "https://www.dayanzai.me/",
-          "icon": "https://www.dayanzai.me/favicon.ico",
-          "desc": "分享各类优秀软件资源和技术文章。",
-          "proxy": false
-        },
-        {
-          "title": "异次元软件世界",
-          "url": "https://www.iplaysoft.com/",
-          "icon": "https://cdn.iplaysoft.com/ips/icon/favicon-v1/favicon.ico",
-          "desc": "“爱免费，爱分享”，提供高质量软件推荐。",
+          "title": "吾爱破解",
+          "url": "https://www.52pojie.cn/",
+          "icon": "https://www.52pojie.cn/favicon.ico",
+          "desc": "知名的安全技术交流和软件分享论坛。",
           "proxy": false
         },
         {
@@ -74,58 +88,65 @@
           "proxy": false
         },
         {
-          "title": "吾爱破解",
-          "url": "https://www.52pojie.cn/",
-          "icon": "https://www.52pojie.cn/favicon.ico",
-          "desc": "知名的安全技术交流和软件分享论坛。",
-          "proxy": false
-        },
-        {
-          "title": "酷安",
-          "url": "https://coolapk.com/",
-          "icon": "https://coolapk.com/favicon.ico",
-          "desc": "发现应用的乐趣，高质量的安卓应用社区。",
-          "proxy": false
-        },
-        {
           "title": "马克喵",
           "url": "https://www.macat.vip/",
           "icon": "https://www.macat.vip/wp-content/uploads/2025/03/1743404782-014392a9f201680.png",
-          "desc": "分享Mac软件资源的网站。",
+          "desc": "分享Mac软件资源的网站，提供各类苹果电脑软件。",
           "proxy": false
         },
         {
-          "title": "Office Tool Plus",
-          "url": "https://otp.landian.vip/zh-cn/",
-          "icon": "https://otp.landian.vip/favicon.ico",
-          "desc": "一个强大且实用的 Office 部署和管理工具。",
+          "title": "鱼果天晴的资源库",
+          "url": "http://ygtq.ysepan.com/",
+          "icon": "data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22%3E%3Ctext y=%22.9em%22 font-size=%2290%22%3E🌐%3C/text%3E%3C/svg%3E",
+          "desc": "一个综合性的资源分享网盘，提供各类软件和资料。",
           "proxy": false
         },
         {
-          "title": "vposy",
-          "url": "https://weibo.com/vposy?sudaref=www.axutongxue.com&is_hot=1#_loginLayer_1622002688768",
-          "icon": "https://weibo.com/favicon.ico",
-          "desc": "Adobe系列软件的知名打包和分享者（微博）。",
+          "title": "iMYShare",
+          "url": "https://imyshare.com/",
+          "icon": "data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22%3E%3Ctext y=%22.9em%22 font-size=%2290%22%3E🌐%3C/text%3E%3C/svg%3E",
+          "desc": "一个专注于分享和发现优质资源的社区网站。",
           "proxy": false
         },
         {
-          "title": "IDM下载器",
-          "url": "https://ygtq.lanzoui.com/ibTcipyjrrc",
-          "icon": "https://assets.woozooo.com/assets/favicon.ico",
-          "desc": "Internet Download Manager，强大的多线程下载工具。",
+          "title": "六音软件",
+          "url": "https://www.6yit.com/",
+          "icon": "data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22%3E%3Ctext y=%22.9em%22 font-size=%2290%22%3E🌐%3C/text%3E%3C/svg%3E",
+          "desc": "分享各类实用电脑软件、教程和资讯的网站。",
           "proxy": false
         },
         {
-          "title": "ZY Player",
-          "url": "https://ygtq.lanzoui.com/iUenNvanurg",
-          "icon": "https://assets.woozooo.com/assets/favicon.ico",
-          "desc": "跨平台视频资源播放器，整合了多个资源站。密码:ajyx",
+          "title": "资源否",
+          "url": "https://www.yxzhi.com/",
+          "icon": "data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22%3E%3Ctext y=%22.9em%22 font-size=%2290%22%3E🌐%3C/text%3E%3C/svg%3E",
+          "desc": "一个提供软件、源码、模板等资源的分享站。",
+          "proxy": false
+        },
+        {
+          "title": "Kimi智能助手",
+          "url": "https://volctrack.com/w/K4ONpKEA",
+          "icon": "data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22%3E%3Ctext y=%22.9em%22 font-size=%2290%22%3E🤖%3C/text%3E%3C/svg%3E",
+          "desc": "Kimi 是一个有着超大“内存”的AI智能助手，支持长文本阅读和智能问答。",
+          "proxy": false
+        },
+        {
+          "title": "豆包",
+          "url": "https://m.paluai.com/?code=dh33",
+          "icon": "data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22%3E%3Ctext y=%22.9em%22 font-size=%2290%22%3E🤖%3C/text%3E%3C/svg%3E",
+          "desc": "AI 聊天智能对话问答助手，可以进行多场景的AI对话和创作。",
+          "proxy": false
+        },
+        {
+          "title": "灵办",
+          "url": "https://ilingban.com/?from=xyqd29",
+          "icon": "data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22%3E%3Ctext y=%22.9em%22 font-size=%2290%22%3E🤖%3C/text%3E%3C/svg%3E",
+          "desc": "一键生成爆款文案，总结文档内容，集对话、翻译、写作、搜索于一身的神器。",
           "proxy": false
         }
       ]
     },
     {
-      "categoryName": "学习教育",
+      "categoryName": "学习与学术",
       "categoryId": "learning-education",
       "sites": [
         {
@@ -150,41 +171,6 @@
           "proxy": false
         },
         {
-          "title": "爱课程",
-          "url": "https://www.icourses.cn/home/",
-          "icon": "https://www.icourses.cn/web/favicon.ico",
-          "desc": "中国大学MOOC官方网站，汇集顶尖高校课程。",
-          "proxy": false
-        },
-        {
-          "title": "网易公开课",
-          "url": "https://open.163.com/ted/",
-          "icon": "https://c.open.163.com/favicon.ico",
-          "desc": "汇集国内外名校公开课和演讲，如TED。",
-          "proxy": false
-        },
-        {
-          "title": "可可英语",
-          "url": "https://www.kekenet.com/",
-          "icon": "https://www.kekenet.com/favicon.ico",
-          "desc": "全面的英语学习网站，提供听力、口语、阅读等资料。",
-          "proxy": false
-        },
-        {
-          "title": "美国之音 (VOA)",
-          "url": "https://www.51voa.com/",
-          "icon": "https://www.51voa.com/static/icon/favorite.ico",
-          "desc": "VOA慢速英语，练习英语听力的好材料。",
-          "proxy": false
-        },
-        {
-          "title": "廖雪峰的官方网站",
-          "url": "https://www.liaoxuefeng.com/",
-          "icon": "https://www.liaoxuefeng.com/favicon.ico",
-          "desc": "提供高质量的Python、Java、Git等在线教程。",
-          "proxy": false
-        },
-        {
           "title": "中国知网",
           "url": "https://www.cnki.net/",
           "icon": "https://www.cnki.net/favicon.ico",
@@ -196,6 +182,34 @@
           "url": "https://xueshu.baidu.com/",
           "icon": "https://xueshu.baidu.com/favicon.ico",
           "desc": "百度旗下的学术资源搜索平台。",
+          "proxy": false
+        },
+        {
+          "title": "大木虫学习导航",
+          "url": "http://www.4243.net/",
+          "icon": "data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22%3E%3Ctext y=%22.9em%22 font-size=%2290%22%3E🎓%3C/text%3E%3C/svg%3E",
+          "desc": "一个强大的学术导航网站，聚合了各种文献和学术资源。",
+          "proxy": false
+        },
+        {
+          "title": "科塔学术导航",
+          "url": "https://site.sciping.com/",
+          "icon": "data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22%3E%3Ctext y=%22.9em%22 font-size=%2290%22%3E🎓%3C/text%3E%3C/svg%3E",
+          "desc": "为科研工作者提供便捷的学术网站和资源导航。",
+          "proxy": false
+        },
+        {
+          "title": "文献部落",
+          "url": "http://459.org/",
+          "icon": "data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22%3E%3Ctext y=%22.9em%22 font-size=%2290%22%3E🎓%3C/text%3E%3C/svg%3E",
+          "desc": "一个免费下载文献的学术导航网站，提供多种文献检索入口。",
+          "proxy": false
+        },
+        {
+          "title": "免费AI论文解读/翻译",
+          "url": "https://baoyueai.com/channel?utm_id=228200 ",
+          "icon": "data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22%3E%3Ctext y=%22.9em%22 font-size=%2290%22%3E🤖%3C/text%3E%3C/svg%3E",
+          "desc": "论文对照翻译，改写润色，专业术语详解，一站式解决论文烦恼！",
           "proxy": false
         }
       ]
@@ -212,31 +226,10 @@
           "proxy": false
         },
         {
-          "title": "刘明野的工具箱",
-          "url": "https://tool.liumingye.cn/",
-          "icon": "https://ae01.alicdn.com/kf/H085a1499a38d4d8a920a396abceffa2bW.jpg",
-          "desc": "包含媒体、图片、文本等多种实用在线工具。",
-          "proxy": false
-        },
-        {
-          "title": "lightpdf",
-          "url": "https://lightpdf.com/zh/",
-          "icon": "https://cfcdn.apowersoft.info/astro/lightpdf/_astro/favicon@48w.1f86f507.png",
-          "desc": "提供PDF转换、编辑、签名等一站式在线服务。",
-          "proxy": false
-        },
-        {
           "title": "tinypng",
           "url": "https://tinypng.com/",
           "icon": "https://tinypng.com/images/favicon.ico",
           "desc": "智能的PNG和JPEG图片在线压缩工具。",
-          "proxy": false
-        },
-        {
-          "title": "docsmall",
-          "url": "https://docsmall.com/",
-          "icon": "https://docsmall.com/favicon.png",
-          "desc": "免费在线图片压缩、GIF压缩和PDF处理工具。",
           "proxy": false
         },
         {
@@ -259,6 +252,20 @@
           "icon": "https://www.yopmail.com/favicon.gif",
           "desc": "提供免费、匿名的临时邮箱服务。",
           "proxy": true
+        },
+        {
+          "title": "百度解析",
+          "url": "https://bdpan.juyovo.com/#/index",
+          "icon": "data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22%3E%3Ctext y=%22.9em%22 font-size=%2290%22%3E🔧%3C/text%3E%3C/svg%3E",
+          "desc": "一个用于解析百度网盘链接以进行高速下载的在线工具。",
+          "proxy": false
+        },
+        {
+          "title": "天翼云盘解析",
+          "url": "https://189.ly93.cc/",
+          "icon": "data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22%3E%3Ctext y=%22.9em%22 font-size=%2290%22%3E🔧%3C/text%3E%3C/svg%3E",
+          "desc": "提供天翼云盘文件链接解析，方便下载和转存。",
+          "proxy": false
         }
       ]
     },
@@ -270,34 +277,48 @@
           "title": "鸠摩搜索",
           "url": "https://www.jiumodiary.com/",
           "icon": "https://www.jiumodiary.com/images/favicon.png",
-          "desc": "强大的电子书搜索引擎。",
+          "desc": "强大的电子书搜索引擎，聚合了众多电子书资源。",
           "proxy": false
         },
         {
-          "title": "磁力熊",
-          "url": "https://www.cilixiong.com/",
-          "icon": "https://www.cilixiong.com/favicon.ico",
-          "desc": "简洁好用的磁力链接搜索引擎。",
+          "title": "小白盘",
+          "url": "https://www.xiaobaipan.com/",
+          "icon": "data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22%3E%3Ctext y=%22.9em%22 font-size=%2290%22%3E🔍%3C/text%3E%3C/svg%3E",
+          "desc": "一个专注于阿里云盘资源搜索的网站。",
           "proxy": false
         },
         {
-          "title": "快点搜",
-          "url": "https://quickso.cn/",
-          "icon": "https://quickso.cn/favicon.ico",
-          "desc": "百度网盘资源搜索引擎。",
+          "title": "奈斯搜索",
+          "url": "https://www.niceso.fun/",
+          "icon": "data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22%3E%3Ctext y=%22.9em%22 font-size=%2290%22%3E🔍%3C/text%3E%3C/svg%3E",
+          "desc": "阿里云盘搜索，强力推荐，资源丰富更新快。",
           "proxy": false
         },
         {
-          "title": "龙喵网址导航",
-          "url": "https://ailongmiao.com/movie/",
-          "icon": "https://media.ailongmiao.com/uploads/2021/09/favicon.png",
-          "desc": "专注于影视资源的导航网站。",
+          "title": "盘友圈",
+          "url": "https://panyq.com/",
+          "icon": "data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22%3E%3Ctext y=%22.9em%22 font-size=%2290%22%3E🔍%3C/text%3E%3C/svg%3E",
+          "desc": "一个阿里云盘资源分享和搜索社区。",
+          "proxy": false
+        },
+        {
+          "title": "MEOW.TG",
+          "url": "https://meow.tg/",
+          "icon": "data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22%3E%3Ctext y=%22.9em%22 font-size=%2290%22%3E🔍%3C/text%3E%3C/svg%3E",
+          "desc": "Telegram电报群组、频道、机器人和资讯搜索引擎。",
+          "proxy": true
+        },
+        {
+          "title": "熊猫搜书",
+          "url": "https://xmsoushu.com/#/",
+          "icon": "data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22%3E%3Ctext y=%22.9em%22 font-size=%2290%22%3E📚%3C/text%3E%3C/svg%3E",
+          "desc": "一个简洁高效的电子书搜索引擎。",
           "proxy": false
         }
       ]
     },
     {
-      "categoryName": "设计素材",
+      "categoryName": "设计与素材",
       "categoryId": "design-assets",
       "sites": [
         {
@@ -305,13 +326,6 @@
           "url": "https://www.ypppt.com/",
           "icon": "https://www.ypppt.com/favicon.ico",
           "desc": "提供高质量、免费的PPT模板下载。",
-          "proxy": false
-        },
-        {
-          "title": "第一PPT",
-          "url": "https://www.1ppt.com/",
-          "icon": "https://www.1ppt.com/favicon.ico",
-          "desc": "海量免费PPT模板、图表、背景等资源下载。",
           "proxy": false
         },
         {
@@ -323,37 +337,37 @@
         },
         {
           "title": "极简壁纸",
-          "url": "https://bz.zzzmh.cn/index#anime",
+          "url": "https://bz.zzzmh.cn/#index",
           "icon": "https://bz.zzzmh.cn/favicon.ico",
           "desc": "简洁无广告的电脑壁纸和手机壁纸下载站。",
           "proxy": false
         },
         {
-          "title": "爱给网",
-          "url": "https://www.aigei.com/",
-          "icon": "https://cdn-sqn.aigei.com/assets/site/img/icon/favicon.ico",
-          "desc": "提供音效、配乐、视频、3D等免费素材。",
+          "title": "聚合图床",
+          "url": "https://www.superbed.cn/",
+          "icon": "https://www.superbed.cn/favicon.ico",
+          "desc": "免费图床，支持多家云存储，接口多，速度快。",
           "proxy": false
         },
         {
-          "title": "soogif",
-          "url": "https://www.soogif.com/",
-          "icon": "https://www.soogif.com/favicon.ico",
-          "desc": "中文GIF动图搜索和制作平台。",
+          "title": "pixabay",
+          "url": "https://pixabay.com/zh/",
+          "icon": "https://pixabay.com/favicon-32x32.png",
+          "desc": "全球知名的图库网站，提供海量免费正版高清图片素材。",
           "proxy": false
         },
         {
-          "title": "千库网",
-          "url": "https://588ku.com/",
-          "icon": "https://js.588ku.com/comp/public/images/favicon.ico",
-          "desc": "提供海量免费PNG图片、背景、模板等素材。",
+          "title": "pexels",
+          "url": "https://www.pexels.com/zh-cn/",
+          "icon": "https://www.pexels.com/assets/static/images/meta/favicon.ico",
+          "desc": "提供海量共享图片和视频素材的网站。",
           "proxy": false
         },
         {
-          "title": "100font",
-          "url": "https://www.100font.com",
-          "icon": "data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22%3E%3Ctext y=%22.9em%22 font-size=%2290%22%3E🌐%3C/text%3E%3C/svg%3E",
-          "desc": "一个专门收集免费可商用字体的网站。",
+          "title": "故宫名画",
+          "url": "https://minghuaji.dpm.org.cn/",
+          "icon": "data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22%3E%3Ctext y=%22.9em%22 font-size=%2290%22%3E🎨%3C/text%3E%3C/svg%3E",
+          "desc": "故宫博物院官方出品，在线欣赏和下载高清古代名画。",
           "proxy": false
         }
       ]
@@ -378,78 +392,146 @@
         },
         {
           "title": "笔趣阁",
-          "url": "https://www.biquge5200.com/",
-          "icon": "data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22%3E%3Ctext y=%22.9em%22 font-size=%2290%22%3E🌐%3C/text%3E%3C/svg%3E",
+          "url": "http://www.ibiqu.net/",
+          "icon": "data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22%3E%3Ctext y=%22.9em%22 font-size=%2290%22%3E📚%3C/text%3E%3C/svg%3E",
           "desc": "知名网络小说阅读和更新网站。",
           "proxy": false
         },
         {
-          "title": "脚本之家电子书",
-          "url": "https://www.jb51.net/books/",
-          "icon": "https://www.jb51.net/favicon.ico",
-          "desc": "提供大量计算机技术相关的PDF电子书下载。",
+          "title": "世界数字图书馆",
+          "url": "https://www.wdl.org/zh/",
+          "icon": "https://www.wdl.org/favicon.ico",
+          "desc": "由联合国教科文组织支持，提供全球文化珍品。",
+          "proxy": true
+        },
+        {
+          "title": "kindle吧",
+          "url": "https://www.kindle8.cc/",
+          "icon": "data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22%3E%3Ctext y=%22.9em%22 font-size=%2290%22%3E📚%3C/text%3E%3C/svg%3E",
+          "desc": "提供海量Kindle电子书资源下载的网站。",
           "proxy": false
         },
         {
-          "title": "世界数字图书馆",
-          "url": "https://t.cn/A65M2uSF",
-          "icon": "https://t.cn/favicon.ico",
-          "desc": "由联合国教科文组织支持，提供全球文化珍品。",
+          "title": "sobooks",
+          "url": "https://sobooks.net/",
+          "icon": "data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22%3E%3Ctext y=%22.9em%22 font-size=%2290%22%3E📚%3C/text%3E%3C/svg%3E",
+          "desc": "一个优质的免费电子书资源下载网站。",
           "proxy": false
         }
       ]
     },
     {
-      "categoryName": "生活其它",
-      "categoryId": "lifestyle-misc",
+      "categoryName": "音乐欣赏",
+      "categoryId": "music",
       "sites": [
         {
-          "title": "下厨房",
-          "url": "https://www.xiachufang.com/",
-          "icon": "https://www.xiachufang.com/favicon.ico",
-          "desc": "中文菜谱最全、最受欢迎的美食社区。",
+          "title": "铜钟",
+          "url": "https://tonzhon.com/",
+          "icon": "data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22%3E%3Ctext y=%22.9em%22 font-size=%2290%22%3E🎵%3C/text%3E%3C/svg%3E",
+          "desc": "一个在线音乐播放和发现平台，界面简洁美观。",
           "proxy": false
         },
         {
-          "title": "什么值得买",
-          "url": "https://www.smzdm.com/",
-          "icon": "data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22%3E%3Ctext y=%22.9em%22 font-size=%2290%22%3E🌐%3C/text%3E%3C/svg%3E",
-          "desc": "消费决策平台，分享高性价比的网购产品。",
+          "title": "HiFiNi",
+          "url": "https://www.hifini.com/",
+          "icon": "data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22%3E%3Ctext y=%22.9em%22 font-size=%2290%22%3E🎵%3C/text%3E%3C/svg%3E",
+          "desc": "提供无损音乐百度网盘下载，多种音质可供选择。",
           "proxy": false
         },
         {
-          "title": "新榜",
-          "url": "https://www.newrank.cn/",
-          "icon": "https://chs.newrank.cn/favicon/favicon.ico",
-          "desc": "内容产业数据平台，提供公众号、抖音等榜单和数据分析。",
+          "title": "下歌吧",
+          "url": "https://xiageba.com/",
+          "icon": "data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22%3E%3Ctext y=%22.9em%22 font-size=%2290%22%3E🎵%3C/text%3E%3C/svg%3E",
+          "desc": "一个提供高品质和无损音乐下载的网站。",
           "proxy": false
         },
         {
-          "title": "36氪",
-          "url": "https://36kr.com/",
-          "icon": "https://36kr.com/favicon.ico",
-          "desc": "关注中国创新创业的商业媒体。",
+          "title": "顽狗音乐",
+          "url": "https://music.dogged.cn/",
+          "icon": "data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22%3E%3Ctext y=%22.9em%22 font-size=%2290%22%3E🎵%3C/text%3E%3C/svg%3E",
+          "desc": "一个免费的在线音乐播放器，聚合了多个音乐平台资源。",
+          "proxy": false
+        }
+      ]
+    },
+    {
+      "categoryName": "二次元动漫",
+      "categoryId": "anime-comics-games",
+      "sites": [
+        {
+          "title": "B站 (Bilibili)",
+          "url": "https://www.bilibili.com/",
+          "icon": "https://www.bilibili.com/favicon.ico",
+          "desc": "国内知名的视频弹幕网站，拥有海量动漫、游戏和二次元内容。",
           "proxy": false
         },
         {
-          "title": "数英网",
-          "url": "https://www.digitaling.com/",
-          "icon": "https://www.digitaling.com/file/images/favicon.ico",
-          "desc": "数字媒体及职业招聘网站，汇集营销、广告、创意案例。",
+          "title": "A站 (AcFun)",
+          "url": "https://www.acfun.cn/",
+          "icon": "https://www.acfun.cn/favicon.ico",
+          "desc": "中国最早的弹幕视频网站，硬核二次元文化社区。",
           "proxy": false
         },
         {
-          "title": "太平洋时尚网",
-          "url": "https://www.pclady.com.cn/",
-          "icon": "https://www.pclady.com.cn/favicon.ico",
-          "desc": "提供时尚、美容、服饰等潮流资讯。",
+          "title": "樱花动漫",
+          "url": "https://www.momdm.cc/",
+          "icon": "data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22%3E%3Ctext y=%22.9em%22 font-size=%2290%22%3E🌸%3C/text%3E%3C/svg%3E",
+          "desc": "一个提供海量日本动漫在线观看的网站。",
           "proxy": false
         },
         {
-          "title": "香水时代",
-          "url": "https://www.nosetime.com/",
-          "icon": "https://www.nosetime.com/favicon.ico",
-          "desc": "专业的香水资讯、测评和交流社区。",
+          "title": "动漫花园",
+          "url": "https://dmhy.anoneko.com/",
+          "icon": "data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22%3E%3Ctext y=%22.9em%22 font-size=%2290%22%3E🌸%3C/text%3E%3C/svg%3E",
+          "desc": "知名的动漫资源（BT下载）发布页，新番资源更新快。",
+          "proxy": false
+        },
+        {
+          "title": "pixiv镜像",
+          "url": "https://www.huashi6.com/",
+          "icon": "data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22%3E%3Ctext y=%22.9em%22 font-size=%2290%22%3E🎨%3C/text%3E%3C/svg%3E",
+          "desc": "一个Pixiv的镜像网站，方便访问和浏览P站插画作品。",
+          "proxy": false
+        }
+      ]
+    },
+    {
+      "categoryName": "土木建筑",
+      "categoryId": "civil-engineering",
+      "sites": [
+        {
+          "title": "土木工程网",
+          "url": "http://www.civilcn.com/",
+          "icon": "data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22%3E%3Ctext y=%22.9em%22 font-size=%2290%22%3E🏗️%3C/text%3E%3C/svg%3E",
+          "desc": "提供各专业的标准图、图集、论文和行业资讯。",
+          "proxy": false
+        },
+        {
+          "title": "建标库",
+          "url": "http://www.jianbiaoku.com/",
+          "icon": "data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22%3E%3Ctext y=%22.9em%22 font-size=%2290%22%3E🏗️%3C/text%3E%3C/svg%3E",
+          "desc": "搜集各种建筑行业标准、规范和图集，方便查询下载。",
+          "proxy": false
+        },
+        {
+          "title": "筑龙学社",
+          "url": "https://www.zhulong.com/",
+          "icon": "data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22%3E%3Ctext y=%22.9em%22 font-size=%2290%22%3E🏗️%3C/text%3E%3C/svg%3E",
+          "desc": "建筑行业的学习和交流社区，分享各专业的图纸和资料。",
+          "proxy": false
+        },
+        {
+          "title": "国家标准全文公开",
+          "url": "http://openstd.samr.gov.cn/bzgk/gb/index",
+          "icon": "data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22%3E%3Ctext y=%22.9em%22 font-size=%2290%22%3E🏗️%3C/text%3E%3C/svg%3E",
+          "desc": "官方平台，可在线观看国家标准规范，查询最新标准。",
+          "proxy": false
+        },
+        {
+          "title": "住房和城乡建设部",
+          "url": "http://www.mohurd.gov.cn/",
+          "icon": "data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22%3E%3Ctext y=%22.9em%22 font-size=%2290%22%3E🏗️%3C/text%3E%3C/svg%3E",
+          "desc": "官方网站，可查询行业相关的政策、公告和专业信息。",
           "proxy": false
         }
       ]

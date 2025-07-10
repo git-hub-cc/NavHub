@@ -159,7 +159,7 @@ export async function handleDeleteSource() {
     // 重新加载数据源列表并切换到第一个默认数据源
     loadAllDataSources();
     populateDataSourceSelector();
-    const safeSourcePath = 'data/navhub.json'; // 回退到一个安全、确定的源
+    const safeSourcePath = 'data/小帅同学.json'; // 回退到一个安全、确定的源
     performDataSourceSwitch(safeSourcePath, false, (identifier) => {
         dom.dataSourceSelect.value = identifier;
         renderNavPage();

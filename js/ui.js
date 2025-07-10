@@ -301,13 +301,15 @@ export function renderSearchCategories() {
 export function renderEngineCheckboxes(currentSearchCategory) {
     dom.searchEngineCheckboxesContainer.innerHTML = '';
     const engines = state.searchConfig.engines[currentSearchCategory] || [];
-    engines.forEach(engine => {
+    engines.forEach((engine, index) => {
         const label = document.createElement('label');
         label.className = 'engine-checkbox';
         const checkbox = document.createElement('input');
         checkbox.type = 'checkbox';
         checkbox.value = engine.url;
-        checkbox.checked = true;
+        // --- MODIFICATION ---
+        // 只默认选中第一个 (index === 0)
+        checkbox.checked = (index === 0);
         label.appendChild(checkbox);
         label.appendChild(document.createTextNode(` ${engine.name}`));
         dom.searchEngineCheckboxesContainer.appendChild(label);

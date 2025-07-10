@@ -17,9 +17,8 @@ export const DEFAULT_SITES_PATH = "data/小帅同学.json";
 
 // === 默认数据源列表 ===
 export const defaultSiteDataSources = [
-    {name: "NavHub", path: "data/navhub.json"},
-    {name: "资源船舱", path: "data/资源船舱.json"},
     {name: "大数据", path: "data/大数据.json"},
+    {name: "资源船舱", path: "data/资源船舱.json"},
     {name: "哆啦A梦的神奇口袋", path: "data/哆啦A梦的神奇口袋.json"},
     {name: "小帅同学", path: "data/小帅同学.json"},
     {name: "懒人找资源", path: "data/懒人找资源.json"},
