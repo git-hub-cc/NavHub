@@ -4,7 +4,7 @@
 // 包括：导出JSON文件、处理文件导入（JSON和HTML书签）、解析HTML书签、管理自定义数据源（新增、删除）。
 // =========================================================================
 
-import { state, getCustomSources, loadAllDataSources, saveNavData, performDataSourceSwitch, CUSTOM_CATEGORY_ID } from './data.js';
+import { state, getCustomSources, loadAllDataSources, saveNavData, performDataSourceSwitch, CUSTOM_CATEGORY_ID, DEFAULT_SITES_PATH, NAV_DATA_SOURCE_PREFERENCE_KEY } from './data.js';
 import { dom, showAlert, showConfirm, populateDataSourceSelector, renderNavPage, updateDeleteButtonState, closeImportNameModal, openImportNameModal } from './ui.js';
 
 let pendingImportData = null; // 用于暂存待导入的数据
@@ -18,6 +18,28 @@ export function handleExport() {
     saveNavData(); // 确保保存的是最新数据
     const dataToExport = JSON.parse(JSON.stringify(state.siteData)); // 深拷贝
 
+    // --- MODIFICATION START ---
+    // 确保所有导出的分类和网站都有ID，以保证数据的完整性和可再导入性
+    dataToExport.categories.forEach(category => {
+        // 如果分类缺少 categoryId，则根据其名称生成一个
+        if (!category.categoryId) {
+            // 使用本文件内已有的 generateCategoryId 函数
+            category.categoryId = generateCategoryId(category.categoryName);
+            console.warn(`[Export] 为分类 "${category.categoryName}" 添加了缺失的 categoryId: ${category.categoryId}`);
+        }
+        // 遍历分类下的所有网站
+        if (category.sites && Array.isArray(category.sites)) {
+            category.sites.forEach(site => {
+                // 如果网站缺少 id，则为其生成一个唯一的id
+                if (!site.id) {
+                    site.id = `site-${Date.now()}-${Math.random()}`;
+                    console.warn(`[Export] 为网站 "${site.title}" 添加了缺失的 id: ${site.id}`);
+                }
+            });
+        }
+    });
+    // --- MODIFICATION END ---
+
     // --- MODIFICATION ---
     // 导出时不应包含任何空的分类，除非它是“我的导航”
     dataToExport.categories = dataToExport.categories.filter(c => c.sites.length > 0 || c.categoryId === CUSTOM_CATEGORY_ID);
@@ -28,7 +50,8 @@ export function handleExport() {
     const a = document.createElement('a');
     a.href = url;
     const timestamp = (new Date()).toISOString().slice(0, 10);
-    const sourceName = dom.dataSourceSelect.options[dom.dataSourceSelect.selectedIndex].text;
+    // --- MODIFICATION: Use custom select's text content ---
+    const sourceName = dom.customSelectSelectedText.textContent;
     a.download = `NavHub-Export-${sourceName}-${timestamp}.json`;
     document.body.appendChild(a);
     a.click();
@@ -123,11 +146,10 @@ export function handleImportNameSubmit(e) {
     // 导入后，立即切换到这个新的数据源
     performDataSourceSwitch(newName, false, (identifier) => {
         populateDataSourceSelector(); // 在成功后填充，以保证顺序正确
-        dom.dataSourceSelect.value = identifier;
         renderNavPage();
         dom.searchInput.value = '';
         updateDeleteButtonState();
-        localStorage.setItem('nav-data-source-preference', identifier);
+        localStorage.setItem(NAV_DATA_SOURCE_PREFERENCE_KEY, identifier);
     });
 
     closeImportNameModal();
@@ -140,7 +162,8 @@ export function handleImportNameSubmit(e) {
  * 删除一个自定义数据源
  */
 export async function handleDeleteSource() {
-    const sourceIdentifier = dom.dataSourceSelect.value;
+    // --- MODIFICATION: Use custom select's data-value ---
+    const sourceIdentifier = dom.customSelect.dataset.value;
     const source = state.allSiteDataSources.find(s => (s.path || s.name) === sourceIdentifier);
 
     if (!source || source.path) {
@@ -158,13 +181,13 @@ export async function handleDeleteSource() {
 
     // 重新加载数据源列表并切换到第一个默认数据源
     loadAllDataSources();
-    populateDataSourceSelector();
-    const safeSourcePath = 'data/小帅同学.json'; // 回退到一个安全、确定的源
-    performDataSourceSwitch(safeSourcePath, false, (identifier) => {
-        dom.dataSourceSelect.value = identifier;
+    const safeSourcePath = DEFAULT_SITES_PATH;
+    localStorage.setItem(NAV_DATA_SOURCE_PREFERENCE_KEY, safeSourcePath);
+    populateDataSourceSelector(); // Update the select UI to show the new reality
+
+    performDataSourceSwitch(safeSourcePath, false, () => {
         renderNavPage();
         updateDeleteButtonState();
-        localStorage.setItem('nav-data-source-preference', identifier);
     });
 }
 

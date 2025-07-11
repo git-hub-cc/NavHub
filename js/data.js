@@ -91,7 +91,8 @@ export async function loadSearchConfig() {
  * 并且在保存自定义数据源后，会同步更新内存中的 state。
  */
 export function saveNavData() {
-    const currentSourceIdentifier = dom.dataSourceSelect.value;
+    // --- MODIFICATION: Use custom select's data-value ---
+    const currentSourceIdentifier = dom.customSelect.dataset.value;
     const currentSource = state.allSiteDataSources.find(s => (s.path || s.name) === currentSourceIdentifier);
 
     if (!currentSource) {

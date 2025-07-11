@@ -4,14 +4,18 @@
 // 包括：缓存DOM元素、渲染导航卡片和分类、控制模态框、更新UI状态（如主题、编辑模式）等。
 // =========================================================================
 
-import { state, CUSTOM_CATEGORY_ID } from './data.js';
+import { state, CUSTOM_CATEGORY_ID, DEFAULT_SITES_PATH, NAV_DATA_SOURCE_PREFERENCE_KEY } from './data.js';
 
 // === DOM 元素缓存 ===
 export const dom = {
     darkModeSwitch: document.getElementById('dark-mode-switch'),
     categoryList: document.querySelector('.category-list'),
     contentWrapper: document.getElementById('content-wrapper'),
-    dataSourceSelect: document.getElementById('data-source-select'),
+    // --- MODIFICATION: Replaced dataSourceSelect with custom select elements ---
+    customSelect: document.getElementById('custom-select'),
+    customSelectTrigger: document.getElementById('custom-select-trigger'),
+    customSelectSelectedText: document.getElementById('custom-select-selected-text'),
+    customSelectOptions: document.getElementById('custom-select-options'),
     importBtn: document.getElementById('import-btn'),
     exportBtn: document.getElementById('export-btn'),
     deleteSourceBtn: document.getElementById('delete-source-btn'),
@@ -118,32 +122,45 @@ export function applyTheme(theme) {
 }
 
 /**
- * 填充数据源选择器下拉列表
+ * --- MODIFICATION: Reworked to support the new custom select component. ---
+ * It reads the current preference from localStorage and renders the options accordingly.
  */
 export function populateDataSourceSelector() {
-    if (!dom.dataSourceSelect) return;
-    const currentVal = dom.dataSourceSelect.value;
-    dom.dataSourceSelect.innerHTML = '';
+    if (!dom.customSelect) return;
+
+    const selectedIdentifier = localStorage.getItem(NAV_DATA_SOURCE_PREFERENCE_KEY) || DEFAULT_SITES_PATH;
+    let selectedText = '选择源...'; // Default text if nothing is found
+
+    dom.customSelectOptions.innerHTML = '';
     state.allSiteDataSources.forEach(source => {
-        const option = document.createElement('option');
-        option.value = source.path || source.name;
+        const option = document.createElement('div');
+        option.className = 'custom-select-option';
+        const value = source.path || source.name;
+        option.dataset.value = value;
         option.textContent = source.name;
-        dom.dataSourceSelect.appendChild(option);
+
+        if (value === selectedIdentifier) {
+            option.classList.add('selected');
+            selectedText = source.name;
+        }
+
+        dom.customSelectOptions.appendChild(option);
     });
-    // 确保在选项填充后设置 value
-    if (currentVal && Array.from(dom.dataSourceSelect.options).some(opt => opt.value === currentVal)) {
-        dom.dataSourceSelect.value = currentVal;
-    }
+
+    dom.customSelect.dataset.value = selectedIdentifier;
+    dom.customSelectSelectedText.textContent = selectedText;
+
     updateDeleteButtonState();
 }
 
 
 /**
+ * --- MODIFICATION: Updated to use the custom select's data-value. ---
  * 根据当前选择的数据源，更新删除按钮的可用状态
  */
 export function updateDeleteButtonState() {
-    if (!dom.deleteSourceBtn || !dom.dataSourceSelect) return;
-    const selectedIdentifier = dom.dataSourceSelect.value;
+    if (!dom.deleteSourceBtn || !dom.customSelect) return;
+    const selectedIdentifier = dom.customSelect.dataset.value;
     const source = state.allSiteDataSources.find(s => (s.path || s.name) === selectedIdentifier);
     // 带有 'path' 属性的是内置源，不可删除
     dom.deleteSourceBtn.disabled = !source || !!source.path;
@@ -158,8 +175,8 @@ export function renderNavPage() {
     dom.categoryList.innerHTML = '';
     dom.contentWrapper.innerHTML = '';
 
-    // 判断当前数据源是否为自定义源 (没有 path 属性)
-    const currentSourceIdentifier = dom.dataSourceSelect.value;
+    // --- MODIFICATION: Use custom select's data-value ---
+    const currentSourceIdentifier = dom.customSelect.dataset.value;
     const currentSource = state.allSiteDataSources.find(s => (s.path || s.name) === currentSourceIdentifier);
     const isCustomSource = currentSource && !currentSource.path;
 
@@ -191,7 +208,7 @@ export function renderNavPage() {
             actionsDiv.innerHTML = `
                 <button id="add-site-btn" class="action-btn" data-category-id="${category.categoryId}">新增</button>
                 <button id="edit-site-btn" class="action-btn">编辑</button>
-                <button id="delete-site-btn" class="action-btn">删除</button>
+                <button id="delete-site-btn" class="action-btn btn-danger">删除</button>
             `;
             titleContainer.appendChild(actionsDiv);
         }
@@ -202,7 +219,7 @@ export function renderNavPage() {
             actionsDiv.innerHTML = `
                 <button id="add-site-btn" class="action-btn" data-category-id="${category.categoryId}">新增</button>
                 <button id="edit-site-btn" class="action-btn">编辑</button>
-                <button id="delete-site-btn" class="action-btn">删除</button>
+                <button id="delete-site-btn" class="action-btn btn-danger">删除</button>
             `;
             section.classList.add('custom-source-section'); // 也给它加上这个class，让编辑功能生效
             titleContainer.appendChild(actionsDiv);

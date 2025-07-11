@@ -19,30 +19,28 @@ let suggestionTimer = null;
  * 应用总初始化函数
  */
 async function init() {
-    // 1. 应用基础样式和数据
+    // 1. 应用基础样式
     applyTheme(getThemePreference());
+    // 2. 加载所有可用数据源的定义（默认+自定义）
     loadAllDataSources();
-
-    // 2. 绑定静态元素的事件监听
+    // 3. 绑定静态和动态元素的事件监听
     setupStaticEventListeners();
-
-    // 3. 动态内容区的事件监听（使用事件委托）
     setupDynamicEventListeners();
 
-    // 4. 并发加载核心数据
+    // 4. 确定要加载的数据源
     const lastUsedSource = localStorage.getItem(NAV_DATA_SOURCE_PREFERENCE_KEY) || DEFAULT_SITES_PATH;
 
-    // 提前填充选择器，这样即使用户网络慢，也能看到选项
+    // 5. 渲染数据源选择器UI
     populateDataSourceSelector();
-    if(lastUsedSource) dom.dataSourceSelect.value = lastUsedSource;
 
+    // 6. 并发加载核心数据和资产
     await Promise.all([
         performDataSourceSwitch(lastUsedSource, true, onDataSourceSwitchSuccess, onDataSourceSwitchFail),
         loadSearchConfig(),
         pinyinConverter.loadMap('data/pinyin-map.json')
     ]);
 
-    // 5. 初始化依赖于数据的组件
+    // 7. 初始化依赖于已加载数据的组件
     initEnhancedSearch();
 }
 
@@ -51,7 +49,40 @@ async function init() {
  */
 function setupStaticEventListeners() {
     dom.darkModeSwitch.addEventListener('change', () => applyTheme(dom.darkModeSwitch.checked ? 'dark' : 'light'));
-    dom.dataSourceSelect.addEventListener('change', handleDataSourceChange);
+
+    // --- MODIFICATION: New event listeners for the custom select component ---
+    dom.customSelectTrigger.addEventListener('click', () => {
+        dom.customSelect.classList.toggle('open');
+    });
+
+    dom.customSelectOptions.addEventListener('click', (e) => {
+        const option = e.target.closest('.custom-select-option');
+        if (option) {
+            e.stopPropagation(); // Prevent the trigger's click listener from firing right after
+            const newValue = option.dataset.value;
+            const currentValue = dom.customSelect.dataset.value;
+
+            if (newValue !== currentValue) {
+                // Update UI state immediately for responsiveness
+                dom.customSelectSelectedText.textContent = option.textContent;
+                dom.customSelect.dataset.value = newValue;
+                const oldSelected = dom.customSelectOptions.querySelector('.selected');
+                if (oldSelected) oldSelected.classList.remove('selected');
+                option.classList.add('selected');
+                // Trigger the data switch logic
+                handleDataSourceChange(newValue);
+            }
+            dom.customSelect.classList.remove('open');
+        }
+    });
+
+    // Close the dropdown when clicking anywhere else on the document
+    document.addEventListener('click', (e) => {
+        if (!dom.customSelect.contains(e.target)) {
+            dom.customSelect.classList.remove('open');
+        }
+    });
+
     dom.exportBtn.addEventListener('click', handleExport);
     dom.importBtn.addEventListener('click', handleImportClick);
     dom.deleteSourceBtn.addEventListener('click', handleDeleteSource);
@@ -202,14 +233,14 @@ function setupDynamicEventListeners() {
 
 // === 事件处理器 ===
 
-function handleDataSourceChange(e) {
-    const newIdentifier = e.target.value;
+// --- MODIFICATION: Handler now takes an identifier string directly ---
+function handleDataSourceChange(newIdentifier) {
     performDataSourceSwitch(newIdentifier, false, onDataSourceSwitchSuccess, onDataSourceSwitchFail);
 }
 
-function onDataSourceSwitchSuccess(identifier) {
-    // 确保在成功回调后，select的值是正确的
-    if (dom.dataSourceSelect) dom.dataSourceSelect.value = identifier;
+function onDataSourceSwitchSuccess() {
+    // UI for the select is already updated by user action.
+    // We just need to render the main page content and related UI.
     renderNavPage();
     dom.searchInput.value = '';
     filterNavCards('');
@@ -218,8 +249,10 @@ function onDataSourceSwitchSuccess(identifier) {
 
 function onDataSourceSwitchFail(sourceName, error) {
     showAlert(`加载数据源失败: ${sourceName}\n${error.message}`, '加载错误');
-    if (dom.dataSourceSelect) dom.dataSourceSelect.value = state.originalDataSourceValue;
-    updateDeleteButtonState();
+    // --- MODIFICATION: Revert preference and re-render the select to show the correct state ---
+    // state.originalDataSourceValue holds the last successful identifier.
+    localStorage.setItem(NAV_DATA_SOURCE_PREFERENCE_KEY, state.originalDataSourceValue);
+    populateDataSourceSelector(); // This will read the reverted preference and update the UI
 }
 
 /**
@@ -336,7 +369,7 @@ function initEnhancedSearch() {
     dom.suggestionsList.addEventListener('mouseleave', startSuggestionTimer);
     dom.suggestionsList.addEventListener('mouseenter', clearSuggestionTimer);
     document.addEventListener('click', e => {
-        if (e.target !== dom.searchInput && !dom.suggestionsList.contains(e.target)) {
+        if (e.target !== dom.searchInput && !dom.suggestionsList.contains(e.target) && !dom.customSelect.contains(e.target)) {
             suggestions = [];
             renderSuggestions(suggestions);
         }

@@ -2,35 +2,44 @@
    1. 全局样式和变量 (Global Styles & Variables)
    ========================================================================== */
 :root {
-    --bg-color: #f4f7fa;
+    /* --- MODIFICATION: 新增圆角变量和微调颜色/阴影 --- */
+    --bg-color: #f8f9fa; /* 更柔和的背景色 */
     --sidebar-bg: #ffffff;
     --card-bg: #ffffff;
-    --text-color: #333;
-    --text-light-color: #888;
+    --text-color: #212529; /* 略微柔和的黑色 */
+    --text-light-color: #6c757d; /* 更柔和的灰色 */
     --accent-color: #007bff;
     --border-color: #e9ecef;
-    --shadow-color: rgba(0, 0, 0, 0.05);
+    --shadow-color: rgba(0, 0, 0, 0.04); /* 更细微的阴影 */
     --warning-color: #ffc107;
     --font-family: 'Helvetica Neue', Arial, 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', sans-serif;
+
+    /* 新增圆角变量 */
+    --border-radius-sm: 6px;
+    --border-radius-md: 10px;
+    --border-radius-lg: 12px;
+    --border-radius-xl: 16px;
+    --border-radius-pill: 50rem;
 
     /* 主题化变量 */
     --search-focus-shadow: rgba(0, 123, 255, 0.1);
     --btn-secondary-bg: #f1f3f5;
     --btn-secondary-hover-bg: #e9ecef;
-    --placeholder-bg: #e9ecef;
+    --placeholder-bg: #f1f3f5;
     --placeholder-border: var(--accent-color);
     --slider-bg: #ccc;
 }
 
 html[data-theme='dark'] {
-    --bg-color: #212529;
-    --sidebar-bg: #2d3339;
-    --card-bg: #2d3339;
+    /* --- MODIFICATION: 微调暗色模式颜色以获得更好对比度和质感 --- */
+    --bg-color: #181a1e; /* 更深的背景 */
+    --sidebar-bg: #212529;
+    --card-bg: #212529;
     --text-color: #e9ecef;
     --text-light-color: #adb5bd;
     --accent-color: #0d6efd;
-    --border-color: #495057;
-    --shadow-color: rgba(0, 0, 0, 0.2);
+    --border-color: #343a40;
+    --shadow-color: rgba(0, 0, 0, 0.15); /* 暗色模式下更明显的阴影 */
     --warning-color: #ffca2c;
 
     /* 主题化变量 (暗色) */
@@ -38,7 +47,6 @@ html[data-theme='dark'] {
     --btn-secondary-bg: #343a40;
     --btn-secondary-hover-bg: #495057;
     --placeholder-bg: #343a40;
-    --placeholder-border: var(--accent-color);
     --slider-bg: #555;
 }
 
@@ -72,8 +80,6 @@ body {
     z-index: 100;
     display: flex;
     flex-direction: column;
-    /* --- MODIFICATION --- */
-    /* Removed justify-content: space-between to allow the middle section to grow and scroll */
 }
 
 .main-content {
@@ -86,7 +92,7 @@ body {
 .main-content-inner {
     max-width: 1400px;
     margin: 0 auto;
-    padding: 20px;
+    padding: 24px;
     box-sizing: border-box;
 }
 
@@ -96,48 +102,50 @@ body {
 
 .enhanced-search-header {
     background-color: var(--card-bg);
-    padding: 20px;
-    border-radius: 12px;
-    margin-bottom: 30px;
-    box-shadow: 0 4px 12px var(--shadow-color);
-    transition: background-color 0.3s;
+    padding: 24px;
+    border-radius: var(--border-radius-xl);
+    margin-bottom: 32px;
+    box-shadow: 0 6px 24px var(--shadow-color);
+    transition: background-color 0.3s, box-shadow 0.3s;
 }
 
 .category-buttons {
     display: flex;
     flex-wrap: wrap;
-    gap: 10px;
-    margin-bottom: 15px;
+    gap: 12px;
+    margin-bottom: 20px;
 }
 
 .category-btn {
-    padding: 8px 16px;
+    padding: 6px 16px;
     font-size: 14px;
     border: 1px solid var(--border-color);
     background-color: transparent;
     color: var(--text-color);
-    border-radius: 20px;
+    border-radius: var(--border-radius-pill);
     cursor: pointer;
-    transition: background-color 0.2s, color 0.2s, border-color 0.2s;
+    transition: background-color 0.2s, color 0.2s, border-color 0.2s, transform 0.2s;
 }
 
 .category-btn:hover {
     background-color: var(--btn-secondary-bg);
     border-color: var(--accent-color);
+    transform: translateY(-2px);
 }
 
 .category-btn.active {
     background-color: var(--accent-color);
     color: white;
     border-color: var(--accent-color);
+    transform: translateY(0);
 }
 
 .search-engines {
     display: flex;
     flex-wrap: wrap;
     gap: 15px;
-    margin-bottom: 15px;
-    padding-bottom: 15px;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
     border-bottom: 1px solid var(--border-color);
     transition: border-color 0.3s;
 }
@@ -151,13 +159,13 @@ body {
 }
 
 .engine-checkbox input {
-    margin-right: 6px;
+    margin-right: 8px;
     cursor: pointer;
 }
 
 .search-form {
     display: flex;
-    gap: 10px;
+    gap: 12px;
 }
 
 .search-input-wrapper {
@@ -167,10 +175,10 @@ body {
 
 #search-input {
     width: 100%;
-    padding: 12px 15px;
+    padding: 14px 20px;
     font-size: 16px;
     border: 1px solid var(--border-color);
-    border-radius: 8px;
+    border-radius: var(--border-radius-md);
     box-sizing: border-box;
     transition: box-shadow 0.2s, background-color 0.3s, border-color 0.3s, color 0.3s;
     background-color: var(--bg-color);
@@ -180,39 +188,44 @@ body {
 #search-input:focus {
     outline: none;
     border-color: var(--accent-color);
-    box-shadow: 0 0 0 3px var(--search-focus-shadow);
+    box-shadow: 0 0 0 4px var(--search-focus-shadow);
+}
+
+#search-input::placeholder {
+    color: var(--text-light-color);
+    opacity: 0.8;
 }
 
 #search-button {
-    padding: 10px 20px;
+    padding: 12px 24px;
     font-size: 16px;
+    font-weight: 500;
     border: none;
-    border-radius: 8px;
+    border-radius: var(--border-radius-md);
     cursor: pointer;
     flex-shrink: 0;
 }
 
 .suggestions-list {
     position: absolute;
-    top: 100%;
+    top: calc(100% + 4px);
     left: 0;
     right: 0;
     background-color: var(--card-bg);
     border: 1px solid var(--border-color);
-    border-top: none;
-    border-radius: 0 0 8px 8px;
+    border-radius: var(--border-radius-md);
     list-style: none;
-    padding: 0;
+    padding: 8px 0;
     margin: 0;
     z-index: 10;
-    box-shadow: 0 8px 16px var(--shadow-color);
+    box-shadow: 0 8px 24px var(--shadow-color);
     max-height: 300px;
     overflow-y: auto;
     display: none;
 }
 
 .suggestion-item {
-    padding: 10px 15px;
+    padding: 10px 20px;
     cursor: pointer;
     transition: background-color 0.2s;
 }
@@ -224,14 +237,11 @@ body {
 /* ==========================================================================
    4. 侧边栏 (Sidebar)
    ========================================================================== */
-
-/* --- MODIFICATION --- */
-/* This new rule targets the container of the logo and category list */
 .sidebar > div:first-child {
-    flex: 1; /* Allows this section to grow and fill the available vertical space */
+    flex: 1;
     display: flex;
     flex-direction: column;
-    min-height: 0; /* A flexbox trick to allow the child element (category-list) to actually scroll */
+    min-height: 0;
 }
 
 .logo {
@@ -240,30 +250,29 @@ body {
     text-align: center;
     padding: 0 20px 20px;
     color: var(--accent-color);
-    flex-shrink: 0; /* Prevents the logo from shrinking */
+    flex-shrink: 0;
 }
 
 .category-list {
     list-style: none;
     padding: 0;
     margin: 0;
-    /* --- MODIFICATION --- */
-    overflow-y: auto; /* Adds a vertical scrollbar ONLY when the content overflows */
-    flex-grow: 1;     /* Allows the list to expand and fill the space given by its parent */
+    overflow-y: auto;
+    flex-grow: 1;
 }
 
 .category-list a {
     display: block;
-    padding: 12px 20px;
+    padding: 12px 24px;
     color: var(--text-color);
     text-decoration: none;
-    font-size: 16px;
+    font-size: 15px;
     transition: background-color 0.2s, color 0.2s;
     border-left: 3px solid transparent;
 }
 
 .category-list a:hover {
-    background-color: #f8f9fa;
+    background-color: var(--btn-secondary-bg);
 }
 
 html[data-theme='dark'] .category-list a:hover {
@@ -272,19 +281,20 @@ html[data-theme='dark'] .category-list a:hover {
 
 .category-list a.active {
     color: var(--accent-color);
-    font-weight: bold;
+    background-color: var(--btn-secondary-bg);
+    font-weight: 600;
     border-left-color: var(--accent-color);
 }
 
 .menu-bottom-section {
-    padding: 15px 20px;
+    padding: 20px;
     border-top: 1px solid var(--border-color);
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 15px;
     transition: border-color 0.3s, padding 0.3s;
-    flex-shrink: 0; /* Prevents the bottom section from shrinking */
+    flex-shrink: 0;
 }
 
 .data-actions {
@@ -297,6 +307,8 @@ html[data-theme='dark'] .category-list a:hover {
     flex-grow: 1;
     padding: 8px;
     font-size: 14px;
+    /* --- MODIFICATION: Added border-radius for a softer look --- */
+    border-radius: var(--border-radius-sm);
 }
 
 .data-source-selector {
@@ -304,6 +316,8 @@ html[data-theme='dark'] .category-list a:hover {
     display: flex;
     flex-direction: column;
     gap: 8px;
+    /* --- MODIFICATION: Align label to the start for better layout --- */
+    align-items: flex-start;
 }
 
 .data-source-selector label {
@@ -313,17 +327,87 @@ html[data-theme='dark'] .category-list a:hover {
     padding-left: 2px;
 }
 
-.data-source-selector select {
+/* --- MODIFICATION: New styles for the custom select component --- */
+.custom-select {
+    position: relative;
     width: 100%;
-    padding: 8px;
-    border-radius: 6px;
+    user-select: none;
+    outline: none;
+}
+
+.custom-select-trigger {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 12px;
+    border-radius: var(--border-radius-sm);
     border: 1px solid var(--border-color);
     background-color: var(--bg-color);
     color: var(--text-color);
     cursor: pointer;
-    font-size: 14px;
-    transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+    transition: border-color 0.2s, box-shadow 0.2s;
 }
+
+.custom-select:focus-within .custom-select-trigger {
+    border-color: var(--accent-color);
+    box-shadow: 0 0 0 3px var(--search-focus-shadow);
+}
+
+.custom-select-arrow {
+    width: 8px;
+    height: 8px;
+    border: 0 solid var(--text-light-color);
+    border-width: 0 2px 2px 0;
+    transform: rotate(45deg);
+    transition: transform 0.3s ease;
+    margin-left: 10px;
+}
+
+.custom-select.open .custom-select-arrow {
+    transform: translateY(2px) rotate(-135deg);
+}
+
+.custom-select-options {
+    position: absolute;
+    bottom: calc(100% + 5px);
+    left: 0;
+    right: 0;
+    background-color: var(--sidebar-bg);
+    border: 1px solid var(--border-color);
+    border-radius: var(--border-radius-md);
+    box-shadow: 0 8px 16px var(--shadow-color);
+    z-index: 101;
+    max-height: 250px;
+    overflow-y: auto;
+    display: none;
+    padding: 5px 0;
+}
+
+.custom-select.open .custom-select-options {
+    display: block;
+}
+
+.custom-select-option {
+    padding: 10px 15px;
+    cursor: pointer;
+    transition: background-color 0.2s, color 0.2s;
+    font-size: 14px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.custom-select-option:hover {
+    background-color: var(--btn-secondary-bg);
+}
+
+.custom-select-option.selected {
+    background-color: var(--accent-color);
+    color: white;
+    font-weight: 500;
+}
+/* --- End of custom select styles --- */
+
 
 .social-links {
     display: flex;
@@ -416,13 +500,13 @@ html[data-theme='dark'] .category-list a:hover {
     justify-content: space-between;
     align-items: center;
     border-bottom: 1px solid var(--border-color);
-    padding-bottom: 10px;
-    margin-bottom: 20px;
+    padding-bottom: 12px;
+    margin-bottom: 24px;
     transition: border-color 0.3s;
 }
 
 .category-title {
-    font-size: 22px;
+    font-size: 24px;
     font-weight: 600;
     margin: 0;
 }
@@ -432,16 +516,33 @@ html[data-theme='dark'] .category-list a:hover {
     border: none;
     padding: 8px 16px;
     font-size: 14px;
-    border-radius: 6px;
+    border-radius: var(--border-radius-sm);
     cursor: pointer;
-    transition: background-color 0.2s, color 0.2s;
+    transition: background-color 0.2s, color 0.2s, border-color 0.2s;
     margin-left: 10px;
     color: var(--text-color);
 }
 
 .title-actions .action-btn:hover {
-    background-color: var(--btn-secondary-hover-bg);
+    /* --- MODIFICATION: Use accent color for hover state to improve visual feedback --- */
+    background-color: var(--accent-color);
+    color: white;
+    border-color: var(--accent-color);
 }
+
+/* --- MODIFICATION START: Add specific styles for the danger button in title actions --- */
+.title-actions .action-btn.btn-danger {
+    background-color: transparent;
+    color: #dc3545;
+    border: 1px solid #dc3545;
+}
+
+.title-actions .action-btn.btn-danger:hover {
+    background-color: #dc3545;
+    color: #fff;
+    border-color: #dc3545;
+}
+/* --- MODIFICATION END --- */
 
 .title-actions .action-btn.active {
     background-color: var(--accent-color);
@@ -451,71 +552,81 @@ html[data-theme='dark'] .category-list a:hover {
 .card-grid {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
-    gap: 20px;
+    gap: 24px;
     min-height: 100px;
 }
 
 .card {
     position: relative;
     background-color: var(--card-bg);
-    border-radius: 12px;
-    box-shadow: 0 4px 12px var(--shadow-color);
-    padding: 20px;
-    transition: transform 0.2s ease, box-shadow 0.2s ease, background-color 0.3s;
+    border-radius: var(--border-radius-xl);
+    box-shadow: 0 4px 16px var(--shadow-color);
+    padding: 16px;
+    transition: transform 0.2s ease, box-shadow 0.2s ease, background-color 0.3s, border-color 0.2s ease;
     cursor: pointer;
     display: flex;
     flex-direction: column;
     user-select: none;
+    border: 1px solid transparent;
 }
 
 .card:hover {
     transform: translateY(-5px);
-    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+    box-shadow: 0 8px 24px var(--shadow-color);
+    border-color: var(--accent-color);
 }
 
 html[data-theme='dark'] .card:hover {
-    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.25);
+    box-shadow: 0 8px 24px var(--shadow-color);
 }
 
 .card-header {
     display: flex;
     align-items: center;
-    margin-bottom: 10px;
+    margin-bottom: 12px;
 }
 
 .card-icon {
-    width: 32px;
-    height: 32px;
-    margin-right: 15px;
+    width: 36px;
+    height: 36px;
+    margin-right: 16px;
     flex-shrink: 0;
 }
 
 .card-title {
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 600;
     margin: 0;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 
 .card-desc {
-    font-size: 14px;
+    font-size: 13px;
     color: var(--text-light-color);
     flex-grow: 1;
     margin: 0;
+    line-height: 1.5;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    min-height: 39px;
 }
 
 .proxy-badge {
     position: absolute;
-    top: 10px;
-    right: 10px;
+    top: 12px;
+    right: 12px;
     background-color: var(--warning-color);
-    color: #333;
+    color: #212529;
     font-size: 10px;
     font-weight: bold;
-    padding: 3px 6px;
-    border-radius: 4px;
+    padding: 3px 8px;
+    border-radius: var(--border-radius-pill);
     user-select: none;
 }
-
 
 /* ==========================================================================
    6. 交互状态 (Interactive States)
@@ -528,7 +639,7 @@ html[data-theme='dark'] .card:hover {
 .placeholder {
     background-color: var(--placeholder-bg);
     border: 2px dashed var(--placeholder-border);
-    border-radius: 12px;
+    border-radius: var(--border-radius-xl);
     box-sizing: border-box;
 }
 
@@ -540,8 +651,6 @@ html[data-theme='dark'] .card:hover {
     100% { transform: rotate(0deg); }
 }
 
-/* --- MODIFICATION: Scoped all editing/deleting styles to a class instead of an ID --- */
-/* This makes the styles apply to any category within a custom/editable data source. */
 .content-wrapper.is-editing .custom-source-section .card {
     animation: wobble 0.5s infinite;
     cursor: grab;
@@ -556,8 +665,9 @@ html[data-theme='dark'] .card:hover {
 }
 
 .content-wrapper.is-deleting .custom-source-section .card:hover {
-    transform: none; /* Disable hover lift effect in delete mode */
+    transform: none;
     box-shadow: 0 4px 12px var(--shadow-color);
+    border-color: transparent;
 }
 
 .content-wrapper.is-deleting .custom-source-section .card::after {
@@ -568,7 +678,7 @@ html[data-theme='dark'] .card:hover {
     width: 100%;
     height: 100%;
     background-color: rgba(220, 53, 69, 0.7);
-    border-radius: 12px;
+    border-radius: var(--border-radius-xl);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -583,7 +693,7 @@ html[data-theme='dark'] .card:hover {
 
 
 /* ==========================================================================
-   7. 模态框 (Modal)
+   7. 模态框 (Modal) & Buttons
    ========================================================================== */
 .modal-overlay {
     position: fixed;
@@ -607,8 +717,8 @@ html[data-theme='dark'] .card:hover {
 
 .modal-content {
     background: var(--sidebar-bg);
-    padding: 25px 30px;
-    border-radius: 12px;
+    padding: 30px 35px;
+    border-radius: var(--border-radius-xl);
     width: 90%;
     max-width: 500px;
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
@@ -622,7 +732,7 @@ html[data-theme='dark'] .card:hover {
 
 #modal-title, #alert-confirm-title {
     margin-top: 0;
-    margin-bottom: 20px;
+    margin-bottom: 24px;
     font-size: 22px;
 }
 
@@ -635,15 +745,14 @@ html[data-theme='dark'] .card:hover {
     margin: 0;
 }
 
-
 .form-group {
-    margin-bottom: 15px;
+    margin-bottom: 16px;
 }
 
 .form-group label {
     display: block;
-    margin-bottom: 5px;
-    font-weight: 600;
+    margin-bottom: 8px;
+    font-weight: 500;
     font-size: 14px;
 }
 
@@ -651,15 +760,24 @@ html[data-theme='dark'] .card:hover {
 .form-group input[type="url"],
 .form-group textarea {
     width: 100%;
-    padding: 10px;
+    padding: 12px;
     border: 1px solid var(--border-color);
-    border-radius: 6px;
+    border-radius: var(--border-radius-md);
     font-size: 16px;
     box-sizing: border-box;
     background-color: var(--bg-color);
     color: var(--text-color);
-    transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+    transition: background-color 0.3s, color 0.3s, border-color 0.3s, box-shadow 0.2s;
 }
+
+.form-group input[type="text"]:focus,
+.form-group input[type="url"]:focus,
+.form-group textarea:focus {
+    outline: none;
+    border-color: var(--accent-color);
+    box-shadow: 0 0 0 4px var(--search-focus-shadow);
+}
+
 
 .form-group-checkbox {
     display: flex;
@@ -682,17 +800,22 @@ html[data-theme='dark'] .card:hover {
     padding: 10px 20px;
     font-size: 16px;
     border: none;
-    border-radius: 6px;
-    cursor: pointer;
-    transition: background-color 0.2s;
+    border-radius: var(--border-radius-md);
+    font-weight: 500;
+    transition: background-color 0.2s, transform 0.1s;
 }
+.form-actions button:active,
+#search-button:active {
+    transform: scale(0.98);
+}
+
 
 .btn-primary {
     background-color: var(--accent-color);
     color: white;
 }
 .btn-primary:hover {
-    background-color: #0056b3;
+    background-color: #0069d9;
 }
 html[data-theme='dark'] .btn-primary:hover {
     background-color: #0b5ed7;
@@ -701,32 +824,110 @@ html[data-theme='dark'] .btn-primary:hover {
 .btn-secondary {
     background-color: var(--btn-secondary-bg);
     color: var(--text-color);
+    border: 1px solid var(--border-color);
+    transition: background-color 0.2s, color 0.2s, border-color 0.2s;
 }
 .btn-secondary:hover {
-    background-color: var(--btn-secondary-hover-bg);
+    background-color: var(--accent-color);
+    color: #ffffff;
+    border-color: var(--accent-color);
 }
 .btn-danger {
+    background-color: transparent;
     color: #dc3545;
-    border-color: #dc3545;
+    border: 1px solid #dc3545;
 }
 .btn-danger:hover {
     background-color: #dc3545;
     color: #fff;
 }
-.btn-danger:disabled {
+
+/* --- MODIFICATION START --- */
+/*
+  确保所有可交互的按钮都有指针（小手）样式，
+  而禁用的按钮则显示“禁止”样式。
+*/
+button, .btn-primary, .btn-secondary, .btn-danger {
+    cursor: pointer;
+}
+
+button:disabled, .btn-danger:disabled {
     color: #6c757d;
     border-color: #6c757d;
     background-color: transparent;
     cursor: not-allowed;
     opacity: 0.5;
 }
+/* --- MODIFICATION END --- */
 
 
 /* ==========================================================================
-   8. 响应式设计 (Responsive Design)
+   8. 致谢部分 (Acknowledgements Section)
+   ========================================================================== */
+.acknowledgements-section {
+    margin-top: 40px;
+    padding: 24px 30px;
+    background-color: var(--card-bg);
+    border-radius: var(--border-radius-xl);
+    box-shadow: 0 6px 24px var(--shadow-color);
+    transition: background-color 0.3s, box-shadow 0.3s;
+}
+
+.acknowledgements-title {
+    font-size: 22px;
+    font-weight: 600;
+    margin: 0 0 20px 0;
+    padding-bottom: 15px;
+    border-bottom: 1px solid var(--border-color);
+    transition: border-color 0.3s;
+}
+
+.acknowledgements-card-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 16px;
+}
+
+.ack-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* --- MODIFICATION: Adjusted padding and height --- */
+    padding: 12px 16px;
+    height: 50px;
+    background-color: var(--bg-color);
+    border: 1px solid var(--border-color);
+    border-radius: var(--border-radius-lg);
+    text-decoration: none;
+    text-align: center;
+    transition: transform 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease;
+    box-sizing: border-box; /* Ensures padding is included in the height */
+}
+
+.ack-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 8px 24px var(--shadow-color);
+    border-color: var(--accent-color);
+}
+
+.ack-card-title {
+    font-weight: 600;
+    font-size: 15px;
+    color: var(--text-color);
+    transition: color 0.2s ease;
+}
+
+.ack-card-subtitle {
+    font-size: 12px;
+    color: var(--text-light-color);
+    margin-top: 4px;
+}
+
+/* ==========================================================================
+   9. 响应式设计 (Responsive Design)
    ========================================================================== */
 @media (max-width: 768px) {
-    /* On mobile, the scrollable sidebar is not needed as it becomes a bottom bar */
     .sidebar > div:first-child {
         display: none;
     }
@@ -743,7 +944,12 @@ html[data-theme='dark'] .btn-primary:hover {
         border-right: none;
         border-top: 1px solid var(--border-color);
         padding: 0;
+        box-shadow: 0 -4px 12px rgba(0,0,0,0.05);
     }
+    html[data-theme='dark'] .sidebar {
+        box-shadow: 0 -4px 12px rgba(0,0,0,0.2);
+    }
+
 
     .menu-bottom-section {
         flex-direction: row;
@@ -756,16 +962,18 @@ html[data-theme='dark'] .btn-primary:hover {
     }
 
     .data-source-selector {
-        order: 3; /* Place after social and theme toggle */
+        order: 3;
         flex-basis: 100%;
         flex-direction: row;
         align-items: center;
         gap: 10px;
         justify-content: center;
         padding: 5px 0;
+        border-top: 1px solid var(--border-color);
+        margin-top: 8px;
     }
 
-    .data-source-selector select {
+    .custom-select {
         max-width: 200px;
     }
 
@@ -775,11 +983,12 @@ html[data-theme='dark'] .btn-primary:hover {
     }
 
     .main-content-inner {
-        padding: 15px 15px 120px 15px; /* Increased bottom padding */
+        padding: 15px 15px 150px 15px;
     }
 
     .enhanced-search-header {
-        padding: 15px;
+        padding: 16px;
+        border-radius: var(--border-radius-lg);
     }
 
     .search-form {
@@ -788,20 +997,34 @@ html[data-theme='dark'] .btn-primary:hover {
 
     .card-grid {
         grid-template-columns: 1fr;
+        gap: 16px;
     }
 
     .category-title {
         font-size: 20px;
     }
+
+    .acknowledgements-card-grid {
+        grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+    }
+
+    .acknowledgements-section {
+        padding: 15px 20px;
+        border-radius: var(--border-radius-lg);
+    }
+
+    .acknowledgements-title {
+        font-size: 20px;
+    }
 }
 
 /* ==========================================================================
-   9. 滚动条样式 (Scrollbar Styles)
+   10. 滚动条样式 (Scrollbar Styles)
    ========================================================================== */
 /* For Webkit-based browsers (Chrome, Safari, Edge) */
 ::-webkit-scrollbar {
-    width: 8px;
-    height: 8px;
+    width: 10px;
+    height: 10px;
 }
 
 ::-webkit-scrollbar-track {
@@ -809,11 +1032,15 @@ html[data-theme='dark'] .btn-primary:hover {
 }
 
 ::-webkit-scrollbar-thumb {
-    background-color: var(--accent-color);
-    border-radius: 10px;
-    border: 2px solid var(--bg-color);
+    background-color: var(--text-light-color);
+    border-radius: var(--border-radius-pill);
+    border: 2px solid var(--sidebar-bg);
     background-clip: padding-box;
 }
+html[data-theme='light'] ::-webkit-scrollbar-thumb {
+    border-color: var(--bg-color);
+}
+
 
 ::-webkit-scrollbar-thumb:hover {
     background-color: var(--accent-color);
