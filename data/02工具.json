@@ -1,0 +1,1010 @@
+{
+  "categories": [
+    {
+      "categoryName": "系统工具",
+      "categoryId": "system-utilities",
+      "sites": [
+        {
+          "title": "火绒安全",
+          "url": "https://www.huorong.cn/",
+          "icon": "https://icon.horse/icon/huorong.cn",
+          "desc": "国产免费安全软件，功能强大，轻巧干净，有效防御病毒和流氓软件。",
+          "proxy": false
+        },
+        {
+          "title": "Everything",
+          "url": "https://www.voidtools.com/zh-cn/downloads/",
+          "icon": "https://icon.horse/icon/voidtools.com",
+          "desc": "Windows上一款速度极快的全盘文件搜索工具，秒级响应。",
+          "proxy": false
+        },
+        {
+          "title": "Ventoy",
+          "url": "https://www.ventoy.net/cn/index.html",
+          "icon": "https://icon.horse/icon/ventoy.net",
+          "desc": "新一代多合一启动U盘解决方案，无需反复格式化即可直接启动ISO/WIM/IMG等文件。",
+          "proxy": false
+        },
+        {
+          "title": "微PE工具箱",
+          "url": "http://www.wepe.com.cn/download.html",
+          "icon": "https://icon.horse/icon/wepe.com.cn",
+          "desc": "纯净、无广告的WinPE工具箱，是电脑维护和系统安装的得力助手。",
+          "proxy": false
+        },
+        {
+          "title": "7-zip",
+          "url": "https://www.7-zip.org/download.html",
+          "icon": "https://icon.horse/icon/7-zip.org",
+          "desc": "开源免费的文件压缩/解压软件，支持多种格式，压缩率高。",
+          "proxy": false
+        },
+        {
+          "title": "虚拟机",
+          "url": "https://docs.qq.com/doc/DYXZ0U0xpR3pqWFBj",
+          "icon": "https://docs.qq.com/favicon.ico",
+          "desc": "提供关于如何安装和使用VMware、VirtualBox等虚拟机软件的教程文档。",
+          "proxy": false
+        },
+        {
+          "title": "文件复制",
+          "url": "https://www.yuque.com/docs/share/070518e0-6ecf-4b96-8ce3-1fd208b21e33",
+          "icon": "https://www.yuque.com/favicon.ico",
+          "desc": "介绍和推荐用于大文件、多文件快速复制的工具，如FastCopy。",
+          "proxy": false
+        },
+        {
+          "title": "文件加密",
+          "url": "https://www.yuque.com/docs/share/422befb6-3a92-4875-b357-a145e17091ab",
+          "icon": "https://www.yuque.com/favicon.ico",
+          "desc": "分享各类文件和文件夹加密工具，保护个人隐私安全。",
+          "proxy": false
+        },
+        {
+          "title": "全文检索",
+          "url": "https://www.yuque.com/docs/share/e4dd2a9f-2d9f-422e-80ea-d2229a9a7624",
+          "icon": "https://www.yuque.com/favicon.ico",
+          "desc": "推荐如Everything、AnyTXT Searcher等强大的本地文件全文检索工具。",
+          "proxy": false
+        },
+        {
+          "title": "驱动管理",
+          "url": "https://www.yuque.com/docs/share/9e6e6a15-fb48-4ffe-b053-b76c4d088a6b",
+          "icon": "https://www.yuque.com/favicon.ico",
+          "desc": "提供驱动管理和更新软件的推荐，如Driver Booster等。",
+          "proxy": false
+        },
+        {
+          "title": "系统清理工具",
+          "url": "https://www.yuque.com/docs/share/b5547943-466d-4a02-ad20-8eeaf69fd869",
+          "icon": "https://www.yuque.com/favicon.ico",
+          "desc": "推荐Windows和安卓平台上的系统垃圾清理和优化工具。",
+          "proxy": false
+        },
+        {
+          "title": "数据恢复",
+          "url": "https://www.yuque.com/docs/share/a82fe47c-9645-4049-a264-9f37dfe8dc58",
+          "icon": "https://www.yuque.com/favicon.ico",
+          "desc": "介绍用于恢复误删除文件的数据恢复软件和使用方法。",
+          "proxy": false
+        },
+        {
+          "title": "管理员权限",
+          "url": "https://www.yuque.com/docs/share/c713f5b0-34ab-4f68-8ddd-fdac2e76d17c",
+          "icon": "https://www.yuque.com/favicon.ico",
+          "desc": "讲解如何在Windows系统中获取和管理管理员权限。",
+          "proxy": false
+        },
+        {
+          "title": "截图",
+          "url": "https://www.yuque.com/docs/share/6eba77ea-0674-4bb2-be46-f82b1a9821f8",
+          "icon": "https://www.yuque.com/favicon.ico",
+          "desc": "分享多种功能强大的截图工具，如Snipaste、ShareX等。",
+          "proxy": false
+        },
+        {
+          "title": "解除占用",
+          "url": "https://www.yuque.com/docs/share/fdb12697-ee60-41dc-9ebb-3ac0e8df53a2",
+          "icon": "https://www.yuque.com/favicon.ico",
+          "desc": "提供用于解决“文件正在被另一程序使用”问题的工具，如IObit Unlocker。",
+          "proxy": false
+        },
+        {
+          "title": "禁止更新",
+          "url": "https://www.yuque.com/docs/share/de485551-ed7a-4dcc-aebd-2ee836bf3ab1",
+          "icon": "https://www.yuque.com/favicon.ico",
+          "desc": "介绍如何有效禁止Windows系统自动更新的方法和工具。",
+          "proxy": false
+        },
+        {
+          "title": "桌面美化工具",
+          "url": "https://www.yuque.com/docs/share/e3d359aa-24a0-4967-8dc5-68d1a4a43880",
+          "icon": "https://www.yuque.com/favicon.ico",
+          "desc": "集合桌面美化工具，实现透明任务栏、实时网速监控、温度监控等功能。",
+          "proxy": false
+        },
+        {
+          "title": "Windows激活",
+          "url": "https://docs.qq.com/doc/DYVR5S2NZWHVXaWRC",
+          "icon": "https://docs.qq.com/favicon.ico",
+          "desc": "提供多种Windows系统和Office软件的激活工具和方法。",
+          "proxy": false
+        },
+        {
+          "title": "运行库",
+          "url": "https://www.yuque.com/docs/share/f25e0ef5-9efb-437b-8547-fa56bf8a13f5",
+          "icon": "https://www.yuque.com/favicon.ico",
+          "desc": "集合了常见的系统运行库，如Visual C++、.NET等，解决程序运行错误问题。",
+          "proxy": false
+        },
+        {
+          "title": "资源管理器",
+          "url": "https://www.yuque.com/docs/share/f0da88ea-6ae6-4bab-9916-2c414671708f",
+          "icon": "https://www.yuque.com/favicon.ico",
+          "desc": "推荐增强型的Windows资源管理器替代工具，如QTTabBar、Clover。",
+          "proxy": false
+        },
+        {
+          "title": "压缩包解密",
+          "url": "https://www.yuque.com/docs/share/7bea7897-10b6-4a3b-b9ae-29e4442867b9",
+          "icon": "https://www.yuque.com/favicon.ico",
+          "desc": "分享用于破解和移除压缩包（ZIP/RAR）密码的工具。",
+          "proxy": false
+        },
+        {
+          "title": "看图/压缩/重命名工具",
+          "url": "https://www.yuque.com/docs/share/fa7d2f5d-8370-49e8-9b87-fedef0b44afa",
+          "icon": "https://www.yuque.com/favicon.ico",
+          "desc": "推荐好用的看图、解压缩及批量重命名工具，替代2345等流氓软件。",
+          "proxy": false
+        },
+        {
+          "title": "小工具",
+          "url": "https://www.yuque.com/docs/share/80b3169b-a7e2-4d3a-825a-3b06a7ff708b",
+          "icon": "https://www.yuque.com/favicon.ico",
+          "desc": "集合了各种实用但难以分类的便携小工具。",
+          "proxy": false
+        },
+        {
+          "title": "计算器",
+          "url": "https://www.yuque.com/docs/share/acc1e95b-25ff-428f-ad2b-0eb4727c173d",
+          "icon": "https://www.yuque.com/favicon.ico",
+          "desc": "推荐功能超越系统自带的科学计算器或专业计算器软件。",
+          "proxy": false
+        },
+        {
+          "title": "MSDN",
+          "url": "https://msdn.itellyou.cn/",
+          "icon": "https://msdn.itellyou.cn/favicon.ico",
+          "desc": "“MSDN, 我告诉你”，提供Windows原版系统和各类微软软件的ED2K链接。",
+          "proxy": false
+        },
+        {
+          "title": "HelloWindows",
+          "url": "https://hellowindows.cn/",
+          "icon": "https://hellowindows.cn/logo-s.png",
+          "desc": "提供Windows原版系统镜像下载。",
+          "proxy": false
+        },
+        {
+          "title": "FirPE",
+          "url": "https://firpe.cn/",
+          "icon": "https://firpe.cn/favicon.ico",
+          "desc": "一款纯净、强大的PE系统维护工具。",
+          "proxy": false
+        },
+        {
+          "title": "冰封PE",
+          "url": "https://www.bfgho.com/",
+          "icon": "https://www.bfgho.com/favicon.ico",
+          "desc": "纯净的PE系统维护工具。",
+          "proxy": false
+        },
+        {
+          "title": "吻妻",
+          "url": "https://www.newxitong.com/",
+          "icon": "https://www.newxitong.com/favicon.ico",
+          "desc": "提供Windows精简版系统镜像下载。",
+          "proxy": false
+        },
+        {
+          "title": "极简系统",
+          "url": "https://www.sysmini.com/",
+          "icon": "https://www.sysmini.com/wp-content/uploads/2021/03/favicon.ico",
+          "desc": "提供Windows精简优化版系统镜像下载。",
+          "proxy": false
+        },
+        {
+          "title": "WINOS",
+          "url": "https://www.winos.me/",
+          "icon": "https://www.winos.me/favicon.ico",
+          "desc": "专注Windows精简版系统的分享网站。",
+          "proxy": false
+        },
+        {
+          "title": "Everything使用技巧",
+          "url": "https://mp.weixin.qq.com/s/z82AcSj-NWocAkN_phxrtA",
+          "icon": "https://res.wx.qq.com/a/wx_fed/assets/res/NTI4MWU5.ico",
+          "desc": "Windows上最快的本地文件搜索工具使用指南。",
+          "proxy": false
+        },
+        {
+          "title": "全文搜索／正文搜索软件推荐",
+          "url": "https://mp.weixin.qq.com/s/lErH53BbOEurwDhMBFgE0g",
+          "icon": "https://res.wx.qq.com/a/wx_fed/assets/res/NTI4MWU5.ico",
+          "desc": "介绍支持文件内容搜索的工具，快速定位信息。",
+          "proxy": false
+        },
+        {
+          "title": "电脑文件加密／文件夹加密教程",
+          "url": "https://mp.weixin.qq.com/s/g-I3LJ7PAINnihwPacQzfA",
+          "icon": "https://res.wx.qq.com/a/wx_fed/assets/res/NTI4MWU5.ico",
+          "desc": "介绍多种在Windows上加密文件和文件夹的方法。",
+          "proxy": false
+        },
+        {
+          "title": "腾讯哈勃分析",
+          "url": "https://habo.qq.com/",
+          "icon": "data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22%3E%3Ctext y=%22.9em%22 font-size=%2290%22%3E🌐%3C/text%3E%3C/svg%3E",
+          "desc": "在线病毒检测，普通用户不超过30MB",
+          "proxy": false
+        },
+        {
+          "title": "VirusTotal",
+          "url": "https://www.virustotal.com/gui/",
+          "icon": "https://www.virustotal.com/images/favicon.svg",
+          "desc": "国外老牌在线查毒网站，聚合多个杀毒引擎",
+          "proxy": true
+        },
+        {
+          "title": "Snipaste",
+          "url": "https://chendandan.lanzoux.com/iiiZZdn2byd",
+          "icon": "https://assets.woozooo.com/assets/favicon.ico",
+          "desc": "强大且免费的截图贴图工具，极大地提升工作效率。",
+          "proxy": false
+        },
+        {
+          "title": "3DM游戏运行库",
+          "url": "https://dl.3dmgame.com/patch/89066.html",
+          "icon": "https://dl.3dmgame.com/favicon.ico",
+          "desc": "一键安装全部Windows系统必备常用运行库合集。",
+          "proxy": false
+        },
+        {
+          "title": "Deskpins",
+          "url": "https://efotinis.neocities.org/deskpins/",
+          "desc": "简洁实用的窗口置顶小工具。",
+          "proxy": false
+        },
+        {
+          "title": "TranslucentTB",
+          "url": "https://sspai.com/post/43178",
+          "icon": "https://cdn-static.sspai.com/favicon/sspai.ico",
+          "desc": "让Windows任务栏变透明的软件。",
+          "proxy": false
+        },
+        {
+          "title": "F.lux",
+          "url": "https://justgetflux.com/",
+          "icon": "https://justgetflux.com/favicon.png",
+          "desc": "自动调节屏幕色温的护眼软件。",
+          "proxy": false
+        },
+        {
+          "title": "QuickLook",
+          "url": "https://www.microsoft.com/zh-cn/p/quicklook/9nv4bs3l1h4s",
+          "icon": "https://www.microsoft.com/favicon.ico?v2",
+          "desc": "通过空格快捷键快速预览文件内容",
+          "proxy": false
+        },
+        {
+          "title": "Ditto Clipboard",
+          "url": "https://www.microsoft.com/zh-cn/p/ditto-clipboard/9nblggh3zbjq?activetab=pivot:overviewtab",
+          "icon": "https://www.microsoft.com/favicon.ico?v2",
+          "desc": "一款免费的管理剪贴板",
+          "proxy": false
+        }
+      ]
+    },
+    {
+      "categoryName": "办公与生产力",
+      "categoryId": "office-productivity",
+      "sites": [
+        {
+          "title": "Office Tool Plus",
+          "url": "https://otp.landian.vip/zh-cn/",
+          "icon": "https://icon.horse/icon/landian.vip",
+          "desc": "一个强大且实用的 Office 部署、激活和管理工具。",
+          "proxy": false
+        },
+        {
+          "title": "Bitwarden",
+          "url": "https://bitwarden.com/",
+          "icon": "https://bitwarden.com/favicon.ico",
+          "desc": "👍开源、跨平台的密码管理器，强烈推荐。",
+          "proxy": false
+        },
+        {
+          "title": "KeePass 使用教程+完整配置版",
+          "url": "https://mp.weixin.qq.com/s/8uPA0kJ7kmObh0XW8EJz8w",
+          "icon": "https://res.wx.qq.com/a/wx_fed/assets/res/NTI4MWU5.ico",
+          "desc": "本地化的开源密码管理器，安全性极高。",
+          "proxy": false
+        },
+        {
+          "title": "KeePass",
+          "url": "https://www.yuque.com/docs/share/6f8a767e-e486-4b63-9287-58fe71cecf68",
+          "icon": "https://www.yuque.com/favicon.ico",
+          "desc": "KeePass密码管理器的详细使用教程和技巧分享。",
+          "proxy": false
+        },
+        {
+          "title": "微软 Microsoft Authenticator",
+          "url": "https://mp.weixin.qq.com/s/31sSHtSdKA6jxLyWgzHKMg#:~:text=2-,Microsoft%20Authenticator,-%E5%85%B3%E4%BA%8E%E5%AF%86%E7%A0%81%E7%AE%A1%E7%90%86",
+          "icon": "https://res.wx.qq.com/a/wx_fed/assets/res/NTI4MWU5.ico",
+          "desc": "微软官方的两步验证器，支持密码云同步和自动填充。",
+          "proxy": false
+        },
+        {
+          "title": "阿虚的笔记方案 ㆖",
+          "url": "https://mp.weixin.qq.com/s/LtbJIBl4MYp6-5kTFqFmvA",
+          "icon": "https://res.wx.qq.com/a/wx_fed/assets/res/NTI4MWU5.ico",
+          "desc": "永久原格式完美保存网页的笔记方法。",
+          "proxy": false
+        },
+        {
+          "title": "阿虚的视频笔记方案 ㆖",
+          "url": "https://mp.weixin.qq.com/s/VapV7pN9rM2LbrKlfkY47Q",
+          "icon": "https://res.wx.qq.com/a/wx_fed/assets/res/NTI4MWU5.ico",
+          "desc": "视频转图片／精记录，高效整理视频笔记。",
+          "proxy": false
+        },
+        {
+          "title": "备考／辅助记忆神器推荐",
+          "url": "https://mp.weixin.qq.com/s/MZSyOguVVGHsiXQDb5CTlw",
+          "icon": "https://res.wx.qq.com/a/wx_fed/assets/res/NTI4MWU5.ico",
+          "desc": "👍介绍Anki等间隔重复记忆软件，提高学习效率。",
+          "proxy": false
+        },
+        {
+          "title": "ANKI",
+          "url": "https://www.yuque.com/docs/share/73d717ab-05e2-4b22-8aa5-46edb08c0133",
+          "icon": "https://www.yuque.com/favicon.ico",
+          "desc": "Anki记忆卡片软件的使用教程、插件推荐和精品牌组分享。",
+          "proxy": false
+        },
+        {
+          "title": "Office插件",
+          "url": "https://www.yuque.com/docs/share/3a3f3c90-8a39-4f45-94f8-b1caf7e65f1f",
+          "icon": "https://www.yuque.com/favicon.ico",
+          "desc": "分享提高办公效率的Office插件，如iSlide、OneKeyTools等。",
+          "proxy": false
+        },
+        {
+          "title": "公文写作",
+          "url": "https://www.yuque.com/docs/share/7620ec80-4e9f-4f27-a118-4e723865a63d",
+          "icon": "https://www.yuque.com/favicon.ico",
+          "desc": "提供公文写作的模板、范文和辅助工具，提升写作规范性和效率。",
+          "proxy": false
+        },
+        {
+          "title": "操作录制",
+          "url": "https://www.yuque.com/docs/share/6c921e79-2a8a-4fce-a17f-7300e6131b0f",
+          "icon": "https://www.yuque.com/favicon.ico",
+          "desc": "介绍可录制键鼠操作并自动执行的工具，以及PDF编辑、分页等技巧。",
+          "proxy": false
+        },
+        {
+          "title": "原创保护",
+          "url": "https://www.yuque.com/docs/share/9ae72424-b59e-4af6-8151-11f60f363f1d",
+          "icon": "https://www.yuque.com/favicon.ico",
+          "desc": "介绍为原创图片、文章添加水印等，进行版权保护的方法。",
+          "proxy": false
+        },
+        {
+          "title": "PDF转换",
+          "url": "https://www.yuque.com/docs/share/e3309e7e-10ef-4c24-86e7-938ac4ad8813",
+          "icon": "https://www.yuque.com/favicon.ico",
+          "desc": "集合各类PDF转换工具，支持PDF与Word、Excel、PPT、图片等格式的相互转换。",
+          "proxy": false
+        },
+        {
+          "title": "Office",
+          "url": "https://www.yuque.com/docs/share/8886abd2-80b6-4463-b9f3-3113fe915ddd",
+          "icon": "https://www.yuque.com/favicon.ico",
+          "desc": "提供Office办公套件（Word/Excel/PPT）的安装、激活和使用教程。",
+          "proxy": false
+        },
+        {
+          "title": "WPS",
+          "url": "https://mp.weixin.qq.com/s/60Jbep8yLuuuKHuKmD954A",
+          "icon": "https://res.wx.qq.com/a/wx_fed/assets/res/NTI4MWU5.ico",
+          "desc": "提供WPS Office的特别版本或去广告版本，以及使用技巧分享。",
+          "proxy": false
+        },
+        {
+          "title": "流程图",
+          "url": "https://www.yuque.com/docs/share/7e348dff-2bd4-4d69-b513-dd2876951205",
+          "icon": "https://www.yuque.com/favicon.ico",
+          "desc": "推荐Visio、Draw.io等流程图和思维导图制作工具。",
+          "proxy": false
+        },
+        {
+          "title": "OCR",
+          "url": "https://www.yuque.com/docs/share/177c6f55-dfff-4fd5-8d71-7374c7128a5e",
+          "icon": "https://www.yuque.com/favicon.ico",
+          "desc": "推荐精准的OCR文字识别软件，可将图片、扫描件或PDF中的文字提取出来。",
+          "proxy": false
+        },
+        {
+          "title": "PDF去水印",
+          "url": "https://www.yuque.com/docs/share/12536d1d-1d43-4d0e-ab20-a8dae2cfc081",
+          "icon": "https://www.yuque.com/favicon.ico",
+          "desc": "介绍去除PDF文件中水印的工具和方法，方便阅读和使用。",
+          "proxy": false
+        },
+        {
+          "title": "Quicker",
+          "url": "https://www.getquicker.net/",
+          "icon": "https://www.getquicker.net/favicon.ico",
+          "desc": "Windows上的效率神器，通过鼠标中键或自定义快捷键呼出面板，快速执行各种操作。",
+          "proxy": false
+        },
+        {
+          "title": "WPS Office 企业版",
+          "url": "https://ep.wps.cn/download",
+          "icon": "https://ep.wps.cn/favicon.ico",
+          "desc": "WPS 官方企业版，资源包内附带激活码和激活工具。",
+          "proxy": false
+        },
+        {
+          "title": "ProcessOn",
+          "url": "https://www.processon.com/",
+          "icon": "https://www.processon.com/favicon.ico",
+          "desc": "免费在线作图、实时协作，支持流程图、思维导图等。",
+          "proxy": false
+        },
+        {
+          "title": "XMind",
+          "url": "https://pan.baidu.com/s/1blS-w-v1zxGpr7z4LELe0g",
+          "desc": "专业的思维导图软件。提供破解版，提取码：8egm",
+          "icon": "img/favicon/panbaidu/favicon.ico",
+          "proxy": false
+        },
+        {
+          "title": "Panda OCR",
+          "url": "https://github.com/miaomiaosoft/PandaOCR.Pro",
+          "icon": "https://github.githubassets.com/favicons/favicon.svg",
+          "desc": "多功能OCR文字识别工具，支持多个OCR和翻译引擎。",
+          "proxy": false
+        },
+        {
+          "title": "福昕PDF",
+          "url": "https://pan.baidu.com/s/1-30fk83zAK3aHoIDGrVADw",
+          "desc": "功能强大的PDF阅读和编辑器。提供专业版，提取码：q0u2",
+          "icon": "img/favicon/panbaidu/favicon.ico",
+          "proxy": false
+        },
+        {
+          "title": "iSlide",
+          "url": "https://www.islide.cc/",
+          "icon": "https://www.islide.cc/favicon.ico",
+          "desc": "强大的PPT插件，提供海量模板、图示和图标，极大提升PPT制作效率。",
+          "proxy": false
+        },
+        {
+          "title": "PPT之家",
+          "url": "https://www.52ppt.com/",
+          "desc": "需关注微信公众号获取密码。",
+          "proxy": false,
+          "icon": "https://www.52ppt.com/favicon.ico"
+        },
+        {
+          "title": "吾道幻灯片",
+          "url": "https://www.woodo.cn/",
+          "desc": "PPT在线制作",
+          "proxy": false,
+          "icon": "https://www.woodo.cn/public/logo-48.png"
+        },
+        {
+          "title": "叮当设计",
+          "url": "https://www.dingdangsheji.com/",
+          "desc": "模板下载",
+          "proxy": false
+        },
+        {
+          "title": "officePLUS",
+          "url": "https://www.officeplus.cn",
+          "desc": "模板下载",
+          "proxy": false
+        },
+        {
+          "title": "第一PPT",
+          "url": "https://www.1ppt.com/",
+          "desc": "PPT模板网站",
+          "proxy": false,
+          "icon": "https://www.1ppt.com/favicon.ico"
+        },
+        {
+          "title": "PPT 超级市场",
+          "url": "https://ppt.sotary.com/web/wxapp/index.html",
+          "desc": "PPT模板网站",
+          "proxy": false
+        },
+        {
+          "title": "智能PPT",
+          "url": "https://aippt.wps.cn/welcome/",
+          "desc": "PPT模板网站",
+          "proxy": false,
+          "icon": "https://aippt.wps.cn/favicon.ico"
+        },
+        {
+          "title": "优品PPT",
+          "url": "https://www.ypppt.com/",
+          "desc": "PPT模板网站",
+          "proxy": false,
+          "icon": "https://www.ypppt.com/favicon.ico"
+        },
+        {
+          "title": "毕业答辩PPT模版72套",
+          "url": "https://www.aliyundrive.com/s/iBw7hLL4oWK",
+          "desc": "包含72套适用于毕业答辩的精美PPT模板。",
+          "proxy": false,
+          "icon": "https://img.alicdn.com/imgextra/i1/O1CN01JDQCi21Dc8EfbRwvF_!!6000000000236-73-tps-64-64.ico"
+        },
+        {
+          "title": "各行各业合同模板",
+          "url": "https://www.aliyundrive.com/s/XzeGEZ9Pdmw",
+          "desc": "提供各行各业通用的合同模板范本。",
+          "proxy": false,
+          "icon": "https://img.alicdn.com/imgextra/i1/O1CN01JDQCi21Dc8EfbRwvF_!!6000000000236-73-tps-64-64.ico"
+        },
+        {
+          "title": "各行各业的工作总结模板",
+          "url": "https://www.aliyundrive.com/s/qMiKcNUj2Vx",
+          "desc": "适用于各行各业的工作总结PPT模板合集。",
+          "proxy": false,
+          "icon": "https://img.alicdn.com/imgextra/i1/O1CN01JDQCi21Dc8EfbRwvF_!!6000000000236-73-tps-64-64.ico"
+        },
+        {
+          "title": "400份应届生简历模版",
+          "url": "https://www.aliyundrive.com/s/qSBzTH1WVe3",
+          "desc": "包含400份适合应届毕业生的简历模板。",
+          "proxy": false,
+          "icon": "https://img.alicdn.com/imgextra/i1/O1CN01JDQCi21Dc8EfbRwvF_!!6000000000236-73-tps-64-64.ico"
+        },
+        {
+          "title": "求职简历设计制作模板",
+          "url": "https://www.lanzous.com/iXWAQn4pv5i",
+          "desc": "提供多种风格的求职简历设计与制作模板。",
+          "proxy": false
+        },
+        {
+          "title": "WPS 2013-2019 各个版本",
+          "url": "https://pan.baidu.com/s/1RNqwERMA0nnli6g-ICCFaQ",
+          "icon": "img/favicon/panbaidu/favicon.ico",
+          "desc": "提取码: t3b2",
+          "proxy": false
+        },
+        {
+          "title": "手心输入法",
+          "url": "http://urlqh.cn/mZzm5",
+          "icon": "https://www.xinshuru.com/favicon.ico",
+          "desc": "👍一款稳定、纯净、无广告的拼音输入法。",
+          "proxy": false
+        },
+        {
+          "title": "百度输入法去升级办法+精简去升级旧版",
+          "url": "https://flowus.cn/share/0bddec1b-9e04-4f02-b3e5-7d67fe2d1711?code=CZ3ECT",
+          "icon": "https://static.flowus.cn/logos/default.svg",
+          "desc": "👍提供纯净版的百度输入法，避免自动更新和广告。",
+          "proxy": false
+        },
+        {
+          "title": "讯飞输入法",
+          "url": "https://srf.xunfei.cn/",
+          "icon": "https://srf.xunfei.cn/favicon.ico",
+          "desc": "讯飞出品的输入法，以语音输入为特色。",
+          "proxy": false
+        },
+        {
+          "title": "华宇拼音",
+          "url": "https://pinyin.thunisoft.com/",
+          "icon": "https://pinyin.thunisoft.com/favicon.ico",
+          "desc": "一款稳定、纯净的拼音输入法。",
+          "proxy": false
+        }
+      ]
+    },
+    {
+      "categoryName": "媒体与设计软件",
+      "categoryId": "media-design-software",
+      "sites": [
+        {
+          "title": "Adobe 全家桶 (by vposy)",
+          "url": "https://www.423down.com",
+          "icon": "https://www.423down.com/wp-content/themes/D7/img/favicon.ico",
+          "desc": "由@vposy大神整理的 Adobe 全家桶系列，包含2020、2021等多个版本及Mac版，安全稳定。原HTML内所有Adobe资源均出自此处。",
+          "proxy": false
+        },
+        {
+          "title": "Adobe 全家桶插件",
+          "url": "https://www.yuque.com/docs/share/1baed56b-819b-4585-a458-d237e44b1d0b",
+          "icon": "https://www.yuque.com/favicon.ico",
+          "desc": "分享适用于Photoshop、Premiere、After Effects等Adobe软件的实用插件合集。",
+          "proxy": false
+        },
+        {
+          "title": "PotPlayer 去广告版",
+          "url": "https://flowus.cn/share/4dc25551-ad00-4d81-9421-b3fee98757a9?code=CZ3ECT",
+          "icon": "https://static.flowus.cn/logos/default.svg",
+          "desc": "👍Windows上最强大的视频播放器，提供去广告优化版。",
+          "proxy": false
+        },
+        {
+          "title": "MPV",
+          "url": "https://url67.ctfile.com/f/14869667-892830234-ef3e54?p=kyon",
+          "icon": "https://mpv.io/favicon.ico",
+          "desc": "开源、跨平台的极简播放器，可长按倍速播放。",
+          "proxy": false
+        },
+        {
+          "title": "Foobar2000",
+          "url": "https://flowus.cn/share/04271ab7-25f6-4c4a-ad2e-845fc2540aa4?code=CZ3ECT",
+          "icon": "https://static.flowus.cn/logos/default.svg",
+          "desc": "轻量、强大的无损音乐播放器，提供最新版+单文件版。",
+          "proxy": false
+        },
+        {
+          "title": "剪映",
+          "url": "https://www.capcut.cn/",
+          "icon": "https://lf3-s.vlabstatic.com/obj/vilab-static/ies/ulike/web/resource/fe_official/assets/imgs/lv/favicon.ico",
+          "desc": "👍抖音出品的免费视频剪辑软件，功能强大，易于上手。",
+          "proxy": false
+        },
+        {
+          "title": "必剪",
+          "url": "http://bcut.drawyoo.com/",
+          "icon": "https://bcut.drawyoo.com/favicon.ico",
+          "desc": "B站出品的免费视频剪辑软件，深度联动B站。",
+          "proxy": false
+        },
+        {
+          "title": "爱剪辑",
+          "url": "https://kuai.360.cn/home.html",
+          "icon": "https://kuai.360.cn/favicon.ico",
+          "desc": "360出品的视频剪辑软件。",
+          "proxy": false
+        },
+        {
+          "title": "ShanaEncoder",
+          "url": "https://github.com/1265578519/ShanaEncoder/releases",
+          "icon": "https://github.githubassets.com/favicons/favicon.svg",
+          "desc": "👍免费强大的视频压制和格式转换工具。",
+          "proxy": false
+        },
+        {
+          "title": "万兴全能格式转换器+格式工厂",
+          "url": "https://flowus.cn/share/e5760e13-a099-4481-ab60-e9d056ce0c97?code=CZ3ECT",
+          "icon": "https://static.flowus.cn/logos/default.svg",
+          "desc": "提供两款强大的视频格式转换工具。",
+          "proxy": false
+        },
+        {
+          "title": "音乐标签",
+          "url": "https://flowus.cn/share/04271ab7-25f6-4c4a-ad2e-845fc2540aa4?code=CZ3ECT",
+          "icon": "https://static.flowus.cn/logos/default.svg",
+          "desc": "一键为音乐文件添加封面、歌词、专辑等元数据信息。",
+          "proxy": false
+        },
+        {
+          "title": "GoldWave",
+          "url": "https://url67.ctfile.com/f/14869667-1008081644-020f0c?p=kyon",
+          "icon": "https://www.goldwave.com/favicon.ico",
+          "desc": "专业的数字音频编辑软件，提供汉化单文件版。",
+          "proxy": false
+        },
+        {
+          "title": "洛雪音乐助手",
+          "url": "https://flowus.cn/share/a0e26b04-624f-4582-a9be-896eaa8f1391?code=CZ3ECT",
+          "icon": "https://static.flowus.cn/logos/default.svg",
+          "desc": "强大的全平台音乐搜索和下载工具。",
+          "proxy": false
+        },
+        {
+          "title": "方格音乐",
+          "url": "http://fonger.top/",
+          "icon": "http://fonger.top/favicon.ico",
+          "desc": "一款聚合多个音源的音乐下载工具。",
+          "proxy": false
+        },
+        {
+          "title": "PotPlayer",
+          "url": "https://chendandan.lanzoux.com/iwzU5dn2bqf",
+          "icon": "https://assets.woozooo.com/assets/favicon.ico",
+          "desc": "最好用的本地视频播放器之一，资源内附带皮肤和直播源。",
+          "proxy": false
+        },
+        {
+          "title": "Lr预设-质感强烈的 HDR 人像",
+          "url": "https://pan.baidu.com/s/1ck8EjBGYWGZV9Qt9zIWLwA",
+          "icon": "img/favicon/panbaidu/favicon.ico",
+          "desc": "提取码：zylp",
+          "proxy": false
+        },
+        {
+          "title": "Lr预设-日系小清新人像",
+          "url": "https://pan.baidu.com/s/14II2YVHT0rxK8wzWdJbUDw",
+          "icon": "img/favicon/panbaidu/favicon.ico",
+          "desc": "提取码：zqem",
+          "proxy": false
+        },
+        {
+          "title": "Lr预设-INS 网红旅拍电影胶片",
+          "url": "https://pan.baidu.com/s/1ZX0TGcm3GGT6AoyKVW7_7w",
+          "icon": "img/favicon/panbaidu/favicon.ico",
+          "desc": "提取码：srvp",
+          "proxy": false
+        },
+        {
+          "title": "PS笔刷-高清炫酷星光光效",
+          "url": "https://pan.baidu.com/s/1GqgbSjoT0Ta44yjBu1PdrA",
+          "icon": "img/favicon/panbaidu/favicon.ico",
+          "desc": "提取码：2cdw",
+          "proxy": false
+        },
+        {
+          "title": "PS笔刷-高清飞尘灰尘碎片颗粒",
+          "url": "https://pan.baidu.com/s/1YvmZoCWIWD_EqWf-imbGtA",
+          "icon": "img/favicon/panbaidu/favicon.ico",
+          "desc": "提取码：zt8d",
+          "proxy": false
+        },
+        {
+          "title": "PS笔刷-大型 CG 人物绘画",
+          "url": "https://pan.baidu.com/s/14I4ZFICKIpS0CtZPLm01Mw",
+          "icon": "img/favicon/panbaidu/favicon.ico",
+          "desc": "提取码：docc",
+          "proxy": false
+        },
+        {
+          "title": "FxSound2音响增强虚拟声",
+          "url": "https://wwi.lanzoui.com/iihDWpzhyzg",
+          "icon": "https://assets.woozooo.com/assets/favicon.ico",
+          "desc": "电脑音效增强软件，提升音频播放效果。",
+          "proxy": false
+        },
+        {
+          "title": "剪映 Pro v1.2.1绿色便携版",
+          "url": "https://baozangku.lanzoui.com/i8yuyo9rbgh",
+          "icon": "https://assets.woozooo.com/assets/favicon.ico",
+          "desc": "抖音官方出品的电脑端视频剪辑软件专业版。",
+          "proxy": false
+        },
+        {
+          "title": "喵影剪辑绿色便携版",
+          "url": "https://pan.baidu.com/s/1dW_L1fyiXukYA3GkJT5_gg",
+          "icon": "img/favicon/panbaidu/favicon.ico",
+          "desc": "提取码: vp86",
+          "proxy": false
+        },
+        {
+          "title": "ScreenToGif",
+          "url": "https://www.screentogif.com/",
+          "icon": "https://www.screentogif.com/logos/favicon.ico",
+          "desc": "开源免费的GIF录制和编辑工具。",
+          "proxy": false
+        },
+        {
+          "title": "Captura",
+          "url": "https://mathewsachin.github.io/Captura/download/",
+          "icon": "https://mathewsachin.github.io/images/favicon.ico",
+          "desc": "开源免费的屏幕录制软件。",
+          "proxy": false
+        },
+        {
+          "title": "Lively Wallpaper",
+          "url": "https://rocksdanister.github.io/lively/",
+          "icon": "https://rocksdanister.github.io/favicon_io/favicon.ico",
+          "desc": "免费版的Wallpaper Engine，可自定义动态桌面。",
+          "proxy": false
+        }
+      ]
+    },
+    {
+      "categoryName": "下载与网络工具",
+      "categoryId": "download-network-tools",
+      "sites": [
+        {
+          "title": "IDM 破解版",
+          "url": "https://flowus.cn/share/9c0034df-735b-4e77-81c3-6568377d754b?code=CZ3ECT",
+          "icon": "https://static.flowus.cn/logos/default.svg",
+          "desc": "Internet Download Manager，地表最强的多线程下载工具。",
+          "proxy": false
+        },
+        {
+          "title": "Free Download Manager（FDM）",
+          "url": "https://www.freedownloadmanager.org/zh/",
+          "icon": "https://www.freedownloadmanager.org/favicon.ico",
+          "desc": "免费的多线程下载管理器。",
+          "proxy": false
+        },
+        {
+          "title": "比特彗星 BitComet",
+          "url": "https://wwx.lanzouo.com/b073c7g4f",
+          "icon": "https://www.bitcomet.com/favicon.ico",
+          "desc": "🥇内置热门tracker版，强大的BT/HTTP/FTP下载工具。",
+          "proxy": false
+        },
+        {
+          "title": "qBittorrent",
+          "url": "https://pan.lanpw.com/b073dnr7g",
+          "icon": "https://www.qbittorrent.org/favicon.ico",
+          "desc": "🥇内置热门tracker版，开源免费的BT下载客户端。",
+          "proxy": false
+        },
+        {
+          "title": "Gopeed",
+          "url": "https://gopeed.com/",
+          "icon": "https://gopeed.com/favicon.ico",
+          "desc": "🥇内置热门tracker，一款高速、轻量级的下载器。",
+          "proxy": false
+        },
+        {
+          "title": "Transmission",
+          "url": "https://transmissionbt.com/download/",
+          "icon": "https://transmissionbt.com/favicon.ico",
+          "desc": "一款快速、简单、免费的BT下载客户端。",
+          "proxy": false
+        },
+        {
+          "title": "闪电下载",
+          "url": "https://bbs.flashdown365.com/",
+          "icon": "https://bbs.flashdown365.com/favicon.ico",
+          "desc": "不屏蔽资源/积分下载制/看广告可以免费赚积分。",
+          "proxy": false
+        },
+        {
+          "title": "迅雷",
+          "url": "https://flowus.cn/share/b7500984-6034-46ed-9ae1-27379328183f?code=CZ3ECT",
+          "icon": "https://static.flowus.cn/logos/default.svg",
+          "desc": "🥈提供多个定制版和去广告版的迅雷下载。",
+          "proxy": false
+        },
+        {
+          "title": "闪豆多平台视频批量下载器",
+          "url": "https://www.lanzoui.com/b015c0ksh/",
+          "icon": "https://www.lanzoui.com/favicon.ico",
+          "desc": "支持B站、抖音、YouTube等多个平台的视频批量下载。",
+          "proxy": false
+        },
+        {
+          "title": "ytdlp-interface",
+          "url": "https://github.com/ErrorFlynn/ytdlp-interface/releases",
+          "icon": "https://github.githubassets.com/favicons/favicon.svg",
+          "desc": "yt-dlp的图形化界面，方便下载YouTube等网站视频。",
+          "proxy": false
+        },
+        {
+          "title": "Stacher",
+          "url": "https://stacher.io/",
+          "icon": "https://stacher.io/favicon.ico",
+          "desc": "一个简洁的yt-dlp图形界面，用于下载在线视频。",
+          "proxy": false
+        },
+        {
+          "title": "Tartube",
+          "url": "https://github.com/axcore/tartube/releases",
+          "icon": "https://github.githubassets.com/favicons/favicon.svg",
+          "desc": "功能丰富的yt-dlp图形界面，支持订阅频道批量下载。",
+          "proxy": false
+        },
+        {
+          "title": "PikPak",
+          "url": "https://flowus.cn/share/3b2b0026-afe1-4396-92eb-005da8a662f6",
+          "icon": "https://static.flowus.cn/logos/default.svg",
+          "desc": "集离线下载、网盘存储、在线播放于一体的工具。",
+          "proxy": false
+        },
+        {
+          "title": "迅雷云盘",
+          "url": "https://pan.xunlei.com/",
+          "icon": "https://pan.xunlei.com/icon.png",
+          "desc": "迅雷官方云盘，支持离线下载，免费用户500G空间。",
+          "proxy": false
+        },
+        {
+          "title": "比特球云盘",
+          "url": "https://pan.bitqiu.com/cn/9f19cad48c2b7b08",
+          "icon": "https://pan.bitqiu.com/Public/favicon.ico",
+          "desc": "支持离线下载的云盘，免费200G空间，会员可扩容。",
+          "proxy": false
+        },
+        {
+          "title": "夸克网盘",
+          "url": "https://pan.quark.cn/",
+          "icon": "https://pan.quark.cn/favicon.ico",
+          "desc": "夸克浏览器内置网盘，支持离线下载，会员功能更强。",
+          "proxy": false
+        },
+        {
+          "title": "茄子云盘",
+          "url": "https://www.leidianxiazai.com/",
+          "icon": "https://www.leidianxiazai.com/favicon.ico",
+          "desc": "支持磁力链接和BT的离线下载网盘。",
+          "proxy": false
+        },
+        {
+          "title": "磁力空间",
+          "url": "http://cilikongjian.com/",
+          "icon": "http://cilikongjian.com/favicon.ico",
+          "desc": "在线离线下载服务，手机号注册/不支持ed2k/每天2个额度。",
+          "proxy": false
+        },
+        {
+          "title": "Offcloud",
+          "url": "https://offcloud.com/?=fdc97339",
+          "icon": "https://offcloud.com/favicon.ico",
+          "desc": "国外离线下载服务，10G空间，每月限3次。",
+          "proxy": false
+        },
+        {
+          "title": "Seedr",
+          "url": "https://www.seedr.cc/?r=983684",
+          "icon": "https://static.seedr.cc/images/seed_v2.png",
+          "desc": "国外离线下载服务，2G空间，可通过邀请增加至4G。",
+          "proxy": false
+        },
+        {
+          "title": "Loadbt",
+          "url": "https://www.loadbt.com/c/411297886",
+          "icon": "https://www.loadbt.com/favicon.ico?1",
+          "desc": "国外离线下载服务，2.15G空间，可通过邀请增加空间。",
+          "proxy": false
+        },
+        {
+          "title": "Sonicbit",
+          "url": "https://dash.sonicbit.net/reff?id=83264",
+          "icon": "https://dash.sonicbit.net/favicon.png",
+          "desc": "国外离线下载服务，免费4G空间。",
+          "proxy": false
+        },
+        {
+          "title": "全网热门 BitTorrent Tracker 列表",
+          "url": "https://trackerslist.com/#/zh",
+          "icon": "https://trackerslist.com/favicon.ico",
+          "desc": "更新频繁的Tracker服务器列表，可用于加速BT下载。",
+          "proxy": false
+        },
+        {
+          "title": "抓包",
+          "url": "https://www.yuque.com/docs/share/3b20bed5-2075-4c26-90e8-18e217bf3c95",
+          "icon": "https://www.yuque.com/favicon.ico",
+          "desc": "介绍Fiddler、Charles等网络抓包工具的安装和使用，用于分析网络请求。",
+          "proxy": false
+        },
+        {
+          "title": "广告屏蔽",
+          "url": "https://www.yuque.com/docs/share/76788621-6209-4d5a-b2c7-7047bb48b322",
+          "icon": "https://www.yuque.com/favicon.ico",
+          "desc": "推荐AdGuard、uBlock Origin等广告拦截工具，净化网页和应用环境。",
+          "proxy": false
+        },
+        {
+          "title": "网络修复",
+          "url": "https://www.yuque.com/docs/share/a7d7a05f-ddf5-40ef-aeef-888d87417c07",
+          "icon": "https://www.yuque.com/favicon.ico",
+          "desc": "提供网络连接问题的诊断和修复工具，以及DNS优选工具来提升网速。",
+          "proxy": false
+        },
+        {
+          "title": "百度云",
+          "url": "https://www.yuque.com/docs/share/93ab97f6-e40f-449a-b16f-e102c9473927",
+          "icon": "https://www.yuque.com/favicon.ico",
+          "desc": "分享各种突破百度网盘限速的下载工具和方法。",
+          "proxy": false
+        }
+      ]
+    }
+  ]
+}

@@ -13,21 +13,18 @@ export const NAV_DATA_SOURCE_PREFERENCE_KEY = 'nav-data-source-preference';
 export const NAV_CUSTOM_SOURCES_KEY = 'nav-custom-data-sources';
 export const NAV_CUSTOM_USER_SITES_KEY = 'nav-user-custom-sites-data';
 export const CUSTOM_CATEGORY_ID = 'custom-user-sites';
-export const DEFAULT_SITES_PATH = "data/小帅同学.json";
+export const DEFAULT_SITES_PATH = "data/04影音娱乐.json";
 
 // === 默认数据源列表 ===
 export const defaultSiteDataSources = [
-    {name: "大数据", path: "data/大数据.json"},
-    {name: "资源船舱", path: "data/资源船舱.json"},
-    {name: "哆啦A梦的神奇口袋", path: "data/哆啦A梦的神奇口袋.json"},
-    {name: "小帅同学", path: "data/小帅同学.json"},
-    {name: "懒人找资源", path: "data/懒人找资源.json"},
-    {name: "薛信的资料室", path: "data/薛信的资料室.json"},
-    {name: "资源汇总", path: "data/资源汇总.json"},
-    {name: "阿虚同学", path: "data/阿虚同学.json"},
-    {name: "阿虚软件库", path: "data/阿虚软件库.json"},
-    {name: "陈蛋蛋的宝藏库", path: "data/陈蛋蛋的宝藏库.json"},
-    {name: "鱼果天晴的资源库", path: "data/鱼果天晴的资源库.json"}
+    {name: "阿里资源", path: "data/00阿里资源.json"},
+    {name: "在线服务", path: "data/01在线服务.json"},
+    {name: "工具", path: "data/02工具.json"},
+    {name: "软件", path: "data/03软件.json"},
+    {name: "影音娱乐", path: "data/04影音娱乐.json"},
+    {name: "学习与生产力", path: "data/05学习与生产力.json"},
+    {name: "技术与开发", path: "data/06技术与开发.json"},
+    {name: "资源与搜索", path: "data/07资源与搜索.json"},
 ];
 
 // === 全局状态变量 ===
