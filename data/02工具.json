@@ -416,13 +416,6 @@
           "proxy": false
         },
         {
-          "title": "WPS",
-          "url": "https://mp.weixin.qq.com/s/60Jbep8yLuuuKHuKmD954A",
-          "icon": "https://res.wx.qq.com/a/wx_fed/assets/res/NTI4MWU5.ico",
-          "desc": "提供WPS Office的特别版本或去广告版本，以及使用技巧分享。",
-          "proxy": false
-        },
-        {
           "title": "流程图",
           "url": "https://www.yuque.com/docs/share/7e348dff-2bd4-4d69-b513-dd2876951205",
           "icon": "https://www.yuque.com/favicon.ico",

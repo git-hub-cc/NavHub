@@ -12,60 +12,103 @@
   ],
   "engines": {
     "search": [
+      { "name": "谷歌", "url": "https://www.google.com/search?q=%s" },
       { "name": "百度", "url": "https://www.baidu.com/s?wd=%s" },
       { "name": "必应", "url": "https://www.bing.com/search?q=%s&PC=U316&FORM=CHROMN" },
-      { "name": "谷歌", "url": "https://www.google.com/search?q=%s" },
+      { "name": "DuckDuckGo", "url": "https://duckduckgo.com/?q=%s" },
+      { "name": "知乎", "url": "https://www.zhihu.com/search?q=%s" },
+      { "name": "维基百科", "url": "https://zh.wikipedia.org/wiki/Special:Search?search=%s" },
+      { "name": "今日头条", "url": "https://www.toutiao.com/search/?keyword=%s" },
       { "name": "微信", "url": "https://weixin.sogou.com/weixin?p=01030402&query=%s&type=2&ie=utf8" },
+      { "name": "百度学术", "url": "https://xueshu.baidu.com/s?wd=%s" },
+      { "name": "夸克", "url": "https://quark.sm.cn/s?q=%s" },
+      { "name": "秘塔搜索", "url": "https://metaso.cn/?q=%s" },
       { "name": "皮卡搜", "url": "https://www.pikaso.top/search/?pan=all&type=folder&q=%s" },
       { "name": "小云搜", "url": "https://www.yunso.net/index/user/s?wd=%s" },
       { "name": "混合盘", "url": "https://hunhepan.com/search?q=%s&type=ALY" }
     ],
     "video": [
+      { "name": "YouTube", "url": "https://www.youtube.com/results?search_query=%s" },
       { "name": "B站", "url": "https://search.bilibili.com/all?keyword=%s" },
       { "name": "抖音", "url": "https://www.douyin.com/search/%s" },
-      { "name": "YouTube", "url": "https://www.youtube.com/results?search_query=%s" }
+      { "name": "腾讯视频", "url": "https://v.qq.com/x/search/?q=%s" },
+      { "name": "爱奇艺", "url": "https://www.iqiyi.com/search/%s" },
+      { "name": "优酷", "url": "https://www.soku.com/search_video/q_%s" },
+      { "name": "Vimeo", "url": "https://vimeo.com/search?q=%s" },
+      { "name": "A站", "url": "https://www.acfun.cn/search/?type=complex&keyword=%s" }
     ],
     "picture": [
+      { "name": "谷歌图片", "url": "https://www.google.com/search?tbm=isch&q=%s" },
+      { "name": "百度图片", "url": "https://image.baidu.com/search/index?tn=baiduimage&word=%s" },
       { "name": "Pexels", "url": "https://www.pexels.com/search/%s/" },
+      { "name": "Unsplash", "url": "https://unsplash.com/s/photos/%s" },
+      { "name": "Pixabay", "url": "https://pixabay.com/images/search/%s/" },
+      { "name": "Freepik", "url": "https://www.freepik.com/search?query=%s" },
+      { "name": "Pinterest", "url": "https://www.pinterest.com/search/pins/?q=%s" },
       { "name": "Wallhere", "url": "https://wallhere.com/zh/wallpapers?q=%s" },
-      { "name": "Unsplash", "url": "https://unsplash.com/s/photos/%s" }
+      { "name": "ArtStation", "url": "https://www.artstation.com/search?sort_by=relevance&query=%s" }
     ],
     "shop": [
-      { "name": "京东", "url": "https://search.jd.com/Search?keyword=%s" },
       { "name": "淘宝", "url": "https://s.taobao.com/search?q=%s" },
-      { "name": "大众点评", "url": "https://www.dianping.com/search/keyword/4/0_%s" }
+      { "name": "京东", "url": "https://search.jd.com/Search?keyword=%s" },
+      { "name": "拼多多", "url": "https://mobile.pinduoduo.com/search_results.html?search_key=%s" },
+      { "name": "亚马逊", "url": "https://www.amazon.com/s?k=%s" },
+      { "name": "大众点评", "url": "https://www.dianping.com/search/keyword/4/0_%s" },
+      { "name": "闲鱼", "url": "https://s.taobao.com/search?q=%s&from=sea_1_seller" },
+      { "name": "苏宁易购", "url": "https://search.suning.com/%s/" },
+      { "name": "Etsy", "url": "https://www.etsy.com/search?q=%s" },
+      { "name": "天猫", "url": "https://list.tmall.com/search_product.htm?q=%s" }
     ],
     "programming": [
-      { "name": "CSDN", "url": "https://so.csdn.net/so/search?q=%s" },
-      { "name": "Stack Overflow", "url": "https://stackoverflow.com/search?q=%s" },
-      { "name": "简书", "url": "https://www.jianshu.com/search?q=%s&page=1&type=note" },
       { "name": "GitHub", "url": "https://github.com/search?q=%s" },
-      { "name": "力扣", "url": "https://leetcode.cn/search/?q=%s" }
+      { "name": "Stack Overflow", "url": "https://stackoverflow.com/search?q=%s" },
+      { "name": "CSDN", "url": "https://so.csdn.net/so/search?q=%s" },
+      { "name": "MDN Web Docs", "url": "https://developer.mozilla.org/zh-CN/search?q=%s" },
+      { "name": "力扣", "url": "https://leetcode.cn/search/?q=%s" },
+      { "name": "Gitee", "url": "https://search.gitee.com/?q=%s" },
+      { "name": "菜鸟教程", "url": "https://www.runoob.com/?s=%s" },
+      { "name": "简书", "url": "https://www.jianshu.com/search?q=%s&page=1&type=note" }
     ],
     "front": [
       { "name": "npmjs", "url": "https://www.npmjs.com/search?q=%s" },
+      { "name": "YarnPkg", "url": "https://yarnpkg.com/search?q=%s" },
+      { "name": "pnpm", "url": "https://pnpm.io/search?q=%s" },
       { "name": "jsdelivr", "url": "https://www.jsdelivr.com/?query=%s" },
-      { "name": "cdnjs", "url": "https://cdnjs.com/libraries?q=%s" }
+      { "name": "cdnjs", "url": "https://cdnjs.com/libraries?q=%s" },
+      { "name": "Can I use...", "url": "https://caniuse.com/?search=%s" }
     ],
     "tools": [
+      { "name": "谷歌翻译", "url": "https://translate.google.com/?sl=auto&tl=zh-CN&text=%s&op=translate" },
+      { "name": "Wolfram Alpha", "url": "https://www.wolframalpha.com/input?i=%s" },
       { "name": "在线工具", "url": "https://tool.lu/search/?q=%s" },
       { "name": "菜鸟工具", "url": "https://www.jyshare.com/index.php?s=%s" },
       { "name": "百度指数", "url": "https://index.baidu.com/v2/main/index.html#/trend/%s?words=%s" },
       { "name": "谷歌指数", "url": "https://trends.google.com/trends/explore?q=%s" },
-      { "name": "谷歌翻译", "url": "https://translate.google.com/?sl=auto&tl=en&text=%s&op=translate" },
-      { "name": "秘塔搜索", "url": "https://metaso.cn/?q=%s" }
+      { "name": "Regex101", "url": "https://regex101.com/?regex=%s" },
+      { "name": "IP查询", "url": "https://ip.tool.chinaz.com/%s" }
     ],
     "software": [
+      { "name": "Chrome Web Store", "url": "https://chrome.google.com/webstore/search/%s" },
+      { "name": "Steam", "url": "https://store.steampowered.com/search/?term=%s" },
+      { "name": "Filehippo", "url": "https://filehippo.com/search?q=%s" },
       { "name": "Scoop", "url": "https://scoop.sh/#/apps?q=%s&o=false" },
       { "name": "APKCombo", "url": "https://apkcombo.com/zh/search/%s#gsc.tab=0&gsc.q=123&gsc.sort=" },
       { "name": "果核剥壳", "url": "https://www.ghxi.com/?s=%s" },
-      { "name": "油猴", "url": "https://greasyfork.org/zh-CN/scripts?q=%s" }
+      { "name": "油猴", "url": "https://greasyfork.org/zh-CN/scripts?q=%s" },
+      { "name": "F-Droid", "url": "https://search.f-droid.org/?q=%s" },
+      { "name": "少数派", "url": "https://sspai.com/search?q=%s" }
     ],
     "other": [
+      { "name": "有道词典", "url": "https://dict.youdao.com/search?q=%s" },
+      { "name": "豆瓣", "url": "https://www.douban.com/search?q=%s" },
       { "name": "知搜-电子书", "url": "https://zhiso.cc/search/?q=%s" },
-      { "name": "EmoJiall", "url": "https://www.emojiall.com/zh-hant/search_results?keywords=%s" },
       { "name": "IconFont", "url": "https://www.iconfont.cn/search/index?searchType=icon&q=%s" },
-      { "name": "问答库", "url": "https://www.asklib.com/s/%s" }
+      { "name": "EmoJiall", "url": "https://www.emojiall.com/zh-hant/search_results?keywords=%s" },
+      { "name": "问答库", "url": "https://www.asklib.com/s/%s" },
+      { "name": "企查查", "url": "https://www.qichacha.com/search?key=%s" },
+      { "name": "天眼查", "url": "https://www.tianyancha.com/search?key=%s" },
+      { "name": "百度地图", "url": "https://map.baidu.com/search/%s" },
+      { "name": "高德地图", "url": "https://www.amap.com/search?query=%s" }
     ]
   }
 }

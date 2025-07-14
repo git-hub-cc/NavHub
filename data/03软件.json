@@ -243,13 +243,6 @@
           "proxy": false
         },
         {
-          "title": "Booka",
-          "url": "https://mp.weixin.qq.com/s/lvpV10-g0iJJgE7i00uziA",
-          "desc": "一款iOS阅读应用。",
-          "icon": "https://res.wx.qq.com/a/wx_fed/assets/res/NTI4MWU5.ico",
-          "proxy": false
-        },
-        {
           "title": "Flaget-计划清单",
           "url": "https://mp.weixin.qq.com/s/FqIZue0CImRxLOeXhcvaag",
           "desc": "一款用于制定计划和管理清单的iOS应用。",
@@ -341,13 +334,6 @@
           "proxy": false
         },
         {
-          "title": "词道",
-          "url": "https://mp.weixin.qq.com/s/v23Bh7L6h7tLLZkTb--LEQ",
-          "desc": "一款学习词根词缀的单词应用。",
-          "icon": "https://res.wx.qq.com/a/wx_fed/assets/res/NTI4MWU5.ico",
-          "proxy": false
-        },
-        {
           "title": "待办泡泡+收哪儿",
           "url": "https://mp.weixin.qq.com/s/c2ScTpNnibfwIQ07Mkimcw",
           "desc": "\"待办泡泡\"任务管理和\"收哪儿\"物品收纳两款iOS应用。",
@@ -372,13 +358,6 @@
           "title": "果蔬百科+读典籍",
           "url": "https://mp.weixin.qq.com/s/RgjhHdBdwaOlAKNhQYaw7Q",
           "desc": "\"果蔬百科\"和\"读典籍\"两款iOS知识类应用。",
-          "icon": "https://res.wx.qq.com/a/wx_fed/assets/res/NTI4MWU5.ico",
-          "proxy": false
-        },
-        {
-          "title": "火星搜题+知我",
-          "url": "https://mp.weixin.qq.com/s/6joIxXEzTCV9edywePFyLg",
-          "desc": "\"火星搜题\"和\"知我\"两款iOS学习与自我认知应用。",
           "icon": "https://res.wx.qq.com/a/wx_fed/assets/res/NTI4MWU5.ico",
           "proxy": false
         },
@@ -453,37 +432,9 @@
           "proxy": false
         },
         {
-          "title": "小宇宙+皮艇",
-          "url": "https://mp.weixin.qq.com/s/8ymmE3XawwQsVNB_zWCUgg",
-          "desc": "\"小宇宙\"播客应用和\"皮艇\"两款iOS应用的合集。",
-          "icon": "https://res.wx.qq.com/a/wx_fed/assets/res/NTI4MWU5.ico",
-          "proxy": false
-        },
-        {
-          "title": "心动日常+奶油壁纸",
-          "url": "https://mp.weixin.qq.com/s/1PlZ3NhstYo3B9f4c41idA",
-          "desc": "\"心动日常\"情侣互动应用和\"奶油壁纸\"两款iOS应用。",
-          "icon": "https://res.wx.qq.com/a/wx_fed/assets/res/NTI4MWU5.ico",
-          "proxy": false
-        },
-        {
-          "title": "星漫画+随看漫画",
-          "url": "https://mp.weixin.qq.com/s/rkxTEce8B2TXV0_vxiZdyw",
-          "desc": "\"星漫画\"和\"随看漫画\"两款iOS漫画阅读应用。",
-          "icon": "https://res.wx.qq.com/a/wx_fed/assets/res/NTI4MWU5.ico",
-          "proxy": false
-        },
-        {
           "title": "讯飞文档+i笛云",
           "url": "https://mp.weixin.qq.com/s/am7ScO0LSEq46inPUP6x0w",
           "desc": "\"讯飞文档\"和\"i笛云\"听写两款iOS办公学习应用。",
-          "icon": "https://res.wx.qq.com/a/wx_fed/assets/res/NTI4MWU5.ico",
-          "proxy": false
-        },
-        {
-          "title": "学日语",
-          "url": "https://mp.weixin.qq.com/s/v23Bh7L6h7tLLZkTb--LEQ",
-          "desc": "一款日语学习iOS应用。",
           "icon": "https://res.wx.qq.com/a/wx_fed/assets/res/NTI4MWU5.ico",
           "proxy": false
         },
@@ -505,13 +456,6 @@
           "title": "在手机桌面养猫猫吧",
           "url": "https://mp.weixin.qq.com/s/FqIZue0CImRxLOeXhcvaag",
           "desc": "一款可在iOS桌面养虚拟宠物的趣味应用。",
-          "icon": "https://res.wx.qq.com/a/wx_fed/assets/res/NTI4MWU5.ico",
-          "proxy": false
-        },
-        {
-          "title": "故事织机",
-          "url": "https://mp.weixin.qq.com/s/lvpV10-g0iJJgE7i00uziA",
-          "desc": "一款进行故事创作和编织的iOS应用。",
           "icon": "https://res.wx.qq.com/a/wx_fed/assets/res/NTI4MWU5.ico",
           "proxy": false
         },
