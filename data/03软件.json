@@ -1,64 +1,427 @@
 {
   "categories": [
     {
-      "categoryName": "软件工具与网站",
-      "categoryId": "software-tools-sites",
+      "categoryName": "软件资源总汇",
+      "categoryId": "software-hubs",
       "sites": [
         {
-          "title": "618G免费解析",
-          "url": "https://jx.618g.com/",
-          "desc": "提供各大视频网站VIP视频免费解析服务。",
+          "title": "吾爱破解",
+          "url": "https://www.52pojie.cn/",
+          "icon": "https://icon.horse/icon/52pojie.cn",
+          "desc": "国内知名的安全技术交流论坛，分享各类软件、逆向工程及安全知识。",
           "proxy": false
         },
         {
-          "title": "soso music",
-          "url": "https://baozangku.lanzoui.com/iIAizmypkhi",
-          "desc": "Win版本",
-          "icon": "https://assets.woozooo.com/assets/favicon.ico",
+          "title": "异次元软件世界",
+          "url": "https://www.iplaysoft.com/",
+          "icon": "https://icon.horse/icon/iplaysoft.com",
+          "desc": "“爱免费，爱软件”，分享有趣、实用、免费的软件和网络服务。",
           "proxy": false
         },
         {
-          "title": "soso music",
-          "url": "https://baozangku.lanzoui.com/iwe6Tmypjwh",
-          "desc": "Mac版本",
-          "icon": "https://assets.woozooo.com/assets/favicon.ico",
+          "title": "423down",
+          "url": "https://www.423down.com/",
+          "icon": "https://icon.horse/icon/423down.com",
+          "desc": "专注分享绿色、便携、优质的 Windows 软件资源。",
           "proxy": false
         },
         {
-          "title": "听音5.04.37",
-          "url": "https://baozangku.lanzoui.com/ioQHlp20ebc",
-          "desc": "一款音乐识别和播放应用。",
-          "icon": "https://assets.woozooo.com/assets/favicon.ico",
+          "title": "果核剥壳",
+          "url": "https://www.ghpym.com/",
+          "icon": "https://icon.horse/icon/ghpym.com",
+          "desc": "提供各类电脑软件、安卓应用和教程的资源分享网站。",
           "proxy": false
         },
         {
-          "title": "ZY Player",
-          "url": "https://zyplayer.fun/",
-          "icon": "https://icon.horse/icon/zyplayer.fun",
-          "desc": "跨平台桌面端视频资源播放器，聚合全网高清影视资源。",
+          "title": "大眼仔旭",
+          "url": "https://www.dayanzai.me/",
+          "icon": "https://icon.horse/icon/dayanzai.me",
+          "desc": "分享免费、优秀、实用的 Windows、Android 软件资源。",
           "proxy": false
         },
         {
-          "title": "洛雪音乐助手",
-          "url": "https://lxmusic.toside.cn",
-          "icon": "https://icon.horse/icon/toside.cn",
-          "desc": "一个聚合各大音乐平台资源的免费桌面音乐播放器。",
+          "title": "懒得勤快",
+          "url": "https://ldqk.org/",
+          "icon": "https://icon.horse/icon/ldqk.org",
+          "desc": "分享各类实用工具、绿色软件和网络资源的博客站点。",
           "proxy": false
         },
         {
-          "title": "洛雪音乐助手桌面版",
-          "url": "https://github.com/lyswhut/lx-music-desktop#readme",
+          "title": "lrepacks",
+          "url": "https://lrepacks.ru/",
+          "icon": "https://icon.horse/icon/lrepacks.ru",
+          "desc": "俄罗斯著名的软件“重新包装”网站，提供大量绿色便携版软件。",
+          "proxy": true
+        },
+        {
+          "title": "REPACK",
+          "url": "https://lrepacks.net/",
+          "icon": "https://lrepacks.net/templates/biz-ideas/images/favicon-32x32.png",
+          "desc": "俄罗斯的破解软件（Repack）分享站。",
+          "proxy": true
+        },
+        {
+          "title": "portableapps",
+          "url": "https://portableapps.com/zh-cn",
+          "icon": "https://portableapps.com/sites/all/themes/responsive_bartik_pac/favicon.ico",
+          "desc": "提供大量开源和免费软件的便携版。",
+          "proxy": false
+        },
+        {
+          "title": "Get Into PC",
+          "url": "https://igetintopc.com/",
+          "icon": "https://igetintopc.com/wp-content/themes/mystique/favicon.ico",
+          "desc": "提供各类PC破解软件的直链下载。",
+          "proxy": false
+        },
+        {
+          "title": "Mobilism",
+          "url": "https://forum.mobilism.org/viewforum.php?f=399",
+          "icon": "https://forum.mobilism.org/favicon.ico",
+          "desc": "国外知名的综合性破解资源论坛，资源非常全。",
+          "proxy": true
+        },
+        {
+          "title": "亿破姐",
+          "url": "https://www.ypojie.com/",
+          "icon": "https://www.ypojie.com/favicon.ico",
+          "desc": "知名的软件破解和资源分享站，提供城通网盘，关注公众号可获得百度云下载。",
+          "proxy": false
+        },
+        {
+          "title": "异星软件空间",
+          "url": "https://www.yxssp.com/",
+          "icon": "https://www.yxssp.com/wp-content/uploads/2017/12/yx250.png",
+          "desc": "分享绿色和破解软件，提供百度＋蓝奏云＋城通下载。",
+          "proxy": false
+        },
+        {
+          "title": "反斗软件",
+          "url": "https://www.apprcn.com/",
+          "icon": "https://www.apprcn.com/favicon.ico",
+          "desc": "分享免费、优秀、有趣的软件。",
+          "proxy": false
+        },
+        {
+          "title": "反斗限免",
+          "url": "https://free.apprcn.com/",
+          "icon": "https://free.apprcn.com/favicon.ico",
+          "desc": "分享Windows、Mac、iOS、Android等平台的限免软件。",
+          "proxy": false
+        },
+        {
+          "title": "软件商店",
+          "url": "https://www.yuque.com/docs/share/67c3fa71-3ce0-4a4e-a577-0e2c16b1fdb2",
+          "icon": "https://www.yuque.com/favicon.ico",
+          "desc": "推荐一些优质的第三方软件商店和软件发现平台。",
+          "proxy": false
+        },
+        {
+          "title": "正版中国",
+          "url": "https://www.getitfree.cn/",
+          "icon": "https://www.getitfree.cn/wp-content/uploads/favicon.ico",
+          "desc": "正版软件，限时免费，低价正版软件",
+          "proxy": false
+        },
+        {
+          "title": "乐享网",
+          "url": "https://www.lxapk.com/",
+          "icon": "https://www.lxapk.com/favicon.ico",
+          "desc": "安卓软件分享",
+          "proxy": false
+        },
+        {
+          "title": "NSANE FORUMS",
+          "url": "https://nsaneforums.com/forum/48-software-updates/",
+          "icon": "https://nsaneforums.com/uploads/monthly_2021_08/android-chrome-36x36.png",
+          "desc": "一个关注软件更新和破解的论坛。",
+          "proxy": false
+        },
+        {
+          "title": "Taiwebs.com",
+          "url": "https://en.taiwebs.com/",
+          "icon": "https://taiwebs.com/images/favico/faviconT.ico",
+          "desc": "提供谷歌网盘和直链下载的破解软件站。",
+          "proxy": false
+        },
+        {
+          "title": "0DayDown",
+          "url": "https://www.0daydown.com/",
+          "icon": "https://www.0daydown.com/favicon.ico",
+          "desc": "0day资源站，提供国外收费网盘和部分国内网盘下载，有VIP会员制。",
+          "proxy": false
+        },
+        {
+          "title": "mefcl'blog",
+          "url": "https://www.mefcl.com/",
+          "icon": "https://www.mefcl.com/favicon.ico",
+          "desc": "分享各类软件资源，提供多种网盘下载方式。",
+          "proxy": false
+        },
+        {
+          "title": "佛系软件",
+          "url": "https://foxirj.com/",
+          "icon": "https://foxirj.com/favicon.ico",
+          "desc": "分享破解和绿色软件，提供Onedrive下载。",
+          "proxy": false
+        },
+        {
+          "title": "腾龙工作室",
+          "url": "https://www.tenlonstudio.com/",
+          "icon": "https://www.tenlonstudio.com/wp-content/uploads/2019/09/new-logo.png",
+          "desc": "分享破解和绿色软件，提供百度云＋自建腾龙云盘下载。",
+          "proxy": false
+        },
+        {
+          "title": "盒子部落",
+          "url": "https://www.hezibuluo.com/",
+          "icon": "https://www.hezibuluo.com/favicon.ico",
+          "desc": "分享各类软件资源，提供城通网盘，关注公众号可获得百度云下载。",
+          "proxy": false
+        },
+        {
+          "title": "极客盟",
+          "url": "https://www.jkmeng.cn/",
+          "icon": "https://www.jkmeng.cn/favicon.ico",
+          "desc": "分享破解和绿色软件，提供城通网盘，关注公众号后可获取百度云+天翼下载。",
+          "proxy": false
+        },
+        {
+          "title": "孤独求软",
+          "url": "https://www.dugubest.com/",
+          "icon": "https://www.dugubest.com/favicon.ico",
+          "desc": "分享绿色和破解软件，提供蓝奏云＋百度云下载。",
+          "proxy": false
+        },
+        {
+          "title": "爱纯净",
+          "url": "https://www.aichunjing.com/",
+          "icon": "https://www.aichunjing.com/favicon.ico",
+          "desc": "分享纯净版软件和系统，提供百度＋城通＋蓝奏云下载。",
+          "proxy": false
+        },
+        {
+          "title": "软件No1",
+          "url": "https://www.rjno1.com/",
+          "icon": "https://www.rjno1.com/favicon.ico",
+          "desc": "分享免费和便携版软件，需关闭广告拦截才能看到下载地址。",
+          "proxy": true
+        },
+        {
+          "title": "轻狂志",
+          "url": "https://www.flighty.cn/",
+          "icon": "https://www.flighty.cn/favicon.ico",
+          "desc": "分享绿色和破解软件，提供城通＋比邻＋蓝奏云下载。",
+          "proxy": true
+        },
+        {
+          "title": "殁漂遥",
+          "url": "https://acold.xyz/",
+          "icon": "https://acold.xyz/favicon.ico",
+          "desc": "分享绿色和破解软件，提供城通网盘，关注公众号可以获得蓝奏云下载。",
+          "proxy": true
+        },
+        {
+          "title": "LiberKey",
+          "url": "https://www.liberkey.com/",
+          "icon": "https://www.liberkey.com/images/favicon.ico",
+          "desc": "一个便携应用启动器和软件集合。",
+          "proxy": false
+        },
+        {
+          "title": "FOSSHUB",
+          "url": "https://www.fosshub.com/",
+          "icon": "data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22%3E%3Ctext y=%22.9em%22 font-size=%2290%22%3E🌐%3C/text%3E%3C/svg%3E",
+          "desc": "一个安全、快速的开源软件下载平台。",
+          "proxy": false
+        },
+        {
+          "title": "软件SOS",
+          "url": "https://www.rjsos.com/",
+          "icon": "https://www.rjsos.com/favicon.ico",
+          "desc": "分享各类PC软件资源的网站。",
+          "proxy": false
+        },
+        {
+          "title": "阿萨姆软件",
+          "url": "https://www.sssam.com/",
+          "icon": "https://pic.rmb.bdstatic.com/bjh/319abe463f747a2e68d19858ce2ac4ff.png",
+          "desc": "互联网资源分享平台，提供绿色软件下载。",
+          "proxy": false
+        },
+        {
+          "title": "脑袋瓜子",
+          "url": "https://www.naodai.org/",
+          "icon": "https://www.naodai.org/favicon.ico",
+          "desc": "有软件简介、安装教程等，此为官网",
+          "proxy": false
+        }
+      ]
+    },
+    {
+      "categoryName": "Mac 应用分享",
+      "categoryId": "mac-app-hubs",
+      "sites": [
+        {
+          "title": "精品MAC应用分享",
+          "url": "https://xclient.info/",
+          "icon": "https://img.xclient.info/icon/favicon.ico",
+          "desc": "知名的Mac破解软件站，提供百度云和城通网盘。",
+          "proxy": false
+        },
+        {
+          "title": "马克喵",
+          "url": "https://www.macat.vip/",
+          "icon": "https://icon.horse/icon/macat.vip",
+          "desc": "精品Mac破解软件下载站，资源更新及时。",
+          "proxy": false
+        },
+        {
+          "title": "马可菠萝",
+          "url": "https://www.macbl.com/",
+          "icon": "https://static.skqandroid.com/images/favicon.ico",
+          "desc": "Mac破解软件下载站，提供百度云和城通网盘。",
+          "proxy": false
+        },
+        {
+          "title": "MAC萌新网",
+          "url": "https://www.macxin.com/",
+          "icon": "https://cdnx.noteba.com/wp-content/uploads/2018/01/cropped-newlogo-32x32.png",
+          "desc": "Mac破解软件下载站，可下Adobe破解资源。",
+          "proxy": false
+        },
+        {
+          "title": "数码荔枝",
+          "url": "https://www.lizhi.io/",
+          "icon": "https://www.lizhi.io/favicon.ico",
+          "desc": "国内知名的正版软件代理商，提供Mac和Windows软件。",
+          "proxy": false
+        },
+        {
+          "title": "少数派",
+          "url": "https://sspai.com/mall",
+          "icon": "https://cdn-static.sspai.com/favicon/sspai.ico",
+          "desc": "少数派的软件商城，提供正版Mac和Windows软件。",
+          "proxy": false
+        },
+        {
+          "title": "Setapp",
+          "url": "https://setapp.com/",
+          "icon": "https://setapp.com/favicon.ico",
+          "desc": "一个订阅制的Mac应用平台，包含大量优质应用。",
+          "proxy": true
+        },
+        {
+          "title": "Downie 4 (Mac)",
+          "url": "https://store.lizhi.io/site/products/id/280?cid=ds7afku3",
+          "icon": "https://store.lizhi.io/favicon.ico",
+          "desc": "Mac上强大的视频下载工具，支持1000+网站，正版特惠仅需99永久！",
+          "proxy": false
+        },
+        {
+          "title": "awesome-mac",
+          "url": "https://github.com/jaywcjlove/awesome-mac/blob/master/README-zh.md",
           "icon": "https://github.githubassets.com/favicons/favicon.svg",
-          "desc": "一个基于 Electron + Vue 开发的音乐软件。",
+          "desc": "一个收集了各种优秀Mac软件、工具和资源的Github项目。",
           "proxy": false
         },
         {
-          "title": "菜鸟工具",
-          "url": "https://c.runoob.com/",
-          "icon": "https://icon.horse/icon/runoob.com",
-          "desc": "菜鸟教程出品的在线工具箱，包含各种开发和常用工具。",
+          "title": "Best-App",
+          "url": "https://github.com/hzlzh/Best-App",
+          "icon": "https://github.githubassets.com/favicons/favicon.svg",
+          "desc": "一个推荐优秀Mac应用的Github项目。",
           "proxy": false
         },
+        {
+          "title": "Digit77",
+          "url": "https://www.digit77.com/",
+          "icon": "https://www.digit77.com/favicon.ico",
+          "desc": "Mac破解软件下载，无需注册，提供多种下载方式。",
+          "proxy": false
+        },
+        {
+          "title": "APPKED",
+          "url": "https://www.macbed.com/",
+          "icon": "https://i0.wp.com/www.macbed.com/wp-content/uploads/2019/03/cropped-apps-32x32.png",
+          "desc": "国外Mac破解软件站，提供国外网盘资源，下载较慢。",
+          "proxy": false
+        },
+        {
+          "title": "AppAddict",
+          "url": "https://appaddict.org/",
+          "icon": "https://appaddict.org/favicon.ico",
+          "desc": "提供Mac和iOS应用的破解版下载。",
+          "proxy": false
+        },
+        {
+          "title": "苹果软件盒子",
+          "url": "https://www.macappbox.com/",
+          "icon": "https://www.macappbox.com/favicon.ico",
+          "desc": "提供Mac破解软件下载，高速直链需付费。",
+          "proxy": false
+        },
+        {
+          "title": "史蒂芬周的博客",
+          "url": "https://www.sdifen.com/",
+          "icon": "https://www.sdifen.com/wp-content/uploads/2024/09/SdifenLogo.png",
+          "desc": "分享Mac破解软件的博客，部分付费，有永久会员。",
+          "proxy": false
+        },
+        {
+          "title": "Mac毒",
+          "url": "https://www.macdo.cn/",
+          "icon": "https://www.macdo.cn/favicon.ico",
+          "desc": "Mac破解软件下载站，会员制。",
+          "proxy": false
+        },
+        {
+          "title": "爱奶酪",
+          "url": "https://www.icheese.org/",
+          "icon": "https://www.icheese.org/favicon.ico",
+          "desc": "Mac破解软件下载站，会员制。",
+          "proxy": false
+        },
+        {
+          "title": "MACSKY",
+          "url": "https://www.macsky.net/",
+          "icon": "https://www.macsky.net/wp-content/uploads/2021/01/MacSKY-logo-login.png",
+          "desc": "Mac破解软件下载站，会员制。",
+          "proxy": false
+        },
+        {
+          "title": "玩转苹果",
+          "url": "https://www.ifunmac.com/",
+          "icon": "https://www.ifunmac.com/favicon2014.ico",
+          "desc": "Mac破解软件下载站，会员制。",
+          "proxy": false
+        },
+        {
+          "title": "Mac金币",
+          "url": "https://www.macjb.com/",
+          "icon": "https://cdn.mac89.com/macjb_node/static/favicon.ico",
+          "desc": "Mac破解软件下载站，会员制。",
+          "proxy": false
+        },
+        {
+          "title": "Mac软件",
+          "url": "https://soft.macx.net/",
+          "icon": "https://soft.macx.net/wally.ico",
+          "desc": "MacX论坛的软件分享区，部分付费，有会员制。",
+          "proxy": false
+        },
+        {
+          "title": "淘宝",
+          "url": "https://www.taobao.com/",
+          "icon": "https://www.taobao.com/favicon.ico",
+          "desc": "可以在淘宝上以较低价格购买到正版Mac软件的激活码。",
+          "proxy": false
+        }
+      ]
+    },
+    {
+      "categoryName": "破解与绿色软件",
+      "categoryId": "cracked-green-software",
+      "sites": [
         {
           "title": "Adobe Flash Player v34.0.0.231 3in1 Silent",
           "url": "https://www.lanzoui.com/izxQx01xay0j",
@@ -151,13 +514,6 @@
           "proxy": false
         },
         {
-          "title": "论文助手三件套",
-          "url": "https://www.lanzoul.com/i3vC701ma82j",
-          "icon": "https://assets.woozooo.com/assets/favicon.ico",
-          "desc": "最近更新的破解版或绿色版软件，由爬虫自动更新。",
-          "proxy": false
-        },
-        {
           "title": "猫影视TV v2.1.0.111",
           "url": "https://www.lanzoul.com/iTygW01ma85c",
           "icon": "https://assets.woozooo.com/assets/favicon.ico",
@@ -219,89 +575,18 @@
           "icon": "https://assets.woozooo.com/assets/favicon.ico",
           "desc": "最近更新的破解版或绿色版软件，由爬虫自动更新。",
           "proxy": false
-        },
+        }
+      ]
+    },
+    {
+      "categoryName": "系统工具与维护",
+      "categoryId": "system-utilities",
+      "sites": [
         {
-          "title": "迅雷-免会员精简去限速版",
-          "url": "https://www.lanzous.com/i8mip2f",
-          "icon": "data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22%3E%3Ctext y=%22.9em%22 font-size=%2290%22%3E🌐%3C/text%3E%3C/svg%3E",
-          "desc": "安卓版迅雷，精简去广告。",
-          "proxy": false
-        },
-        {
-          "title": "稿定设计",
-          "url": "https://www.gaoding.com/",
-          "icon": "data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22%3E%3Ctext y=%22.9em%22 font-size=%2290%22%3E🌐%3C/text%3E%3C/svg%3E",
-          "desc": "一个多场景的在线设计平台，提供海量模板和素材。",
-          "proxy": false
-        },
-        {
-          "title": "Adobe全家桶2022直装版",
-          "url": "https://www.aliyundrive.com/s/WjvzfZUEX7z",
-          "icon": "https://img.alicdn.com/imgextra/i1/O1CN01JDQCi21Dc8EfbRwvF_!!6000000000236-73-tps-64-64.ico",
-          "desc": "Adobe系列软件2022版，阿里云盘下载。",
-          "proxy": false
-        },
-        {
-          "title": "vposy微博",
-          "url": "https://weibo.com/vposy",
-          "icon": "https://weibo.com/favicon.ico",
-          "desc": "微博大神vposy，分享Adobe全系列软件。",
-          "proxy": false
-        },
-        {
-          "title": "WindowTop",
-          "url": "https://www.appinn.com/windowtop/",
-          "icon": "https://images3.appinn.com/wp-content/uploads/Appinn-icon-32.jpg",
-          "desc": "窗口置顶工具，支持透明、鼠标穿透、画中画等。",
-          "proxy": false
-        },
-        {
-          "title": "抖音视频去水印下载工具",
-          "url": "https://wwx.lanzoui.com/idvlEmlnbbi",
-          "icon": "https://assets.woozooo.com/assets/favicon.ico",
-          "desc": "PC端抖音视频去水印下载工具，【密码:eyyg】。",
-          "proxy": false
-        },
-        {
-          "title": "文件夹大小排序",
-          "url": "https://pan.baidu.com/s/13v-ym1vnoxgF2K5eQJjIQQ",
-          "icon": "img/favicon/panbaidu/favicon.ico",
-          "desc": "显示文件夹大小并排序的工具，【提取码：rq43】。",
-          "proxy": false
-        },
-        {
-          "title": "SpleeterGui",
-          "url": "https://pan.baidu.com/s/1Mzihk3yJJIqxb09mNtMsWw",
-          "icon": "img/favicon/panbaidu/favicon.ico",
-          "desc": "消人声利器，可分离人声和伴奏，【提取码：ayx2】。",
-          "proxy": false
-        },
-        {
-          "title": "微信/QQ/TIM防撤回补丁",
-          "url": "https://github.com/huiyadanli/RevokeMsgPatcher",
-          "icon": "https://github.githubassets.com/favicons/favicon.svg",
-          "desc": "开源的微信/QQ/TIM防撤回+多开补丁。",
-          "proxy": false
-        },
-        {
-          "title": "小丸工具箱",
-          "url": "https://www.lanzoux.com/iyDOvf5ye3g",
-          "icon": "https://assets.woozooo.com/assets/favicon.ico",
-          "desc": "一款用于处理音视频等多媒体文件的软件。",
-          "proxy": false
-        },
-        {
-          "title": "Potplayer",
-          "url": "https://potplayer.daum.net/",
-          "icon": "https://t1.daumcdn.net/potplayer/main/img/favicon.ico",
-          "desc": "功能强大的全能影音播放器。",
-          "proxy": false
-        },
-        {
-          "title": "ReNamer",
-          "url": "https://www.den4b.com/products/renamer",
-          "icon": "https://www.den4b.com/favicon.ico",
-          "desc": "非常强大的批量文件重命名软件。",
+          "title": "Everything",
+          "url": "https://www.voidtools.com/zh-cn/",
+          "icon": "https://www.voidtools.com/favicon.ico",
+          "desc": "速度最快的文件名搜索神器。",
           "proxy": false
         },
         {
@@ -311,17 +596,10 @@
           "proxy": false
         },
         {
-          "title": "Everything",
-          "url": "https://www.voidtools.com/zh-cn/",
-          "icon": "https://www.voidtools.com/favicon.ico",
-          "desc": "速度最快的文件名搜索神器。",
-          "proxy": false
-        },
-        {
-          "title": "百分浏览器",
-          "url": "https://www.centbrowser.cn/",
-          "icon": "https://www.centbrowser.cn/favicon.ico",
-          "desc": "一款增强的Chrome浏览器，集成了许多实用功能。",
+          "title": "7-zip",
+          "url": "https://www.7-zip.org/",
+          "icon": "https://www.7-zip.org/favicon.ico",
+          "desc": "开源免费的文件压缩软件，支持多种格式。",
           "proxy": false
         },
         {
@@ -332,38 +610,38 @@
           "proxy": false
         },
         {
-          "title": "精准云",
-          "url": "https://jingzhunyun.com/",
-          "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAIAAACQd1PeAAAADElEQVQI12P4//8/AAX+Av7czFnnAAAAAElFTkSuQmCC",
-          "desc": "好用的在线工具集合",
-          "proxy": false
-        },
-        {
-          "title": "在线PS修图",
-          "url": "https://www.photopea.com",
-          "icon": "data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22%3E%3Ctext y=%22.9em%22 font-size=%2290%22%3E🌐%3C/text%3E%3C/svg%3E",
-          "desc": "强大的在线PS",
-          "proxy": true
-        },
-        {
-          "title": "UUPOOP",
-          "url": "https://www.uupoop.com/ps/",
-          "icon": "https://www.uupoop.com/favicon.ico",
-          "desc": "比官网快，支持证件照一键换底",
-          "proxy": false
-        },
-        {
-          "title": "MindMaster",
-          "url": "https://mm.edrawsoft.cn/create",
-          "icon": "https://mm.edrawsoft.cn/favicon.ico",
-          "desc": "在线思维导图",
-          "proxy": false
-        },
-        {
           "title": "IT天空",
           "url": "https://www.itsk.com/portal.php",
           "icon": "https://www.itsk.com/favicon.ico",
           "desc": "知名的IT技术论坛，提供系统封装、PE工具等资源。",
+          "proxy": false
+        },
+        {
+          "title": "WindowTop",
+          "url": "https://www.appinn.com/windowtop/",
+          "icon": "https://images3.appinn.com/wp-content/uploads/Appinn-icon-32.jpg",
+          "desc": "窗口置顶工具，支持透明、鼠标穿透、画中画等。",
+          "proxy": false
+        },
+        {
+          "title": "ReNamer",
+          "url": "https://www.den4b.com/products/renamer",
+          "icon": "https://www.den4b.com/favicon.ico",
+          "desc": "非常强大的批量文件重命名软件。",
+          "proxy": false
+        },
+        {
+          "title": "文件夹大小排序",
+          "url": "https://pan.baidu.com/s/13v-ym1vnoxgF2K5eQJjIQQ",
+          "icon": "img/favicon/panbaidu/favicon.ico",
+          "desc": "显示文件夹大小并排序的工具，【提取码：rq43】。",
+          "proxy": false
+        },
+        {
+          "title": "单文件制作程序",
+          "url": "https://www.yuque.com/docs/share/895fe50e-0834-4c41-b68a-c085d3792f0f",
+          "icon": "https://www.yuque.com/favicon.ico",
+          "desc": "介绍如何将一个程序及其依赖文件打包成单个可执行文件的工具，如Cameyo。",
           "proxy": false
         },
         {
@@ -372,82 +650,32 @@
           "icon": "https://www.znds.com/favicon.ico",
           "desc": "提供智能电视、电视盒子相关资讯、评测、应用和固件下载。",
           "proxy": false
-        },
+        }
+      ]
+    },
+    {
+      "categoryName": "浏览器与插件",
+      "categoryId": "browsers-extensions",
+      "sites": [
         {
-          "title": "WPS",
-          "url": "https://mp.weixin.qq.com/s/60Jbep8yLuuuKHuKmD954A",
-          "icon": "https://res.wx.qq.com/a/wx_fed/assets/res/NTI4MWU5.ico",
-          "desc": "提供WPS Office的特别版本或去广告版本，以及使用技巧分享。",
+          "title": "百分浏览器",
+          "url": "https://www.centbrowser.cn/",
+          "icon": "https://www.centbrowser.cn/favicon.ico",
+          "desc": "一款增强的Chrome浏览器，集成了许多实用功能。",
           "proxy": false
         },
         {
-          "title": "公众号下载",
-          "url": "https://www.yuque.com/docs/share/24af1740-d97c-4ad1-a3be-9bfe65d32e05",
-          "icon": "https://www.yuque.com/favicon.ico",
-          "desc": "分享工具用于批量下载微信公众号的文章、图片和视频。",
+          "title": "Tampermonkey（篡改猴）",
+          "url": "https://www.crxsoso.com/webstore/detail/dhdgffkkebhmkfjojejmpbldmpobfkfo",
+          "icon": "https://www.crxsoso.com/favicon-32x32.png",
+          "desc": "最流行的用户脚本管理器。",
           "proxy": false
         },
         {
-          "title": "QQ相册",
-          "url": "https://www.yuque.com/docs/share/2d592174-c15c-49f2-91b4-16e9a3ec2193",
-          "icon": "https://www.yuque.com/favicon.ico",
-          "desc": "分享批量下载和备份QQ空间相册的工具和脚本。",
-          "proxy": false
-        },
-        {
-          "title": "WiFi",
-          "url": "https://www.yuque.com/docs/share/5a9b70f9-d977-457a-8ec8-d46d36a734f9",
-          "icon": "https://www.yuque.com/favicon.ico",
-          "desc": "介绍查看已连接WiFi密码和进行WiFi网络分析的工具。",
-          "proxy": false
-        },
-        {
-          "title": "MiPony",
-          "url": "https://www.yuque.com/docs/share/b00fd62c-b9a0-4002-859a-8cd2d600de5f",
-          "icon": "https://www.yuque.com/favicon.ico",
-          "desc": "白马下载器（MiPony）的使用教程，支持从海量网盘下载文件。",
-          "proxy": false
-        },
-        {
-          "title": "蓝奏云",
-          "url": "https://www.yuque.com/docs/share/8d763773-5f13-449b-8166-e849002e76ad",
-          "icon": "https://www.yuque.com/favicon.ico",
-          "desc": "分享蓝奏云网盘的各类脚本和工具，提升使用体验。",
-          "proxy": false
-        },
-        {
-          "title": "城通网盘下载器",
-          "url": "https://www.yuque.com/docs/share/007af7cf-cc42-472f-a9d3-16b761fd92be",
-          "icon": "https://www.yuque.com/favicon.ico",
-          "desc": "提供针对城通网盘的专用下载工具，解决下载限速和弹窗问题。",
-          "proxy": false
-        },
-        {
-          "title": "资源嗅探",
-          "url": "https://www.yuque.com/docs/share/440c5885-9449-4771-99a9-b157f2d067d0",
-          "icon": "https://www.yuque.com/favicon.ico",
-          "desc": "利用浏览器扩展或专门工具嗅探和下载网页中的视频、音频等媒体资源。",
-          "proxy": false
-        },
-        {
-          "title": "微盘",
-          "url": "https://www.yuque.com/docs/share/084fde62-8327-4626-a4b9-83d62684c9b4",
-          "icon": "https://www.yuque.com/favicon.ico",
-          "desc": "介绍新浪微盘的替代品或相关资源下载方法。",
-          "proxy": false
-        },
-        {
-          "title": "动态二维码（部分已失效，待更新）",
-          "url": "https://www.yuque.com/docs/share/c7241752-2bcd-48bf-b6e4-85b18b1f0fce",
-          "icon": "https://www.yuque.com/favicon.ico",
-          "desc": "介绍制作动态二维码的方法，但部分服务可能已失效，内容待更新。",
-          "proxy": false
-        },
-        {
-          "title": "MSDN, I tell you",
-          "url": "https://next.itellyou.cn/",
-          "icon": "https://next.itellyou.cn/favicon.ico",
-          "desc": "原版Windows和Office等微软系软件镜像下载站。",
+          "title": "Ublock origin",
+          "url": "https://www.crxsoso.com/webstore/detail/cjpalhdlnbpafiamejdnhcphjbkeiagm",
+          "icon": "https://www.crxsoso.com/favicon-32x32.png",
+          "desc": "最高效的广告拦截扩展程序。",
           "proxy": false
         },
         {
@@ -472,13 +700,6 @@
           "proxy": false
         },
         {
-          "title": "Via浏览器",
-          "url": "https://viayoo.com/zh-cn/",
-          "icon": "https://viayoo.com/favicon.ico",
-          "desc": "轻量、快速的安卓浏览器，支持安装JS插件。",
-          "proxy": false
-        },
-        {
           "title": "RunningCheese Firefox",
           "url": "https://www.runningcheese.com/firefox",
           "icon": "https://www.runningcheese.com/favicon.ico",
@@ -493,24 +714,10 @@
           "proxy": false
         },
         {
-          "title": "Tampermonkey（篡改猴）",
-          "url": "https://www.crxsoso.com/webstore/detail/dhdgffkkebhmkfjojejmpbldmpobfkfo",
-          "icon": "https://www.crxsoso.com/favicon-32x32.png",
-          "desc": "最流行的用户脚本管理器。",
-          "proxy": false
-        },
-        {
           "title": "ViolentMonkey（暴力猴）",
           "url": "https://www.crxsoso.com/webstore/detail/jinjaccalgkegednnccohejagnlnfdag",
           "icon": "https://www.crxsoso.com/favicon-32x32.png",
           "desc": "一个开源的用户脚本管理器，Tampermonkey的替代品。",
-          "proxy": false
-        },
-        {
-          "title": "Ublock origin",
-          "url": "https://www.crxsoso.com/webstore/detail/cjpalhdlnbpafiamejdnhcphjbkeiagm",
-          "icon": "https://www.crxsoso.com/favicon-32x32.png",
-          "desc": "最高效的广告拦截扩展程序。",
           "proxy": false
         },
         {
@@ -533,12 +740,294 @@
           "icon": "https://bitbucket.org/favicon.ico",
           "desc": "为Github添加高速下载通道的油猴脚本。",
           "proxy": false
+        }
+      ]
+    },
+    {
+      "categoryName": "影音播放与处理",
+      "categoryId": "multimedia-playback-processing",
+      "sites": [
+        {
+          "title": "Potplayer",
+          "url": "https://potplayer.daum.net/",
+          "icon": "https://t1.daumcdn.net/potplayer/main/img/favicon.ico",
+          "desc": "功能强大的全能影音播放器。",
+          "proxy": false
         },
         {
-          "title": "7-zip",
-          "url": "https://www.7-zip.org/",
-          "icon": "https://www.7-zip.org/favicon.ico",
-          "desc": "开源免费的文件压缩软件，支持多种格式。",
+          "title": "ZY Player",
+          "url": "https://zyplayer.fun/",
+          "icon": "https://icon.horse/icon/zyplayer.fun",
+          "desc": "跨平台桌面端视频资源播放器，聚合全网高清影视资源。",
+          "proxy": false
+        },
+        {
+          "title": "洛雪音乐助手",
+          "url": "https://lxmusic.toside.cn",
+          "icon": "https://icon.horse/icon/toside.cn",
+          "desc": "一个聚合各大音乐平台资源的免费桌面音乐播放器。",
+          "proxy": false
+        },
+        {
+          "title": "618G免费解析",
+          "url": "https://jx.618g.com/",
+          "desc": "提供各大视频网站VIP视频免费解析服务。",
+          "proxy": false
+        },
+        {
+          "title": "小丸工具箱",
+          "url": "https://www.lanzoux.com/iyDOvf5ye3g",
+          "icon": "https://assets.woozooo.com/assets/favicon.ico",
+          "desc": "一款用于处理音视频等多媒体文件的软件。",
+          "proxy": false
+        },
+        {
+          "title": "SpleeterGui",
+          "url": "https://pan.baidu.com/s/1Mzihk3yJJIqxb09mNtMsWw",
+          "icon": "img/favicon/panbaidu/favicon.ico",
+          "desc": "消人声利器，可分离人声和伴奏，【提取码：ayx2】。",
+          "proxy": false
+        },
+        {
+          "title": "soso music",
+          "url": "https://baozangku.lanzoui.com/iIAizmypkhi",
+          "desc": "Win版本",
+          "icon": "https://assets.woozooo.com/assets/favicon.ico",
+          "proxy": false
+        },
+        {
+          "title": "soso music",
+          "url": "https://baozangku.lanzoui.com/iwe6Tmypjwh",
+          "desc": "Mac版本",
+          "icon": "https://assets.woozooo.com/assets/favicon.ico",
+          "proxy": false
+        },
+        {
+          "title": "听音5.04.37",
+          "url": "https://baozangku.lanzoui.com/ioQHlp20ebc",
+          "desc": "一款音乐识别和播放应用。",
+          "icon": "https://assets.woozooo.com/assets/favicon.ico",
+          "proxy": false
+        },
+        {
+          "title": "洛雪音乐助手桌面版",
+          "url": "https://github.com/lyswhut/lx-music-desktop#readme",
+          "icon": "https://github.githubassets.com/favicons/favicon.svg",
+          "desc": "一个基于 Electron + Vue 开发的音乐软件。",
+          "proxy": false
+        },
+        {
+          "title": "VidJuice UniTube",
+          "url": "https://store.lizhi.io/site/products/id/454?cid=ds7afku3",
+          "icon": "https://store.lizhi.io/favicon.ico",
+          "desc": "支持1000+平台在线音视频下载工具，正版特惠仅需￥79永久！",
+          "proxy": false
+        },
+        {
+          "title": "V视频助手",
+          "url": "https://v.ranks.xin/",
+          "icon": "https://v.ranks.xin/favicon.ico",
+          "desc": "支持腾讯、秒拍、微博、今日头条、快手等多个平台的视频下载。",
+          "proxy": false
+        },
+        {
+          "title": "Parsevideo",
+          "url": "https://pv.vlogdownloader.com/",
+          "icon": "https://pv.vlogdownloader.com/assets/addons/parsevideo/img/favicon.ico",
+          "desc": "在线视频解析下载工具，支持多个国内外网站。",
+          "proxy": false
+        },
+        {
+          "title": "哔哩哔哩（B站）下载",
+          "url": "https://www.jijidown.com/",
+          "icon": "https://www.jijidown.com/static/favicon.ico",
+          "desc": "唧唧，B站视频在线解析下载工具，支持封面、弹幕等。",
+          "proxy": false
+        },
+        {
+          "title": "抖音视频去水印下载工具",
+          "url": "https://wwx.lanzoui.com/idvlEmlnbbi",
+          "icon": "https://assets.woozooo.com/assets/favicon.ico",
+          "desc": "PC端抖音视频去水印下载工具，【密码:eyyg】。",
+          "proxy": false
+        },
+        {
+          "title": "资源嗅探",
+          "url": "https://www.yuque.com/docs/share/440c5885-9449-4771-99a9-b157f2d067d0",
+          "icon": "https://www.yuque.com/favicon.ico",
+          "desc": "利用浏览器扩展或专门工具嗅探和下载网页中的视频、音频等媒体资源。",
+          "proxy": false
+        }
+      ]
+    },
+    {
+      "categoryName": "设计图像与办公",
+      "categoryId": "design-office",
+      "sites": [
+        {
+          "title": "在线PS修图",
+          "url": "https://www.photopea.com",
+          "icon": "data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22%3E%3Ctext y=%22.9em%22 font-size=%2290%22%3E🌐%3C/text%3E%3C/svg%3E",
+          "desc": "强大的在线PS",
+          "proxy": true
+        },
+        {
+          "title": "稿定设计",
+          "url": "https://www.gaoding.com/",
+          "icon": "data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22%3E%3Ctext y=%22.9em%22 font-size=%2290%22%3E🌐%3C/text%3E%3C/svg%3E",
+          "desc": "一个多场景的在线设计平台，提供海量模板和素材。",
+          "proxy": false
+        },
+        {
+          "title": "MindMaster",
+          "url": "https://mm.edrawsoft.cn/create",
+          "icon": "https://mm.edrawsoft.cn/favicon.ico",
+          "desc": "在线思维导图",
+          "proxy": false
+        },
+        {
+          "title": "UUPOOP",
+          "url": "https://www.uupoop.com/ps/",
+          "icon": "https://www.uupoop.com/favicon.ico",
+          "desc": "比官网快，支持证件照一键换底",
+          "proxy": false
+        },
+        {
+          "title": "WPS",
+          "url": "https://mp.weixin.qq.com/s/60Jbep8yLuuuKHuKmD954A",
+          "icon": "https://res.wx.qq.com/a/wx_fed/assets/res/NTI4MWU5.ico",
+          "desc": "提供WPS Office的特别版本或去广告版本，以及使用技巧分享。",
+          "proxy": false
+        },
+        {
+          "title": "论文助手三件套",
+          "url": "https://www.lanzoul.com/i3vC701ma82j",
+          "icon": "https://assets.woozooo.com/assets/favicon.ico",
+          "desc": "最近更新的破解版或绿色版软件，由爬虫自动更新。",
+          "proxy": false
+        },
+        {
+          "title": "Easyfind汉化包",
+          "url": "https://www.yuque.com/docs/share/f83f7bb8-0ada-4a5d-ab41-93093a37794c",
+          "icon": "https://www.yuque.com/favicon.ico",
+          "desc": "提供macOS上文件搜索工具Easyfind的汉化补丁。",
+          "proxy": false
+        }
+      ]
+    },
+    {
+      "categoryName": "下载工具与网盘",
+      "categoryId": "downloaders-cloud",
+      "sites": [
+        {
+          "title": "迅雷-免会员精简去限速版",
+          "url": "https://www.lanzous.com/i8mip2f",
+          "icon": "data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22%3E%3Ctext y=%22.9em%22 font-size=%2290%22%3E🌐%3C/text%3E%3C/svg%3E",
+          "desc": "安卓版迅雷，精简去广告。",
+          "proxy": false
+        },
+        {
+          "title": "Adobe全家桶2022直装版",
+          "url": "https://www.aliyundrive.com/s/WjvzfZUEX7z",
+          "icon": "https://img.alicdn.com/imgextra/i1/O1CN01JDQCi21Dc8EfbRwvF_!!6000000000236-73-tps-64-64.ico",
+          "desc": "Adobe系列软件2022版，阿里云盘下载。",
+          "proxy": false
+        },
+        {
+          "title": "MiPony",
+          "url": "https://www.yuque.com/docs/share/b00fd62c-b9a0-4002-859a-8cd2d600de5f",
+          "icon": "https://www.yuque.com/favicon.ico",
+          "desc": "白马下载器（MiPony）的使用教程，支持从海量网盘下载文件。",
+          "proxy": false
+        },
+        {
+          "title": "蓝奏云",
+          "url": "https://www.yuque.com/docs/share/8d763773-5f13-449b-8166-e849002e76ad",
+          "icon": "https://www.yuque.com/favicon.ico",
+          "desc": "分享蓝奏云网盘的各类脚本和工具，提升使用体验。",
+          "proxy": false
+        },
+        {
+          "title": "城通网盘下载器",
+          "url": "https://www.yuque.com/docs/share/007af7cf-cc42-472f-a9d3-16b761fd92be",
+          "icon": "https://www.yuque.com/favicon.ico",
+          "desc": "提供针对城通网盘的专用下载工具，解决下载限速和弹窗问题。",
+          "proxy": false
+        },
+        {
+          "title": "微盘",
+          "url": "https://www.yuque.com/docs/share/084fde62-8327-4626-a4b9-83d62684c9b4",
+          "icon": "https://www.yuque.com/favicon.ico",
+          "desc": "介绍新浪微盘的替代品或相关资源下载方法。",
+          "proxy": false
+        },
+        {
+          "title": "在线BT种子／磁力转换工具",
+          "url": "https://tools.jb51.net/aideddesign/bt2mag",
+          "icon": "https://tools.jb51.net/favicon.ico",
+          "desc": "脚本之家提供的BT种子与磁力链接互转工具。",
+          "proxy": false
+        },
+        {
+          "title": "西边云-在线磁力链接转种子",
+          "url": "http://www.xibianyun.com/convert/",
+          "icon": "https://www.xibianyun.com/favicon.ico",
+          "desc": "磁力链接在线转换为BT种子文件。",
+          "proxy": false
+        },
+        {
+          "title": "Instant.io",
+          "url": "https://instant.io/",
+          "icon": "https://instant.io/favicon.ico",
+          "desc": "在线BT客户端，可直接在网页上进行BT下载和做种。",
+          "proxy": false
+        },
+        {
+          "title": "1DM 破解版",
+          "url": "https://yxssp.lanzoui.com/b478866/",
+          "icon": "https://yxssp.lanzoui.com/favicon.ico",
+          "desc": "安卓端强大的多线程下载工具。",
+          "proxy": false
+        }
+      ]
+    },
+    {
+      "categoryName": "游戏资源与平台",
+      "categoryId": "gaming-resources-platforms",
+      "sites": [
+        {
+          "title": "Steam",
+          "url": "https://www.steampowered.com/",
+          "icon": "https://www.steampowered.com/favicon.ico",
+          "desc": "全球最大的PC游戏平台，很多Mac端游戏在此发布。",
+          "proxy": true
+        },
+        {
+          "title": "3DM游戏网",
+          "url": "https://dl.3dmgame.com/",
+          "icon": "https://icon.horse/icon/3dmgame.com",
+          "desc": "国内老牌的单机游戏门户网站，提供游戏资讯、攻略和资源下载。",
+          "proxy": false
+        },
+        {
+          "title": "游侠网",
+          "url": "https://down.ali213.net/pcgame/",
+          "icon": "https://icon.horse/icon/ali213.net",
+          "desc": "国内知名的单机游戏网站，提供丰富的游戏资源、MOD和汉化补丁。",
+          "proxy": false
+        },
+        {
+          "title": "TapTap",
+          "url": "https://www.taptap.com/",
+          "icon": "https://icon.horse/icon/taptap.com",
+          "desc": "发现好游戏，一个高质量的手机游戏分享社区。",
+          "proxy": false
+        },
+        {
+          "title": "老男人游戏网",
+          "url": "https://www.oldmanemu.net/",
+          "icon": "https://www.oldmanemu.net/favicon.ico",
+          "desc": "提供海量掌机和家用机模拟器游戏ROM下载。",
           "proxy": false
         },
         {
@@ -553,6 +1042,48 @@
           "url": "https://www.akspeedy.com/html/invite_new/invite_download.html?inviter=8eB3rEmS",
           "icon": "https://www.akspeedy.com/favicon.ico",
           "desc": "（兑换码：阿虚 ⇨ 送66小时丨每天00:00－14:00免费）",
+          "proxy": false
+        },
+        {
+          "title": "蓝叠安卓模拟器",
+          "url": "https://www.52pojie.cn/forum.php?mod=viewthread&tid=1567094&highlight=����",
+          "icon": "https://www.52pojie.cn/favicon.ico",
+          "desc": "市面上兼容性最好的安卓模拟器之一",
+          "proxy": false
+        },
+        {
+          "title": "叽哩叽哩单机游戏",
+          "url": "https://www.jiligamefun.com/category/game/jiligame",
+          "icon": "https://www.jiligamefun.com/wp-content/uploads/2019/03/3d4ea83dd5ffcf185b6cf70ef6ff4fab-32x32.png",
+          "desc": "提供PC单机游戏下载。",
+          "proxy": false
+        },
+        {
+          "title": "Git游戏",
+          "url": "https://www.gityx.com/",
+          "icon": "https://gityx.com/favicon.ico",
+          "desc": "提供汉化版游戏下载。",
+          "proxy": false
+        },
+        {
+          "title": "Yuzu模拟器",
+          "url": "https://pan.baidu.com/s/12y-Cac79Kldd8vnexfWV5g",
+          "icon": "img/favicon/panbaidu/favicon.ico",
+          "desc": "提取码: jspf",
+          "proxy": false
+        },
+        {
+          "title": "Ryujinx模拟器",
+          "url": "https://pan.baidu.com/s/1PB0Yea9y471A_g7tQi4gHg",
+          "icon": "img/favicon/panbaidu/favicon.ico",
+          "desc": "提取码: uifi",
+          "proxy": false
+        },
+        {
+          "title": "逍遥安卓模拟器",
+          "url": "https://pan.baidu.com/s/1RU6oMskoDM4ZaXp4RYEagw",
+          "icon": "img/favicon/panbaidu/favicon.ico",
+          "desc": "绿色无广告7.5.0版本",
           "proxy": false
         },
         {
@@ -591,6 +1122,439 @@
           "proxy": false
         },
         {
+          "title": "诸神将陨",
+          "url": "https://pan.baidu.com/s/1uovlSkUlvLaN4Ku0PFJGBQ#list/path=/",
+          "icon": "img/favicon/panbaidu/favicon.ico",
+          "desc": "免安装绿色中文版",
+          "proxy": false
+        },
+        {
+          "title": "20款街机游戏",
+          "url": "https://pan.baidu.com/s/1QPdG2oJXuQ8chX1zNIfR5A",
+          "icon": "img/favicon/panbaidu/favicon.ico",
+          "desc": "提取码: q5g1",
+          "proxy": false
+        },
+        {
+          "title": "PC移植游戏",
+          "url": "https://pan.baidu.com/s/1EX4BvH98gjBpEkEvOMgj3w",
+          "icon": "img/favicon/panbaidu/favicon.ico",
+          "desc": "（不兼容安卓10系统，尤其是华为的） 提取码: ck8z",
+          "proxy": false
+        },
+        {
+          "title": "10款战旗类游戏",
+          "url": "https://pan.baidu.com/s/1bM9e-yaTE1Diqx79wshEOw",
+          "icon": "img/favicon/panbaidu/favicon.ico",
+          "desc": "提取码: kyqu",
+          "proxy": false
+        },
+        {
+          "title": "15款回合制游戏",
+          "url": "https://pan.baidu.com/s/1Egn4v7DC7Ttr6VwWU9SNGw",
+          "icon": "img/favicon/panbaidu/favicon.ico",
+          "desc": "提取码: 8ewz",
+          "proxy": false
+        },
+        {
+          "title": "26款策略塔防类游戏",
+          "url": "https://pan.baidu.com/s/1Nt3xvw25F8gX9bHUuHGg-w",
+          "icon": "img/favicon/panbaidu/favicon.ico",
+          "desc": "提取码: g1jt",
+          "proxy": false
+        },
+        {
+          "title": "17款即时角色类",
+          "url": "https://pan.baidu.com/s/1KA8lGZKN45VAKpbLRtyhBA",
+          "icon": "img/favicon/panbaidu/favicon.ico",
+          "desc": "提取码: zrj7",
+          "proxy": false
+        },
+        {
+          "title": "16款 卡牌类游戏",
+          "url": "https://pan.baidu.com/s/1apKYaxod4YUDvtniYZNN1g",
+          "icon": "img/favicon/panbaidu/favicon.ico",
+          "desc": "提取码: v7qe",
+          "proxy": false
+        },
+        {
+          "title": "22款 经营策略 游戏",
+          "url": "https://pan.baidu.com/s/1C7hqUlZ70CRVUE01AcZyvw",
+          "icon": "img/favicon/panbaidu/favicon.ico",
+          "desc": "提取码: i4k4",
+          "proxy": false
+        },
+        {
+          "title": "22款解谜益智类",
+          "url": "https://pan.baidu.com/s/1K7NGAEq58QnUKvt0hVZUlQ",
+          "icon": "img/favicon/panbaidu/favicon.ico",
+          "desc": "提取码: xdzy",
+          "proxy": false
+        },
+        {
+          "title": "41款 射击类游戏合集",
+          "url": "https://pan.baidu.com/s/16Atf30q5ry4afLaB7ymweQ",
+          "icon": "img/favicon/panbaidu/favicon.ico",
+          "desc": "提取码: w83r",
+          "proxy": false
+        },
+        {
+          "title": "NBA 2K20无条件试用金币",
+          "url": "https://pan.baidu.com/s/15IRjh-DavpMWUpXwUBqMqw",
+          "icon": "img/favicon/panbaidu/favicon.ico",
+          "desc": "提取码: nxc2",
+          "proxy": false
+        },
+        {
+          "title": "梦幻足球联盟2021内置菜单",
+          "url": "https://pan.baidu.com/s/1nWPyCJDd65IiL18VIgaFGQ",
+          "icon": "img/favicon/panbaidu/favicon.ico",
+          "desc": "提取码: adv9",
+          "proxy": false
+        },
+        {
+          "title": "smash club功夫大乱斗",
+          "url": "https://pan.baidu.com/s/1_QXBSAZlaJSL7bQZAx1njQ",
+          "icon": "img/favicon/panbaidu/favicon.ico",
+          "desc": "提取码: 8sun",
+          "proxy": false
+        },
+        {
+          "title": "马里奥赛车8",
+          "url": "https://pan.baidu.com/s/1OHew4U2U0Ee2aP5wCIStyw",
+          "icon": "img/favicon/panbaidu/favicon.ico",
+          "desc": "提取码: a57k",
+          "proxy": false
+        },
+        {
+          "title": "马力奥疯兔：王国之战",
+          "url": "https://pan.baidu.com/s/1uNVpXe3e5Lv6Omss-6obUg",
+          "icon": "img/favicon/panbaidu/favicon.ico",
+          "desc": "提取码: fc57",
+          "proxy": false
+        },
+        {
+          "title": "塞尔达传说：荒野之息",
+          "url": "https://pan.baidu.com/s/1s6Lhe6-hQSisdEioSBitOw",
+          "icon": "img/favicon/panbaidu/favicon.ico",
+          "desc": "模拟器版 提取码: 5j9t",
+          "proxy": false
+        },
+        {
+          "title": "怪物猎人崛起",
+          "url": "https://pan.baidu.com/s/1j3awq3XLV9vbgAZVSRGLug",
+          "icon": "img/favicon/panbaidu/favicon.ico",
+          "desc": "提取码: vnja",
+          "proxy": false
+        },
+        {
+          "title": "三位一体4：梦魇王子",
+          "url": "https://pan.baidu.com/s/1FYDLnj4VUpwmBY5tgfS8Fw",
+          "icon": "img/favicon/panbaidu/favicon.ico",
+          "desc": "激活码：2879663",
+          "proxy": false
+        },
+        {
+          "title": "冰汽时代：帝国的边界",
+          "url": "https://pan.baidu.com/s/1d0H5l6f4G9uH9y7eT6829w",
+          "icon": "img/favicon/panbaidu/favicon.ico",
+          "desc": "提取码: r2c4",
+          "proxy": false
+        },
+        {
+          "title": "分手装修",
+          "url": "https://pan.baidu.com/s/18W935oH5wY4Jj1B8N44R2w",
+          "icon": "img/favicon/panbaidu/favicon.ico",
+          "desc": "提取码: s31a",
+          "proxy": false
+        },
+        {
+          "title": "刺客信条：大革命",
+          "url": "https://pan.baidu.com/s/172k07M3w0-w2JpC1T5XjUQ",
+          "icon": "img/favicon/panbaidu/favicon.ico",
+          "desc": "提取码: 494z",
+          "proxy": false
+        },
+        {
+          "title": "动物园之星",
+          "url": "https://wwi.lanzoui.com/iVyyek7fe4f",
+          "desc": "由《过山车之星》团队打造的终极动物园模拟游戏。",
+          "icon": "https://assets.woozooo.com/assets/favicon.ico",
+          "proxy": false
+        },
+        {
+          "title": "古剑奇谭1",
+          "url": "https://pan.baidu.com/s/1Ih07ePRFkW7gstZ4GKzkVg",
+          "icon": "img/favicon/panbaidu/favicon.ico",
+          "desc": "提取码: in2s",
+          "proxy": false
+        },
+        {
+          "title": "古剑奇谭2",
+          "url": "https://pan.baidu.com/s/1TzsmnfJ-ZOvWUX_e05f9qA",
+          "icon": "img/favicon/panbaidu/favicon.ico",
+          "desc": "提取码: 3y4v",
+          "proxy": false
+        },
+        {
+          "title": "古剑奇谭3",
+          "url": "https://pan.baidu.com/s/16pkDFL2iOBpfITfkxNIq1Q",
+          "icon": "img/favicon/panbaidu/favicon.ico",
+          "desc": "提取码: kys5 (激活码：258997)",
+          "proxy": false
+        },
+        {
+          "title": "哈利波特与死亡圣器(下)简体中文版",
+          "url": "https://pan.xunlei.com/s/VMgdBQ2hL3VIUuB9Z_rPIbkxA1",
+          "desc": "《哈利·波特》系列同名电影改编的动作冒险游戏。",
+          "icon": "https://pan.xunlei.com/icon.png",
+          "proxy": false
+        },
+        {
+          "title": "地下城2",
+          "url": "https://pan.baidu.com/s/1G8B7pM9j94N1m6JzJg5g3g",
+          "icon": "img/favicon/panbaidu/favicon.ico",
+          "desc": "提取码: 77a8",
+          "proxy": false
+        },
+        {
+          "title": "失落城堡",
+          "url": "https://pan.baidu.com/s/1j0m3hKzC4z28l58o0_6MUA",
+          "icon": "img/favicon/panbaidu/favicon.ico",
+          "desc": "提取码: a69g",
+          "proxy": false
+        },
+        {
+          "title": "旁观者2",
+          "url": "https://pan.baidu.com/s/1h9qT1-t-M9-9Fp49g7K7_A",
+          "icon": "img/favicon/panbaidu/favicon.ico",
+          "desc": "提取码: f173",
+          "proxy": false
+        },
+        {
+          "title": "暗黑血统：创世纪",
+          "url": "https://pan.baidu.com/s/1l88YJcW7fE-zEw4iJ8T1-w",
+          "icon": "img/favicon/panbaidu/favicon.ico",
+          "desc": "魔幻题材的动作/射击冒险游戏 提取码: qd76",
+          "proxy": false
+        },
+        {
+          "title": "暗黑血统2",
+          "url": "https://pan.baidu.com/s/1ePwyPq4gWvui73FoaID5zg",
+          "icon": "img/favicon/panbaidu/favicon.ico",
+          "desc": "提取码: 4gn3",
+          "proxy": false
+        },
+        {
+          "title": "暗黑血统战神版",
+          "url": "https://pan.baidu.com/s/1_eSw04gJYnvuKtxm0rmTSQ",
+          "icon": "img/favicon/panbaidu/favicon.ico",
+          "desc": "提取码: 9fpi",
+          "proxy": false
+        },
+        {
+          "title": "物质世界",
+          "url": "https://pan.baidu.com/s/1VME10TGBdkrd6okLIvKINQ",
+          "icon": "img/favicon/panbaidu/favicon.ico",
+          "desc": "提取码: u6dq",
+          "proxy": false
+        },
+        {
+          "title": "看火人",
+          "url": "https://pan.baidu.com/s/1K7M_pL3nB07X-L_L1zFh8g",
+          "icon": "img/favicon/panbaidu/favicon.ico",
+          "desc": "提取码: b5y4",
+          "proxy": false
+        },
+        {
+          "title": "真三国无双",
+          "url": "https://pan.baidu.com/s/1Yc5Jqz_yeEbtLrw2O8fgqQ",
+          "icon": "img/favicon/panbaidu/favicon.ico",
+          "desc": "提取码: ezpx",
+          "proxy": false
+        },
+        {
+          "title": "禁闭求生",
+          "url": "https://pan.baidu.com/s/1Tzt8pNqyLbb242dYCmoyDA",
+          "icon": "img/favicon/panbaidu/favicon.ico",
+          "desc": "提取码: i48w 激活码：918331",
+          "proxy": false
+        },
+        {
+          "title": "群星之间",
+          "url": "https://wwi.lanzoui.com/i1jQqtad9hi",
+          "desc": "动作元素的科幻策略游戏",
+          "icon": "https://assets.woozooo.com/assets/favicon.ico",
+          "proxy": false
+        },
+        {
+          "title": "胡闹搬家",
+          "url": "https://pan.baidu.com/s/172-V-uWjT6c891U2_M9dGA",
+          "icon": "img/favicon/panbaidu/favicon.ico",
+          "desc": "提取码: x4hy 激活码：965874",
+          "proxy": false
+        },
+        {
+          "title": "胡闹厨房2",
+          "url": "https://pan.baidu.com/s/1fWf-XkK8zD5B-0XwW68Xjg",
+          "icon": "img/favicon/panbaidu/favicon.ico",
+          "desc": "提取码: c2s5",
+          "proxy": false
+        },
+        {
+          "title": "艾迪芬奇的记忆",
+          "url": "https://pan.baidu.com/s/1D2Bw-sRjQf-pT5Gq2Mh23w",
+          "icon": "img/favicon/panbaidu/favicon.ico",
+          "desc": "提取码: n61j",
+          "proxy": false
+        },
+        {
+          "title": "英雄传说：闪之轨迹3",
+          "url": "https://pan.baidu.com/s/1e8zV-pU3G3qN0XqT2JzC4A",
+          "icon": "img/favicon/panbaidu/favicon.ico",
+          "desc": "提取码: v61q",
+          "proxy": false
+        },
+        {
+          "title": "英雄连2",
+          "url": "https://pan.baidu.com/s/1b4A5W0h7v0G3eXhN1vJ4wQ",
+          "icon": "img/favicon/panbaidu/favicon.ico",
+          "desc": "提取码: sdvx 激活码 654778",
+          "proxy": false
+        },
+        {
+          "title": "边境之地3",
+          "url": "https://pan.baidu.com/s/172eI_8-1Kz6U1K-I7mPzsg",
+          "icon": "img/favicon/panbaidu/favicon.ico",
+          "desc": "提取码: zq6q",
+          "proxy": false
+        },
+        {
+          "title": "重装机兵Xeno",
+          "url": "https://pan.baidu.com/s/1Qn3f1i35FmN0jX479Hk55g",
+          "icon": "img/favicon/panbaidu/favicon.ico",
+          "desc": "提取码: xt56",
+          "proxy": false
+        },
+        {
+          "title": "镇魂街：武神躯",
+          "url": "https://pan.baidu.com/s/1d0iG1FqI1484jB3L89dM7g",
+          "icon": "img/favicon/panbaidu/favicon.ico",
+          "desc": "提取码: 15u4",
+          "proxy": false
+        },
+        {
+          "title": "阿玛拉王国：惩罚重制版",
+          "url": "https://pan.baidu.com/s/1Tj72lP3pL9z3lT2I97h42Q",
+          "icon": "img/favicon/panbaidu/favicon.ico",
+          "desc": "提取码: 964675",
+          "proxy": false
+        },
+        {
+          "title": "零之曙光",
+          "url": "https://pan.baidu.com/s/1mbSSWZ1VOdPYULy72GTZ2Q",
+          "icon": "img/favicon/panbaidu/favicon.ico",
+          "desc": "提取码: 357445",
+          "proxy": false
+        },
+        {
+          "title": "鬼泣4：特别版",
+          "url": "https://pan.baidu.com/s/1YwGkR9K21Lw0Q_3q74M-iQ",
+          "icon": "img/favicon/panbaidu/favicon.ico",
+          "desc": "提取码: 6a8r",
+          "proxy": false
+        },
+        {
+          "title": "鬼泣5",
+          "url": "https://pan.baidu.com/s/1fWf-XkK8zD5B-0XwW68Xjg",
+          "icon": "img/favicon/panbaidu/favicon.ico",
+          "desc": "提取码: c2s5",
+          "proxy": false
+        },
+        {
+          "title": "鬼武者HD重制版",
+          "url": "https://pan.baidu.com/s/1u0YkF_sB1Lp_cQoI_Sg-3w",
+          "icon": "img/favicon/panbaidu/favicon.ico",
+          "desc": "提取码: 7d6c",
+          "proxy": false
+        },
+        {
+          "title": "龙之信条：黑暗觉者",
+          "url": "https://pan.baidu.com/s/1wGg-2-gS4PzW7Tz4yK4cDQ",
+          "icon": "img/favicon/panbaidu/favicon.ico",
+          "desc": "提取码: zq6k",
+          "proxy": false
+        }
+      ]
+    },
+    {
+      "categoryName": "移动应用精选",
+      "categoryId": "mobile-apps-selection",
+      "sites": [
+        {
+          "title": "开源阅读",
+          "url": "https://flowus.cn/share/cdd3abe6-25a0-468d-bd00-ba0acb46ada1?code=CZ3ECT",
+          "icon": "https://static.flowus.cn/logos/default.svg",
+          "desc": "🥇👍安卓最强小说APP，通过导入书源可阅读全网小说。",
+          "proxy": false
+        },
+        {
+          "title": "TVBox",
+          "url": "https://flowus.cn/share/aac6bf05-ae48-411f-a67c-91977658e9af?code=CZ3ECT",
+          "icon": "https://static.flowus.cn/logos/default.svg",
+          "desc": "👍开源的安卓TV盒子应用，配置接口后可观看VIP影视和电视直播。",
+          "proxy": false
+        },
+        {
+          "title": "海阔视界",
+          "url": "https://flowus.cn/share/107a313d-9396-4ebc-bb2b-6dde2547a460?code=CZ3ECT",
+          "icon": "https://static.flowus.cn/logos/default.svg",
+          "desc": "👍安卓端万能工具，通过规则可实现影视、音乐、阅读等多种功能。",
+          "proxy": false
+        },
+        {
+          "title": "异次元漫画APP+图源",
+          "url": "https://flowus.cn/share/73b97e8d-1463-4642-b9cb-a9a2a4e26874?code=CZ3ECT",
+          "icon": "https://static.flowus.cn/logos/default.svg",
+          "desc": "👍安卓端最强漫画APP，通过导入图源可看全网漫画。",
+          "proxy": false
+        },
+        {
+          "title": "李跳跳",
+          "url": "https://www.appinn.com/li-tiaotiao-for-android/",
+          "icon": "https://images3.appinn.com/wp-content/uploads/Appinn-icon-32.jpg",
+          "desc": "安卓APP，自动跳过开屏广告与青少年模式。",
+          "proxy": false
+        },
+        {
+          "title": "旧版APP",
+          "url": "https://www.yuque.com/docs/share/31bd7ab0-58c4-4ebe-9f8a-ee0507be240a",
+          "icon": "https://www.yuque.com/favicon.ico",
+          "desc": "提供寻找和下载iOS及安卓应用历史旧版本的渠道和方法。",
+          "proxy": false
+        },
+        {
+          "title": "Via浏览器",
+          "url": "https://viayoo.com/zh-cn/",
+          "icon": "https://viayoo.com/favicon.ico",
+          "desc": "轻量、快速的安卓浏览器，支持安装JS插件。",
+          "proxy": false
+        },
+        {
+          "title": "亚瑟浏览器（iOS）",
+          "url": "https://apps.apple.com/cn/app/id1551893305",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/37/b7/0f/37b70f06-d08b-4c01-7d9a-98616238b97d/AppIcon-0-0-1x_U007emarketing-0-0-0-10-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/460x0w.webp",
+          "desc": "👍（含内购）投屏+下载最强iOS浏览器。",
+          "proxy": false
+        },
+        {
+          "title": "Alook（iOS）",
+          "url": "https://alookweb.com/",
+          "icon": "https://alookweb.com/favicon.ico",
+          "desc": "iOS端广受好评的浏览器，功能强大。",
+          "proxy": false
+        },
+        {
           "title": "MX Player 破解版",
           "url": "https://www.123684.com/s/bjcA-BQHg",
           "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/a4/41/55/a44155b1-c426-38d7-fb17-dd3525287515/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/460x0w.webp",
@@ -609,68 +1573,6 @@
           "url": "https://flowus.cn/share/bafbf656-846c-4ec2-91ba-085c9dbd19cf?code=CZ3ECT",
           "icon": "https://static.flowus.cn/logos/default.svg",
           "desc": "安卓端的插件化音乐播放器，可添加各类音源。",
-          "proxy": false
-        },
-        {
-          "title": "VidJuice UniTube",
-          "url": "https://store.lizhi.io/site/products/id/454?cid=ds7afku3",
-          "icon": "https://store.lizhi.io/favicon.ico",
-          "desc": "支持1000+平台在线音视频下载工具，正版特惠仅需￥79永久！",
-          "proxy": false
-        },
-        {
-          "title": "V视频助手",
-          "url": "https://v.ranks.xin/",
-          "icon": "https://v.ranks.xin/favicon.ico",
-          "desc": "支持腾讯、秒拍、微博、今日头条、快手等多个平台的视频下载。",
-          "proxy": false
-        },
-        {
-          "title": "Parsevideo",
-          "url": "https://pv.vlogdownloader.com/",
-          "icon": "https://pv.vlogdownloader.com/assets/addons/parsevideo/img/favicon.ico",
-          "desc": "在线视频解析下载工具，支持多个国内外网站。",
-          "proxy": false
-        },
-        {
-          "title": "哔哩哔哩（B站）下载",
-          "url": "https://www.jijidown.com/",
-          "icon": "https://www.jijidown.com/static/favicon.ico",
-          "desc": "唧唧，B站视频在线解析下载工具，支持封面、弹幕等。",
-          "proxy": false
-        },
-        {
-          "title": "在线BT种子／磁力转换工具",
-          "url": "https://tools.jb51.net/aideddesign/bt2mag",
-          "icon": "https://tools.jb51.net/favicon.ico",
-          "desc": "脚本之家提供的BT种子与磁力链接互转工具。",
-          "proxy": false
-        },
-        {
-          "title": "西边云-在线磁力链接转种子",
-          "url": "http://www.xibianyun.com/convert/",
-          "icon": "https://www.xibianyun.com/favicon.ico",
-          "desc": "磁力链接在线转换为BT种子文件。",
-          "proxy": false
-        },
-        {
-          "title": "Instant.io",
-          "url": "https://instant.io/",
-          "icon": "https://instant.io/favicon.ico",
-          "desc": "在线BT客户端，可直接在网页上进行BT下载和做种。",
-          "proxy": false
-        }
-      ]
-    },
-    {
-      "categoryName": "移动应用",
-      "categoryId": "mobile-apps",
-      "sites": [
-        {
-          "title": "TVBox",
-          "url": "https://flowus.cn/share/aac6bf05-ae48-411f-a67c-91977658e9af?code=CZ3ECT",
-          "icon": "https://static.flowus.cn/logos/default.svg",
-          "desc": "👍开源的安卓TV盒子应用，配置接口后可观看VIP影视和电视直播。",
           "proxy": false
         },
         {
@@ -699,27 +1601,6 @@
           "url": "https://flowus.cn/share/fedf619c-5d3f-4499-97e1-3e8b2f728541?code=CZ3ECT",
           "icon": "https://static.flowus.cn/logos/default.svg",
           "desc": "（直播／可看港澳台）强大的IPTV客户端，导入直播源后可观看全球电视。",
-          "proxy": false
-        },
-        {
-          "title": "海阔视界",
-          "url": "https://flowus.cn/share/107a313d-9396-4ebc-bb2b-6dde2547a460?code=CZ3ECT",
-          "icon": "https://static.flowus.cn/logos/default.svg",
-          "desc": "👍安卓端万能工具，通过规则可实现影视、音乐、阅读等多种功能。",
-          "proxy": false
-        },
-        {
-          "title": "开源阅读",
-          "url": "https://flowus.cn/share/cdd3abe6-25a0-468d-bd00-ba0acb46ada1?code=CZ3ECT",
-          "icon": "https://static.flowus.cn/logos/default.svg",
-          "desc": "🥇👍安卓最强小说APP，通过导入书源可阅读全网小说。",
-          "proxy": false
-        },
-        {
-          "title": "异次元漫画APP+图源",
-          "url": "https://flowus.cn/share/73b97e8d-1463-4642-b9cb-a9a2a4e26874?code=CZ3ECT",
-          "icon": "https://static.flowus.cn/logos/default.svg",
-          "desc": "👍安卓端最强漫画APP，通过导入图源可看全网漫画。",
           "proxy": false
         },
         {
@@ -779,87 +1660,52 @@
           "proxy": false
         },
         {
-          "title": "微信聊天记录导出教程",
-          "url": "https://mp.weixin.qq.com/s/ziP-LUdbGxwiyN-lsk6HPg",
+          "title": "安卓权限管理",
+          "url": "https://www.yuque.com/docs/share/61748620-91ca-4496-88fe-636373e9f04b",
+          "icon": "https://www.yuque.com/favicon.ico",
+          "desc": "介绍安卓系统中的权限管理工具和方法，如App Ops、冰箱等。",
+          "proxy": false
+        },
+        {
+          "title": "安卓通知管理",
+          "url": "https://www.yuque.com/docs/share/f2a54a38-4bb2-4d85-a497-cc903204b9b6",
+          "icon": "https://www.yuque.com/favicon.ico",
+          "desc": "分享管理和过滤安卓系统烦人通知的技巧和应用。",
+          "proxy": false
+        },
+        {
+          "title": "Kiwi－谷歌内核",
+          "url": "https://flowus.cn/share/5c092544-0048-4283-9f8f-b8944d3a42ec?code=CZ3ECT",
+          "icon": "https://static.flowus.cn/logos/default.svg",
+          "desc": "安卓端支持Chrome扩展和PWA的浏览器。",
+          "proxy": false
+        },
+        {
+          "title": "狐猴浏览器",
+          "url": "https://lemurbrowser.com/",
+          "icon": "https://lemurbrowser.com/favicon.ico",
+          "desc": "谷歌内核，支持浏览器扩展，目前最推荐的安卓第三方浏览器。",
+          "proxy": false
+        },
+        {
+          "title": "Edge Canary（安卓）",
+          "url": "https://mp.weixin.qq.com/s/uOWkUIoUv45Yn3beZ5O8nQ",
           "icon": "https://res.wx.qq.com/a/wx_fed/assets/res/NTI4MWU5.ico",
-          "desc": "👍详细教程，教你如何备份和导出微信聊天记录。",
+          "desc": "👍安卓版Edge预览版，支持安装Chrome扩展。",
           "proxy": false
         },
         {
-          "title": "微信视频号下载",
-          "url": "https://mp.weixin.qq.com/s/Ro5AJVc2sr-wRGGgOY_wMA",
+          "title": "X浏览器",
+          "url": "https://www.xbext.com/",
+          "icon": "https://www.xbext.com/favicon.ico",
+          "desc": "极简、强大的安卓浏览器，支持安装油猴脚本。",
+          "proxy": false
+        },
+        {
+          "title": "往期公众号推荐过的软件目录 · 手机专区",
+          "url": "https://mp.weixin.qq.com/s/C6elCp_iWSjcnEu5VvRiUg",
+          "desc": "公众号推荐过的iOS软件目录合集。",
           "icon": "https://res.wx.qq.com/a/wx_fed/assets/res/NTI4MWU5.ico",
-          "desc": "多种方法教你如何下载微信视频号的视频内容。",
-          "proxy": false
-        },
-        {
-          "title": "微信／QQ防撤回方案推荐",
-          "url": "https://mp.weixin.qq.com/s/93Jhk8YUsUuE8UHbo8T7Vg",
-          "icon": "https://res.wx.qq.com/a/wx_fed/assets/res/NTI4MWU5.ico",
-          "desc": "PC和安卓端防止消息被撤回的方案。",
-          "proxy": false
-        },
-        {
-          "title": "微信留痕",
-          "url": "https://memotrace.cn/",
-          "icon": "https://memotrace.cn/favicon.ico",
-          "desc": "自动备份微信聊天记录的工具。",
-          "proxy": false
-        },
-        {
-          "title": "微备份",
-          "url": "https://url67.ctfile.com/f/14869667-1008274064-41500b?p=kyon",
-          "icon": "https://www.ctfile.com/favicon.ico",
-          "desc": "微信聊天记录备份工具。",
-          "proxy": false
-        },
-        {
-          "title": "WeChatBackupNoRoot",
-          "url": "https://github.com/ZhaoXiangLu0e/WechatBackupNoRoot",
-          "icon": "https://github.githubassets.com/favicons/favicon.svg",
-          "desc": "免Root的安卓微信聊天记录备份工具。",
-          "proxy": false
-        },
-        {
-          "title": "微拾",
-          "url": "https://url67.ctfile.com/f/14869667-1316038930-7d7ea1?p=kyon",
-          "icon": "https://www.ctfile.com/favicon.ico",
-          "desc": "微信聊天记录查看和导出工具。",
-          "proxy": false
-        },
-        {
-          "title": "微信语音助手",
-          "url": "https://url67.ctfile.com/f/14869667-1008275909-155eb9?p=kyon",
-          "icon": "https://www.ctfile.com/favicon.ico",
-          "desc": "用于导出和合并微信语音消息。",
-          "proxy": false
-        },
-        {
-          "title": "提取微信表情包",
-          "url": "https://mp.weixin.qq.com/s/hxDtsF1Hgi4jCQ_7wUHM8A",
-          "icon": "https://res.wx.qq.com/a/wx_fed/assets/res/NTI4MWU5.ico",
-          "desc": "教你如何将微信收藏的表情包导出为图片文件。",
-          "proxy": false
-        },
-        {
-          "title": "微信朋友圈采集备份工具",
-          "url": "https://mh-studio.cn/wxpyq",
-          "icon": "https://mh-studio.cn/favicon.ico",
-          "desc": "用于备份和导出微信朋友圈内容。",
-          "proxy": false
-        },
-        {
-          "title": "真实好友",
-          "url": "https://url67.ctfile.com/f/14869667-1422285157-1a73a6?p=kyon",
-          "icon": "https://www.ctfile.com/favicon.ico",
-          "desc": "微信好友无打扰检测工具。",
-          "proxy": false
-        },
-        {
-          "title": "iOS微信双开",
-          "url": "https://mp.weixin.qq.com/s/RQzL5WjDq2PTRyGjFMld-w",
-          "icon": "https://res.wx.qq.com/a/wx_fed/assets/res/NTI4MWU5.ico",
-          "desc": "介绍在iOS设备上实现微信双开的方法。",
           "proxy": false
         },
         {
@@ -895,6 +1741,20 @@
           "url": "https://chendandan.lanzoux.com/igx0Sdceczg",
           "icon": "https://assets.woozooo.com/assets/favicon.ico",
           "desc": "安卓App，可以自动跳过大多数应用的开屏广告。",
+          "proxy": false
+        },
+        {
+          "title": "i笛云听写",
+          "url": "https://www.voiceclub.cn/#/",
+          "desc": "免费、录音转文字",
+          "icon": "https://www.voiceclub.cn/favicon.ico",
+          "proxy": false
+        },
+        {
+          "title": "幻音音乐",
+          "url": "https://www.huanmusic.com/",
+          "desc": "专注于二次元、古风、电音等领域的音乐社区。",
+          "icon": "https://cloudcache.tencent-cloud.cn/qcloud/app/resource/ac/favicon.ico",
           "proxy": false
         },
         {
@@ -1052,13 +1912,6 @@
           "proxy": false
         },
         {
-          "title": "往期公众号推荐过的软件目录 · 手机专区",
-          "url": "https://mp.weixin.qq.com/s/C6elCp_iWSjcnEu5VvRiUg",
-          "desc": "公众号推荐过的iOS软件目录合集。",
-          "icon": "https://res.wx.qq.com/a/wx_fed/assets/res/NTI4MWU5.ico",
-          "proxy": false
-        },
-        {
           "title": "我的标记+工具象",
           "url": "https://mp.weixin.qq.com/s/C2x2zAwUUWQH3H9PPJN_Zg",
           "desc": "\"我的标记\"和\"工具象\"两款iOS效率工具应用。",
@@ -1119,83 +1972,6 @@
           "url": "https://mp.weixin.qq.com/s/FqIZue0CImRxLOeXhcvaag",
           "desc": "一款可在iOS桌面养虚拟宠物的趣味应用。",
           "icon": "https://res.wx.qq.com/a/wx_fed/assets/res/NTI4MWU5.ico",
-          "proxy": false
-        },
-        {
-          "title": "李跳跳",
-          "url": "https://www.appinn.com/li-tiaotiao-for-android/",
-          "icon": "https://images3.appinn.com/wp-content/uploads/Appinn-icon-32.jpg",
-          "desc": "安卓APP，自动跳过开屏广告与青少年模式。",
-          "proxy": false
-        },
-        {
-          "title": "安卓权限管理",
-          "url": "https://www.yuque.com/docs/share/61748620-91ca-4496-88fe-636373e9f04b",
-          "icon": "https://www.yuque.com/favicon.ico",
-          "desc": "介绍安卓系统中的权限管理工具和方法，如App Ops、冰箱等。",
-          "proxy": false
-        },
-        {
-          "title": "安卓通知管理",
-          "url": "https://www.yuque.com/docs/share/f2a54a38-4bb2-4d85-a497-cc903204b9b6",
-          "icon": "https://www.yuque.com/favicon.ico",
-          "desc": "分享管理和过滤安卓系统烦人通知的技巧和应用。",
-          "proxy": false
-        },
-        {
-          "title": "旧版APP",
-          "url": "https://www.yuque.com/docs/share/31bd7ab0-58c4-4ebe-9f8a-ee0507be240a",
-          "icon": "https://www.yuque.com/favicon.ico",
-          "desc": "提供寻找和下载iOS及安卓应用历史旧版本的渠道和方法。",
-          "proxy": false
-        },
-        {
-          "title": "1DM 破解版",
-          "url": "https://yxssp.lanzoui.com/b478866/",
-          "icon": "https://yxssp.lanzoui.com/favicon.ico",
-          "desc": "安卓端强大的多线程下载工具。",
-          "proxy": false
-        },
-        {
-          "title": "Kiwi－谷歌内核",
-          "url": "https://flowus.cn/share/5c092544-0048-4283-9f8f-b8944d3a42ec?code=CZ3ECT",
-          "icon": "https://static.flowus.cn/logos/default.svg",
-          "desc": "安卓端支持Chrome扩展和PWA的浏览器。",
-          "proxy": false
-        },
-        {
-          "title": "狐猴浏览器",
-          "url": "https://lemurbrowser.com/",
-          "icon": "https://lemurbrowser.com/favicon.ico",
-          "desc": "谷歌内核，支持浏览器扩展，目前最推荐的安卓第三方浏览器。",
-          "proxy": false
-        },
-        {
-          "title": "Edge Canary（安卓）",
-          "url": "https://mp.weixin.qq.com/s/uOWkUIoUv45Yn3beZ5O8nQ",
-          "icon": "https://res.wx.qq.com/a/wx_fed/assets/res/NTI4MWU5.ico",
-          "desc": "👍安卓版Edge预览版，支持安装Chrome扩展。",
-          "proxy": false
-        },
-        {
-          "title": "X浏览器",
-          "url": "https://www.xbext.com/",
-          "icon": "https://www.xbext.com/favicon.ico",
-          "desc": "极简、强大的安卓浏览器，支持安装油猴脚本。",
-          "proxy": false
-        },
-        {
-          "title": "亚瑟浏览器（iOS）",
-          "url": "https://apps.apple.com/cn/app/id1551893305",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/37/b7/0f/37b70f06-d08b-4c01-7d9a-98616238b97d/AppIcon-0-0-1x_U007emarketing-0-0-0-10-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/460x0w.webp",
-          "desc": "👍（含内购）投屏+下载最强iOS浏览器。",
-          "proxy": false
-        },
-        {
-          "title": "Alook（iOS）",
-          "url": "https://alookweb.com/",
-          "icon": "https://alookweb.com/favicon.ico",
-          "desc": "iOS端广受好评的浏览器，功能强大。",
           "proxy": false
         },
         {
@@ -1287,13 +2063,6 @@
           "url": "https://wwi.lanzoui.com/iwKrDorddah",
           "desc": "高级版PDF阅读和标注工具。",
           "icon": "https://assets.woozooo.com/assets/favicon.ico",
-          "proxy": false
-        },
-        {
-          "title": "i笛云听写",
-          "url": "https://www.voiceclub.cn/#/",
-          "desc": "免费、录音转文字",
-          "icon": "https://www.voiceclub.cn/favicon.ico",
           "proxy": false
         },
         {
@@ -2858,13 +3627,6 @@
           "proxy": false
         },
         {
-          "title": "幻音音乐",
-          "url": "https://www.huanmusic.com/",
-          "desc": "专注于二次元、古风、电音等领域的音乐社区。",
-          "icon": "https://cloudcache.tencent-cloud.cn/qcloud/app/resource/ac/favicon.ico",
-          "proxy": false
-        },
-        {
           "title": "放松，只是水",
           "url": "https://wwi.lanzoui.com/iHddsordboj",
           "desc": "一款提供水声白噪音以帮助放松和睡眠的应用。",
@@ -3084,85 +3846,148 @@
       ]
     },
     {
-      "categoryName": "游戏与模拟器",
-      "categoryId": "games-emulators",
+      "categoryName": "社交与通讯辅助",
+      "categoryId": "social-communication-helpers",
       "sites": [
         {
-          "title": "3DM游戏网",
-          "url": "https://dl.3dmgame.com/",
-          "icon": "https://icon.horse/icon/3dmgame.com",
-          "desc": "国内老牌的单机游戏门户网站，提供游戏资讯、攻略和资源下载。",
+          "title": "微信/QQ/TIM防撤回补丁",
+          "url": "https://github.com/huiyadanli/RevokeMsgPatcher",
+          "icon": "https://github.githubassets.com/favicons/favicon.svg",
+          "desc": "开源的微信/QQ/TIM防撤回+多开补丁。",
           "proxy": false
         },
         {
-          "title": "游侠网",
-          "url": "https://down.ali213.net/pcgame/",
-          "icon": "https://icon.horse/icon/ali213.net",
-          "desc": "国内知名的单机游戏网站，提供丰富的游戏资源、MOD和汉化补丁。",
+          "title": "vposy微博",
+          "url": "https://weibo.com/vposy",
+          "icon": "https://weibo.com/favicon.ico",
+          "desc": "微博大神vposy，分享Adobe全系列软件。",
           "proxy": false
         },
         {
-          "title": "TapTap",
-          "url": "https://www.taptap.com/",
-          "icon": "https://icon.horse/icon/taptap.com",
-          "desc": "发现好游戏，一个高质量的手机游戏分享社区。",
+          "title": "微信聊天记录导出教程",
+          "url": "https://mp.weixin.qq.com/s/ziP-LUdbGxwiyN-lsk6HPg",
+          "icon": "https://res.wx.qq.com/a/wx_fed/assets/res/NTI4MWU5.ico",
+          "desc": "👍详细教程，教你如何备份和导出微信聊天记录。",
           "proxy": false
         },
         {
-          "title": "叽哩叽哩单机游戏",
-          "url": "https://www.jiligamefun.com/category/game/jiligame",
-          "icon": "https://www.jiligamefun.com/wp-content/uploads/2019/03/3d4ea83dd5ffcf185b6cf70ef6ff4fab-32x32.png",
-          "desc": "提供PC单机游戏下载。",
+          "title": "微信视频号下载",
+          "url": "https://mp.weixin.qq.com/s/Ro5AJVc2sr-wRGGgOY_wMA",
+          "icon": "https://res.wx.qq.com/a/wx_fed/assets/res/NTI4MWU5.ico",
+          "desc": "多种方法教你如何下载微信视频号的视频内容。",
           "proxy": false
         },
         {
-          "title": "Git游戏",
-          "url": "https://www.gityx.com/",
-          "icon": "https://gityx.com/favicon.ico",
-          "desc": "提供汉化版游戏下载。",
+          "title": "微信／QQ防撤回方案推荐",
+          "url": "https://mp.weixin.qq.com/s/93Jhk8YUsUuE8UHbo8T7Vg",
+          "icon": "https://res.wx.qq.com/a/wx_fed/assets/res/NTI4MWU5.ico",
+          "desc": "PC和安卓端防止消息被撤回的方案。",
           "proxy": false
         },
         {
-          "title": "老男人游戏网",
-          "url": "https://www.oldmanemu.net/",
-          "icon": "https://www.oldmanemu.net/favicon.ico",
-          "desc": "提供海量掌机和家用机模拟器游戏ROM下载。",
+          "title": "公众号下载",
+          "url": "https://www.yuque.com/docs/share/24af1740-d97c-4ad1-a3be-9bfe65d32e05",
+          "icon": "https://www.yuque.com/favicon.ico",
+          "desc": "分享工具用于批量下载微信公众号的文章、图片和视频。",
           "proxy": false
         },
         {
-          "title": "Yuzu模拟器",
-          "url": "https://pan.baidu.com/s/12y-Cac79Kldd8vnexfWV5g",
-          "icon": "img/favicon/panbaidu/favicon.ico",
-          "desc": "提取码: jspf",
+          "title": "QQ相册",
+          "url": "https://www.yuque.com/docs/share/2d592174-c15c-49f2-91b4-16e9a3ec2193",
+          "icon": "https://www.yuque.com/favicon.ico",
+          "desc": "分享批量下载和备份QQ空间相册的工具和脚本。",
           "proxy": false
         },
         {
-          "title": "Ryujinx模拟器",
-          "url": "https://pan.baidu.com/s/1PB0Yea9y471A_g7tQi4gHg",
-          "icon": "img/favicon/panbaidu/favicon.ico",
-          "desc": "提取码: uifi",
+          "title": "微信留痕",
+          "url": "https://memotrace.cn/",
+          "icon": "https://memotrace.cn/favicon.ico",
+          "desc": "自动备份微信聊天记录的工具。",
           "proxy": false
         },
         {
-          "title": "蓝叠安卓模拟器",
-          "url": "https://www.52pojie.cn/forum.php?mod=viewthread&tid=1567094&highlight=����",
-          "icon": "https://www.52pojie.cn/favicon.ico",
-          "desc": "市面上兼容性最好的安卓模拟器之一",
+          "title": "微备份",
+          "url": "https://url67.ctfile.com/f/14869667-1008274064-41500b?p=kyon",
+          "icon": "https://www.ctfile.com/favicon.ico",
+          "desc": "微信聊天记录备份工具。",
           "proxy": false
         },
         {
-          "title": "逍遥安卓模拟器",
-          "url": "https://pan.baidu.com/s/1RU6oMskoDM4ZaXp4RYEagw",
-          "icon": "img/favicon/panbaidu/favicon.ico",
-          "desc": "绿色无广告7.5.0版本",
+          "title": "WeChatBackupNoRoot",
+          "url": "https://github.com/ZhaoXiangLu0e/WechatBackupNoRoot",
+          "icon": "https://github.githubassets.com/favicons/favicon.svg",
+          "desc": "免Root的安卓微信聊天记录备份工具。",
+          "proxy": false
+        },
+        {
+          "title": "微拾",
+          "url": "https://url67.ctfile.com/f/14869667-1316038930-7d7ea1?p=kyon",
+          "icon": "https://www.ctfile.com/favicon.ico",
+          "desc": "微信聊天记录查看和导出工具。",
+          "proxy": false
+        },
+        {
+          "title": "微信语音助手",
+          "url": "https://url67.ctfile.com/f/14869667-1008275909-155eb9?p=kyon",
+          "icon": "https://www.ctfile.com/favicon.ico",
+          "desc": "用于导出和合并微信语音消息。",
+          "proxy": false
+        },
+        {
+          "title": "提取微信表情包",
+          "url": "https://mp.weixin.qq.com/s/hxDtsF1Hgi4jCQ_7wUHM8A",
+          "icon": "https://res.wx.qq.com/a/wx_fed/assets/res/NTI4MWU5.ico",
+          "desc": "教你如何将微信收藏的表情包导出为图片文件。",
+          "proxy": false
+        },
+        {
+          "title": "微信朋友圈采集备份工具",
+          "url": "https://mh-studio.cn/wxpyq",
+          "icon": "https://mh-studio.cn/favicon.ico",
+          "desc": "用于备份和导出微信朋友圈内容。",
+          "proxy": false
+        },
+        {
+          "title": "真实好友",
+          "url": "https://url67.ctfile.com/f/14869667-1422285157-1a73a6?p=kyon",
+          "icon": "https://www.ctfile.com/favicon.ico",
+          "desc": "微信好友无打扰检测工具。",
+          "proxy": false
+        },
+        {
+          "title": "iOS微信双开",
+          "url": "https://mp.weixin.qq.com/s/RQzL5WjDq2PTRyGjFMld-w",
+          "icon": "https://res.wx.qq.com/a/wx_fed/assets/res/NTI4MWU5.ico",
+          "desc": "介绍在iOS设备上实现微信双开的方法。",
           "proxy": false
         }
       ]
     },
     {
-      "categoryName": "开发相关",
-      "categoryId": "development",
+      "categoryName": "开发与在线工具",
+      "categoryId": "developer-online-tools",
       "sites": [
+        {
+          "title": "菜鸟工具",
+          "url": "https://c.runoob.com/",
+          "icon": "https://icon.horse/icon/runoob.com",
+          "desc": "菜鸟教程出品的在线工具箱，包含各种开发和常用工具。",
+          "proxy": false
+        },
+        {
+          "title": "MSDN, I tell you",
+          "url": "https://next.itellyou.cn/",
+          "icon": "https://next.itellyou.cn/favicon.ico",
+          "desc": "原版Windows和Office等微软系软件镜像下载站。",
+          "proxy": false
+        },
+        {
+          "title": "精准云",
+          "url": "https://jingzhunyun.com/",
+          "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAIAAACQd1PeAAAADElEQVQI12P4//8/AAX+Av7czFnnAAAAAElFTkSuQmCC",
+          "desc": "好用的在线工具集合",
+          "proxy": false
+        },
         {
           "title": "MATLAB",
           "url": "https://share.weiyun.com/9cLyaJ90",
@@ -3171,812 +3996,17 @@
           "proxy": false
         },
         {
-          "title": "Easyfind汉化包",
-          "url": "https://www.yuque.com/docs/share/f83f7bb8-0ada-4a5d-ab41-93093a37794c",
+          "title": "WiFi",
+          "url": "https://www.yuque.com/docs/share/5a9b70f9-d977-457a-8ec8-d46d36a734f9",
           "icon": "https://www.yuque.com/favicon.ico",
-          "desc": "提供macOS上文件搜索工具Easyfind的汉化补丁。",
+          "desc": "介绍查看已连接WiFi密码和进行WiFi网络分析的工具。",
           "proxy": false
         },
         {
-          "title": "单文件制作程序",
-          "url": "https://www.yuque.com/docs/share/895fe50e-0834-4c41-b68a-c085d3792f0f",
+          "title": "动态二维码（部分已失效，待更新）",
+          "url": "https://www.yuque.com/docs/share/c7241752-2bcd-48bf-b6e4-85b18b1f0fce",
           "icon": "https://www.yuque.com/favicon.ico",
-          "desc": "介绍如何将一个程序及其依赖文件打包成单个可执行文件的工具，如Cameyo。",
-          "proxy": false
-        }
-      ]
-    },
-    {
-      "categoryName": "游戏资源",
-      "categoryId": "game-resources",
-      "sites": [
-        {
-          "title": "诸神将陨",
-          "url": "https://pan.baidu.com/s/1uovlSkUlvLaN4Ku0PFJGBQ#list/path=/",
-          "icon": "img/favicon/panbaidu/favicon.ico",
-          "desc": "免安装绿色中文版",
-          "proxy": false
-        },
-        {
-          "title": "20款街机游戏",
-          "url": "https://pan.baidu.com/s/1QPdG2oJXuQ8chX1zNIfR5A",
-          "icon": "img/favicon/panbaidu/favicon.ico",
-          "desc": "提取码: q5g1",
-          "proxy": false
-        },
-        {
-          "title": "PC移植游戏",
-          "url": "https://pan.baidu.com/s/1EX4BvH98gjBpEkEvOMgj3w",
-          "icon": "img/favicon/panbaidu/favicon.ico",
-          "desc": "（不兼容安卓10系统，尤其是华为的） 提取码: ck8z",
-          "proxy": false
-        },
-        {
-          "title": "10款战旗类游戏",
-          "url": "https://pan.baidu.com/s/1bM9e-yaTE1Diqx79wshEOw",
-          "icon": "img/favicon/panbaidu/favicon.ico",
-          "desc": "提取码: kyqu",
-          "proxy": false
-        },
-        {
-          "title": "15款回合制游戏",
-          "url": "https://pan.baidu.com/s/1Egn4v7DC7Ttr6VwWU9SNGw",
-          "icon": "img/favicon/panbaidu/favicon.ico",
-          "desc": "提取码: 8ewz",
-          "proxy": false
-        },
-        {
-          "title": "26款策略塔防类游戏",
-          "url": "https://pan.baidu.com/s/1Nt3xvw25F8gX9bHUuHGg-w",
-          "icon": "img/favicon/panbaidu/favicon.ico",
-          "desc": "提取码: g1jt",
-          "proxy": false
-        },
-        {
-          "title": "17款即时角色类",
-          "url": "https://pan.baidu.com/s/1KA8lGZKN45VAKpbLRtyhBA",
-          "icon": "img/favicon/panbaidu/favicon.ico",
-          "desc": "提取码: zrj7",
-          "proxy": false
-        },
-        {
-          "title": "16款 卡牌类游戏",
-          "url": "https://pan.baidu.com/s/1apKYaxod4YUDvtniYZNN1g",
-          "icon": "img/favicon/panbaidu/favicon.ico",
-          "desc": "提取码: v7qe",
-          "proxy": false
-        },
-        {
-          "title": "22款 经营策略 游戏",
-          "url": "https://pan.baidu.com/s/1C7hqUlZ70CRVUE01AcZyvw",
-          "icon": "img/favicon/panbaidu/favicon.ico",
-          "desc": "提取码: i4k4",
-          "proxy": false
-        },
-        {
-          "title": "22款解谜益智类",
-          "url": "https://pan.baidu.com/s/1K7NGAEq58QnUKvt0hVZUlQ",
-          "icon": "img/favicon/panbaidu/favicon.ico",
-          "desc": "提取码: xdzy",
-          "proxy": false
-        },
-        {
-          "title": "41款 射击类游戏合集",
-          "url": "https://pan.baidu.com/s/16Atf30q5ry4afLaB7ymweQ",
-          "icon": "img/favicon/panbaidu/favicon.ico",
-          "desc": "提取码: w83r",
-          "proxy": false
-        },
-        {
-          "title": "NBA 2K20无条件试用金币",
-          "url": "https://pan.baidu.com/s/15IRjh-DavpMWUpXwUBqMqw",
-          "icon": "img/favicon/panbaidu/favicon.ico",
-          "desc": "提取码: nxc2",
-          "proxy": false
-        },
-        {
-          "title": "梦幻足球联盟2021内置菜单",
-          "url": "https://pan.baidu.com/s/1nWPyCJDd65IiL18VIgaFGQ",
-          "icon": "img/favicon/panbaidu/favicon.ico",
-          "desc": "提取码: adv9",
-          "proxy": false
-        },
-        {
-          "title": "smash club功夫大乱斗",
-          "url": "https://pan.baidu.com/s/1_QXBSAZlaJSL7bQZAx1njQ",
-          "icon": "img/favicon/panbaidu/favicon.ico",
-          "desc": "提取码: 8sun",
-          "proxy": false
-        },
-        {
-          "title": "马里奥赛车8",
-          "url": "https://pan.baidu.com/s/1OHew4U2U0Ee2aP5wCIStyw",
-          "icon": "img/favicon/panbaidu/favicon.ico",
-          "desc": "提取码: a57k",
-          "proxy": false
-        },
-        {
-          "title": "马力奥疯兔：王国之战",
-          "url": "https://pan.baidu.com/s/1uNVpXe3e5Lv6Omss-6obUg",
-          "icon": "img/favicon/panbaidu/favicon.ico",
-          "desc": "提取码: fc57",
-          "proxy": false
-        },
-        {
-          "title": "塞尔达传说：荒野之息",
-          "url": "https://pan.baidu.com/s/1s6Lhe6-hQSisdEioSBitOw",
-          "icon": "img/favicon/panbaidu/favicon.ico",
-          "desc": "模拟器版 提取码: 5j9t",
-          "proxy": false
-        },
-        {
-          "title": "怪物猎人崛起",
-          "url": "https://pan.baidu.com/s/1j3awq3XLV9vbgAZVSRGLug",
-          "icon": "img/favicon/panbaidu/favicon.ico",
-          "desc": "提取码: vnja",
-          "proxy": false
-        },
-        {
-          "title": "三位一体4：梦魇王子",
-          "url": "https://pan.baidu.com/s/1FYDLnj4VUpwmBY5tgfS8Fw",
-          "icon": "img/favicon/panbaidu/favicon.ico",
-          "desc": "激活码：2879663",
-          "proxy": false
-        },
-        {
-          "title": "冰汽时代：帝国的边界",
-          "url": "https://pan.baidu.com/s/1d0H5l6f4G9uH9y7eT6829w",
-          "icon": "img/favicon/panbaidu/favicon.ico",
-          "desc": "提取码: r2c4",
-          "proxy": false
-        },
-        {
-          "title": "分手装修",
-          "url": "https://pan.baidu.com/s/18W935oH5wY4Jj1B8N44R2w",
-          "icon": "img/favicon/panbaidu/favicon.ico",
-          "desc": "提取码: s31a",
-          "proxy": false
-        },
-        {
-          "title": "刺客信条：大革命",
-          "url": "https://pan.baidu.com/s/172k07M3w0-w2JpC1T5XjUQ",
-          "icon": "img/favicon/panbaidu/favicon.ico",
-          "desc": "提取码: 494z",
-          "proxy": false
-        },
-        {
-          "title": "动物园之星",
-          "url": "https://wwi.lanzoui.com/iVyyek7fe4f",
-          "desc": "由《过山车之星》团队打造的终极动物园模拟游戏。",
-          "icon": "https://assets.woozooo.com/assets/favicon.ico",
-          "proxy": false
-        },
-        {
-          "title": "古剑奇谭1",
-          "url": "https://pan.baidu.com/s/1Ih07ePRFkW7gstZ4GKzkVg",
-          "icon": "img/favicon/panbaidu/favicon.ico",
-          "desc": "提取码: in2s",
-          "proxy": false
-        },
-        {
-          "title": "古剑奇谭2",
-          "url": "https://pan.baidu.com/s/1TzsmnfJ-ZOvWUX_e05f9qA",
-          "icon": "img/favicon/panbaidu/favicon.ico",
-          "desc": "提取码: 3y4v",
-          "proxy": false
-        },
-        {
-          "title": "古剑奇谭3",
-          "url": "https://pan.baidu.com/s/16pkDFL2iOBpfITfkxNIq1Q",
-          "icon": "img/favicon/panbaidu/favicon.ico",
-          "desc": "提取码: kys5 (激活码：258997)",
-          "proxy": false
-        },
-        {
-          "title": "哈利波特与死亡圣器(下)简体中文版",
-          "url": "https://pan.xunlei.com/s/VMgdBQ2hL3VIUuB9Z_rPIbkxA1",
-          "desc": "《哈利·波特》系列同名电影改编的动作冒险游戏。",
-          "icon": "https://pan.xunlei.com/icon.png",
-          "proxy": false
-        },
-        {
-          "title": "地下城2",
-          "url": "https://pan.baidu.com/s/1G8B7pM9j94N1m6JzJg5g3g",
-          "icon": "img/favicon/panbaidu/favicon.ico",
-          "desc": "提取码: 77a8",
-          "proxy": false
-        },
-        {
-          "title": "失落城堡",
-          "url": "https://pan.baidu.com/s/1j0m3hKzC4z28l58o0_6MUA",
-          "icon": "img/favicon/panbaidu/favicon.ico",
-          "desc": "提取码: a69g",
-          "proxy": false
-        },
-        {
-          "title": "旁观者2",
-          "url": "https://pan.baidu.com/s/1h9qT1-t-M9-9Fp49g7K7_A",
-          "icon": "img/favicon/panbaidu/favicon.ico",
-          "desc": "提取码: f173",
-          "proxy": false
-        },
-        {
-          "title": "暗黑血统：创世纪",
-          "url": "https://pan.baidu.com/s/1l88YJcW7fE-zEw4iJ8T1-w",
-          "icon": "img/favicon/panbaidu/favicon.ico",
-          "desc": "魔幻题材的动作/射击冒险游戏 提取码: qd76",
-          "proxy": false
-        },
-        {
-          "title": "暗黑血统2",
-          "url": "https://pan.baidu.com/s/1ePwyPq4gWvui73FoaID5zg",
-          "icon": "img/favicon/panbaidu/favicon.ico",
-          "desc": "提取码: 4gn3",
-          "proxy": false
-        },
-        {
-          "title": "暗黑血统战神版",
-          "url": "https://pan.baidu.com/s/1_eSw04gJYnvuKtxm0rmTSQ",
-          "icon": "img/favicon/panbaidu/favicon.ico",
-          "desc": "提取码: 9fpi",
-          "proxy": false
-        },
-        {
-          "title": "物质世界",
-          "url": "https://pan.baidu.com/s/1VME10TGBdkrd6okLIvKINQ",
-          "icon": "img/favicon/panbaidu/favicon.ico",
-          "desc": "提取码: u6dq",
-          "proxy": false
-        },
-        {
-          "title": "看火人",
-          "url": "https://pan.baidu.com/s/1K7M_pL3nB07X-L_L1zFh8g",
-          "icon": "img/favicon/panbaidu/favicon.ico",
-          "desc": "提取码: b5y4",
-          "proxy": false
-        },
-        {
-          "title": "真三国无双",
-          "url": "https://pan.baidu.com/s/1Yc5Jqz_yeEbtLrw2O8fgqQ",
-          "icon": "img/favicon/panbaidu/favicon.ico",
-          "desc": "提取码: ezpx",
-          "proxy": false
-        },
-        {
-          "title": "禁闭求生",
-          "url": "https://pan.baidu.com/s/1Tzt8pNqyLbb242dYCmoyDA",
-          "icon": "img/favicon/panbaidu/favicon.ico",
-          "desc": "提取码: i48w 激活码：918331",
-          "proxy": false
-        },
-        {
-          "title": "群星之间",
-          "url": "https://wwi.lanzoui.com/i1jQqtad9hi",
-          "desc": "动作元素的科幻策略游戏",
-          "icon": "https://assets.woozooo.com/assets/favicon.ico",
-          "proxy": false
-        },
-        {
-          "title": "胡闹搬家",
-          "url": "https://pan.baidu.com/s/172-V-uWjT6c891U2_M9dGA",
-          "icon": "img/favicon/panbaidu/favicon.ico",
-          "desc": "提取码: x4hy 激活码：965874",
-          "proxy": false
-        },
-        {
-          "title": "胡闹厨房2",
-          "url": "https://pan.baidu.com/s/1fWf-XkK8zD5B-0XwW68Xjg",
-          "icon": "img/favicon/panbaidu/favicon.ico",
-          "desc": "提取码: c2s5",
-          "proxy": false
-        },
-        {
-          "title": "艾迪芬奇的记忆",
-          "url": "https://pan.baidu.com/s/1D2Bw-sRjQf-pT5Gq2Mh23w",
-          "icon": "img/favicon/panbaidu/favicon.ico",
-          "desc": "提取码: n61j",
-          "proxy": false
-        },
-        {
-          "title": "英雄传说：闪之轨迹3",
-          "url": "https://pan.baidu.com/s/1e8zV-pU3G3qN0XqT2JzC4A",
-          "icon": "img/favicon/panbaidu/favicon.ico",
-          "desc": "提取码: v61q",
-          "proxy": false
-        },
-        {
-          "title": "英雄连2",
-          "url": "https://pan.baidu.com/s/1b4A5W0h7v0G3eXhN1vJ4wQ",
-          "icon": "img/favicon/panbaidu/favicon.ico",
-          "desc": "提取码: sdvx 激活码 654778",
-          "proxy": false
-        },
-        {
-          "title": "边境之地3",
-          "url": "https://pan.baidu.com/s/172eI_8-1Kz6U1K-I7mPzsg",
-          "icon": "img/favicon/panbaidu/favicon.ico",
-          "desc": "提取码: zq6q",
-          "proxy": false
-        },
-        {
-          "title": "重装机兵Xeno",
-          "url": "https://pan.baidu.com/s/1Qn3f1i35FmN0jX479Hk55g",
-          "icon": "img/favicon/panbaidu/favicon.ico",
-          "desc": "提取码: xt56",
-          "proxy": false
-        },
-        {
-          "title": "镇魂街：武神躯",
-          "url": "https://pan.baidu.com/s/1d0iG1FqI1484jB3L89dM7g",
-          "icon": "img/favicon/panbaidu/favicon.ico",
-          "desc": "提取码: 15u4",
-          "proxy": false
-        },
-        {
-          "title": "阿玛拉王国：惩罚重制版",
-          "url": "https://pan.baidu.com/s/1Tj72lP3pL9z3lT2I97h42Q",
-          "icon": "img/favicon/panbaidu/favicon.ico",
-          "desc": "提取码: 964675",
-          "proxy": false
-        },
-        {
-          "title": "零之曙光",
-          "url": "https://pan.baidu.com/s/1mbSSWZ1VOdPYULy72GTZ2Q",
-          "icon": "img/favicon/panbaidu/favicon.ico",
-          "desc": "提取码: 357445",
-          "proxy": false
-        },
-        {
-          "title": "鬼泣4：特别版",
-          "url": "https://pan.baidu.com/s/1YwGkR9K21Lw0Q_3q74M-iQ",
-          "icon": "img/favicon/panbaidu/favicon.ico",
-          "desc": "提取码: 6a8r",
-          "proxy": false
-        },
-        {
-          "title": "鬼泣5",
-          "url": "https://pan.baidu.com/s/1fWf-XkK8zD5B-0XwW68Xjg",
-          "icon": "img/favicon/panbaidu/favicon.ico",
-          "desc": "提取码: c2s5",
-          "proxy": false
-        },
-        {
-          "title": "鬼武者HD重制版",
-          "url": "https://pan.baidu.com/s/1u0YkF_sB1Lp_cQoI_Sg-3w",
-          "icon": "img/favicon/panbaidu/favicon.ico",
-          "desc": "提取码: 7d6c",
-          "proxy": false
-        },
-        {
-          "title": "龙之信条：黑暗觉者",
-          "url": "https://pan.baidu.com/s/1wGg-2-gS4PzW7Tz4yK4cDQ",
-          "icon": "img/favicon/panbaidu/favicon.ico",
-          "desc": "提取码: zq6k",
-          "proxy": false
-        },
-        {
-          "title": "Steam",
-          "url": "https://www.steampowered.com/",
-          "icon": "https://www.steampowered.com/favicon.ico",
-          "desc": "全球最大的PC游戏平台，很多Mac端游戏在此发布。",
-          "proxy": true
-        }
-      ]
-    },
-    {
-      "categoryName": "软件资源站",
-      "categoryId": "software-hubs",
-      "sites": [
-        {
-          "title": "吾爱破解",
-          "url": "https://www.52pojie.cn/",
-          "icon": "https://icon.horse/icon/52pojie.cn",
-          "desc": "国内知名的安全技术交流论坛，分享各类软件、逆向工程及安全知识。",
-          "proxy": false
-        },
-        {
-          "title": "423down",
-          "url": "https://www.423down.com/",
-          "icon": "https://icon.horse/icon/423down.com",
-          "desc": "专注分享绿色、便携、优质的 Windows 软件资源。",
-          "proxy": false
-        },
-        {
-          "title": "懒得勤快",
-          "url": "https://ldqk.org/",
-          "icon": "https://icon.horse/icon/ldqk.org",
-          "desc": "分享各类实用工具、绿色软件和网络资源的博客站点。",
-          "proxy": false
-        },
-        {
-          "title": "果核剥壳",
-          "url": "https://www.ghpym.com/",
-          "icon": "https://icon.horse/icon/ghpym.com",
-          "desc": "提供各类电脑软件、安卓应用和教程的资源分享网站。",
-          "proxy": false
-        },
-        {
-          "title": "异次元软件世界",
-          "url": "https://www.iplaysoft.com/",
-          "icon": "https://icon.horse/icon/iplaysoft.com",
-          "desc": "“爱免费，爱软件”，分享有趣、实用、免费的软件和网络服务。",
-          "proxy": false
-        },
-        {
-          "title": "大眼仔旭",
-          "url": "https://www.dayanzai.me/",
-          "icon": "https://icon.horse/icon/dayanzai.me",
-          "desc": "分享免费、优秀、实用的 Windows、Android 软件资源。",
-          "proxy": false
-        },
-        {
-          "title": "lrepacks",
-          "url": "https://lrepacks.ru/",
-          "icon": "https://icon.horse/icon/lrepacks.ru",
-          "desc": "俄罗斯著名的软件“重新包装”网站，提供大量绿色便携版软件。",
-          "proxy": true
-        },
-        {
-          "title": "软件商店",
-          "url": "https://www.yuque.com/docs/share/67c3fa71-3ce0-4a4e-a577-0e2c16b1fdb2",
-          "icon": "https://www.yuque.com/favicon.ico",
-          "desc": "推荐一些优质的第三方软件商店和软件发现平台。",
-          "proxy": false
-        },
-        {
-          "title": "REPACK",
-          "url": "https://lrepacks.net/",
-          "icon": "https://lrepacks.net/templates/biz-ideas/images/favicon-32x32.png",
-          "desc": "俄罗斯的破解软件（Repack）分享站。",
-          "proxy": true
-        },
-        {
-          "title": "Get Into PC",
-          "url": "https://igetintopc.com/",
-          "icon": "https://igetintopc.com/wp-content/themes/mystique/favicon.ico",
-          "desc": "提供各类PC破解软件的直链下载。",
-          "proxy": false
-        },
-        {
-          "title": "Mobilism",
-          "url": "https://forum.mobilism.org/viewforum.php?f=399",
-          "icon": "https://forum.mobilism.org/favicon.ico",
-          "desc": "国外知名的综合性破解资源论坛，资源非常全。",
-          "proxy": true
-        },
-        {
-          "title": "NSANE FORUMS",
-          "url": "https://nsaneforums.com/forum/48-software-updates/",
-          "icon": "https://nsaneforums.com/uploads/monthly_2021_08/android-chrome-36x36.png",
-          "desc": "一个关注软件更新和破解的论坛。",
-          "proxy": false
-        },
-        {
-          "title": "Taiwebs.com",
-          "url": "https://en.taiwebs.com/",
-          "icon": "https://taiwebs.com/images/favico/faviconT.ico",
-          "desc": "提供谷歌网盘和直链下载的破解软件站。",
-          "proxy": false
-        },
-        {
-          "title": "0DayDown",
-          "url": "https://www.0daydown.com/",
-          "icon": "https://www.0daydown.com/favicon.ico",
-          "desc": "0day资源站，提供国外收费网盘和部分国内网盘下载，有VIP会员制。",
-          "proxy": false
-        },
-        {
-          "title": "亿破姐",
-          "url": "https://www.ypojie.com/",
-          "icon": "https://www.ypojie.com/favicon.ico",
-          "desc": "知名的软件破解和资源分享站，提供城通网盘，关注公众号可获得百度云下载。",
-          "proxy": false
-        },
-        {
-          "title": "mefcl'blog",
-          "url": "https://www.mefcl.com/",
-          "icon": "https://www.mefcl.com/favicon.ico",
-          "desc": "分享各类软件资源，提供多种网盘下载方式。",
-          "proxy": false
-        },
-        {
-          "title": "异星软件空间",
-          "url": "https://www.yxssp.com/",
-          "icon": "https://www.yxssp.com/wp-content/uploads/2017/12/yx250.png",
-          "desc": "分享绿色和破解软件，提供百度＋蓝奏云＋城通下载。",
-          "proxy": false
-        },
-        {
-          "title": "佛系软件",
-          "url": "https://foxirj.com/",
-          "icon": "https://foxirj.com/favicon.ico",
-          "desc": "分享破解和绿色软件，提供Onedrive下载。",
-          "proxy": false
-        },
-        {
-          "title": "腾龙工作室",
-          "url": "https://www.tenlonstudio.com/",
-          "icon": "https://www.tenlonstudio.com/wp-content/uploads/2019/09/new-logo.png",
-          "desc": "分享破解和绿色软件，提供百度云＋自建腾龙云盘下载。",
-          "proxy": false
-        },
-        {
-          "title": "盒子部落",
-          "url": "https://www.hezibuluo.com/",
-          "icon": "https://www.hezibuluo.com/favicon.ico",
-          "desc": "分享各类软件资源，提供城通网盘，关注公众号可获得百度云下载。",
-          "proxy": false
-        },
-        {
-          "title": "极客盟",
-          "url": "https://www.jkmeng.cn/",
-          "icon": "https://www.jkmeng.cn/favicon.ico",
-          "desc": "分享破解和绿色软件，提供城通网盘，关注公众号后可获取百度云+天翼下载。",
-          "proxy": false
-        },
-        {
-          "title": "孤独求软",
-          "url": "https://www.dugubest.com/",
-          "icon": "https://www.dugubest.com/favicon.ico",
-          "desc": "分享绿色和破解软件，提供蓝奏云＋百度云下载。",
-          "proxy": false
-        },
-        {
-          "title": "爱纯净",
-          "url": "https://www.aichunjing.com/",
-          "icon": "https://www.aichunjing.com/favicon.ico",
-          "desc": "分享纯净版软件和系统，提供百度＋城通＋蓝奏云下载。",
-          "proxy": false
-        },
-        {
-          "title": "软件No1",
-          "url": "https://www.rjno1.com/",
-          "icon": "https://www.rjno1.com/favicon.ico",
-          "desc": "分享免费和便携版软件，需关闭广告拦截才能看到下载地址。",
-          "proxy": true
-        },
-        {
-          "title": "轻狂志",
-          "url": "https://www.flighty.cn/",
-          "icon": "https://www.flighty.cn/favicon.ico",
-          "desc": "分享绿色和破解软件，提供城通＋比邻＋蓝奏云下载。",
-          "proxy": true
-        },
-        {
-          "title": "殁漂遥",
-          "url": "https://acold.xyz/",
-          "icon": "https://acold.xyz/favicon.ico",
-          "desc": "分享绿色和破解软件，提供城通网盘，关注公众号可以获得蓝奏云下载。",
-          "proxy": true
-        },
-        {
-          "title": "portableapps",
-          "url": "https://portableapps.com/zh-cn",
-          "icon": "https://portableapps.com/sites/all/themes/responsive_bartik_pac/favicon.ico",
-          "desc": "提供大量开源和免费软件的便携版。",
-          "proxy": false
-        },
-        {
-          "title": "LiberKey",
-          "url": "https://www.liberkey.com/",
-          "icon": "https://www.liberkey.com/images/favicon.ico",
-          "desc": "一个便携应用启动器和软件集合。",
-          "proxy": false
-        },
-        {
-          "title": "FOSSHUB",
-          "url": "https://www.fosshub.com/",
-          "icon": "data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22%3E%3Ctext y=%22.9em%22 font-size=%2290%22%3E🌐%3C/text%3E%3C/svg%3E",
-          "desc": "一个安全、快速的开源软件下载平台。",
-          "proxy": false
-        },
-        {
-          "title": "软件SOS",
-          "url": "https://www.rjsos.com/",
-          "icon": "https://www.rjsos.com/favicon.ico",
-          "desc": "分享各类PC软件资源的网站。",
-          "proxy": false
-        },
-        {
-          "title": "反斗软件",
-          "url": "https://www.apprcn.com/",
-          "icon": "https://www.apprcn.com/favicon.ico",
-          "desc": "分享免费、优秀、有趣的软件。",
-          "proxy": false
-        },
-        {
-          "title": "反斗限免",
-          "url": "https://free.apprcn.com/",
-          "icon": "https://free.apprcn.com/favicon.ico",
-          "desc": "分享Windows、Mac、iOS、Android等平台的限免软件。",
-          "proxy": false
-        },
-        {
-          "title": "阿萨姆软件",
-          "url": "https://www.sssam.com/",
-          "icon": "https://pic.rmb.bdstatic.com/bjh/319abe463f747a2e68d19858ce2ac4ff.png",
-          "desc": "互联网资源分享平台，提供绿色软件下载。",
-          "proxy": false
-        },
-        {
-          "title": "脑袋瓜子",
-          "url": "https://www.naodai.org/",
-          "icon": "https://www.naodai.org/favicon.ico",
-          "desc": "有软件简介、安装教程等，此为官网",
-          "proxy": false
-        },
-        {
-          "title": "正版中国",
-          "url": "https://www.getitfree.cn/",
-          "icon": "https://www.getitfree.cn/wp-content/uploads/favicon.ico",
-          "desc": "正版软件，限时免费，低价正版软件",
-          "proxy": false
-        },
-        {
-          "title": "乐享网",
-          "url": "https://www.lxapk.com/",
-          "icon": "https://www.lxapk.com/favicon.ico",
-          "desc": "安卓软件分享",
-          "proxy": false
-        }
-      ]
-    },
-    {
-      "categoryName": "MAC应用",
-      "categoryId": "mac-apps",
-      "sites": [
-        {
-          "title": "Downie 4 (Mac)",
-          "url": "https://store.lizhi.io/site/products/id/280?cid=ds7afku3",
-          "icon": "https://store.lizhi.io/favicon.ico",
-          "desc": "Mac上强大的视频下载工具，支持1000+网站，正版特惠仅需99永久！",
-          "proxy": false
-        },
-        {
-          "title": "精品MAC应用分享",
-          "url": "https://xclient.info/",
-          "icon": "https://img.xclient.info/icon/favicon.ico",
-          "desc": "知名的Mac破解软件站，提供百度云和城通网盘。",
-          "proxy": false
-        },
-        {
-          "title": "马可菠萝",
-          "url": "https://www.macbl.com/",
-          "icon": "https://static.skqandroid.com/images/favicon.ico",
-          "desc": "Mac破解软件下载站，提供百度云和城通网盘。",
-          "proxy": false
-        },
-        {
-          "title": "Digit77",
-          "url": "https://www.digit77.com/",
-          "icon": "https://www.digit77.com/favicon.ico",
-          "desc": "Mac破解软件下载，无需注册，提供多种下载方式。",
-          "proxy": false
-        },
-        {
-          "title": "MAC萌新网",
-          "url": "https://www.macxin.com/",
-          "icon": "https://cdnx.noteba.com/wp-content/uploads/2018/01/cropped-newlogo-32x32.png",
-          "desc": "Mac破解软件下载站，可下Adobe破解资源。",
-          "proxy": false
-        },
-        {
-          "title": "APPKED",
-          "url": "https://www.macbed.com/",
-          "icon": "https://i0.wp.com/www.macbed.com/wp-content/uploads/2019/03/cropped-apps-32x32.png",
-          "desc": "国外Mac破解软件站，提供国外网盘资源，下载较慢。",
-          "proxy": false
-        },
-        {
-          "title": "AppAddict",
-          "url": "https://appaddict.org/",
-          "icon": "https://appaddict.org/favicon.ico",
-          "desc": "提供Mac和iOS应用的破解版下载。",
-          "proxy": false
-        },
-        {
-          "title": "苹果软件盒子",
-          "url": "https://www.macappbox.com/",
-          "icon": "https://www.macappbox.com/favicon.ico",
-          "desc": "提供Mac破解软件下载，高速直链需付费。",
-          "proxy": false
-        },
-        {
-          "title": "史蒂芬周的博客",
-          "url": "https://www.sdifen.com/",
-          "icon": "https://www.sdifen.com/wp-content/uploads/2024/09/SdifenLogo.png",
-          "desc": "分享Mac破解软件的博客，部分付费，有永久会员。",
-          "proxy": false
-        },
-        {
-          "title": "Mac毒",
-          "url": "https://www.macdo.cn/",
-          "icon": "https://www.macdo.cn/favicon.ico",
-          "desc": "Mac破解软件下载站，会员制。",
-          "proxy": false
-        },
-        {
-          "title": "爱奶酪",
-          "url": "https://www.icheese.org/",
-          "icon": "https://www.icheese.org/favicon.ico",
-          "desc": "Mac破解软件下载站，会员制。",
-          "proxy": false
-        },
-        {
-          "title": "MACSKY",
-          "url": "https://www.macsky.net/",
-          "icon": "https://www.macsky.net/wp-content/uploads/2021/01/MacSKY-logo-login.png",
-          "desc": "Mac破解软件下载站，会员制。",
-          "proxy": false
-        },
-        {
-          "title": "玩转苹果",
-          "url": "https://www.ifunmac.com/",
-          "icon": "https://www.ifunmac.com/favicon2014.ico",
-          "desc": "Mac破解软件下载站，会员制。",
-          "proxy": false
-        },
-        {
-          "title": "Mac金币",
-          "url": "https://www.macjb.com/",
-          "icon": "https://cdn.mac89.com/macjb_node/static/favicon.ico",
-          "desc": "Mac破解软件下载站，会员制。",
-          "proxy": false
-        },
-        {
-          "title": "Mac软件",
-          "url": "https://soft.macx.net/",
-          "icon": "https://soft.macx.net/wally.ico",
-          "desc": "MacX论坛的软件分享区，部分付费，有会员制。",
-          "proxy": false
-        },
-        {
-          "title": "awesome-mac",
-          "url": "https://github.com/jaywcjlove/awesome-mac/blob/master/README-zh.md",
-          "icon": "https://github.githubassets.com/favicons/favicon.svg",
-          "desc": "一个收集了各种优秀Mac软件、工具和资源的Github项目。",
-          "proxy": false
-        },
-        {
-          "title": "Best-App",
-          "url": "https://github.com/hzlzh/Best-App",
-          "icon": "https://github.githubassets.com/favicons/favicon.svg",
-          "desc": "一个推荐优秀Mac应用的Github项目。",
-          "proxy": false
-        },
-        {
-          "title": "数码荔枝",
-          "url": "https://www.lizhi.io/",
-          "icon": "https://www.lizhi.io/favicon.ico",
-          "desc": "国内知名的正版软件代理商，提供Mac和Windows软件。",
-          "proxy": false
-        },
-        {
-          "title": "少数派",
-          "url": "https://sspai.com/mall",
-          "icon": "https://cdn-static.sspai.com/favicon/sspai.ico",
-          "desc": "少数派的软件商城，提供正版Mac和Windows软件。",
-          "proxy": false
-        },
-        {
-          "title": "Setapp",
-          "url": "https://setapp.com/",
-          "icon": "https://setapp.com/favicon.ico",
-          "desc": "一个订阅制的Mac应用平台，包含大量优质应用。",
-          "proxy": true
-        },
-        {
-          "title": "淘宝",
-          "url": "https://www.taobao.com/",
-          "icon": "https://www.taobao.com/favicon.ico",
-          "desc": "可以在淘宝上以较低价格购买到正版Mac软件的激活码。",
-          "proxy": false
-        },
-        {
-          "title": "马克喵",
-          "url": "https://www.macat.vip/",
-          "icon": "https://icon.horse/icon/macat.vip",
-          "desc": "精品Mac破解软件下载站，资源更新及时。",
+          "desc": "介绍制作动态二维码的方法，但部分服务可能已失效，内容待更新。",
           "proxy": false
         }
       ]

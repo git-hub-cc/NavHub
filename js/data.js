@@ -22,9 +22,8 @@ export const defaultSiteDataSources = [
     {name: "工具", path: "data/02工具.json"},
     {name: "软件", path: "data/03软件.json"},
     {name: "影音娱乐", path: "data/04影音娱乐.json"},
-    {name: "学习与生产力", path: "data/05学习与生产力.json"},
-    {name: "技术与开发", path: "data/06技术与开发.json"},
-    {name: "其它", path: "data/07其它.json"},
+    {name: "生产力", path: "data/05生产力.json"},
+    {name: "信息", path: "data/06信息.json"}
 ];
 
 // === 全局状态变量 ===

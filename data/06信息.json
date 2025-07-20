@@ -1,0 +1,1882 @@
+{
+  "categories": [
+    {
+      "categoryName": "行业数据与报告",
+      "categoryId": "industry-data-reports",
+      "sites": [
+        {
+          "title": "199IT互联网数据中心",
+          "url": "https://www.199it.com/",
+          "icon": "https://www.199it.com/favicon.ico",
+          "desc": "分享互联网行业数据和研究报告。",
+          "proxy": false
+        },
+        {
+          "title": "艾瑞网",
+          "url": "https://www.iresearch.cn/",
+          "icon": "https://www.iresearch.cn/include/public/images/favicon.ico",
+          "desc": "提供互联网相关数据产品、研究咨询等专业服务。",
+          "proxy": false
+        },
+        {
+          "title": "艾媒网",
+          "url": "https://www.iimedia.cn/#shuju",
+          "icon": "https://www.iimedia.cn/favicon.ico",
+          "desc": "全球新经济产业第三方数据挖掘与分析机构。",
+          "proxy": false
+        },
+        {
+          "title": "企鹅智酷",
+          "url": "https://re.qq.com/",
+          "icon": "img/favicon/gtimg/favicon.ico",
+          "desc": "腾讯科技旗下核心研究平台，专注TMT领域前沿趋势。",
+          "proxy": false
+        },
+        {
+          "title": "QuestMobile",
+          "url": "https://www.questmobile.com.cn/",
+          "icon": "https://cdn.questmobile.cn/ui/logo/img/favicon.ico",
+          "desc": "中国专业的移动互联网商业智能服务商，提供市场洞察报告。",
+          "proxy": false
+        },
+        {
+          "title": "DataEye",
+          "url": "https://www.dataeye.com/",
+          "icon": "https://www.dataeye.com/images/favicon.ico",
+          "desc": "专注于游戏及泛娱乐领域的数据分析和市场洞察。",
+          "proxy": false
+        },
+        {
+          "title": "清科研究中心",
+          "url": "https://research.pedaily.cn/",
+          "icon": "https://static.pedaily.cn/app/pedaily/favicon.ico",
+          "desc": "中国领先的创业与投资综合服务平台，提供深度行研报告。",
+          "proxy": false
+        },
+        {
+          "title": "易观",
+          "url": "https://www.analysys.cn/",
+          "icon": "https://www.analysys.cn/favicon.ico",
+          "desc": "数字经济领域的分析机构，提供行业报告和数据分析。",
+          "proxy": false
+        },
+        {
+          "title": "Gartner",
+          "url": "https://www.gartner.com/",
+          "icon": "https://icon.horse/icon/gartner.com",
+          "desc": "全球领先的研究与顾问公司，以其魔力象限等报告闻名。",
+          "proxy": true
+        },
+        {
+          "title": "IDC",
+          "url": "https://www.idc.com/",
+          "icon": "https://www.idc.com/wp-content/themes/idc2025/assets/images/favicon.ico",
+          "desc": "全球著名的信息技术、电信行业和消费科技市场咨询、顾问服务机构。",
+          "proxy": true
+        },
+        {
+          "title": "尼尔森 (Nielsen)",
+          "url": "https://www.nielsen.com/",
+          "icon": "https://www.nielsen.com/wp-content/uploads/sites/2/2021/10/cropped-nielsen_favicon_512x512-1.png?w=32",
+          "desc": "全球领先的监测和数据分析公司，提供消费者行为和市场动态洞察。",
+          "proxy": true
+        },
+        {
+          "title": "eMarketer",
+          "url": "https://www.emarketer.com/",
+          "icon": "https://www.emarketer.com/favicon-32x32.png?v=af79bbbabc2ead6a5004f498b219b27b",
+          "desc": "提供数字营销、媒体和商业领域的市场研究和数据分析。",
+          "proxy": true
+        },
+        {
+          "title": "益普索 (Ipsos)",
+          "url": "https://www.ipsos.com/",
+          "icon": "https://icon.horse/icon/ipsos.com",
+          "desc": "全球领先的市场研究集团，提供专业的市场研究与咨询服务。",
+          "proxy": true
+        },
+        {
+          "title": "天眼查",
+          "url": "https://www.tianyancha.com/",
+          "icon": "https://cdn.tianyancha.com/wap/images/18blue/weixinlogo.png",
+          "desc": "专业的企业信息查询平台，提供工商、法律、风险等多维度信息。",
+          "proxy": false
+        },
+        {
+          "title": "企查查",
+          "url": "https://www.qichacha.com/",
+          "icon": "https://qcc-static.qcc.com/resources/web/omaterial/favicon.png",
+          "desc": "一站式企业信息查询服务平台，助力商业决策。",
+          "proxy": false
+        },
+        {
+          "title": "爱企查",
+          "url": "https://aiqicha.baidu.com/",
+          "icon": "https://xinpub.cdn.bcebos.com/static/favicon.ico",
+          "desc": "百度旗下的企业信息查询工具。",
+          "proxy": false
+        },
+        {
+          "title": "Crunchbase",
+          "url": "https://www.crunchbase.com/",
+          "icon": "https://www.crunchbase.com/favicon.ico?v=2.0",
+          "desc": "全球知名的公司和投融资信息数据库。",
+          "proxy": true
+        },
+        {
+          "title": "Inc Top500",
+          "url": "https://www.inc.com/inc5000/list/2014",
+          "icon": "https://icon.horse/icon/inc.com",
+          "desc": "美国《Inc.》杂志评选的成长最快的私营公司排行榜。",
+          "proxy": true
+        },
+        {
+          "title": "Startups List",
+          "url": "https://www.startups-list.com/",
+          "icon": "https://www.startups-list.com/favicon.ico",
+          "desc": "一个汇集全球创业公司信息的社区驱动列表。",
+          "proxy": true
+        },
+        {
+          "title": "清科投资界",
+          "url": "https://zdb.pedaily.cn/",
+          "icon": "https://static.pedaily.cn/app/pedaily/favicon.ico",
+          "desc": "清科集团旗下，提供中国股权投资行业的数据和资讯。",
+          "proxy": false
+        },
+        {
+          "title": "烯牛数据",
+          "url": "https://www.xiniudata.com",
+          "icon": "https://icon.horse/icon/xiniudata.com",
+          "desc": "为一级市场投资人提供项目发现和管理服务的SaaS平台。",
+          "proxy": false
+        },
+        {
+          "title": "创业邦",
+          "url": "https://www.cyzone.cn/category/554/",
+          "icon": "https://www.cyzone.cn/favicon.ico",
+          "desc": "提供创业资讯、投融资对接和企业服务的综合平台。",
+          "proxy": false
+        }
+      ]
+    },
+    {
+      "categoryName": "数据分析与可视化",
+      "categoryId": "data-analysis-visualization",
+      "sites": [
+        {
+          "title": "百度指数",
+          "url": "https://index.baidu.com/",
+          "icon": "https://index.baidu.com/favicon.ico",
+          "desc": "以百度海量网民行为数据为基础的数据分享平台。",
+          "proxy": false
+        },
+        {
+          "title": "Google趋势",
+          "url": "https://trends.google.com/trends/explore",
+          "icon": "https://www.gstatic.com/trends/favicon.ico",
+          "desc": "分析Google搜索中热门关键词的流行度。",
+          "proxy": true
+        },
+        {
+          "title": "巨量算数",
+          "url": "https://trendinsight.oceanengine.com/index",
+          "icon": "https://lf3-static.bytednsdoc.com/obj/eden-cn/kyhgpdeh7nuvanuhd/count/trendinsight.ico",
+          "desc": "抖音、今日头条等产品官方数据分析平台（原头条指数）。",
+          "proxy": false
+        },
+        {
+          "title": "新榜",
+          "url": "https://www.newrank.cn/public/info/list.html",
+          "icon": "https://chs.newrank.cn/favicon/favicon.ico",
+          "desc": "提供微信公众号/视频号/微博/抖音/快手/B站等平台榜单。",
+          "proxy": false
+        },
+        {
+          "title": "飞瓜数据",
+          "url": "https://www.feigua.cn/",
+          "icon": "https://www.feigua.cn/Content/images/favicon.ico",
+          "desc": "短视频和直播电商数据分析平台，支持抖音、快手、B站。",
+          "proxy": false
+        },
+        {
+          "title": "七麦数据",
+          "url": "https://www.qimai.cn/rank",
+          "icon": "https://www.qimai.cn/favicon.ico",
+          "desc": "专业的移动应用市场数据分析平台。",
+          "proxy": false
+        },
+        {
+          "title": "Similarweb",
+          "url": "https://www.similarweb.com/",
+          "icon": "https://icon.horse/icon/similarweb.com",
+          "desc": "提供网站和移动应用流量分析的强大工具。",
+          "proxy": true
+        },
+        {
+          "title": "StatCounter",
+          "url": "https://gs.statcounter.com/",
+          "icon": "https://www.statcounter.com/images/favicon.png?v=1",
+          "desc": "全球性的网站流量分析工具，提供浏览器、操作系统等市场份额数据。",
+          "proxy": true
+        },
+        {
+          "title": "国家数据",
+          "url": "https://data.stats.gov.cn/",
+          "icon": "https://data.stats.gov.cn/favicon.ico",
+          "desc": "国家统计局官方数据发布平台。",
+          "proxy": false
+        },
+        {
+          "title": "世界银行公开数据",
+          "url": "https://data.worldbank.org.cn/",
+          "icon": "https://data.worldbank.org.cn/favicon.ico",
+          "desc": "提供全球发展数据的免费、开放访问。",
+          "proxy": false
+        },
+        {
+          "title": "中国房价行情",
+          "url": "https://fdc.fang.com/index/",
+          "icon": "https://fdc.fang.com/favicon.ico",
+          "desc": "搜房网旗下，提供中国房地产市场的房价指数和数据。",
+          "proxy": false
+        },
+        {
+          "title": "百度迁徙",
+          "url": "https://qianxi.baidu.com/",
+          "icon": "https://icon.horse/icon/baidu.com",
+          "desc": "基于百度定位大数据，动态、直观地展现人口迁徙轨迹。",
+          "proxy": false
+        },
+        {
+          "title": "高德交通报告",
+          "url": "https://report.amap.com/index.do",
+          "icon": "https://report.amap.com/favicon.ico",
+          "desc": "发布中国主要城市交通分析报告，包含拥堵指数等。",
+          "proxy": false
+        },
+        {
+          "title": "百度风云榜",
+          "url": "https://top.baidu.com/",
+          "icon": "https://www.baidu.com/favicon.ico",
+          "desc": "基于百度搜索数据，提供每日热点、人物、事件等排行榜。",
+          "proxy": false
+        },
+        {
+          "title": "淘宝排行榜",
+          "url": "https://top.etao.com/",
+          "icon": "https://www.taobao.com/favicon.ico",
+          "desc": "展示淘宝、天猫平台各类目下的热销商品排行。",
+          "proxy": false
+        },
+        {
+          "title": "猫眼电影票房数据",
+          "url": "https://piaofang.maoyan.com/dashboard",
+          "icon": "https://obj.pipi.cn/festatic/piaofang/moviepro/favicon.ico",
+          "desc": "猫眼专业版提供的电影票房实时数据。",
+          "proxy": false
+        },
+        {
+          "title": "艺恩电影票房数据",
+          "url": "https://ys.endata.cn/BoxOffice/Movie",
+          "icon": "https://ys.endata.cn/favicon.ico",
+          "desc": "提供中国电影票房的实时和历史数据。",
+          "proxy": false
+        },
+        {
+          "title": "哔哩哔哩排行榜",
+          "url": "https://www.bilibili.com/v/popular/rank/all",
+          "icon": "https://www.bilibili.com/favicon.ico",
+          "desc": "B站官方的全站内容排行榜。",
+          "proxy": false
+        },
+        {
+          "title": "国家地理信息公共服务平台（天地图）",
+          "url": "https://map.tianditu.gov.cn/",
+          "icon": "https://map.tianditu.gov.cn/favicon.ico",
+          "desc": "中国官方的在线地图服务。",
+          "proxy": false
+        },
+        {
+          "title": "标准地图服务系统",
+          "url": "https://bzdt.ch.mnr.gov.cn/",
+          "icon": "https://bzdt.ch.mnr.gov.cn/favicon.ico",
+          "desc": "自然资源部地图技术审查中心提供的标准地图下载服务。",
+          "proxy": false
+        },
+        {
+          "title": "地图选择器",
+          "url": "https://datav.aliyun.com/portal/school/atlas/area_selector",
+          "icon": "https://datav.aliyun.com/favicon.ico",
+          "desc": "阿里云DataV提供的Json格式地图素材下载。",
+          "proxy": false
+        },
+        {
+          "title": "Google Charts",
+          "url": "https://developers.google.com/chart/",
+          "icon": "https://www.gstatic.com/devrel-devsite/prod/v46d043083f27fa7361aea8506dabbd161e0b84f5a7c6df8d5e3cfad447dd4376/developers/images/favicon-new.png",
+          "desc": "谷歌提供的一套强大、免费且易于使用的数据可视化工具。",
+          "proxy": true
+        },
+        {
+          "title": "谷歌DateStudio",
+          "url": "https://datastudio.google.com/",
+          "icon": "https://ssl.gstatic.com/datastudio/latest/static_images/pngs/favicon_looker_studio.png",
+          "desc": "谷歌出品的免费数据看板和报告工具，可连接多种数据源。",
+          "proxy": true
+        },
+        {
+          "title": "G2",
+          "url": "https://g2.alipay.com/",
+          "icon": "https://os.alipayobjects.com/rmsportal/VuIJNnUTtJpfuej.png",
+          "desc": "蚂蚁集团开源的一套基于图形语法的可视化引擎。",
+          "proxy": false
+        },
+        {
+          "title": "Cytoscape",
+          "url": "https://www.cytoscape.org/",
+          "icon": "https://www.cytoscape.org/favicon.ico",
+          "desc": "用于可视化复杂网络的开源软件平台，尤其在生物信息学领域。",
+          "proxy": true
+        },
+        {
+          "title": "Seeing Theory",
+          "url": "https://students.brown.edu/seeing-theory/",
+          "icon": "https://students.brown.edu/favicon.ico",
+          "desc": "一个旨在让统计学和概率论变得直观易懂的可视化项目。",
+          "proxy": true
+        }
+      ]
+    },
+    {
+      "categoryName": "设计资源与灵感",
+      "categoryId": "design-resources-inspiration",
+      "sites": [
+        {
+          "title": "优设导航",
+          "url": "https://hao.uisdc.com/",
+          "icon": "https://www.uisdc.com/favicon.ico",
+          "desc": "设计师必备的网站导航。",
+          "proxy": false
+        },
+        {
+          "title": "创造狮导航",
+          "url": "https://chuangzaoshi.com/",
+          "icon": "https://chuangzaoshi.com/assets/images/favicon.png",
+          "desc": "为创意工作者打造的资源导航站。",
+          "proxy": false
+        },
+        {
+          "title": "Dribbble",
+          "url": "https://dribbble.com/",
+          "icon": "https://cdn.dribbble.com/assets/favicon-63b29092723ee133a08b6175e0707379656088e845f762f8c5b523e19842a420.ico",
+          "desc": "发现和展示创意作品的设计师社区。",
+          "proxy": true
+        },
+        {
+          "title": "花瓣网",
+          "url": "https://huaban.com/",
+          "icon": "data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22%3E%3Ctext y=%22.9em%22 font-size=%2290%22%3E🌐%3C/text%3E%3C/svg%3E",
+          "desc": "一个设计师寻找灵感、采集和分享图片的图片社区。",
+          "proxy": false
+        },
+        {
+          "title": "Unsplash",
+          "url": "https://unsplash.com/",
+          "icon": "https://unsplash.com/favicon.ico",
+          "desc": "高质量、可免费商用的摄影图片社区。",
+          "proxy": true
+        },
+        {
+          "title": "Pexels",
+          "url": "https://www.pexels.com/zh-cn/",
+          "icon": "https://www.pexels.com/assets/static/images/meta/favicon.ico",
+          "desc": "提供海量共享图片和视频素材的网站。",
+          "proxy": false
+        },
+        {
+          "title": "Pixabay",
+          "url": "https://pixabay.com/zh/",
+          "icon": "https://icon.horse/icon/pixabay.com",
+          "desc": "全球知名的免费正版高清图片、视频素材库。",
+          "proxy": false
+        },
+        {
+          "title": "freepik",
+          "url": "https://www.freepik.com/",
+          "icon": "https://www.freepik.com/favicon.ico",
+          "desc": "大型的免费矢量图、PSD、照片和图标素材库。",
+          "proxy": true
+        },
+        {
+          "title": "Gratisography",
+          "url": "https://gratisography.com/",
+          "desc": "网站每周都会上传新的免费高清大图，适合个人与商用",
+          "icon": "https://gratisography.com/wp-content/themes/gratis-v3/favicon.png",
+          "proxy": true
+        },
+        {
+          "title": "PicJumbo",
+          "url": "https://picjumbo.com/",
+          "desc": "提供免费个人和商业使用的图像，照片质量很不错",
+          "icon": "https://picjumbo.com/favicon.png",
+          "proxy": true
+        },
+        {
+          "title": "插画世界",
+          "url": "https://www.vilipix.com/",
+          "icon": "https://icon.horse/icon/vilipix.com",
+          "desc": "一个高质量的插画、动漫图片分享社区，Pixiv的优秀镜像站。",
+          "proxy": false
+        },
+        {
+          "title": "P站",
+          "url": "https://www.yuque.com/docs/share/8c4b9e23-c826-40c1-94b8-37bcbb0aa757",
+          "icon": "https://www.yuque.com/favicon.ico",
+          "desc": "介绍访问著名插画社区Pixiv（P站）的方法和相关工具。",
+          "proxy": false
+        },
+        {
+          "title": "米画师",
+          "url": "https://mihuashi.com/artworks",
+          "desc": "专业的画师约稿和作品展示平台。",
+          "icon": "https://js-assets.mihuashi.com/favicon.ico",
+          "proxy": false
+        },
+        {
+          "title": "涂鸦王国",
+          "url": "https://www.gracg.com/",
+          "desc": "原创绘画社交网站",
+          "icon": "https://www.gracg.com/static/favicon20220418.ico",
+          "proxy": false
+        },
+        {
+          "title": "unDraw",
+          "url": "https://undraw.co/illustrations",
+          "icon": "https://undraw.co/favicon.ico",
+          "desc": "可免费商用、可在线修改颜色的扁平化插画图库。",
+          "proxy": false
+        },
+        {
+          "title": "Storyset",
+          "url": "https://storyset.com/",
+          "icon": "https://storyset.com/favicon.ico",
+          "desc": "免费的可定制化插图资源库。",
+          "proxy": false
+        },
+        {
+          "title": "觅元素",
+          "url": "https://www.51yuansu.com/",
+          "icon": "https://www.51yuansu.com/favicon.ico",
+          "desc": "提供免抠PNG、背景、模板等设计素材，免费用户每天可下载4张。",
+          "proxy": false
+        },
+        {
+          "title": "Cleanpng",
+          "url": "https://www.cleanpng.com/",
+          "icon": "https://www.cleanpng.com/favicon.ico",
+          "desc": "提供海量免费的透明背景PNG图片。",
+          "proxy": false
+        },
+        {
+          "title": "stickpng",
+          "url": "https://www.stickpng.com/",
+          "icon": "https://www.stickpng.com/favicon.ico",
+          "desc": "提供海量PNG透明背景图片素材。",
+          "proxy": false
+        },
+        {
+          "title": "天空之城-航拍摄影素材",
+          "url": "https://www.skypixel.com/",
+          "desc": "大疆旗下的航拍爱好者和专业摄影师作品分享社区。",
+          "icon": "https://spcn-webfront.skypixel.com/skypixel/public/favicon.ico",
+          "proxy": false
+        },
+        {
+          "title": "原创保护",
+          "url": "https://www.yuque.com/docs/share/9ae72424-b59e-4af6-8151-11f60f363f1d",
+          "icon": "https://www.yuque.com/favicon.ico",
+          "desc": "介绍为原创图片、文章添加水印等，进行版权保护的方法。",
+          "proxy": false
+        }
+      ]
+    },
+    {
+      "categoryName": "图标、字体与配色",
+      "categoryId": "icons-fonts-colors",
+      "sites": [
+        {
+          "title": "Iconfont-阿里巴巴矢量图标库",
+          "url": "https://www.iconfont.cn/",
+          "icon": "https://img.alicdn.com/imgextra/i4/O1CN01Z5paLz1O0zuCC7osS_!!6000000001644-55-tps-83-82.svg",
+          "desc": "阿里巴巴官方图标库，资源丰富，但商用时需注意版权归属。",
+          "proxy": false
+        },
+        {
+          "title": "IconPark 开源图标库",
+          "url": "https://iconpark.oceanengine.com/home",
+          "icon": "https://lf1-cdn2-tos.bytegoofy.com/bydesign/iconparksite/logo.svg",
+          "desc": "字节跳动出品的开源图标库，可自由变换组合。",
+          "proxy": false
+        },
+        {
+          "title": "Free vector icons",
+          "url": "https://www.flaticon.com/",
+          "icon": "https://www.flaticon.com/favicon.ico",
+          "desc": "全球最大的矢量图标库，部分可免费商用。",
+          "proxy": true
+        },
+        {
+          "title": "iconmonster",
+          "url": "https://iconmonstr.com/",
+          "icon": "https://icon.horse/icon/iconmonstr.com",
+          "desc": "一个提供大量免费、简洁、高质量图标的网站。",
+          "proxy": true
+        },
+        {
+          "title": "Iconify",
+          "url": "https://icon-sets.iconify.design/",
+          "icon": "https://iconify.design/favicon.ico",
+          "desc": "海量 SVG 图标集，一键复制使用。",
+          "proxy": false
+        },
+        {
+          "title": "字由",
+          "url": "https://www.hellofont.cn/",
+          "icon": "https://www.hellofont.cn/favicon.ico",
+          "desc": "一个很方便预览、管理和下载可商用字体的软件。",
+          "proxy": false
+        },
+        {
+          "title": "猫啃网",
+          "url": "https://www.maoken.com/",
+          "icon": "https://www.maoken.com/favicon.ico",
+          "desc": "收集整理了大量无版权问题的免费可商用中文字体。",
+          "proxy": false
+        },
+        {
+          "title": "100font",
+          "url": "https://www.100font.com/",
+          "icon": "https://www.100font.com/view/img/favicon.ico",
+          "desc": "一个专注于免费商用字体的分享网站。",
+          "proxy": false
+        },
+        {
+          "title": "站酷出品的免费可商用字体",
+          "url": "https://www.zcool.com.cn/special/zcoolfonts/",
+          "icon": "https://static.zcool.cn/git_z/z/site/favicon.ico?version=1618914637608",
+          "desc": "站酷网联合设计师推出的系列免费可商用字体。",
+          "proxy": false
+        },
+        {
+          "title": "字体天下",
+          "url": "https://www.fonts.net.cn/album/free-chinese-fonts-1.html",
+          "desc": "提供海量的中英文字体下载，无需注册VIP",
+          "proxy": false,
+          "icon": "https://www.fonts.net.cn/favicon.ico"
+        },
+        {
+          "title": "在线生成毛笔字",
+          "url": "https://www.shufazi.cn/",
+          "desc": "无需下载，可直接生成图片，快速预览使用",
+          "proxy": false
+        },
+        {
+          "title": "中国色",
+          "url": "https://zhongguose.com/",
+          "icon": "https://zhongguose.com/img/favicon.ico",
+          "desc": "展示中国传统色彩的网站，提供CMYK和RGB值。",
+          "proxy": false
+        },
+        {
+          "title": "Color Hunt",
+          "url": "https://colorhunt.co/",
+          "icon": "https://colorhunt.co/img/colorhunt-favicon.svg?2",
+          "desc": "一个开放的色彩灵感和调色板集合。",
+          "proxy": false
+        },
+        {
+          "title": "Coolors",
+          "url": "https://coolors.co/",
+          "icon": "https://coolors.co/assets/img/favicon.png",
+          "desc": "快速的配色方案生成器。",
+          "proxy": false
+        },
+        {
+          "title": "Webgradients",
+          "url": "https://webgradients.com/",
+          "icon": "https://webgradients.com/favicons/favicon-196x196.png",
+          "desc": "一个包含180种漂亮渐变色的在线集合。",
+          "proxy": false
+        }
+      ]
+    },
+    {
+      "categoryName": "壁纸与图库",
+      "categoryId": "wallpapers-galleries",
+      "sites": [
+        {
+          "title": "wallpaperscraft",
+          "url": "https://wallpaperscraft.com/",
+          "desc": "提供多种分辨率的高清壁纸，分类详细。",
+          "icon": "https://wallpaperscraft.com/public/img/general/favicon.ico?v=fcdd8158",
+          "proxy": false
+        },
+        {
+          "title": "Wallhere",
+          "url": "https://wallhere.com/",
+          "desc": "世界著名的壁纸网站之一",
+          "icon": "https://s.wallhere.com/media/favicon-32x32.png?v=230118",
+          "proxy": false
+        },
+        {
+          "title": "极简壁纸",
+          "url": "https://bz.zzzmh.cn/#index",
+          "icon": "https://bz.zzzmh.cn/favicon.ico",
+          "desc": "简洁无广告的电脑壁纸和手机壁纸下载站。",
+          "proxy": false
+        },
+        {
+          "title": "壁纸天堂",
+          "url": "https://wallhaven.cc/",
+          "desc": "著名的壁纸网站Wallhaven，提供海量高质量壁纸。",
+          "icon": "https://wallhaven.cc/favicon.ico",
+          "proxy": false
+        },
+        {
+          "title": "Simpledesktops",
+          "url": "https://simpledesktops.com/browse/",
+          "icon": "https://simpledesktops.com/favicon.ico",
+          "desc": "提供极简主义风格的桌面壁纸。",
+          "proxy": false
+        },
+        {
+          "title": "专门做微软系列的自带壁纸",
+          "url": "https://wallpaperhub.app/",
+          "desc": "WallpaperHub，一个收集微软官方和概念壁纸的网站。",
+          "icon": "https://wallpaperhub.app/favicon.ico",
+          "proxy": false
+        },
+        {
+          "title": "Vladstudio",
+          "url": "https://vlad.studio/zh/wallpapers/",
+          "icon": "https://vlad.studio/favicon/favicon.ico",
+          "desc": "充满童话和绘本风格的创意壁纸，需注册下载。",
+          "proxy": false
+        },
+        {
+          "title": "故宫",
+          "url": "https://www.dpm.org.cn/lights/royal.html",
+          "desc": "故宫博物院官方网站，提供精美的文物和建筑壁纸。",
+          "icon": "https://www.dpm.org.cn/favicon.ico",
+          "proxy": false
+        },
+        {
+          "title": "故宫名画",
+          "url": "https://minghuaji.dpm.org.cn/",
+          "icon": "data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22%3E%3Ctext y=%22.9em%22 font-size=%2290%22%3E🎨%3C/text%3E%3C/svg%3E",
+          "desc": "故宫博物院官方出品，在线欣赏和下载高清古代名画。",
+          "proxy": false
+        },
+        {
+          "title": "CGWallpapers",
+          "url": "https://www.cgwallpapers.com/",
+          "desc": "专注于CG艺术和游戏概念设计的壁纸网站。",
+          "icon": "https://www.cgwallpapers.com/favicon.ico",
+          "proxy": false
+        },
+        {
+          "title": "Gamewallpapers",
+          "url": "https://www.gamewallpapers.com/",
+          "icon": "https://www.gamewallpapers.com/favicon.ico",
+          "desc": "专业的游戏壁纸和CG图站。",
+          "proxy": false
+        },
+        {
+          "title": "彼岸图网",
+          "url": "https://pic.netbian.com/",
+          "icon": "https://pic.netbian.com/favicon.ico",
+          "desc": "提供4K高清壁纸，一个免费用户一天只能下载一张。",
+          "proxy": false
+        },
+        {
+          "title": "中关村壁纸",
+          "url": "https://desk.zol.com.cn/",
+          "icon": "https://desk.zol.com.cn/favicon.ico",
+          "desc": "中关村在线的壁纸频道，提供4K壁纸，分类多样。",
+          "proxy": false
+        },
+        {
+          "title": "3G壁纸",
+          "url": "https://desk.3gbizhi.com/",
+          "icon": "https://desk.3gbizhi.com/assets/mobile/images/favicon.ico",
+          "desc": "提供高清电脑和手机壁纸下载。",
+          "proxy": false
+        },
+        {
+          "title": "致美化",
+          "url": "https://zhutix.com/wallpaper/",
+          "icon": "https://zhutix.com/favicon.ico",
+          "desc": "提供高清壁纸下载，细化到同一系列作品。",
+          "proxy": false
+        },
+        {
+          "title": "HDqwalls",
+          "url": "https://hdqwalls.com/",
+          "icon": "https://hdqwalls.com/favicon.ico",
+          "desc": "高质量高清壁纸站，分类多样。",
+          "proxy": true
+        },
+        {
+          "title": "Flickr",
+          "url": "https://www.flickr.com/",
+          "desc": "雅虎旗下图片分享网站",
+          "icon": "https://www.flickr.com/favicon.ico",
+          "proxy": true
+        },
+        {
+          "title": "1x",
+          "url": "https://1x.com/",
+          "desc": "国内访问很不稳定，格调很高的照片图库，图片很精美",
+          "icon": "https://1x.com/favicon.ico",
+          "proxy": true
+        },
+        {
+          "title": "360°全景航拍及高清全景图、全景视频拍摄",
+          "url": "https://airpano.org.cn/",
+          "desc": "提供全球各地的高清全景航拍图和视频。",
+          "icon": "https://www.airpano.org.cn/favicon.ico",
+          "proxy": false
+        },
+        {
+          "title": "指尖上 | 全球全景360VR",
+          "url": "https://www.zhijianshang.com/",
+          "desc": "海量全面精美的VR全景旅游景点介绍",
+          "icon": "https://www.zhijianshang.com/favicon.ico",
+          "proxy": false
+        },
+        {
+          "title": "32张电脑分区壁纸",
+          "url": "https://mp.weixin.qq.com/s/Ctk5U1wap5oXNIqjPTh7fQ",
+          "desc": "提供32张带有功能分区的创意电脑壁纸。",
+          "icon": "https://res.wx.qq.com/a/wx_fed/assets/res/NTI4MWU5.ico",
+          "proxy": false
+        },
+        {
+          "title": "鬼刀动态静态4K/8K壁纸（2017-2021.06）",
+          "url": "https://cloud.189.cn/t/vue2InzaQVnq",
+          "desc": "知名画师WLOP的作品《鬼刀》系列高清壁纸合集。",
+          "icon": "https://cloud.dlife.cn/web/main/logo.ico",
+          "proxy": false
+        },
+        {
+          "title": "手机壁纸",
+          "url": "https://www.yuque.com/docs/share/86f5ff34-7323-4f60-b9d1-3ce7d7bdb2c4",
+          "icon": "https://www.yuque.com/favicon.ico",
+          "desc": "分享高质量手机壁纸的下载渠道和应用。",
+          "proxy": false
+        }
+      ]
+    },
+    {
+      "categoryName": "模板与素材",
+      "categoryId": "templates-assets",
+      "sites": [
+        {
+          "title": "iSlide",
+          "url": "https://www.islide.cc/",
+          "icon": "https://www.islide.cc/favicon.ico",
+          "desc": "强大的PPT插件，提供海量模板、图示和图标，极大提升PPT制作效率。",
+          "proxy": false
+        },
+        {
+          "title": "优品PPT",
+          "url": "https://www.ypppt.com/",
+          "icon": "https://www.ypppt.com/favicon.ico",
+          "desc": "一个有情怀的免费PPT模板下载网站，质量很高。",
+          "proxy": false
+        },
+        {
+          "title": "第一PPT",
+          "url": "https://www.1ppt.com/",
+          "desc": "PPT模板网站",
+          "proxy": false,
+          "icon": "https://www.1ppt.com/favicon.ico"
+        },
+        {
+          "title": "officePLUS",
+          "url": "https://www.officeplus.cn",
+          "desc": "模板下载",
+          "proxy": false
+        },
+        {
+          "title": "吾道幻灯片",
+          "url": "https://www.woodo.cn/",
+          "desc": "PPT在线制作",
+          "proxy": false,
+          "icon": "https://www.woodo.cn/public/logo-48.png"
+        },
+        {
+          "title": "叮当设计",
+          "url": "https://www.dingdangsheji.com/",
+          "desc": "模板下载",
+          "proxy": false
+        },
+        {
+          "title": "PPT之家",
+          "url": "https://www.52ppt.com/",
+          "desc": "需关注微信公众号获取密码。",
+          "proxy": false,
+          "icon": "https://www.52ppt.com/favicon.ico"
+        },
+        {
+          "title": "PPT 超级市场",
+          "url": "https://ppt.sotary.com/web/wxapp/index.html",
+          "desc": "PPT模板网站",
+          "proxy": false
+        },
+        {
+          "title": "智能PPT",
+          "url": "https://aippt.wps.cn/welcome/",
+          "desc": "PPT模板网站",
+          "proxy": false,
+          "icon": "https://aippt.wps.cn/favicon.ico"
+        },
+        {
+          "title": "PPT设计导航",
+          "url": "https://www.76ppt.com/",
+          "icon": "https://www.76ppt.com/favicon.ico",
+          "desc": "一个全面的PPT设计资源导航网站。",
+          "proxy": false
+        },
+        {
+          "title": "极简简历",
+          "url": "https://www.polebrief.com/edit",
+          "icon": "https://www.polebrief.com/favicon.ico",
+          "desc": "在线简历模板制作工具。",
+          "proxy": false
+        },
+        {
+          "title": "400份应届生简历模版",
+          "url": "https://www.aliyundrive.com/s/qSBzTH1WVe3",
+          "desc": "包含400份适合应届毕业生的简历模板。",
+          "proxy": false,
+          "icon": "https://img.alicdn.com/imgextra/i1/O1CN01JDQCi21Dc8EfbRwvF_!!6000000000236-73-tps-64-64.ico"
+        },
+        {
+          "title": "求职简历设计制作模板",
+          "url": "https://www.lanzous.com/iXWAQn4pv5i",
+          "desc": "提供多种风格的求职简历设计与制作模板。",
+          "proxy": false
+        },
+        {
+          "title": "各行各业的工作总结模板",
+          "url": "https://www.aliyundrive.com/s/qMiKcNUj2Vx",
+          "desc": "适用于各行各业的工作总结PPT模板合集。",
+          "proxy": false,
+          "icon": "https://img.alicdn.com/imgextra/i1/O1CN01JDQCi21Dc8EfbRwvF_!!6000000000236-73-tps-64-64.ico"
+        },
+        {
+          "title": "毕业答辩PPT模版72套",
+          "url": "https://www.aliyundrive.com/s/iBw7hLL4oWK",
+          "desc": "包含72套适用于毕业答辩的精美PPT模板。",
+          "proxy": false,
+          "icon": "https://img.alicdn.com/imgextra/i1/O1CN01JDQCi21Dc8EfbRwvF_!!6000000000236-73-tps-64-64.ico"
+        },
+        {
+          "title": "各行各业合同模板",
+          "url": "https://www.aliyundrive.com/s/XzeGEZ9Pdmw",
+          "desc": "提供各行各业通用的合同模板范本。",
+          "proxy": false,
+          "icon": "https://img.alicdn.com/imgextra/i1/O1CN01JDQCi21Dc8EfbRwvF_!!6000000000236-73-tps-64-64.ico"
+        },
+        {
+          "title": "爱给网",
+          "url": "https://www.aigei.com/",
+          "icon": "https://cdn-sqn.aigei.com/assets/site/img/icon/favicon.ico",
+          "desc": "提供音效、配乐、视频、游戏等素材，PR/AE模版提供高速下载。",
+          "proxy": true
+        },
+        {
+          "title": "mixkit",
+          "url": "https://mixkit.co/",
+          "icon": "https://assets.mixkit.co/build/favicons/favicon-96x96-b47a57aea9303a5f92e644e78aa343575b21f12b38d469be00fdc5acd983684d.png",
+          "desc": "提供高质量的免费视频素材、音乐和音效，使用时需注意许可协议。",
+          "proxy": false
+        },
+        {
+          "title": "Panzoid",
+          "url": "https://panzoid.com/",
+          "icon": "https://panzoid.com/images/icons/siteicon-256.webp",
+          "desc": "免费的在线视频编辑器和片头制作工具，提供大量模板和素材。",
+          "proxy": false
+        },
+        {
+          "title": "耳聆网",
+          "url": "https://www.ear0.com/",
+          "icon": "https://www.ear0.com/public/images/favicon.ico",
+          "desc": "中文音效素材库，使用时需注意许可协议。",
+          "proxy": false
+        },
+        {
+          "title": "淘声网",
+          "url": "https://www.tosound.com/",
+          "icon": "https://www.tosound.com/favicon.ico",
+          "desc": "聚合型音效搜索引擎。",
+          "proxy": false
+        },
+        {
+          "title": "Freesound",
+          "url": "https://freesound.org/",
+          "icon": "https://freesound.org/favicon.png",
+          "desc": "注册后所有音频都可免费下载，商用需署名并附上链接。",
+          "proxy": false
+        },
+        {
+          "title": "小森平的免费下载音效",
+          "url": "https://taira-komori.jpn.org/freesoundcn.html",
+          "icon": "https://taira-komori.jpn.org/favicon.ico",
+          "desc": "日本音效师小森平提供的免费音效素材。",
+          "proxy": false
+        },
+        {
+          "title": "FindSounds",
+          "url": "https://www.findsounds.com/mtypesChinese.html",
+          "icon": "https://www.findsounds.com/favicon.ico",
+          "desc": "一个提供超过100万种音效搜索的网站。",
+          "proxy": false
+        },
+        {
+          "title": "Adobe 全家桶插件",
+          "url": "https://www.yuque.com/docs/share/1baed56b-819b-4585-a458-d237e44b1d0b",
+          "icon": "https://www.yuque.com/favicon.ico",
+          "desc": "分享适用于Photoshop、Premiere、After Effects等Adobe软件的实用插件合集。",
+          "proxy": false
+        },
+        {
+          "title": "Lr预设-质感强烈的 HDR 人像",
+          "url": "https://pan.baidu.com/s/1ck8EjBGYWGZV9Qt9zIWLwA",
+          "icon": "img/favicon/panbaidu/favicon.ico",
+          "desc": "提取码：zylp",
+          "proxy": false
+        },
+        {
+          "title": "Lr预设-日系小清新人像",
+          "url": "https://pan.baidu.com/s/14II2YVHT0rxK8wzWdJbUDw",
+          "icon": "img/favicon/panbaidu/favicon.ico",
+          "desc": "提取码：zqem",
+          "proxy": false
+        },
+        {
+          "title": "Lr预设-INS 网红旅拍电影胶片",
+          "url": "https://pan.baidu.com/s/1ZX0TGcm3GGT6AoyKVW7_7w",
+          "icon": "img/favicon/panbaidu/favicon.ico",
+          "desc": "提取码：srvp",
+          "proxy": false
+        },
+        {
+          "title": "PS笔刷-高清炫酷星光光效",
+          "url": "https://pan.baidu.com/s/1GqgbSjoT0Ta44yjBu1PdrA",
+          "icon": "img/favicon/panbaidu/favicon.ico",
+          "desc": "提取码：2cdw",
+          "proxy": false
+        },
+        {
+          "title": "PS笔刷-高清飞尘灰尘碎片颗粒",
+          "url": "https://pan.baidu.com/s/1YvmZoCWIWD_EqWf-imbGtA",
+          "icon": "img/favicon/panbaidu/favicon.ico",
+          "desc": "提取码：zt8d",
+          "proxy": false
+        },
+        {
+          "title": "PS笔刷-大型 CG 人物绘画",
+          "url": "https://pan.baidu.com/s/14I4ZFICKIpS0CtZPLm01Mw",
+          "icon": "img/favicon/panbaidu/favicon.ico",
+          "desc": "提取码：docc",
+          "proxy": false
+        },
+        {
+          "title": "小表情",
+          "url": "https://www.yuque.com/docs/share/f707a589-9dd6-49e2-b0f0-bec98c3ad6bf",
+          "icon": "https://www.yuque.com/favicon.ico",
+          "desc": "分享各种有趣的文字小表情（颜文字）合集，方便复制粘贴。",
+          "proxy": false
+        },
+        {
+          "title": "小鹦鹉",
+          "url": "https://www.yuque.com/docs/share/b33228c8-3a40-4386-b221-82cf088d2960",
+          "icon": "https://www.yuque.com/favicon.ico",
+          "desc": "集合了小鹦鹉（阿鲁）、AC娘、微博等经典网络表情包系列。",
+          "proxy": false
+        }
+      ]
+    },
+    {
+      "categoryName": "影音资讯与字幕",
+      "categoryId": "media-info-subtitles",
+      "sites": [
+        {
+          "title": "豆瓣电影排行榜",
+          "url": "https://movie.douban.com/chart",
+          "icon": "https://img1.doubanio.com/favicon.ico",
+          "desc": "基于豆瓣用户评分和行为数据生成的电影榜单。",
+          "proxy": false
+        },
+        {
+          "title": "IMDb",
+          "url": "http://www.imdb.com/?ref_=nv_home",
+          "icon": "data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22%3E%3Ctext y=%22.9em%22 font-size=%2290%22%3E🌐%3C/text%3E%3C/svg%3E",
+          "desc": "全球最权威的电影、电视和名人信息数据库。",
+          "proxy": false
+        },
+        {
+          "title": "IMDB TOP250",
+          "url": "https://www.imdb.com/chart/top",
+          "icon": "https://m.media-amazon.com/images/G/01/imdb/images-ANDW73HA/favicon_desktop_32x32._CB1582158068_.png",
+          "desc": "全球权威的电影数据库，展示评分最高的250部电影。",
+          "proxy": true
+        },
+        {
+          "title": "烂番茄",
+          "url": "https://www.rottentomatoes.com/",
+          "desc": "国外影评网站，安装了广告拦截插件无法用",
+          "icon": "https://www.rottentomatoes.com/assets/pizza-pie/images/favicon.ico",
+          "proxy": true
+        },
+        {
+          "title": "好莱坞电影手册",
+          "url": "https://moviesoon.com/",
+          "desc": "提供最新的好莱坞电影资讯和预告片。",
+          "icon": "https://moviesoon.com/favicon.ico",
+          "proxy": true
+        },
+        {
+          "title": "预告片世界",
+          "url": "https://www.yugaopian.cn/",
+          "desc": "汇集国内外最新电影预告片的网站。",
+          "icon": "https://www.yugaopian.cn/wp-content/uploads/2024/04/p-10363737.png",
+          "proxy": false
+        },
+        {
+          "title": "香港电影评论学会",
+          "url": "https://www.filmcritics.org.hk/index.php",
+          "desc": "香港电影评论学会的官方网站，提供专业的影评和资讯。",
+          "icon": "https://www.filmcritics.org.hk/themes/custom/filmcritics/favicon.ico",
+          "proxy": false
+        },
+        {
+          "title": "环球网",
+          "url": "https://ent.huanqiu.com/movie/",
+          "desc": "环球网的电影频道，提供电影资讯和影评。",
+          "icon": "https://ent.huanqiu.com/favicon.ico",
+          "proxy": false
+        },
+        {
+          "title": "ACI中文字幕社区",
+          "url": "https://forum.chineseaci.com/",
+          "desc": "一个提供中文字幕下载和交流的论坛。",
+          "icon": "https://forum.chineseaci.com/favicon.ico",
+          "proxy": true
+        },
+        {
+          "title": "R3字幕網（繁体字幕）",
+          "url": "https://www.r3sub.com/",
+          "icon": "https://www.r3sub.com/favicon.ico",
+          "desc": "提供繁体中文字幕下载。",
+          "proxy": false
+        },
+        {
+          "title": "OpenSubtitles",
+          "url": "https://www.opensubtitles.org/en/search/subs",
+          "icon": "https://static.opensubtitles.org/favicon.ico",
+          "desc": "大型英文字幕下载站。",
+          "proxy": true
+        },
+        {
+          "title": "A7美剧字幕站",
+          "url": "https://www.addic7ed.com/",
+          "desc": "国外著名的英文字幕下载站，更新速度快。",
+          "icon": "https://www.addic7ed.com/favicon.ico",
+          "proxy": true
+        },
+        {
+          "title": "tlf中文字幕",
+          "url": "https://sub.eastgame.org/",
+          "desc": "TLF字幕组的字幕发布站点。",
+          "icon": "https://sub.eastgame.org/favicon.ico",
+          "proxy": false
+        },
+        {
+          "title": "纪录片之家字幕组",
+          "url": "http://www.jlpzj.net/forum.php",
+          "icon": "http://www.jlpzj.net/favicon.ico",
+          "desc": "纪录片爱好者的论坛和字幕分享社区。",
+          "proxy": false
+        },
+        {
+          "title": "波旁姐妹花字幕组",
+          "url": "http://www.orangesub.com/",
+          "icon": "http://www.orangesub.com/favicon.ico",
+          "desc": "主要翻译欧洲历史剧、纪录片。",
+          "proxy": true
+        },
+        {
+          "title": "光合作用园艺",
+          "url": "https://weibo.com/ghzyzmz",
+          "icon": "https://weibo.com/favicon.ico",
+          "desc": "专注翻译园艺题材的纪录片，微博发布。",
+          "proxy": false
+        },
+        {
+          "title": "配音网论坛",
+          "url": "https://www.peiyin.net/bbs/",
+          "icon": "https://www.peiyin.net/assets/logo.webp",
+          "desc": "影视配音资源论坛。",
+          "proxy": false
+        },
+        {
+          "title": "奇下载字幕",
+          "url": "https://www.qixiazai.com/",
+          "icon": "https://www.qixiazai.com/favicon.ico",
+          "desc": "字幕下载网站。",
+          "proxy": false
+        },
+        {
+          "title": "Moviesubtitles",
+          "url": "http://www.moviesubtitles.org/",
+          "icon": "https://www.moviesubtitles.org/favicon.ico",
+          "desc": "多语言字幕下载站，包含中文字幕。",
+          "proxy": false
+        },
+        {
+          "title": "Podnapisi.NET",
+          "url": "https://www.podnapisi.net/",
+          "icon": "https://www.podnapisi.net/static/favicon.ico",
+          "desc": "提供多语言字幕下载，包含中文字幕。",
+          "proxy": false
+        },
+        {
+          "title": "小白影视搜索教程",
+          "url": "https://www.yuque.com/eureka007/ziyuan/rnezaq",
+          "icon": "https://www.yuque.com/favicon.ico",
+          "desc": "语雀文档，教你如何寻找影视资源。",
+          "proxy": false
+        },
+        {
+          "title": "电影资源搜索攻略",
+          "url": "https://shimo.im/docs/3Gx6PcPRHQvgPd6W",
+          "icon": "https://as.smgv.cn/from_qbox/favicon.ico",
+          "desc": "石墨文档，分享了寻找电影资源的技巧和网站。",
+          "proxy": false
+        },
+        {
+          "title": "稳定永久免费看电视直播方案",
+          "url": "https://mp.weixin.qq.com/s/_1HVx3YNJOlLmtkPSX46-w",
+          "icon": "https://res.wx.qq.com/a/wx_fed/assets/res/NTI4MWU5.ico",
+          "desc": "👍提供多种稳定免费观看电视直播的APP和方法。",
+          "proxy": false
+        },
+        {
+          "title": "iOS稳定免费看VIP影视方案",
+          "url": "https://mp.weixin.qq.com/s/fh_tyrGkSEDEELs9HiG19w",
+          "icon": "https://res.wx.qq.com/a/wx_fed/assets/res/NTI4MWU5.ico",
+          "desc": "👍介绍在iOS设备上免费观看VIP影视的稳定方法。",
+          "proxy": false
+        },
+        {
+          "title": "RARBG全站380W资源备份",
+          "url": "https://flowus.cn/share/8b61bf4a-d647-4e08-ab78-896e7c072d8a?code=CZ3ECT",
+          "icon": "https://static.flowus.cn/logos/default.svg",
+          "desc": "👍提供原RARBG网站所有磁力链接的种子文件备份。",
+          "proxy": false
+        }
+      ]
+    },
+    {
+      "categoryName": "动漫资源与社区",
+      "categoryId": "anime-resources-community",
+      "sites": [
+        {
+          "title": "动漫花园同步站",
+          "url": "https://dongmanhuayuan.myheartsite.com/",
+          "icon": "https://dongmanhuayuan.myheartsite.com/favicon.ico",
+          "desc": "动漫花园的镜像站，解决原站访问不畅问题。",
+          "proxy": false
+        },
+        {
+          "title": "MioBT",
+          "url": "https://www.miobt.com/",
+          "icon": "https://www.miobt.com/favicon.ico",
+          "desc": "动漫BT下载资源站。",
+          "proxy": false
+        },
+        {
+          "title": "爱恋动漫",
+          "url": "https://www.kisssub.org/",
+          "icon": "https://www.kisssub.org/favicon.ico",
+          "desc": "动漫BT下载站和字幕组论坛。",
+          "proxy": false
+        },
+        {
+          "title": "猫漫动漫BT下载",
+          "url": "https://www.comicat.org/",
+          "icon": "https://www.comicat.org/favicon.ico",
+          "desc": "动漫BT下载资源发布站。",
+          "proxy": false
+        },
+        {
+          "title": "动漫国字幕组",
+          "url": "https://www.dmguo.org/forum.php",
+          "icon": "https://www.dmguo.org/favicon.ico",
+          "desc": "动漫BT下载论坛。",
+          "proxy": false
+        },
+        {
+          "title": "简单动漫",
+          "url": "https://www.36dm.org/",
+          "icon": "https://www.36dm.org/favicon.ico",
+          "desc": "动漫BT下载论坛。",
+          "proxy": false
+        },
+        {
+          "title": "诸神字幕组",
+          "url": "https://subs.kamigami.org/",
+          "desc": "知名的动漫字幕组，提供高质量的动漫字幕和熟肉资源。",
+          "icon": "https://subs.kamigami.org/wp-content/themes/a-supercms-3.9-pro/favicon.ico",
+          "proxy": false
+        },
+        {
+          "title": "幻樱字幕组",
+          "url": "https://www.hysub.net/",
+          "desc": "提供动漫字幕和资源下载。",
+          "proxy": false
+        },
+        {
+          "title": "梦蓝字幕组",
+          "url": "https://mlsub.net/",
+          "desc": "动漫字幕组发布站。",
+          "proxy": false
+        },
+        {
+          "title": "VCB-Studio分享论坛（ACG字幕）",
+          "url": "https://bbs.acgrip.com/",
+          "icon": "https://bbs.acgrip.com/favicon.ico",
+          "desc": "动漫（ACG）相关的字幕和资源分享论坛。",
+          "proxy": false
+        },
+        {
+          "title": "动漫图片和壁纸",
+          "url": "https://anime-pictures.net/",
+          "icon": "https://anime-pictures.net/favicon.ico",
+          "desc": "大型的动漫图片和壁纸库。",
+          "proxy": true
+        },
+        {
+          "title": "Konachan",
+          "url": "https://konachan.net/post/show/327058/akai_sashimi-animal-animal_ears-black_eyes-black_h",
+          "desc": "英文二次元壁纸站",
+          "icon": "https://konachan.net/favicon.ico",
+          "proxy": false
+        },
+        {
+          "title": "Gelbooru",
+          "url": "https://gelbooru.com/",
+          "desc": "英文二次元图片搜索引擎",
+          "icon": "https://gelbooru.com/favicon.png",
+          "proxy": false
+        },
+        {
+          "title": "Zerochan",
+          "url": "https://www.zerochan.net/",
+          "desc": "英文二次元高清壁纸",
+          "proxy": false
+        },
+        {
+          "title": "Shuushuu图像板",
+          "url": "https://e-shuushuu.net/",
+          "desc": "英文二次元图片站",
+          "icon": "https://e-shuushuu.net/special/favicon.ico",
+          "proxy": false
+        },
+        {
+          "title": "哔哩哔哩像薄",
+          "url": "https://h.bilibili.com/",
+          "desc": "哔哩哔哩官方的图片、插画、Cosplay分享社区。",
+          "icon": "https://h.bilibili.com/favicon.ico",
+          "proxy": false
+        },
+        {
+          "title": "萌图社",
+          "url": "https://moetu.club/",
+          "desc": "二次元动漫图片分享交流",
+          "icon": "https://moetu.club/wp-content/uploads/2019/06/cropped-icon-1-32x32.png",
+          "proxy": false
+        },
+        {
+          "title": "喵次元",
+          "url": "https://dimtown.com/",
+          "desc": "有COSPLAY、绘画插画、写作、3D游戏模型等多个频道",
+          "icon": "https://cci1.dimtown.com/uploads/2025/02/20250205153725576-32x32.png",
+          "proxy": false
+        },
+        {
+          "title": "二次元世界",
+          "url": "https://www.ecyacg.net/",
+          "desc": "专注于ACG内容的图片和资讯分享站。",
+          "icon": "https://www.ecyacg.net/wp-content/uploads/2019/04/ico.png",
+          "proxy": false
+        },
+        {
+          "title": "ACG17",
+          "url": "https://acg17.com/",
+          "desc": "一个宅向ACG资源信息分享站点",
+          "icon": "https://res.acg17.com/favicon-32x32.png",
+          "proxy": false
+        },
+        {
+          "title": "叽哩叽哩",
+          "url": "https://www.jiligame.com/homepage",
+          "desc": "一个综合性的ACG社区，包含游戏、动漫、插画等。",
+          "icon": "data:;base64,iVBORw0KGgo=",
+          "proxy": false
+        },
+        {
+          "title": "摸鱼网",
+          "url": "https://www.mooyuu.com/",
+          "desc": "面向二次元爱好者的插画、漫画分享社区。",
+          "icon": "https://www.mooyuu.com/favicon.ico",
+          "proxy": false
+        }
+      ]
+    },
+    {
+      "categoryName": "科技资讯与社区",
+      "categoryId": "tech-news-community",
+      "sites": [
+        {
+          "title": "IT之家",
+          "url": "https://www.ithome.com/",
+          "icon": "data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22%3E%3Ctext y=%22.9em%22 font-size=%2290%22%3E🌐%3C/text%3E%3C/svg%3E",
+          "desc": "提供最新的IT科技新闻和数码产品资讯。",
+          "proxy": false
+        },
+        {
+          "title": "36氪",
+          "url": "https://www.36kr.com/",
+          "icon": "data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22%3E%3Ctext y=%22.9em%22 font-size=%2290%22%3E🌐%3C/text%3E%3C/svg%3E",
+          "desc": "关注互联网创业的科技媒体，提供前沿商业和科技报道。",
+          "proxy": false
+        },
+        {
+          "title": "爱范儿",
+          "url": "https://www.ifanr.com/",
+          "icon": "data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22%3E%3Ctext y=%22.9em%22 font-size=%2290%22%3E🌐%3C/text%3E%3C/svg%3E",
+          "desc": "专注于消费科技领域的媒体，提供高品质的产品评测和行业洞察。",
+          "proxy": false
+        },
+        {
+          "title": "量子位",
+          "url": "https://www.qbitai.com/",
+          "icon": "data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22%3E%3Ctext y=%22.9em%22 font-size=%2290%22%3E🌐%3C/text%3E%3C/svg%3E",
+          "desc": "聚焦人工智能和前沿科技的专业媒体。",
+          "proxy": false
+        },
+        {
+          "title": "阮一峰的网络日志",
+          "url": "http://www.ruanyifeng.com/blog/",
+          "icon": "data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22%3E%3Ctext y=%22.9em%22 font-size=%2290%22%3E🌐%3C/text%3E%3C/svg%3E",
+          "desc": "知名技术博客，内容涵盖前后端技术、科技动态和个人思考。",
+          "proxy": false
+        },
+        {
+          "title": "酷安",
+          "url": "https://coolapk.com/",
+          "icon": "https://icon.horse/icon/coolapk.com",
+          "desc": "发现应用的乐趣，一个以搞机、应用分享和科技资讯为主的社区。",
+          "proxy": false
+        },
+        {
+          "title": "恩山无线论坛",
+          "url": "https://www.right.com.cn/forum/portal.php",
+          "icon": "https://www.right.com.cn/favicon.ico",
+          "desc": "国内知名的路由器、NAS、网络设备交流论坛。",
+          "proxy": false
+        },
+        {
+          "title": "人人都是产品经理",
+          "url": "https://www.woshipm.com/",
+          "icon": "data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22%3E%3Ctext y=%22.9em%22 font-size=%2290%22%3E🌐%3C/text%3E%3C/svg%3E",
+          "desc": "面向产品经理和互联网从业者的学习、交流和分享社区。",
+          "proxy": false
+        },
+        {
+          "title": "利用RSS实现纯净阅读（上）",
+          "url": "https://mp.weixin.qq.com/s/wQh3BdeJnKWab7Q331l54Q",
+          "icon": "https://res.wx.qq.com/a/wx_fed/assets/res/NTI4MWU5.ico",
+          "desc": "RSS入门，聚合信息，摆脱算法推荐。",
+          "proxy": false
+        },
+        {
+          "title": "Inoreader",
+          "url": "https://axu.lanzouj.com/iwqmE07gawmd",
+          "icon": "https://www.inoreader.com/favicon.ico",
+          "desc": "强大的全平台RSS服务和阅读器。",
+          "proxy": false
+        },
+        {
+          "title": "Fluent Reader Lite",
+          "url": "https://www.123865.com/s/bjcA-bk3g",
+          "icon": "https://www.123865.com/favicon.ico",
+          "desc": "一款美观、跨平台的RSS阅读器。",
+          "proxy": false
+        },
+        {
+          "title": "FeedMe",
+          "url": "https://url67.ctfile.com/f/14869667-1433640400-91369b?p=kyon",
+          "icon": "https://www.ctfile.com/favicon.ico",
+          "desc": "安卓端功能强大的RSS阅读器。",
+          "proxy": false
+        },
+        {
+          "title": "苹果 (Apple)",
+          "url": "https://www.apple.com/",
+          "icon": "https://www.apple.com/favicon.ico",
+          "desc": "全球知名的科技公司，设计和销售消费电子产品、软件和在线服务。",
+          "proxy": true
+        },
+        {
+          "title": "谷歌 (Google)",
+          "url": "https://about.google/",
+          "icon": "https://www.gstatic.com/marketing-cms/assets/images/d9/02/e128911b499e9d8de33f9117beee/googleg-standard-color-120dp.png=s32",
+          "desc": "全球领先的搜索引擎和技术公司，隶属于Alphabet Inc.",
+          "proxy": true
+        },
+        {
+          "title": "微软 (Microsoft)",
+          "url": "https://www.microsoft.com/",
+          "icon": "https://www.microsoft.com/favicon.ico?v2",
+          "desc": "全球领先的软件、服务、设备和解决方案提供商。",
+          "proxy": true
+        },
+        {
+          "title": "华为",
+          "url": "https://www.huawei.com/",
+          "icon": "https://www.huawei.com/-/media/htemplate-home/1.0.1.20250628153038/components/assets/img/favicon-logo.svg",
+          "desc": "全球领先的ICT基础设施和智能终端提供商。",
+          "proxy": false
+        },
+        {
+          "title": "阿里巴巴",
+          "url": "https://www.alibabagroup.com/",
+          "icon": "https://static.alibabagroup.com/static/favicon.ico",
+          "desc": "中国领先的电子商务及技术公司，业务涵盖电商、金融、物流、云计算等。",
+          "proxy": false
+        },
+        {
+          "title": "腾讯",
+          "url": "https://www.tencent.com/",
+          "icon": "https://www.tencent.com/favicon.ico",
+          "desc": "中国领先的互联网增值服务提供商，拥有微信、QQ、游戏等核心业务。",
+          "proxy": false
+        },
+        {
+          "title": "字节跳动",
+          "url": "https://www.bytedance.com/",
+          "icon": "data:image/vnd.microsoft.icon;base64,iVBORw0KGgoAAAANSUhEUgAAASwAAAEsCAMAAABOo35HAAACFlBMVEUAAACp3f8yW7U8jf8zW7U/3vJA5P8AydMzW7VPlP955908jP8AydM8jf8yWrV5590yWrV45908jf8yW7UyW7UyW7V55909jf88jf8yW7UzW7V56N49jf80XLY+j/80XbY/lf8zZr5Ilf9GXbkA2+RCY70zZsx459x5590AydI8jP8AydN4590AydM8jf8AydM8jf88jf94590AyNM8jf8AydN5590AydM8jf8AyNIAytR5594zW7V56N09jf955948jf8AydMAytN65948jf956N56594AytMAy9Q9jv976d8AytYAy9Z66N566uE/jv8AztUAy9cAytV56OSD798A0NYAydM8jP95590yW7R45twAydN45909jP8yWrU8jf945t0AydIyWrV5590AydIyW7UzWrU8jf8AydIzW7UzWrV459145908jf8yW7UAydM8jP8AydM8jf9459155909jf8zW7UAydQAytMAydN56N0AydMzXLYAydM0W7UAydQ8jv8+jv8Ay9QzW7Y9jf965t176N80W7YAydN56N156d4yW7U0XLc+jv8+kP8Ay9VAj/81XbgAzNQ1XbY5XbZAkf9+7eQ7Yrp96+FDlv+F6emI/+4AydN55t15594AydM+jf8+jf8+jv8AydQ1W7QzW7UAydR75942XbUyWrR86OCA8uYAztqA8eN45twyWrQAyNI8jP8bed+KAAAArnRSTlMAAfb9+wUD8HMJ/fr59+jb1dTLt6eamY+Jg3xXTkhHOhIRDQsJBwX59vbr4+Dc1tXRxcC7ubSqoJuak5CKiIN+enlyb21lXVFEQj09NzAnJiQdGBUPDvzx8O/s6Obl397OzsvIyMXEwcG/vbiysbGuqqeknZSTkI2Gf3ZraGViX15YWFVTUk9OS0pEQUA8MzAtLSomHx4bGhkXCwfApKCAdGdjXlxaWTY0MyEUFBKNTPVmAAAFHElEQVR42uzX105UYRSG4YUyiCgqKvbeK3ZFsaCCXUHE3kvU2FvU2EussfcSY2KiiSUDc4fuTcl/xr8/ZuZk7/e9g/UcfcuIiIiIiIiIiIiIiMhf7wFDPxlFKx1UdunBX6NoWGEHqp40GnmwXCWHlzz9YuTBck2cvWzdVyMPlmtSAJYy8mE5sJPXNhYYebBcO06tBMyP5do1v3aTkcPytedb7R8jh+Vr2sVVHyzxpaMXfEZbLNGltcqqHjba8LGWzNJyJdZUeHTws/GWvNJ61hTW5cSQkRMsWXUWqxWsX/HvJC2xTmK5dp4pfp0UsCywXL3633hrCShrLAd2653FvBxgufaV//xoMS5HWK4+5fdHW0zLJZYDu/wolmC5xXIVHlocv6GfcyxX/IZ+HrHiN/TziuWGvsWiLLCULBaBBVZLYAmBJQSWEFhCYAmBJQSWEFhCYAmBJQSWEFhCYAmBJQSWEFhCYAmBJQSWEFhCYAmBJQSWEFhCYAmBJQSWEFhCYAmBJQSWEFhCYAmBJQSWEFhCYAmBJQSWEFhCYAmBJQSWEFhCYAmBJQSWEFhCYAmBJQSWEFhCYOW1erCitfn2gqnNYPlruLdwenMQWJ7+rV40I3QCy9PWx1cOhkZgeRq35uqRbYEPWD6o9d+P9wxxwOq41IblcyaHMGB1XNHLFfO6hShgeXpz/WwLFFie6m+e3x1igBVlmgeB5anhV+s0B8tX2zQHK0rB8WCBZQYWWGCBBRZYYIEFFlhggQUWWGCBBRZYYIGVZKyKgcNGmYEVCSuTyXTtO2jEGLCiYYX1mLV0bXewfFiu0qPVz1NgebEc2NzqF0Vg+bBc20/XvCoAy4flmnKupg4sL5Zr74UfdWB5sVz7K++8B8theauovPsZLIflbWYw9MGKiNU+9MGKlBv6YEWvFCwhsMACCyywwAILLLDAAgsssMACCyywwAILLLDAAgsssMACCyywwAILLLDAAgscssMACCyywwAILLLDAAgsssMACCyywwAILLLDAAgsssMD6325d7cQVhWEY/ocWn9JSoO5GhTqlSo2Wurt72qbu3lRwgruEQCCBE+6RHQ7YR7DWP8OeWSHvewnPwZcPLLDAAgsssMACCyywwAILLLDAAgsssMACCyywwAILLLCmGtbhHclg+Vimkk4f2r4OLLEu8dS3Z2Gw7Ft1/OvjMFj2Xan48uAqWAqwY3s2g6Xo4r/dG8FSdKF/5wawFJ3/9e4WWIoaf7xJBsu+UJ139MHyszr6YKmOfncYLM3RB0sRWGDZBBZYYIEFFlhggQUWWGBFgpWQBZYd1PMFS9cIWMamP5lfvVq8wDJAPdy3eKV4gWVo1ufy5eIFlhigcv6PQoFlwLqbM9AmXmAZsDKyfzeLX6BY6U/FJjexMrJ/NolfoFjTZs9bkipWuYd143VKQ0iiyh5qy9xFK8Q6t7ASslKGfKiAsTZ9KlkmqtzB8q95DLDu7frbIXEvIiz/mscC6877Py3iRJFg+dc8cKz1b/vOiTPprdJk0hsH6tWRenEqpVTmx9JhkeCxruX31obEtRRQM+csvCTq9Fgz8g/WJImLWULl9RS3ijo9VvrW/SdSxdUsoG4XHD0rgRb3az45WDcLitRQ+uJ+zaPHuv6y6ExsRjbu1zw6rLUvvg+6ObKqgsfK3XbgZKKQESv3UWFVl5ARK+1+YWWnkBkrc2/ZZaGJG7vmZC7vQ3G7EBERERERERERERER0dRtBK5Q857p1uutAAAAAElFTkSuQmCC",
+          "desc": "旗下拥有今日头条、抖音、TikTok等多款知名产品的科技公司。",
+          "proxy": false
+        },
+        {
+          "title": "阿里达摩院",
+          "url": "https://damo.alibaba.com/",
+          "icon": "https://img.alicdn.com/tfs/TB11wf2XwDqK1RjSZSyXXaxEVXa-64-64.png",
+          "desc": "阿里巴巴集团的基础科学和颠覆式技术创新研究机构。",
+          "proxy": false
+        },
+        {
+          "title": "百度大脑",
+          "url": "https://ai.baidu.com/",
+          "icon": "https://ai.baidu.com/favicon.ico",
+          "desc": "百度AI核心技术引擎，全面开放AI能力，赋能各行各业。",
+          "proxy": false
+        },
+        {
+          "title": "商汤科技",
+          "url": "https://www.sensetime.com/",
+          "icon": "https://static.sensetime.com/images/st_logo_ico.png",
+          "desc": "全球领先的人工智能软件公司，专注于计算机视觉和深度学习。",
+          "proxy": false
+        },
+        {
+          "title": "旷视科技 (Megvii)",
+          "url": "https://www.megvii.com/",
+          "icon": "https://cdnstatic.megvii.com/websiteFE/static/img/common/favicon.a89de837.ico",
+          "desc": "业界领先的人工智能产品和解决方案公司，聚焦物联网场景。",
+          "proxy": false
+        }
+      ]
+    },
+    {
+      "categoryName": "实用工具与浏览器扩展",
+      "categoryId": "utilities-browser-extensions",
+      "sites": [
+        {
+          "title": "极简插件",
+          "url": "https://chrome.zzzmh.cn/",
+          "icon": "https://chrome.zzzmh.cn/favicon.ico",
+          "desc": "严选有趣、实用、适合国内的Chrome扩展插件，可直接下载。",
+          "proxy": false
+        },
+        {
+          "title": "Tampermonkey",
+          "url": "https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo",
+          "icon": "https://chrome.google.com/chrome/static/images/favicons/favicon.ico",
+          "desc": "一款免费的浏览器扩展和最为流行的用户脚本管理器。",
+          "proxy": true
+        },
+        {
+          "title": "Greasy Fork",
+          "url": "https://greasyfork.org/zh-CN",
+          "icon": "https://greasyfork.org/vite/assets/blacklogo16-DftkYuVe.png",
+          "desc": "最受欢迎的油猴脚本资源库。",
+          "proxy": false
+        },
+        {
+          "title": "上网必学之网页广告拦截教程",
+          "url": "https://mp.weixin.qq.com/s/USvQbx7AwyEVkMDTPnzbQA",
+          "icon": "https://res.wx.qq.com/a/wx_fed/assets/res/NTI4MWU5.ico",
+          "desc": "👍详细教程，教你如何配置广告拦截规则，享受清爽的上网体验。",
+          "proxy": false
+        },
+        {
+          "title": "猫抓",
+          "url": "https://github.com/xifangczy/cat-catch",
+          "icon": "https://github.githubassets.com/favicons/favicon.svg",
+          "desc": "Chrome媒体嗅探插件，可以方便地下载网页上的视频、音频等资源。",
+          "proxy": false
+        },
+        {
+          "title": "图片助手(ImageAssistant)",
+          "url": "https://www.pullywood.com/ImageAssistant/",
+          "icon": "https://www.pullywood.com/favicon.ico",
+          "desc": "一款用于嗅探、分析、批量下载网页图片的浏览器扩展程序。",
+          "proxy": false
+        },
+        {
+          "title": "豆瓣资源下载大师",
+          "url": "https://greasyfork.org/scripts/329484",
+          "icon": "https://greasyfork.org/vite/assets/blacklogo16-DftkYuVe.png",
+          "desc": "油猴脚本，快速查找豆瓣电影、音乐、图书的下载资源。",
+          "proxy": false
+        },
+        {
+          "title": "天翼云盘跳过客户端下载",
+          "url": "https://greasyfork.org/zh-CN/scripts/423898",
+          "icon": "https://greasyfork.org/vite/assets/blacklogo16-DftkYuVe.png",
+          "desc": "油猴脚本，可以直接下载天翼云盘的文件，无需安装客户端。",
+          "proxy": false
+        },
+        {
+          "title": "GitHub加速",
+          "url": "https://chrome.google.com/webstore/detail/github加速/mfnkflidjnladnkldfonnaicljppahpg?utm_source=chrome-ntp-icon",
+          "icon": "https://chrome.google.com/chrome/static/images/favicons/favicon.ico",
+          "desc": "提高中国开发者访问GitHub的速度，提升克隆Git仓库的速度。",
+          "proxy": true
+        },
+        {
+          "title": "Gopeed",
+          "url": "https://gopeed.com/zh-CN",
+          "icon": "https://icon.horse/icon/gopeed.com",
+          "desc": "一款开源、跨平台、轻量级的高速下载器，支持HTTP、BT、磁力等协议。",
+          "proxy": false
+        },
+        {
+          "title": "百度云／百度网盘高速下载教程",
+          "url": "https://flowus.cn/share/8423ce0d-88c8-4804-b259-ce6d192cc0b4?code=CZ3ECT",
+          "icon": "https://static.flowus.cn/logos/default.svg",
+          "desc": "汇总多种百度网盘不限速下载的方法和工具。",
+          "proxy": false
+        },
+        {
+          "title": "Adobe 全家桶 (by vposy)",
+          "url": "https://www.423down.com",
+          "icon": "https://www.423down.com/wp-content/themes/D7/img/favicon.ico",
+          "desc": "由@vposy大神整理的 Adobe 全家桶系列，包含2020、2021等多个版本及Mac版，安全稳定。原HTML内所有Adobe资源均出自此处。",
+          "proxy": false
+        },
+        {
+          "title": "剪映桌面版",
+          "url": "https://lv.ulikecam.com/",
+          "icon": "https://lf3-s.vlabstatic.com/obj/vilab-static/ies/ulike/web/resource/fe_official/assets/imgs/lv/favicon.ico",
+          "desc": "字节跳动出品的免费视频剪辑软件，功能强大，易于上手。",
+          "proxy": false
+        },
+        {
+          "title": "Figma",
+          "url": "https://www.figma.com/",
+          "icon": "https://static.figma.com/app/icon/1/favicon.png",
+          "desc": "强大的在线UI设计和协作工具。",
+          "proxy": true
+        },
+        {
+          "title": "PicsArt",
+          "url": "https://www.yuque.com/docs/share/cee4d3db-c0cc-4fd2-993e-022d3cf3b6d3",
+          "icon": "https://www.yuque.com/favicon.ico",
+          "desc": "提供PicsArt、VSCO等热门手机修图、滤镜应用的修改版或高级版资源。",
+          "proxy": false
+        },
+        {
+          "title": "Remove.bg",
+          "url": "https://www.remove.bg/zh",
+          "icon": "https://www.remove.bg/favicon-32x32.png?v=fc0bfce6e1310f1539afec9729716721",
+          "desc": "在线智能抠图工具，一键上传即可移除图片背景。",
+          "proxy": false
+        },
+        {
+          "title": "佐糖",
+          "url": "https://picwish.cn/",
+          "icon": "https://qncdn.aoscdn.com/astro/picwish/_astro/favicon@30w.61721eae.png",
+          "desc": "在线AI抠图和图片处理工具，可免费下载2K分辨率图片。",
+          "proxy": false
+        },
+        {
+          "title": "图片去水印",
+          "url": "https://www.yuque.com/docs/share/37116960-7825-4a0b-8615-f2bf48f0a05b",
+          "icon": "https://www.yuque.com/favicon.ico",
+          "desc": "介绍使用软件（如Inpaint）或在线工具去除图片水印的技巧。",
+          "proxy": false
+        },
+        {
+          "title": "聚合图床",
+          "url": "https://www.superbed.cn/",
+          "icon": "https://www.superbed.cn/favicon.ico",
+          "desc": "免费图床，支持多家云存储，接口多，速度快。",
+          "proxy": false
+        },
+        {
+          "title": "遇见图床",
+          "url": "https://www.hualigs.cn/",
+          "icon": "https://icon.horse/icon/hualigs.cn",
+          "desc": "稳定、快速的免费图床服务，支持多种图片上传和外链分享。",
+          "proxy": false
+        },
+        {
+          "title": "Lively Wallpaper",
+          "url": "https://rocksdanister.github.io/lively/",
+          "icon": "https://rocksdanister.github.io/favicon_io/favicon.ico",
+          "desc": "免费版的Wallpaper Engine，可自定义动态桌面。",
+          "proxy": false
+        },
+        {
+          "title": "Potplayer+MADVR最强画质教程",
+          "url": "https://www.hangge.com/blog/cache/detail_1461.html",
+          "icon": "https://www.hangge.com/favicon.ico",
+          "desc": "实现PC视频播放最强画质的教程。",
+          "proxy": false
+        },
+        {
+          "title": "单文件制作程序",
+          "url": "https://www.yuque.com/docs/share/895fe50e-0834-4c41-b68a-c085d3792f0f",
+          "icon": "https://www.yuque.com/favicon.ico",
+          "desc": "介绍如何将一个程序及其依赖文件打包成单个可执行文件的工具，如Cameyo。",
+          "proxy": false
+        },
+        {
+          "title": "图种",
+          "url": "https://www.yuque.com/docs/share/daec6e32-4ba7-41f1-90cb-f3f661bb0e12",
+          "icon": "https://www.yuque.com/favicon.ico",
+          "desc": "介绍“图种”的制作和使用方法，实现图片和文件的巧妙结合。",
+          "proxy": false
+        },
+        {
+          "title": "图片去重",
+          "url": "https://www.yuque.com/docs/share/f540e0b7-7481-4455-a88c-de075d74e089",
+          "icon": "https://www.yuque.com/favicon.ico",
+          "desc": "提供查找和删除电脑中重复或相似图片的工具，释放存储空间。",
+          "proxy": false
+        },
+        {
+          "title": "拼图",
+          "url": "https://www.yuque.com/docs/share/7d309a92-8d62-444c-9987-035aaac741ee",
+          "icon": "https://www.yuque.com/favicon.ico",
+          "desc": "推荐用于将多张图片拼接成一张的电脑软件和手机应用。",
+          "proxy": false
+        },
+        {
+          "title": "MSDN, I Tell You",
+          "url": "https://msdn.itellyou.cn/",
+          "icon": "https://icon.horse/icon/itellyou.cn",
+          "desc": "知名的微软操作系统及软件镜像下载站，提供纯净的官方系统镜像。",
+          "proxy": false
+        },
+        {
+          "title": "清华大学开源软件镜像站",
+          "url": "https://mirrors.tuna.tsinghua.edu.cn/",
+          "icon": "https://icon.horse/icon/tsinghua.edu.cn",
+          "desc": "提供各类开源软件、操作系统及Linux发行版的镜像下载服务。",
+          "proxy": false
+        },
+        {
+          "title": "阿里云官方镜像站",
+          "url": "https://developer.aliyun.com/mirror/",
+          "icon": "https://icon.horse/icon/aliyun.com",
+          "desc": "阿里巴巴提供的开源镜像站，下载速度快，资源丰富。",
+          "proxy": false
+        }
+      ]
+    },
+    {
+      "categoryName": "古籍、期刊与百科",
+      "categoryId": "references-wikis-periodicals",
+      "sites": [
+        {
+          "title": "维基百科",
+          "url": "https://zh.wikipedia.org/zh-cn/",
+          "icon": "data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22%3E%3Ctext y=%22.9em%22 font-size=%2290%22%3E🌐%3C/text%3E%3C/svg%3E",
+          "desc": "全球性的多语言网络百科全书，内容由志愿者共同编辑。",
+          "proxy": false
+        },
+        {
+          "title": "萌娘百科",
+          "url": "https://zh.moegirl.org/Mainpage",
+          "icon": "data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22%3E%3Ctext y=%22.9em%22 font-size=%2290%22%3E🌐%3C/text%3E%3C/svg%3E",
+          "desc": "一个以ACGN文化为主题的在线百科全书。",
+          "proxy": false
+        },
+        {
+          "title": "全历史",
+          "url": "https://www.allhistory.com/",
+          "icon": "data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22%3E%3Ctext y=%22.9em%22 font-size=%2290%22%3E🌐%3C/text%3E%3C/svg%3E",
+          "desc": "以AI知识图谱为核心，通过时间地图、关系图谱等方式展现历史。",
+          "proxy": false
+        },
+        {
+          "title": "国家古籍数字化资源总平台",
+          "url": "https://www.guji.cn/",
+          "icon": "https://www.guji.cn/favicon.ico",
+          "desc": "汇集全国古籍资源的官方平台。",
+          "proxy": false
+        },
+        {
+          "title": "书格（古籍）",
+          "url": "https://new.shuge.org/",
+          "icon": "https://www.shuge.org/wp-content/uploads/2018/06/shugeorg-icon.png",
+          "desc": "一个自由开放的古籍影像图书馆。",
+          "proxy": false
+        },
+        {
+          "title": "识典古籍",
+          "url": "https://www.shidianguji.com/",
+          "icon": "https://www.shidianguji.com/favicon.ico",
+          "desc": "字节跳动公益出品的古籍数字化平台。",
+          "proxy": false
+        },
+        {
+          "title": "中国哲学书电子化计划",
+          "url": "https://ctext.org/zhs",
+          "icon": "https://ctext.org/favicon.ico",
+          "desc": "提供先秦两汉以来的历代中文文献资料库，可免费浏览。",
+          "proxy": false
+        },
+        {
+          "title": "国学导航",
+          "url": "http://www.guoxue123.com/index.htm",
+          "icon": "http://www.guoxue123.com/favicon.ico",
+          "desc": "全面的国学古籍资源网站导航。",
+          "proxy": false
+        },
+        {
+          "title": "中华古籍资源库",
+          "url": "http://read.nlc.cn/thematDataSearch/toGujiIndex",
+          "icon": "http://read.nlc.cn/favicon.ico",
+          "desc": "国家图书馆的古籍在线阅读平台。",
+          "proxy": false
+        },
+        {
+          "title": "中国古典文献资源导航系统",
+          "url": "https://www.wenxianxue.cn/",
+          "icon": "https://www.wenxianxue.cn/favicon.ico",
+          "desc": "汇集各大图书馆和机构的古典文献数据库。",
+          "proxy": false
+        },
+        {
+          "title": "苏州图书馆古籍库",
+          "url": "https://fzk.szlib.com/pc/",
+          "icon": "https://fzk.szlib.com/favicon.ico",
+          "desc": "苏州图书馆馆藏古籍的数字化查阅平台。",
+          "proxy": false
+        },
+        {
+          "title": "古籍館",
+          "url": "https://www.gujiguan.com/#/",
+          "icon": "https://www.gujiguan.com/favicon.ico",
+          "desc": "提供古籍在线阅读和检索。",
+          "proxy": false
+        },
+        {
+          "title": "台湾师大图书馆－寒泉",
+          "url": "http://skqs.lib.ntnu.edu.tw/dragon/",
+          "icon": "https://skqs.lib.ntnu.edu.tw/favicon.ico",
+          "desc": "台湾师范大学的汉学相关数据库。",
+          "proxy": false
+        },
+        {
+          "title": "博闻书坊",
+          "url": "https://bwsf.cc/?aff=c90aa36ab0397e94",
+          "icon": "https://bwsf.cc/favicon.ico",
+          "desc": "👍提供中外知名杂志、报纸、漫画、有声书下载，收费。",
+          "proxy": false
+        },
+        {
+          "title": "参考网",
+          "url": "https://www.fx361.com/",
+          "icon": "https://www.fx361.com/favicon.ico",
+          "desc": "综合性资讯和文章阅读网站，内容丰富。",
+          "proxy": false
+        },
+        {
+          "title": "期刊杂志",
+          "url": "http://new-qk.lifves.com/wap.php",
+          "icon": "http://new-qk.lifves.com/favicon.ico",
+          "desc": "在线期刊杂志阅读。",
+          "proxy": false
+        },
+        {
+          "title": "杂志天下",
+          "url": "https://www.fuyoutech.club/",
+          "icon": "https://www.fuyoutech.club/favicon.ico",
+          "desc": "在线杂志阅读网站。",
+          "proxy": false
+        },
+        {
+          "title": "杂志报纸大全",
+          "url": "http://www.53bk.com/baokan/",
+          "icon": "http://www.53bk.com/favicon.ico",
+          "desc": "在线报刊杂志导航。",
+          "proxy": false
+        },
+        {
+          "title": "国家标准全文公开",
+          "url": "http://openstd.samr.gov.cn/bzgk/gb/index",
+          "icon": "data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22%3E%3Ctext y=%22.9em%22 font-size=%2290%22%3E🏗️%3C/text%3E%3C/svg%3E",
+          "desc": "官方平台，可在线观看国家标准规范，查询最新标准。",
+          "proxy": false
+        },
+        {
+          "title": "全国标准信息公共服务平台",
+          "url": "https://std.samr.gov.cn/",
+          "icon": "https://std.samr.gov.cn/favicon.ico",
+          "desc": "国家标准化管理委员会官方平台，可查询国家标准。",
+          "proxy": false
+        },
+        {
+          "title": "中国标准服务网",
+          "url": "https://www.cssn.net.cn/cssn/index",
+          "icon": "https://www.cssn.net.cn/favicon.ico",
+          "desc": "提供标准咨询和免费国标PDF下载。",
+          "proxy": false
+        }
+      ]
+    }
+  ]
+}

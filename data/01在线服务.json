@@ -1,100 +1,9 @@
 {
   "categories": [
     {
-      "categoryName": "文件处理与办公",
-      "categoryId": "file-processing-office",
+      "categoryName": "文件传输与网盘",
+      "categoryId": "file-transfer-cloud",
       "sites": [
-        {
-          "title": "iLovePDF",
-          "url": "https://www.ilovepdf.com/zh-cn",
-          "icon": "https://www.ilovepdf.com/img/favicons-pdf/favicon-32x32.png",
-          "desc": "强大的在线PDF工具集，文件限制100M，每天限4次。",
-          "proxy": false
-        },
-        {
-          "title": "Smallpdf",
-          "url": "https://smallpdf.com/cn",
-          "icon": "https://smallpdf.com/favicon.png",
-          "desc": "简洁易用的在线PDF处理工具，文件限制15M，每天限2次。",
-          "proxy": false
-        },
-        {
-          "title": "轻闪PDF",
-          "url": "https://lightpdf.cn/",
-          "icon": "https://qncdn.aoscdn.com/astro/lightpdf/_astro/favicon@48w.1f86f507.png",
-          "desc": "傲软旗下的在线PDF转换和编辑工具集。",
-          "proxy": false
-        },
-        {
-          "title": "PDF24 Tools",
-          "url": "https://tools.pdf24.org/zh/",
-          "icon": "https://tools.pdf24.org/static/img/favicon.png",
-          "desc": "免费且易于使用的在线PDF工具箱。",
-          "proxy": false
-        },
-        {
-          "title": "Adobe在线PDF转换",
-          "url": "https://www.adobe.com/tw/acrobat/online/convert-pdf.html",
-          "icon": "https://www.adobe.com/favicon.ico",
-          "desc": "Adobe官方在线PDF工具，支持多种格式转换（小于100MB）。",
-          "proxy": true
-        },
-        {
-          "title": "Remove.bg",
-          "url": "https://www.remove.bg/zh",
-          "icon": "https://www.remove.bg/favicon-32x32.png?v=fc0bfce6e1310f1539afec9729716721",
-          "desc": "在线智能抠图工具，一键上传即可移除图片背景。",
-          "proxy": false
-        },
-        {
-          "title": "PicWish",
-          "url": "https://picwish.cn/",
-          "icon": "https://qncdn.aoscdn.com/astro/picwish/_astro/favicon@30w.61721eae.png",
-          "desc": "免费的在线抠图、图片编辑工具。",
-          "proxy": false
-        },
-        {
-          "title": "waifu2x",
-          "url": "https://waifu2x.udp.jp/index.zh-CN.html",
-          "icon": "https://waifu2x.udp.jp/favicon.ico",
-          "desc": "对图片进行放大和降噪，效果很好，尤其适合动漫图片。",
-          "proxy": false
-        },
-        {
-          "title": "Bigjpg",
-          "url": "https://bigjpg.com/",
-          "icon": "https://bigjpg.com/htdocs/favicon.ico",
-          "desc": "使用AI对图片进行无损放大。",
-          "proxy": false
-        },
-        {
-          "title": "tinypng",
-          "url": "https://tinypng.com/",
-          "icon": "https://tinypng.com/images/favicon.ico",
-          "desc": "智能的PNG和JPEG图片在线压缩工具。",
-          "proxy": false
-        },
-        {
-          "title": "Picdiet",
-          "url": "https://www.picdiet.com/zh-cn",
-          "icon": "https://www.picdiet.com/css/favicon.ico",
-          "desc": "强大的在线图片压缩工具，可预览结果，无数量限制。",
-          "proxy": false
-        },
-        {
-          "title": "iLoveIMG",
-          "url": "https://www.iloveimg.com/zh-cn",
-          "icon": "https://www.iloveimg.com/img/favicons-img/favicon-16x16.png",
-          "desc": "功能全面的在线图片处理工具，能批量压缩、转换格式等。",
-          "proxy": false
-        },
-        {
-          "title": "sm.ms 图床",
-          "url": "https://sm.ms/",
-          "icon": "https://sm.ms/favicon.ico",
-          "desc": "简单、快速、稳定的免费图床服务。",
-          "proxy": false
-        },
         {
           "title": "文叔叔",
           "url": "https://www.wenshushu.cn/",
@@ -117,17 +26,10 @@
           "proxy": false
         },
         {
-          "title": "钛盘",
-          "url": "https://app.tmp.link/",
-          "icon": "https://app.tmp.link/img/ico/favicon.ico",
-          "desc": "最大10G，需登录",
-          "proxy": false
-        },
-        {
-          "title": "轻松传",
-          "url": "https://easychuan.cn/",
-          "icon": "https://static.easychuan.cn/favicon.png",
-          "desc": "局域网文件传输工具，支持一对多传输。",
+          "title": "微信文件传输助手",
+          "url": "https://filehelper.weixin.qq.com/",
+          "icon": "https://res.wx.qq.com/a/wx_fed/assets/res/NTI4MWU5.ico",
+          "desc": "微信官方网页版文件传输助手，方便电脑和手机间互传文件。",
           "proxy": false
         },
         {
@@ -135,6 +37,13 @@
           "url": "https://www.sharedrop.io/",
           "icon": "https://www.sharedrop.io/assets/images/sharedrop-icon-273177f251fa14fe1911fc332d41373e.png",
           "desc": "网页版AirDrop，局域网内设备互传文件，支持多对一。",
+          "proxy": false
+        },
+        {
+          "title": "轻松传",
+          "url": "https://easychuan.cn/",
+          "icon": "https://static.easychuan.cn/favicon.png",
+          "desc": "局域网文件传输工具，支持一对多传输。",
           "proxy": false
         },
         {
@@ -152,10 +61,79 @@
           "proxy": false
         },
         {
-          "title": "微信文件传输助手",
-          "url": "https://filehelper.weixin.qq.com/",
-          "icon": "https://res.wx.qq.com/a/wx_fed/assets/res/NTI4MWU5.ico",
-          "desc": "微信官方网页版文件传输助手，方便电脑和手机间互传文件。",
+          "title": "钛盘",
+          "url": "https://app.tmp.link/",
+          "icon": "https://app.tmp.link/img/ico/favicon.ico",
+          "desc": "最大10G，需登录",
+          "proxy": false
+        },
+        {
+          "title": "百度解析",
+          "url": "https://bdpan.juyovo.com/#/index",
+          "icon": "https://bdpan.juyovo.com/favicon.ico",
+          "desc": "一个用于解析百度网盘链接以进行高速下载的在线工具。",
+          "proxy": false
+        },
+        {
+          "title": "天翼云盘解析",
+          "url": "https://189.ly93.cc/",
+          "icon": "https://icon.horse/icon/189.ly93.cc",
+          "desc": "提供天翼云盘文件链接解析，方便下载和转存。",
+          "proxy": false
+        }
+      ]
+    },
+    {
+      "categoryName": "PDF与文档处理",
+      "categoryId": "pdf-document-processing",
+      "sites": [
+        {
+          "title": "iLovePDF",
+          "url": "https://www.ilovepdf.com/zh-cn",
+          "icon": "https://www.ilovepdf.com/img/favicons-pdf/favicon-32x32.png",
+          "desc": "强大的在线PDF工具集，文件限制100M，每天限4次。",
+          "proxy": false
+        },
+        {
+          "title": "Smallpdf",
+          "url": "https://smallpdf.com/cn",
+          "icon": "https://smallpdf.com/favicon.png",
+          "desc": "简洁易用的在线PDF处理工具，文件限制15M，每天限2次。",
+          "proxy": false
+        },
+        {
+          "title": "PDF24 Tools",
+          "url": "https://tools.pdf24.org/zh/",
+          "icon": "https://tools.pdf24.org/static/img/favicon.png",
+          "desc": "免费且易于使用的在线PDF工具箱。",
+          "proxy": false
+        },
+        {
+          "title": "轻闪PDF",
+          "url": "https://lightpdf.cn/",
+          "icon": "https://qncdn.aoscdn.com/astro/lightpdf/_astro/favicon@48w.1f86f507.png",
+          "desc": "傲软旗下的在线PDF转换和编辑工具集。",
+          "proxy": false
+        },
+        {
+          "title": "Adobe在线PDF转换",
+          "url": "https://www.adobe.com/tw/acrobat/online/convert-pdf.html",
+          "icon": "https://www.adobe.com/favicon.ico",
+          "desc": "Adobe官方在线PDF工具，支持多种格式转换（小于100MB）。",
+          "proxy": true
+        },
+        {
+          "title": "Convertio",
+          "url": "https://convertio.co/zh/",
+          "icon": "https://convertio.co/favicon.ico",
+          "desc": "万能在线文件转换器，支持300多种文件格式间的转换。",
+          "proxy": false
+        },
+        {
+          "title": "CloudConvert",
+          "url": "https://cloudconvert.com/",
+          "icon": "https://cloudconvert.com/images/logo_flat_32.png",
+          "desc": "支持超过200种格式的在线文件转换器，包括文档、图片、视频等。",
           "proxy": false
         },
         {
@@ -171,6 +149,26 @@
           "icon": "https://cdn-v2.tool.dute.me/assets/images/web/favicon.ico",
           "desc": "在线比对两个文本文档的差异，并高亮显示不同之处。",
           "proxy": false
+        }
+      ]
+    },
+    {
+      "categoryName": "图片编辑与处理",
+      "categoryId": "image-editing-processing",
+      "sites": [
+        {
+          "title": "Remove.bg",
+          "url": "https://www.remove.bg/zh",
+          "icon": "https://www.remove.bg/favicon-32x32.png?v=fc0bfce6e1310f1539afec9729716721",
+          "desc": "在线智能抠图工具，一键上传即可移除图片背景。",
+          "proxy": false
+        },
+        {
+          "title": "PicWish",
+          "url": "https://picwish.cn/",
+          "icon": "https://qncdn.aoscdn.com/astro/picwish/_astro/favicon@30w.61721eae.png",
+          "desc": "免费的在线抠图、图片编辑工具。",
+          "proxy": false
         },
         {
           "title": "Photopea",
@@ -180,10 +178,17 @@
           "proxy": false
         },
         {
-          "title": "CloudConvert",
-          "url": "https://cloudconvert.com/",
-          "icon": "https://cloudconvert.com/images/logo_flat_32.png",
-          "desc": "支持超过200种格式的在线文件转换器，包括文档、图片、视频等。",
+          "title": "在线PS",
+          "url": "https://ps.gaoding.com/",
+          "icon": "https://ps.gaoding.com/favicon.ico",
+          "desc": "网页版的Photoshop，功能强大。",
+          "proxy": false
+        },
+        {
+          "title": "tinypng",
+          "url": "https://tinypng.com/",
+          "icon": "https://tinypng.com/images/favicon.ico",
+          "desc": "智能的PNG和JPEG图片在线压缩工具。",
           "proxy": false
         },
         {
@@ -194,17 +199,45 @@
           "proxy": false
         },
         {
-          "title": "Convertio",
-          "url": "https://convertio.co/zh/",
-          "icon": "https://convertio.co/favicon.ico",
-          "desc": "万能在线文件转换器，支持300多种文件格式间的转换。",
+          "title": "Picdiet",
+          "url": "https://www.picdiet.com/zh-cn",
+          "icon": "https://www.picdiet.com/css/favicon.ico",
+          "desc": "强大的在线图片压缩工具，可预览结果，无数量限制。",
+          "proxy": false
+        },
+        {
+          "title": "waifu2x",
+          "url": "https://waifu2x.udp.jp/index.zh-CN.html",
+          "icon": "https://waifu2x.udp.jp/favicon.ico",
+          "desc": "对图片进行放大和降噪，效果很好，尤其适合动漫图片。",
+          "proxy": false
+        },
+        {
+          "title": "Bigjpg",
+          "url": "https://bigjpg.com/",
+          "icon": "https://bigjpg.com/htdocs/favicon.ico",
+          "desc": "使用AI对图片进行无损放大。",
+          "proxy": false
+        },
+        {
+          "title": "iLoveIMG",
+          "url": "https://www.iloveimg.com/zh-cn",
+          "icon": "https://www.iloveimg.com/img/favicons-img/favicon-16x16.png",
+          "desc": "功能全面的在线图片处理工具，能批量压缩、转换格式等。",
+          "proxy": false
+        },
+        {
+          "title": "sm.ms 图床",
+          "url": "https://sm.ms/",
+          "icon": "https://sm.ms/favicon.ico",
+          "desc": "简单、快速、稳定的免费图床服务。",
           "proxy": false
         }
       ]
     },
     {
-      "categoryName": "开发与设计",
-      "categoryId": "development-design",
+      "categoryName": "开发工具与社区",
+      "categoryId": "developer-tools-community",
       "sites": [
         {
           "title": "GitHub",
@@ -228,11 +261,11 @@
           "proxy": false
         },
         {
-          "title": "GitHub Proxy",
-          "url": "https://ghproxy.link/",
-          "icon": "https://ghproxy.link/favicon.ico",
-          "desc": "一个GitHub的代理服务，提升国内访问速度。",
-          "proxy": false
+          "title": "CodePen",
+          "url": "https://codepen.io/",
+          "icon": "https://cpwebassets.codepen.io/assets/favicon/favicon-aec34940f02971a0166299161b4ae71d7ae6f4e05445009778cb9f5442b0b170.ico",
+          "desc": "前端开发者的在线代码游乐场，可以实时预览HTML, CSS和JavaScript代码。",
+          "proxy": true
         },
         {
           "title": "在线工具",
@@ -256,6 +289,13 @@
           "proxy": false
         },
         {
+          "title": "Hoppscotch",
+          "url": "https://hoppscotch.io/",
+          "icon": "https://hoppscotch.io/favicon.ico",
+          "desc": "一个开源的API请求构建器，是Postman的轻量级网页替代品。",
+          "proxy": false
+        },
+        {
           "title": "Carbon",
           "url": "https://carbon.now.sh/",
           "icon": "https://carbon.now.sh/favicon.ico",
@@ -263,12 +303,18 @@
           "proxy": true
         },
         {
-          "title": "在线PS",
-          "url": "https://ps.gaoding.com/",
-          "icon": "https://ps.gaoding.com/favicon.ico",
-          "desc": "网页版的Photoshop，功能强大。",
+          "title": "GitHub Proxy",
+          "url": "https://ghproxy.link/",
+          "icon": "https://ghproxy.link/favicon.ico",
+          "desc": "一个GitHub的代理服务，提升国内访问速度。",
           "proxy": false
-        },
+        }
+      ]
+    },
+    {
+      "categoryName": "设计绘图与资源",
+      "categoryId": "design-drawing-resources",
+      "sites": [
         {
           "title": "ProcessOn",
           "url": "https://www.processon.com/",
@@ -298,39 +344,11 @@
           "proxy": false
         },
         {
-          "title": "中国色",
-          "url": "https://zhongguose.com/",
-          "icon": "https://zhongguose.com/img/favicon.ico",
-          "desc": "收集了各种中国传统色彩的名称和色值，点击即可复制。",
-          "proxy": false
-        },
-        {
-          "title": "草料二维码",
-          "url": "https://cli.im/",
-          "icon": "https://static.clewm.net/static/images/favicon.ico",
-          "desc": "专业的二维码在线生成和美化工具。",
-          "proxy": false
-        },
-        {
-          "title": "数字帝国",
-          "url": "https://zh.numberempire.com/",
-          "icon": "https://zh.numberempire.com/favicon.ico",
-          "desc": "一个强大的在线数学工具集合网站。",
-          "proxy": false
-        },
-        {
-          "title": "CodePen",
-          "url": "https://codepen.io/",
-          "icon": "https://cpwebassets.codepen.io/assets/favicon/favicon-aec34940f02971a0166299161b4ae71d7ae6f4e05445009778cb9f5442b0b170.ico",
-          "desc": "前端开发者的在线代码游乐场，可以实时预览HTML, CSS和JavaScript代码。",
+          "title": "Google Fonts",
+          "url": "https://fonts.google.com/",
+          "icon": "https://fonts.google.com/favicon.ico",
+          "desc": "一个包含大量开源字体的库，可免费用于个人和商业项目。",
           "proxy": true
-        },
-        {
-          "title": "Hoppscotch",
-          "url": "https://hoppscotch.io/",
-          "icon": "https://hoppscotch.io/favicon.ico",
-          "desc": "一个开源的API请求构建器，是Postman的轻量级网页替代品。",
-          "proxy": false
         },
         {
           "title": "Coolors",
@@ -340,11 +358,11 @@
           "proxy": false
         },
         {
-          "title": "Google Fonts",
-          "url": "https://fonts.google.com/",
-          "icon": "https://fonts.google.com/favicon.ico",
-          "desc": "一个包含大量开源字体的库，可免费用于个人和商业项目。",
-          "proxy": true
+          "title": "中国色",
+          "url": "https://zhongguose.com/",
+          "icon": "https://zhongguose.com/img/favicon.ico",
+          "desc": "收集了各种中国传统色彩的名称和色值，点击即可复制。",
+          "proxy": false
         },
         {
           "title": "SVGOMG",
@@ -356,91 +374,35 @@
       ]
     },
     {
-      "categoryName": "资源与下载",
-      "categoryId": "resources-downloads",
+      "categoryName": "资源搜索与下载",
+      "categoryId": "resources-search-download",
       "sites": [
         {
-          "title": "虫部落",
-          "url": "https://www.chongbuluo.com/",
-          "icon": "https://www.chongbuluo.com/favicon.ico",
-          "desc": "强大的聚合搜索引擎入口，帮你快速切换不同引擎找到所需信息。",
+          "title": "鸠摩搜索",
+          "url": "https://www.jiumodiary.com/",
+          "icon": "https://www.jiumodiary.com/favicon.ico",
+          "desc": "强大的电子书资源聚合搜索引擎，界面简洁无广告。",
           "proxy": false
         },
         {
-          "title": "Crx搜搜",
-          "url": "https://www.crxsoso.com/",
-          "icon": "https://www.crxsoso.com/favicon-32x32.png",
-          "desc": "👍Chrome、Edge、Firefox扩展插件搜索和下载。",
+          "title": "MSDN, I tell you",
+          "url": "https://msdn.itellyou.cn/",
+          "icon": "https://msdn.itellyou.cn/favicon.ico",
+          "desc": "一个非官方的MSDN镜像网站，提供Windows操作系统、Office等软件的ed2k链接。",
           "proxy": false
         },
         {
-          "title": "CrxDL.COM",
-          "url": "https://crxdl.com/",
-          "icon": "https://crxdl.com/image/favicon.ico",
-          "desc": "👍提供Chrome扩展程序的CRX文件下载。",
+          "title": "Unsplash",
+          "url": "https://unsplash.com/",
+          "icon": "https://unsplash.com/favicon.ico",
+          "desc": "全球最大的免费高质量摄影照片分享社区，图片可免费商用。",
           "proxy": false
         },
         {
-          "title": "极简插件",
-          "url": "https://chrome.zzzmh.cn/index",
-          "icon": "https://chrome.zzzmh.cn/favicon.ico",
-          "desc": "Chrome浏览器扩展插件下载站。",
-          "proxy": false
-        },
-        {
-          "title": "插件小屋",
-          "url": "https://www.chajianxw.com/",
-          "icon": "https://www.chajianxw.com/favicon.ico",
-          "desc": "Chrome扩展插件下载和推荐。",
-          "proxy": false
-        },
-        {
-          "title": "收藏猫插件",
-          "url": "https://chrome.pictureknow.com/",
-          "icon": "https://chrome.pictureknow.com/favicon.ico",
-          "desc": "Chrome插件下载站。",
-          "proxy": false
-        },
-        {
-          "title": "画夹插件",
-          "url": "https://huajiakeji.com/",
-          "icon": "https://huajiakeji.com/favicon.ico",
-          "desc": "Chrome插件下载站。",
-          "proxy": true
-        },
-        {
-          "title": "常用Crx离线安装包下载",
-          "url": "http://yurl.sinaapp.com/crx2.php",
-          "icon": "http://yurl.sinaapp.com/favicon.ico",
-          "desc": "提供常用Chrome扩展的离线安装包。",
-          "proxy": false
-        },
-        {
-          "title": "Crx4Chrome（英文）",
-          "url": "https://www.crx4chrome.com/",
-          "icon": "https://s.crx4chrome.com/favicon.ico",
-          "desc": "英文的Chrome扩展下载站。",
-          "proxy": false
-        },
-        {
-          "title": "Greasyfork.ICU",
-          "url": "https://greasyfork.icu/zh-CN/",
-          "icon": "https://greasyfork.icu/favicon.ico",
-          "desc": "油猴脚本站Greasy Fork的镜像，解决访问问题。",
-          "proxy": false
-        },
-        {
-          "title": "Scriptcat脚本猫",
-          "url": "https://scriptcat.org/zh-CN/",
-          "icon": "https://scriptcat.org/favicon.ico",
-          "desc": "一个开源的油猴脚本托管平台。",
-          "proxy": false
-        },
-        {
-          "title": "OpenUserjs",
-          "url": "https://openuserjs.org/",
-          "icon": "https://openuserjs.org/favicon.ico",
-          "desc": "另一个开放的油猴脚本托管平台。",
+          "title": "Pexels",
+          "url": "https://www.pexels.com/zh-cn/",
+          "icon": "https://www.pexels.com/assets/static/images/meta/favicon.ico",
+          "desc": "提供海量免费可商用的高清图片和视频素材。",
           "proxy": false
         },
         {
@@ -479,20 +441,6 @@
           "proxy": false
         },
         {
-          "title": "百度解析",
-          "url": "https://bdpan.juyovo.com/#/index",
-          "icon": "https://bdpan.juyovo.com/favicon.ico",
-          "desc": "一个用于解析百度网盘链接以进行高速下载的在线工具。",
-          "proxy": false
-        },
-        {
-          "title": "天翼云盘解析",
-          "url": "https://189.ly93.cc/",
-          "icon": "https://icon.horse/icon/189.ly93.cc",
-          "desc": "提供天翼云盘文件链接解析，方便下载和转存。",
-          "proxy": false
-        },
-        {
           "title": "标准地图服务系统",
           "url": "https://bzdt.ch.mnr.gov.cn/",
           "icon": "https://bzdt.ch.mnr.gov.cn/favicon.ico",
@@ -500,51 +448,106 @@
           "proxy": false
         },
         {
-          "title": "Unsplash",
-          "url": "https://unsplash.com/",
-          "icon": "https://unsplash.com/favicon.ico",
-          "desc": "全球最大的免费高质量摄影照片分享社区，图片可免费商用。",
-          "proxy": false
-        },
-        {
-          "title": "Pexels",
-          "url": "https://www.pexels.com/zh-cn/",
-          "icon": "https://www.pexels.com/assets/static/images/meta/favicon.ico",
-          "desc": "提供海量免费可商用的高清图片和视频素材。",
-          "proxy": false
-        },
-        {
-          "title": "鸠摩搜索",
-          "url": "https://www.jiumodiary.com/",
-          "icon": "https://www.jiumodiary.com/favicon.ico",
-          "desc": "强大的电子书资源聚合搜索引擎，界面简洁无广告。",
-          "proxy": false
-        },
-        {
-          "title": "MSDN, I tell you",
-          "url": "https://msdn.itellyou.cn/",
-          "icon": "https://msdn.itellyou.cn/favicon.ico",
-          "desc": "一个非官方的MSDN镜像网站，提供Windows操作系统、Office等软件的ed2k链接。",
+          "title": "虫部落",
+          "url": "https://www.chongbuluo.com/",
+          "icon": "https://www.chongbuluo.com/favicon.ico",
+          "desc": "强大的聚合搜索引擎入口，帮你快速切换不同引擎找到所需信息。",
           "proxy": false
         }
       ]
     },
     {
-      "categoryName": "隐私与安全",
-      "categoryId": "privacy-security",
+      "categoryName": "浏览器扩展与脚本",
+      "categoryId": "browser-extensions-scripts",
+      "sites": [
+        {
+          "title": "Crx搜搜",
+          "url": "https://www.crxsoso.com/",
+          "icon": "https://www.crxsoso.com/favicon-32x32.png",
+          "desc": "👍Chrome、Edge、Firefox扩展插件搜索和下载。",
+          "proxy": false
+        },
+        {
+          "title": "CrxDL.COM",
+          "url": "https://crxdl.com/",
+          "icon": "https://crxdl.com/image/favicon.ico",
+          "desc": "👍提供Chrome扩展程序的CRX文件下载。",
+          "proxy": false
+        },
+        {
+          "title": "极简插件",
+          "url": "https://chrome.zzzmh.cn/index",
+          "icon": "https://chrome.zzzmh.cn/favicon.ico",
+          "desc": "Chrome浏览器扩展插件下载站。",
+          "proxy": false
+        },
+        {
+          "title": "Greasyfork.ICU",
+          "url": "https://greasyfork.icu/zh-CN/",
+          "icon": "https://greasyfork.icu/favicon.ico",
+          "desc": "油猴脚本站Greasy Fork的镜像，解决访问问题。",
+          "proxy": false
+        },
+        {
+          "title": "Scriptcat脚本猫",
+          "url": "https://scriptcat.org/zh-CN/",
+          "icon": "https://scriptcat.org/favicon.ico",
+          "desc": "一个开源的油猴脚本托管平台。",
+          "proxy": false
+        },
+        {
+          "title": "OpenUserjs",
+          "url": "https://openuserjs.org/",
+          "icon": "https://openuserjs.org/favicon.ico",
+          "desc": "另一个开放的油猴脚本托管平台。",
+          "proxy": false
+        },
+        {
+          "title": "插件小屋",
+          "url": "https://www.chajianxw.com/",
+          "icon": "https://www.chajianxw.com/favicon.ico",
+          "desc": "Chrome扩展插件下载和推荐。",
+          "proxy": false
+        },
+        {
+          "title": "收藏猫插件",
+          "url": "https://chrome.pictureknow.com/",
+          "icon": "https://chrome.pictureknow.com/favicon.ico",
+          "desc": "Chrome插件下载站。",
+          "proxy": false
+        },
+        {
+          "title": "画夹插件",
+          "url": "https://huajiakeji.com/",
+          "icon": "https://huajiakeji.com/favicon.ico",
+          "desc": "Chrome插件下载站。",
+          "proxy": true
+        },
+        {
+          "title": "常用Crx离线安装包下载",
+          "url": "http://yurl.sinaapp.com/crx2.php",
+          "icon": "http://yurl.sinaapp.com/favicon.ico",
+          "desc": "提供常用Chrome扩展的离线安装包。",
+          "proxy": false
+        },
+        {
+          "title": "Crx4Chrome（英文）",
+          "url": "https://www.crx4chrome.com/",
+          "icon": "https://s.crx4chrome.com/favicon.ico",
+          "desc": "英文的Chrome扩展下载站。",
+          "proxy": false
+        }
+      ]
+    },
+    {
+      "categoryName": "临时号码与邮箱",
+      "categoryId": "temp-phone-email",
       "sites": [
         {
           "title": "无敌云短信",
           "url": "https://www.clearcode.cn/",
           "icon": "https://www.clearcode.cn/static/tw/favicon.ico?v=2",
           "desc": "提供免费的在线短信接收服务。",
-          "proxy": false
-        },
-        {
-          "title": "在线短信接收",
-          "url": "https://www.114sim.com/",
-          "icon": "https://www.114sim.com/favicon.ico",
-          "desc": "提供临时手机号用于接收短信。",
           "proxy": false
         },
         {
@@ -555,11 +558,11 @@
           "proxy": false
         },
         {
-          "title": "在线接收短信验证码",
-          "url": "https://yunduanxin.net/",
-          "icon": "https://yunduanxin.net/favicon.ico",
-          "desc": "免费在线接收短信的平台。",
-          "proxy": true
+          "title": "在线短信接收",
+          "url": "https://www.114sim.com/",
+          "icon": "https://www.114sim.com/favicon.ico",
+          "desc": "提供临时手机号用于接收短信。",
+          "proxy": false
         },
         {
           "title": "在线短信接收",
@@ -576,6 +579,13 @@
           "proxy": false
         },
         {
+          "title": "在线接收短信验证码",
+          "url": "https://yunduanxin.net/",
+          "icon": "https://yunduanxin.net/favicon.ico",
+          "desc": "免费在线接收短信的平台。",
+          "proxy": true
+        },
+        {
           "title": "Receive SMS",
           "url": "https://receive-sms.com/",
           "icon": "https://receive-sms.com/favicon-v2/favicon-32x32.png",
@@ -590,10 +600,10 @@
           "proxy": false
         },
         {
-          "title": "Moakt Email",
-          "url": "https://www.moakt.com/",
-          "icon": "https://www.moakt.com/favicon.ico",
-          "desc": "专业的临时邮箱服务，可自定义邮箱地址。",
+          "title": "10 Minute Mail",
+          "url": "https://10minutemail.net/",
+          "icon": "https://10minutemail.net/favicon.ico",
+          "desc": "提供一个10分钟后即自动销毁的临时邮箱，用于注册和接收邮件。",
           "proxy": false
         },
         {
@@ -601,6 +611,13 @@
           "url": "https://www.guerrillamail.com/",
           "icon": "https://www.guerrillamail.com/favicon.ico",
           "desc": "老牌的临时邮箱服务，可以发送和接收邮件。",
+          "proxy": false
+        },
+        {
+          "title": "Moakt Email",
+          "url": "https://www.moakt.com/",
+          "icon": "https://www.moakt.com/favicon.ico",
+          "desc": "专业的临时邮箱服务，可自定义邮箱地址。",
           "proxy": false
         },
         {
@@ -623,6 +640,26 @@
           "icon": "https://www.yopmail.com/favicon.gif",
           "desc": "提供免费、匿名的临时邮箱服务。",
           "proxy": true
+        }
+      ]
+    },
+    {
+      "categoryName": "安全检测与密码",
+      "categoryId": "security-check-password",
+      "sites": [
+        {
+          "title": "VirusTotal",
+          "url": "https://www.virustotal.com/gui/",
+          "icon": "https://www.virustotal.com/images/favicon.svg",
+          "desc": "国外老牌在线查毒网站，聚合多个杀毒引擎",
+          "proxy": true
+        },
+        {
+          "title": "腾讯哈勃分析",
+          "url": "https://habo.qq.com/",
+          "icon": "https://habo.qq.com/img/favicon.ico",
+          "desc": "在线病毒检测，普通用户不超过30MB",
+          "proxy": false
         },
         {
           "title": "Have I Been Pwned",
@@ -639,24 +676,10 @@
           "proxy": true
         },
         {
-          "title": "腾讯哈勃分析",
-          "url": "https://habo.qq.com/",
-          "icon": "https://habo.qq.com/img/favicon.ico",
-          "desc": "在线病毒检测，普通用户不超过30MB",
-          "proxy": false
-        },
-        {
-          "title": "VirusTotal",
-          "url": "https://www.virustotal.com/gui/",
-          "icon": "https://www.virustotal.com/images/favicon.svg",
-          "desc": "国外老牌在线查毒网站，聚合多个杀毒引擎",
-          "proxy": true
-        },
-        {
-          "title": "10 Minute Mail",
-          "url": "https://10minutemail.net/",
-          "icon": "https://10minutemail.net/favicon.ico",
-          "desc": "提供一个10分钟后即自动销毁的临时邮箱，用于注册和接收邮件。",
+          "title": "Bitwarden",
+          "url": "https://vault.bitwarden.com/",
+          "icon": "https://vault.bitwarden.com/favicon.ico",
+          "desc": "开源的密码管理器，可在网页端安全地存储、管理和访问你的密码。",
           "proxy": false
         },
         {
@@ -665,19 +688,12 @@
           "icon": "https://privatebin.net/favicon.ico",
           "desc": "一个开源的、加密的在线文本分享工具，服务器无法读取内容。",
           "proxy": false
-        },
-        {
-          "title": "Bitwarden",
-          "url": "https://vault.bitwarden.com/",
-          "icon": "https://vault.bitwarden.com/favicon.ico",
-          "desc": "开源的密码管理器，可在网页端安全地存储、管理和访问你的密码。",
-          "proxy": false
         }
       ]
     },
     {
-      "categoryName": "生活与趣味",
-      "categoryId": "life-fun",
+      "categoryName": "在线工具箱",
+      "categoryId": "online-toolkits",
       "sites": [
         {
           "title": "MikuTools - 一个轻量的工具集合",
@@ -691,13 +707,6 @@
           "url": "https://www.iamwawa.cn/",
           "icon": "https://www.iamwawa.cn/Public/img/favicon.png",
           "desc": "提供图片、PDF、音视频处理等多种在线工具。",
-          "proxy": false
-        },
-        {
-          "title": "奇迹秀工具箱",
-          "url": "https://www.qijishow.com/down/index.html",
-          "icon": "https://www.qijishow.com/img/ico.ico",
-          "desc": "提供设计、开发、生活等领域的在线工具集合。",
           "proxy": false
         },
         {
@@ -715,80 +724,46 @@
           "proxy": false
         },
         {
-          "title": "P站风格Logo生成器",
-          "url": "https://www.logoly.pro/",
-          "icon": "https://www.logoly.pro/favicon.ico",
-          "desc": "支持生成Pornhub、YouTube等多种风格的Logo。",
+          "title": "奇迹秀工具箱",
+          "url": "https://www.qijishow.com/down/index.html",
+          "icon": "https://www.qijishow.com/img/ico.ico",
+          "desc": "提供设计、开发、生活等领域的在线工具集合。",
           "proxy": false
         },
         {
-          "title": "毒鸡汤文案生成器",
-          "url": "https://du.shadiao.app/",
-          "icon": "https://du.shadiao.app/du.ico",
-          "desc": "随机生成各种“负能量”毒鸡汤。",
-          "proxy": false
-        },
-        {
-          "title": "狗屁不通文章生成器",
-          "url": "https://suulnnka.github.io/BullshitGenerator/index.html",
-          "icon": "https://suulnnka.github.io/favicon.ico",
-          "desc": "输入主题，自动生成一篇看似有理但实则狗屁不通的文章。",
-          "proxy": false
-        },
-        {
-          "title": "帮你百度生成器",
-          "url": "https://lmbtfy.cn/",
-          "icon": "https://lmbtfy.cn/favicon.ico",
-          "desc": "“让我帮你百度一下”，生成一个带有搜索动画的链接。",
-          "proxy": false
-        },
-        {
-          "title": "诺基亚短信图片生成器",
-          "url": "https://www.noddl.me/",
-          "icon": "https://www.noddl.me/favicon.ico",
-          "desc": "在线生成复古诺基亚手机短信截图。",
-          "proxy": false
-        },
-        {
-          "title": "诺基亚短信图片生成器",
-          "url": "https://zzkia.noddl.me/",
-          "icon": "https://icon.horse/icon/zzkia.noddl.me",
-          "desc": "可以生成带有任意文字的诺基亚经典短信照片。",
-          "proxy": false
-        },
-        {
-          "title": "在线装逼生成器",
-          "url": "https://zb.yuanrenbang.com/",
-          "desc": "在线生成各种趣味装逼图片。",
-          "proxy": false
-        },
-        {
-          "title": "Imgflip",
-          "url": "https://imgflip.com/memetemplates",
-          "desc": "在线制作和浏览欧美风格的Meme表情包。",
+          "title": "WolframAlpha",
+          "url": "https://www.wolframalpha.com/",
+          "icon": "https://www.wolframalpha.com/favicon.ico",
+          "desc": "一个强大的计算知识引擎，能回答事实性问题、进行数学计算等。",
           "proxy": true
         },
         {
-          "title": "wikihow",
-          "url": "https://zh.wikihow.com/首页",
-          "icon": "https://zh.wikihow.com/favicon_round.ico",
-          "desc": "互联网上最有用的万事指南。",
+          "title": "数字帝国",
+          "url": "https://zh.numberempire.com/",
+          "icon": "https://zh.numberempire.com/favicon.ico",
+          "desc": "一个强大的在线数学工具集合网站。",
           "proxy": false
         },
         {
-          "title": "小鸡词典",
-          "url": "https://jikipedia.com/",
-          "icon": "https://jikipedia.com/favicon.ico",
-          "desc": "查网络流行语，就上小鸡词典。",
+          "title": "草料二维码",
+          "url": "https://cli.im/",
+          "icon": "https://static.clewm.net/static/images/favicon.ico",
+          "desc": "专业的二维码在线生成和美化工具。",
           "proxy": false
         },
         {
-          "title": "能不能好好说话",
-          "url": "https://lab.magiconch.com/nbnhhsh/",
-          "icon": "https://lab.magiconch.com/favicon.ico",
-          "desc": "拼音首字母缩写释义工具。",
+          "title": "微软TTS",
+          "url": "https://azure.microsoft.com/zh-cn/services/cognitive-services/text-to-speech/#overview",
+          "icon": "https://azure.microsoft.com/favicon.ico?v2",
+          "desc": "微软Azure提供的文本转语音（TTS）服务体验，语音效果逼真。",
           "proxy": false
-        },
+        }
+      ]
+    },
+    {
+      "categoryName": "生活实用",
+      "categoryId": "life-utilities",
+      "sites": [
         {
           "title": "今日热榜",
           "url": "https://tophub.today/",
@@ -832,17 +807,105 @@
           "proxy": false
         },
         {
-          "title": "FUUN.FUN",
-          "url": "https://fuun.fun/",
-          "icon": "https://fuun.fun/favicon-32x32.png",
-          "desc": "奇趣网站收藏家，收藏的网站都很有意思。",
+          "title": "wikihow",
+          "url": "https://zh.wikihow.com/首页",
+          "icon": "https://zh.wikihow.com/favicon_round.ico",
+          "desc": "互联网上最有用的万事指南。",
           "proxy": false
         },
         {
-          "title": "Neave Interactive",
-          "url": "https://neave.com/",
-          "icon": "https://neave.com/assets/images/icon-16.png",
-          "desc": "一个集合了各种有趣互动小游戏的网站。",
+          "title": "小鸡词典",
+          "url": "https://jikipedia.com/",
+          "icon": "https://jikipedia.com/favicon.ico",
+          "desc": "查网络流行语，就上小鸡词典。",
+          "proxy": false
+        },
+        {
+          "title": "能不能好好说话",
+          "url": "https://lab.magiconch.com/nbnhhsh/",
+          "icon": "https://lab.magiconch.com/favicon.ico",
+          "desc": "拼音首字母缩写释义工具。",
+          "proxy": false
+        },
+        {
+          "title": "Windy",
+          "url": "https://www.windy.com/",
+          "icon": "https://www.windy.com/favicon.ico",
+          "desc": "提供直观、详细的全球天气预报和气象图可视化服务。",
+          "proxy": false
+        },
+        {
+          "title": "此刻",
+          "url": "https://time.is/",
+          "icon": "https://time.is/favicon.ico",
+          "desc": "世界各地的时间",
+          "proxy": false
+        },
+        {
+          "title": "Internet Archive",
+          "url": "https://archive.org/",
+          "icon": "https://archive.org/images/glogo.png",
+          "desc": "互联网档案库，收录了海量的网页、书籍、影像、软件等数字资料，知名的“网站时光机”就在其中。",
+          "proxy": true
+        }
+      ]
+    },
+    {
+      "categoryName": "趣味生成与探索",
+      "categoryId": "fun-generators-exploration",
+      "sites": [
+        {
+          "title": "P站风格Logo生成器",
+          "url": "https://www.logoly.pro/",
+          "icon": "https://www.logoly.pro/favicon.ico",
+          "desc": "支持生成Pornhub、YouTube等多种风格的Logo。",
+          "proxy": false
+        },
+        {
+          "title": "狗屁不通文章生成器",
+          "url": "https://suulnnka.github.io/BullshitGenerator/index.html",
+          "icon": "https://suulnnka.github.io/favicon.ico",
+          "desc": "输入主题，自动生成一篇看似有理但实则狗屁不通的文章。",
+          "proxy": false
+        },
+        {
+          "title": "毒鸡汤文案生成器",
+          "url": "https://du.shadiao.app/",
+          "icon": "https://du.shadiao.app/du.ico",
+          "desc": "随机生成各种“负能量”毒鸡汤。",
+          "proxy": false
+        },
+        {
+          "title": "诺基亚短信图片生成器",
+          "url": "https://www.noddl.me/",
+          "icon": "https://www.noddl.me/favicon.ico",
+          "desc": "在线生成复古诺基亚手机短信截图。",
+          "proxy": false
+        },
+        {
+          "title": "诺基亚短信图片生成器",
+          "url": "https://zzkia.noddl.me/",
+          "icon": "https://icon.horse/icon/zzkia.noddl.me",
+          "desc": "可以生成带有任意文字的诺基亚经典短信照片。",
+          "proxy": false
+        },
+        {
+          "title": "帮你百度生成器",
+          "url": "https://lmbtfy.cn/",
+          "icon": "https://lmbtfy.cn/favicon.ico",
+          "desc": "“让我帮你百度一下”，生成一个带有搜索动画的链接。",
+          "proxy": false
+        },
+        {
+          "title": "在线装逼生成器",
+          "url": "https://zb.yuanrenbang.com/",
+          "desc": "在线生成各种趣味装逼图片。",
+          "proxy": false
+        },
+        {
+          "title": "Imgflip",
+          "url": "https://imgflip.com/memetemplates",
+          "desc": "在线制作和浏览欧美风格的Meme表情包。",
           "proxy": true
         },
         {
@@ -881,6 +944,13 @@
           "proxy": false
         },
         {
+          "title": "单反模拟器 | Canon",
+          "url": "https://www.canonoutsideofauto.ca/play/",
+          "icon": "https://www.canonoutsideofauto.ca/favicon.ico",
+          "desc": "佳能官方出品的在线单反相机模拟器，可学习摄影基础。",
+          "proxy": false
+        },
+        {
           "title": "全景故宫",
           "url": "https://pano.dpm.org.cn",
           "icon": "https://pano.dpm.org.cn/resource/favicon.ico",
@@ -902,45 +972,17 @@
           "proxy": false
         },
         {
-          "title": "单反模拟器 | Canon",
-          "url": "https://www.canonoutsideofauto.ca/play/",
-          "icon": "https://www.canonoutsideofauto.ca/favicon.ico",
-          "desc": "佳能官方出品的在线单反相机模拟器，可学习摄影基础。",
+          "title": "FUUN.FUN",
+          "url": "https://fuun.fun/",
+          "icon": "https://fuun.fun/favicon-32x32.png",
+          "desc": "奇趣网站收藏家，收藏的网站都很有意思。",
           "proxy": false
         },
         {
-          "title": "微软TTS",
-          "url": "https://azure.microsoft.com/zh-cn/services/cognitive-services/text-to-speech/#overview",
-          "icon": "https://azure.microsoft.com/favicon.ico?v2",
-          "desc": "微软Azure提供的文本转语音（TTS）服务体验，语音效果逼真。",
-          "proxy": false
-        },
-        {
-          "title": "此刻",
-          "url": "https://time.is/",
-          "icon": "https://time.is/favicon.ico",
-          "desc": "世界各地的时间",
-          "proxy": false
-        },
-        {
-          "title": "WolframAlpha",
-          "url": "https://www.wolframalpha.com/",
-          "icon": "https://www.wolframalpha.com/favicon.ico",
-          "desc": "一个强大的计算知识引擎，能回答事实性问题、进行数学计算等。",
-          "proxy": true
-        },
-        {
-          "title": "Windy",
-          "url": "https://www.windy.com/",
-          "icon": "https://www.windy.com/favicon.ico",
-          "desc": "提供直观、详细的全球天气预报和气象图可视化服务。",
-          "proxy": false
-        },
-        {
-          "title": "Internet Archive",
-          "url": "https://archive.org/",
-          "icon": "https://archive.org/images/glogo.png",
-          "desc": "互联网档案库，收录了海量的网页、书籍、影像、软件等数字资料，知名的“网站时光机”就在其中。",
+          "title": "Neave Interactive",
+          "url": "https://neave.com/",
+          "icon": "https://neave.com/assets/images/icon-16.png",
+          "desc": "一个集合了各种有趣互动小游戏的网站。",
           "proxy": true
         },
         {

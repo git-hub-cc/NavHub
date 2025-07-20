@@ -1,0 +1,2007 @@
+{
+  "categories": [
+    {
+      "categoryName": "AI 智能助手与对话",
+      "categoryId": "ai-assistants-chat",
+      "sites": [
+        {
+          "title": "GPT4o多模态生图",
+          "url": "https://nav.imyaigc.com/",
+          "icon": "https://nav.imyaigc.com/favicon.ico",
+          "desc": "【强烈推荐】🔥👍一站式畅享GPT4.1、o3、o4-mini、Claude3.7、MJ、Suno、即梦等国内外顶尖AI大模型！",
+          "proxy": false
+        },
+        {
+          "title": "一站式AI平台",
+          "url": "https://chat.aibox365.cn/",
+          "icon": "https://chat.aibox365.cn/favicon.ico",
+          "desc": "【强烈推荐🚀】ChatGPT中文版 | Claude中文版 | GPT4.1 | GPT4o |o1|o3| Claude4 Sonnet|Claude4 Opus|AI-PPT。",
+          "proxy": false
+        },
+        {
+          "title": "稳定GPT Plus、Claude镜像购买",
+          "url": "https://nf.video/yinhe/web?sharedId=129693",
+          "icon": "https://nf.video/favicon.ico",
+          "desc": "🔥提供稳定可靠的GPT Plus和Claude等AI服务的镜像账号购买。",
+          "proxy": false
+        },
+        {
+          "title": "POE",
+          "url": "https://poe.com/",
+          "icon": "https://poe.com/favicon.ico",
+          "desc": "👍聚合多个AI聊天机器人，如ChatGPT、Claude等。",
+          "proxy": true
+        },
+        {
+          "title": "讯飞星火",
+          "url": "https://xinghuo.xfyun.cn/desk?ch=xh_Gp8BS",
+          "icon": "https://xinghuo.xfyun.cn/favicon.ico",
+          "desc": "👍讯飞星火认知大模型，深度推理能力全新升级，全面对标OpenAI o1。",
+          "proxy": false
+        },
+        {
+          "title": "月之暗面－Kimi",
+          "url": "https://kimi.moonshot.cn/",
+          "icon": "https://kimi.moonshot.cn/favicon.ico",
+          "desc": "擅长长文本处理的AI对话助手。",
+          "proxy": false
+        },
+        {
+          "title": "豆包",
+          "url": "https://www.doubao.com/chat/",
+          "icon": "https://www.doubao.com/favicon.ico",
+          "desc": "字节跳动出品的AI智能助手，提供聊天、写作、问答等多种服务。",
+          "proxy": false
+        },
+        {
+          "title": "阿里－通义千问",
+          "url": "https://qianwen.aliyun.com/",
+          "icon": "https://img.alicdn.com/imgextra/i3/O1CN01sffp3s1xYYL6d467x_!!6000000006462-2-tps-120-120.png",
+          "desc": "阿里巴巴出品的AI大模型。",
+          "proxy": false
+        },
+        {
+          "title": "百度－文心一言",
+          "url": "https://yiyan.baidu.com/",
+          "icon": "https://yiyan.baidu.com/favicon.ico",
+          "desc": "百度研发的知识增强大语言模型，提供创作、问答、代码编写等能力。",
+          "proxy": false
+        },
+        {
+          "title": "腾讯元宝",
+          "url": "https://yuanbao.tencent.com/chat/naQivTmsDa",
+          "icon": "https://icon.horse/icon/yuanbao.tencent.com",
+          "desc": "腾讯出品的AI助手，专注于工作效率和生活服务场景。",
+          "proxy": false
+        },
+        {
+          "title": "智谱－清言",
+          "url": "https://chatglm.cn/",
+          "icon": "https://chatglm.cn/favicon.ico",
+          "desc": "智谱AI出品的对话式AI模型。",
+          "proxy": false
+        },
+        {
+          "title": "DeepSeek",
+          "url": "https://chat.deepseek.com/",
+          "icon": "https://chat.deepseek.com/favicon.svg",
+          "desc": "深度求索出品的高性能AI大模型，在代码和数学领域表现出色。",
+          "proxy": false
+        },
+        {
+          "title": "百川智能－百小应",
+          "url": "https://ying.baichuan-ai.com/chat",
+          "icon": "https://ying.baichuan-ai.com/favicon.ico",
+          "desc": "百川智能出品的AI对话助手。",
+          "proxy": false
+        },
+        {
+          "title": "MiniMax－海螺",
+          "url": "https://hailuoai.com/",
+          "icon": "https://hailuoai.com/favicon.ico",
+          "desc": "MiniMax公司出品的AI助手，支持语音对话。",
+          "proxy": false
+        },
+        {
+          "title": "阶跃星辰－跃问",
+          "url": "https://www.stepfun.com/chats/new",
+          "icon": "https://www.stepfun.com/favicon.ico",
+          "desc": "阶跃星辰公司出品的AI大模型。",
+          "proxy": false
+        },
+        {
+          "title": "商汤－商量",
+          "url": "https://chat.sensetime.com/wb/chat",
+          "icon": "https://chat.sensetime.com/favicon.ico",
+          "desc": "商汤科技出品的AI大模型。",
+          "proxy": false
+        },
+        {
+          "title": "Google Gemini",
+          "url": "https://gemini.google.com/",
+          "icon": "https://gemini.google.com/favicon.ico",
+          "desc": "谷歌出品的AI大模型。",
+          "proxy": true
+        },
+        {
+          "title": "Microsoft Copilot",
+          "url": "https://copilot.cloud.microsoft/",
+          "icon": "https://copilot.cloud.microsoft/favicon.ico",
+          "desc": "微软出品的AI助手，集成GPT模型。",
+          "proxy": true
+        },
+        {
+          "title": "灵办",
+          "url": "https://ilingban.com/?from=xyqd29",
+          "icon": "data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22%3E%3Ctext y=%22.9em%22 font-size=%2290%22%3E🤖%3C/text%3E%3C/svg%3E",
+          "desc": "一键生成爆款文案，总结文档内容，集对话、翻译、写作、搜索于一身的神器。",
+          "proxy": false
+        },
+        {
+          "title": "FreeGPT",
+          "url": "https://freegpt.tech/",
+          "icon": "https://freegpt.tech/favicon.ico",
+          "desc": "👍提供免费的GPT模型访问服务。",
+          "proxy": false
+        },
+        {
+          "title": "TalkAI",
+          "url": "https://www.talkai.cc/",
+          "icon": "https://www.talkai.cc/favicon.ico",
+          "desc": "免费的AI对话平台。",
+          "proxy": false
+        },
+        {
+          "title": "Heck",
+          "url": "https://heck.ai/",
+          "icon": "https://heck.ai/favicon.ico",
+          "desc": "免费的AI聊天机器人聚合平台。",
+          "proxy": false
+        },
+        {
+          "title": "GPTchinese",
+          "url": "https://gptchinese.com/",
+          "icon": "https://gptchinese.com/favicon.ico",
+          "desc": "提供中文界面访问GPT模型。",
+          "proxy": false
+        },
+        {
+          "title": "AIchatOS",
+          "url": "https://x.aichatoszx.com/",
+          "icon": "https://x.aichatoszx.com/favicon.ico",
+          "desc": "一个开源的AI聊天解决方案，提供免费体验。",
+          "proxy": false
+        },
+        {
+          "title": "GPT公益站",
+          "url": "https://ai27.gptforlove.com/",
+          "icon": "https://ai27.gptforlove.com/favicon.ico",
+          "desc": "免费提供GPT服务的公益网站。",
+          "proxy": false
+        },
+        {
+          "title": "PizzaGPT",
+          "url": "https://www.pizzagpt.it/",
+          "icon": "https://www.pizzagpt.it/favicon.ico",
+          "desc": "一个意大利的免费GPT访问网站。",
+          "proxy": false
+        },
+        {
+          "title": "Wrtn",
+          "url": "https://wrtn.ai/",
+          "icon": "https://wrtn.ai/favicon.ico",
+          "desc": "韩国的AI写作和创作平台。",
+          "proxy": false
+        }
+      ]
+    },
+    {
+      "categoryName": "AI 创意生成",
+      "categoryId": "ai-creative-generation",
+      "sites": [
+        {
+          "title": "稳定 Midjourney 合租／PS AI 团队版",
+          "url": "https://nf.video/yinhe/web/?sharedId=129693",
+          "icon": "https://nf.video/favicon.ico",
+          "desc": "🔥提供Midjourney合租和Photoshop AI团队版账号服务。",
+          "proxy": false
+        },
+        {
+          "title": "免费AI工具箱",
+          "url": "https://www.gaoding.com/utms/aef493b5abaa4fa9826b23337b0c3000",
+          "icon": "https://www.gaoding.com/favicon.ico",
+          "desc": "👍汇集AI一键抠图、AI背景消除、AI变清晰、AI扩图、AI文生图等一站式图片处理与智能设计的效率工具箱。",
+          "proxy": false
+        },
+        {
+          "title": "即梦AI",
+          "url": "https://jimeng.jianying.com/s/jYKhX2diXIs/?t=-4",
+          "icon": "https://jimeng.jianying.com/favicon.ico",
+          "desc": "剪映出品的AI作画工具，效果出色。",
+          "proxy": false
+        },
+        {
+          "title": "Kling AI",
+          "url": "https://app.klingai.com/cn/",
+          "icon": "https://icon.horse/icon/klingai.com",
+          "desc": "快手推出的AI视频生成大模型，能够生成长达2分钟、高分辨率的视频内容。",
+          "proxy": false
+        },
+        {
+          "title": "Runway",
+          "url": "https://app.runwayml.com/",
+          "icon": "https://icon.horse/icon/runwayml.com",
+          "desc": "领先的AI视频创作平台，提供文生视频、视频编辑等多种强大的AI工具。",
+          "proxy": true
+        },
+        {
+          "title": "Suno",
+          "url": "https://suno.com/",
+          "icon": "https://cdn1.suno.ai/image/icons/icon-72x72.png",
+          "desc": "AI 音乐创作工具，用文字生成歌曲。",
+          "proxy": true
+        },
+        {
+          "title": "AIPPT",
+          "url": "https://www.aippt.cn/?utm_type=Navweb&utm_source=axutx&utm_page=aippt&utm_plan=ppt&utm_unit=AIPPT&utm_keyword=50646",
+          "icon": "https://www.aippt.cn/favicon.ico",
+          "desc": "👍AI一键生成高质量PPT，免费体验。",
+          "proxy": false
+        },
+        {
+          "title": "AI一键论文－AIPassPaPer",
+          "url": "https://www.qianbixiezuo.com/?pic=5R6e",
+          "icon": "https://www.qianbixiezuo.com/favicon.ico",
+          "desc": "全网首家免费无限论文改稿，5分钟5万字，包含图、表、数据、代码、公式。",
+          "proxy": false
+        },
+        {
+          "title": "蛙蛙写作（小说）",
+          "url": "https://wawawriter.com/app/?utm_source=aiweb21",
+          "icon": "https://wawawriter.com/favicon.ico",
+          "desc": "👍专为小说创作设计的AI写作助手。",
+          "proxy": false
+        },
+        {
+          "title": "讯飞文书（公文）",
+          "url": "https://gw.iflydocs.com/?from=AIjihe14",
+          "icon": "https://gw.iflydocs.com/favicon.ico",
+          "desc": "👍专为公文写作设计的AI辅助工具。",
+          "proxy": false
+        },
+        {
+          "title": "ChatExcel",
+          "url": "https://www.chatexcel.com/#/home?partner_uuid=BC1381516B543D658DE7F9AB1CA0619B",
+          "icon": "https://www.chatexcel.com/favicon.ico",
+          "desc": "👍通过对话操作Excel表格的AI工具。",
+          "proxy": false
+        },
+        {
+          "title": "办公小浣熊",
+          "url": "https://www.xiaohuanxiong.com/login?utm_source=blmay18",
+          "icon": "https://www.xiaohuanxiong.com/favicon.ico",
+          "desc": "👍商汤科技出品的Excel AI插件，功能强大。",
+          "proxy": false
+        },
+        {
+          "title": "有言AI",
+          "url": "https://www.youyan3d.com/platform/?utm_source=zhanwaidaoliu&utm_campaign=zwj&utm_content=axutongxue&from=axutongxue",
+          "icon": "https://www.youyan3d.com/favicon.ico",
+          "desc": "👍AI驱动的3D内容创作平台。",
+          "proxy": false
+        },
+        {
+          "title": "堆友",
+          "url": "https://d.design/?sharecode=oC45sWsR0e",
+          "icon": "https://d.design/favicon.ico",
+          "desc": "花瓣网出品的AI绘画社区，基于Stable Diffusion。",
+          "proxy": false
+        },
+        {
+          "title": "通义万象",
+          "url": "https://tongyi.aliyun.com/wanxiang/creation",
+          "icon": "https://img.alicdn.com/imgextra/i3/O1CN01sffp3s1xYYL6d467x_!!6000000006462-2-tps-120-120.png",
+          "desc": "阿里云出品的AI绘画生成工具。",
+          "proxy": false
+        },
+        {
+          "title": "文心一格",
+          "url": "https://yige.baidu.com/",
+          "icon": "https://yige.baidu.com/favicon.png",
+          "desc": "百度出品的AI艺术和创意辅助平台。",
+          "proxy": false
+        },
+        {
+          "title": "意间AI",
+          "url": "https://www.yjai.art/invite_new/?invite_code=90BE3F",
+          "icon": "https://www.yjai.art/favicon.ico",
+          "desc": "国产AI绘画平台，每日可免费使用。",
+          "proxy": false
+        },
+        {
+          "title": "无界AI",
+          "url": "https://www.wujieai.com/register?inviteCode=NKKQ9I",
+          "icon": "https://www.wujieai.com/favicon.ico",
+          "desc": "国产AI绘画平台，每日可免费使用。",
+          "proxy": false
+        },
+        {
+          "title": "吐司AI",
+          "url": "https://tusiart.com/?utm_source=axu&source_id=axu",
+          "icon": "https://tusiart.com/favicon.ico",
+          "desc": "AI绘画模型分享和在线生成平台。",
+          "proxy": false
+        },
+        {
+          "title": "6pen Art",
+          "url": "https://www.6pen.pro/",
+          "icon": "https://www.6pen.pro/favicon.ico",
+          "desc": "国产AI绘画平台。",
+          "proxy": false
+        },
+        {
+          "title": "MewXAI",
+          "url": "https://mewx.art/?invite_code=tFBuncKV",
+          "icon": "https://mewx.art/favicon.ico",
+          "desc": "AI绘画创作平台。",
+          "proxy": false
+        },
+        {
+          "title": "讯飞智文",
+          "url": "https://zhiwen.xfyun.cn/home?from=aitool31",
+          "icon": "https://zhiwen.xfyun.cn/favicon.ico",
+          "desc": "讯飞出品的AI PPT生成工具，送2张7日无限卡。",
+          "proxy": false
+        },
+        {
+          "title": "咔片PPT",
+          "url": "https://www.cappt.cc/?mtm_campaign=CZQD-aidh-zd33-10075",
+          "icon": "https://www.cappt.cc/favicon.ico",
+          "desc": "AI在线PPT生成工具。",
+          "proxy": false
+        },
+        {
+          "title": "博思AI PPT",
+          "url": "https://pptgo.cn/?utm_source=referrals&utm_content=axutongxue&_channel_track_key=CmtgVWjL",
+          "icon": "https://pptgo.cn/favicon.ico",
+          "desc": "博思白板出品的AI PPT生成工具。",
+          "proxy": false
+        },
+        {
+          "title": "WPS AI",
+          "url": "https://ai.wps.cn/",
+          "icon": "https://ai.wps.cn/favicon.ico",
+          "desc": "WPS Office内置的AI功能，支持文档、PPT、表格等。",
+          "proxy": false
+        },
+        {
+          "title": "ChatPPT",
+          "url": "https://chat-ppt.com/",
+          "icon": "https://chat-ppt.com/favicon.ico",
+          "desc": "与AI对话生成PPT的工具。",
+          "proxy": false
+        },
+        {
+          "title": "新华妙笔（公文）",
+          "url": "https://miaobi.xinhuaskl.com/",
+          "icon": "https://miaobi.xinhuaskl.com/favicon.ico",
+          "desc": "新华社出品的AI公文写作工具。",
+          "proxy": false
+        },
+        {
+          "title": "字节跳动火山写作",
+          "url": "https://www.writingo.net/",
+          "icon": "https://www.writingo.net/favicon.ico",
+          "desc": "字节跳动出品的AI写作和校对工具。",
+          "proxy": false
+        },
+        {
+          "title": "秘塔写作猫",
+          "url": "https://xiezuocat.com/",
+          "icon": "https://xiezuocat.com/favicon.ico",
+          "desc": "强大的AI中文写作和校对工具。",
+          "proxy": false
+        },
+        {
+          "title": "知网AI智能写作",
+          "url": "https://aidoc.cnki.net/",
+          "icon": "https://aidoc.cnki.net/favicon.ico",
+          "desc": "知网出品的学术论文AI写作辅助工具。",
+          "proxy": false
+        },
+        {
+          "title": "清华九歌（诗歌）",
+          "url": "https://jiuge.thunlp.org/",
+          "icon": "https://jiuge.thunlp.org/favicon.ico",
+          "desc": "清华大学自然语言处理实验室开发的AI诗歌写作系统。",
+          "proxy": false
+        },
+        {
+          "title": "抖音AI分身",
+          "url": "https://shuziren.douyin.com/signup",
+          "icon": "https://shuziren.douyin.com/favicon.ico",
+          "desc": "抖音官方的AI数字人、虚拟人定制平台。",
+          "proxy": false
+        },
+        {
+          "title": "Realtime Copilot",
+          "url": "https://realtimecopilot.cn/",
+          "icon": "https://realtimecopilot.cn/favicon.ico",
+          "desc": "AI 模拟面试，提供实时反馈与表现分析。",
+          "proxy": false
+        },
+        {
+          "title": "AI上色",
+          "url": "https://www.yuque.com/docs/share/80ac2bb4-bc08-461a-a80d-e8448253f898",
+          "icon": "https://www.yuque.com/favicon.ico",
+          "desc": "利用人工智能为黑白老照片自动上色的工具和网站。",
+          "proxy": false
+        },
+        {
+          "title": "图片放大",
+          "url": "https://www.yuque.com/docs/share/9327a464-715c-453c-80c0-e24e520880e4",
+          "icon": "https://www.yuque.com/favicon.ico",
+          "desc": "使用AI无损放大工具（如Waifu2x）提升图片分辨率而不失真。",
+          "proxy": false
+        },
+        {
+          "title": "Midjourney基础教程@言川Artie",
+          "url": "https://www.uisdc.com/midjourney-7",
+          "icon": "https://www.uisdc.com/favicon.ico",
+          "desc": "面向新手的Midjourney入门指南。",
+          "proxy": false
+        }
+      ]
+    },
+    {
+      "categoryName": "AI 平台与模型资源",
+      "categoryId": "ai-platforms-models",
+      "sites": [
+        {
+          "title": "Coze扣子空间",
+          "url": "https://space.coze.cn/?utm_medium=daohang&utm_source=axutongxue&utm_content=home&utm_id=0&utm_campaign=&utm_term=hw_coze_axutongxue&utm_source_platform=",
+          "icon": "https://space.coze.cn/favicon.ico",
+          "desc": "👍字节跳动出品的AI Bot和智能体（Agent）开发平台。",
+          "proxy": false
+        },
+        {
+          "title": "Huggingface",
+          "url": "https://huggingface.co/",
+          "icon": "https://huggingface.co/favicon.ico",
+          "desc": "全球最大的AI模型和数据集社区，可下载Stable Diffusion模型。",
+          "proxy": true
+        },
+        {
+          "title": "LiblibAI·哩布哩布AI",
+          "url": "https://www.liblib.ai/",
+          "icon": "https://www.liblib.ai/favicon.ico",
+          "desc": "国内版的Civitai，提供Stable Diffusion模型分享和在线生成。",
+          "proxy": false
+        },
+        {
+          "title": "Prompthero",
+          "url": "https://prompthero.com/",
+          "icon": "https://prompthero.com/favicon.ico",
+          "desc": "AI绘画作品和提示词（Prompt）搜索引擎。",
+          "proxy": false
+        },
+        {
+          "title": "NovelAI魔导书",
+          "url": "https://thereisnospon.github.io/NovelAiTag/",
+          "icon": "https://thereisnospon.github.io/favicon.ico",
+          "desc": "NovelAI和Stable Diffusion的提示词（Tag）辅助生成工具。",
+          "proxy": false
+        },
+        {
+          "title": "讯飞星辰Agent",
+          "url": "https://agent.xfyun.cn/home?ch=xcagent-aitool29",
+          "icon": "https://agent.xfyun.cn/favicon.ico",
+          "desc": "讯飞出品的智能体（Agent）创建平台。",
+          "proxy": false
+        },
+        {
+          "title": "昆仑天工AI",
+          "url": "https://www.tiangong.cn/login?invite_code=ab0d845b0024e779d0a71cfd8e0fb8a6",
+          "icon": "https://www.tiangong.cn/favicon.ico",
+          "desc": "昆仑万维出品的AI Agent开发和体验平台。",
+          "proxy": false
+        },
+        {
+          "title": "HOTIQ 烧脑社区",
+          "url": "https://hotiq.cn/category/aimx",
+          "icon": "https://hotiq.cn/favicon.ico",
+          "desc": "分享Stable Diffusion模型和资源的社区。",
+          "proxy": false
+        },
+        {
+          "title": "SD资源",
+          "url": "http://www.sdziyuan.cn/",
+          "icon": "http://www.sdziyuan.cn/favicon.ico",
+          "desc": "Stable Diffusion模型和资源下载站。",
+          "proxy": false
+        },
+        {
+          "title": "OpenArt",
+          "url": "https://openart.ai/discovery",
+          "icon": "https://openart.ai/favicon.ico",
+          "desc": "AI艺术作品和提示词（Prompt）探索平台。",
+          "proxy": false
+        },
+        {
+          "title": "Arthub",
+          "url": "https://arthub.ai/",
+          "icon": "https://arthub.ai/favicon.ico",
+          "desc": "AI艺术作品和模型分享社区。",
+          "proxy": false
+        },
+        {
+          "title": "Ai画廊 - AI关键词生成器",
+          "url": "https://www.aigallery.top/",
+          "icon": "https://www.aigallery.top/favicon.ico",
+          "desc": "提供AI绘画关键词生成和作品展示。",
+          "proxy": false
+        },
+        {
+          "title": "秘塔AI",
+          "url": "https://metaso.cn/",
+          "icon": "https://metaso.cn/favicon.ico",
+          "desc": "AI驱动的学术搜索和智能写作工具。",
+          "proxy": false
+        },
+        {
+          "title": "百度AI搜索",
+          "url": "https://chat.baidu.com/search",
+          "icon": "https://chat.baidu.com/favicon.ico",
+          "desc": "百度出品的AI搜索引擎。",
+          "proxy": false
+        },
+        {
+          "title": "360纳米AI",
+          "url": "https://www.n.cn/",
+          "icon": "https://www.n.cn/favicon.ico",
+          "desc": "360出品的AI搜索引擎。",
+          "proxy": false
+        },
+        {
+          "title": "阿里心流AI",
+          "url": "https://www.iflow.cn/?invite_code=ujFap9MUTZLRwWHnKvpf%2BA%3D%3D",
+          "icon": "https://www.iflow.cn/favicon.ico",
+          "desc": "阿里出品的AI搜索引擎。",
+          "proxy": false
+        },
+        {
+          "title": "无涯问知",
+          "url": "https://wuya-ai.com/?invite_code=83MFA6",
+          "icon": "https://wuya-ai.com/favicon.ico",
+          "desc": "AI驱动的检索引擎。",
+          "proxy": false
+        },
+        {
+          "title": "博查AI搜索",
+          "url": "https://bochaai.com/",
+          "icon": "https://bochaai.com/favicon.ico",
+          "desc": "AI搜索引擎。",
+          "proxy": false
+        },
+        {
+          "title": "知乎直答",
+          "url": "https://zhida.zhihu.com/",
+          "icon": "https://zhida.zhihu.com/favicon.ico",
+          "desc": "知乎出品的AI问答和内容创作工具。",
+          "proxy": false
+        },
+        {
+          "title": "小红书－点点",
+          "url": "https://sj.qq.com/appdetail/com.liveverse.diandian",
+          "icon": "https://p.ssl.qhimg.com/t0135d51e7a53c5e855.png",
+          "desc": "小红书出品的AI问答应用。",
+          "proxy": false
+        },
+        {
+          "title": "Stable Diffusion入门教程@言川Artie",
+          "url": "https://www.uisdc.com/stable-diffusion-3",
+          "icon": "https://www.uisdc.com/favicon.ico",
+          "desc": "面向新手的Stable Diffusion入门指南。",
+          "proxy": false
+        },
+        {
+          "title": "AI EDU",
+          "url": "https://aigcfun.com/app-download",
+          "icon": "https://aigcfun.com/favicon.ico",
+          "desc": "面向教育领域的AI工具平台。",
+          "proxy": false
+        }
+      ]
+    },
+    {
+      "categoryName": "编程与开发",
+      "categoryId": "programming-development",
+      "sites": [
+        {
+          "title": "GitHub",
+          "url": "https://github.com/",
+          "icon": "https://github.githubassets.com/favicons/favicon.svg",
+          "desc": "全球最大的代码托管平台和开源社区，汇集了海量项目与开发者。",
+          "proxy": false
+        },
+        {
+          "title": "GitHub Copilot",
+          "url": "https://github.com/copilot/c/c6eb74e4-33c5-408d-9d76-b9914f382998",
+          "icon": "https://icon.horse/icon/github.com",
+          "desc": "GitHub与OpenAI合作开发的AI代码补全工具，提升编程效率。",
+          "proxy": false
+        },
+        {
+          "title": "字节旗下AI代码助手",
+          "url": "https://www.trae.com.cn/?utm_source=advertising&utm_medium=axutongxue_ug_cpa&utm_term=hw_trae_axutongxue",
+          "icon": "https://www.trae.com.cn/favicon.ico",
+          "desc": "👍字节跳动出品的AI代码编程助手。",
+          "proxy": false
+        },
+        {
+          "title": "通义灵码",
+          "url": "https://lingma.aliyun.com/",
+          "icon": "https://lingma.aliyun.com/favicon.ico",
+          "desc": "阿里云出品的AI代码助手。",
+          "proxy": false
+        },
+        {
+          "title": "Supermaven",
+          "url": "https://supermaven.com/",
+          "icon": "https://icon.horse/icon/supermaven.com",
+          "desc": "号称比Copilot更快的AI代码补全工具，拥有更大的上下文窗口。",
+          "proxy": false
+        },
+        {
+          "title": "CodeGeeX",
+          "url": "https://codegeex.cn/",
+          "icon": "https://codegeex.cn/favicon.ico",
+          "desc": "智谱AI出品的多语言AI代码生成助手。",
+          "proxy": false
+        },
+        {
+          "title": "Visual Studio Code",
+          "url": "https://code.visualstudio.com/Download",
+          "icon": "https://icon.horse/icon/visualstudio.com",
+          "desc": "微软出品的免费、开源、跨平台的代码编辑器，生态强大。",
+          "proxy": false
+        },
+        {
+          "title": "Cursor",
+          "url": "https://www.cursor.com/cn",
+          "icon": "https://icon.horse/icon/cursor.com",
+          "desc": "一款专为AI辅助编程设计的代码编辑器，深度集成GPT能力。",
+          "proxy": false
+        },
+        {
+          "title": "V2EX",
+          "url": "https://www.v2ex.com/",
+          "icon": "https://www.v2ex.com/favicon.ico",
+          "desc": "创意工作者们的社区。",
+          "proxy": false
+        },
+        {
+          "title": "掘金",
+          "url": "https://juejin.cn/",
+          "icon": "https://lf3-cdn-tos.bytescm.com/obj/static/xitu_juejin_web/static/favicons/favicon-32x32.png",
+          "desc": "一个帮助开发者成长的社区。",
+          "proxy": false
+        },
+        {
+          "title": "CSDN",
+          "url": "https://www.csdn.net/",
+          "icon": "https://g.csdnimg.cn/static/logo/favicon32.ico",
+          "desc": "全球知名中文IT技术交流平台。",
+          "proxy": false
+        },
+        {
+          "title": "SegmentFault",
+          "url": "https://segmentfault.com/",
+          "icon": "data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22%3E%3Ctext y=%22.9em%22 font-size=%2290%22%3E🌐%3C/text%3E%3C/svg%3E",
+          "desc": "一个服务于开发者的技术问答和交流社区。",
+          "proxy": false
+        },
+        {
+          "title": "HelloGitHub",
+          "url": "https://hellogithub.com/",
+          "icon": "https://hellogithub.com/favicon.ico",
+          "desc": "分享有趣、入门级的开源项目。",
+          "proxy": false
+        },
+        {
+          "title": "GitHub优秀项目",
+          "url": "https://www.zhihu.com/question/20584141",
+          "icon": "https://static.zhihu.com/heifetz/favicon.ico",
+          "desc": "知乎问题，推荐了GitHub上许多优秀的开源项目。",
+          "proxy": false
+        },
+        {
+          "title": "Apifox",
+          "url": "https://www.apifox.cn/",
+          "icon": "https://www.apifox.cn/favicon.ico",
+          "desc": "API 设计、开发、测试一体化协作平台。",
+          "proxy": false
+        },
+        {
+          "title": "Can I use...",
+          "url": "https://caniuse.com/",
+          "icon": "https://caniuse.com/img/favicon-128.png",
+          "desc": "前端兼容性查询，开发必备。",
+          "proxy": false
+        },
+        {
+          "title": "CSDN－C知道",
+          "url": "https://so.csdn.net/chat",
+          "icon": "https://so.csdn.net/favicon.ico",
+          "desc": "CSDN出品的面向开发者的AI问答工具。",
+          "proxy": false
+        },
+        {
+          "title": "MATLAB",
+          "url": "https://share.weiyun.com/9cLyaJ90",
+          "icon": "https://img.weiyun.com/vipstyle/nr/box/img/favicon.ico?max_age=31536000",
+          "desc": "MATLAB／Maple／三大数学软件 (密码: fee8on)",
+          "proxy": false
+        }
+      ]
+    },
+    {
+      "categoryName": "教程与技能学习",
+      "categoryId": "tutorials-skill-learning",
+      "sites": [
+        {
+          "title": "菜鸟教程",
+          "url": "https://www.runoob.com/",
+          "icon": "https://static.jyshare.com/images/favicon.ico",
+          "desc": "学的不仅仅是技术，更是梦想。提供各类编程入门教程。",
+          "proxy": false
+        },
+        {
+          "title": "w3school",
+          "url": "https://www.w3school.com.cn/",
+          "icon": "https://www.w3school.com.cn/ui2019/logo-16-red.png",
+          "desc": "提供全面的Web技术教程，包括HTML、CSS、JavaScript等。",
+          "proxy": false
+        },
+        {
+          "title": "慕课网",
+          "url": "https://www.imooc.com/course/list",
+          "icon": "https://www.imooc.com/favicon.ico",
+          "desc": "IT技能学习平台，提供大量免费和付费的编程课程。",
+          "proxy": false
+        },
+        {
+          "title": "我要自学网",
+          "url": "https://www.51zxw.net/",
+          "icon": "https://www.51zxw.net/favicon.ico",
+          "desc": "提供电脑、设计、办公等领域的视频教程。",
+          "proxy": false
+        },
+        {
+          "title": "第一教程网",
+          "url": "https://www.diyijc.com/",
+          "icon": "https://icon.horse/icon/diyijc.com",
+          "desc": "提供中小学、考研、编程等各类免费视频教程。",
+          "proxy": false
+        },
+        {
+          "title": "大学生自学网",
+          "url": "https://v.dxsbb.com/",
+          "icon": "https://v.dxsbb.com/favicon.ico",
+          "desc": "提供各类大学专业课程的视频教程。",
+          "proxy": false
+        },
+        {
+          "title": "Topbook",
+          "url": "https://topbook.cc/overview",
+          "icon": "data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22%3E%3Ctext y=%22.9em%22 font-size=%2290%22%3E🌐%3C/text%3E%3C/svg%3E",
+          "desc": "一个结构化知识学习平台，提供高效的技能学习路径。",
+          "proxy": false
+        },
+        {
+          "title": "AI代码提升电脑使用效率实战教程",
+          "url": "https://mp.weixin.qq.com/s/uY0n1CchQzCAn3jTciz6ZA",
+          "icon": "https://res.wx.qq.com/a/wx_fed/assets/res/NTI4MWU5.ico",
+          "desc": "（纯小白也绝对能用上）介绍如何利用AI代码助手解决日常电脑使用问题。",
+          "proxy": false
+        },
+        {
+          "title": "Python-100-Days",
+          "url": "https://github.com/jackfrued/Python-100-Days",
+          "icon": "https://github.githubassets.com/favicons/favicon.svg",
+          "desc": "GitHub项目，Python从新手到大师的100天学习路径。",
+          "proxy": false
+        },
+        {
+          "title": "JavaGuide",
+          "url": "https://javaguide.cn/",
+          "icon": "https://icon.horse/icon/javaguide.cn",
+          "desc": "一份超详细的Java面试指南，涵盖核心知识点与面试题。",
+          "proxy": false
+        },
+        {
+          "title": "尚硅谷Java学科全套教程",
+          "url": "https://pan.baidu.com/s/15ocrWsdcODC8kA1VCkMaXQ",
+          "icon": "img/favicon/panbaidu/favicon.ico",
+          "desc": "提取码：57vp",
+          "proxy": false
+        },
+        {
+          "title": "java架构师视频教程",
+          "url": "https://pan.baidu.com/s/1WTxjrgppU4xQNT4teHvsLA",
+          "icon": "img/favicon/panbaidu/favicon.ico",
+          "desc": "提取码: si9a",
+          "proxy": false
+        },
+        {
+          "title": "C语言课件",
+          "url": "https://wwi.lanzoui.com/b01cn1qkj",
+          "desc": "密码:awde",
+          "proxy": false,
+          "icon": "https://assets.woozooo.com/assets/favicon.ico"
+        },
+        {
+          "title": "博学谷C++",
+          "url": "https://pan.baidu.com/s/1bNhCJw_1lY2nCK4S1RBHNA",
+          "icon": "img/favicon/panbaidu/favicon.ico",
+          "desc": "提取码: nkc5",
+          "proxy": false
+        },
+        {
+          "title": "2020新版Go开发工程师完结",
+          "url": "https://pan.baidu.com/s/1TbPcT4OqKsva73vViqz9Zg",
+          "icon": "img/favicon/panbaidu/favicon.ico",
+          "desc": "提取码: 61jx",
+          "proxy": false
+        },
+        {
+          "title": "VBS声音平衡系统",
+          "url": "https://v.qq.com/biu/videoplus?vuid=373586260",
+          "icon": "https://v.qq.com/favicon.ico",
+          "desc": "阿虚墙裂推荐，腾讯视频上的科学发声和歌唱教学课程。",
+          "proxy": false
+        },
+        {
+          "title": "歌者盟",
+          "url": "https://zgsing.ke.qq.com/",
+          "icon": "https://ke.qq.com/favicon.ico",
+          "desc": "腾讯课堂上的声乐和歌唱教学机构。",
+          "proxy": false
+        },
+        {
+          "title": "默沙东诊疗手册",
+          "url": "https://www.msdmanuals.cn/",
+          "icon": "https://www.msdmanuals.cn/_next/static/media/favicon.f7343459.ico",
+          "desc": "全球最受信赖的医学参考书之一，提供专业版和大众版。",
+          "proxy": false
+        },
+        {
+          "title": "腾讯医典",
+          "url": "https://baike.qq.com/",
+          "icon": "https://baike.qq.com/favicon.ico",
+          "desc": "腾讯出品的专业医学科普知识库。",
+          "proxy": false
+        },
+        {
+          "title": "丁香医生",
+          "url": "https://dxy.com/",
+          "icon": "https://img1.dxycdn.com/2021/0708/229/6749415695074911943-22.png",
+          "desc": "丁香园旗下的医学健康科普平台。",
+          "proxy": false
+        },
+        {
+          "title": "医学微视",
+          "url": "https://www.mvyxws.com/",
+          "icon": "https://www.mvyxws.com/favicon.ico",
+          "desc": "用视频方式普及医学知识的科普平台。",
+          "proxy": false
+        },
+        {
+          "title": "土木工程网",
+          "url": "http://www.civilcn.com/",
+          "icon": "data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22%3E%3Ctext y=%22.9em%22 font-size=%2290%22%3E🏗️%3C/text%3E%3C/svg%3E",
+          "desc": "提供各专业的标准图、图集、论文和行业资讯。",
+          "proxy": false
+        },
+        {
+          "title": "建标库",
+          "url": "http://www.jianbiaoku.com/",
+          "icon": "data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22%3E%3Ctext y=%22.9em%22 font-size=%2290%22%3E🏗️%3C/text%3E%3C/svg%3E",
+          "desc": "搜集各种建筑行业标准、规范和图集，方便查询下载。",
+          "proxy": false
+        },
+        {
+          "title": "筑龙学社",
+          "url": "https://www.zhulong.com/",
+          "icon": "data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22%3E%3Ctext y=%22.9em%22 font-size=%2290%22%3E🏗️%3C/text%3E%3C/svg%3E",
+          "desc": "建筑行业的学习和交流社区，分享各专业的图纸和资料。",
+          "proxy": false
+        },
+        {
+          "title": "抖音热门引流变现秘籍",
+          "url": "https://pan.baidu.com/s/1b9EukwOhtYWY458r417JmQ",
+          "icon": "img/favicon/panbaidu/favicon.ico",
+          "desc": "提取码: g4gp",
+          "proxy": false
+        },
+        {
+          "title": "零基础主播带货成长计划",
+          "url": "https://pan.baidu.com/s/1FQHmjDKwL8RpsNmPJftELA",
+          "icon": "img/favicon/panbaidu/favicon.ico",
+          "desc": "提取码: 7a9x",
+          "proxy": false
+        },
+        {
+          "title": "动效训练营",
+          "url": "https://pan.baidu.com/s/1TLk94QNlmY0w5rSnpRKgWA",
+          "icon": "img/favicon/panbaidu/favicon.ico",
+          "desc": "提取码: 2yfv",
+          "proxy": false
+        }
+      ]
+    },
+    {
+      "categoryName": "在线课程与慕课",
+      "categoryId": "online-courses-mooc",
+      "sites": [
+        {
+          "title": "中国大学MOOC",
+          "url": "https://www.icourse163.org/",
+          "icon": "https://edu-image.nosdn.127.net/32a8dd2a-b9aa-4ec9-abd5-66cd8751befb.png?imageView&quality=100",
+          "desc": "汇集国内顶尖高校的在线公开课，免费学习。",
+          "proxy": false
+        },
+        {
+          "title": "爱课程",
+          "url": "https://www.icourses.cn/home/",
+          "icon": "https://www.icourses.cn/web/favicon.ico",
+          "desc": "中国大学MOOC官方网站，汇集219所高校与网易联合出品的精品课程。",
+          "proxy": false
+        },
+        {
+          "title": "学堂在线",
+          "url": "https://www.xuetangx.com/",
+          "icon": "https://proxt-cdn.xuetangx.com/fe-proxtassets/xuetangX/0329/logo.ico",
+          "desc": "清华大学发起的精品中文慕课平台",
+          "proxy": false
+        },
+        {
+          "title": "网易公开课",
+          "url": "https://open.163.com/",
+          "icon": "https://c.open.163.com/favicon.ico",
+          "desc": "翻译国外名校公开课，内容广泛",
+          "proxy": false
+        },
+        {
+          "title": "可汗学院",
+          "url": "https://zh.khanacademy.org/",
+          "icon": "https://icon.horse/icon/khanacademy.org",
+          "desc": "著名的非营利教育组织，提供数学、科学等各学科的免费在线课程。",
+          "proxy": false
+        },
+        {
+          "title": "浙江大学课程攻略共享计划",
+          "url": "https://qsctech.github.io/zju-icicles/",
+          "icon": "https://qsctech.github.io/favicon.ico",
+          "desc": "浙江大学学生整理的课程资源和学习攻略。",
+          "proxy": false
+        },
+        {
+          "title": "清华大学",
+          "url": "https://rekcarc-tsc-uht.readthedocs.io/en/latest/",
+          "icon": "https://rekcarc-tsc-uht.readthedocs.io/favicon.ico",
+          "desc": "清华大学学生整理的课程资源。",
+          "proxy": false
+        },
+        {
+          "title": "北京大学",
+          "url": "https://lib-pku.github.io/",
+          "icon": "https://lib-pku.github.io/favicon.ico",
+          "desc": "北京大学学生整理的课程资源。",
+          "proxy": false
+        },
+        {
+          "title": "上海交大",
+          "url": "https://github.com/CoolPhilChen/SJTU-Courses/",
+          "icon": "https://github.githubassets.com/favicons/favicon.svg",
+          "desc": "上海交通大学学生整理的课程资源(Github)。",
+          "proxy": false
+        },
+        {
+          "title": "中国科学技术大学",
+          "url": "https://ustc-resource.github.io/USTC-Course/",
+          "icon": "https://ustc-resource.github.io/favicon.ico",
+          "desc": "中科大学生整理的课程资源。",
+          "proxy": false
+        },
+        {
+          "title": "东南大学",
+          "url": "https://github.com/zjdx1998/seucourseshare",
+          "icon": "https://github.githubassets.com/favicons/favicon.svg",
+          "desc": "东南大学学生整理的课程资源(Github)。",
+          "proxy": false
+        },
+        {
+          "title": "数字教育服务平台",
+          "url": "https://www.eduyun.cn/",
+          "icon": "https://www.eduyun.cn/images/logo.png",
+          "desc": "官方提供的免费中小学课程资源，涵盖各个年级和科目。",
+          "proxy": false
+        },
+        {
+          "title": "无视加密网课100%下载教程",
+          "url": "https://mp.weixin.qq.com/s/f-ZEac96Q3DGnYa89I2ggQ",
+          "icon": "https://res.wx.qq.com/a/wx_fed/assets/res/NTI4MWU5.ico",
+          "desc": "👍教你如何下载被加密保护、无法直接下载的在线课程视频。",
+          "proxy": false
+        },
+        {
+          "title": "喜马拉雅、得到教程资源",
+          "url": "https://cloud.189.cn/t/e6ZZRbZNzMNn",
+          "icon": "https://cloud.dlife.cn/web/main/logo.ico",
+          "desc": "超过1T的教程资源合集，【访问码：3lpc】。",
+          "proxy": false
+        },
+        {
+          "title": "知乎Live精品内容合集",
+          "url": "https://cloud.189.cn/t/meI3iqVNnuUf",
+          "icon": "https://cloud.dlife.cn/web/main/logo.ico",
+          "desc": "200个知乎收费LIVE精品内容合集，【访问码:qae2】。",
+          "proxy": false
+        },
+        {
+          "title": "樊登读书会合集",
+          "url": "https://cloud.189.cn/t/JfQzQbANNBFr",
+          "icon": "https://cloud.dlife.cn/web/main/logo.ico",
+          "desc": "樊登读书会2013-2020年全网最全合集，【访问码：tss2】。",
+          "proxy": false
+        }
+      ]
+    },
+    {
+      "categoryName": "考试与考研",
+      "categoryId": "exams-prep",
+      "sites": [
+        {
+          "title": "考试酷",
+          "url": "https://www.examcoo.com/",
+          "icon": "https://www.examcoo.com/favicon.ico",
+          "desc": "各行各业全面的在线考试题库。👍",
+          "proxy": false
+        },
+        {
+          "title": "一键搜题",
+          "url": "https://www.yuque.com/docs/share/a647f998-e212-4d5d-bf67-4b86fd820090",
+          "icon": "https://www.yuque.com/favicon.ico",
+          "desc": "分享用于网课、作业的搜题应用和脚本，快速找到答案和解析。",
+          "proxy": false
+        },
+        {
+          "title": "网课小帮手",
+          "url": "https://www.studypro.club/",
+          "icon": "https://www.studypro.club/favicon.ico",
+          "desc": "提供大学网课答案搜索。",
+          "proxy": false
+        },
+        {
+          "title": "菜鸟搜题",
+          "url": "https://www.cainiaosouti.com/",
+          "icon": "https://www.cainiaosouti.com/favicon.ico",
+          "desc": "大学生题目答案搜索引擎。",
+          "proxy": false
+        },
+        {
+          "title": "刷刷题",
+          "url": "https://www.shuashuati.com/",
+          "icon": "https://www.shuashuati.com/favicon.ico",
+          "desc": "大学生在线搜题网站。",
+          "proxy": false
+        },
+        {
+          "title": "问答库",
+          "url": "https://www.asklib.com/",
+          "icon": "https://www.asklib.com/favicon.svg",
+          "desc": "题库问答和学习平台。",
+          "proxy": false
+        },
+        {
+          "title": "简答题",
+          "url": "https://www.jiandati.com/",
+          "icon": "https://lstatic.shangxueba.com/jiandati/pc/images/favicon.ico",
+          "desc": "提供简答题和论述题的答案搜索。",
+          "proxy": false
+        },
+        {
+          "title": "论文查重",
+          "url": "https://www.yuque.com/docs/share/bbed5226-8c5d-4ac8-a448-c35d6746f040",
+          "icon": "https://www.yuque.com/favicon.ico",
+          "desc": "分享免费或低成本的论文查重方法和网站，帮助检测学术不端行为。",
+          "proxy": false
+        },
+        {
+          "title": "学信网 • 万方数据文献相似性检测服务系统",
+          "url": "https://chsi.wanfangtech.net/",
+          "icon": "https://chsi.wanfangtech.net/favicon.ico",
+          "desc": "官方论文查重服务，结果权威。",
+          "proxy": false
+        },
+        {
+          "title": "知网查重",
+          "url": "https://cx.cnki.net/",
+          "icon": "https://cx.cnki.net/favicon.ico",
+          "desc": "知网官方个人查重服务，1.5元/千字。",
+          "proxy": false
+        },
+        {
+          "title": "维普论文检测",
+          "url": "http://vpcs.cqvip.com/",
+          "icon": "http://vpcs.cqvip.com/favicon.ico",
+          "desc": "维普官方论文查重服务，3元/千字。",
+          "proxy": false
+        },
+        {
+          "title": "万方检测个人版",
+          "url": "https://jc.wanfangdata.com.cn/#/index",
+          "icon": "https://jc.wanfangdata.com.cn/favicon.ico",
+          "desc": "万方官方个人论文查重服务。",
+          "proxy": false
+        },
+        {
+          "title": "查重狗（维普特价版）",
+          "url": "http://axtx.xy666666.a.gocheck.com/",
+          "icon": "http://a.gocheck.com/favicon.ico",
+          "desc": "👍提供维普特价版查重，价格优惠。",
+          "proxy": false
+        },
+        {
+          "title": "超星大雅相似度分析",
+          "url": "https://dsa.dayainfo.com/",
+          "icon": "https://dsa.dayainfo.com/favicon.ico",
+          "desc": "完全免费的论文相似度检测系统。",
+          "proxy": false
+        },
+        {
+          "title": "PaperYY",
+          "url": "https://www.paperyy.com/?scode=3be73618896cf3d302d4e5b9e370a9be",
+          "icon": "https://down.paperyy.com/xiaochengxu/static/images/favicon.ico?v=20210510",
+          "desc": "论文查重网站，每日可免费查重1次。",
+          "proxy": false
+        },
+        {
+          "title": "FreeCheck",
+          "url": "https://www.freecheck.cn/invitation?ref=promoter&promote=nRSWsW3OLaqwuGV4MaLQ8A==",
+          "icon": "https://www.freecheck.cn/favicon.ico",
+          "desc": "论文查重网站，每日可免费查重1次。",
+          "proxy": false
+        },
+        {
+          "title": "PaperDay",
+          "url": "https://www.paperday.cn/",
+          "icon": "https://www.paperday.cn/favicon.ico",
+          "desc": "标准版每日不限次数，旗舰版每日限时免费查重1次。",
+          "proxy": false
+        },
+        {
+          "title": "PaperTime",
+          "url": "http://www.papertime.cn/f/2ldt1",
+          "icon": "https://www.papertime.cn/favicon.ico",
+          "desc": "论文查重网站，通过活动可获取免费查重字数。",
+          "proxy": false
+        },
+        {
+          "title": "PaperFree",
+          "url": "https://www.paperfree.cn/f/3pqpe",
+          "icon": "https://www.paperfree.cn/favicon.ico",
+          "desc": "论文查重网站，提供免费查重字数。",
+          "proxy": false
+        },
+        {
+          "title": "论文狗",
+          "url": "https://www.lunwengo.net/",
+          "icon": "https://www.lunwengo.net/wp-content/uploads/2019/11/cropped-微信图片_20191114095420-2-32x32.png",
+          "desc": "每日可免费查重1篇，可分享得金币换查重字数。",
+          "proxy": false
+        },
+        {
+          "title": "up考研资料分享",
+          "url": "https://www.yuque.com/qjl988/kyzl",
+          "icon": "https://www.yuque.com/favicon.ico",
+          "desc": "英语、政治、数学，资源新，免费分享",
+          "proxy": false
+        },
+        {
+          "title": "程序员考公指南",
+          "url": "https://github.com/coder2gwy/coder2gwy",
+          "icon": "https://github.githubassets.com/favicons/favicon.svg",
+          "desc": "Github高赞项目，为程序员提供考公指导和经验分享。",
+          "proxy": false
+        },
+        {
+          "title": "最新公务员资源大全",
+          "url": "https://gongkao6688.edudisk.cn/",
+          "icon": "https://www.edudisk.cn/favicon.ico",
+          "desc": "永硕网盘分享的公务员考试资源。",
+          "proxy": false
+        },
+        {
+          "title": "公考公开真题库",
+          "url": "https://www.gkzenti.cn/",
+          "icon": "https://www.gkzenti.cn/favicon.ico",
+          "desc": "提供公务员考试历年真题的在线题库。",
+          "proxy": false
+        },
+        {
+          "title": "满小分论坛",
+          "url": "https://manxiaofen.com/",
+          "icon": "https://manxiaofen.com/favicon.ico",
+          "desc": "考试资料共享平台，涉及建筑、会计、公考、外语、考研等。",
+          "proxy": false
+        },
+        {
+          "title": "ブックフォレスト",
+          "url": "https://bkfeng.top/",
+          "icon": "https://bkfeng.top/img/favicon6.png",
+          "desc": "一个集合了教资、事业单位、公务员、英语、考研等多种考试资源的网站。",
+          "proxy": false
+        },
+        {
+          "title": "教师资格证",
+          "url": "https://www.yuque.com/docs/share/558085c3-e33b-491a-9a87-2ef97443a932",
+          "icon": "https://www.yuque.com/favicon.ico",
+          "desc": "集合教师资格证考试相关的备考资料、视频教程和学习笔记。",
+          "proxy": false
+        },
+        {
+          "title": "2022法考",
+          "url": "https://sifalianmemg.ysepan.com/",
+          "icon": "https://www.ysepan.com/favicon.ico",
+          "desc": "永硕E盘分享的司法考试课程资源。",
+          "proxy": false
+        },
+        {
+          "title": "数学 - 历年真题 (2023版)",
+          "url": "https://pan.baidu.com/s/1cZgwU9g0bDjiY5wYyDpf6w",
+          "icon": "img/favicon/panbaidu/favicon.ico",
+          "desc": "2023考研数学历年真题。提取码: 4guc",
+          "proxy": false
+        },
+        {
+          "title": "英语 - 历年真题 (2023版)",
+          "url": "https://pan.baidu.com/s/1ywPzaIrI4bSPnhjBz4CjBA",
+          "icon": "img/favicon/panbaidu/favicon.ico",
+          "desc": "2023考研英语历年真题。提取码: 7k2g",
+          "proxy": false
+        },
+        {
+          "title": "腿姐团队复试指导",
+          "url": "https://pan.baidu.com/s/1dsBwGk-fu3rSn3EtU6zXrw",
+          "icon": "img/favicon/panbaidu/favicon.ico",
+          "desc": "2022复试资料。提取码: 4q9s",
+          "proxy": false
+        },
+        {
+          "title": "文都特训复试班",
+          "url": "https://pan.baidu.com/s/1OE40p00CGfeHL8OieQjfcA",
+          "icon": "img/favicon/panbaidu/favicon.ico",
+          "desc": "2022复试资料。提取码: 6414",
+          "proxy": false
+        },
+        {
+          "title": "新东方复试特训车",
+          "url": "https://pan.baidu.com/s/12bpDzNKM0N_Ts9eelhmvXg",
+          "icon": "img/favicon/panbaidu/favicon.ico",
+          "desc": "2022复试资料。提取码: er3x",
+          "proxy": false
+        },
+        {
+          "title": "复试技巧及简历模板",
+          "url": "https://pan.baidu.com/s/1Kn5_412RoX6udhg_PVjqMw",
+          "icon": "img/favicon/panbaidu/favicon.ico",
+          "desc": "往期版本，仍有参考价值。提取码: jusi",
+          "proxy": false
+        },
+        {
+          "title": "法硕复试系列",
+          "url": "https://pan.baidu.com/s/1ZwULkYOxc6_ObNejfHXOGg",
+          "icon": "img/favicon/panbaidu/favicon.ico",
+          "desc": "2022法硕复试资料。提取码: q9qy",
+          "proxy": false
+        },
+        {
+          "title": "计算机复试系列",
+          "url": "https://pan.baidu.com/s/1rmX4grvpHZphu2yteMeKsw",
+          "icon": "img/favicon/panbaidu/favicon.ico",
+          "desc": "2022计算机复试资料。提取码: tiiu",
+          "proxy": false
+        }
+      ]
+    },
+    {
+      "categoryName": "语言学习与词典",
+      "categoryId": "language-learning-dictionaries",
+      "sites": [
+        {
+          "title": "ANKI",
+          "url": "https://www.yuque.com/docs/share/73d717ab-05e2-4b22-8aa5-46edb08c0133",
+          "icon": "https://www.yuque.com/favicon.ico",
+          "desc": "Anki记忆卡片软件的使用教程、插件推荐和精品牌组分享。",
+          "proxy": false
+        },
+        {
+          "title": "备考／辅助记忆神器推荐",
+          "url": "https://mp.weixin.qq.com/s/MZSyOguVVGHsiXQDb5CTlw",
+          "icon": "https://res.wx.qq.com/a/wx_fed/assets/res/NTI4MWU5.ico",
+          "desc": "👍介绍Anki等间隔重复记忆软件，提高学习效率。",
+          "proxy": false
+        },
+        {
+          "title": "Anki终极汇总",
+          "url": "https://zhuanlan.zhihu.com/p/21328602",
+          "icon": "https://static.zhihu.com/heifetz/favicon.ico",
+          "desc": "知乎专栏，介绍强大的记忆软件Anki的使用方法和资源。",
+          "proxy": false
+        },
+        {
+          "title": "欧路词典",
+          "url": "https://www.eudic.net/v4/en/app/download",
+          "icon": "https://icon.horse/icon/eudic.net",
+          "desc": "专业的离线词典软件，支持加载多种词典库，提供精准的查词和翻译服务。",
+          "proxy": false
+        },
+        {
+          "title": "Merriam-Webster",
+          "url": "https://www.merriam-webster.com/",
+          "icon": "https://www.merriam-webster.com/favicon.svg",
+          "desc": "韦氏词典官网，提供专业的英英释义。",
+          "proxy": false
+        },
+        {
+          "title": "Vocabulary.com",
+          "url": "https://www.vocabulary.com/",
+          "icon": "https://www.vocabulary.com/favicon.ico",
+          "desc": "强大的在线英文词典，提供生动的词汇解释和例句。",
+          "proxy": true
+        },
+        {
+          "title": "词源在线",
+          "url": "https://www.etymonline.com/cn",
+          "icon": "https://www.etymonline.com/favicon.ico",
+          "desc": "在线词源词典，探究单词的起源和演变。",
+          "proxy": false
+        },
+        {
+          "title": "Linggle",
+          "url": "https://linggle.com/",
+          "icon": "https://linggle.com/favicon.ico",
+          "desc": "英语语法、词语搭配和用法搜索引擎。",
+          "proxy": false
+        },
+        {
+          "title": "英语真题在线",
+          "url": "https://zhenti.burningvocabulary.com/",
+          "icon": "https://zhenti.burningvocabulary.com/favicon-32x32.png",
+          "desc": "收录了历年四六级、考研等英语考试真题，并提供详细解析。",
+          "proxy": false
+        },
+        {
+          "title": "大学英语四级 (CET-4)",
+          "url": "https://pan.baidu.com/s/1c5qXDATD9kVSlvLXkYh7oQ",
+          "icon": "img/favicon/panbaidu/favicon.ico",
+          "desc": "2021年四级备考资料。提取码: 9qb2",
+          "proxy": false
+        },
+        {
+          "title": "大学英语六级 (CET-6)",
+          "url": "https://pan.baidu.com/s/1Pmr4cNJd-4o_xuZIh08REg",
+          "icon": "img/favicon/panbaidu/favicon.ico",
+          "desc": "2021年六级备考资料。提取码: olp6",
+          "proxy": false
+        },
+        {
+          "title": "英语专业四级 (TEM-4)",
+          "url": "https://pan.baidu.com/s/1iQbSjBHnDoXq6rX34Lm2xQ",
+          "icon": "img/favicon/panbaidu/favicon.ico",
+          "desc": "英语专业四级备考资料。提取码: e30r",
+          "proxy": false
+        },
+        {
+          "title": "英语专业八级 (TEM-8)",
+          "url": "https://pan.baidu.com/s/1mXey9m2SIcQ3twzzD5w-9w",
+          "icon": "img/favicon/panbaidu/favicon.ico",
+          "desc": "英语专业八级备考资料。提取码: a3ip",
+          "proxy": false
+        },
+        {
+          "title": "专升本考试培训英语专项课",
+          "url": "https://t.cn/A669ZNre",
+          "icon": "https://weibo.com/favicon.ico",
+          "desc": "专升本英语专项课程资源。",
+          "proxy": false
+        },
+        {
+          "title": "中国语言资源保护工程采录展示平台",
+          "url": "https://zhongguoyuyan.cn/",
+          "icon": "https://zhongguoyuyan.cn/favicon.png",
+          "desc": "展示中国各地方言和语言文化。",
+          "proxy": false
+        },
+        {
+          "title": "中国特色话语对外翻译标准化术语库",
+          "url": "https://210.72.20.108/index/index.jsp",
+          "icon": "https://210.72.20.108/favicon.ico",
+          "desc": "提供中国特色词汇和话语的官方标准翻译。",
+          "proxy": false
+        }
+      ]
+    },
+    {
+      "categoryName": "办公软件与效率工具",
+      "categoryId": "office-productivity-tools",
+      "sites": [
+        {
+          "title": "Office",
+          "url": "https://www.yuque.com/docs/share/8886abd2-80b6-4463-b9f3-3113fe915ddd",
+          "icon": "https://www.yuque.com/favicon.ico",
+          "desc": "提供Office办公套件（Word/Excel/PPT）的安装、激活和使用教程。",
+          "proxy": false
+        },
+        {
+          "title": "Office Tool Plus",
+          "url": "https://otp.landian.vip/zh-cn/",
+          "icon": "https://otp.landian.vip/favicon.ico",
+          "desc": "强大的 Office 部署工具，支持 Office 的下载、安装、激活与管理。",
+          "proxy": false
+        },
+        {
+          "title": "WPS Office 企业版",
+          "url": "https://ep.wps.cn/download",
+          "icon": "https://ep.wps.cn/favicon.ico",
+          "desc": "WPS 官方企业版，资源包内附带激活码和激活工具。",
+          "proxy": false
+        },
+        {
+          "title": "WPS 2013-2019 各个版本",
+          "url": "https://pan.baidu.com/s/1RNqwERMA0nnli6g-ICCFaQ",
+          "icon": "img/favicon/panbaidu/favicon.ico",
+          "desc": "提取码: t3b2",
+          "proxy": false
+        },
+        {
+          "title": "PDF转换",
+          "url": "https://www.yuque.com/docs/share/e3309e7e-10ef-4c24-86e7-938ac4ad8813",
+          "icon": "https://www.yuque.com/favicon.ico",
+          "desc": "集合各类PDF转换工具，支持PDF与Word、Excel、PPT、图片等格式的相互转换。",
+          "proxy": false
+        },
+        {
+          "title": "PDF去水印",
+          "url": "https://www.yuque.com/docs/share/12536d1d-1d43-4d0e-ab20-a8dae2cfc081",
+          "icon": "https://www.yuque.com/favicon.ico",
+          "desc": "介绍去除PDF文件中水印的工具和方法，方便阅读和使用。",
+          "proxy": false
+        },
+        {
+          "title": "福昕PDF",
+          "url": "https://pan.baidu.com/s/1-30fk83zAK3aHoIDGrVADw",
+          "desc": "功能强大的PDF阅读和编辑器。提供专业版，提取码：q0u2",
+          "icon": "img/favicon/panbaidu/favicon.ico",
+          "proxy": false
+        },
+        {
+          "title": "OCR",
+          "url": "https://www.yuque.com/docs/share/177c6f55-dfff-4fd5-8d71-7374c7128a5e",
+          "icon": "https://www.yuque.com/favicon.ico",
+          "desc": "推荐精准的OCR文字识别软件，可将图片、扫描件或PDF中的文字提取出来。",
+          "proxy": false
+        },
+        {
+          "title": "Panda OCR",
+          "url": "https://github.com/miaomiaosoft/PandaOCR.Pro",
+          "icon": "https://github.githubassets.com/favicons/favicon.svg",
+          "desc": "多功能OCR文字识别工具，支持多个OCR和翻译引擎。",
+          "proxy": false
+        },
+        {
+          "title": "流程图",
+          "url": "https://www.yuque.com/docs/share/7e348dff-2bd4-4d69-b513-dd2876951205",
+          "icon": "https://www.yuque.com/favicon.ico",
+          "desc": "推荐Visio、Draw.io等流程图和思维导图制作工具。",
+          "proxy": false
+        },
+        {
+          "title": "ProcessOn",
+          "url": "https://www.processon.com/",
+          "icon": "https://www.processon.com/favicon.ico",
+          "desc": "免费在线作图、实时协作，支持流程图、思维导图等。",
+          "proxy": false
+        },
+        {
+          "title": "XMind",
+          "url": "https://pan.baidu.com/s/1blS-w-v1zxGpr7z4LELe0g",
+          "desc": "专业的思维导图软件。提供破解版，提取码：8egm",
+          "icon": "img/favicon/panbaidu/favicon.ico",
+          "proxy": false
+        },
+        {
+          "title": "Bitwarden",
+          "url": "https://bitwarden.com/",
+          "icon": "https://bitwarden.com/favicon.ico",
+          "desc": "👍开源、跨平台的密码管理器，强烈推荐。",
+          "proxy": false
+        },
+        {
+          "title": "KeePass 使用教程+完整配置版",
+          "url": "https://mp.weixin.qq.com/s/8uPA0kJ7kmObh0XW8EJz8w",
+          "icon": "https://res.wx.qq.com/a/wx_fed/assets/res/NTI4MWU5.ico",
+          "desc": "本地化的开源密码管理器，安全性极高。",
+          "proxy": false
+        },
+        {
+          "title": "微软 Microsoft Authenticator",
+          "url": "https://mp.weixin.qq.com/s/31sSHtSdKA6jxLyWgzHKMg#:~:text=2-,Microsoft%20Authenticator,-%E5%85%B3%E4%BA%8E%E5%AF%86%E7%A0%81%E7%AE%A1%E7%90%86",
+          "icon": "https://res.wx.qq.com/a/wx_fed/assets/res/NTI4MWU5.ico",
+          "desc": "微软官方的两步验证器，支持密码云同步和自动填充。",
+          "proxy": false
+        },
+        {
+          "title": "Everything使用技巧",
+          "url": "https://mp.weixin.qq.com/s/z82AcSj-NWocAkN_phxrtA",
+          "icon": "https://res.wx.qq.com/a/wx_fed/assets/res/NTI4MWU5.ico",
+          "desc": "Windows上最快的本地文件搜索工具使用指南。",
+          "proxy": false
+        },
+        {
+          "title": "全文搜索／正文搜索软件推荐",
+          "url": "https://mp.weixin.qq.com/s/lErH53BbOEurwDhMBFgE0g",
+          "icon": "https://res.wx.qq.com/a/wx_fed/assets/res/NTI4MWU5.ico",
+          "desc": "介绍支持文件内容搜索的工具，快速定位信息。",
+          "proxy": false
+        },
+        {
+          "title": "阿虚的笔记方案 ㆖",
+          "url": "https://mp.weixin.qq.com/s/LtbJIBl4MYp6-5kTFqFmvA",
+          "icon": "https://res.wx.qq.com/a/wx_fed/assets/res/NTI4MWU5.ico",
+          "desc": "永久原格式完美保存网页的笔记方法。",
+          "proxy": false
+        },
+        {
+          "title": "阿虚的视频笔记方案 ㆖",
+          "url": "https://mp.weixin.qq.com/s/VapV7pN9rM2LbrKlfkY47Q",
+          "icon": "https://res.wx.qq.com/a/wx_fed/assets/res/NTI4MWU5.ico",
+          "desc": "视频转图片／精记录，高效整理视频笔记。",
+          "proxy": false
+        },
+        {
+          "title": "公文写作",
+          "url": "https://www.yuque.com/docs/share/7620ec80-4e9f-4f27-a118-4e723865a63d",
+          "icon": "https://www.yuque.com/favicon.ico",
+          "desc": "提供公文写作的模板、范文和辅助工具，提升写作规范性和效率。",
+          "proxy": false
+        },
+        {
+          "title": "操作录制",
+          "url": "https://www.yuque.com/docs/share/6c921e79-2a8a-4fce-a17f-7300e6131b0f",
+          "icon": "https://www.yuque.com/favicon.ico",
+          "desc": "介绍可录制键鼠操作并自动执行的工具，以及PDF编辑、分页等技巧。",
+          "proxy": false
+        }
+      ]
+    },
+    {
+      "categoryName": "电子书与文档",
+      "categoryId": "ebooks-documents",
+      "sites": [
+        {
+          "title": "Anna’s Archive",
+          "url": "https://zh.annas-archive.org/",
+          "icon": "https://zh.annas-archive.org/favicon.ico",
+          "desc": "🥇全球最大的在线影子图书馆，整合Z-Library、LibGen等资源。",
+          "proxy": true
+        },
+        {
+          "title": "zlibrary官方",
+          "url": "https://z-lib.gd/",
+          "icon": "https://z-lib.gd/favicon.ico",
+          "desc": "🥇Z-Library项目官方域名，可找到最新可用的Z-Lib镜像。",
+          "proxy": true
+        },
+        {
+          "title": "2025最新zlibrary、Anna’s Archive国内访问与下载方法",
+          "url": "https://flowus.cn/share/f32b6cae-c0da-42f0-8a25-5997e4423117?code=CZ3ECT",
+          "icon": "https://static.flowus.cn/logos/default.svg",
+          "desc": "👍🆕提供多种在国内访问和下载Z-Library和Anna's Archive资源的方法。",
+          "proxy": false
+        },
+        {
+          "title": "鸠摩搜书",
+          "url": "https://www.jiumodiary.com/",
+          "icon": "https://www.jiumodiary.com/images/favicon.png",
+          "desc": "强大的电子书聚合搜索引擎。",
+          "proxy": false
+        },
+        {
+          "title": "24h搜书（IPFS）",
+          "url": "https://24hbook.store/",
+          "icon": "https://24hbook.store/favicon.ico",
+          "desc": "🥇基于IPFS的去中心化图书搜索引擎。",
+          "proxy": false
+        },
+        {
+          "title": "SaltyLeo 的书架",
+          "url": "https://book.tstrs.me/",
+          "icon": "https://book.tstrs.me/favicon.ico",
+          "desc": "👍一个收集了大量电子书的个人书库，资源丰富。",
+          "proxy": false
+        },
+        {
+          "title": "Z-Library",
+          "url": "https://zlib.shop",
+          "desc": "全球最大的数字图书馆，提供海量电子书下载。此为最新镜像入口。",
+          "proxy": true
+        },
+        {
+          "title": "Library Genesis",
+          "url": "https://libgen.unblockit.bet/",
+          "icon": "https://libgen.is/favicon.ico",
+          "desc": "强大的外文文献和电子书搜索引擎。",
+          "proxy": true
+        },
+        {
+          "title": "Project Gutenberg",
+          "url": "https://www.gutenberg.org/",
+          "icon": "https://www.gutenberg.org/gutenberg/favicon.ico",
+          "desc": "古登堡计划，提供大量版权已过期的免费电子书。",
+          "proxy": false
+        },
+        {
+          "title": "知搜",
+          "url": "https://zhiso.cc/",
+          "icon": "https://zhiso.cc/favicon.ico",
+          "desc": "聚合型搜索，包含图书、学术、软件等多种资源搜索。",
+          "proxy": false
+        },
+        {
+          "title": "TheFuture",
+          "url": "https://bks.thefuture.top/",
+          "icon": "https://bks.thefuture.top/favicon.ico",
+          "desc": "电子书搜索引擎，TG群：futuresearch。",
+          "proxy": false
+        },
+        {
+          "title": "小力盘",
+          "url": "https://www.xiaolipan.com/index.html",
+          "icon": "https://www.xiaolipan.com/favicon.ico",
+          "desc": "🥈一个专注于电子书资源的网盘搜索引擎。",
+          "proxy": false
+        },
+        {
+          "title": "自由图书",
+          "url": "https://book5678.com/",
+          "icon": "https://book5678.com/favicon.ico",
+          "desc": "🥈电子书资源下载站，提供多种格式。",
+          "proxy": false
+        },
+        {
+          "title": "千秋书在",
+          "url": "https://www.qqszz.net/",
+          "icon": "https://www.qqszz.net/favicon.ico",
+          "desc": "🥈电子书分享博客。",
+          "proxy": false
+        },
+        {
+          "title": "热点图书网",
+          "url": "https://www.happydot.top/",
+          "icon": "https://www.happydot.top/favicon.ico",
+          "desc": "🥈电子书资源分享站。",
+          "proxy": false
+        },
+        {
+          "title": "爱悦读",
+          "url": "https://www.iyd.wang/",
+          "icon": "https://www.iyd.wang/favicon.ico",
+          "desc": "🥈Kindle电子书下载网站。",
+          "proxy": false
+        },
+        {
+          "title": "书葵网",
+          "url": "https://www.shukui.net/",
+          "icon": "https://www.shukui.net/favicon.ico",
+          "desc": "🥈电子书资源分享站。",
+          "proxy": false
+        },
+        {
+          "title": "恩京的书房",
+          "url": "https://www.enjing.net/",
+          "icon": "https://www.enjing.net/favicon.ico",
+          "desc": "🥈电子书资源分享博客。",
+          "proxy": false
+        },
+        {
+          "title": "书籍知识库",
+          "url": "https://www.zhishikoo.com/",
+          "icon": "https://book.zhishikoo.com/wp-content/uploads/2019/09/ico.png",
+          "desc": "🥈电子书资源分享站。",
+          "proxy": false
+        },
+        {
+          "title": "一起读书",
+          "url": "https://www.17dushu.cn/",
+          "icon": "https://www.17dushu.cn/favicon.ico",
+          "desc": "🥈电子书资源分享博客。",
+          "proxy": false
+        },
+        {
+          "title": "NMOD",
+          "url": "https://www.nmod.net/",
+          "icon": "https://www.nmod.net/favicon.ico",
+          "desc": "🥉电子书资源下载站。",
+          "proxy": false
+        },
+        {
+          "title": "sobooks",
+          "url": "https://sobooks.net/",
+          "icon": "data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22%3E%3Ctext y=%22.9em%22 font-size=%2290%22%3E📚%3C/text%3E%3C/svg%3E",
+          "desc": "一个优质的免费电子书资源下载网站。",
+          "proxy": false
+        },
+        {
+          "title": "kindle吧",
+          "url": "https://www.kindle8.cc/",
+          "icon": "data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22%3E%3Ctext y=%22.9em%22 font-size=%2290%22%3E📚%3C/text%3E%3C/svg%3E",
+          "desc": "提供海量Kindle电子书资源下载的网站。",
+          "proxy": false
+        },
+        {
+          "title": "苦瓜书盘",
+          "url": "https://kgbook.com/",
+          "icon": "https://kgbook.com/favicon.ico",
+          "desc": "Kindle电子书下载，提供多种格式。",
+          "proxy": false
+        },
+        {
+          "title": "书栈网",
+          "url": "https://www.bookstack.cn/",
+          "icon": "https://www.bookstack.cn/favicon.ico",
+          "desc": "开源书籍和IT文档分享，可在线阅读和下载。",
+          "proxy": false
+        },
+        {
+          "title": "文库下载",
+          "url": "https://www.yuque.com/docs/share/63e0fe67-d11f-4f3b-99c7-3aa331d4483b",
+          "icon": "https://www.yuque.com/favicon.ico",
+          "desc": "介绍使用冰点文库等工具免费下载百度文库、豆丁网等在线文档的方法。",
+          "proxy": false
+        },
+        {
+          "title": "河洛中文网",
+          "url": "https://www.horou.com/touch/",
+          "icon": "https://www.horou.com/favicon.ico",
+          "desc": "👍繁体版网络小说在线阅读站，资源全且无广告。",
+          "proxy": false
+        },
+        {
+          "title": "知轩藏书",
+          "url": "https://zxcs.me/",
+          "icon": "https://zxcs.me/favicon.ico",
+          "desc": "精排校对网络小说下载，提供TXT格式。",
+          "proxy": false
+        },
+        {
+          "title": "知轩藏书资源备份 ¹",
+          "url": "https://zxcs.dmnb.cf/",
+          "icon": "https://zxcs.dmnb.cf/favicon.ico",
+          "desc": "知轩藏书的镜像站，解决原站访问问题。",
+          "proxy": false
+        },
+        {
+          "title": "知轩藏书资源备份 ²",
+          "url": "https://dl.askk.cc/ms/zxcs",
+          "icon": "https://dl.askk.cc/favicon.ico",
+          "desc": "知轩藏书的另一个资源备份站。",
+          "proxy": false
+        },
+        {
+          "title": "阡陌居",
+          "url": "http://www.1000qm.vip/?fromuid=153931",
+          "icon": "http://www.1000qm.vip/favicon.ico",
+          "desc": "精校网络小说下载论坛。",
+          "proxy": false
+        },
+        {
+          "title": "精校全本",
+          "url": "https://noveless.com/",
+          "icon": "https://noveless.com/favicon.ico",
+          "desc": "精校网络小说下载。",
+          "proxy": false
+        },
+        {
+          "title": "精校吧",
+          "url": "https://www.jingjiaoba.com/",
+          "icon": "https://www.jingjiaoba.com/wp-content/themes/Cute/assets/img/favicon.ico",
+          "desc": "精校小说下载论坛。",
+          "proxy": false
+        },
+        {
+          "title": "八零电子书",
+          "url": "https://m.txt80.cc/",
+          "icon": "https://m.txt80.cc/favicon.ico",
+          "desc": "网络小说TXT格式下载站。",
+          "proxy": false
+        },
+        {
+          "title": "久久小说网",
+          "url": "https://www.jjjxsw.com/",
+          "icon": "https://www.jjjxsw.com/favicon.ico",
+          "desc": "网络小说TXT格式下载站。",
+          "proxy": false
+        },
+        {
+          "title": "笔趣阁",
+          "url": "http://www.ibiqu.net/",
+          "icon": "data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22%3E%3Ctext y=%22.9em%22 font-size=%2290%22%3E📚%3C/text%3E%3C/svg%3E",
+          "desc": "知名网络小说阅读和更新网站。",
+          "proxy": false
+        },
+        {
+          "title": "哔哩轻小说",
+          "url": "https://www.linovelib.com/",
+          "icon": "https://www.linovelib.com/favicon.ico",
+          "desc": "轻小说在线阅读和下载。",
+          "proxy": true
+        },
+        {
+          "title": "轻之国度",
+          "url": "https://www.lightnovel.us/",
+          "icon": "https://www.lightnovel.us/favicon.ico",
+          "desc": "老牌轻小说论坛和在线阅读网站。",
+          "proxy": false
+        },
+        {
+          "title": "ESJ Zone",
+          "url": "https://www.esjzone.cc/",
+          "icon": "https://www.esjzone.cc/favicon.ico",
+          "desc": "轻小说在线阅读网站。",
+          "proxy": true
+        },
+        {
+          "title": "SF轻小说",
+          "url": "https://book.sfacg.com/",
+          "icon": "https://book.sfacg.com/favicon.ico",
+          "desc": "原创轻小说发布和阅读平台。",
+          "proxy": false
+        },
+        {
+          "title": "铅笔小说",
+          "url": "https://www.23qb.net/lightnovel/",
+          "icon": "https://www.23qb.net/mxstatic/picture/logo.png",
+          "desc": "轻小说在线阅读网站。",
+          "proxy": true
+        },
+        {
+          "title": "推书君",
+          "url": "https://www.tuishujun.com/",
+          "icon": "https://www.tuishujun.com/favicon.ico",
+          "desc": "网络小说推荐与书评社区。",
+          "proxy": false
+        }
+      ]
+    },
+    {
+      "categoryName": "学术文献与论文",
+      "categoryId": "academic-literature-papers",
+      "sites": [
+        {
+          "title": "SCI-Hub论文下载可用网址链接",
+          "url": "https://tool.yovisun.com/scihub/",
+          "icon": "https://tool.yovisun.com/favicon.ico",
+          "desc": "实时更新可用的Sci-Hub域名，用于免费下载学术论文。",
+          "proxy": false
+        },
+        {
+          "title": "免费AI论文解读/翻译",
+          "url": "https://baoyueai.com/channel?utm_id=228200 ",
+          "icon": "data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22%3E%3Ctext y=%22.9em%22 font-size=%2290%22%3E🤖%3C/text%3E%3C/svg%3E",
+          "desc": "论文对照翻译，改写润色，专业术语详解，一站式解决论文烦恼！",
+          "proxy": false
+        },
+        {
+          "title": "读秀代下",
+          "url": "http://dl.zzyyww.cn/?s=05ELMChYkKHaUVk",
+          "icon": "http://dl.zzyyww.cn/favicon.ico",
+          "desc": "👍提供读秀、超星等学术资源的代下载服务，价格低廉（￥1.9一本）。",
+          "proxy": false
+        },
+        {
+          "title": "读秀下载",
+          "url": "https://www.yuque.com/docs/share/f821359d-6916-41e4-bf8b-dbb885b03a21",
+          "icon": "https://www.yuque.com/favicon.ico",
+          "desc": "分享从读秀、超星等学术资源网站下载文献资料的方法和工具。",
+          "proxy": false
+        },
+        {
+          "title": "读秀百万书库资源免费下载教程",
+          "url": "https://mp.weixin.qq.com/s/1A3s9LFbn5A0v7d3_Yy1Zg",
+          "icon": "https://res.wx.qq.com/a/wx_fed/assets/res/NTI4MWU5.ico",
+          "desc": "教你如何免费获取读秀等学术数据库的文献资源。",
+          "proxy": false
+        },
+        {
+          "title": "全国图书馆参考咨询联盟",
+          "url": "https://www.ucdrs.superlib.net/",
+          "desc": "官方的图书文献检索和获取平台，可用于下载学术资料。",
+          "proxy": false
+        },
+        {
+          "title": "中国知网",
+          "url": "https://www.cnki.net/",
+          "icon": "https://www.cnki.net/favicon.ico",
+          "desc": "全球领先的数字出版平台，提供学术文献检索服务。",
+          "proxy": false
+        },
+        {
+          "title": "百度学术",
+          "url": "https://xueshu.baidu.com/",
+          "icon": "https://xueshu.baidu.com/favicon.ico",
+          "desc": "百度旗下的学术资源搜索平台。",
+          "proxy": false
+        },
+        {
+          "title": "DOAJ",
+          "url": "https://doaj.org/",
+          "icon": "https://doaj.org/assets/img/favicon/favicon-32x32.png",
+          "desc": "开放获取期刊目录，收录了大量免费的全文科技学术期刊。",
+          "proxy": false
+        },
+        {
+          "title": "SpringerLink",
+          "url": "https://link.springer.com/",
+          "icon": "https://link.springer.com/favicon.ico",
+          "desc": "全球最大的在线科学、技术和医学(STM)领域学术资源平台。",
+          "proxy": false
+        },
+        {
+          "title": "FreeFullPDF",
+          "url": "https://www.freefullpdf.com/",
+          "icon": "https://www.freefullpdf.com/wp-content/uploads/2022/07/cropped-Logo-FreeFullPDF-rond-350-texte-test-bleu-e1657632831430-32x32.jpg",
+          "desc": "提供超过7000种学术期刊的免费全文获取。",
+          "proxy": false
+        },
+        {
+          "title": "Ovid",
+          "url": "https://www.ovid.com/",
+          "icon": "https://www.ovid.com/ovid/home/ovtmp-assets/images/favicon.ico",
+          "desc": "全球知名的医学和科研文献数据库提供商。",
+          "proxy": false
+        },
+        {
+          "title": "文献部落",
+          "url": "http://459.org/",
+          "icon": "data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22%3E%3Ctext y=%22.9em%22 font-size=%2290%22%3E🎓%3C/text%3E%3C/svg%3E",
+          "desc": "一个免费下载文献的学术导航网站，提供多种文献检索入口。",
+          "proxy": false
+        },
+        {
+          "title": "大木虫学习导航",
+          "url": "http://www.4243.net/",
+          "icon": "data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22%3E%3Ctext y=%22.9em%22 font-size=%2290%22%3E🎓%3C/text%3E%3C/svg%3E",
+          "desc": "一个强大的学术导航网站，聚合了各种文献和学术资源。",
+          "proxy": false
+        },
+        {
+          "title": "科塔学术导航",
+          "url": "https://site.sciping.com/",
+          "icon": "data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22%3E%3Ctext y=%22.9em%22 font-size=%2290%22%3E🎓%3C/text%3E%3C/svg%3E",
+          "desc": "为科研工作者提供便捷的学术网站和资源导航。",
+          "proxy": false
+        },
+        {
+          "title": "科学文库",
+          "url": "https://book.sciencereading.cn/shop/main/Login/shopFrame.do",
+          "icon": "data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22%3E%3Ctext y=%22.9em%22 font-size=%2290%22%3E🌐%3C/text%3E%3C/svg%3E",
+          "desc": "提供了非常丰富的大学教材，涵盖多个学科。",
+          "proxy": false
+        }
+      ]
+    }
+  ]
+}
