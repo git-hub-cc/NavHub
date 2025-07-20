@@ -1,6 +1,668 @@
 {
   "categories": [
     {
+      "categoryName": "软件工具与网站",
+      "categoryId": "software-tools-sites",
+      "sites": [
+        {
+          "title": "618G免费解析",
+          "url": "https://jx.618g.com/",
+          "desc": "提供各大视频网站VIP视频免费解析服务。",
+          "proxy": false
+        },
+        {
+          "title": "soso music",
+          "url": "https://baozangku.lanzoui.com/iIAizmypkhi",
+          "desc": "Win版本",
+          "icon": "https://assets.woozooo.com/assets/favicon.ico",
+          "proxy": false
+        },
+        {
+          "title": "soso music",
+          "url": "https://baozangku.lanzoui.com/iwe6Tmypjwh",
+          "desc": "Mac版本",
+          "icon": "https://assets.woozooo.com/assets/favicon.ico",
+          "proxy": false
+        },
+        {
+          "title": "听音5.04.37",
+          "url": "https://baozangku.lanzoui.com/ioQHlp20ebc",
+          "desc": "一款音乐识别和播放应用。",
+          "icon": "https://assets.woozooo.com/assets/favicon.ico",
+          "proxy": false
+        },
+        {
+          "title": "ZY Player",
+          "url": "https://zyplayer.fun/",
+          "icon": "https://icon.horse/icon/zyplayer.fun",
+          "desc": "跨平台桌面端视频资源播放器，聚合全网高清影视资源。",
+          "proxy": false
+        },
+        {
+          "title": "洛雪音乐助手",
+          "url": "https://lxmusic.toside.cn",
+          "icon": "https://icon.horse/icon/toside.cn",
+          "desc": "一个聚合各大音乐平台资源的免费桌面音乐播放器。",
+          "proxy": false
+        },
+        {
+          "title": "洛雪音乐助手桌面版",
+          "url": "https://github.com/lyswhut/lx-music-desktop#readme",
+          "icon": "https://github.githubassets.com/favicons/favicon.svg",
+          "desc": "一个基于 Electron + Vue 开发的音乐软件。",
+          "proxy": false
+        },
+        {
+          "title": "菜鸟工具",
+          "url": "https://c.runoob.com/",
+          "icon": "https://icon.horse/icon/runoob.com",
+          "desc": "菜鸟教程出品的在线工具箱，包含各种开发和常用工具。",
+          "proxy": false
+        },
+        {
+          "title": "Adobe Flash Player v34.0.0.231 3in1 Silent",
+          "url": "https://www.lanzoui.com/izxQx01xay0j",
+          "icon": "https://assets.woozooo.com/assets/favicon.ico",
+          "desc": "最近更新的破解版或绿色版软件，由爬虫自动更新。",
+          "proxy": false
+        },
+        {
+          "title": "极客卸载 Geek Uninstaller 1.4.9.151",
+          "url": "https://www.lanzoui.com/iac5c01xbp0b",
+          "icon": "https://assets.woozooo.com/assets/favicon.ico",
+          "desc": "最近更新的破解版或绿色版软件，由爬虫自动更新。",
+          "proxy": false
+        },
+        {
+          "title": "小恐龙公文排版助手 1902 MSI版",
+          "url": "https://www.lanzoui.com/iyw7w01xby5a",
+          "icon": "https://assets.woozooo.com/assets/favicon.ico",
+          "desc": "最近更新的破解版或绿色版软件，由爬虫自动更新。",
+          "proxy": false
+        },
+        {
+          "title": "CBox 5.0.1.2",
+          "url": "https://www.lanzoui.com/iMbpG01xex0h",
+          "icon": "https://assets.woozooo.com/assets/favicon.ico",
+          "desc": "最近更新的破解版或绿色版软件，由爬虫自动更新。",
+          "proxy": false
+        },
+        {
+          "title": "爱奇艺 12.6.5",
+          "url": "https://www.lanzoui.com/iZ6t601tgl5i",
+          "icon": "https://assets.woozooo.com/assets/favicon.ico",
+          "desc": "最近更新的破解版或绿色版软件，由爬虫自动更新。",
+          "proxy": false
+        },
+        {
+          "title": "加快系统开关机速度小软件",
+          "url": "https://www.lanzoui.com/ioK8b01tgq5i",
+          "icon": "https://assets.woozooo.com/assets/favicon.ico",
+          "desc": "最近更新的破解版或绿色版软件，由爬虫自动更新。",
+          "proxy": false
+        },
+        {
+          "title": "酷狗音乐 V9.2.29",
+          "url": "https://www.lanzoui.com/i94oy01v7gyf",
+          "icon": "https://assets.woozooo.com/assets/favicon.ico",
+          "desc": "最近更新的破解版或绿色版软件，由爬虫自动更新。",
+          "proxy": false
+        },
+        {
+          "title": "biubiutv 电视直播接口模板",
+          "url": "https://www.lanzoul.com/iSuyg01ma1hc",
+          "icon": "https://assets.woozooo.com/assets/favicon.ico",
+          "desc": "最近更新的破解版或绿色版软件，由爬虫自动更新。",
+          "proxy": false
+        },
+        {
+          "title": "BiuBiu播放器 3.0.5",
+          "url": "https://www.lanzoul.com/indho01ma2lc",
+          "icon": "https://assets.woozooo.com/assets/favicon.ico",
+          "desc": "最近更新的破解版或绿色版软件，由爬虫自动更新。",
+          "proxy": false
+        },
+        {
+          "title": "CCleaner Pro v5.91.9357",
+          "url": "https://www.lanzoul.com/iC1T701ma3sf",
+          "icon": "https://assets.woozooo.com/assets/favicon.ico",
+          "desc": "最近更新的破解版或绿色版软件，由爬虫自动更新。",
+          "proxy": false
+        },
+        {
+          "title": "微软常用运行库合集",
+          "url": "https://www.lanzoul.com/iuNx401ma4ve",
+          "icon": "https://assets.woozooo.com/assets/favicon.ico",
+          "desc": "最近更新的破解版或绿色版软件，由爬虫自动更新。",
+          "proxy": false
+        },
+        {
+          "title": "VMOS Pro v2.2 VIP",
+          "url": "https://www.lanzoul.com/i8vc601ma54d",
+          "icon": "https://assets.woozooo.com/assets/favicon.ico",
+          "desc": "最近更新的破解版或绿色版软件，由爬虫自动更新。",
+          "proxy": false
+        },
+        {
+          "title": "高德地图车机版 6.1.0",
+          "url": "https://www.lanzoul.com/iiRJ001ma7ub",
+          "icon": "https://assets.woozooo.com/assets/favicon.ico",
+          "desc": "最近更新的破解版或绿色版软件，由爬虫自动更新。",
+          "proxy": false
+        },
+        {
+          "title": "论文助手三件套",
+          "url": "https://www.lanzoul.com/i3vC701ma82j",
+          "icon": "https://assets.woozooo.com/assets/favicon.ico",
+          "desc": "最近更新的破解版或绿色版软件，由爬虫自动更新。",
+          "proxy": false
+        },
+        {
+          "title": "猫影视TV v2.1.0.111",
+          "url": "https://www.lanzoul.com/iTygW01ma85c",
+          "icon": "https://assets.woozooo.com/assets/favicon.ico",
+          "desc": "最近更新的破解版或绿色版软件，由爬虫自动更新。",
+          "proxy": false
+        },
+        {
+          "title": "IDM Patch",
+          "url": "https://www.lanzoul.com/iYnyf01q7ibe",
+          "icon": "https://assets.woozooo.com/assets/favicon.ico",
+          "desc": "最近更新的破解版或绿色版软件，由爬虫自动更新。",
+          "proxy": false
+        },
+        {
+          "title": "MXPlayer TV v1.12.1G 盒子版",
+          "url": "https://www.lanzoul.com/ixt2i01q7kej",
+          "icon": "https://assets.woozooo.com/assets/favicon.ico",
+          "desc": "最近更新的破解版或绿色版软件，由爬虫自动更新。",
+          "proxy": false
+        },
+        {
+          "title": "书签网址有效性检测",
+          "url": "https://www.lanzoul.com/ii5gg01q7p4j",
+          "icon": "https://assets.woozooo.com/assets/favicon.ico",
+          "desc": "最近更新的破解版或绿色版软件，由爬虫自动更新。",
+          "proxy": false
+        },
+        {
+          "title": "搜软资源 1.8",
+          "url": "https://www.lanzoui.com/iEjue01liw8b",
+          "icon": "https://assets.woozooo.com/assets/favicon.ico",
+          "desc": "最近更新的破解版或绿色版软件，由爬虫自动更新。",
+          "proxy": false
+        },
+        {
+          "title": "大海视频 V2.1.2",
+          "url": "https://www.lanzoui.com/iJGEm01lixcb",
+          "icon": "https://assets.woozooo.com/assets/favicon.ico",
+          "desc": "最近更新的破解版或绿色版软件，由爬虫自动更新。",
+          "proxy": false
+        },
+        {
+          "title": "证照裁剪工具",
+          "url": "https://www.lanzoui.com/ijjei01lj5li",
+          "icon": "https://assets.woozooo.com/assets/favicon.ico",
+          "desc": "最近更新的破解版或绿色版软件，由爬虫自动更新。",
+          "proxy": false
+        },
+        {
+          "title": "FastStone Capture 8.4 (小巧截图工具)",
+          "url": "https://www.lanzoui.com/i3DqG01ljtkb",
+          "icon": "https://assets.woozooo.com/assets/favicon.ico",
+          "desc": "最近更新的破解版或绿色版软件，由爬虫自动更新。",
+          "proxy": false
+        },
+        {
+          "title": "音视图万能格式转换",
+          "url": "https://www.lanzoui.com/ik7JA01p9v6d",
+          "icon": "https://assets.woozooo.com/assets/favicon.ico",
+          "desc": "最近更新的破解版或绿色版软件，由爬虫自动更新。",
+          "proxy": false
+        },
+        {
+          "title": "迅雷-免会员精简去限速版",
+          "url": "https://www.lanzous.com/i8mip2f",
+          "icon": "data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22%3E%3Ctext y=%22.9em%22 font-size=%2290%22%3E🌐%3C/text%3E%3C/svg%3E",
+          "desc": "安卓版迅雷，精简去广告。",
+          "proxy": false
+        },
+        {
+          "title": "稿定设计",
+          "url": "https://www.gaoding.com/",
+          "icon": "data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22%3E%3Ctext y=%22.9em%22 font-size=%2290%22%3E🌐%3C/text%3E%3C/svg%3E",
+          "desc": "一个多场景的在线设计平台，提供海量模板和素材。",
+          "proxy": false
+        },
+        {
+          "title": "Adobe全家桶2022直装版",
+          "url": "https://www.aliyundrive.com/s/WjvzfZUEX7z",
+          "icon": "https://img.alicdn.com/imgextra/i1/O1CN01JDQCi21Dc8EfbRwvF_!!6000000000236-73-tps-64-64.ico",
+          "desc": "Adobe系列软件2022版，阿里云盘下载。",
+          "proxy": false
+        },
+        {
+          "title": "vposy微博",
+          "url": "https://weibo.com/vposy",
+          "icon": "https://weibo.com/favicon.ico",
+          "desc": "微博大神vposy，分享Adobe全系列软件。",
+          "proxy": false
+        },
+        {
+          "title": "WindowTop",
+          "url": "https://www.appinn.com/windowtop/",
+          "icon": "https://images3.appinn.com/wp-content/uploads/Appinn-icon-32.jpg",
+          "desc": "窗口置顶工具，支持透明、鼠标穿透、画中画等。",
+          "proxy": false
+        },
+        {
+          "title": "抖音视频去水印下载工具",
+          "url": "https://wwx.lanzoui.com/idvlEmlnbbi",
+          "icon": "https://assets.woozooo.com/assets/favicon.ico",
+          "desc": "PC端抖音视频去水印下载工具，【密码:eyyg】。",
+          "proxy": false
+        },
+        {
+          "title": "文件夹大小排序",
+          "url": "https://pan.baidu.com/s/13v-ym1vnoxgF2K5eQJjIQQ",
+          "icon": "img/favicon/panbaidu/favicon.ico",
+          "desc": "显示文件夹大小并排序的工具，【提取码：rq43】。",
+          "proxy": false
+        },
+        {
+          "title": "SpleeterGui",
+          "url": "https://pan.baidu.com/s/1Mzihk3yJJIqxb09mNtMsWw",
+          "icon": "img/favicon/panbaidu/favicon.ico",
+          "desc": "消人声利器，可分离人声和伴奏，【提取码：ayx2】。",
+          "proxy": false
+        },
+        {
+          "title": "微信/QQ/TIM防撤回补丁",
+          "url": "https://github.com/huiyadanli/RevokeMsgPatcher",
+          "icon": "https://github.githubassets.com/favicons/favicon.svg",
+          "desc": "开源的微信/QQ/TIM防撤回+多开补丁。",
+          "proxy": false
+        },
+        {
+          "title": "小丸工具箱",
+          "url": "https://www.lanzoux.com/iyDOvf5ye3g",
+          "icon": "https://assets.woozooo.com/assets/favicon.ico",
+          "desc": "一款用于处理音视频等多媒体文件的软件。",
+          "proxy": false
+        },
+        {
+          "title": "Potplayer",
+          "url": "https://potplayer.daum.net/",
+          "icon": "https://t1.daumcdn.net/potplayer/main/img/favicon.ico",
+          "desc": "功能强大的全能影音播放器。",
+          "proxy": false
+        },
+        {
+          "title": "ReNamer",
+          "url": "https://www.den4b.com/products/renamer",
+          "icon": "https://www.den4b.com/favicon.ico",
+          "desc": "非常强大的批量文件重命名软件。",
+          "proxy": false
+        },
+        {
+          "title": "Snipaste",
+          "url": "https://docs.snipaste.com/zh-cn/getting-started",
+          "desc": "强大易用的截图+贴图工具。",
+          "proxy": false
+        },
+        {
+          "title": "Everything",
+          "url": "https://www.voidtools.com/zh-cn/",
+          "icon": "https://www.voidtools.com/favicon.ico",
+          "desc": "速度最快的文件名搜索神器。",
+          "proxy": false
+        },
+        {
+          "title": "百分浏览器",
+          "url": "https://www.centbrowser.cn/",
+          "icon": "https://www.centbrowser.cn/favicon.ico",
+          "desc": "一款增强的Chrome浏览器，集成了许多实用功能。",
+          "proxy": false
+        },
+        {
+          "title": "微PE工具箱",
+          "url": "https://www.wepe.com.cn/",
+          "icon": "https://www.wepe.com.cn/favicon.ico",
+          "desc": "纯净、无广告的WinPE装机维护工具。",
+          "proxy": false
+        },
+        {
+          "title": "精准云",
+          "url": "https://jingzhunyun.com/",
+          "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAIAAACQd1PeAAAADElEQVQI12P4//8/AAX+Av7czFnnAAAAAElFTkSuQmCC",
+          "desc": "好用的在线工具集合",
+          "proxy": false
+        },
+        {
+          "title": "在线PS修图",
+          "url": "https://www.photopea.com",
+          "icon": "data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22%3E%3Ctext y=%22.9em%22 font-size=%2290%22%3E🌐%3C/text%3E%3C/svg%3E",
+          "desc": "强大的在线PS",
+          "proxy": true
+        },
+        {
+          "title": "UUPOOP",
+          "url": "https://www.uupoop.com/ps/",
+          "icon": "https://www.uupoop.com/favicon.ico",
+          "desc": "比官网快，支持证件照一键换底",
+          "proxy": false
+        },
+        {
+          "title": "MindMaster",
+          "url": "https://mm.edrawsoft.cn/create",
+          "icon": "https://mm.edrawsoft.cn/favicon.ico",
+          "desc": "在线思维导图",
+          "proxy": false
+        },
+        {
+          "title": "IT天空",
+          "url": "https://www.itsk.com/portal.php",
+          "icon": "https://www.itsk.com/favicon.ico",
+          "desc": "知名的IT技术论坛，提供系统封装、PE工具等资源。",
+          "proxy": false
+        },
+        {
+          "title": "智能电视网",
+          "url": "https://www.znds.com/",
+          "icon": "https://www.znds.com/favicon.ico",
+          "desc": "提供智能电视、电视盒子相关资讯、评测、应用和固件下载。",
+          "proxy": false
+        },
+        {
+          "title": "WPS",
+          "url": "https://mp.weixin.qq.com/s/60Jbep8yLuuuKHuKmD954A",
+          "icon": "https://res.wx.qq.com/a/wx_fed/assets/res/NTI4MWU5.ico",
+          "desc": "提供WPS Office的特别版本或去广告版本，以及使用技巧分享。",
+          "proxy": false
+        },
+        {
+          "title": "公众号下载",
+          "url": "https://www.yuque.com/docs/share/24af1740-d97c-4ad1-a3be-9bfe65d32e05",
+          "icon": "https://www.yuque.com/favicon.ico",
+          "desc": "分享工具用于批量下载微信公众号的文章、图片和视频。",
+          "proxy": false
+        },
+        {
+          "title": "QQ相册",
+          "url": "https://www.yuque.com/docs/share/2d592174-c15c-49f2-91b4-16e9a3ec2193",
+          "icon": "https://www.yuque.com/favicon.ico",
+          "desc": "分享批量下载和备份QQ空间相册的工具和脚本。",
+          "proxy": false
+        },
+        {
+          "title": "WiFi",
+          "url": "https://www.yuque.com/docs/share/5a9b70f9-d977-457a-8ec8-d46d36a734f9",
+          "icon": "https://www.yuque.com/favicon.ico",
+          "desc": "介绍查看已连接WiFi密码和进行WiFi网络分析的工具。",
+          "proxy": false
+        },
+        {
+          "title": "MiPony",
+          "url": "https://www.yuque.com/docs/share/b00fd62c-b9a0-4002-859a-8cd2d600de5f",
+          "icon": "https://www.yuque.com/favicon.ico",
+          "desc": "白马下载器（MiPony）的使用教程，支持从海量网盘下载文件。",
+          "proxy": false
+        },
+        {
+          "title": "蓝奏云",
+          "url": "https://www.yuque.com/docs/share/8d763773-5f13-449b-8166-e849002e76ad",
+          "icon": "https://www.yuque.com/favicon.ico",
+          "desc": "分享蓝奏云网盘的各类脚本和工具，提升使用体验。",
+          "proxy": false
+        },
+        {
+          "title": "城通网盘下载器",
+          "url": "https://www.yuque.com/docs/share/007af7cf-cc42-472f-a9d3-16b761fd92be",
+          "icon": "https://www.yuque.com/favicon.ico",
+          "desc": "提供针对城通网盘的专用下载工具，解决下载限速和弹窗问题。",
+          "proxy": false
+        },
+        {
+          "title": "资源嗅探",
+          "url": "https://www.yuque.com/docs/share/440c5885-9449-4771-99a9-b157f2d067d0",
+          "icon": "https://www.yuque.com/favicon.ico",
+          "desc": "利用浏览器扩展或专门工具嗅探和下载网页中的视频、音频等媒体资源。",
+          "proxy": false
+        },
+        {
+          "title": "微盘",
+          "url": "https://www.yuque.com/docs/share/084fde62-8327-4626-a4b9-83d62684c9b4",
+          "icon": "https://www.yuque.com/favicon.ico",
+          "desc": "介绍新浪微盘的替代品或相关资源下载方法。",
+          "proxy": false
+        },
+        {
+          "title": "动态二维码（部分已失效，待更新）",
+          "url": "https://www.yuque.com/docs/share/c7241752-2bcd-48bf-b6e4-85b18b1f0fce",
+          "icon": "https://www.yuque.com/favicon.ico",
+          "desc": "介绍制作动态二维码的方法，但部分服务可能已失效，内容待更新。",
+          "proxy": false
+        },
+        {
+          "title": "MSDN, I tell you",
+          "url": "https://next.itellyou.cn/",
+          "icon": "https://next.itellyou.cn/favicon.ico",
+          "desc": "原版Windows和Office等微软系软件镜像下载站。",
+          "proxy": false
+        },
+        {
+          "title": "Microsoft Edge",
+          "url": "https://flowus.cn/share/eaca0040-42b4-496b-bc73-6931858fb506?code=CZ3ECT",
+          "icon": "https://static.flowus.cn/logos/default.svg",
+          "desc": "👍便携版＋正式版，基于Chromium，性能优秀且功能丰富。",
+          "proxy": false
+        },
+        {
+          "title": "Google Chrome",
+          "url": "https://flowus.cn/share/687fd978-7615-4b58-9502-5585c312cacb?code=CZ3ECT",
+          "icon": "https://static.flowus.cn/logos/default.svg",
+          "desc": "便携版＋正式版，全球市场份额最高的浏览器。",
+          "proxy": false
+        },
+        {
+          "title": "Firefox",
+          "url": "https://flowus.cn/share/61172d7f-01b2-4db2-b2a3-0557dac478f0?code=CZ3ECT",
+          "icon": "https://static.flowus.cn/logos/default.svg",
+          "desc": "便携版／正式版，开源、注重隐私的浏览器。",
+          "proxy": false
+        },
+        {
+          "title": "Via浏览器",
+          "url": "https://viayoo.com/zh-cn/",
+          "icon": "https://viayoo.com/favicon.ico",
+          "desc": "轻量、快速的安卓浏览器，支持安装JS插件。",
+          "proxy": false
+        },
+        {
+          "title": "RunningCheese Firefox",
+          "url": "https://www.runningcheese.com/firefox",
+          "icon": "https://www.runningcheese.com/favicon.ico",
+          "desc": "奔跑中的奶酪定制优化版的Firefox浏览器。",
+          "proxy": false
+        },
+        {
+          "title": "RunningCheese Chrome",
+          "url": "https://www.runningcheese.com/chrome",
+          "icon": "https://www.runningcheese.com/favicon.ico",
+          "desc": "奔跑中的奶酪定制优化版的Chrome浏览器。",
+          "proxy": false
+        },
+        {
+          "title": "Tampermonkey（篡改猴）",
+          "url": "https://www.crxsoso.com/webstore/detail/dhdgffkkebhmkfjojejmpbldmpobfkfo",
+          "icon": "https://www.crxsoso.com/favicon-32x32.png",
+          "desc": "最流行的用户脚本管理器。",
+          "proxy": false
+        },
+        {
+          "title": "ViolentMonkey（暴力猴）",
+          "url": "https://www.crxsoso.com/webstore/detail/jinjaccalgkegednnccohejagnlnfdag",
+          "icon": "https://www.crxsoso.com/favicon-32x32.png",
+          "desc": "一个开源的用户脚本管理器，Tampermonkey的替代品。",
+          "proxy": false
+        },
+        {
+          "title": "Ublock origin",
+          "url": "https://www.crxsoso.com/webstore/detail/cjpalhdlnbpafiamejdnhcphjbkeiagm",
+          "icon": "https://www.crxsoso.com/favicon-32x32.png",
+          "desc": "最高效的广告拦截扩展程序。",
+          "proxy": false
+        },
+        {
+          "title": "图片助手－图片批量下载",
+          "url": "http://www.pullywood.com/ImageAssistant/",
+          "icon": "http://www.pullywood.com/favicon.ico",
+          "desc": "强大的图片批量下载扩展。",
+          "proxy": false
+        },
+        {
+          "title": "Video Speed Controller",
+          "url": "https://www.crxsoso.com/webstore/detail/nffaoalbilbmmfgbnbgppjihopabppdk",
+          "icon": "https://www.crxsoso.com/favicon-32x32.png",
+          "desc": "让HTML5视频支持倍速播放，最快可达16倍。",
+          "proxy": false
+        },
+        {
+          "title": "Github增强高速下载",
+          "url": "https://bitbucket.org/xiu2/userscript/raw/master/GithubEnhanced-High-Speed-Download.user.js",
+          "icon": "https://bitbucket.org/favicon.ico",
+          "desc": "为Github添加高速下载通道的油猴脚本。",
+          "proxy": false
+        },
+        {
+          "title": "7-zip",
+          "url": "https://www.7-zip.org/",
+          "icon": "https://www.7-zip.org/favicon.ico",
+          "desc": "开源免费的文件压缩软件，支持多种格式。",
+          "proxy": false
+        },
+        {
+          "title": "雷神加速器",
+          "url": "https://sfdl.360safe.com/netunion/20140425/73ucYutfwO4PJ3RYag49_346394.exe",
+          "icon": "https://www.leigod.com/favicon.ico",
+          "desc": "（兑换码：阿虚 ⇨ 送50小时）按小时计费的游戏加速器。",
+          "proxy": false
+        },
+        {
+          "title": "AK加速器",
+          "url": "https://www.akspeedy.com/html/invite_new/invite_download.html?inviter=8eB3rEmS",
+          "icon": "https://www.akspeedy.com/favicon.ico",
+          "desc": "（兑换码：阿虚 ⇨ 送66小时丨每天00:00－14:00免费）",
+          "proxy": false
+        },
+        {
+          "title": "Golink",
+          "url": "https://sfdl.360safe.com/netunion/20140425/golink_yq_346394.exe",
+          "icon": "https://www.golink.com/favicon.ico",
+          "desc": "（可暂停）电脑端每天可领时长的免费游戏加速器。",
+          "proxy": false
+        },
+        {
+          "title": "CC加速器",
+          "url": "https://www.ccspeed.cn/",
+          "icon": "https://www.ccspeed.cn/favicon.ico",
+          "desc": "完成每日任务来获取免费时长的游戏加速器。",
+          "proxy": false
+        },
+        {
+          "title": "知游加速器",
+          "url": "https://www.zhifool.com/",
+          "icon": "https://www.zhifool.com/wp-content/uploads/2025/06/cropped-zhiyou-32x32.png",
+          "desc": "（看广告每日领10小时加速时长）",
+          "proxy": false
+        },
+        {
+          "title": "biubiu加速器",
+          "url": "https://www.biubiu001.com/",
+          "icon": "https://www.biubiu001.com/favicon.ico",
+          "desc": "（兑换码：阿虚 ⇨ 送3天）网易出品的游戏加速器。",
+          "proxy": false
+        },
+        {
+          "title": "Tap加速器",
+          "url": "https://www.taptap.com/app/180786",
+          "icon": "https://www.taptap.com/favicon.ico",
+          "desc": "TapTap出品的免费手游加速器。",
+          "proxy": false
+        },
+        {
+          "title": "MX Player 破解版",
+          "url": "https://www.123684.com/s/bjcA-BQHg",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/a4/41/55/a44155b1-c426-38d7-fb17-dd3525287515/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/460x0w.webp",
+          "desc": "安卓端最受欢迎的视频播放器之一，提供破解版。",
+          "proxy": false
+        },
+        {
+          "title": "nPlayer（iOS）",
+          "url": "https://apps.apple.com/cn/app/id1116905928",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/4a/5b/e4/4a5be431-9f4d-b352-304b-4b1f2385312f/AppIcon-0-0-1x_U007emarketing-0-0-0-10-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/460x0w.webp",
+          "desc": "（￥30.00）iOS上功能强大的视频播放器。",
+          "proxy": false
+        },
+        {
+          "title": "MusicFree",
+          "url": "https://flowus.cn/share/bafbf656-846c-4ec2-91ba-085c9dbd19cf?code=CZ3ECT",
+          "icon": "https://static.flowus.cn/logos/default.svg",
+          "desc": "安卓端的插件化音乐播放器，可添加各类音源。",
+          "proxy": false
+        },
+        {
+          "title": "VidJuice UniTube",
+          "url": "https://store.lizhi.io/site/products/id/454?cid=ds7afku3",
+          "icon": "https://store.lizhi.io/favicon.ico",
+          "desc": "支持1000+平台在线音视频下载工具，正版特惠仅需￥79永久！",
+          "proxy": false
+        },
+        {
+          "title": "V视频助手",
+          "url": "https://v.ranks.xin/",
+          "icon": "https://v.ranks.xin/favicon.ico",
+          "desc": "支持腾讯、秒拍、微博、今日头条、快手等多个平台的视频下载。",
+          "proxy": false
+        },
+        {
+          "title": "Parsevideo",
+          "url": "https://pv.vlogdownloader.com/",
+          "icon": "https://pv.vlogdownloader.com/assets/addons/parsevideo/img/favicon.ico",
+          "desc": "在线视频解析下载工具，支持多个国内外网站。",
+          "proxy": false
+        },
+        {
+          "title": "哔哩哔哩（B站）下载",
+          "url": "https://www.jijidown.com/",
+          "icon": "https://www.jijidown.com/static/favicon.ico",
+          "desc": "唧唧，B站视频在线解析下载工具，支持封面、弹幕等。",
+          "proxy": false
+        },
+        {
+          "title": "在线BT种子／磁力转换工具",
+          "url": "https://tools.jb51.net/aideddesign/bt2mag",
+          "icon": "https://tools.jb51.net/favicon.ico",
+          "desc": "脚本之家提供的BT种子与磁力链接互转工具。",
+          "proxy": false
+        },
+        {
+          "title": "西边云-在线磁力链接转种子",
+          "url": "http://www.xibianyun.com/convert/",
+          "icon": "https://www.xibianyun.com/favicon.ico",
+          "desc": "磁力链接在线转换为BT种子文件。",
+          "proxy": false
+        },
+        {
+          "title": "Instant.io",
+          "url": "https://instant.io/",
+          "icon": "https://instant.io/favicon.ico",
+          "desc": "在线BT客户端，可直接在网页上进行BT下载和做种。",
+          "proxy": false
+        }
+      ]
+    },
+    {
       "categoryName": "移动应用",
       "categoryId": "mobile-apps",
       "sites": [

@@ -303,6 +303,41 @@
           "icon": "https://www.microsoft.com/favicon.ico?v2",
           "desc": "一款免费的管理剪贴板",
           "proxy": false
+        },
+        {
+          "title": "Dism++",
+          "url": "https://www.chuyu.me/",
+          "icon": "https://www.chuyu.me/favicon.ico",
+          "desc": "强大的Windows系统精简、优化和管理工具，被誉为“Windows系统瑞士军刀”。",
+          "proxy": false
+        },
+        {
+          "title": "Geek Uninstaller",
+          "url": "https://geekuninstaller.com/",
+          "icon": "https://geekuninstaller.com/favicon.ico",
+          "desc": "轻量级但功能强大的软件卸载工具，能强制卸载并清理残留文件和注册表项。",
+          "proxy": false
+        },
+        {
+          "title": "TreeSize Free",
+          "url": "https://www.jam-software.com/treesize_free",
+          "icon": "https://www.jam-software.com/favicon.ico",
+          "desc": "直观地显示磁盘空间占用情况，帮助用户快速找到并清理大文件。",
+          "proxy": false
+        },
+        {
+          "title": "HWiNFO",
+          "url": "https://www.hwinfo.com/",
+          "icon": "https://www.hwinfo.com/favicon.ico",
+          "desc": "专业的硬件信息检测工具，提供详尽的系统硬件规格和实时状态监控。",
+          "proxy": false
+        },
+        {
+          "title": "Recuva",
+          "url": "https://www.ccleaner.com/recuva",
+          "icon": "https://www.ccleaner.com/favicon.ico",
+          "desc": "由CCleaner公司出品的免费数据恢复软件，可以恢复误删除的文件。",
+          "proxy": false
         }
       ]
     },
@@ -606,6 +641,41 @@
           "icon": "https://pinyin.thunisoft.com/favicon.ico",
           "desc": "一款稳定、纯净的拼音输入法。",
           "proxy": false
+        },
+        {
+          "title": "Typora",
+          "url": "https://typora.io/",
+          "icon": "https://typora.io/img/favicon-32.png",
+          "desc": "一款所见即所得的极简 Markdown 编辑器，提供无缝的写作体验。",
+          "proxy": false
+        },
+        {
+          "title": "Obsidian",
+          "url": "https://obsidian.md/",
+          "icon": "https://obsidian.md/favicon.ico",
+          "desc": "强大的个人知识库和笔记软件，基于本地Markdown文件，通过双向链接构建知识网络。",
+          "proxy": false
+        },
+        {
+          "title": "iLovePDF",
+          "url": "https://www.ilovepdf.com/zh-cn",
+          "icon": "https://www.ilovepdf.com/img/favicons/favicon-32x32.png",
+          "desc": "免费的在线PDF工具集，支持合并、拆分、压缩、转换、编辑PDF等多种操作。",
+          "proxy": false
+        },
+        {
+          "title": "diagrams.net",
+          "url": "https://app.diagrams.net/",
+          "icon": "https://app.diagrams.net/images/favicon-32x32.png",
+          "desc": "功能强大的免费在线图表绘制工具，支持流程图、UML图、网络拓扑图等。",
+          "proxy": false
+        },
+        {
+          "title": "Listary",
+          "url": "https://www.listary.com/",
+          "icon": "https://www.listary.com/favicon.ico",
+          "desc": "Windows效率神器，提供快速文件搜索、程序启动和快捷操作，极大提升文件浏览和操作效率。",
+          "proxy": false
         }
       ]
     },
@@ -801,6 +871,41 @@
           "icon": "https://rocksdanister.github.io/favicon_io/favicon.ico",
           "desc": "免费版的Wallpaper Engine，可自定义动态桌面。",
           "proxy": false
+        },
+        {
+          "title": "HandBrake",
+          "url": "https://handbrake.fr/",
+          "icon": "https://handbrake.fr/favicon.ico",
+          "desc": "开源、免费、跨平台的视频转码工具，支持几乎所有视频格式，压制效果好。",
+          "proxy": false
+        },
+        {
+          "title": "Krita",
+          "url": "https://krita.org/zh/",
+          "icon": "https://krita.org/wp-content/uploads/2020/07/favicon-1-150x150.png",
+          "desc": "专业级的自由开源绘画软件，适用于概念设计、插画、纹理和磨砂绘画等。",
+          "proxy": false
+        },
+        {
+          "title": "GIMP",
+          "url": "https://www.gimp.org/",
+          "icon": "https://www.gimp.org/images/favicon.ico",
+          "desc": "强大的开源免费图像处理软件，被誉为“开源PS”，支持各种图像处理任务。",
+          "proxy": false
+        },
+        {
+          "title": "DaVinci Resolve",
+          "url": "https://www.blackmagicdesign.com/cn/products/davinciresolve/",
+          "icon": "https://www.blackmagicdesign.com/favicon.ico",
+          "desc": "集剪辑、调色、视觉特效、动态图形和音频后期制作于一身的专业后期软件，提供强大的免费版。",
+          "proxy": false
+        },
+        {
+          "title": "OBS Studio",
+          "url": "https://obsproject.com/zh-cn",
+          "icon": "https://obsproject.com/favicon.ico",
+          "desc": "免费开源的视频录制和直播推流软件，功能强大，是主播和内容创作者的首选。",
+          "proxy": false
         }
       ]
     },
@@ -995,6 +1100,41 @@
           "url": "https://www.yuque.com/docs/share/93ab97f6-e40f-449a-b16f-e102c9473927",
           "icon": "https://www.yuque.com/favicon.ico",
           "desc": "分享各种突破百度网盘限速的下载工具和方法。",
+          "proxy": false
+        },
+        {
+          "title": "Motrix",
+          "url": "https://motrix.app/zh-CN/",
+          "icon": "https://motrix.app/favicon.ico",
+          "desc": "一款界面简洁、功能强大的全能型下载工具，支持HTTP、FTP、BT、磁力链等多种协议。",
+          "proxy": false
+        },
+        {
+          "title": "Neat Download Manager",
+          "url": "https://www.neatdownloadmanager.com/index.php/zh/",
+          "icon": "https://www.neatdownloadmanager.com/images/fav.png",
+          "desc": "免费轻量级的多线程下载管理器，界面简洁，资源占用低，支持浏览器扩展。",
+          "proxy": false
+        },
+        {
+          "title": "Cloudflare WARP",
+          "url": "https://1.1.1.1/",
+          "icon": "https://1.1.1.1/favicon.ico",
+          "desc": "Cloudflare推出的免费网络流量加密与加速服务，保护隐私，提升网络访问速度和安全性。",
+          "proxy": false
+        },
+        {
+          "title": "GlassWire",
+          "url": "https://www.glasswire.com/",
+          "icon": "https://www.glasswire.com/favicon.ico",
+          "desc": "一款可视化的网络监控和防火墙工具，可以直观地查看应用的网络活动并控制其联网权限。",
+          "proxy": false
+        },
+        {
+          "title": "WinSCP",
+          "url": "https://winscp.net/eng/docs/lang:chs",
+          "icon": "https://winscp.net/favicon.ico",
+          "desc": "Windows环境下流行的开源SFTP、FTP、WebDAV、S3 和 SCP 客户端，方便地进行远程文件传输。",
           "proxy": false
         }
       ]

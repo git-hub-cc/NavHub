@@ -171,6 +171,34 @@
           "icon": "https://cdn-v2.tool.dute.me/assets/images/web/favicon.ico",
           "desc": "在线比对两个文本文档的差异，并高亮显示不同之处。",
           "proxy": false
+        },
+        {
+          "title": "Photopea",
+          "url": "https://www.photopea.com/",
+          "icon": "https://www.photopea.com/promo/icon512.png",
+          "desc": "功能强大的免费在线图片编辑器，界面和功能类似Photoshop。",
+          "proxy": false
+        },
+        {
+          "title": "CloudConvert",
+          "url": "https://cloudconvert.com/",
+          "icon": "https://cloudconvert.com/images/logo_flat_32.png",
+          "desc": "支持超过200种格式的在线文件转换器，包括文档、图片、视频等。",
+          "proxy": false
+        },
+        {
+          "title": "Squoosh",
+          "url": "https://squoosh.app/",
+          "icon": "https://squoosh.app/c/favicon-c9cf50ef.ico",
+          "desc": "谷歌出品的在线图片压缩工具，可在浏览器中进行高级压缩选项调整。",
+          "proxy": false
+        },
+        {
+          "title": "Convertio",
+          "url": "https://convertio.co/zh/",
+          "icon": "https://convertio.co/favicon.ico",
+          "desc": "万能在线文件转换器，支持300多种文件格式间的转换。",
+          "proxy": false
         }
       ]
     },
@@ -288,6 +316,41 @@
           "url": "https://zh.numberempire.com/",
           "icon": "https://zh.numberempire.com/favicon.ico",
           "desc": "一个强大的在线数学工具集合网站。",
+          "proxy": false
+        },
+        {
+          "title": "CodePen",
+          "url": "https://codepen.io/",
+          "icon": "https://cpwebassets.codepen.io/assets/favicon/favicon-aec34940f02971a0166299161b4ae71d7ae6f4e05445009778cb9f5442b0b170.ico",
+          "desc": "前端开发者的在线代码游乐场，可以实时预览HTML, CSS和JavaScript代码。",
+          "proxy": true
+        },
+        {
+          "title": "Hoppscotch",
+          "url": "https://hoppscotch.io/",
+          "icon": "https://hoppscotch.io/favicon.ico",
+          "desc": "一个开源的API请求构建器，是Postman的轻量级网页替代品。",
+          "proxy": false
+        },
+        {
+          "title": "Coolors",
+          "url": "https://coolors.co/",
+          "icon": "https://coolors.co/assets/img/favicon.png",
+          "desc": "快速的配色方案生成器，帮助设计师和开发者轻松创建和分享调色板。",
+          "proxy": false
+        },
+        {
+          "title": "Google Fonts",
+          "url": "https://fonts.google.com/",
+          "icon": "https://fonts.google.com/favicon.ico",
+          "desc": "一个包含大量开源字体的库，可免费用于个人和商业项目。",
+          "proxy": true
+        },
+        {
+          "title": "SVGOMG",
+          "url": "https://jakearchibald.github.io/svgomg/",
+          "icon": "https://jakearchibald.github.io/svgomg/imgs/favicon.png",
+          "desc": "强大的在线SVG文件优化和压缩工具，提供可视化界面和多种选项。",
           "proxy": false
         }
       ]
@@ -435,6 +498,34 @@
           "icon": "https://bzdt.ch.mnr.gov.cn/favicon.ico",
           "desc": "官方标准地图下载服务。👍",
           "proxy": false
+        },
+        {
+          "title": "Unsplash",
+          "url": "https://unsplash.com/",
+          "icon": "https://unsplash.com/favicon.ico",
+          "desc": "全球最大的免费高质量摄影照片分享社区，图片可免费商用。",
+          "proxy": false
+        },
+        {
+          "title": "Pexels",
+          "url": "https://www.pexels.com/zh-cn/",
+          "icon": "https://www.pexels.com/assets/static/images/meta/favicon.ico",
+          "desc": "提供海量免费可商用的高清图片和视频素材。",
+          "proxy": false
+        },
+        {
+          "title": "鸠摩搜索",
+          "url": "https://www.jiumodiary.com/",
+          "icon": "https://www.jiumodiary.com/favicon.ico",
+          "desc": "强大的电子书资源聚合搜索引擎，界面简洁无广告。",
+          "proxy": false
+        },
+        {
+          "title": "MSDN, I tell you",
+          "url": "https://msdn.itellyou.cn/",
+          "icon": "https://msdn.itellyou.cn/favicon.ico",
+          "desc": "一个非官方的MSDN镜像网站，提供Windows操作系统、Office等软件的ed2k链接。",
+          "proxy": false
         }
       ]
     },
@@ -560,6 +651,27 @@
           "icon": "https://www.virustotal.com/images/favicon.svg",
           "desc": "国外老牌在线查毒网站，聚合多个杀毒引擎",
           "proxy": true
+        },
+        {
+          "title": "10 Minute Mail",
+          "url": "https://10minutemail.net/",
+          "icon": "https://10minutemail.net/favicon.ico",
+          "desc": "提供一个10分钟后即自动销毁的临时邮箱，用于注册和接收邮件。",
+          "proxy": false
+        },
+        {
+          "title": "PrivateBin",
+          "url": "https://privatebin.net/",
+          "icon": "https://privatebin.net/favicon.ico",
+          "desc": "一个开源的、加密的在线文本分享工具，服务器无法读取内容。",
+          "proxy": false
+        },
+        {
+          "title": "Bitwarden",
+          "url": "https://vault.bitwarden.com/",
+          "icon": "https://vault.bitwarden.com/favicon.ico",
+          "desc": "开源的密码管理器，可在网页端安全地存储、管理和访问你的密码。",
+          "proxy": false
         }
       ]
     },
@@ -808,6 +920,34 @@
           "url": "https://time.is/",
           "icon": "https://time.is/favicon.ico",
           "desc": "世界各地的时间",
+          "proxy": false
+        },
+        {
+          "title": "WolframAlpha",
+          "url": "https://www.wolframalpha.com/",
+          "icon": "https://www.wolframalpha.com/favicon.ico",
+          "desc": "一个强大的计算知识引擎，能回答事实性问题、进行数学计算等。",
+          "proxy": true
+        },
+        {
+          "title": "Windy",
+          "url": "https://www.windy.com/",
+          "icon": "https://www.windy.com/favicon.ico",
+          "desc": "提供直观、详细的全球天气预报和气象图可视化服务。",
+          "proxy": false
+        },
+        {
+          "title": "Internet Archive",
+          "url": "https://archive.org/",
+          "icon": "https://archive.org/images/glogo.png",
+          "desc": "互联网档案库，收录了海量的网页、书籍、影像、软件等数字资料，知名的“网站时光机”就在其中。",
+          "proxy": true
+        },
+        {
+          "title": "A Soft Murmur",
+          "url": "https://asoftmurmur.com/",
+          "icon": "https://asoftmurmur.com/favicon.ico",
+          "desc": "一个混合环境音的网站，帮助你放松、专注和入睡。",
           "proxy": false
         }
       ]

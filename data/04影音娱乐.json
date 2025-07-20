@@ -5,6 +5,573 @@
       "categoryId": "online-video",
       "sites": [
         {
+          "title": "Day6(2015-2021)所有专辑歌曲全合集",
+          "url": "https://pan.baidu.com/s/19gWid4owpS3_Lf4lrooAiA",
+          "icon": "img/favicon/panbaidu/favicon.ico",
+          "desc": "高品质MP3-320K 提取码: 38cq",
+          "proxy": false
+        },
+        {
+          "title": "2020东京奥运会赛程",
+          "url": "https://tiyu.baidu.com/tokyoly/home/tab/%E8%B5%9B%E7%A8%8B/type/all",
+          "desc": "提供2020东京奥运会的详细比赛日程。",
+          "icon": "https://www.baidu.com/favicon.ico",
+          "proxy": false
+        },
+        {
+          "title": "90分钟足球网",
+          "url": "https://www.90oo.com/",
+          "desc": "提供足球比赛录像下载。",
+          "icon": "https://www.90oo.com/favicon.ico",
+          "proxy": false
+        },
+        {
+          "title": "JRS直播站",
+          "url": "https://www.jrszb.com",
+          "desc": "JRS直播，提供NBA、足球等体育赛事直播。",
+          "proxy": false
+        },
+        {
+          "title": "Lukas GTR",
+          "url": "https://lukas-gtr.blogspot.com",
+          "desc": "国外的体育赛事视频资源博客。",
+          "proxy": true
+        },
+        {
+          "title": "RGFootball",
+          "url": "https://rgfootball.net",
+          "desc": "提供足球比赛录像下载的国外网站。",
+          "proxy": true
+        },
+        {
+          "title": "Sport-Video",
+          "url": "https://www.sport-video.org.ua",
+          "desc": "提供各类体育赛事视频录像的乌克兰网站。",
+          "proxy": true
+        },
+        {
+          "title": "720pier",
+          "url": "https://720pier.ru",
+          "desc": "俄罗斯的体育赛事录像下载网站。",
+          "proxy": true
+        },
+        {
+          "title": "海盗直播网",
+          "url": "https://www.hdzb.tv/%20",
+          "desc": "主播推荐菠菜，请不要玩",
+          "proxy": false
+        },
+        {
+          "title": "球吧网",
+          "url": "https://www.ballbar.cc",
+          "desc": "直播源挺多的，很多体育比赛都有",
+          "proxy": false
+        },
+        {
+          "title": "腾讯体育直播",
+          "url": "https://sports.qq.com/kbsweb/",
+          "desc": "腾讯官方体育赛事直播平台。",
+          "icon": "img/favicon/gtimg/favicon.ico",
+          "proxy": false
+        },
+        {
+          "title": "直播吧",
+          "url": "https://www.zhibo8.cc/",
+          "desc": "老牌体育直播网",
+          "icon": "https://www.zhibo8.cc/favicon.ico",
+          "proxy": false
+        },
+        {
+          "title": "直播快吧",
+          "url": "https://www.zhibok8.com/bbs/",
+          "desc": "提供体育直播链接和赛事讨论的论坛。",
+          "icon": "data:;base64,iVBORw0KGgo=",
+          "proxy": false
+        },
+        {
+          "title": "24直播吧",
+          "url": "https://24zhiboba.com/#/",
+          "icon": "https://24zhiboba.com/favicon.ico",
+          "desc": "体育赛事直播网站。",
+          "proxy": false
+        },
+        {
+          "title": "体育比赛下载",
+          "url": "https://www.txzqw.me/",
+          "icon": "https://www.txzqw.me/favicon.ico",
+          "desc": "提供体育比赛录像下载。",
+          "proxy": false
+        },
+        {
+          "title": "直播网",
+          "url": "https://www.lshitv.com/",
+          "icon": "https://www.lshitv.com/favicon.ico",
+          "desc": "体育赛事直播导航。",
+          "proxy": false
+        },
+        {
+          "title": "EDD动漫",
+          "url": "https://www.edddh.net/",
+          "desc": "提供新番和完结动漫在线观看。",
+          "proxy": false
+        },
+        {
+          "title": "233动漫网",
+          "url": "https://www.dm233.tv/",
+          "desc": "提供在线动漫观看的网站。",
+          "proxy": false
+        },
+        {
+          "title": "爱奇动漫",
+          "url": "https://www.aiqidm.com/",
+          "desc": "一个在线动漫观看平台。",
+          "proxy": false
+        },
+        {
+          "title": "动画片大全",
+          "url": "https://www.donghuapiandaquan.com/",
+          "desc": "收录了大量经典和热门的动画片。",
+          "proxy": false
+        },
+        {
+          "title": "飞极速在线",
+          "url": "https://feijisu7.com/",
+          "desc": "提供动漫和影视剧在线观看。",
+          "proxy": false
+        },
+        {
+          "title": "天乐动漫",
+          "url": "https://www.kudm.net/index.html",
+          "desc": "提供最新最全的动漫在线观看。",
+          "proxy": false
+        },
+        {
+          "title": "天马动漫",
+          "url": "https://www.tmdm.tv/",
+          "desc": "一个在线动漫视频网站。",
+          "icon": "data:;base64,iVBORw0KGgo=",
+          "proxy": false
+        },
+        {
+          "title": "风车动漫",
+          "url": "https://www.92wuc.com/%20",
+          "desc": "老牌动漫在线观看网站。",
+          "proxy": false
+        },
+        {
+          "title": "漫岛动漫",
+          "url": "https://www.mandao.tv/",
+          "desc": "一个提供高清动漫在线观看的平台。",
+          "proxy": false
+        },
+        {
+          "title": "嘛哩嘛哩【看番】",
+          "url": "https://www.malimali.com/",
+          "desc": "一个专注动漫番剧的在线视频站。",
+          "icon": "https://www.malimali.com/wp-content/uploads/2024/08/1723659288-60.png",
+          "proxy": false
+        },
+        {
+          "title": "嘶哩嘶哩",
+          "url": "https://www.silisili.cc/",
+          "icon": "https://www.silisili.cc/favicon.png",
+          "desc": "一个在线动漫观看与分享网站。",
+          "proxy": false
+        },
+        {
+          "title": "樱花动漫",
+          "url": "https://www.imomoe.live/",
+          "desc": "专注动漫的门户网站。",
+          "proxy": false
+        },
+        {
+          "title": "小小漫迷",
+          "url": "https://www.xxmanmi.com/",
+          "icon": "https://www.xxmanmi.com/images/favicon.ico",
+          "desc": "提供动漫、美剧、电影在线观看。",
+          "proxy": false
+        },
+        {
+          "title": "ADC电影网",
+          "url": "https://www.adcmove.com/",
+          "desc": "提供免费电影和电视剧在线观看。",
+          "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAIAAACQd1PeAAAADElEQVQI12P4//8/AAX+Av7czFnnAAAAAElFTkSuQmCC",
+          "proxy": false
+        },
+        {
+          "title": "Gimy TV",
+          "url": "https://gimy.co",
+          "desc": "剧迷TV，提供海量电影、电视剧、综艺、动漫在线观看。",
+          "proxy": true
+        },
+        {
+          "title": "达达兔",
+          "url": "https://www.dadatuw.com/",
+          "desc": "一个影视资源丰富的在线观看网站。",
+          "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAIAAACQd1PeAAAADElEQVQI12P4//8/AAX+Av7czFnnAAAAAElFTkSuQmCC",
+          "proxy": false
+        },
+        {
+          "title": "蛋蛋赞影院",
+          "url": "https://www.dandanzan.cc/",
+          "desc": "提供电影、电视剧、动漫、综艺等在线观看。",
+          "icon": "https://www.dandanzan.cc/favicon.ico",
+          "proxy": false
+        },
+        {
+          "title": "电影先生",
+          "url": "https://dyxs11.com/",
+          "desc": "提供高清电影和电视剧在线观看。",
+          "icon": "https://dyxs11.com/statics/logo.png",
+          "proxy": false
+        },
+        {
+          "title": "嘀哩哩",
+          "url": "https://www.dililitv.com",
+          "desc": "欧美、日韩、港台影视剧",
+          "proxy": false
+        },
+        {
+          "title": "韩饭网",
+          "url": "https://www.hanfan.cc/",
+          "desc": "专注于韩国影视、综艺、音乐的粉丝网站。",
+          "icon": "https://www.hanfan.cc/favicon.ico",
+          "proxy": false
+        },
+        {
+          "title": "韩剧网",
+          "url": "https://2hanju.com/",
+          "desc": "提供最新韩剧在线观看和下载。",
+          "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAIAAACQd1PeAAAADElEQVQI12P4//8/AAX+Av7czFnnAAAAAElFTkSuQmCC",
+          "proxy": false
+        },
+        {
+          "title": "韩剧集网",
+          "url": "https://www.juji.tv/",
+          "desc": "一个专门提供韩剧在线观看的网站。",
+          "proxy": false
+        },
+        {
+          "title": "韩剧首发网",
+          "url": "https://www.hjsfz.cn/",
+          "desc": "第一时间更新韩剧资源的网站。",
+          "icon": "https://www.hjsfz.cn/favicon.ico",
+          "proxy": false
+        },
+        {
+          "title": "韩迷TV",
+          "url": "https://www.hmtv.me",
+          "desc": "为韩剧爱好者提供的在线观看平台。",
+          "proxy": false
+        },
+        {
+          "title": "奈飞星影视",
+          "url": "https://nfstar.net",
+          "desc": "一个仿Netflix界面的在线影视网站。",
+          "proxy": false
+        },
+        {
+          "title": "飘花电影【推荐】",
+          "url": "https://vod.cnzol.com/",
+          "desc": "知名的影视资源站，提供在线观看。",
+          "proxy": false
+        },
+        {
+          "title": "真不卡电影网",
+          "url": "https://www.zhenbuka.com",
+          "desc": "一个以流畅播放为特点的在线影视网站。",
+          "proxy": false
+        },
+        {
+          "title": "追剧吧",
+          "url": "https://www.huaxiab.com/",
+          "desc": "清晰度一般，线路倒是挺多",
+          "proxy": false
+        },
+        {
+          "title": "爱尚影视",
+          "url": "https://www.138vcd.com/",
+          "desc": "提供在线影视观看服务。",
+          "icon": "https://www.138vcd.com/html/1670272466/static/favicon.ico",
+          "proxy": false
+        },
+        {
+          "title": "奈非影视【高清、超清资源】",
+          "url": "https://www.nfmovies.com/",
+          "desc": "提供高清、超清画质的影视资源在线观看。",
+          "proxy": false
+        },
+        {
+          "title": "奈飞星",
+          "url": "https://nfxhd.com/?btwaf=93399898",
+          "desc": "一个提供高清影视资源的在线网站。",
+          "proxy": false
+        },
+        {
+          "title": "免费看电影",
+          "url": "https://mfkys.com/",
+          "icon": "data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22%3E%3Ctext y=%22.9em%22 font-size=%2290%22%3E🌐%3C/text%3E%3C/svg%3E",
+          "desc": "备用mfkys.tv mfkys.vip 播放不卡顿、高清",
+          "proxy": false
+        },
+        {
+          "title": "BTNull",
+          "url": "https://www.btnull.re/",
+          "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAIAAACQd1PeAAAADElEQVQI12P4//8/AAX+Av7czFnnAAAAAElFTkSuQmCC",
+          "desc": "无名小站，在线影视观看。",
+          "proxy": false
+        },
+        {
+          "title": "azm.to",
+          "url": "https://azm.to/",
+          "icon": "https://azm.to/favicon.ico",
+          "desc": "在线影视观看，需科学上网。",
+          "proxy": true
+        },
+        {
+          "title": "港剧网",
+          "url": "https://www.yueyu2.com/",
+          "icon": "https://www.yueyu2.com/mxtheme/images/favicon.png",
+          "desc": "粤语影院，提供粤语港剧在线观看。",
+          "proxy": false
+        },
+        {
+          "title": "港剧网",
+          "url": "https://www.gangjuw.net/index.html",
+          "icon": "https://www.gangjuw.net/favicon.ico",
+          "desc": "专门提供港剧在线观看和下载。",
+          "proxy": false
+        },
+        {
+          "title": "港剧屋",
+          "url": "https://www.gj5.tv/",
+          "icon": "https://www.gj5.tv/favicon.ico",
+          "desc": "港剧资源丰富的在线观看网站。",
+          "proxy": false
+        },
+        {
+          "title": "港剧迷",
+          "url": "http://www.hkmovie.cn/",
+          "icon": "http://www.hkmovie.cn/favicon.ico",
+          "desc": "提供港剧和香港电影的在线观看。",
+          "proxy": false
+        },
+        {
+          "title": "HDmoli",
+          "url": "https://www.hdmoli.pro/",
+          "icon": "data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22%3E%3Ctext y=%22.9em%22 font-size=%2290%22%3E🌐%3C/text%3E%3C/svg%3E",
+          "desc": "提供高清电影和剧集的在线观看及下载服务。",
+          "proxy": false
+        },
+        {
+          "title": "影视森林",
+          "url": "http://www.549.tv/",
+          "icon": "data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22%3E%3Ctext y=%22.9em%22 font-size=%2290%22%3E🌐%3C/text%3E%3C/svg%3E",
+          "desc": "一个在线影视观看网站，聚合各类影视资源。",
+          "proxy": false
+        },
+        {
+          "title": "555电影",
+          "url": "https://www.5ying.fun/",
+          "icon": "data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22%3E%3Ctext y=%22.9em%22 font-size=%2290%22%3E🌐%3C/text%3E%3C/svg%3E",
+          "desc": "提供免费高清电影、电视剧在线观看的影视网站。",
+          "proxy": false
+        },
+        {
+          "title": "FreeOK",
+          "url": "https://www.freeok.vip/",
+          "icon": "data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22%3E%3Ctext y=%22.9em%22 font-size=%2290%22%3E🌐%3C/text%3E%3C/svg%3E",
+          "desc": "免费在线影视站，提供最新最全的影视资源。",
+          "proxy": false
+        },
+        {
+          "title": "新视觉影视",
+          "url": "https://www.80yy3.com/",
+          "icon": "data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22%3E%3Ctext y=%22.9em%22 font-size=%2290%22%3E🌐%3C/text%3E%3C/svg%3E",
+          "desc": "提供高清电影、电视剧、综艺、动漫等在线观看服务。",
+          "proxy": false
+        },
+        {
+          "title": "夸克短剧",
+          "url": "https://pioz.cn/",
+          "icon": "https://pioz.cn/favicon.ico",
+          "desc": "仅短剧，通过夸克网盘分享的短剧资源。",
+          "proxy": false
+        },
+        {
+          "title": "短剧影视村",
+          "url": "http://www.yingshicun.com/",
+          "icon": "http://www.yingshicun.com/favicon.ico",
+          "desc": "专门提供短剧在线观看的网站。",
+          "proxy": false
+        },
+        {
+          "title": "Documentary Storm",
+          "url": "https://www.documentarystorm.com/",
+          "desc": "一个提供纪录片在线观看的网站，收录了世界各地的纪录片视频",
+          "proxy": true
+        },
+        {
+          "title": "公开课纪录片下载网",
+          "url": "https://www.opclass.com/",
+          "desc": "提供国内外知名大学公开课和纪录片下载。",
+          "icon": "https://www.opclass.com/favicon.ico",
+          "proxy": false
+        },
+        {
+          "title": "纪录片之家",
+          "url": "https://www.05jl.com/",
+          "desc": "一个分享各类纪录片的网站。",
+          "icon": "https://www.05jl.com/favicon.ico",
+          "proxy": false
+        },
+        {
+          "title": "央视纪实",
+          "url": "https://jishi.cctv.com/",
+          "desc": "中央电视台纪录片频道官网。",
+          "icon": "https://jishi.cctv.com/favicon.ico",
+          "proxy": false
+        },
+        {
+          "title": "西瓜视频",
+          "url": "https://www.ixigua.com/channel/jilupian/?wid_try=1",
+          "icon": "https://sf1-cdn-tos.douyinstatic.com/obj/eden-cn/lpqpflo/ixigua_favicon.ico",
+          "desc": "西瓜视频纪录片频道，与BBC/Discovery合作。",
+          "proxy": false
+        },
+        {
+          "title": "咪咕",
+          "url": "https://www.miguvideo.com/mgs/website/prd/index.html?pageId=5fa4bf015b384c0db8fbfecbdf1c2365",
+          "icon": "https://www.miguvideo.com/favicon.ico",
+          "desc": "咪咕视频纪录片专区，与BBC/Discovery合作。",
+          "proxy": false
+        },
+        {
+          "title": "芒果TV",
+          "url": "https://www.mgtv.com/doc/?fpa=19687",
+          "icon": "https://www.mgtv.com/favicon.ico",
+          "desc": "芒果TV纪录片频道，以自制内容为主。",
+          "proxy": false
+        },
+        {
+          "title": "乐视网",
+          "url": "http://jilu.le.com/",
+          "icon": "http://jilu.le.com/favicon.ico",
+          "desc": "乐视纪录片频道，与BBC/国家地理/BTV等合作。",
+          "proxy": false
+        },
+        {
+          "title": "飞观",
+          "url": "https://www.fillgreat.com/#/download",
+          "icon": "https://www.fillgreat.com/favicon.ico",
+          "desc": "一款纪录片APP，资源丰富。",
+          "proxy": false
+        },
+        {
+          "title": "央视影音",
+          "url": "https://app.cctv.com/appkhdxz/more/index.shtml#page5",
+          "icon": "https://app.cctv.com/favicon.ico",
+          "desc": "央视官方APP，可观看大量纪录片。",
+          "proxy": false
+        },
+        {
+          "title": "看鉴微视频",
+          "url": "https://flowus.cn/share/554d7627-0b51-4ab6-8c61-f3b73e81f275?code=CZ3ECT",
+          "icon": "https://static.flowus.cn/logos/default.svg",
+          "desc": "历史人文类短视频平台，提供纪录片观看。",
+          "proxy": false
+        },
+        {
+          "title": "MyFreeMP3",
+          "url": "https://tool.liumingye.cn/music/",
+          "icon": "https://ae01.alicdn.com/kf/H085a1499a38d4d8a920a396abceffa2bW.jpg",
+          "desc": "包含了国内各大音乐平台中的内容，可免费在线听和下载。",
+          "proxy": false
+        },
+        {
+          "title": "MyFreeMP3",
+          "url": "https://myfreemp3music.com/",
+          "desc": "下载全世界的音乐，资源非常丰富。",
+          "proxy": false
+        },
+        {
+          "title": "网易云音乐",
+          "url": "https://music.163.com/",
+          "icon": "data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22%3E%3Ctext y=%22.9em%22 font-size=%2290%22%3E🌐%3C/text%3E%3C/svg%3E",
+          "desc": "专注于发现与分享的音乐产品，以个性化推荐和乐评著称。",
+          "proxy": false
+        },
+        {
+          "title": "铜钟",
+          "url": "https://tonzhon.com/",
+          "icon": "data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22%3E%3Ctext y=%22.9em%22 font-size=%2290%22%3E🎵%3C/text%3E%3C/svg%3E",
+          "desc": "一个在线音乐播放和发现平台，界面简洁美观。",
+          "proxy": false
+        },
+        {
+          "title": "下歌吧",
+          "url": "https://xiageba.com/",
+          "icon": "data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22%3E%3Ctext y=%22.9em%22 font-size=%2290%22%3E🎵%3C/text%3E%3C/svg%3E",
+          "desc": "一个提供高品质和无损音乐下载的网站。",
+          "proxy": false
+        },
+        {
+          "title": "昔枫网易云音乐免费下载",
+          "url": "https://mu-jie.cc/musicBox/",
+          "icon": "https://mu-jie.cc/favicon.ico",
+          "desc": "👍在线音乐播放和无损下载工具。",
+          "proxy": false
+        },
+        {
+          "title": "放屁音乐网",
+          "url": "https://www.fangpi.net/",
+          "icon": "https://www.fangpi.net/favicon.ico",
+          "desc": "聚合各大音乐平台的在线播放和下载工具。",
+          "proxy": false
+        },
+        {
+          "title": "1Music",
+          "url": "https://1music.cc/zh-CN",
+          "icon": "https://1music.cc/favicon.ico",
+          "desc": "简洁的在线音乐播放和下载网站。",
+          "proxy": false
+        },
+        {
+          "title": "歌曲宝",
+          "url": "https://www.gequbao.com/",
+          "icon": "https://www.gequbao.com/favicon.ico",
+          "desc": "免费音乐搜索和下载网站。",
+          "proxy": false
+        },
+        {
+          "title": "听书网",
+          "url": "https://www.ting13.com/",
+          "icon": "https://www.ting13.com/favicon.ico",
+          "desc": "提供有声小说在线收听。",
+          "proxy": false
+        },
+        {
+          "title": "有声小说吧",
+          "url": "http://www.ysxs8.top/",
+          "icon": "http://www.ysxs8.top/favicon.ico",
+          "desc": "有声小说在线收听网站。",
+          "proxy": false
+        },
+        {
+          "title": "有声听书网",
+          "url": "https://www.ysts.cc/",
+          "icon": "https://www.ysts.cc/favicon.ico",
+          "desc": "老牌有声小说网站，资源丰富。",
+          "proxy": false
+        },
+        {
+          "title": "悦听吧",
+          "url": "http://www.yuetingba.cn/",
+          "icon": "http://www.yuetingba.cn/favicon.ico",
+          "desc": "提供有声小说、评书、相声等收听。",
+          "proxy": false
+        },
+        {
           "title": "魔法解析",
           "url": "https://wantwatch.me/",
           "icon": "https://wantwatch.me/favicon.ico",
