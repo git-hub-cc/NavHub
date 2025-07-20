@@ -4,16 +4,18 @@
 // 它将用户的交互（如点击、输入）与数据处理和UI更新连接起来，是整个应用的“神经中枢”。
 // =========================================================================
 
-import { state, getThemePreference, loadAllDataSources, loadSearchConfig, performDataSourceSwitch, saveNavData, findSiteById, DEFAULT_SITES_PATH, NAV_DATA_SOURCE_PREFERENCE_KEY, CUSTOM_CATEGORY_ID } from './data.js';
+import { state, getThemePreference, loadAllDataSources, loadSearchConfig, performDataSourceSwitch, saveNavData, findSiteById, DEFAULT_SITES_PATH, NAV_DATA_SOURCE_PREFERENCE_KEY, CUSTOM_CATEGORY_ID } from './dataManager.js';
 import { dom, applyTheme, populateDataSourceSelector, renderNavPage, updateDeleteButtonState, showAlert, openSiteModal, closeSiteModal, closeImportNameModal, toggleEditMode, toggleDeleteMode, filterNavCards, renderSearchCategories, renderEngineCheckboxes, renderSuggestions, showConfirm } from './ui.js';
-import { handleExport, handleImportClick, handleFileSelect, handleImportNameSubmit, handleDeleteSource } from './import-export.js';
+import { handleExport, handleImportClick, handleFileSelect, handleImportNameSubmit, handleDeleteSource } from './fileManager.js';
 
-// === 应用状态 (主要用于本模块内的交互) ===
+// === 模块内状态 ===
 let currentSearchCategory = '';
 let suggestions = [];
 let suggestionTimer = null;
 
-// === 初始化与事件绑定 ===
+// =========================================================================
+// #region 初始化与事件绑定
+// =========================================================================
 
 /**
  * 应用总初始化函数
@@ -37,7 +39,7 @@ async function init() {
     await Promise.all([
         performDataSourceSwitch(lastUsedSource, true, onDataSourceSwitchSuccess, onDataSourceSwitchFail),
         loadSearchConfig(),
-        pinyinConverter.loadMap('data/pinyin-map.json')
+        pinyinManager.loadMap('data/pinyin-map.json')
     ]);
 
     // 7. 初始化依赖于已加载数据的组件
@@ -48,9 +50,10 @@ async function init() {
  * 绑定不会被重复渲染的静态元素的事件
  */
 function setupStaticEventListeners() {
+    // 主题切换
     dom.darkModeSwitch.addEventListener('change', () => applyTheme(dom.darkModeSwitch.checked ? 'dark' : 'light'));
 
-    // --- MODIFICATION: New event listeners for the custom select component ---
+    // 自定义数据源选择器
     dom.customSelectTrigger.addEventListener('click', () => {
         dom.customSelect.classList.toggle('open');
     });
@@ -58,31 +61,23 @@ function setupStaticEventListeners() {
     dom.customSelectOptions.addEventListener('click', (e) => {
         const option = e.target.closest('.custom-select-option');
         if (option) {
-            e.stopPropagation(); // Prevent the trigger's click listener from firing right after
+            e.stopPropagation(); // 防止事件冒泡到 customSelectTrigger
             const newValue = option.dataset.value;
-            const currentValue = dom.customSelect.dataset.value;
-
-            if (newValue !== currentValue) {
-                // Update UI state immediately for responsiveness
-                dom.customSelectSelectedText.textContent = option.textContent;
-                dom.customSelect.dataset.value = newValue;
-                const oldSelected = dom.customSelectOptions.querySelector('.selected');
-                if (oldSelected) oldSelected.classList.remove('selected');
-                option.classList.add('selected');
-                // Trigger the data switch logic
+            if (newValue !== dom.customSelect.dataset.value) {
                 handleDataSourceChange(newValue);
             }
             dom.customSelect.classList.remove('open');
         }
     });
 
-    // Close the dropdown when clicking anywhere else on the document
+    // 点击外部区域关闭数据源选择器
     document.addEventListener('click', (e) => {
         if (!dom.customSelect.contains(e.target)) {
             dom.customSelect.classList.remove('open');
         }
     });
 
+    // 导入导出与数据源管理
     dom.exportBtn.addEventListener('click', handleExport);
     dom.importBtn.addEventListener('click', handleImportClick);
     dom.deleteSourceBtn.addEventListener('click', handleDeleteSource);
@@ -92,11 +87,15 @@ function setupStaticEventListeners() {
     dom.importNameModal.addEventListener('click', e => {
         if (e.target === dom.importNameModal) closeImportNameModal();
     });
+
+    // 网站编辑模态框
     dom.siteForm.addEventListener('submit', handleSiteFormSubmit);
     dom.cancelBtn.addEventListener('click', closeSiteModal);
     dom.siteModal.addEventListener('click', e => {
         if (e.target === dom.siteModal) closeSiteModal();
     });
+
+    // 自动填充图标URL
     dom.siteUrlInput.addEventListener('blur', e => {
         if (dom.siteIconInput.value || !e.target.value) return;
         try {
@@ -107,10 +106,11 @@ function setupStaticEventListeners() {
 }
 
 /**
- * --- MODIFICATION ---
- * 为动态内容区设置事件监听，拖拽逻辑被完全重构以支持通用编辑。
+ * 为动态内容区设置事件监听（例如，通过渲染生成的卡片）
+ * 包含完整的拖拽排序和编辑/删除逻辑。
  */
 function setupDynamicEventListeners() {
+    // 使用事件委托处理所有卡片和按钮的点击事件
     dom.contentWrapper.addEventListener('click', e => {
         const addSiteBtn = e.target.closest('#add-site-btn');
         const editSiteBtn = e.target.closest('#edit-site-btn');
@@ -129,11 +129,12 @@ function setupDynamicEventListeners() {
             toggleDeleteMode();
             return;
         }
+        // 处理卡片点击
         if (card) {
             e.preventDefault();
             const isInEditMode = dom.contentWrapper.classList.contains('is-editing');
             const isInDeleteMode = dom.contentWrapper.classList.contains('is-deleting');
-            const isEditable = card.closest('.custom-source-section');
+            const isEditable = card.closest('.custom-source-section'); // 检查卡片是否属于可编辑区域
 
             if (isInDeleteMode && isEditable) {
                 handleCardDelete(card);
@@ -146,7 +147,10 @@ function setupDynamicEventListeners() {
         }
     });
 
+    // --- 拖拽排序逻辑 ---
     let draggedItem = null, placeholder = null;
+
+    // 步骤1: 拖拽开始，记录被拖拽的卡片并创建占位符
     dom.contentWrapper.addEventListener('dragstart', e => {
         const card = e.target.closest('.card');
         if (card && card.draggable) {
@@ -159,6 +163,7 @@ function setupDynamicEventListeners() {
         }
     });
 
+    // 步骤2: 拖拽经过，根据鼠标位置移动占位符
     dom.contentWrapper.addEventListener('dragover', e => {
         e.preventDefault();
         if (!draggedItem) return;
@@ -166,25 +171,27 @@ function setupDynamicEventListeners() {
         const overGrid = e.target.closest('.card-grid');
         const overSection = e.target.closest('.custom-source-section');
 
+        // 只允许在可编辑的分类区域内移动
         if (overSection) {
-            if (overCard) {
+            if (overCard) { // 在卡片上
                 const rect = overCard.getBoundingClientRect();
                 const midpointY = rect.top + rect.height / 2;
                 overCard.parentNode.insertBefore(placeholder, e.clientY < midpointY ? overCard : overCard.nextSibling);
-            } else if (overGrid && !overGrid.querySelector('.placeholder')) {
+            } else if (overGrid && !overGrid.querySelector('.placeholder')) { // 在网格空白处
                 overGrid.appendChild(placeholder);
             }
         }
     });
 
+    // 步骤3: 拖拽释放，更新DOM和数据模型
     dom.contentWrapper.addEventListener('drop', e => {
         e.preventDefault();
         if (!draggedItem || !placeholder || !placeholder.parentNode) return;
 
         const draggedSiteId = draggedItem.dataset.id;
         const { site: draggedSite, category: sourceCategory } = findSiteById(draggedSiteId);
-
         const targetSection = placeholder.closest('.custom-source-section');
+
         if (!draggedSite || !sourceCategory || !targetSection) return;
 
         const targetCategoryId = targetSection.id;
@@ -192,10 +199,10 @@ function setupDynamicEventListeners() {
 
         if (!targetCategory) return;
 
-        // 1. 从DOM中放置卡片
+        // 3.1. 更新DOM：用实际卡片替换占位符
         placeholder.parentNode.replaceChild(draggedItem, placeholder);
 
-        // 2. 更新数据模型
+        // 3.2. 更新数据模型
         // 从源分类中移除
         const sourceSites = sourceCategory.sites;
         const siteIndex = sourceSites.findIndex(s => s.id === draggedSiteId);
@@ -212,16 +219,16 @@ function setupDynamicEventListeners() {
         // 根据新的ID顺序重新排序目标分类的站点数组
         targetCategory.sites.sort((a, b) => newOrderedIds.indexOf(a.id) - newOrderedIds.indexOf(b.id));
 
-        // 3. 如果源分类变空，并且不是“我的导航”，则删除它
+        // 3.3. 如果源分类变空，并且不是受保护的“我的导航”，则删除它
         if (sourceCategory.sites.length === 0 && sourceCategory.categoryId !== CUSTOM_CATEGORY_ID) {
             state.siteData.categories = state.siteData.categories.filter(c => c.categoryId !== sourceCategory.categoryId);
-            document.getElementById(sourceCategory.categoryId)?.remove();
-            dom.categoryList.querySelector(`a[href="#${sourceCategory.categoryId}"]`)?.remove();
+            renderNavPage(); // 涉及分类删除，需要完全重绘
         }
 
-        saveNavData();
+        saveNavData(dom.customSelect.dataset.value);
     });
 
+    // 步骤4: 拖拽结束，清理状态
     dom.contentWrapper.addEventListener('dragend', () => {
         if (draggedItem) draggedItem.classList.remove('dragging');
         if (placeholder && placeholder.parentNode) placeholder.parentNode.removeChild(placeholder);
@@ -229,40 +236,60 @@ function setupDynamicEventListeners() {
         placeholder = null;
     });
 }
+// #endregion
 
+// =========================================================================
+// #region 事件处理器
+// =========================================================================
 
-// === 事件处理器 ===
-
-// --- MODIFICATION: Handler now takes an identifier string directly ---
+/**
+ * 处理数据源选择变化
+ * @param {string} newIdentifier - 新数据源的标识符 (路径或名称)
+ */
 function handleDataSourceChange(newIdentifier) {
+    // 立即更新UI以提供即时反馈
+    const option = dom.customSelectOptions.querySelector(`[data-value="${newIdentifier}"]`);
+    if (option) {
+        dom.customSelectSelectedText.textContent = option.textContent;
+        dom.customSelect.dataset.value = newIdentifier;
+        const oldSelected = dom.customSelectOptions.querySelector('.selected');
+        if (oldSelected) oldSelected.classList.remove('selected');
+        option.classList.add('selected');
+    }
+    // 触发实际的数据加载和渲染
     performDataSourceSwitch(newIdentifier, false, onDataSourceSwitchSuccess, onDataSourceSwitchFail);
 }
 
+/**
+ * 数据源切换成功后的回调函数
+ */
 function onDataSourceSwitchSuccess() {
-    // UI for the select is already updated by user action.
-    // We just need to render the main page content and related UI.
     renderNavPage();
     dom.searchInput.value = '';
     filterNavCards('');
     updateDeleteButtonState();
 }
 
+/**
+ * 数据源切换失败后的回调函数
+ * @param {string} sourceName - 尝试加载的数据源名称
+ * @param {Error} error - 发生的错误
+ */
 function onDataSourceSwitchFail(sourceName, error) {
     showAlert(`加载数据源失败: ${sourceName}\n${error.message}`, '加载错误');
-    // --- MODIFICATION: Revert preference and re-render the select to show the correct state ---
-    // state.originalDataSourceValue holds the last successful identifier.
+    // 恢复到上次成功加载的数据源
     localStorage.setItem(NAV_DATA_SOURCE_PREFERENCE_KEY, state.originalDataSourceValue);
-    populateDataSourceSelector(); // This will read the reverted preference and update the UI
+    populateDataSourceSelector(); // 重新渲染选择器以反映正确的状态
 }
 
 /**
- * --- MODIFICATION ---
- * 处理网站表单提交，并在保存后保持当前的编辑/删除模式。
+ * 处理网站编辑/新增表单的提交
+ * @param {Event} e - 表单提交事件
  */
 async function handleSiteFormSubmit(e) {
     e.preventDefault();
 
-    // 1. 记录当前的UI模式
+    // 记录提交前的UI模式，以便操作后恢复
     const wasInEditMode = dom.contentWrapper.classList.contains('is-editing');
     const wasInDeleteMode = dom.contentWrapper.classList.contains('is-deleting');
 
@@ -283,36 +310,33 @@ async function handleSiteFormSubmit(e) {
     if (siteId) { // 编辑模式
         const { site } = findSiteById(siteId);
         if (site) Object.assign(site, sitePayload);
-    } else if(targetCategory) { // 新增模式
+    } else if (targetCategory) { // 新增模式
         targetCategory.sites.unshift(sitePayload);
     } else {
-        // 如果找不到分类，则不执行任何操作
-        showAlert(`无法找到分类ID: ${targetCategoryId}`, '错误');
+        showAlert(`操作失败：找不到目标分类 (ID: ${targetCategoryId})`, '错误');
         closeSiteModal();
         return;
     }
 
-    saveNavData();
+    saveNavData(dom.customSelect.dataset.value);
 
-    // 2. 在重新渲染之前，暂时移除模式类，以避免toggle函数行为不正确
-    if (wasInEditMode) dom.contentWrapper.classList.remove('is-editing');
-    if (wasInDeleteMode) dom.contentWrapper.classList.remove('is-deleting');
+    // 重新渲染前，暂时移除模式类，防止 toggle 函数行为异常
+    dom.contentWrapper.classList.remove('is-editing', 'is-deleting');
 
-    renderNavPage(); // 重新渲染UI
+    renderNavPage(); // 重新渲染UI以反映数据变化
     closeSiteModal();
 
-    // 3. 如果之前在某个模式下，则通过调用toggle函数重新进入该模式
-    // 这将正确地将所有UI元素（按钮文本、卡片动画等）设置为该模式的状态
+    // 如果之前处于编辑/删除模式，则恢复该模式
     if (wasInEditMode) toggleEditMode();
     if (wasInDeleteMode) toggleDeleteMode();
 
-    filterNavCards(dom.searchInput.value);
+    filterNavCards(dom.searchInput.value); // 保持搜索过滤结果
 }
 
 
 /**
- * --- MODIFICATION ---
- * 处理卡片删除，并增加空分类自动删除逻辑和“我的导航”回退逻辑。
+ * 处理网站卡片的删除操作
+ * @param {HTMLElement} cardElement - 被点击删除的卡片元素
  */
 async function handleCardDelete(cardElement) {
     const siteId = cardElement.dataset.id;
@@ -323,42 +347,39 @@ async function handleCardDelete(cardElement) {
     const confirmed = await showConfirm(`确定要删除网站 "${site.title}" 吗?`, "删除确认");
     if (!confirmed) return;
 
-    // 从数据模型中删除
+    // 1. 从数据模型中删除
     category.sites = category.sites.filter(s => s.id !== siteId);
 
-    let needsRerender = false;
-
-    // 如果分类为空，并且不是受保护的“我的导航”，则删除整个分类
+    // 2. 检查分类是否变空
     if (category.sites.length === 0 && category.categoryId !== CUSTOM_CATEGORY_ID) {
+        // 如果非保护分类变空，则删除整个分类
         state.siteData.categories = state.siteData.categories.filter(c => c.categoryId !== category.categoryId);
-
         // 检查是否所有分类都被删除了
         if (state.siteData.categories.length === 0) {
+            // 如果是，则自动添加一个空的“我的导航”作为回退
             state.siteData.categories.push({
                 categoryName: '我的导航',
                 categoryId: CUSTOM_CATEGORY_ID,
                 sites: []
             });
-            needsRerender = true; // 需要完全重绘以显示新的“我的导航”
         }
-    }
-
-    if (needsRerender) {
-        renderNavPage();
+        renderNavPage(); // 因为分类结构改变，需要完全重绘
     } else {
-        // 否则，只需从DOM中移除卡片和可能的空分类
-        if (category.sites.length === 0 && category.categoryId !== CUSTOM_CATEGORY_ID) {
-            document.getElementById(category.categoryId)?.remove();
-            dom.categoryList.querySelector(`a[href="#${category.categoryId}"]`)?.remove();
-        } else {
-            cardElement.remove();
-        }
+        // 否则，只需从DOM中移除卡片
+        cardElement.remove();
     }
 
-    saveNavData();
+    saveNavData(dom.customSelect.dataset.value);
 }
+// #endregion
 
-// === 增强搜索逻辑 === (无改动，保持原样)
+// =========================================================================
+// #region 增强搜索逻辑
+// =========================================================================
+
+/**
+ * 初始化搜索相关的功能
+ */
 function initEnhancedSearch() {
     renderSearchCategories();
     if (state.searchConfig.categories.length > 0) {
@@ -369,7 +390,7 @@ function initEnhancedSearch() {
     dom.suggestionsList.addEventListener('mouseleave', startSuggestionTimer);
     dom.suggestionsList.addEventListener('mouseenter', clearSuggestionTimer);
     document.addEventListener('click', e => {
-        if (e.target !== dom.searchInput && !dom.suggestionsList.contains(e.target) && !dom.customSelect.contains(e.target)) {
+        if (!dom.searchForm.contains(e.target) && !dom.suggestionsList.contains(e.target)) {
             suggestions = [];
             renderSuggestions(suggestions);
         }
@@ -386,17 +407,29 @@ function initEnhancedSearch() {
         }
     });
 }
+
+/**
+ * 选中一个搜索类别，并更新UI
+ * @param {string} categoryValue - 搜索类别的值
+ */
 function selectSearchCategory(categoryValue) {
     currentSearchCategory = categoryValue;
     const buttons = dom.searchCategoryButtonsContainer.querySelectorAll('.category-btn');
     buttons.forEach(btn => btn.classList.toggle('active', btn.dataset.value === categoryValue));
     renderEngineCheckboxes(currentSearchCategory);
 }
+
+/**
+ * 处理搜索表单提交
+ * @param {Event} e - 提交事件
+ */
 function handleSearchSubmit(e) {
     e.preventDefault();
     const query = dom.searchInput.value.trim();
     const checkedEngines = dom.searchEngineCheckboxesContainer.querySelectorAll('input[type="checkbox"]:checked');
+
     if (query === '' && checkedEngines.length > 0) {
+        // 空搜索，则打开第一个选中的搜索引擎主页
         const firstEngineUrl = new URL(checkedEngines[0].value.replace('%s', ''));
         window.open(firstEngineUrl.origin, "_blank");
         return;
@@ -412,10 +445,15 @@ function handleSearchSubmit(e) {
     suggestions = [];
     renderSuggestions(suggestions);
 }
+
+/**
+ * 处理搜索框输入，获取建议并过滤导航卡片
+ */
 function handleSuggestionInput() {
     const query = dom.searchInput.value.trim();
-    filterNavCards(query);
+    filterNavCards(query); // 实时过滤站内导航
     if (query !== '') {
+        // 使用JSONP从百度获取搜索建议
         const script = document.createElement('script');
         script.src = `https://suggestion.baidu.com/su?wd=${encodeURIComponent(query)}&cb=window.baidu.sug`;
         document.body.appendChild(script);
@@ -428,6 +466,11 @@ function handleSuggestionInput() {
     clearSuggestionTimer();
     startSuggestionTimer();
 }
+
+/**
+ * 全局回调函数，用于接收百度的搜索建议
+ * @type {{sug: function(object): void}}
+ */
 window.baidu = {
     sug: data => {
         suggestions = (data && Array.isArray(data.s)) ? data.s : [];
@@ -443,6 +486,10 @@ window.baidu = {
         });
     }
 };
+
+/**
+ * 启动一个计时器，在3秒后自动隐藏建议列表
+ */
 function startSuggestionTimer() {
     clearSuggestionTimer();
     suggestionTimer = setTimeout(() => {
@@ -450,9 +497,14 @@ function startSuggestionTimer() {
         renderSuggestions(suggestions);
     }, 3000);
 }
+
+/**
+ * 清除建议列表的隐藏计时器
+ */
 function clearSuggestionTimer() {
     clearTimeout(suggestionTimer);
 }
+// #endregion
 
 // === 启动应用 ===
 document.addEventListener('DOMContentLoaded', init);

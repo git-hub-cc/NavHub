@@ -1,21 +1,22 @@
+
 <!DOCTYPE html>
 <html lang="zh-CN">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- SEO Meta Tags Start -->
+
+    <!-- SEO 元标签 -->
     <meta name="author" content="git-hub-cc">
     <meta name="description" content="NavHub - 一个轻量、优雅且功能强大的纯前端个人导航/起始页。支持聚合搜索、网站拖拽管理、暗黑模式切换和响应式设计。零依赖, 易部署, 打造属于你自己的浏览器主页。">
     <meta name="keywords" content="NavHub, 个人导航, 导航页, 起始页, 浏览器主页, 聚合搜索, 静态网站, 纯前端, 开源项目, 高度可定制, 效率工具, 暗黑模式">
-    <!-- SEO Meta Tags End -->
 
-    <!-- Theme Initialization Script (to prevent theme flicker on refresh) -->
+    <!-- 主题初始化脚本 (防止页面刷新时主题闪烁) -->
     <script>
         (function() {
             try {
                 const preference = localStorage.getItem('theme-preference');
                 const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
-                let theme = 'light'; // Default theme
+                let theme = 'light'; // 默认主题
                 if (preference) {
                     theme = preference;
                 } else if (prefersDark) {
@@ -23,33 +24,42 @@
                 }
                 document.documentElement.setAttribute('data-theme', theme);
             } catch (e) {
-                // Fails silently if localStorage or matchMedia is not available.
+// 如果 localStorage 或 matchMedia 不可用，则静默失败。
             }
         })();
     </script>
 
-    <title>NavHub</title>
+    <title>NavHub - 你的私人导航中心</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+
+<!-- 页面顶层容器 -->
 <div class="container">
-    <!-- 侧边栏 -->
+
+    <!-- ========================================================================== -->
+    <!--                                侧边栏 (Sidebar)                              -->
+    <!-- ========================================================================== -->
     <nav class="sidebar">
+        <!-- 侧边栏上部：Logo 和分类列表 -->
         <div>
             <div class="logo">NavHub</div>
             <ul class="category-list">
                 <!-- 分类列表将由 JS 动态生成 -->
             </ul>
         </div>
-        <!-- 侧边栏底部区域 -->
+
+        <!-- 侧边栏底部：功能区 -->
         <div class="menu-bottom-section">
+            <!-- 导入/导出/删除功能 -->
             <div class="data-actions">
                 <button id="import-btn" class="btn-secondary">导入</button>
                 <button id="export-btn" class="btn-secondary">导出</button>
                 <button id="delete-source-btn" class="btn-secondary btn-danger">删除</button>
                 <input type="file" id="import-file-input" accept=".json,.html" style="display: none;">
             </div>
-            <!-- --- MODIFICATION: Replaced <select> with a custom div-based component --- -->
+
+            <!-- 自定义数据源选择器 -->
             <div class="data-source-selector">
                 <label for="custom-select">数据源</label>
                 <div id="custom-select" class="custom-select" tabindex="0">
@@ -58,14 +68,18 @@
                         <span class="custom-select-arrow"></span>
                     </div>
                     <div id="custom-select-options" class="custom-select-options">
-                        <!-- Options will be populated by JS -->
+                        <!-- 选项将由 JS 动态填充 -->
                     </div>
                 </div>
             </div>
+
+            <!-- 社交链接 (示例) -->
             <div class="social-links">
                 <a href="https://github.com/git-hub-cc/NavHub" target="_blank" aria-label="GitHub">G</a>
                 <a href="https://space.bilibili.com" target="_blank" aria-label="Bilibili">B</a>
             </div>
+
+            <!-- 暗色模式切换开关 -->
             <div class="dark-mode-toggle">
                 <label for="dark-mode-switch">
                     <span class="sun-icon-emoji">☀️</span>
@@ -74,13 +88,18 @@
                     <span class="moon-icon-emoji">🌙</span>
                 </label>
             </div>
+
+            <!-- 版权或备案信息 -->
             <div class="copyright">
-                ©粤ICP备2024271251号
+                <!-- 请在此处替换为自己的版权或备案信息 -->
+                © 2024 NavHub Project
             </div>
         </div>
     </nav>
 
-    <!-- 主内容区 -->
+    <!-- ========================================================================== -->
+    <!--                                主内容区 (Main Content)                         -->
+    <!-- ========================================================================== -->
     <main class="main-content">
         <div class="main-content-inner">
             <!-- 增强搜索头部 -->
@@ -91,7 +110,7 @@
                 <div id="search-engine-checkboxes" class="search-engines">
                     <!-- 搜索引擎复选框将由 JS 动态生成 -->
                 </div>
-                <form id="search-form" class="search-form" @submit.prevent>
+                <form id="search-form" class="search-form">
                     <div class="search-input-wrapper">
                         <input type="text" id="search-input" autocomplete="off" placeholder="输入并搜索...">
                         <ul id="suggestions-list" class="suggestions-list"></ul>
@@ -100,16 +119,15 @@
                 </form>
             </header>
 
-            <!-- 所有内容将由JS在此处动态渲染 -->
+            <!-- 所有导航卡片将由JS在此处动态渲染 -->
             <div class="content-wrapper" id="content-wrapper">
                 <!-- 动态内容区域 -->
             </div>
 
-            <!-- ===========致谢部分 START =========== -->
+            <!-- 致谢部分 -->
             <section class="acknowledgements-section">
                 <h3 class="acknowledgements-title">致谢</h3>
                 <div class="acknowledgements-card-grid">
-                    <!-- --- MODIFICATION: 添加了 ack-card-subtitle --- -->
                     <a href="https://github.com/helloxz/onenav" target="_blank" rel="noopener noreferrer" class="ack-card">
                         <span class="ack-card-title">onenav</span>
                         <span class="ack-card-subtitle">灵感来源</span>
@@ -156,12 +174,15 @@
                     </a>
                 </div>
             </section>
-            <!-- ============致谢部分 END ============ -->
         </div>
     </main>
 </div>
 
-<!-- 网站编辑模态框 -->
+<!-- ========================================================================== -->
+<!--                                模态框 (Modals)                               -->
+<!-- ========================================================================== -->
+
+<!-- 网站编辑/新增模态框 -->
 <div id="site-modal" class="modal-overlay modal-hidden">
     <div class="modal-content">
         <h3 id="modal-title">新增网站</h3>
@@ -196,7 +217,7 @@
     </div>
 </div>
 
-<!-- 导入命名模态框 -->
+<!-- 导入文件后命名数据源的模态框 -->
 <div id="import-name-modal" class="modal-overlay modal-hidden">
     <div class="modal-content">
         <h3>命名数据源</h3>
@@ -204,7 +225,7 @@
             <div class="form-group">
                 <label for="import-name-input">为这个导入的数据源起一个名字</label>
                 <input type="text" id="import-name-input" required placeholder="例如：我的工作导航">
-                <p id="import-name-error" class="form-error-message" style="display: none; color: #dc3545; font-size: 14px; margin-top: 5px;"></p>
+                <p id="import-name-error" class="form-error-message" style="display: none;"></p>
             </div>
             <div class="form-actions">
                 <button type="button" id="cancel-import-name-btn" class="btn-secondary">取消</button>
@@ -214,7 +235,7 @@
     </div>
 </div>
 
-<!-- 通用提示/确认模态框 -->
+<!-- 通用提示(Alert)和确认(Confirm)模态框 -->
 <div id="alert-confirm-modal" class="modal-overlay modal-hidden">
     <div class="modal-content">
         <h3 id="alert-confirm-title">提示</h3>
@@ -232,14 +253,14 @@
 <!--                        脚本加载 (Scripts Loading)                        -->
 <!-- ========================================================================== -->
 <!--
-    加载顺序非常重要:
-    1. pinyin-converter.js: 这是一个传统的脚本，它会创建一个全局的 `pinyinConverter` 对象。
-       它必须首先加载，这样后续的模块才能访问到这个全局对象。
-    2. main.js: 这是一个ES模块 (`type="module"`)，是整个应用的入口。
-       它会负责导入并执行 data.js, ui.js, import-export.js 中的逻辑。
-       模块脚本默认是 `defer` 的，会在文档解析完毕后执行。
+重要提示：脚本加载顺序至关重要！
+1. pinyinManager.js: 这是一个传统的IIFE脚本，它会创建一个全局的 `pinyinConverter` 对象。
+ 它必须首先加载，这样后续的模块才能访问到这个全局对象。
+2. main.js: 这是一个ES模块 (`type="module"`)，是整个应用的入口点。
+                                            它会负责导入并协调 dataManager, ui.js, fileManager.js 等模块的逻辑。
+模块脚本默认是 `defer` 的，会在文档解析完毕后、DOMContentLoaded 事件触发前执行。
 -->
-<script src="./js/pinyin-converter.js"></script>
+<script src="./js/pinyinManager.js"></script>
 <script type="module" src="./js/main.js"></script>
 
 </body>
