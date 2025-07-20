@@ -1,8 +1,8 @@
 {
   "categories": [
     {
-      "categoryName": "少儿教育",
-      "categoryId": "child-edu",
+      "categoryName": "中小学教育",
+      "categoryId": "k12-education",
       "sites": [
         {
           "title": "小灯塔系列课程",
@@ -33,33 +33,6 @@
           "proxy": false
         },
         {
-          "title": "牛津自然拼读全套",
-          "url": "https://www.aliyundrive.com/s/dRVgJMW9Sii",
-          "desc": "牛津自然拼读世界全套视频+电子书",
-          "icon": "img/favicon/aliyundrive/favicon.ico",
-          "proxy": false
-        },
-        {
-          "title": "Little Fox儿歌动画",
-          "url": "https://www.aliyundrive.com/s/TTa8uHbERPp",
-          "desc": "Little Fox儿歌动画片——让孩子在快乐中学英语！",
-          "icon": "img/favicon/aliyundrive/favicon.ico",
-          "proxy": false
-        },
-        {
-          "title": "清华幼儿英语动画",
-          "url": "https://www.aliyundrive.com/s/aPZmukJmDoh",
-          "desc": "清华幼儿英语启蒙动画48集全——非常适合与孩子一起看一起学一起互动",
-          "icon": "img/favicon/aliyundrive/favicon.ico",
-          "proxy": false
-        }
-      ]
-    },
-    {
-      "categoryName": "小学教育",
-      "categoryId": "primary-school",
-      "sites": [
-        {
           "title": "全版本电子课本合集",
           "url": "https://www.aliyundrive.com/s/q95cVrmin7b/",
           "desc": "小学初中高中各科全版本电子课本最新整理大合集（含上几代人老课本）",
@@ -79,13 +52,7 @@
           "desc": "小学生必读经典书目",
           "icon": "img/favicon/aliyundrive/favicon.ico",
           "proxy": false
-        }
-      ]
-    },
-    {
-      "categoryName": "初中教育",
-      "categoryId": "junior-high",
-      "sites": [
+        },
         {
           "title": "洋葱学园全套课程(2023)",
           "url": "https://www.aliyundrive.com/s/qX8nAK1bLna",
@@ -113,13 +80,7 @@
           "desc": "初中思维导图",
           "icon": "img/favicon/aliyundrive/favicon.ico",
           "proxy": false
-        }
-      ]
-    },
-    {
-      "categoryName": "高中教育",
-      "categoryId": "senior-high",
-      "sites": [
+        },
         {
           "title": "螺蛳大语文(中小学)",
           "url": "https://www.aliyundrive.com/s/d3ehVjDjMB1",
@@ -238,13 +199,7 @@
           "desc": "【北大学霸】全校2000名到全省第5，一条文科狗的逆袭总结（共580页）.pdf",
           "icon": "img/favicon/aliyundrive/favicon.ico",
           "proxy": false
-        }
-      ]
-    },
-    {
-      "categoryName": "学科竞赛",
-      "categoryId": "competitions",
-      "sites": [
+        },
         {
           "title": "爱尖子全套课程",
           "url": "https://www.aliyundrive.com/s/Nezy8jFj9hZ",
@@ -272,12 +227,19 @@
           "desc": "【初中高中竞赛】",
           "icon": "img/favicon/aliyundrive/favicon.ico",
           "proxy": false
+        },
+        {
+          "title": "小学乘除法出题器",
+          "url": "https://www.aliyundrive.com/s/qhzwLbcEJUe",
+          "desc": "小学乘除法快速出题器（家长必备）",
+          "icon": "img/favicon/aliyundrive/favicon.ico",
+          "proxy": false
         }
       ]
     },
     {
-      "categoryName": "专升本",
-      "categoryId": "college-transfer",
+      "categoryName": "大学与职业教育",
+      "categoryId": "higher-professional-education",
       "sites": [
         {
           "title": "专升本英语",
@@ -304,33 +266,6 @@
           "title": "成人高考历年真题",
           "url": "https://www.aliyundrive.com/s/PyK92A8Gm2X",
           "desc": "全国成人高考历年真题",
-          "icon": "img/favicon/aliyundrive/favicon.ico",
-          "proxy": false
-        }
-      ]
-    },
-    {
-      "categoryName": "大学教育",
-      "categoryId": "university",
-      "sites": [
-        {
-          "title": "大学毕业论文模板",
-          "url": "https://www.aliyundrive.com/s/pLNQyBG3hzn",
-          "desc": "大学毕业论文写作模板与攻略",
-          "icon": "img/favicon/aliyundrive/favicon.ico",
-          "proxy": false
-        },
-        {
-          "title": "个人简历模板",
-          "url": "https://www.aliyundrive.com/s/z8y75Bd69zc",
-          "desc": "个人简历模板 – new!",
-          "icon": "img/favicon/aliyundrive/favicon.ico",
-          "proxy": false
-        },
-        {
-          "title": "大学生实习报告",
-          "url": "https://www.aliyundrive.com/s/9SuT4NaDQuh",
-          "desc": "大学生各行各业实习报告",
           "icon": "img/favicon/aliyundrive/favicon.ico",
           "proxy": false
         },
@@ -375,13 +310,7 @@
           "desc": "23考研电子书 全网最全高清无水印",
           "icon": "img/favicon/aliyundrive/favicon.ico",
           "proxy": false
-        }
-      ]
-    },
-    {
-      "categoryName": "职业考试",
-      "categoryId": "professional-exams",
-      "sites": [
+        },
         {
           "title": "幼儿园教资面试资料(2022)",
           "url": "https://www.aliyundrive.com/s/mgmyGgKXU2y",
@@ -441,71 +370,30 @@
       ]
     },
     {
-      "categoryName": "文学与阅读",
-      "categoryId": "literature-reading",
+      "categoryName": "语言学习",
+      "categoryId": "language-learning",
       "sites": [
         {
-          "title": "《三体》全套资料",
-          "url": "https://www.aliyundrive.com/s/Co2HiJs1ngF",
-          "desc": "《三体》原著小说、有声书、广播剧、同人动画与影视档案资料大合集（全网最全）——站长二次整理出品",
+          "title": "牛津自然拼读全套",
+          "url": "https://www.aliyundrive.com/s/dRVgJMW9Sii",
+          "desc": "牛津自然拼读世界全套视频+电子书",
           "icon": "img/favicon/aliyundrive/favicon.ico",
           "proxy": false
         },
         {
-          "title": "豆瓣2022年度读书榜",
-          "url": "https://www.aliyundrive.com/s/t5CjpeYWcru",
-          "desc": "豆瓣2022年度读书榜单",
+          "title": "Little Fox儿歌动画",
+          "url": "https://www.aliyundrive.com/s/TTa8uHbERPp",
+          "desc": "Little Fox儿歌动画片——让孩子在快乐中学英语！",
           "icon": "img/favicon/aliyundrive/favicon.ico",
           "proxy": false
         },
         {
-          "title": "Z-Library 10TB 种子",
-          "url": "https://www.aliyundrive.com/s/iWc6W3gzPPC",
-          "desc": "Z_Library网站电子书库下载种子（约1800万册共10TB）含目录",
+          "title": "清华幼儿英语动画",
+          "url": "https://www.aliyundrive.com/s/aPZmukJmDoh",
+          "desc": "清华幼儿英语启蒙动画48集全——非常适合与孩子一起看一起学一起互动",
           "icon": "img/favicon/aliyundrive/favicon.ico",
           "proxy": false
         },
-        {
-          "title": "四大名著资料合集",
-          "url": "https://www.aliyundrive.com/s/SWAV49VZiR1",
-          "desc": "西游记、红楼梦、三国演义、水浒传四大名著（电子版+插图版+漫画版+解说）",
-          "icon": "img/favicon/aliyundrive/favicon.ico",
-          "proxy": false
-        },
-        {
-          "title": "汉译世界学术名著",
-          "url": "https://www.aliyundrive.com/s/m17m6MC2wSh",
-          "desc": "汉译世界学术名著丛书（120册精选大合集）",
-          "icon": "img/favicon/aliyundrive/favicon.ico",
-          "proxy": false
-        },
-        {
-          "title": "喜马拉雅精读300本好书",
-          "url": "https://www.aliyundrive.com/s/WKu7x2pfLrE",
-          "desc": "喜玛拉雅精读全球好书 300本 三季全",
-          "icon": "img/favicon/aliyundrive/favicon.ico",
-          "proxy": false
-        },
-        {
-          "title": "国学书籍70本",
-          "url": "https://www.aliyundrive.com/s/1FKugYCfTLN",
-          "desc": "国学书籍70本(绝版珍藏)",
-          "icon": "img/favicon/aliyundrive/favicon.ico",
-          "proxy": false
-        },
-        {
-          "title": "易经研究著作合集",
-          "url": "https://www.aliyundrive.com/s/4GfstuePXqH",
-          "desc": "《易经研究系列著作合集》",
-          "icon": "img/favicon/aliyundrive/favicon.ico",
-          "proxy": false
-        }
-      ]
-    },
-    {
-      "categoryName": "英语学习",
-      "categoryId": "english-learning",
-      "sites": [
         {
           "title": "百词斩备考资料包",
           "url": "https://www.aliyundrive.com/s/aymNKxZ6jnx",
@@ -911,13 +799,7 @@
           "desc": "赵铁夫讲单词全集",
           "icon": "img/favicon/aliyundrive/favicon.ico",
           "proxy": false
-        }
-      ]
-    },
-    {
-      "categoryName": "日语学习",
-      "categoryId": "japanese-learning",
-      "sites": [
+        },
         {
           "title": "新标准日本语(全套)",
           "url": "https://www.aliyundrive.com/s/fbroxLWCkFq",
@@ -928,56 +810,30 @@
       ]
     },
     {
-      "categoryName": "社科人文",
-      "categoryId": "social-sciences",
+      "categoryName": "职场与通用技能",
+      "categoryId": "workplace-general-skills",
       "sites": [
         {
-          "title": "人文与社会译丛(160册)",
-          "url": "https://www.aliyundrive.com/s/MxATJvFgsTM",
-          "desc": "人文与社会译丛（译林出版社）160册 8.54G 2021年11月21日截止最全",
+          "title": "大学毕业论文模板",
+          "url": "https://www.aliyundrive.com/s/pLNQyBG3hzn",
+          "desc": "大学毕业论文写作模板与攻略",
           "icon": "img/favicon/aliyundrive/favicon.ico",
           "proxy": false
         },
         {
-          "title": "中国文化合集(36本)",
-          "url": "https://www.aliyundrive.com/s/JHsZMeMSHGL",
-          "desc": "中国文化合集（套装共36本：中华思想、中医、建筑、历史、经济、外交等）",
+          "title": "个人简历模板",
+          "url": "https://www.aliyundrive.com/s/z8y75Bd69zc",
+          "desc": "个人简历模板 – new!",
           "icon": "img/favicon/aliyundrive/favicon.ico",
           "proxy": false
         },
         {
-          "title": "外研社百科通识文库",
-          "url": "https://www.aliyundrive.com/s/spwz85p7Vaj",
-          "desc": "外研社百科通识文库（世界万象大套装共114本）（涵盖天文学、心理学、宇宙学、哲学、宗教、政治、艺术等30余个学科）",
-          "icon": "img/favicon/aliyundrive/favicon.ico",
-          "proxy": false
-        }
-      ]
-    },
-    {
-      "categoryName": "自然科学",
-      "categoryId": "natural-sciences",
-      "sites": [
-        {
-          "title": "十万个为什么(第六版)",
-          "url": "https://www.aliyundrive.com/s/5cNbgqDJeCf",
-          "desc": "十万个为什么（第六版） 全套18本 韩启德主编",
+          "title": "大学生实习报告",
+          "url": "https://www.aliyundrive.com/s/9SuT4NaDQuh",
+          "desc": "大学生各行各业实习报告",
           "icon": "img/favicon/aliyundrive/favicon.ico",
           "proxy": false
         },
-        {
-          "title": "欧姆社科学漫画(42册)",
-          "url": "https://www.aliyundrive.com/s/U3QmQaPMjjo",
-          "desc": "【看漫画学理科】欧姆社科学漫画PDF 42册 完整版——站长购买出品",
-          "icon": "img/favicon/aliyundrive/favicon.ico",
-          "proxy": false
-        }
-      ]
-    },
-    {
-      "categoryName": "综合技能课程",
-      "categoryId": "general-skills",
-      "sites": [
         {
           "title": "得到付费训练营(13门)",
           "url": "https://www.aliyundrive.com/s/v8AQKf76ohp",
@@ -1040,13 +896,7 @@
           "desc": "【300多份共1.4GB】各行各业知识地图",
           "icon": "img/favicon/aliyundrive/favicon.ico",
           "proxy": false
-        }
-      ]
-    },
-    {
-      "categoryName": "搜索技巧",
-      "categoryId": "search-skills",
-      "sites": [
+        },
         {
           "title": "超级搜索术(基础)",
           "url": "https://www.aliyundrive.com/s/oBPQLPnx4Lh",
@@ -1074,94 +924,7 @@
           "desc": "【人脉搜索】超级人脉术快速找到你想找的任何人",
           "icon": "img/favicon/aliyundrive/favicon.ico",
           "proxy": false
-        }
-      ]
-    },
-    {
-      "categoryName": "人工智能 (AIGC)",
-      "categoryId": "ai-aigc",
-      "sites": [
-        {
-          "title": "AIGC专题资源汇总",
-          "url": "https://www.aliyundrive.com/s/tbUBb65Zb1g",
-          "desc": "🤖ChatGPT+MJ+SD – AIGC专题资源汇总——打造你的最强生产力工具！",
-          "icon": "img/favicon/aliyundrive/favicon.ico",
-          "proxy": false
-        }
-      ]
-    },
-    {
-      "categoryName": "编程开发",
-      "categoryId": "programming",
-      "sites": [
-        {
-          "title": "Python学习书籍礼包",
-          "url": "https://www.aliyundrive.com/s/UQ77BepaMaG",
-          "desc": "百本Python学习书籍大礼包",
-          "icon": "img/favicon/aliyundrive/favicon.ico",
-          "proxy": false
         },
-        {
-          "title": "前端学习书籍礼包",
-          "url": "https://www.aliyundrive.com/s/vEwyHwmi55q",
-          "desc": "百本前端学习书籍大礼包",
-          "icon": "img/favicon/aliyundrive/favicon.ico",
-          "proxy": false
-        },
-        {
-          "title": "60门编程语言书籍",
-          "url": "https://www.aliyundrive.com/s/T2gWQwCtLkq",
-          "desc": "60门编程语言学习书籍超级大合集——某大神整理的，内容超多，UP主力荐",
-          "icon": "img/favicon/aliyundrive/favicon.ico",
-          "proxy": false
-        }
-      ]
-    },
-    {
-      "categoryName": "绘画设计",
-      "categoryId": "drawing-design",
-      "sites": [
-        {
-          "title": "美术教程区",
-          "url": "https://www.aliyundrive.com/s/3eWXSVcjV3H",
-          "desc": "【美术 教程区】【711.50GB】",
-          "icon": "img/favicon/aliyundrive/favicon.ico",
-          "proxy": false
-        },
-        {
-          "title": "漫画高手速成系列(11册)",
-          "url": "https://www.aliyundrive.com/s/LbZrH7r7J4R",
-          "desc": "漫画高手速成系列全11册（完整版） 大小：500MB",
-          "icon": "img/favicon/aliyundrive/favicon.ico",
-          "proxy": false
-        },
-        {
-          "title": "十分绘画入门创造营",
-          "url": "https://www.aliyundrive.com/s/G6nSPws5a3h",
-          "desc": "十分绘画：绘画萌新入门创造营课程视频+素材",
-          "icon": "img/favicon/aliyundrive/favicon.ico",
-          "proxy": false
-        },
-        {
-          "title": "Procreate绘画课",
-          "url": "https://www.aliyundrive.com/s/EwKv5r3uFWC",
-          "desc": "Procreate绘画课（完结)",
-          "icon": "img/favicon/aliyundrive/favicon.ico",
-          "proxy": false
-        },
-        {
-          "title": "代代木动画学院课程",
-          "url": "https://www.aliyundrive.com/s/8rAWRPGNfH4",
-          "desc": "代代木动画学院",
-          "icon": "img/favicon/aliyundrive/favicon.ico",
-          "proxy": false
-        }
-      ]
-    },
-    {
-      "categoryName": "职场技能",
-      "categoryId": "workplace-skills",
-      "sites": [
         {
           "title": "职场达人进阶宝典",
           "url": "https://www.aliyundrive.com/s/SzQcZatkbgd",
@@ -1221,127 +984,482 @@
       ]
     },
     {
-      "categoryName": "短剧",
-      "categoryId": "short-drama",
+      "categoryName": "IT技术与编程",
+      "categoryId": "it-programming",
       "sites": [
         {
-          "title": "逃出大英博物馆",
-          "url": "https://www.aliyundrive.com/s/jHsvVesPaRy",
-          "desc": "逃出大英博物馆",
-          "icon": "img/favicon/aliyundrive/favicon.ico",
-          "proxy": false
-        }
-      ]
-    },
-    {
-      "categoryName": "电影",
-      "categoryId": "movies",
-      "sites": [
-        {
-          "title": "156部迪士尼动画蓝光",
-          "url": "https://www.aliyundrive.com/s/TLBXEhJU3eK",
-          "desc": "156部迪士尼动画电影 蓝光珍藏（单部平均2~3GB共491GB） 大部分无字幕",
+          "title": "AIGC专题资源汇总",
+          "url": "https://www.aliyundrive.com/s/tbUBb65Zb1g",
+          "desc": "🤖ChatGPT+MJ+SD – AIGC专题资源汇总——打造你的最强生产力工具！",
           "icon": "img/favicon/aliyundrive/favicon.ico",
           "proxy": false
         },
         {
-          "title": "看电影学英语(动画)",
-          "url": "https://www.aliyundrive.com/s/8RTc2mEUEHt",
-          "desc": "看电影学英语 180部儿童青少年动画电影 可切换纯英文中英文字幕",
-          "icon": "img/favicon/aliyundrive/favicon.ico",
-          "proxy": false
-        }
-      ]
-    },
-    {
-      "categoryName": "国产剧",
-      "categoryId": "chinese-drama",
-      "sites": [
-        {
-          "title": "小戏骨系列影视剧",
-          "url": "https://www.aliyundrive.com/s/U2WJDiL2sW2",
-          "desc": "【小戏骨系列20部影视剧最全合集】高颜值高演技萌娃在线吊打当代流量明星",
-          "icon": "img/favicon/aliyundrive/favicon.ico",
-          "proxy": false
-        }
-      ]
-    },
-    {
-      "categoryName": "纪录片",
-      "categoryId": "documentaries",
-      "sites": [
-        {
-          "title": "迪士尼自然纪录片",
-          "url": "https://www.aliyundrive.com/s/bdLMtvmWSKX",
-          "desc": "Disneynature 迪士尼自然系列纪录片蓝光DVD（纯英文字幕附PDF教材）",
-          "icon": "img/favicon/aliyundrive/favicon.ico",
-          "proxy": false
-        }
-      ]
-    },
-    {
-      "categoryName": "戏曲与综合",
-      "categoryId": "opera-variety",
-      "sites": [
-        {
-          "title": "开心麻花系列",
-          "url": "https://www.aliyundrive.com/s/UrLKdQJjaa3",
-          "desc": "【开心麻花】电影 综艺 戏剧系列",
+          "title": "Python学习书籍礼包",
+          "url": "https://www.aliyundrive.com/s/UQ77BepaMaG",
+          "desc": "百本Python学习书籍大礼包",
           "icon": "img/favicon/aliyundrive/favicon.ico",
           "proxy": false
         },
         {
-          "title": "历年央视春晚合集",
-          "url": "https://www.aliyundrive.com/s/4pkdVRtvL9T",
-          "desc": "1956-2022历年央视春晚大合集",
+          "title": "前端学习书籍礼包",
+          "url": "https://www.aliyundrive.com/s/vEwyHwmi55q",
+          "desc": "百本前端学习书籍大礼包",
           "icon": "img/favicon/aliyundrive/favicon.ico",
           "proxy": false
         },
         {
-          "title": "2023春晚汇总",
-          "url": "https://www.aliyundrive.com/s/7JeLnhKx9mi",
-          "desc": "2023各大平台卫视与央视春晚汇总",
-          "icon": "img/favicon/aliyundrive/favicon.ico",
-          "proxy": false
-        }
-      ]
-    },
-    {
-      "categoryName": "浏览器书签",
-      "categoryId": "bookmarks",
-      "sites": [
-        {
-          "title": "大佬资源网站书签",
-          "url": "https://www.aliyundrive.com/s/vLPMXQtjxeq",
-          "desc": "各个大佬的资源网站书签.html（可直接导入你的浏览器收藏夹）",
+          "title": "60门编程语言书籍",
+          "url": "https://www.aliyundrive.com/s/T2gWQwCtLkq",
+          "desc": "60门编程语言学习书籍超级大合集——某大神整理的，内容超多，UP主力荐",
           "icon": "img/favicon/aliyundrive/favicon.ico",
           "proxy": false
         },
         {
-          "title": "阿虚储物间全站书签",
-          "url": "https://www.aliyundrive.com/s/9CgVhPF1ucf",
-          "desc": "阿虚同学储物间全站书签.html（可直接导入你的浏览器收藏夹）",
+          "title": "Labview",
+          "url": "https://www.aliyundrive.com/s/F9GMG2NwbbB",
+          "desc": "Labview",
+          "icon": "img/favicon/aliyundrive/favicon.ico",
+          "proxy": false
+        },
+        {
+          "title": "SQL",
+          "url": "https://www.aliyundrive.com/s/bnB6XQnKULP",
+          "desc": "SQL",
+          "icon": "img/favicon/aliyundrive/favicon.ico",
+          "proxy": false
+        },
+        {
+          "title": "Visual Studio",
+          "url": "https://www.aliyundrive.com/s/Z5Tp9hC1eab",
+          "desc": "Visual Studio",
+          "icon": "img/favicon/aliyundrive/favicon.ico",
+          "proxy": false
+        },
+        {
+          "title": "Python",
+          "url": "https://www.aliyundrive.com/s/SfqgdJWcz9o",
+          "desc": "Python",
+          "icon": "img/favicon/aliyundrive/favicon.ico",
+          "proxy": false
+        },
+        {
+          "title": "Altium Designer",
+          "url": "https://www.aliyundrive.com/s/AyyhKVAQTbi",
+          "desc": "Altium Designer",
+          "icon": "img/favicon/aliyundrive/favicon.ico",
+          "proxy": false
+        },
+        {
+          "title": "VMware",
+          "url": "https://www.aliyundrive.com/s/UfcaFfQaLQX",
+          "desc": "VMware",
+          "icon": "img/favicon/aliyundrive/favicon.ico",
+          "proxy": false
+        },
+        {
+          "title": "Proteus",
+          "url": "https://www.aliyundrive.com/s/VHNAHPHX7bw",
+          "desc": "Proteus",
+          "icon": "img/favicon/aliyundrive/favicon.ico",
+          "proxy": false
+        },
+        {
+          "title": "IDEA",
+          "url": "https://www.aliyundrive.com/s/YxztREvQajv",
+          "desc": "IDEA",
+          "icon": "img/favicon/aliyundrive/favicon.ico",
+          "proxy": false
+        },
+        {
+          "title": "Pycharm",
+          "url": "https://www.aliyundrive.com/s/hvDoLLUpdgf",
+          "desc": "Pycharm",
+          "icon": "img/favicon/aliyundrive/favicon.ico",
+          "proxy": false
+        },
+        {
+          "title": "Keil uvision",
+          "url": "https://www.aliyundrive.com/s/Aqmh3EJkxW2",
+          "desc": "Keil uvision",
+          "icon": "img/favicon/aliyundrive/favicon.ico",
+          "proxy": false
+        },
+        {
+          "title": "Eclipse",
+          "url": "https://www.aliyundrive.com/s/q6SS4GS6PPf",
+          "desc": "eclipse",
+          "icon": "img/favicon/aliyundrive/favicon.ico",
+          "proxy": false
+        },
+        {
+          "title": "Visual C++ 6.0",
+          "url": "https://www.aliyundrive.com/s/9i9J6CYdANN",
+          "desc": "Microsoft Visual C++ (VC6.0)",
+          "icon": "img/favicon/aliyundrive/favicon.ico",
+          "proxy": false
+        },
+        {
+          "title": "Visual Basic 6.0",
+          "url": "https://www.aliyundrive.com/s/1E6P3E5qAGw",
+          "desc": "Microsoft Visual Basic(VB6.0)",
+          "icon": "img/favicon/aliyundrive/favicon.ico",
+          "proxy": false
+        },
+        {
+          "title": "Sublime Text",
+          "url": "https://www.aliyundrive.com/s/zYLbkGEuhBF",
+          "desc": "Sublime Text",
+          "icon": "img/favicon/aliyundrive/favicon.ico",
+          "proxy": false
+        },
+        {
+          "title": "Multisim",
+          "url": "https://www.aliyundrive.com/s/A1RETekZvfL",
+          "desc": "Multisim",
+          "icon": "img/favicon/aliyundrive/favicon.ico",
+          "proxy": false
+        },
+        {
+          "title": "MyEclipse",
+          "url": "https://www.aliyundrive.com/s/duNGmQmWhDF",
+          "desc": "MyEclipse",
           "icon": "img/favicon/aliyundrive/favicon.ico",
           "proxy": false
         }
       ]
     },
     {
-      "categoryName": "浏览器插件",
-      "categoryId": "browser-extensions",
+      "categoryName": "创意设计与影音",
+      "categoryId": "creative-design-media",
       "sites": [
         {
-          "title": "精选浏览器插件合集",
-          "url": "https://www.aliyundrive.com/s/doZEimuBqfc",
-          "desc": "UP主图欧君精选浏览器crx插件大合集",
+          "title": "美术教程区",
+          "url": "https://www.aliyundrive.com/s/3eWXSVcjV3H",
+          "desc": "【美术 教程区】【711.50GB】",
+          "icon": "img/favicon/aliyundrive/favicon.ico",
+          "proxy": false
+        },
+        {
+          "title": "漫画高手速成系列(11册)",
+          "url": "https://www.aliyundrive.com/s/LbZrH7r7J4R",
+          "desc": "漫画高手速成系列全11册（完整版） 大小：500MB",
+          "icon": "img/favicon/aliyundrive/favicon.ico",
+          "proxy": false
+        },
+        {
+          "title": "十分绘画入门创造营",
+          "url": "https://www.aliyundrive.com/s/G6nSPws5a3h",
+          "desc": "十分绘画：绘画萌新入门创造营课程视频+素材",
+          "icon": "img/favicon/aliyundrive/favicon.ico",
+          "proxy": false
+        },
+        {
+          "title": "Procreate绘画课",
+          "url": "https://www.aliyundrive.com/s/EwKv5r3uFWC",
+          "desc": "Procreate绘画课（完结)",
+          "icon": "img/favicon/aliyundrive/favicon.ico",
+          "proxy": false
+        },
+        {
+          "title": "代代木动画学院课程",
+          "url": "https://www.aliyundrive.com/s/8rAWRPGNfH4",
+          "desc": "代代木动画学院",
+          "icon": "img/favicon/aliyundrive/favicon.ico",
+          "proxy": false
+        },
+        {
+          "title": "Adobe 2023 全家桶",
+          "url": "https://www.aliyundrive.com/s/zjm6DgDh6i4",
+          "desc": "Adobe 2023 全家桶已破解 – new!（阿里夸克云盘全网首发）",
+          "icon": "img/favicon/aliyundrive/favicon.ico",
+          "proxy": false
+        },
+        {
+          "title": "Photoshop 2023 AI版",
+          "url": "https://www.aliyundrive.com/s/7aot7KEQajX",
+          "desc": "Adobe Photoshop 2023 AI版",
+          "icon": "img/favicon/aliyundrive/favicon.ico",
+          "proxy": false
+        },
+        {
+          "title": "语音转文字神器",
+          "url": "https://www.aliyundrive.com/s/we8jXBXFRhn",
+          "desc": "语音转文字神器——站长整理出品",
+          "icon": "img/favicon/aliyundrive/favicon.ico",
+          "proxy": false
+        },
+        {
+          "title": "文字转语音神器",
+          "url": "https://www.aliyundrive.com/s/xgBBgJ83WmD",
+          "desc": "文字转语音神器——站长整理出品",
+          "icon": "img/favicon/aliyundrive/favicon.ico",
+          "proxy": false
+        },
+        {
+          "title": "Cinema 4D",
+          "url": "https://www.aliyundrive.com/s/Wkzb1brVC6j",
+          "desc": "Cinema 4D",
+          "icon": "img/favicon/aliyundrive/favicon.ico",
+          "proxy": false
+        },
+        {
+          "title": "3D Max",
+          "url": "https://www.aliyundrive.com/s/zpAAhY7iMe7",
+          "desc": "3D Max",
+          "icon": "img/favicon/aliyundrive/favicon.ico",
+          "proxy": false
+        },
+        {
+          "title": "Autodesk Maya",
+          "url": "https://www.aliyundrive.com/s/ykJCDCfgr4o",
+          "desc": "Autodesk Maya",
+          "icon": "img/favicon/aliyundrive/favicon.ico",
+          "proxy": false
+        },
+        {
+          "title": "Premiere (Pr)",
+          "url": "https://www.aliyundrive.com/s/fnpmsekotp3",
+          "desc": "Pr",
+          "icon": "img/favicon/aliyundrive/favicon.ico",
+          "proxy": false
+        },
+        {
+          "title": "After Effects (AE)",
+          "url": "https://www.aliyundrive.com/s/Hty1Wze5yvd",
+          "desc": "AE",
+          "icon": "img/favicon/aliyundrive/favicon.ico",
+          "proxy": false
+        },
+        {
+          "title": "Photoshop (Ps)",
+          "url": "https://www.aliyundrive.com/s/1Qh5Bw9fnAT",
+          "desc": "Photoshop",
+          "icon": "img/favicon/aliyundrive/favicon.ico",
+          "proxy": false
+        },
+        {
+          "title": "Animate (An)",
+          "url": "https://www.aliyundrive.com/s/BnidHYnEjTX",
+          "desc": "Animate",
+          "icon": "img/favicon/aliyundrive/favicon.ico",
+          "proxy": false
+        },
+        {
+          "title": "Illustrator (Ai)",
+          "url": "https://www.aliyundrive.com/s/DvvYmQJWKnV",
+          "desc": "Ai",
+          "icon": "img/favicon/aliyundrive/favicon.ico",
+          "proxy": false
+        },
+        {
+          "title": "AI智能后期全家桶",
+          "url": "https://www.aliyundrive.com/s/qK5gRuk8AR4",
+          "desc": "AI智能后期全家桶",
+          "icon": "img/favicon/aliyundrive/favicon.ico",
+          "proxy": false
+        },
+        {
+          "title": "视频剪辑三件套",
+          "url": "https://www.aliyundrive.com/s/fr192beEbAz",
+          "desc": "视频剪辑软件三件套（剪映+PR+快剪辑）",
+          "icon": "img/favicon/aliyundrive/favicon.ico",
+          "proxy": false
+        },
+        {
+          "title": "AI画质修复软件",
+          "url": "https://www.aliyundrive.com/s/71jVHXKiiBF",
+          "desc": "视频图片画质修复AI高清优化提升软件",
+          "icon": "img/favicon/aliyundrive/favicon.ico",
+          "proxy": false
+        },
+        {
+          "title": "照片处理小工具",
+          "url": "https://www.aliyundrive.com/s/VrCZCAh2kiS",
+          "desc": "照片处理、上色、转换小工具",
+          "icon": "img/favicon/aliyundrive/favicon.ico",
+          "proxy": false
+        },
+        {
+          "title": "字体识别软件",
+          "url": "https://www.aliyundrive.com/s/b38sEHk4vsU",
+          "desc": "字体识别软件",
+          "icon": "img/favicon/aliyundrive/favicon.ico",
+          "proxy": false
+        },
+        {
+          "title": "视频换脸软件",
+          "url": "https://www.aliyundrive.com/s/YMWAkzDdoHq",
+          "desc": "视频换脸软件",
+          "icon": "img/favicon/aliyundrive/favicon.ico",
+          "proxy": false
+        },
+        {
+          "title": "图片去水印工具",
+          "url": "https://www.aliyundrive.com/s/7QHHnkwnY4K",
+          "desc": "图片去水印工具",
+          "icon": "img/favicon/aliyundrive/favicon.ico",
+          "proxy": false
+        },
+        {
+          "title": "InCopy",
+          "url": "https://www.aliyundrive.com/s/rK5o8ePD81b",
+          "desc": "InCopy",
+          "icon": "img/favicon/aliyundrive/favicon.ico",
+          "proxy": false
+        },
+        {
+          "title": "Lightroom",
+          "url": "https://www.aliyundrive.com/s/kZgbHLvNgBo",
+          "desc": "Lightroom",
+          "icon": "img/favicon/aliyundrive/favicon.ico",
+          "proxy": false
+        },
+        {
+          "title": "ArctimePro字幕编辑器",
+          "url": "https://www.aliyundrive.com/s/1W6HRisY3zg",
+          "desc": "视频字幕高级编辑器（ArctimePro）部分功能付费",
+          "icon": "img/favicon/aliyundrive/favicon.ico",
+          "proxy": false
+        },
+        {
+          "title": "InDesign",
+          "url": "https://www.aliyundrive.com/s/JbPCQnm3ScT",
+          "desc": "InDesign",
+          "icon": "img/favicon/aliyundrive/favicon.ico",
+          "proxy": false
+        },
+        {
+          "title": "DaVinci Resolve",
+          "url": "https://www.aliyundrive.com/s/m52XX1oWcwn",
+          "desc": "达芬奇",
+          "icon": "img/favicon/aliyundrive/favicon.ico",
+          "proxy": false
+        },
+        {
+          "title": "Audition (Au)",
+          "url": "https://www.aliyundrive.com/s/PVynV1ji1eQ",
+          "desc": "Audition",
+          "icon": "img/favicon/aliyundrive/favicon.ico",
+          "proxy": false
+        },
+        {
+          "title": "Billfish素材管理",
+          "url": "https://www.aliyundrive.com/s/SyUz3sP642r",
+          "desc": "素材管理软件Billfish",
+          "icon": "img/favicon/aliyundrive/favicon.ico",
+          "proxy": false
+        },
+        {
+          "title": "Media Encoder",
+          "url": "https://www.aliyundrive.com/s/UtsX7Tpj6Zt",
+          "desc": "Media Encoder",
+          "icon": "img/favicon/aliyundrive/favicon.ico",
+          "proxy": false
+        },
+        {
+          "title": "视频字幕翻译器",
+          "url": "https://www.aliyundrive.com/s/7QLeyVTo596",
+          "desc": "视频字幕编辑翻译器（免费）",
+          "icon": "img/favicon/aliyundrive/favicon.ico",
+          "proxy": false
+        },
+        {
+          "title": "Camtasia",
+          "url": "https://www.aliyundrive.com/s/HES1SBpsLkB",
+          "desc": "Camtasia剪辑软件",
+          "icon": "img/favicon/aliyundrive/favicon.ico",
+          "proxy": false
+        },
+        {
+          "title": "Unity3D",
+          "url": "https://www.aliyundrive.com/s/k96M7PrkTKh",
+          "desc": "Unity3D",
+          "icon": "img/favicon/aliyundrive/favicon.ico",
+          "proxy": false
+        },
+        {
+          "title": "图片无损清晰神器",
+          "url": "https://www.aliyundrive.com/s/cmTujhCdYPf",
+          "desc": "图片无损变清晰神器",
+          "icon": "img/favicon/aliyundrive/favicon.ico",
+          "proxy": false
+        },
+        {
+          "title": "Quick Cut视频处理",
+          "url": "https://www.aliyundrive.com/s/nyuNipEKU8Z",
+          "desc": "视频处理软件（Quick Cut）体积小巧但功能强大",
+          "icon": "img/favicon/aliyundrive/favicon.ico",
+          "proxy": false
+        },
+        {
+          "title": "小丸工具箱",
+          "url": "https://www.aliyundrive.com/s/p2At2KVLzYx",
+          "desc": "视频体积压缩工具：小丸工具箱",
+          "icon": "img/favicon/aliyundrive/favicon.ico",
+          "proxy": false
+        },
+        {
+          "title": "视频音效增强器",
+          "url": "https://www.aliyundrive.com/s/CnkFco57J1i",
+          "desc": "视频音效增强器（实时给人物添加滤镜）Microsoft Store应用",
+          "icon": "img/favicon/aliyundrive/favicon.ico",
+          "proxy": false
+        },
+        {
+          "title": "广电龙标片头AE教程",
+          "url": "https://www.aliyundrive.com/s/MCtz4NQ5yF7",
+          "desc": "广电龙标电影片头改文字AE教程（含视频素材）",
+          "icon": "img/favicon/aliyundrive/favicon.ico",
+          "proxy": false
+        },
+        {
+          "title": "高校航拍宣传片素材",
+          "url": "https://www.aliyundrive.com/s/FHneG2v7ain",
+          "desc": "【励志视频原素材】全国双一流重点大学以及各大高校航拍宣传片、logo与壁纸大合集——站长整理出品",
+          "icon": "img/favicon/aliyundrive/favicon.ico",
+          "proxy": false
+        },
+        {
+          "title": "多场景视频素材",
+          "url": "https://www.aliyundrive.com/s/uhL3cVrDs2W",
+          "desc": "【视频素材-适用于手机、电脑、LED大屏等多场景】",
+          "icon": "img/favicon/aliyundrive/favicon.ico",
+          "proxy": false
+        },
+        {
+          "title": "壁纸引擎mpkg文件",
+          "url": "https://www.aliyundrive.com/s/YbtwdUyRe9n",
+          "desc": "壁纸引擎mpkg文件热门精选汇总 送手机版",
+          "icon": "img/favicon/aliyundrive/favicon.ico",
+          "proxy": false
+        },
+        {
+          "title": "二次元精选壁纸",
+          "url": "https://www.aliyundrive.com/s/42mHwCZ7UC6",
+          "desc": "二次元精选壁纸（站长私藏）",
+          "icon": "img/favicon/aliyundrive/favicon.ico",
+          "proxy": false
+        },
+        {
+          "title": "鬼刀WLOP作品合集",
+          "url": "https://www.aliyundrive.com/s/4HwYdm2Fu5s",
+          "desc": "鬼刀云虫作者WLOP大佬作品全网最全合集（含4K壁纸、动态壁纸以及PSD源文件）——站长整理出品",
+          "icon": "img/favicon/aliyundrive/favicon.ico",
+          "proxy": false
+        },
+        {
+          "title": "B站2233娘壁纸",
+          "url": "https://www.aliyundrive.com/s/T4A8YvW6TZZ",
+          "desc": "B站2233娘壁纸（图欧君整理出品）",
           "icon": "img/favicon/aliyundrive/favicon.ico",
           "proxy": false
         }
       ]
     },
     {
-      "categoryName": "电脑软件",
-      "categoryId": "pc-software",
+      "categoryName": "电脑软件与工具",
+      "categoryId": "pc-software-utilities",
       "sites": [
         {
           "title": "多平台万能下载器",
@@ -1463,13 +1581,6 @@
           "proxy": false
         },
         {
-          "title": "小学乘除法出题器",
-          "url": "https://www.aliyundrive.com/s/qhzwLbcEJUe",
-          "desc": "小学乘除法快速出题器（家长必备）",
-          "icon": "img/favicon/aliyundrive/favicon.ico",
-          "proxy": false
-        },
-        {
           "title": "PointerStick电子教鞭",
           "url": "https://www.aliyundrive.com/s/1UCsB1ZeS6o",
           "desc": "千万别让老师看到！PointerStick(电子教鞭)",
@@ -1498,135 +1609,9 @@
           "proxy": false
         },
         {
-          "title": "Labview",
-          "url": "https://www.aliyundrive.com/s/F9GMG2NwbbB",
-          "desc": "Labview",
-          "icon": "img/favicon/aliyundrive/favicon.ico",
-          "proxy": false
-        },
-        {
-          "title": "SQL",
-          "url": "https://www.aliyundrive.com/s/bnB6XQnKULP",
-          "desc": "SQL",
-          "icon": "img/favicon/aliyundrive/favicon.ico",
-          "proxy": false
-        },
-        {
-          "title": "Visual Studio",
-          "url": "https://www.aliyundrive.com/s/Z5Tp9hC1eab",
-          "desc": "Visual Studio",
-          "icon": "img/favicon/aliyundrive/favicon.ico",
-          "proxy": false
-        },
-        {
-          "title": "Python",
-          "url": "https://www.aliyundrive.com/s/SfqgdJWcz9o",
-          "desc": "Python",
-          "icon": "img/favicon/aliyundrive/favicon.ico",
-          "proxy": false
-        },
-        {
-          "title": "Altium Designer",
-          "url": "https://www.aliyundrive.com/s/AyyhKVAQTbi",
-          "desc": "Altium Designer",
-          "icon": "img/favicon/aliyundrive/favicon.ico",
-          "proxy": false
-        },
-        {
-          "title": "VMware",
-          "url": "https://www.aliyundrive.com/s/UfcaFfQaLQX",
-          "desc": "VMware",
-          "icon": "img/favicon/aliyundrive/favicon.ico",
-          "proxy": false
-        },
-        {
-          "title": "Proteus",
-          "url": "https://www.aliyundrive.com/s/VHNAHPHX7bw",
-          "desc": "Proteus",
-          "icon": "img/favicon/aliyundrive/favicon.ico",
-          "proxy": false
-        },
-        {
-          "title": "IDEA",
-          "url": "https://www.aliyundrive.com/s/YxztREvQajv",
-          "desc": "IDEA",
-          "icon": "img/favicon/aliyundrive/favicon.ico",
-          "proxy": false
-        },
-        {
-          "title": "Pycharm",
-          "url": "https://www.aliyundrive.com/s/hvDoLLUpdgf",
-          "desc": "Pycharm",
-          "icon": "img/favicon/aliyundrive/favicon.ico",
-          "proxy": false
-        },
-        {
-          "title": "Keil uvision",
-          "url": "https://www.aliyundrive.com/s/Aqmh3EJkxW2",
-          "desc": "Keil uvision",
-          "icon": "img/favicon/aliyundrive/favicon.ico",
-          "proxy": false
-        },
-        {
-          "title": "Eclipse",
-          "url": "https://www.aliyundrive.com/s/q6SS4GS6PPf",
-          "desc": "eclipse",
-          "icon": "img/favicon/aliyundrive/favicon.ico",
-          "proxy": false
-        },
-        {
-          "title": "Visual C++ 6.0",
-          "url": "https://www.aliyundrive.com/s/9i9J6CYdANN",
-          "desc": "Microsoft Visual C++ (VC6.0)",
-          "icon": "img/favicon/aliyundrive/favicon.ico",
-          "proxy": false
-        },
-        {
-          "title": "Visual Basic 6.0",
-          "url": "https://www.aliyundrive.com/s/1E6P3E5qAGw",
-          "desc": "Microsoft Visual Basic(VB6.0)",
-          "icon": "img/favicon/aliyundrive/favicon.ico",
-          "proxy": false
-        },
-        {
-          "title": "Sublime Text",
-          "url": "https://www.aliyundrive.com/s/zYLbkGEuhBF",
-          "desc": "Sublime Text",
-          "icon": "img/favicon/aliyundrive/favicon.ico",
-          "proxy": false
-        },
-        {
-          "title": "Multisim",
-          "url": "https://www.aliyundrive.com/s/A1RETekZvfL",
-          "desc": "Multisim",
-          "icon": "img/favicon/aliyundrive/favicon.ico",
-          "proxy": false
-        },
-        {
-          "title": "MyEclipse",
-          "url": "https://www.aliyundrive.com/s/duNGmQmWhDF",
-          "desc": "MyEclipse",
-          "icon": "img/favicon/aliyundrive/favicon.ico",
-          "proxy": false
-        },
-        {
           "title": "NCM格式转换",
           "url": "https://www.aliyundrive.com/s/yHU2ZbJtqjZ",
           "desc": "NCM格式转换工具",
-          "icon": "img/favicon/aliyundrive/favicon.ico",
-          "proxy": false
-        },
-        {
-          "title": "语音转文字神器",
-          "url": "https://www.aliyundrive.com/s/we8jXBXFRhn",
-          "desc": "语音转文字神器",
-          "icon": "img/favicon/aliyundrive/favicon.ico",
-          "proxy": false
-        },
-        {
-          "title": "文字转语音神器",
-          "url": "https://www.aliyundrive.com/s/xgBBgJ83WmD",
-          "desc": "文字转语音神器",
           "icon": "img/favicon/aliyundrive/favicon.ico",
           "proxy": false
         },
@@ -1909,248 +1894,25 @@
           "desc": "WinRAR.exe",
           "icon": "img/favicon/aliyundrive/favicon.ico",
           "proxy": false
-        }
-      ]
-    },
-    {
-      "categoryName": "影视后期软件",
-      "categoryId": "video-editing-software",
-      "sites": [
+        },
         {
-          "title": "Adobe 2023 全家桶",
-          "url": "https://www.aliyundrive.com/s/zjm6DgDh6i4",
-          "desc": "Adobe 2023 全家桶已破解 – new!（阿里夸克云盘全网首发）",
+          "title": "精选浏览器插件合集",
+          "url": "https://www.aliyundrive.com/s/doZEimuBqfc",
+          "desc": "UP主图欧君精选浏览器crx插件大合集",
           "icon": "img/favicon/aliyundrive/favicon.ico",
           "proxy": false
         },
         {
-          "title": "Photoshop 2023 AI版",
-          "url": "https://www.aliyundrive.com/s/7aot7KEQajX",
-          "desc": "Adobe Photoshop 2023 AI版",
+          "title": "安卓破解软件合集(2023)",
+          "url": "https://www.aliyundrive.com/s/aMfY38DuFs3",
+          "desc": "2023年最新热门安卓破解软件合集 （3千多个app，容量不大，可一次性全部存到你自己的盘，需要用的时候搜索查找更方便 ）",
           "icon": "img/favicon/aliyundrive/favicon.ico",
           "proxy": false
         },
         {
-          "title": "语音转文字神器",
-          "url": "https://www.aliyundrive.com/s/we8jXBXFRhn",
-          "desc": "语音转文字神器——站长整理出品",
-          "icon": "img/favicon/aliyundrive/favicon.ico",
-          "proxy": false
-        },
-        {
-          "title": "文字转语音神器",
-          "url": "https://www.aliyundrive.com/s/xgBBgJ83WmD",
-          "desc": "文字转语音神器——站长整理出品",
-          "icon": "img/favicon/aliyundrive/favicon.ico",
-          "proxy": false
-        },
-        {
-          "title": "Cinema 4D",
-          "url": "https://www.aliyundrive.com/s/Wkzb1brVC6j",
-          "desc": "Cinema 4D",
-          "icon": "img/favicon/aliyundrive/favicon.ico",
-          "proxy": false
-        },
-        {
-          "title": "3D Max",
-          "url": "https://www.aliyundrive.com/s/zpAAhY7iMe7",
-          "desc": "3D Max",
-          "icon": "img/favicon/aliyundrive/favicon.ico",
-          "proxy": false
-        },
-        {
-          "title": "Autodesk Maya",
-          "url": "https://www.aliyundrive.com/s/ykJCDCfgr4o",
-          "desc": "Autodesk Maya",
-          "icon": "img/favicon/aliyundrive/favicon.ico",
-          "proxy": false
-        },
-        {
-          "title": "Premiere (Pr)",
-          "url": "https://www.aliyundrive.com/s/fnpmsekotp3",
-          "desc": "Pr",
-          "icon": "img/favicon/aliyundrive/favicon.ico",
-          "proxy": false
-        },
-        {
-          "title": "After Effects (AE)",
-          "url": "https://www.aliyundrive.com/s/Hty1Wze5yvd",
-          "desc": "AE",
-          "icon": "img/favicon/aliyundrive/favicon.ico",
-          "proxy": false
-        },
-        {
-          "title": "Photoshop (Ps)",
-          "url": "https://www.aliyundrive.com/s/1Qh5Bw9fnAT",
-          "desc": "Photoshop",
-          "icon": "img/favicon/aliyundrive/favicon.ico",
-          "proxy": false
-        },
-        {
-          "title": "Animate (An)",
-          "url": "https://www.aliyundrive.com/s/BnidHYnEjTX",
-          "desc": "Animate",
-          "icon": "img/favicon/aliyundrive/favicon.ico",
-          "proxy": false
-        },
-        {
-          "title": "Illustrator (Ai)",
-          "url": "https://www.aliyundrive.com/s/DvvYmQJWKnV",
-          "desc": "Ai",
-          "icon": "img/favicon/aliyundrive/favicon.ico",
-          "proxy": false
-        },
-        {
-          "title": "AI智能后期全家桶",
-          "url": "https://www.aliyundrive.com/s/qK5gRuk8AR4",
-          "desc": "AI智能后期全家桶",
-          "icon": "img/favicon/aliyundrive/favicon.ico",
-          "proxy": false
-        },
-        {
-          "title": "视频剪辑三件套",
-          "url": "https://www.aliyundrive.com/s/fr192beEbAz",
-          "desc": "视频剪辑软件三件套（剪映+PR+快剪辑）",
-          "icon": "img/favicon/aliyundrive/favicon.ico",
-          "proxy": false
-        },
-        {
-          "title": "AI画质修复软件",
-          "url": "https://www.aliyundrive.com/s/71jVHXKiiBF",
-          "desc": "视频图片画质修复AI高清优化提升软件",
-          "icon": "img/favicon/aliyundrive/favicon.ico",
-          "proxy": false
-        },
-        {
-          "title": "照片处理小工具",
-          "url": "https://www.aliyundrive.com/s/VrCZCAh2kiS",
-          "desc": "照片处理、上色、转换小工具",
-          "icon": "img/favicon/aliyundrive/favicon.ico",
-          "proxy": false
-        },
-        {
-          "title": "字体识别软件",
-          "url": "https://www.aliyundrive.com/s/b38sEHk4vsU",
-          "desc": "字体识别软件",
-          "icon": "img/favicon/aliyundrive/favicon.ico",
-          "proxy": false
-        },
-        {
-          "title": "视频换脸软件",
-          "url": "https://www.aliyundrive.com/s/YMWAkzDdoHq",
-          "desc": "视频换脸软件",
-          "icon": "img/favicon/aliyundrive/favicon.ico",
-          "proxy": false
-        },
-        {
-          "title": "图片去水印工具",
-          "url": "https://www.aliyundrive.com/s/7QHHnkwnY4K",
-          "desc": "图片去水印工具",
-          "icon": "img/favicon/aliyundrive/favicon.ico",
-          "proxy": false
-        },
-        {
-          "title": "InCopy",
-          "url": "https://www.aliyundrive.com/s/rK5o8ePD81b",
-          "desc": "InCopy",
-          "icon": "img/favicon/aliyundrive/favicon.ico",
-          "proxy": false
-        },
-        {
-          "title": "Lightroom",
-          "url": "https://www.aliyundrive.com/s/kZgbHLvNgBo",
-          "desc": "Lightroom",
-          "icon": "img/favicon/aliyundrive/favicon.ico",
-          "proxy": false
-        },
-        {
-          "title": "ArctimePro字幕编辑器",
-          "url": "https://www.aliyundrive.com/s/1W6HRisY3zg",
-          "desc": "视频字幕高级编辑器（ArctimePro）部分功能付费",
-          "icon": "img/favicon/aliyundrive/favicon.ico",
-          "proxy": false
-        },
-        {
-          "title": "InDesign",
-          "url": "https://www.aliyundrive.com/s/JbPCQnm3ScT",
-          "desc": "InDesign",
-          "icon": "img/favicon/aliyundrive/favicon.ico",
-          "proxy": false
-        },
-        {
-          "title": "DaVinci Resolve",
-          "url": "https://www.aliyundrive.com/s/m52XX1oWcwn",
-          "desc": "达芬奇",
-          "icon": "img/favicon/aliyundrive/favicon.ico",
-          "proxy": false
-        },
-        {
-          "title": "Audition (Au)",
-          "url": "https://www.aliyundrive.com/s/PVynV1ji1eQ",
-          "desc": "Audition",
-          "icon": "img/favicon/aliyundrive/favicon.ico",
-          "proxy": false
-        },
-        {
-          "title": "Billfish素材管理",
-          "url": "https://www.aliyundrive.com/s/SyUz3sP642r",
-          "desc": "素材管理软件Billfish",
-          "icon": "img/favicon/aliyundrive/favicon.ico",
-          "proxy": false
-        },
-        {
-          "title": "Media Encoder",
-          "url": "https://www.aliyundrive.com/s/UtsX7Tpj6Zt",
-          "desc": "Media Encoder",
-          "icon": "img/favicon/aliyundrive/favicon.ico",
-          "proxy": false
-        },
-        {
-          "title": "视频字幕翻译器",
-          "url": "https://www.aliyundrive.com/s/7QLeyVTo596",
-          "desc": "视频字幕编辑翻译器（免费）",
-          "icon": "img/favicon/aliyundrive/favicon.ico",
-          "proxy": false
-        },
-        {
-          "title": "Camtasia",
-          "url": "https://www.aliyundrive.com/s/HES1SBpsLkB",
-          "desc": "Camtasia剪辑软件",
-          "icon": "img/favicon/aliyundrive/favicon.ico",
-          "proxy": false
-        },
-        {
-          "title": "Unity3D",
-          "url": "https://www.aliyundrive.com/s/k96M7PrkTKh",
-          "desc": "Unity3D",
-          "icon": "img/favicon/aliyundrive/favicon.ico",
-          "proxy": false
-        },
-        {
-          "title": "图片无损清晰神器",
-          "url": "https://www.aliyundrive.com/s/cmTujhCdYPf",
-          "desc": "图片无损变清晰神器",
-          "icon": "img/favicon/aliyundrive/favicon.ico",
-          "proxy": false
-        },
-        {
-          "title": "Quick Cut视频处理",
-          "url": "https://www.aliyundrive.com/s/nyuNipEKU8Z",
-          "desc": "视频处理软件（Quick Cut）体积小巧但功能强大",
-          "icon": "img/favicon/aliyundrive/favicon.ico",
-          "proxy": false
-        },
-        {
-          "title": "小丸工具箱",
-          "url": "https://www.aliyundrive.com/s/p2At2KVLzYx",
-          "desc": "视频体积压缩工具：小丸工具箱",
-          "icon": "img/favicon/aliyundrive/favicon.ico",
-          "proxy": false
-        },
-        {
-          "title": "视频音效增强器",
-          "url": "https://www.aliyundrive.com/s/CnkFco57J1i",
-          "desc": "视频音效增强器（实时给人物添加滤镜）Microsoft Store应用",
+          "title": "苹果软件大合集",
+          "url": "https://www.aliyundrive.com/s/z2enGdvz7ad",
+          "desc": "苹果软件大合集（需要下载exe并解压才能得到ipa文件）",
           "icon": "img/favicon/aliyundrive/favicon.ico",
           "proxy": false
         },
@@ -2241,114 +2003,65 @@
       ]
     },
     {
-      "categoryName": "安卓应用",
-      "categoryId": "android-apps",
+      "categoryName": "影视娱乐与音乐",
+      "categoryId": "movies-entertainment-music",
       "sites": [
         {
-          "title": "安卓破解软件合集(2023)",
-          "url": "https://www.aliyundrive.com/s/aMfY38DuFs3",
-          "desc": "2023年最新热门安卓破解软件合集 （3千多个app，容量不大，可一次性全部存到你自己的盘，需要用的时候搜索查找更方便 ）",
-          "icon": "img/favicon/aliyundrive/favicon.ico",
-          "proxy": false
-        }
-      ]
-    },
-    {
-      "categoryName": "苹果应用 (IPA)",
-      "categoryId": "ios-apps",
-      "sites": [
-        {
-          "title": "苹果软件大合集",
-          "url": "https://www.aliyundrive.com/s/z2enGdvz7ad",
-          "desc": "苹果软件大合集（需要下载exe并解压才能得到ipa文件）",
-          "icon": "img/favicon/aliyundrive/favicon.ico",
-          "proxy": false
-        }
-      ]
-    },
-    {
-      "categoryName": "素材与模板",
-      "categoryId": "assets-templates",
-      "sites": [
-        {
-          "title": "广电龙标片头AE教程",
-          "url": "https://www.aliyundrive.com/s/MCtz4NQ5yF7",
-          "desc": "广电龙标电影片头改文字AE教程（含视频素材）",
+          "title": "逃出大英博物馆",
+          "url": "https://www.aliyundrive.com/s/jHsvVesPaRy",
+          "desc": "逃出大英博物馆",
           "icon": "img/favicon/aliyundrive/favicon.ico",
           "proxy": false
         },
         {
-          "title": "高校航拍宣传片素材",
-          "url": "https://www.aliyundrive.com/s/FHneG2v7ain",
-          "desc": "【励志视频原素材】全国双一流重点大学以及各大高校航拍宣传片、logo与壁纸大合集——站长整理出品",
+          "title": "156部迪士尼动画蓝光",
+          "url": "https://www.aliyundrive.com/s/TLBXEhJU3eK",
+          "desc": "156部迪士尼动画电影 蓝光珍藏（单部平均2~3GB共491GB） 大部分无字幕",
           "icon": "img/favicon/aliyundrive/favicon.ico",
           "proxy": false
         },
         {
-          "title": "多场景视频素材",
-          "url": "https://www.aliyundrive.com/s/uhL3cVrDs2W",
-          "desc": "【视频素材-适用于手机、电脑、LED大屏等多场景】",
+          "title": "看电影学英语(动画)",
+          "url": "https://www.aliyundrive.com/s/8RTc2mEUEHt",
+          "desc": "看电影学英语 180部儿童青少年动画电影 可切换纯英文中英文字幕",
           "icon": "img/favicon/aliyundrive/favicon.ico",
           "proxy": false
-        }
-      ]
-    },
-    {
-      "categoryName": "论文文献",
-      "categoryId": "papers-literature",
-      "sites": [
+        },
         {
-          "title": "B站相关论文合集",
-          "url": "https://www.aliyundrive.com/s/iEtjqfxAbpd",
-          "desc": "100篇与B站相关的论文期刊文献大合集——站长整理出品",
+          "title": "小戏骨系列影视剧",
+          "url": "https://www.aliyundrive.com/s/U2WJDiL2sW2",
+          "desc": "【小戏骨系列20部影视剧最全合集】高颜值高演技萌娃在线吊打当代流量明星",
           "icon": "img/favicon/aliyundrive/favicon.ico",
           "proxy": false
-        }
-      ]
-    },
-    {
-      "categoryName": "资源链接汇总",
-      "categoryId": "link-collections",
-      "sites": [
+        },
         {
-          "title": "B站资源链接汇总",
-          "url": "https://www.aliyundrive.com/s/yRXNvbP5fWa",
-          "desc": "超多B站资源链接汇总（11个大类）",
+          "title": "迪士尼自然纪录片",
+          "url": "https://www.aliyundrive.com/s/bdLMtvmWSKX",
+          "desc": "Disneynature 迪士尼自然系列纪录片蓝光DVD（纯英文字幕附PDF教材）",
           "icon": "img/favicon/aliyundrive/favicon.ico",
           "proxy": false
-        }
-      ]
-    },
-    {
-      "categoryName": "B站百大UP主",
-      "categoryId": "bilibili-top-100",
-      "sites": [
+        },
         {
-          "title": "B站百大UP主盛典(2022)",
-          "url": "https://www.aliyundrive.com/s/ub97BHESbuZ",
-          "desc": "2022哔哩哔哩B站百大UP主颁奖盛典（含前三年回顾）",
+          "title": "开心麻花系列",
+          "url": "https://www.aliyundrive.com/s/UrLKdQJjaa3",
+          "desc": "【开心麻花】电影 综艺 戏剧系列",
           "icon": "img/favicon/aliyundrive/favicon.ico",
           "proxy": false
-        }
-      ]
-    },
-    {
-      "categoryName": "网站书签",
-      "categoryId": "web-bookmarks",
-      "sites": [
+        },
         {
-          "title": "大佬网站书签",
-          "url": "https://www.aliyundrive.com/s/2uqhvG4ttA3",
-          "desc": "阿虚同学等大佬的网站书签（可直接导入你的收藏夹，让你的浏览器变得强大！）",
+          "title": "历年央视春晚合集",
+          "url": "https://www.aliyundrive.com/s/4pkdVRtvL9T",
+          "desc": "1956-2022历年央视春晚大合集",
           "icon": "img/favicon/aliyundrive/favicon.ico",
           "proxy": false
-        }
-      ]
-    },
-    {
-      "categoryName": "音乐资源",
-      "categoryId": "music-resources",
-      "sites": [
+        },
+        {
+          "title": "2023春晚汇总",
+          "url": "https://www.aliyundrive.com/s/7JeLnhKx9mi",
+          "desc": "2023各大平台卫视与央视春晚汇总",
+          "icon": "img/favicon/aliyundrive/favicon.ico",
+          "proxy": false
+        },
         {
           "title": "刀郎歌曲MV合集",
           "url": "https://www.aliyundrive.com/s/ENwB5ZyRrUD",
@@ -2369,38 +2082,149 @@
           "desc": "【华语乐坛歌手高品质MP3大合集】",
           "icon": "img/favicon/aliyundrive/favicon.ico",
           "proxy": false
+        },
+        {
+          "title": "B站百大UP主盛典(2022)",
+          "url": "https://www.aliyundrive.com/s/ub97BHESbuZ",
+          "desc": "2022哔哩哔哩B站百大UP主颁奖盛典（含前三年回顾）",
+          "icon": "img/favicon/aliyundrive/favicon.ico",
+          "proxy": false
         }
       ]
     },
     {
-      "categoryName": "壁纸资源",
-      "categoryId": "wallpapers",
+      "categoryName": "文学阅读与人文",
+      "categoryId": "literature-reading-humanities",
       "sites": [
         {
-          "title": "壁纸引擎mpkg文件",
-          "url": "https://www.aliyundrive.com/s/YbtwdUyRe9n",
-          "desc": "壁纸引擎mpkg文件热门精选汇总 送手机版",
+          "title": "《三体》全套资料",
+          "url": "https://www.aliyundrive.com/s/Co2HiJs1ngF",
+          "desc": "《三体》原著小说、有声书、广播剧、同人动画与影视档案资料大合集（全网最全）——站长二次整理出品",
           "icon": "img/favicon/aliyundrive/favicon.ico",
           "proxy": false
         },
         {
-          "title": "二次元精选壁纸",
-          "url": "https://www.aliyundrive.com/s/42mHwCZ7UC6",
-          "desc": "二次元精选壁纸（站长私藏）",
+          "title": "豆瓣2022年度读书榜",
+          "url": "https://www.aliyundrive.com/s/t5CjpeYWcru",
+          "desc": "豆瓣2022年度读书榜单",
           "icon": "img/favicon/aliyundrive/favicon.ico",
           "proxy": false
         },
         {
-          "title": "鬼刀WLOP作品合集",
-          "url": "https://www.aliyundrive.com/s/4HwYdm2Fu5s",
-          "desc": "鬼刀云虫作者WLOP大佬作品全网最全合集（含4K壁纸、动态壁纸以及PSD源文件）——站长整理出品",
+          "title": "Z-Library 10TB 种子",
+          "url": "https://www.aliyundrive.com/s/iWc6W3gzPPC",
+          "desc": "Z_Library网站电子书库下载种子（约1800万册共10TB）含目录",
           "icon": "img/favicon/aliyundrive/favicon.ico",
           "proxy": false
         },
         {
-          "title": "B站2233娘壁纸",
-          "url": "https://www.aliyundrive.com/s/T4A8YvW6TZZ",
-          "desc": "B站2233娘壁纸（图欧君整理出品）",
+          "title": "四大名著资料合集",
+          "url": "https://www.aliyundrive.com/s/SWAV49VZiR1",
+          "desc": "西游记、红楼梦、三国演义、水浒传四大名著（电子版+插图版+漫画版+解说）",
+          "icon": "img/favicon/aliyundrive/favicon.ico",
+          "proxy": false
+        },
+        {
+          "title": "汉译世界学术名著",
+          "url": "https://www.aliyundrive.com/s/m17m6MC2wSh",
+          "desc": "汉译世界学术名著丛书（120册精选大合集）",
+          "icon": "img/favicon/aliyundrive/favicon.ico",
+          "proxy": false
+        },
+        {
+          "title": "喜马拉雅精读300本好书",
+          "url": "https://www.aliyundrive.com/s/WKu7x2pfLrE",
+          "desc": "喜玛拉雅精读全球好书 300本 三季全",
+          "icon": "img/favicon/aliyundrive/favicon.ico",
+          "proxy": false
+        },
+        {
+          "title": "国学书籍70本",
+          "url": "https://www.aliyundrive.com/s/1FKugYCfTLN",
+          "desc": "国学书籍70本(绝版珍藏)",
+          "icon": "img/favicon/aliyundrive/favicon.ico",
+          "proxy": false
+        },
+        {
+          "title": "易经研究著作合集",
+          "url": "https://www.aliyundrive.com/s/4GfstuePXqH",
+          "desc": "《易经研究系列著作合集》",
+          "icon": "img/favicon/aliyundrive/favicon.ico",
+          "proxy": false
+        },
+        {
+          "title": "人文与社会译丛(160册)",
+          "url": "https://www.aliyundrive.com/s/MxATJvFgsTM",
+          "desc": "人文与社会译丛（译林出版社）160册 8.54G 2021年11月21日截止最全",
+          "icon": "img/favicon/aliyundrive/favicon.ico",
+          "proxy": false
+        },
+        {
+          "title": "中国文化合集(36本)",
+          "url": "https://www.aliyundrive.com/s/JHsZMeMSHGL",
+          "desc": "中国文化合集（套装共36本：中华思想、中医、建筑、历史、经济、外交等）",
+          "icon": "img/favicon/aliyundrive/favicon.ico",
+          "proxy": false
+        },
+        {
+          "title": "外研社百科通识文库",
+          "url": "https://www.aliyundrive.com/s/spwz85p7Vaj",
+          "desc": "外研社百科通识文库（世界万象大套装共114本）（涵盖天文学、心理学、宇宙学、哲学、宗教、政治、艺术等30余个学科）",
+          "icon": "img/favicon/aliyundrive/favicon.ico",
+          "proxy": false
+        },
+        {
+          "title": "十万个为什么(第六版)",
+          "url": "https://www.aliyundrive.com/s/5cNbgqDJeCf",
+          "desc": "十万个为什么（第六版） 全套18本 韩启德主编",
+          "icon": "img/favicon/aliyundrive/favicon.ico",
+          "proxy": false
+        },
+        {
+          "title": "欧姆社科学漫画(42册)",
+          "url": "https://www.aliyundrive.com/s/U3QmQaPMjjo",
+          "desc": "【看漫画学理科】欧姆社科学漫画PDF 42册 完整版——站长购买出品",
+          "icon": "img/favicon/aliyundrive/favicon.ico",
+          "proxy": false
+        },
+        {
+          "title": "B站相关论文合集",
+          "url": "https://www.aliyundrive.com/s/iEtjqfxAbpd",
+          "desc": "100篇与B站相关的论文期刊文献大合集——站长整理出品",
+          "icon": "img/favicon/aliyundrive/favicon.ico",
+          "proxy": false
+        }
+      ]
+    },
+    {
+      "categoryName": "资源汇总与书签",
+      "categoryId": "resource-collections-bookmarks",
+      "sites": [
+        {
+          "title": "大佬资源网站书签",
+          "url": "https://www.aliyundrive.com/s/vLPMXQtjxeq",
+          "desc": "各个大佬的资源网站书签.html（可直接导入你的浏览器收藏夹）",
+          "icon": "img/favicon/aliyundrive/favicon.ico",
+          "proxy": false
+        },
+        {
+          "title": "阿虚储物间全站书签",
+          "url": "https://www.aliyundrive.com/s/9CgVhPF1ucf",
+          "desc": "阿虚同学储物间全站书签.html（可直接导入你的浏览器收藏夹）",
+          "icon": "img/favicon/aliyundrive/favicon.ico",
+          "proxy": false
+        },
+        {
+          "title": "B站资源链接汇总",
+          "url": "https://www.aliyundrive.com/s/yRXNvbP5fWa",
+          "desc": "超多B站资源链接汇总（11个大类）",
+          "icon": "img/favicon/aliyundrive/favicon.ico",
+          "proxy": false
+        },
+        {
+          "title": "大佬网站书签",
+          "url": "https://www.aliyundrive.com/s/2uqhvG4ttA3",
+          "desc": "阿虚同学等大佬的网站书签（可直接导入你的收藏夹，让你的浏览器变得强大！）",
           "icon": "img/favicon/aliyundrive/favicon.ico",
           "proxy": false
         }
