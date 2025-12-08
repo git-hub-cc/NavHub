@@ -1,71 +1,87 @@
-
 <!DOCTYPE html>
 <html lang="zh-CN">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
     <!-- SEO 元标签 -->
     <meta name="author" content="git-hub-cc">
-    <meta name="description" content="NavHub - 一个轻量、优雅且功能强大的纯前端个人导航/起始页。支持聚合搜索、网站拖拽管理、暗黑模式切换和响应式设计。零依赖, 易部署, 打造属于你自己的浏览器主页。">
-    <meta name="keywords" content="NavHub, 个人导航, 导航页, 起始页, 浏览器主页, 聚合搜索, 静态网站, 纯前端, 开源项目, 高度可定制, 效率工具, 暗黑模式">
+    <meta name="description" content="NavHub - 一个轻量、优雅且功能强大的纯前端个人导航/起始页。支持聚合搜索、网站拖拽管理、暗黑模式切换和响应式设计。">
+    <meta name="keywords" content="NavHub, 个人导航, 起始页, 浏览器主页, 聚合搜索, 开源项目">
 
-    <!-- 主题初始化脚本 (防止页面刷新时主题闪烁) -->
+    <title>NavHub</title>
+
+    <!-- 引入 RemixIcon 图标库 (提升视觉体验) -->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
+
+    <!-- 引入样式 -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- 主题初始化脚本 -->
     <script>
         (function() {
             try {
                 const preference = localStorage.getItem('theme-preference');
                 const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
-                let theme = 'light'; // 默认主题
+                let theme = 'light';
                 if (preference) {
                     theme = preference;
                 } else if (prefersDark) {
                     theme = 'dark';
                 }
                 document.documentElement.setAttribute('data-theme', theme);
-            } catch (e) {
-// 如果 localStorage 或 matchMedia 不可用，则静默失败。
-            }
+            } catch (e) {}
         })();
     </script>
-
-    <title>NavHub</title>
-    <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-<!-- 页面顶层容器 -->
+<!-- 动态背景层 -->
+<div class="background-layer"></div>
+
+<!-- 移动端侧边栏遮罩 -->
+<div id="sidebar-overlay" class="sidebar-overlay"></div>
+
+<!-- 移动端顶部导航栏 -->
+<div class="mobile-header">
+    <button id="mobile-menu-btn" class="icon-btn" aria-label="菜单">
+        <i class="ri-menu-line"></i>
+    </button>
+    <div class="mobile-logo">NavHub</div>
+    <div class="mobile-placeholder"></div> <!-- 占位用于平衡布局 -->
+</div>
+
+<!-- 页面主容器 -->
 <div class="container">
 
     <!-- ========================================================================== -->
     <!--                                侧边栏 (Sidebar)                              -->
     <!-- ========================================================================== -->
-    <nav class="sidebar">
-        <!-- 侧边栏上部：Logo 和分类列表 -->
-        <div>
-            <div class="logo">NavHub</div>
+    <nav class="sidebar" id="sidebar">
+        <!-- 侧边栏头部 -->
+        <div class="sidebar-header">
+            <div class="logo">
+                <i class="ri-compass-3-line"></i> NavHub
+            </div>
+        </div>
+
+        <!-- 侧边栏滚动区域：分类列表 -->
+        <div class="sidebar-scroll-area">
             <ul class="category-list">
                 <!-- 分类列表将由 JS 动态生成 -->
             </ul>
         </div>
 
-        <!-- 侧边栏底部：功能区 -->
-        <div class="menu-bottom-section">
-            <!-- 导入/导出/删除功能 -->
-            <div class="data-actions">
-                <button id="import-btn" class="btn-secondary">导入</button>
-                <button id="export-btn" class="btn-secondary">导出</button>
-                <button id="delete-source-btn" class="btn-secondary btn-danger">删除</button>
-                <input type="file" id="import-file-input" accept=".json,.html" style="display: none;">
-            </div>
+        <!-- 侧边栏底部：功能控制台 -->
+        <div class="sidebar-footer">
 
-            <!-- 自定义数据源选择器 -->
-            <div class="data-source-selector">
-                <label for="custom-select">数据源</label>
+            <!-- 数据源选择器 -->
+            <div class="data-source-wrapper">
+                <div class="control-label">数据源</div>
                 <div id="custom-select" class="custom-select" tabindex="0">
                     <div id="custom-select-trigger" class="custom-select-trigger">
-                        <span id="custom-select-selected-text"></span>
-                        <span class="custom-select-arrow"></span>
+                        <span id="custom-select-selected-text">默认数据</span>
+                        <i class="ri-arrow-down-s-line arrow-icon"></i>
                     </div>
                     <div id="custom-select-options" class="custom-select-options">
                         <!-- 选项将由 JS 动态填充 -->
@@ -73,27 +89,38 @@
                 </div>
             </div>
 
-            <!-- 社交链接 (示例) -->
-            <div class="social-links">
-                <a href="https://github.com/git-hub-cc/NavHub" target="_blank" aria-label="GitHub">G</a>
-                <a href="https://space.bilibili.com" target="_blank" aria-label="Bilibili">B</a>
+            <!-- 操作按钮组 -->
+            <div class="action-grid">
+                <button id="import-btn" class="icon-btn-text" title="导入">
+                    <i class="ri-upload-cloud-2-line"></i> <span>导入</span>
+                </button>
+                <button id="export-btn" class="icon-btn-text" title="导出">
+                    <i class="ri-download-cloud-2-line"></i> <span>导出</span>
+                </button>
+                <button id="delete-source-btn" class="icon-btn-text danger" title="删除当前源">
+                    <i class="ri-delete-bin-line"></i> <span>删除</span>
+                </button>
+                <input type="file" id="import-file-input" accept=".json,.html" style="display: none;">
             </div>
 
-            <!-- 暗色模式切换开关 -->
-            <div class="dark-mode-toggle">
-                <label for="dark-mode-switch">
-                    <span class="sun-icon-emoji">☀️</span>
-                    <input type="checkbox" id="dark-mode-switch" />
-                    <span class="slider"></span>
-                    <span class="moon-icon-emoji">🌙</span>
-                </label>
+            <!-- 底部工具栏：社交 + 主题 -->
+            <div class="footer-toolbar">
+                <div class="social-links">
+                    <a href="https://github.com/git-hub-cc/NavHub" target="_blank" title="GitHub">
+                        <i class="ri-github-line"></i>
+                    </a>
+                </div>
+
+                <div class="theme-toggle-wrapper">
+                    <input type="checkbox" id="dark-mode-switch" class="theme-switch-input" />
+                    <label for="dark-mode-switch" class="theme-switch-label">
+                        <i class="ri-sun-line sun-icon"></i>
+                        <i class="ri-moon-line moon-icon"></i>
+                    </label>
+                </div>
             </div>
 
-            <!-- 版权或备案信息 -->
-            <div class="copyright">
-                <!-- 请在此处替换为自己的版权或备案信息 -->
-                © 2024 NavHub Project
-            </div>
+            <div class="copyright">© 2024 NavHub</div>
         </div>
     </nav>
 
@@ -102,76 +129,49 @@
     <!-- ========================================================================== -->
     <main class="main-content">
         <div class="main-content-inner">
-            <!-- 增强搜索头部 -->
-            <header class="enhanced-search-header">
-                <div id="search-category-buttons" class="category-buttons">
-                    <!-- 搜索类别按钮将由 JS 动态生成 -->
-                </div>
-                <div id="search-engine-checkboxes" class="search-engines">
-                    <!-- 搜索引擎复选框将由 JS 动态生成 -->
-                </div>
-                <form id="search-form" class="search-form">
-                    <div class="search-input-wrapper">
-                        <input type="text" id="search-input" autocomplete="off" placeholder="输入并搜索...">
-                        <ul id="suggestions-list" class="suggestions-list"></ul>
+
+            <!-- Hero 区域：搜索 -->
+            <header class="hero-section">
+                <div class="search-container">
+                    <!-- 搜索类别 Tabs -->
+                    <div id="search-category-buttons" class="search-tabs">
+                        <!-- JS生成 -->
                     </div>
-                    <button type="submit" id="search-button" class="btn-primary">搜索</button>
-                </form>
+
+                    <!-- 搜索框主体 -->
+                    <form id="search-form" class="search-box">
+                        <div class="search-input-group">
+                            <i class="ri-search-2-line search-icon"></i>
+                            <input type="text" id="search-input" autocomplete="off" placeholder="探索网络世界...">
+                            <button type="submit" id="search-button" class="search-btn-submit">
+                                <i class="ri-arrow-right-line"></i>
+                            </button>
+                        </div>
+                        <ul id="suggestions-list" class="suggestions-dropdown"></ul>
+                    </form>
+
+                    <!-- 搜索引擎选择 -->
+                    <div id="search-engine-checkboxes" class="engine-selector">
+                        <!-- JS生成 -->
+                    </div>
+                </div>
             </header>
 
-            <!-- 所有导航卡片将由JS在此处动态渲染 -->
+            <!-- 内容卡片区 -->
             <div class="content-wrapper" id="content-wrapper">
-                <!-- 动态内容区域 -->
+                <!-- JS 动态渲染导航内容 -->
             </div>
 
             <!-- 致谢部分 -->
-            <section class="acknowledgements-section">
-                <h3 class="acknowledgements-title">致谢</h3>
-                <div class="acknowledgements-card-grid">
-                    <a href="https://github.com/helloxz/onenav" target="_blank" rel="noopener noreferrer" class="ack-card">
-                        <span class="ack-card-title">onenav</span>
-                        <span class="ack-card-subtitle">灵感来源</span>
-                    </a>
-                    <a href="https://github.com/mozillazg/pinyin-data" target="_blank" rel="noopener noreferrer" class="ack-card">
-                        <span class="ack-card-title">pinyin-data</span>
-                        <span class="ack-card-subtitle">汉字转拼音</span>
-                    </a>
-                    <a href="https://link3.cc/studyship" target="_blank" rel="noopener noreferrer" class="ack-card">
-                        <span class="ack-card-title">学习资源船舱</span>
-                        <span class="ack-card-subtitle">数据来源</span>
-                    </a>
-                    <a href="https://hao.199it.com" target="_blank" rel="noopener noreferrer" class="ack-card">
-                        <span class="ack-card-title">大数据导航</span>
-                        <span class="ack-card-subtitle">数据来源</span>
-                    </a>
-                    <a href="http://baozangku.ysepan.com/" target="_blank" rel="noopener noreferrer" class="ack-card">
-                        <span class="ack-card-title">哆啦A梦的神奇口袋</span>
-                        <span class="ack-card-subtitle">数据来源</span>
-                    </a>
-                    <a href="https://xiaoshuai.link/" target="_blank" rel="noopener noreferrer" class="ack-card">
-                        <span class="ack-card-title">小帅同学</span>
-                        <span class="ack-card-subtitle">数据来源</span>
-                    </a>
-                    <a href="https://lazytest.vercel.app/#/" target="_blank" rel="noopener noreferrer" class="ack-card">
-                        <span class="ack-card-title">懒人找资源</span>
-                        <span class="ack-card-subtitle">数据来源</span>
-                    </a>
-                    <a href="http://xuexinxs.ysepan.com/" target="_blank" rel="noopener noreferrer" class="ack-card">
-                        <span class="ack-card-title">薛信的资料室</span>
-                        <span class="ack-card-subtitle">数据来源</span>
-                    </a>
-                    <a href="http://axutongxue.ysepan.com/" target="_blank" rel="noopener noreferrer" class="ack-card">
-                        <span class="ack-card-title">阿虚同学</span>
-                        <span class="ack-card-subtitle">数据来源</span>
-                    </a>
-                    <a href="http://chendandan.ysepan.com/" target="_blank" rel="noopener noreferrer" class="ack-card">
-                        <span class="ack-card-title">陈蛋蛋的宝藏库</span>
-                        <span class="ack-card-subtitle">数据来源</span>
-                    </a>
-                    <a href="http://ygtq.ysepan.com/#/" target="_blank" rel="noopener noreferrer" class="ack-card">
-                        <span class="ack-card-title">鱼果天晴的资源库</span>
-                        <span class="ack-card-subtitle">数据来源</span>
-                    </a>
+            <section class="footer-section">
+                <div class="divider">
+                    <span>致谢与资源</span>
+                </div>
+                <div class="acknowledgements-grid">
+                    <a href="https://github.com/helloxz/onenav" target="_blank" class="mini-card">Onenav</a>
+                    <a href="https://github.com/mozillazg/pinyin-data" target="_blank" class="mini-card">Pinyin-data</a>
+                    <a href="https://hao.199it.com" target="_blank" class="mini-card">大数据导航</a>
+                    <a href="https://xiaoshuai.link/" target="_blank" class="mini-card">小帅同学</a>
                 </div>
             </section>
         </div>
@@ -184,82 +184,83 @@
 
 <!-- 网站编辑/新增模态框 -->
 <div id="site-modal" class="modal-overlay modal-hidden">
-    <div class="modal-content">
-        <h3 id="modal-title">新增网站</h3>
-        <form id="site-form">
+    <div class="modal-glass">
+        <div class="modal-header">
+            <h3 id="modal-title">新增网站</h3>
+            <button class="close-modal-btn" id="cancel-btn"><i class="ri-close-line"></i></button>
+        </div>
+        <form id="site-form" class="modal-form">
             <input type="hidden" id="site-id">
             <input type="hidden" id="category-id">
-            <div class="form-group">
+
+            <div class="form-item">
                 <label for="site-url">网址</label>
-                <input type="url" id="site-url" placeholder="https://example.com" required>
+                <div class="input-with-icon">
+                    <i class="ri-link"></i>
+                    <input type="url" id="site-url" placeholder="https://" required>
+                </div>
             </div>
-            <div class="form-group">
-                <label for="site-title">标题</label>
-                <input type="text" id="site-title" placeholder="网站标题" required>
+
+            <div class="form-row">
+                <div class="form-item">
+                    <label for="site-title">标题</label>
+                    <input type="text" id="site-title" placeholder="网站名称" required>
+                </div>
+                <div class="form-item">
+                    <label for="site-icon">图标 URL</label>
+                    <input type="url" id="site-icon" placeholder="自动获取或手动输入">
+                </div>
             </div>
-            <div class="form-group">
-                <label for="site-icon">图标 URL</label>
-                <input type="url" id="site-icon" placeholder="https://example.com/favicon.ico">
-            </div>
-            <div class="form-group">
+
+            <div class="form-item">
                 <label for="site-desc">描述</label>
-                <textarea id="site-desc" rows="3" placeholder="网站的一句话描述"></textarea>
+                <textarea id="site-desc" rows="2" placeholder="简短的描述..."></textarea>
             </div>
-            <div class="form-group form-group-checkbox">
+
+            <div class="form-item checkbox-item">
                 <input type="checkbox" id="site-proxy">
                 <label for="site-proxy">需要代理访问</label>
             </div>
-            <div class="form-actions">
-                <button type="button" id="cancel-btn" class="btn-secondary">取消</button>
-                <button type="submit" class="btn-primary">保存</button>
+
+            <div class="modal-footer">
+                <button type="submit" class="btn-primary-glass">保存</button>
             </div>
         </form>
     </div>
 </div>
 
-<!-- 导入文件后命名数据源的模态框 -->
+<!-- 导入命名模态框 -->
 <div id="import-name-modal" class="modal-overlay modal-hidden">
-    <div class="modal-content">
+    <div class="modal-glass small-modal">
         <h3>命名数据源</h3>
-        <form id="import-name-form">
-            <div class="form-group">
-                <label for="import-name-input">为这个导入的数据源起一个名字</label>
-                <input type="text" id="import-name-input" required placeholder="例如：我的工作导航">
-                <p id="import-name-error" class="form-error-message" style="display: none;"></p>
+        <form id="import-name-form" class="modal-form">
+            <div class="form-item">
+                <input type="text" id="import-name-input" required placeholder="例如：我的工作台">
+                <p id="import-name-error" class="error-msg"></p>
             </div>
-            <div class="form-actions">
-                <button type="button" id="cancel-import-name-btn" class="btn-secondary">取消</button>
-                <button type="submit" class="btn-primary">确认导入</button>
+            <div class="modal-footer">
+                <button type="button" id="cancel-import-name-btn" class="btn-ghost">取消</button>
+                <button type="submit" class="btn-primary-glass">确认</button>
             </div>
         </form>
     </div>
 </div>
 
-<!-- 通用提示(Alert)和确认(Confirm)模态框 -->
+<!-- 提示/确认模态框 -->
 <div id="alert-confirm-modal" class="modal-overlay modal-hidden">
-    <div class="modal-content">
+    <div class="modal-glass small-modal text-center">
         <h3 id="alert-confirm-title">提示</h3>
         <div class="modal-body">
             <p id="alert-confirm-message"></p>
         </div>
-        <div class="form-actions">
-            <button type="button" id="alert-confirm-cancel-btn" class="btn-secondary">取消</button>
-            <button type="button" id="alert-confirm-ok-btn" class="btn-primary">确认</button>
+        <div class="modal-footer center-footer">
+            <button type="button" id="alert-confirm-cancel-btn" class="btn-ghost">取消</button>
+            <button type="button" id="alert-confirm-ok-btn" class="btn-primary-glass">确认</button>
         </div>
     </div>
 </div>
 
-<!-- ========================================================================== -->
-<!--                        脚本加载 (Scripts Loading)                        -->
-<!-- ========================================================================== -->
-<!--
-重要提示：脚本加载顺序至关重要！
-1. pinyinManager.js: 这是一个传统的IIFE脚本，它会创建一个全局的 `pinyinConverter` 对象。
- 它必须首先加载，这样后续的模块才能访问到这个全局对象。
-2. main.js: 这是一个ES模块 (`type="module"`)，是整个应用的入口点。
-                                            它会负责导入并协调 dataManager, ui.js, fileManager.js 等模块的逻辑。
-模块脚本默认是 `defer` 的，会在文档解析完毕后、DOMContentLoaded 事件触发前执行。
--->
+<!-- 脚本加载 -->
 <script src="./js/pinyinManager.js"></script>
 <script type="module" src="./js/main.js"></script>
 

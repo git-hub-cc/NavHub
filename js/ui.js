@@ -1,25 +1,31 @@
 // =========================================================================
-// ui.js - UI管理器
-// 职责: 负责所有与DOM渲染和界面交互相关的任务。
-// 包括：缓存DOM元素、渲染导航卡片和分类、控制模态框、更新UI状态（如主题、编辑模式）等。
+// ui.js - UI管理器 (重构版)
 // =========================================================================
 
 import { state, CUSTOM_CATEGORY_ID, DEFAULT_SITES_PATH, NAV_DATA_SOURCE_PREFERENCE_KEY } from './dataManager.js';
 
 // === DOM 元素缓存 ===
 export const dom = {
+    // 基础布局
     darkModeSwitch: document.getElementById('dark-mode-switch'),
     categoryList: document.querySelector('.category-list'),
     contentWrapper: document.getElementById('content-wrapper'),
+    // 移动端控件
+    mobileMenuBtn: document.getElementById('mobile-menu-btn'),
+    sidebar: document.getElementById('sidebar'),
+    sidebarOverlay: document.getElementById('sidebar-overlay'),
+
     // 自定义选择器元素
     customSelect: document.getElementById('custom-select'),
     customSelectTrigger: document.getElementById('custom-select-trigger'),
     customSelectSelectedText: document.getElementById('custom-select-selected-text'),
     customSelectOptions: document.getElementById('custom-select-options'),
+
     // 功能按钮
     importBtn: document.getElementById('import-btn'),
     exportBtn: document.getElementById('export-btn'),
     deleteSourceBtn: document.getElementById('delete-source-btn'),
+
     // 导入模态框
     importFileInput: document.getElementById('import-file-input'),
     importNameModal: document.getElementById('import-name-modal'),
@@ -27,6 +33,7 @@ export const dom = {
     importNameInput: document.getElementById('import-name-input'),
     importNameError: document.getElementById('import-name-error'),
     cancelImportNameBtn: document.getElementById('cancel-import-name-btn'),
+
     // 网站编辑模态框
     siteModal: document.getElementById('site-modal'),
     modalTitle: document.getElementById('modal-title'),
@@ -39,12 +46,14 @@ export const dom = {
     siteIconInput: document.getElementById('site-icon'),
     siteDescInput: document.getElementById('site-desc'),
     siteProxyInput: document.getElementById('site-proxy'),
+
     // 搜索区
     searchCategoryButtonsContainer: document.getElementById('search-category-buttons'),
     searchEngineCheckboxesContainer: document.getElementById('search-engine-checkboxes'),
     searchForm: document.getElementById('search-form'),
     searchInput: document.getElementById('search-input'),
     suggestionsList: document.getElementById('suggestions-list'),
+
     // 通用确认/提示模态框
     alertConfirmModal: document.getElementById('alert-confirm-modal'),
     alertConfirmTitle: document.getElementById('alert-confirm-title'),
@@ -54,35 +63,39 @@ export const dom = {
 };
 
 // =========================================================================
+// #region 移动端侧边栏控制
+// =========================================================================
+
+/** 切换移动端侧边栏状态 */
+export function toggleMobileSidebar() {
+    const isOpen = dom.sidebar.classList.contains('open');
+    if (isOpen) {
+        dom.sidebar.classList.remove('open');
+        dom.sidebarOverlay.classList.remove('visible');
+    } else {
+        dom.sidebar.classList.add('open');
+        dom.sidebarOverlay.classList.add('visible');
+    }
+}
+
+/** 关闭移动端侧边栏 */
+export function closeMobileSidebar() {
+    dom.sidebar.classList.remove('open');
+    dom.sidebarOverlay.classList.remove('visible');
+}
+
+// =========================================================================
 // #region 模态框与对话框
 // =========================================================================
 
-/**
- * 显示一个模态框。
- * @param {HTMLElement} modalElement - 要显示的模态框元素。
- */
 function showModal(modalElement) {
     modalElement.classList.remove('modal-hidden');
 }
 
-/**
- * 隐藏一个模态框。
- * @param {HTMLElement} modalElement - 要隐藏的模态框元素。
- */
 function hideModal(modalElement) {
     modalElement.classList.add('modal-hidden');
 }
 
-/**
- * 显示一个通用对话框（Alert 或 Confirm 的内部实现）。
- * @private
- * @param {object} options - 配置对象。
- * @param {string} options.title - 对话框标题。
- * @param {string} options.message - 对话框消息。
- * @param {string} options.okText - 确认按钮的文本。
- * @param {string|null} options.cancelText - 取消按钮的文本，如果为null则不显示。
- * @returns {Promise<boolean>} - 用户点击确认时解析为 true，否则为 false。
- */
 function _showDialog(options) {
     return new Promise(resolve => {
         dom.alertConfirmTitle.textContent = options.title;
@@ -118,49 +131,29 @@ function _showDialog(options) {
     });
 }
 
-/**
- * 显示一个提示框 (Alert)。
- * @param {string} message - 提示信息。
- * @param {string} [title='提示'] - 提示框标题。
- * @returns {Promise<boolean>} - 用户点击确认后 resolve。
- */
 export function showAlert(message, title = '提示') {
     return _showDialog({ title, message, okText: '确认', cancelText: null });
 }
 
-/**
- * 显示一个确认框 (Confirm)。
- * @param {string} message - 确认信息。
- * @param {string} [title='请确认'] - 确认框标题。
- * @returns {Promise<boolean>} - 用户点击“确认”解析为 true，点击“取消”或关闭则为 false。
- */
 export function showConfirm(message, title = '请确认') {
     return _showDialog({ title, message, okText: '确认', cancelText: '取消' });
 }
-// #endregion
 
 // =========================================================================
 // #region 核心UI渲染
 // =========================================================================
 
-/**
- * 应用指定的主题（亮色/暗色）。
- * @param {'dark' | 'light'} theme - 主题名称。
- */
 export function applyTheme(theme) {
     document.documentElement.setAttribute('data-theme', theme);
     localStorage.setItem('theme-preference', theme);
     if (dom.darkModeSwitch) dom.darkModeSwitch.checked = theme === 'dark';
 }
 
-/**
- * 填充自定义数据源选择器。
- */
 export function populateDataSourceSelector() {
     if (!dom.customSelect) return;
 
     const selectedIdentifier = localStorage.getItem(NAV_DATA_SOURCE_PREFERENCE_KEY) || DEFAULT_SITES_PATH;
-    let selectedText = '选择源...'; // 默认文本
+    let selectedText = '默认数据';
 
     dom.customSelectOptions.innerHTML = '';
     state.allSiteDataSources.forEach(source => {
@@ -183,20 +176,16 @@ export function populateDataSourceSelector() {
     updateDeleteButtonState();
 }
 
-/**
- * 根据当前选择的数据源，更新“删除源”按钮的可用状态。
- */
 export function updateDeleteButtonState() {
     if (!dom.deleteSourceBtn || !dom.customSelect) return;
     const selectedIdentifier = dom.customSelect.dataset.value;
     const source = state.allSiteDataSources.find(s => (s.path || s.name) === selectedIdentifier);
-    // 带有 'path' 属性的是内置源，不可删除
     dom.deleteSourceBtn.disabled = !source || !!source.path;
+    // 视觉上也置灰
+    dom.deleteSourceBtn.style.opacity = (!source || !!source.path) ? '0.5' : '1';
+    dom.deleteSourceBtn.style.pointerEvents = (!source || !!source.path) ? 'none' : 'auto';
 }
 
-/**
- * 渲染整个导航页面内容，包括侧边栏和主内容区。
- */
 export function renderNavPage() {
     dom.categoryList.innerHTML = '';
     dom.contentWrapper.innerHTML = '';
@@ -206,35 +195,36 @@ export function renderNavPage() {
     const isCustomSource = currentSource && !currentSource.path;
 
     state.siteData.categories.forEach(category => {
-        // 创建侧边栏链接
+        // 侧边栏链接 - 增加图标
         const categoryLink = document.createElement('a');
         categoryLink.href = `#${category.categoryId}`;
-        categoryLink.textContent = category.categoryName;
+        // 根据分类名称简单分配一个通用图标，也可以在数据源中扩展 icon 字段
+        categoryLink.innerHTML = `<i class="ri-folder-3-line" style="margin-right:8px;font-size:16px;"></i> ${category.categoryName}`;
         dom.categoryList.appendChild(categoryLink);
 
-        // 创建主内容区的分类板块
+        // 主内容分类区
         const section = document.createElement('section');
         section.id = category.categoryId;
         section.className = 'category-section';
 
         const titleContainer = document.createElement('div');
         titleContainer.className = 'category-title-container';
-        titleContainer.innerHTML = `<h2 class="category-title">${category.categoryName}</h2>`;
+        let actionsHTML = '';
 
-        // 仅当源是自定义源，或分类是“我的导航”时，显示编辑控件
+        // 可编辑区域的按钮
         const shouldShowActions = isCustomSource || category.categoryId === CUSTOM_CATEGORY_ID;
         if (shouldShowActions) {
-            // 添加 class 以便 CSS 和 JS 定位可编辑区域
             section.classList.add('custom-source-section');
-            const actionsDiv = document.createElement('div');
-            actionsDiv.className = 'title-actions';
-            actionsDiv.innerHTML = `
-                <button id="add-site-btn" class="action-btn" data-category-id="${category.categoryId}">新增</button>
-                <button id="edit-site-btn" class="action-btn">编辑</button>
-                <button id="delete-site-btn" class="action-btn btn-danger">删除</button>
+            actionsHTML = `
+                <div class="title-actions">
+                    <button id="add-site-btn" class="action-btn" data-category-id="${category.categoryId}"><i class="ri-add-line"></i> 新增</button>
+                    <button id="edit-site-btn" class="action-btn"><i class="ri-edit-line"></i> 编辑</button>
+                    <button id="delete-site-btn" class="action-btn" style="color:var(--danger)"><i class="ri-delete-bin-line"></i> 删除</button>
+                </div>
             `;
-            titleContainer.appendChild(actionsDiv);
         }
+
+        titleContainer.innerHTML = `<h2 class="category-title">${category.categoryName}</h2>${actionsHTML}`;
 
         const cardGrid = document.createElement('div');
         cardGrid.className = 'card-grid';
@@ -245,19 +235,16 @@ export function renderNavPage() {
         dom.contentWrapper.appendChild(section);
     });
 
-    setupSidebarLinks(); // 重新设置侧边栏链接的滚动监听
+    setupSidebarLinks();
 }
 
 /**
- * 创建单个网站卡片的HTML字符串。
- * @param {object} site - 网站数据对象。
- * @returns {string} - HTML字符串。
+ * 创建单个网站卡片的HTML - 更新结构以适配新CSS
  */
 function createCardHTML(site) {
     const defaultIcon = 'data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22%3E%3Ctext y=%22.9em%22 font-size=%2290%22%3E🌐%3C/text%3E%3C/svg%3E';
     const iconUrl = site.icon || defaultIcon;
-    const proxyBadge = site.proxy ? '<div class="proxy-badge">Proxy</div>' : '';
-    // 使用 pinyinConverter 生成拼音数据，用于后续的拼音搜索
+    const proxyBadge = site.proxy ? '<div class="proxy-dot" title="需代理"></div>' : '';
     const titlePinyin = pinyinManager.convert(site.title);
     const descPinyin = pinyinManager.convert(site.desc || '');
 
@@ -269,24 +256,42 @@ function createCardHTML(site) {
              data-pinyin-initials="${titlePinyin.initials} ${descPinyin.initials}"
              draggable="false">
             ${proxyBadge}
-            <div class="card-header">
-                <img src="${iconUrl}" alt="${site.title}" class="card-icon" draggable="false" onerror="this.src='${defaultIcon}'">
-                <h3 class="card-title">${site.title}</h3>
+            <!-- 编辑/删除模式下的覆盖层 -->
+            <div class="card-overlay-edit">
+                <i class="ri-drag-move-2-line"></i>
             </div>
-            <p class="card-desc">${site.desc || ''}</p>
+            
+            <div class="card-header">
+                <div class="card-icon-wrapper">
+                    <img src="${iconUrl}" alt="" class="card-icon" draggable="false" onerror="this.src='${defaultIcon}'">
+                </div>
+                <h3 class="card-title" title="${site.title}">${site.title}</h3>
+            </div>
+            <p class="card-desc" title="${site.desc || ''}">${site.desc || '暂无描述'}</p>
         </div>`;
 }
 
-/**
- * 设置侧边栏链接的平滑滚动和滚动监听，以高亮当前可视区域对应的链接。
- */
 export function setupSidebarLinks() {
     const links = dom.categoryList.querySelectorAll('a');
     links.forEach(link => {
         link.addEventListener('click', function (e) {
             e.preventDefault();
             const targetElement = document.querySelector(this.getAttribute('href'));
-            if (targetElement) targetElement.scrollIntoView({behavior: 'smooth'});
+            if (targetElement) {
+                const headerOffset = 80; // 留出头部空间
+                const elementPosition = targetElement.getBoundingClientRect().top;
+                const offsetPosition = elementPosition + window.pageYOffset - headerOffset;
+
+                window.scrollTo({
+                    top: offsetPosition,
+                    behavior: "smooth"
+                });
+
+                // 移动端点击后自动关闭侧边栏
+                if (window.innerWidth <= 768) {
+                    closeMobileSidebar();
+                }
+            }
         });
     });
 
@@ -301,33 +306,26 @@ export function setupSidebarLinks() {
                 }
             }
         });
-    }, { rootMargin: "-50% 0px -50% 0px" }); // 当分类板块进入屏幕垂直中线时触发
+    }, { rootMargin: "-20% 0px -60% 0px" });
     sections.forEach(section => observer.observe(section));
 }
-// #endregion
 
 // =========================================================================
 // #region 搜索相关UI
 // =========================================================================
 
-/**
- * 渲染搜索类别按钮。
- */
 export function renderSearchCategories() {
     dom.searchCategoryButtonsContainer.innerHTML = '';
-    state.searchConfig.categories.forEach(cat => {
+    state.searchConfig.categories.forEach((cat, index) => {
         const button = document.createElement('button');
         button.className = 'category-btn';
         button.textContent = cat.label;
         button.dataset.value = cat.value;
+        if (index === 0) button.classList.add('active');
         dom.searchCategoryButtonsContainer.appendChild(button);
     });
 }
 
-/**
- * 根据当前选择的搜索类别，渲染搜索引擎复选框。
- * @param {string} currentSearchCategory - 当前选中的搜索类别值。
- */
 export function renderEngineCheckboxes(currentSearchCategory) {
     dom.searchEngineCheckboxesContainer.innerHTML = '';
     const engines = state.searchConfig.engines[currentSearchCategory] || [];
@@ -337,17 +335,13 @@ export function renderEngineCheckboxes(currentSearchCategory) {
         const checkbox = document.createElement('input');
         checkbox.type = 'checkbox';
         checkbox.value = engine.url;
-        checkbox.checked = (index === 0); // 默认只选中第一个
+        checkbox.checked = (index === 0);
         label.appendChild(checkbox);
         label.appendChild(document.createTextNode(` ${engine.name}`));
         dom.searchEngineCheckboxesContainer.appendChild(label);
     });
 }
 
-/**
- * 渲染搜索建议列表。
- * @param {string[]} suggestions - 建议词条数组。
- */
 export function renderSuggestions(suggestions) {
     dom.suggestionsList.innerHTML = '';
     if (suggestions.length > 0) {
@@ -363,16 +357,11 @@ export function renderSuggestions(suggestions) {
     }
 }
 
-/**
- * 根据搜索词过滤导航卡片和分类的显示。
- * @param {string} query - 搜索关键词。
- */
 export function filterNavCards(query) {
     const searchTerm = query.toLowerCase().trim();
     const sections = document.querySelectorAll('.category-section');
 
     if (searchTerm === '') {
-        // 如果搜索词为空，显示所有内容
         sections.forEach(section => {
             section.style.display = '';
             section.querySelectorAll('.card').forEach(card => card.style.display = '');
@@ -396,22 +385,14 @@ export function filterNavCards(query) {
             if (isMatch) visibleCardsInSection++;
         });
 
-        // 如果分类中没有可见的卡片，则隐藏整个分类板块
         section.style.display = visibleCardsInSection > 0 ? '' : 'none';
     });
 }
-// #endregion
 
 // =========================================================================
-// #region 模态框控制函数
+// #region 模态框控制
 // =========================================================================
 
-/**
- * 打开网站编辑/新增模态框。
- * @param {'add' | 'edit'} mode - 模态框模式。
- * @param {object | null} site - 在编辑模式下要填充的网站对象。
- * @param {string} categoryId - 在新增模式下，网站将被添加到的分类ID。
- */
 export function openSiteModal(mode, site = null, categoryId) {
     dom.siteForm.reset();
     dom.categoryIdInput.value = categoryId;
@@ -428,68 +409,52 @@ export function openSiteModal(mode, site = null, categoryId) {
         dom.siteProxyInput.checked = site.proxy || false;
     }
     showModal(dom.siteModal);
-    dom.siteUrlInput.focus();
 }
 
-/** 关闭网站编辑模态框 */
 export function closeSiteModal() {
     hideModal(dom.siteModal);
 }
 
-/** 打开导入命名模态框 */
 export function openImportNameModal() {
     showModal(dom.importNameModal);
     dom.importNameInput.focus();
 }
 
-/** 关闭导入命名模态框 */
 export function closeImportNameModal() {
     hideModal(dom.importNameModal);
     dom.importNameForm.reset();
     dom.importNameError.style.display = 'none';
 }
-// #endregion
 
 // =========================================================================
 // #region 编辑/删除模式切换
 // =========================================================================
 
-/**
- * 切换编辑模式。
- * 进入编辑模式会退出删除模式。
- */
 export function toggleEditMode() {
     if (dom.contentWrapper.classList.contains('is-deleting')) {
-        toggleDeleteMode(); // 先退出删除模式
+        toggleDeleteMode();
     }
     const isNowEditing = dom.contentWrapper.classList.toggle('is-editing');
 
-    // 更新所有编辑按钮的状态和文本
+    // 更新图标和文字
     document.querySelectorAll('#edit-site-btn').forEach(btn => {
         btn.classList.toggle('active', isNowEditing);
-        btn.textContent = isNowEditing ? '完成' : '编辑';
+        btn.innerHTML = isNowEditing ? '<i class="ri-check-line"></i> 完成' : '<i class="ri-edit-line"></i> 编辑';
     });
 
-    // 启用或禁用可编辑区域内卡片的拖拽功能
     document.querySelectorAll('.custom-source-section .card').forEach(card => {
         card.draggable = isNowEditing;
     });
 }
 
-/**
- * 切换删除模式。
- * 进入删除模式会退出编辑模式。
- */
 export function toggleDeleteMode() {
     if (dom.contentWrapper.classList.contains('is-editing')) {
-        toggleEditMode(); // 先退出编辑模式
+        toggleEditMode();
     }
     const isNowDeleting = dom.contentWrapper.classList.toggle('is-deleting');
 
-    // 更新所有删除按钮的状态和文本
     document.querySelectorAll('#delete-site-btn').forEach(btn => {
         btn.classList.toggle('active', isNowDeleting);
-        btn.textContent = isNowDeleting ? '完成' : '删除';
+        btn.innerHTML = isNowDeleting ? '<i class="ri-check-line"></i> 完成' : '<i class="ri-delete-bin-line"></i> 删除';
     });
 }
-// #endregion

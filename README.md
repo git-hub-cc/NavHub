@@ -1,87 +1,85 @@
-# Pure Front-End Static Navigation Page
+# 纯前端静态导航页
 
-This is a lightweight, elegant, and powerful pure front-end personal navigation/start page. It's built with basic HTML, CSS, and Vanilla JavaScript, requiring no complex build tools or backend services. Simply upload the files to any static hosting platform (like GitHub Pages, Vercel, Netlify, or your own server) to have your own highly customizable homepage.
+这是一个轻量、优雅且功能强大的纯前端个人导航/起始页。它使用基础的 HTML、CSS 和 Vanilla JavaScript 构建，无需复杂的构建工具或后端服务。你只需要将文件上传到任何静态托管平台（如 GitHub Pages、Vercel、Netlify 或自己的服务器），即可拥有一个高度可定制的个人主页。
 
-[中文版](./README-cn.md)
+## ✨ 功能特性
 
-## ✨ Features
+*   **纯静态，零依赖**：无需 Node.js、无需数据库，无需编译，部署简单。
+*   **响应式设计**：完美适配桌面和移动设备，侧边栏在移动端自动切换为底部导航栏。
+*   **亮色/暗色主题**：支持手动切换，并能根据操作系统偏好自动选择，记忆用户选择。
+*   **多数据源切换**：内置多个知名UP主整理的网站数据，可在侧边栏一键切换，并会自动覆盖本地配置。
+*   **增强型聚合搜索**：
+    *   可自定义搜索类别（如网页、视频、编程、购物等）。
+    *   可在同一类别下勾选多个搜索引擎。
+    *   一次搜索，在多个新标签页中同时打开所有选中引擎的搜索结果。
+    *   支持搜索建议（基于百度 suggestion API）。
+*   **可定制的网站管理**：
+    *   通过图形化模态框，轻松在“我的导航”分类下**新增**和**编辑**网站。
+    *   支持**拖拽排序**，自由调整“我的导航”中的网站顺序。
+*   **数据本地持久化**：所有用户自定义的网站、排序和主题偏好都通过 `localStorage` 保存在本地浏览器中，下次打开时无需重新配置。
+*   **JSON 文件配置**：
+    *   初始的导航网站通过 `sites.json` 配置。
+    *   搜索引擎通过 `engines.json` 配置，扩展性强。
 
-*   **Purely Static, Zero Dependencies**: No Node.js, no database, no build process. Deployment is simple.
-*   **Responsive Design**: Perfectly adapts to desktop and mobile devices, with the sidebar automatically switching to a bottom navigation bar on mobile.
-*   **Light/Dark Mode**: Supports manual switching, automatically adapts to OS preference, and remembers the user's choice.
-*   **Multiple Data Sources**: Pre-packaged with site data from various well-known content creators. Easily switch between them from the sidebar, which will overwrite your local configuration.
-*   **Enhanced Aggregated Search**:
-    *   Customizable search categories (e.g., Web, Video, Programming, Shopping).
-    *   Select multiple search engines within the same category.
-    *   One search query opens results from all selected engines in new tabs simultaneously.
-    *   Includes search suggestions (powered by Baidu suggestion API).
-*   **Customizable Site Management**:
-    *   Easily **add** and **edit** websites in the "My Navigation" category through a graphical modal.
-    *   Supports **drag-and-drop sorting** to freely arrange the order of sites in "My Navigation".
-*   **Local Data Persistence**: All user-customized sites, their order, and theme preferences are saved locally in the browser via `localStorage`, so no reconfiguration is needed on the next visit.
-*   **JSON File Configuration**:
-    *   Initial navigation sites are configured via `sites.json`.
-    *   Search engines are configured via `engines.json`, making them highly extensible.
+## 🚀 快速开始
 
-## 🚀 Quick Start
+使用这个模板来搭建你自己的导航页非常简单。
 
-Setting up your own navigation page with this template is very simple.
+### 1. 获取代码
 
-### 1. Get the Code
+将本项目克隆或下载到本地。
 
-Clone or download this project to your local machine.
+### 2. 自定义初始网站（可选）
 
-### 2. Customize Initial Sites (Optional)
+打开 `sites.json` 文件。你可以修改、添加或删除其中的分类和网站。这是导航页的默认数据，首次加载时会使用。
 
-Open the `sites.json` file. You can modify, add, or delete the categories and sites within it. This serves as the default data for the navigation page on its first load.
+每个网站对象包含以下字段：
+*   `title`: 网站标题。
+*   `url`: 网站链接。
+*   `icon`: 网站图标 URL。
+*   `desc`: 网站描述。
+*   `proxy` (boolean): 是否需要代理访问，会在卡片右上角显示一个标记。
 
-Each site object contains the following fields:
-*   `title`: The title of the website.
-*   `url`: The link to the website.
-*   `icon`: The URL of the website's icon.
-*   `desc`: A description of the website.
-*   `proxy` (boolean): Indicates if proxy access is needed, which displays a badge on the card's top right.
+### 3. 自定义搜索引擎（可选）
 
-### 3. Customize Search Engines (Optional)
+打开 `engines.json` 文件。你可以修改聚合搜索功能。
+*   `categories`: 定义搜索类别按钮。
+*   `engines`: 定义每个类别下可用的搜索引擎。`%s` 是搜索关键词的占位符。
 
-Open the `engines.json` file. Here you can modify the aggregated search feature.
-*   `categories`: Defines the search category buttons.
-*   `engines`: Defines the available search engines for each category. `%s` is the placeholder for the search query.
+### 4. 在浏览器中个性化
 
-### 4. Personalize in Your Browser
+直接用浏览器打开 `index.html` 即可开始使用。
+*   **添加网站**: 点击“我的导航”分类右侧的【新增】按钮。
+*   **编辑/删除网站**: 点击【编辑】按钮进入编辑模式，此时点击任意网站卡片即可进行编辑或删除。
+*   **排序网站**: 进入编辑模式后，直接拖拽“我的导航”分类下的网站卡片即可排序。
+*   **完成编辑**: 再次点击【完成】按钮退出编辑模式。
+*   **切换数据源**: 在侧边栏底部的“数据源”下拉菜单中，选择你想要使用的网站数据。注意：切换数据源会清空并覆盖你当前在“我的导航”中自定义的所有网站和排序。
 
-Simply open `index.html` in your browser to start using it.
-*   **Add a Site**: Click the "Add" (新增) button on the right of the "My Navigation" (我的导航) category.
-*   **Edit/Delete a Site**: Click the "Edit" (编辑) button to enter edit mode. Then, click any site card to edit or delete it.
-*   **Sort Sites**: In edit mode, simply drag and drop the site cards within the "My Navigation" category to reorder them.
-*   **Finish Editing**: Click the "Done" (完成) button to exit edit mode.
-*   **Switch Data Source**: In the "Data Source" dropdown at the bottom of the sidebar, select the site data you want to use. Note: Switching the data source will clear and overwrite all your custom sites and their order in the "My Navigation" category.
+### 5. 部署
 
-### 5. Deploy
+将整个项目文件夹（包括所有的 `.html`, `.css`, `.js` 和 `.json` 文件）上传到任何支持静态文件的 Web 服务器或托管平台即可。
 
-Upload the entire project folder (including all `.html`, `.css`, `.js`, and `.json` files) to any web server or hosting platform that supports static files.
-
-*   **GitHub Pages**: Push the code to your GitHub repository and enable the Pages feature in the repository settings.
-*   **Vercel/Netlify**: Link your GitHub repository directly, and the platform will handle the deployment automatically.
-*   **Cloud Server**: Use a web server like Nginx or Apache and point the root directory to the project folder.
+*   **GitHub Pages**: 将代码推送到你的 GitHub 仓库，并在仓库设置中开启 Pages 功能。
+*   **Vercel/Netlify**: 直接关联你的 GitHub 仓库，平台会自动完成部署。
+*   **云服务器**: 使用 Nginx 或 Apache 等 Web 服务器，将根目录指向项目文件夹。
 
 
-## 🔧 Dependencies and Acknowledgements
+## 🔧 依赖与致谢
 
-*   This project is implemented in pure native JavaScript, with no external framework dependencies.
-*   The search suggestion feature is implemented by dynamically loading data from the [Baidu Suggestion API](https://www.baidu.com/s?wd=).
-*   The interface design is from[onenav](https://github.com/helloxz/onenav).
-*   The raw Pinyin data is sourced from [pinyin-data](https://github.com/mozillazg/pinyin-data).
-*   `资源船舱.json` is from [学习资源船舱](https://link3.cc/studyship).
-*   `大数据.json` is from [大数据](hao.199it.com)
-*   Thanks to **哆啦A梦的神奇口袋** for their organization and sharing!
-*   Thanks to **小帅同学** for their organization and sharing!
-*   Thanks to **懒人找资源** for their organization and sharing!
-*   Thanks to **薛信的资料室** for their organization and sharing!
-*   Thanks to **资源公社&语雀分享** for their organization and sharing!
-*   Thanks to **资源汇社区资源库** for their organization and sharing!
-*   Thanks to **金榜题名** for their organization and sharing!
-*   Thanks to **阿虚同学** for their organization and sharing!
-*   Thanks to **阿虚软件库** for their organization and sharing!
-*   Thanks to **陈蛋蛋的宝藏库** for their organization and sharing!
-*   Thanks to **鱼果天晴的资源库** for their organization and sharing
+*   本项目为纯原生 JavaScript 实现，无任何外部框架依赖。
+*   搜索建议功能通过动态加载[百度 Suggestion API](https://www.baidu.com/s?wd=) 实现。
+*   界面设计来自[onenav](https://github.com/helloxz/onenav)
+*   拼音数据来自[pinyin-data](https://github.com/mozillazg/pinyin-data)
+*   `资源船舱.json`来自[学习资源船舱](https://link3.cc/studyship)
+*   `大数据.json`来自[大数据](hao.199it.com)
+*   感谢 **哆啦A梦的神奇口袋** 的整理与分享！
+*   感谢 **小帅同学** 的整理与分享！
+*   感谢 **懒人找资源** 的整理与分享！
+*   感谢 **薛信的资料室** 的整理与分享！
+*   感谢 **资源公社&语雀分享** 的整理与分享！
+*   感谢 **资源汇社区资源库** 的整理与分享！
+*   感谢 **金榜题名** 的整理与分享！
+*   感谢 **阿虚同学** 的整理与分享！
+*   感谢 **阿虚软件库** 的整理与分享！
+*   感谢 **陈蛋蛋的宝藏库** 的整理与分享！
+*   感谢 **鱼果天晴的资源库** 的整理与分享！
