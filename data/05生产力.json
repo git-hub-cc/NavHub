@@ -121,7 +121,7 @@
           "url": "https://freegpt.tech/",
           "icon": "img/3cb541d6e3e1233ad096da9d0c950765.webp",
           "desc": "👍提供免费的GPT模型访问服务。",
-          "proxy": false
+          "proxy": true
         },
         {
           "title": "Google Gemini",
@@ -142,14 +142,14 @@
           "url": "https://gptchinese.com/",
           "icon": "https://gptchinese.com/favicon.ico",
           "desc": "提供中文界面访问GPT模型。",
-          "proxy": false
+          "proxy": true
         },
         {
           "title": "Heck",
           "url": "https://heck.ai/",
           "icon": "img/22388152126aad1dd7d1557afdb55f57.webp",
           "desc": "免费的AI聊天机器人聚合平台。",
-          "proxy": false
+          "proxy": true
         },
         {
           "title": "AIchatOS",
@@ -163,21 +163,21 @@
           "url": "https://ai27.gptforlove.com/",
           "icon": "data:image/svg+xml;base64,PHN2ZyBpZD0ib3BlbmFpLXN5bWJvbCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB2aWV3Qm94PSIwIDAgMzIgMzIiPjxwYXRoIGQ9Ik0yOS43MSwxMy4wOUE4LjA5LDguMDksMCwwLDAsMjAuMzQsMi42OGE4LjA4LDguMDgsMCwwLDAtMTMuNywyLjlBOC4wOCw4LjA4LDAsMCwwLDIuMywxOC45LDgsOCwwLDAsMCwzLDI1LjQ1YTguMDgsOC4wOCwwLDAsMCw4LjY5LDMuODcsOCw4LDAsMCwwLDYsMi42OCw4LjA5LDguMDksMCwwLDAsNy43LTUuNjEsOCw4LDAsMCwwLDUuMzMtMy44NkE4LjA5LDguMDksMCwwLDAsMjkuNzEsMTMuMDlabS0xMiwxNi44MmE2LDYsMCwwLDEtMy44NC0xLjM5bC4xOS0uMTEsNi4zNy0zLjY4YTEsMSwwLDAsMCwuNTMtLjkxdi05bDIuNjksMS41NmEuMDguMDgsMCwwLDEsLjA1LjA3djcuNDRBNiw2LDAsMCwxLDE3LjY4LDI5LjkxWk00LjgsMjQuNDFhNiw2LDAsMCwxLS43MS00bC4xOS4xMSw2LjM3LDMuNjhhMSwxLDAsMCwwLDEsMGw3Ljc5LTQuNDlWMjIuOGEuMDkuMDksMCwwLDEsMCwuMDhMMTMsMjYuNkE2LDYsMCwwLDEsNC44LDI0LjQxWk0zLjEyLDEwLjUzQTYsNiwwLDAsMSw2LjI4LDcuOXY3LjU3YTEsMSwwLDAsMCwuNTEuOWw3Ljc1LDQuNDdMMTEuODUsMjIuNGEuMTQuMTQsMCwwLDEtLjA5LDBMNS4zMiwxOC42OGE2LDYsMCwwLDEtMi4yLTguMThabTIyLjEzLDUuMTQtNy43OC00LjUyTDIwLjE2LDkuNmEuMDguMDgsMCwwLDEsLjA5LDBsNi40NCwzLjcyYTYsNiwwLDAsMS0uOSwxMC44MVYxNi41NkExLjA2LDEuMDYsMCwwLDAsMjUuMjUsMTUuNjdabTIuNjgtNC0uMTktLjEyLTYuMzYtMy43YTEsMSwwLDAsMC0xLjA1LDBsLTcuNzgsNC40OVY5LjJhLjA5LjA5LDAsMCwxLDAtLjA5TDE5LDUuNGE2LDYsMCwwLDEsOC45MSw2LjIxWk0xMS4wOCwxNy4xNSw4LjM4LDE1LjZhLjE0LjE0LDAsMCwxLS4wNS0uMDhWOC4xYTYsNiwwLDAsMSw5Ljg0LTQuNjFMMTgsMy42LDExLjYxLDcuMjhhMSwxLDAsMCwwLS41My45MVpNMTIuNTQsMTQsMTYsMTJsMy40NywydjRMMTYsMjBsLTMuNDctMloiLz48L3N2Zz4=",
           "desc": "免费提供GPT服务的公益网站。",
-          "proxy": false
+          "proxy": true
         },
         {
           "title": "Wrtn",
           "url": "https://wrtn.ai/",
           "icon": "img/88fa77f854a744cd593e31ff4bcf8b1e.webp",
           "desc": "韩国的AI写作和创作平台。",
-          "proxy": false
+          "proxy": true
         },
         {
           "title": "PizzaGPT",
           "url": "https://www.pizzagpt.it/",
           "icon": "img/cc7777de71317456b2c673983167f814.webp",
           "desc": "一个意大利的免费GPT访问网站。",
-          "proxy": false
+          "proxy": true
         }
       ]
     },
@@ -497,7 +497,7 @@
           "url": "https://arthub.ai/",
           "icon": "img/e1d6138a99b705831d7a6f5ad6510dbf.webp",
           "desc": "AI艺术作品和模型分享社区。",
-          "proxy": false
+          "proxy": true
         },
         {
           "title": "无涯问知",
@@ -525,7 +525,7 @@
           "url": "https://prompthero.com/",
           "icon": "img/da30fbb85d73badb49414c411bd727af.webp",
           "desc": "AI绘画作品和提示词（Prompt）搜索引擎。",
-          "proxy": false
+          "proxy": true
         },
         {
           "title": "AI EDU",
@@ -546,7 +546,7 @@
           "url": "https://openart.ai/discovery",
           "icon": "img/0c2773f6af92b3589208eda8d430a67a.webp",
           "desc": "AI艺术作品和提示词（Prompt）探索平台。",
-          "proxy": false
+          "proxy": true
         },
         {
           "title": "NovelAI魔导书",
@@ -657,7 +657,7 @@
           "url": "https://www.v2ex.com/",
           "icon": "img/490d1febdb6cec70a8607a1abcb44d6f.webp",
           "desc": "创意工作者们的社区。",
-          "proxy": false
+          "proxy": true
         },
         {
           "title": "GitHub Copilot",
@@ -796,7 +796,7 @@
           "url": "https://www.mvyxws.cn",
           "icon": "img/6d68ea4976bf3a3346d27f44911ed718.webp",
           "desc": "用视频方式普及医学知识的科普平台。",
-          "proxy": false
+          "proxy": true
         },
         {
           "title": "尚硅谷Java学科全套教程",
@@ -1484,7 +1484,7 @@
           "url": "https://www.xiaolipan.com/index.html",
           "icon": "img/f8f55af26500d56b89942694a3444041.webp",
           "desc": "🥈一个专注于电子书资源的网盘搜索引擎。",
-          "proxy": false
+          "proxy": true
         },
         {
           "title": "书葵网",
@@ -1575,7 +1575,7 @@
           "url": "https://www.17dushu.cn/",
           "icon": "https://www.17dushu.cn/favicon.ico",
           "desc": "🥈电子书资源分享博客。",
-          "proxy": false
+          "proxy": true
         },
         {
           "title": "知轩藏书",
@@ -1617,7 +1617,7 @@
           "url": "https://zxcs.dmnb.cf/",
           "icon": "img/2ed2a79a8c2bd45629c4bb58ef40677d.webp",
           "desc": "知轩藏书的镜像站，解决原站访问问题。",
-          "proxy": false
+          "proxy": true
         },
         {
           "title": "SaltyLeo 的书架",
@@ -1673,7 +1673,7 @@
           "url": "https://www.lightnovel.us/",
           "icon": "https://www.lightnovel.us/favicon.ico",
           "desc": "老牌轻小说论坛和在线阅读网站。",
-          "proxy": false
+          "proxy": true
         },
         {
           "title": "笔趣阁",

@@ -23,7 +23,7 @@
           "url": "https://www.dalipan.com/",
           "icon": "img/ea26a61c443e238d04f7ace1f94cbbe1.webp",
           "desc": "简洁高效的百度网盘资源搜索引擎。",
-          "proxy": false
+          "proxy": true
         },
         {
           "title": "阿里盘搜",
@@ -37,7 +37,7 @@
           "url": "https://www.chaonengso.com/",
           "icon": "img/14c885ceabc0b1a2aa6e3bae21ef5226.webp",
           "desc": "网盘搜索引擎合集。",
-          "proxy": false
+          "proxy": true
         },
         {
           "title": "大圣盘",
@@ -51,7 +51,7 @@
           "url": "https://www.pansearch.me/",
           "icon": "img/25f213a0787a9446414604f1a310cc06.webp",
           "desc": "聚合多个网盘的搜索引擎，快速查找全网资源。",
-          "proxy": false
+          "proxy": true
         },
         {
           "title": "优聚搜",
@@ -107,7 +107,7 @@
           "url": "https://www.niceso.net/",
           "icon": "img/46095db15f19dc7e9f8b5554ee706df8.webp",
           "desc": "速度快，1000万数据资源，含有海量影视资源",
-          "proxy": false
+          "proxy": true
         },
         {
           "title": "电影狗",
@@ -155,7 +155,7 @@
           "url": "https://piratebayproxy.info/",
           "icon": "img/b407e86e0a33574c3079d83fe36e1da6.webp",
           "desc": "海盗湾（The Pirate Bay）的代理地址发布页。",
-          "proxy": false
+          "proxy": true
         },
         {
           "title": "RARBG备份镜像",
@@ -190,7 +190,7 @@
           "url": "https://cldi.top/",
           "icon": "https://cldi.top/favicon.ico",
           "desc": "磁力搜索引擎地址发布页。",
-          "proxy": false
+          "proxy": true
         },
         {
           "title": "BT虎牙",
@@ -203,7 +203,7 @@
           "title": "磁力巴士",
           "url": "https://www.bvbus.com/",
           "desc": "一个磁力链接搜索和分享网站。",
-          "proxy": false
+          "proxy": true
         },
         {
           "title": "The Pirate Bay (海盗湾)",
@@ -252,14 +252,14 @@
           "url": "https://cursor.vip/vip",
           "icon": "https://cursor.vip/favicon.ico",
           "desc": "磁力搜索引擎地址发布页。",
-          "proxy": false
+          "proxy": true
         },
         {
           "title": "Yiove 磁力搜索",
           "url": "https://bt.iaaaaa.com/",
           "icon": "img/9ebf0edf615e63200d421bf47ebeb197.webp",
           "desc": "界面干净的磁力搜索引擎。",
-          "proxy": false
+          "proxy": true
         },
         {
           "title": "磁力猫",
@@ -674,7 +674,7 @@
           "url": "https://typora.io/",
           "icon": "img/46202f2dfe4c80ed6043a81730bdc3ef.webp",
           "desc": "一款所见即所得的极简 Markdown 编辑器，提供无缝的写作体验。",
-          "proxy": false
+          "proxy": true
         },
         {
           "title": "Bitwarden",
@@ -1236,7 +1236,7 @@
           "url": "https://transmissionbt.com/download/",
           "icon": "img/00dfa29d1170da19977f88945df23885.webp",
           "desc": "一款快速、简单、免费的BT下载客户端。",
-          "proxy": false
+          "proxy": true
         },
         {
           "title": "ytdlp-interface",
@@ -1306,7 +1306,7 @@
           "url": "https://one.one.one.one/",
           "icon": "img/7ec3b35e645de5ae233e3df22f8121da.webp",
           "desc": "Cloudflare推出的免费网络流量加密与加速服务，保护隐私，提升网络访问速度和安全性。",
-          "proxy": false
+          "proxy": true
         },
         {
           "title": "广告屏蔽",
@@ -1355,7 +1355,7 @@
           "url": "https://my.sonicbit.net/register",
           "icon": "img/3da826a69c97953cee6f22cf98dbe5a6.webp",
           "desc": "国外离线下载服务，免费4G空间。",
-          "proxy": false
+          "proxy": true
         },
         {
           "title": "Stacher",
@@ -1410,7 +1410,7 @@
           "url": "https://dmesg.app/redirect.html",
           "icon": "img/ad3a8ac997cc66a5cf86e04d206a45dd.webp",
           "desc": "知名影视字幕组，提供海量美剧、电影等资源下载。",
-          "proxy": false
+          "proxy": true
         },
         {
           "title": "CHAOSPACE高清无水印",
@@ -1431,14 +1431,14 @@
           "url": "https://loli.magedn.com/",
           "icon": "data:image/vnd.microsoft.icon;base64,PCFkb2N0eXBlIGh0bWw+CjxodG1sIGRhdGEtYWRibG9ja2tleT0iTUZ3d0RRWUpLb1pJaHZjTkFRRUJCUUFEU3dBd1NBSkJBTkRycDJsejdBT21BRGFOOHRBNTBMc1djakxGeVFGY2IvUDJUeGM1OG9ZT2VJTGIzdkJ3N0o2ZjRwYW1rQVFWU1F1cVlzS3gzWXpkVUhDdmJWWnZGVXNDQXdFQUFRPT1fbXFxY3VzWnYxVUJBcCtQOC9IZHEyRHlPRGpqeEhJMjc2alVoamFOQXlTckZTNmVZNlZZbWZadXZqVUorVFNCRXk5bkVDMk5SNkIxai9xSVUyRnNOc3c9PSIgbGFuZz0iZW4iIHN0eWxlPSJiYWNrZ3JvdW5kOiAjMkIyQjJCOyI+CjxoZWFkPgogICAgPG1ldGEgY2hhcnNldD0idXRmLTgiPgogICAgPG1ldGEgbmFtZT0idmlld3BvcnQiIGNvbnRlbnQ9IndpZHRoPWRldmljZS13aWR0aCwgaW5pdGlhbC1zY2FsZT0xIj4KICAgIDxsaW5rIHJlbD0iaWNvbiIgaHJlZj0iZGF0YTppbWFnZS9wbmc7YmFzZTY0LGlWQk9SdzBLR2dvQUFBQU5TVWhFVWdBQUFBRUFBQUFCQ0FJQUFBQ1FkMVBlQUFBQURFbEVRVlFJMTJQNC8vOC9BQVgrQXY3Y3pGbm5BQUFBQUVsRlRrU3VRbUNDIj4KICAgIDxsaW5rIHJlbD0icHJlY29ubmVjdCIgaHJlZj0iaHR0cHM6Ly93d3cuZ29vZ2xlLmNvbSIgY3Jvc3NvcmlnaW4+CjwvaGVhZD4KPGJvZHk+CjxkaXYgaWQ9InRhcmdldCIgc3R5bGU9Im9wYWNpdHk6IDAiPjwvZGl2Pgo8c2NyaXB0PndpbmRvdy5wYXJrID0gImV5SjFkV2xrSWpvaU9EbGxaamxtTURjdFptUmxZeTAwTTJGbExXSmlabUl0WXpVNU1USTBaVFppWTJFMElpd2ljR0ZuWlY5MGFXMWxJam94TnpZMU1Ua3pOekUzTENKd1lXZGxYM1Z5YkNJNkltaDBkSEJ6T2k4dmJHOXNhUzV0WVdkbFpHNHVZMjl0TDJaaGRtbGpiMjR1YVdOdklpd2ljR0ZuWlY5dFpYUm9iMlFpT2lKSFJWUWlMQ0p3WVdkbFgzSmxjWFZsYzNRaU9udDlMQ0p3WVdkbFgyaGxZV1JsY25NaU9udDlMQ0pvYjNOMElqb2liRzlzYVM1dFlXZGxaRzR1WTI5dElpd2lhWEFpT2lJeE5qQXVNalV3TGpFek1pNDNNaUo5Q2c9PSI7PC9zY3JpcHQ+CjxzY3JpcHQgc3JjPSIvYkNTTHJvTVloLmpzIj48L3NjcmlwdD4KPC9ib2R5Pgo8L2h0bWw+Cg==",
           "desc": "蓝光磁力(IDM)，提供高清影视资源的磁力链接。",
-          "proxy": false
+          "proxy": true
         },
         {
           "title": "人人影视下载分享",
           "url": "https://dmesg.app/redirect.html",
           "icon": "img/ad3a8ac997cc66a5cf86e04d206a45dd.webp",
           "desc": "人人影视资源备份站，提供磁力/ed2k/网盘链接。",
-          "proxy": false
+          "proxy": true
         },
         {
           "title": "搜番",
@@ -1452,13 +1452,13 @@
           "url": "https://www.hkanime.com",
           "icon": "img/991605d2834d2e358b2d84495bd8f3b1.webp",
           "desc": "提供粤语版动画片在线观看。",
-          "proxy": false
+          "proxy": true
         },
         {
           "title": "人人电影网",
           "url": "https://www.rrdyw.cc/",
           "desc": "迅雷云盘、115、百度网盘",
-          "proxy": false
+          "proxy": true
         },
         {
           "title": "漫不同日漫下载",
@@ -1497,7 +1497,7 @@
           "url": "https://acg.rip/",
           "desc": "一个提供动漫资源BT下载的网站。",
           "icon": "img/9bb362d505dce0e45828ac53b48790e5.webp",
-          "proxy": false
+          "proxy": true
         }
       ]
     },
@@ -1531,14 +1531,14 @@
           "url": "https://mhx12.com/",
           "icon": "img/bed8f5747434b9910defba61d306901e.webp",
           "desc": "👍高质量在线漫画阅读网站。",
-          "proxy": false
+          "proxy": true
         },
         {
           "title": "G站漫画",
           "url": "https://godamh.com/",
           "icon": "img/cd6000af4281a475e733d2c309a9dd58.webp",
           "desc": "各国漫画在线观看，资源丰富。",
-          "proxy": false
+          "proxy": true
         },
         {
           "title": "漫猫动漫BT下载 - 漫画",
@@ -1552,7 +1552,7 @@
           "url": "https://books.andrewjr.workers.dev/0:/",
           "icon": "data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22%3E%3Ctext y=%22.9em%22 font-size=%2290%22%3E🌐%3C/text%3E%3C/svg%3E",
           "desc": "界面简洁的电子书网盘，资源质量高。👍👍👍",
-          "proxy": false
+          "proxy": true
         },
         {
           "title": "爱恋动漫BT下载－漫画",
@@ -1587,7 +1587,7 @@
           "url": "https://www.soman.com/",
           "icon": "img/459b63f2fae0a25f8c301def4916834c.webp",
           "desc": "通用漫画搜索引擎。👍",
-          "proxy": false
+          "proxy": true
         },
         {
           "title": "漫画160",
@@ -1801,7 +1801,7 @@
           "url": "https://duckduckgo.com/",
           "icon": "img/0a362a1a0cf4cc6bc56d65db8049dd6f.webp",
           "desc": "一个注重隐私保护，不会追踪用户搜索记录的搜索引擎。",
-          "proxy": false
+          "proxy": true
         },
         {
           "title": "谷歌识图",
@@ -1850,7 +1850,7 @@
           "url": "https://searx.space/",
           "icon": "img/196b7498f2161684313732ba5b779881.webp",
           "desc": "一个聚合多个搜索引擎结果的元搜索引擎，这里是其公开实例的列表。",
-          "proxy": false
+          "proxy": true
         },
         {
           "title": "谷歌识图",
@@ -1864,7 +1864,7 @@
           "url": "https://www.quodb.com/",
           "icon": "img/e141f60434b787a17f829abc53cfa330.webp",
           "desc": "通过台词搜索电影、电视剧片段的英文网站。",
-          "proxy": false
+          "proxy": true
         },
         {
           "title": "Bing",
@@ -1906,7 +1906,7 @@
           "url": "https://www.quodb.com/",
           "icon": "img/e141f60434b787a17f829abc53cfa330.webp",
           "desc": "通过台词搜索电影、电视剧片段的英文网站。",
-          "proxy": false
+          "proxy": true
         },
         {
           "title": "TinEye",

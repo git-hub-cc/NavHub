@@ -513,7 +513,7 @@
           "url": "https://10minutemail.net/",
           "icon": "img/f880b6a58e4a430e1e131c8850f1dbf1.webp",
           "desc": "提供一个10分钟后即自动销毁的临时邮箱，用于注册和接收邮件。",
-          "proxy": false
+          "proxy": true
         },
         {
           "title": "Receive SMS",
@@ -562,7 +562,7 @@
           "url": "https://www.linshiyouxiang.net/",
           "icon": "https://www.linshiyouxiang.net/favicon.ico",
           "desc": "提供临时、匿名的电子邮箱地址，用于接收邮件和保护隐私。",
-          "proxy": false
+          "proxy": true
         },
         {
           "title": "Guerrilla Mail",
@@ -789,7 +789,7 @@
           "url": "https://dos.zczc.cz/",
           "icon": "img/c2efd64a05b474cfc2484a7ddb4654e5.webp",
           "desc": "一个可以在线游玩经典DOS游戏的网站。",
-          "proxy": false
+          "proxy": true
         },
         {
           "title": "狗屁不通文章生成器",
@@ -824,7 +824,7 @@
           "url": "https://dccxi.com/trust/",
           "icon": "img/b68c7692802c1beec4e0ca4458645855.webp",
           "desc": "一个解释博弈论中信任如何运作的互动小游戏。",
-          "proxy": false
+          "proxy": true
         },
         {
           "title": "FUUN.FUN",

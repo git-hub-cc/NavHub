@@ -378,7 +378,7 @@
           "url": "https://www.stickpng.com/",
           "icon": "img/ce096bcd3c9c3c96bc9c232941f00c71.webp",
           "desc": "提供海量PNG透明背景图片素材。",
-          "proxy": false
+          "proxy": true
         },
         {
           "title": "原创保护",
@@ -399,7 +399,7 @@
           "url": "https://undraw.co/illustrations",
           "icon": "img/63960fcaaa95b2acb08bc5cd13517e0d.webp",
           "desc": "可免费商用、可在线修改颜色的扁平化插画图库。",
-          "proxy": false
+          "proxy": true
         },
         {
           "title": "米画师",
@@ -593,7 +593,7 @@
           "url": "https://wallhaven.cc/",
           "desc": "著名的壁纸网站Wallhaven，提供海量高质量壁纸。",
           "icon": "img/a6939d06dc364a3a2df726d601e96ae7.webp",
-          "proxy": false
+          "proxy": true
         },
         {
           "title": "360°全景航拍及高清全景图、全景视频拍摄",
@@ -656,7 +656,7 @@
           "url": "https://simpledesktops.com/browse/",
           "icon": "img/74b9b63ccfbefc58c3e22418bde18506.webp",
           "desc": "提供极简主义风格的桌面壁纸。",
-          "proxy": false
+          "proxy": true
         }
       ]
     },
@@ -996,7 +996,7 @@
           "url": "https://www.yugaopian.cn/",
           "desc": "汇集国内外最新电影预告片的网站。",
           "icon": "img/f1dd281b5a773c04d135f5bd92d50ef7.webp",
-          "proxy": false
+          "proxy": true
         }
       ]
     },
@@ -1030,7 +1030,7 @@
           "url": "https://gelbooru.com/",
           "desc": "英文二次元图片搜索引擎",
           "icon": "img/54e8756291af899042f652328c1e0a81.webp",
-          "proxy": false
+          "proxy": true
         },
         {
           "title": "猫漫动漫BT下载",
@@ -1044,14 +1044,14 @@
           "url": "https://subs.kamigami.org/",
           "desc": "知名的动漫字幕组，提供高质量的动漫字幕和熟肉资源。",
           "icon": "img/0335f92d99a5e3cd828428591222e0c1.webp",
-          "proxy": false
+          "proxy": true
         },
         {
           "title": "爱恋动漫",
           "url": "https://www.kisssub.org/public/html/start/",
           "icon": "https://www.kisssub.org/favicon.ico",
           "desc": "动漫BT下载站和字幕组论坛。",
-          "proxy": false
+          "proxy": true
         },
         {
           "title": "简单动漫",
@@ -1072,14 +1072,14 @@
           "url": "https://www.miobt.com/public/html/start/",
           "icon": "https://www.miobt.com/favicon.ico",
           "desc": "动漫BT下载资源站。",
-          "proxy": false
+          "proxy": true
         },
         {
           "title": "Konachan",
           "url": "https://konachan.net/post/show/327058/akai_sashimi-animal-animal_ears-black_eyes-black_h",
           "desc": "英文二次元壁纸站",
           "icon": "img/4d5a20267ef8f2444205d10ccdffb4ce.webp",
-          "proxy": false
+          "proxy": true
         },
         {
           "title": "动漫图片和壁纸",
@@ -1433,7 +1433,7 @@
           "url": "https://greasyfork.org/zh-CN",
           "icon": "img/f6a78521c62eb84df1ac9322fc460ead.webp",
           "desc": "最受欢迎的油猴脚本资源库。",
-          "proxy": false
+          "proxy": true
         },
         {
           "title": "GitHub加速",
@@ -1475,7 +1475,7 @@
           "url": "https://greasyfork.org/en/scripts/329484-%E8%B1%86%E7%93%A3%E8%B5%84%E6%BA%90%E4%B8%8B%E8%BD%BD%E5%A4%A7%E5%B8%88-1%E7%A7%92%E6%90%9E%E5%AE%9A%E8%B1%86%E7%93%A3%E7%94%B5%E5%BD%B1-%E9%9F%B3%E4%B9%90-%E5%9B%BE%E4%B9%A6%E4%B8%8B%E8%BD%BD",
           "icon": "img/f6a78521c62eb84df1ac9322fc460ead.webp",
           "desc": "油猴脚本，快速查找豆瓣电影、音乐、图书的下载资源。",
-          "proxy": false
+          "proxy": true
         },
         {
           "title": "Tampermonkey",
@@ -1489,7 +1489,7 @@
           "url": "https://greasyfork.org/zh-CN/scripts/423898-%E5%A4%A9%E7%BF%BC%E4%BA%91%E7%9B%98%E8%B7%B3%E8%BF%87%E5%AE%A2%E6%88%B7%E7%AB%AF%E4%B8%8B%E8%BD%BD%E6%96%87%E4%BB%B6",
           "icon": "img/f6a78521c62eb84df1ac9322fc460ead.webp",
           "desc": "油猴脚本，可以直接下载天翼云盘的文件，无需安装客户端。",
-          "proxy": false
+          "proxy": true
         },
         {
           "title": "图片去重",
@@ -1579,7 +1579,7 @@
           "url": "https://zh.wikipedia.org/zh-cn/",
           "icon": "img/904ce6bd2ef5e1eaa6de1eb02164436b.webp",
           "desc": "全球性的多语言网络百科全书，内容由志愿者共同编辑。",
-          "proxy": false
+          "proxy": true
         },
         {
           "title": "中国哲学书电子化计划",

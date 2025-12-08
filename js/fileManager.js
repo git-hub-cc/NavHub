@@ -202,12 +202,29 @@ export async function handleDeleteSource() {
  * @returns {string} - 生成的ID。
  */
 function generateCategoryId(name) {
-    if (!name || !name.trim()) return `category-${Date.now()}`;
+    // 生成一个简短的唯一后缀 (基于时间戳和随机数)，以确保ID的唯一性
+    const uniqueSuffix = Date.now().toString(36) + Math.random().toString(36).substring(2, 7);
+
+    if (!name || !name.trim()) {
+        return `category-untitled-${uniqueSuffix}`;
+    }
     // 依赖全局的 pinyinManager
     let pinyinName = pinyinManager.convert(name).full;
-    let categoryId = pinyinName.toLowerCase().replace(/\s+/g, '-').replace(/[^a-z0-9-]/g, '');
-    return categoryId || `category-${Date.now()}`;
+    // 将拼音转换为对URL友好的基础ID
+    let baseId = pinyinName
+        .toLowerCase()
+        .replace(/\s+/g, '-') // 将空格替换为连字符
+        .replace(/[^a-z0-9-]/g, ''); // 移除非字母、数字、连字符的字符
+
+    // 防止处理后 baseId 为空
+    if (!baseId) {
+        baseId = 'category';
+    }
+
+    // 截断过长的ID并拼接唯一后缀，以保持ID的可管理性
+    return `${baseId.substring(0, 50)}-${uniqueSuffix}`;
 }
+
 
 /**
  * 将HTML字符串转换为DOM节点列表。
@@ -317,19 +334,36 @@ function transformToNavFormat(sourceJson) {
     }
 
     const topLevelItems = processDlNode(sourceJson);
-    const rootCategory = { categoryName: "书签栏", categoryId: "bookmarks-bar", sites: [] };
+    const topLevelSites = [];
     const otherCategories = [];
 
+    // 分离顶层书签和文件夹
     topLevelItems.forEach(item => {
-        if (item.url) rootCategory.sites.push(item);
-        else otherCategories.push(item);
+        if (item.url) { // 是一个网站
+            topLevelSites.push(item);
+        } else if (item.categoryName) { // 是一个分类(文件夹)
+            otherCategories.push(item);
+        }
     });
 
-    const finalCategories = [];
-    if (rootCategory.sites.length > 0) finalCategories.push(rootCategory);
-    finalCategories.push(...otherCategories);
-    return { categories: finalCategories };
+    // 为了避免数据丢失，智能地处理顶层书签
+    if (topLevelSites.length > 0) {
+        if (otherCategories.length > 0) {
+            // 如果存在其他文件夹，则将顶层书签合并到第一个文件夹中
+            otherCategories[0].sites.unshift(...topLevelSites);
+        } else {
+            // 如果只有顶层书签，则为它们创建一个新的分类
+            otherCategories.push({
+                categoryName: '导入的书签',
+                categoryId: generateCategoryId('导入的书签'),
+                sites: topLevelSites
+            });
+        }
+    }
+
+    return { categories: otherCategories };
 }
+
 
 /**
  * 将嵌套的分类结构展平为单层分类列表。

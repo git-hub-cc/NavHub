@@ -13,11 +13,12 @@
 
     <!-- 引入 RemixIcon 图标库 (提升视觉体验) -->
     <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
+    <link rel="icon" href="favicon.svg" type="image/svg+xml">
 
     <!-- 引入样式 -->
     <link rel="stylesheet" href="style.css">
 
-    <!-- 主题初始化脚本 -->
+    <!-- 主题初始化脚本 (防止页面闪烁) -->
     <script>
         (function() {
             try {
@@ -61,7 +62,7 @@
         <!-- 侧边栏头部 -->
         <div class="sidebar-header">
             <div class="logo">
-                <i class="ri-compass-3-line"></i> NavHub
+                <img src="favicon.svg" alt="NavHub Logo" width="48" height="48"> NavHub
             </div>
         </div>
 
@@ -100,6 +101,7 @@
                 <button id="delete-source-btn" class="icon-btn-text danger" title="删除当前源">
                     <i class="ri-delete-bin-line"></i> <span>删除</span>
                 </button>
+                <!-- 隐藏的文件输入框 -->
                 <input type="file" id="import-file-input" accept=".json,.html" style="display: none;">
             </div>
 
@@ -231,8 +233,16 @@
             <button class="close-modal-btn" id="cancel-btn"><i class="ri-close-line"></i></button>
         </div>
         <form id="site-form" class="modal-form">
+            <!-- 隐藏字段：用于存储当前网站ID（编辑模式） -->
             <input type="hidden" id="site-id">
+            <!-- 隐藏字段：用于记住当前操作的目标分类ID -->
             <input type="hidden" id="category-id">
+
+            <!-- 【新增】只读字段：显示分类名称，让用户明确知道归档位置 -->
+            <div class="form-item">
+                <label for="site-category-name">所属分类</label>
+                <input type="text" id="site-category-name" disabled style="background-color: var(--bg-base); opacity: 0.7; cursor: not-allowed; color: var(--text-primary);">
+            </div>
 
             <div class="form-item">
                 <label for="site-url">网址</label>

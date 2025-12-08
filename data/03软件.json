@@ -192,7 +192,7 @@
           "icon": "img/d4b7557dc08ee86a49060415550c273a.webp",
           "desc": "俄罗斯著名的软件“重新包装”网站，提供大量绿色便携版软件。",
           "proxy": true
-        },
+        }
       ]
     },
     {
@@ -718,7 +718,7 @@
           "url": "https://potplayer.daum.net/",
           "icon": "img/a5a7af20eb9f4b0bb38e467222c56200.webp",
           "desc": "功能强大的全能影音播放器。",
-          "proxy": false
+          "proxy": true
         },
         {
           "title": "VidJuice UniTube",
@@ -3750,7 +3750,7 @@
           "url": "https://jingzhunyun.com/",
           "icon": "img/ce99ba4de4d54e2d09a3615caafa9f19.webp",
           "desc": "好用的在线工具集合",
-          "proxy": false
+          "proxy": true
         },
         {
           "title": "动态二维码（部分已失效，待更新）",

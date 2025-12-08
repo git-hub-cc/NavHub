@@ -1,0 +1,13 @@
+<svg width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <style>
+        .bg { fill: url(#logo-gradient-3); } .grad-stop-1 { stop-color: #007ACC; } .grad-stop-2 { stop-color: #009688; } .bubble { fill: white; fill-opacity: 0.9; } .dot-1 { fill: #007ACC; } .dot-2 { fill: #009688; }
+        @media (prefers-color-scheme: dark) { .bg { fill: transparent; } .grad-stop-1, .grad-stop-2 { stop-color: transparent; } .bubble { fill: #D1D5DB; fill-opacity: 1; } .dot-1, .dot-2 { fill: #4B5563; } }
+    </style>
+    <defs><linearGradient id="logo-gradient-3" x1="0" y1="0" x2="64" y2="64" gradientUnits="userSpaceOnUse"><stop class="grad-stop-1"></stop><stop offset="1" class="grad-stop-2"></stop></linearGradient></defs>
+    <rect width="64" height="64" rx="12" class="bg"></rect>
+    <path d="M28 42 C30 50 34 50 36 42 C34 44 30 44 28 42 Z" class="dot-2"></path>
+    <path d="M32 16 C42 24 42 36 32 44 C22 36 22 24 32 16 Z" class="bubble"></path>
+    <path d="M26 36 L18 44 L24 39 Z" class="bubble"></path>
+    <path d="M38 36 L46 44 L40 39 Z" class="bubble"></path>
+    <circle cx="32" cy="28" r="4" class="dot-1"></circle>
+</svg>

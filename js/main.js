@@ -103,23 +103,35 @@ function setupStaticEventListeners() {
 
 function setupDynamicEventListeners() {
     dom.contentWrapper.addEventListener('click', e => {
-        const addSiteBtn = e.target.closest('#add-site-btn');
+        // 使用 class 选择器捕获新增按钮
+        const addSiteBtn = e.target.closest('.add-site-btn');
         const editSiteBtn = e.target.closest('#edit-site-btn');
         const deleteSiteBtn = e.target.closest('#delete-site-btn');
         const card = e.target.closest('.card');
 
+        // 1. 点击“新增”按钮
         if (addSiteBtn) {
-            openSiteModal('add', null, addSiteBtn.dataset.categoryId);
+            const categoryId = addSiteBtn.dataset.categoryId;
+            // 【关键修改】同时获取分类名称，避免 ID 重复导致显示错误
+            const categoryName = addSiteBtn.dataset.categoryName;
+            // 传入 categoryName 作为第四个参数
+            openSiteModal('add', null, categoryId, categoryName);
             return;
         }
+
+        // 2. 点击分类标题栏的“编辑”按钮
         if (editSiteBtn) {
             toggleEditMode();
             return;
         }
+
+        // 3. 点击分类标题栏的“删除”按钮
         if (deleteSiteBtn) {
             toggleDeleteMode();
             return;
         }
+
+        // 4. 点击具体卡片
         if (card) {
             e.preventDefault();
             const isInEditMode = dom.contentWrapper.classList.contains('is-editing');
@@ -129,8 +141,12 @@ function setupDynamicEventListeners() {
             if (isInDeleteMode && isEditable) {
                 handleCardDelete(card);
             } else if (isInEditMode && isEditable) {
-                const { site } = findSiteById(card.dataset.id);
-                if (site) openSiteModal('edit', site);
+                // 编辑卡片时，同时获取 site 和 category
+                const { site, category } = findSiteById(card.dataset.id);
+                if (site && category) {
+                    // 【关键修改】传入 category.categoryName
+                    openSiteModal('edit', site, category.categoryId, category.categoryName);
+                }
             } else {
                 window.open(card.dataset.url, '_blank');
             }
@@ -146,7 +162,6 @@ function setupDynamicEventListeners() {
             draggedItem = card;
             placeholder = document.createElement('div');
             placeholder.className = 'placeholder';
-            // 简单设置占位符尺寸
             placeholder.style.height = `${draggedItem.offsetHeight}px`;
             setTimeout(() => draggedItem.classList.add('dragging'), 0);
         }
@@ -165,7 +180,6 @@ function setupDynamicEventListeners() {
                 const midpointY = rect.top + rect.height / 2;
                 const midpointX = rect.left + rect.width / 2;
 
-                // 更精确的网格拖拽判定
                 const isAfter = (e.clientY > midpointY) || (e.clientX > midpointX && Math.abs(e.clientY - midpointY) < 50);
 
                 overCard.parentNode.insertBefore(placeholder, isAfter ? overCard.nextSibling : overCard);
@@ -241,7 +255,6 @@ function onDataSourceSwitchSuccess() {
     dom.searchInput.value = '';
     filterNavCards('');
     updateDeleteButtonState();
-    // 移动端切换后关闭侧边栏
     if (window.innerWidth <= 768) closeMobileSidebar();
 }
 
@@ -268,17 +281,27 @@ async function handleSiteFormSubmit(e) {
         proxy: dom.siteProxyInput.checked
     };
 
+    // 这里查找目标分类时，如果存在ID冲突，仍然会归类到第一个匹配的ID分类中。
+    // 在文件导入逻辑中，最好确保生成的ID是唯一的（例如加上随机数或时间戳），
+    // 但鉴于当前只能修改前端UI逻辑，暂无法根治已存在的脏数据归类问题，
+    // 至少 UI 显示是正确的。
     let targetCategory = state.siteData.categories.find(c => c.categoryId === targetCategoryId);
 
     if (siteId) {
         const { site } = findSiteById(siteId);
-        if (site) Object.assign(site, sitePayload);
-    } else if (targetCategory) {
-        targetCategory.sites.unshift(sitePayload);
+        if (site) {
+            Object.assign(site, sitePayload);
+        } else {
+            if (targetCategory) targetCategory.sites.unshift(sitePayload);
+        }
     } else {
-        showAlert(`操作失败：找不到目标分类 (ID: ${targetCategoryId})`, '错误');
-        closeSiteModal();
-        return;
+        if (targetCategory) {
+            targetCategory.sites.unshift(sitePayload);
+        } else {
+            showAlert(`操作失败：找不到目标分类 (ID: ${targetCategoryId})`, '错误');
+            closeSiteModal();
+            return;
+        }
     }
 
     saveNavData(dom.customSelect.dataset.value);
@@ -332,13 +355,11 @@ function initEnhancedSearch() {
     dom.searchForm.addEventListener('submit', handleSearchSubmit);
     dom.searchInput.addEventListener('input', handleSuggestionInput);
 
-    // 聚焦特效
     dom.searchInput.addEventListener('focus', () => {
         dom.searchForm.classList.add('focused');
         document.body.classList.add('search-focused');
     });
     dom.searchInput.addEventListener('blur', () => {
-        // 延迟移除，防止点击建议项时失效
         setTimeout(() => {
             dom.searchForm.classList.remove('focused');
             document.body.classList.remove('search-focused');

@@ -37,7 +37,7 @@
           "url": "https://gimytv.ai/",
           "icon": "https://gimytv.ai/favicon.ico",
           "desc": "台湾的在线影视剧网站，支持IDM下载。",
-          "proxy": false
+          "proxy": true
         },
         {
           "title": "大师兄影视",
@@ -78,7 +78,7 @@
           "url": "https://www.pianba.tv/",
           "icon": "data:image/vnd.microsoft.icon;base64,PGh0bWw+CjxoZWFkPgo8dGl0bGU+cGlhbmJhLnR2PC90aXRsZT4KPHNjcmlwdCB0eXBlPSJ0ZXh0L2phdmFzY3JpcHQiIHNyYz0iL2pzL2ZpbmdlcnByaW50L2lpZmUubWluLmpzIj48L3NjcmlwdD4KPHNjcmlwdCB0eXBlPSJ0ZXh0L2phdmFzY3JpcHQiPgp2YXIgcmVkaXJlY3RfbGluayA9ICdodHRwOi8vd3d3LnBpYW5iYS50di9mYXZpY29uLmljbz90cl91dWlkPTIwMjUxMjA4LTIyNTEtNDY2OC1hZWI4LWQ4YzExNzE2M2UwYSYnOwpsZXQgcmVkaXJlY3RlZCA9IGZhbHNlOwoKZnVuY3Rpb24gcmVkaXJlY3Qoc3VmZml4KSB7CglpZiAocmVkaXJlY3RlZCkgcmV0dXJuOwoJcmVkaXJlY3RlZCA9IHRydWU7Cgl3aW5kb3cubG9jYXRpb24ucmVwbGFjZShyZWRpcmVjdF9saW5rICsgc3VmZml4KTsKfQoKY29uc3QgcmRyVGltZW91dCA9IHNldFRpbWVvdXQoKCkgPT4gcmVkaXJlY3QoJ2ZwPS03JyksIDMwMCk7Cgp0cnkgewoJRmluZ2VycHJpbnRKUy5sb2FkKHttb25pdG9yaW5nOiBmYWxzZX0pCgkJLnRoZW4oZnAgPT4gZnAuZ2V0KCkpCgkJLnRoZW4ocmVzdWx0ID0+IHsKCQkJY2xlYXJUaW1lb3V0KHJkclRpbWVvdXQpOwoJCQlyZWRpcmVjdCgnZnA9JyArIHJlc3VsdC52aXNpdG9ySWQpOwoJCX0pOwp9IGNhdGNoIChlcnIpIHsKCXJlZGlyZWN0KCdmcD0tNycpOwp9Cgo8L3NjcmlwdD4KPHN0eWxlPiBib2R5IHsgYmFja2dyb3VuZDojMTAxYzM2IH0gPC9zdHlsZT4KPC9oZWFkPgo8Ym9keSBiZ2NvbG9yPSIjZmZmZmZmIiB0ZXh0PSIjMDAwMDAwIj4KPGRpdiBzdHlsZT0nZGlzcGxheTogbm9uZTsnPjxhIGhyZWY9J2h0dHA6Ly93d3cucGlhbmJhLnR2L2Zhdmljb24uaWNvP3RyX3V1aWQ9MjAyNTEyMDgtMjI1MS00NjY4LWFlYjgtZDhjMTE3MTYzZTBhJmZwPS0zJz5DbGljayBoZXJlIHRvIGVudGVyPC9hPjwvZGl2Pgo8bm9zY3JpcHQ+PG1ldGEgaHR0cC1lcXVpdj0icmVmcmVzaCIgY29udGVudD0iMDsgVVJMPWh0dHA6Ly93d3cucGlhbmJhLnR2L2Zhdmljb24uaWNvP3RyX3V1aWQ9MjAyNTEyMDgtMjI1MS00NjY4LWFlYjgtZDhjMTE3MTYzZTBhJmZwPS01Ij48L25vc2NyaXB0Pgo8L2JvZHk+CjwvaHRtbD4=",
           "desc": "提供高清电影和剧集在线观看。",
-          "proxy": false
+          "proxy": true
         },
         {
           "title": "厂长资源",
@@ -104,7 +104,7 @@
           "title": "韩剧集网",
           "url": "https://www.juji.tv/",
           "desc": "一个专门提供韩剧在线观看的网站。",
-          "proxy": false,
+          "proxy": true,
           "icon": "data:image/vnd.microsoft.icon;base64,PGh0bWw+CjxoZWFkPgo8dGl0bGU+anVqaS50djwvdGl0bGU+CjxzY3JpcHQgdHlwZT0idGV4dC9qYXZhc2NyaXB0IiBzcmM9Ii9qcy9maW5nZXJwcmludC9paWZlLm1pbi5qcyI+PC9zY3JpcHQ+CjxzY3JpcHQgdHlwZT0idGV4dC9qYXZhc2NyaXB0Ij4KdmFyIHJlZGlyZWN0X2xpbmsgPSAnaHR0cDovL3d3dy5qdWppLnR2L2Zhdmljb24uaWNvP3RyX3V1aWQ9MjAyNTEyMDgtMjI1MS00Nzc4LWFlMDQtMDFjZjkwOTk4MTc2Jic7CmxldCByZWRpcmVjdGVkID0gZmFsc2U7CgpmdW5jdGlvbiByZWRpcmVjdChzdWZmaXgpIHsKCWlmIChyZWRpcmVjdGVkKSByZXR1cm47CglyZWRpcmVjdGVkID0gdHJ1ZTsKCXdpbmRvdy5sb2NhdGlvbi5yZXBsYWNlKHJlZGlyZWN0X2xpbmsgKyBzdWZmaXgpOwp9Cgpjb25zdCByZHJUaW1lb3V0ID0gc2V0VGltZW91dCgoKSA9PiByZWRpcmVjdCgnZnA9LTcnKSwgMzAwKTsKCnRyeSB7CglGaW5nZXJwcmludEpTLmxvYWQoe21vbml0b3Jpbmc6IGZhbHNlfSkKCQkudGhlbihmcCA9PiBmcC5nZXQoKSkKCQkudGhlbihyZXN1bHQgPT4gewoJCQljbGVhclRpbWVvdXQocmRyVGltZW91dCk7CgkJCXJlZGlyZWN0KCdmcD0nICsgcmVzdWx0LnZpc2l0b3JJZCk7CgkJfSk7Cn0gY2F0Y2ggKGVycikgewoJcmVkaXJlY3QoJ2ZwPS03Jyk7Cn0KCjwvc2NyaXB0Pgo8c3R5bGU+IGJvZHkgeyBiYWNrZ3JvdW5kOiMxMDFjMzYgfSA8L3N0eWxlPgo8L2hlYWQ+Cjxib2R5IGJnY29sb3I9IiNmZmZmZmYiIHRleHQ9IiMwMDAwMDAiPgo8ZGl2IHN0eWxlPSdkaXNwbGF5OiBub25lOyc+PGEgaHJlZj0naHR0cDovL3d3dy5qdWppLnR2L2Zhdmljb24uaWNvP3RyX3V1aWQ9MjAyNTEyMDgtMjI1MS00Nzc4LWFlMDQtMDFjZjkwOTk4MTc2JmZwPS0zJz5DbGljayBoZXJlIHRvIGVudGVyPC9hPjwvZGl2Pgo8bm9zY3JpcHQ+PG1ldGEgaHR0cC1lcXVpdj0icmVmcmVzaCIgY29udGVudD0iMDsgVVJMPWh0dHA6Ly93d3cuanVqaS50di9mYXZpY29uLmljbz90cl91dWlkPTIwMjUxMjA4LTIyNTEtNDc3OC1hZTA0LTAxY2Y5MDk5ODE3NiZmcD0tNSI+PC9ub3NjcmlwdD4KPC9ib2R5Pgo8L2h0bWw+"
         },
         {
@@ -119,7 +119,7 @@
           "url": "http://ww25.2hanju.com/?subid1=20251208-2251-461b-a59a-0f5f50d9910f",
           "desc": "提供最新韩剧在线观看和下载。",
           "icon": "data:image/vnd.microsoft.icon;base64,PCFkb2N0eXBlIGh0bWw+CjxodG1sIGRhdGEtYWRibG9ja2tleT0iTUZ3d0RRWUpLb1pJaHZjTkFRRUJCUUFEU3dBd1NBSkJBTkRycDJsejdBT21BRGFOOHRBNTBMc1djakxGeVFGY2IvUDJUeGM1OG9ZT2VJTGIzdkJ3N0o2ZjRwYW1rQVFWU1F1cVlzS3gzWXpkVUhDdmJWWnZGVXNDQXdFQUFRPT1fb2U1N0NsOGxvcHFwc2d3K2l1L3ZEUTVnL09WM0dsaG9zWTdWQkwwOGJXUW9NSEhmdC9zRkM1bzRqMmpvUWlSbC9IUU84Z011Q2RiNUlQMXRsWjJ1aEE9PSIgbGFuZz0iZW4iIHN0eWxlPSJiYWNrZ3JvdW5kOiAjMkIyQjJCOyI+CjxoZWFkPgogICAgPG1ldGEgY2hhcnNldD0idXRmLTgiPgogICAgPG1ldGEgbmFtZT0idmlld3BvcnQiIGNvbnRlbnQ9IndpZHRoPWRldmljZS13aWR0aCwgaW5pdGlhbC1zY2FsZT0xIj4KICAgIDxsaW5rIHJlbD0iaWNvbiIgaHJlZj0iZGF0YTppbWFnZS9wbmc7YmFzZTY0LGlWQk9SdzBLR2dvQUFBQU5TVWhFVWdBQUFBRUFBQUFCQ0FJQUFBQ1FkMVBlQUFBQURFbEVRVlFJMTJQNC8vOC9BQVgrQXY3Y3pGbm5BQUFBQUVsRlRrU3VRbUNDIj4KICAgIDxsaW5rIHJlbD0icHJlY29ubmVjdCIgaHJlZj0iaHR0cHM6Ly93d3cuZ29vZ2xlLmNvbSIgY3Jvc3NvcmlnaW4+CjwvaGVhZD4KPGJvZHk+CjxkaXYgaWQ9InRhcmdldCIgc3R5bGU9Im9wYWNpdHk6IDAiPjwvZGl2Pgo8c2NyaXB0PndpbmRvdy5wYXJrID0gImV5SjFkV2xrSWpvaU5EaG1ZVEF5WlRFdE1qQm1OaTAwTXpoaUxUaGxOekV0TVdKbE5UbGhOakkzWVRkaklpd2ljR0ZuWlY5MGFXMWxJam94TnpZMU1UazBOekE0TENKd1lXZGxYM1Z5YkNJNkltaDBkSEE2THk5M2R6STFMakpvWVc1cWRTNWpiMjB2Wm1GMmFXTnZiaTVwWTI4aUxDSndZV2RsWDIxbGRHaHZaQ0k2SWtkRlZDSXNJbkJoWjJWZmNtVnhkV1Z6ZENJNmUzMHNJbkJoWjJWZmFHVmhaR1Z5Y3lJNmUzMHNJbWh2YzNRaU9pSjNkekkxTGpKb1lXNXFkUzVqYjIwaUxDSnBjQ0k2SWpFMk1DNHlOVEF1TVRNeUxqY3lJbjBLIjs8L3NjcmlwdD4KPHNjcmlwdCBzcmM9Ii9iZXh3U3V6bXouanMiPjwvc2NyaXB0Pgo8L2JvZHk+CjwvaHRtbD4K",
-          "proxy": false
+          "proxy": true
         },
         {
           "title": "港剧屋",
@@ -146,14 +146,14 @@
           "title": "嘀哩哩",
           "url": "https://www.dililitv.com/",
           "desc": "欧美、日韩、港台影视剧",
-          "proxy": false
+          "proxy": true
         },
         {
           "title": "爱尚影视",
           "url": "https://www.138vcd.com/",
           "desc": "提供在线影视观看服务。",
           "icon": "img/ff001199e06a43fd7f15da20579a7eec.webp",
-          "proxy": false
+          "proxy": true
         },
         {
           "title": "奈飞星影视",
@@ -171,7 +171,7 @@
           "title": "真不卡电影网",
           "url": "https://www.zhenbuka.com/",
           "desc": "一个以流畅播放为特点的在线影视网站。",
-          "proxy": false
+          "proxy": true
         },
         {
           "title": "奈飞星",
@@ -184,14 +184,14 @@
           "url": "https://www.btnull.re/",
           "icon": "data:image/vnd.microsoft.icon;base64,PCFkb2N0eXBlIGh0bWw+CjxodG1sIGRhdGEtYWRibG9ja2tleT0iTUZ3d0RRWUpLb1pJaHZjTkFRRUJCUUFEU3dBd1NBSkJBTkRycDJsejdBT21BRGFOOHRBNTBMc1djakxGeVFGY2IvUDJUeGM1OG9ZT2VJTGIzdkJ3N0o2ZjRwYW1rQVFWU1F1cVlzS3gzWXpkVUhDdmJWWnZGVXNDQXdFQUFRPT1fcS9iL2czOXNvRG9NMFUwYlgzMjVhMmo0Y3NlaWRaRng1MTJ6N0VjaE1ld200dzdObkU4R2lQWG5QdGhCaGZObE5CbktHRnBlanlyOFVRUDlVZTYwUlE9PSIgbGFuZz0iZW4iIHN0eWxlPSJiYWNrZ3JvdW5kOiAjMkIyQjJCOyI+CjxoZWFkPgogICAgPG1ldGEgY2hhcnNldD0idXRmLTgiPgogICAgPG1ldGEgbmFtZT0idmlld3BvcnQiIGNvbnRlbnQ9IndpZHRoPWRldmljZS13aWR0aCwgaW5pdGlhbC1zY2FsZT0xIj4KICAgIDxsaW5rIHJlbD0iaWNvbiIgaHJlZj0iZGF0YTppbWFnZS9wbmc7YmFzZTY0LGlWQk9SdzBLR2dvQUFBQU5TVWhFVWdBQUFBRUFBQUFCQ0FJQUFBQ1FkMVBlQUFBQURFbEVRVlFJMTJQNC8vOC9BQVgrQXY3Y3pGbm5BQUFBQUVsRlRrU3VRbUNDIj4KICAgIDxsaW5rIHJlbD0icHJlY29ubmVjdCIgaHJlZj0iaHR0cHM6Ly93d3cuZ29vZ2xlLmNvbSIgY3Jvc3NvcmlnaW4+CjwvaGVhZD4KPGJvZHk+CjxkaXYgaWQ9InRhcmdldCIgc3R5bGU9Im9wYWNpdHk6IDAiPjwvZGl2Pgo8c2NyaXB0PndpbmRvdy5wYXJrID0gImV5SjFkV2xrSWpvaU1qSmlNV0poWVRJdE1qWmhNaTAwWmpVMExUZ3hZekF0WWpNeU5qSTNOREl6TjJSbElpd2ljR0ZuWlY5MGFXMWxJam94TnpZMU1UazBOekV4TENKd1lXZGxYM1Z5YkNJNkltaDBkSEJ6T2k4dmQzZDNMbUowYm5Wc2JDNXlaUzltWVhacFkyOXVMbWxqYnlJc0luQmhaMlZmYldWMGFHOWtJam9pUjBWVUlpd2ljR0ZuWlY5eVpYRjFaWE4wSWpwN2ZTd2ljR0ZuWlY5b1pXRmtaWEp6SWpwN2ZTd2lhRzl6ZENJNkluZDNkeTVpZEc1MWJHd3VjbVVpTENKcGNDSTZJakUyTUM0eU5UQXVNVE15TGpjeUluMEsiOzwvc2NyaXB0Pgo8c2NyaXB0IHNyYz0iL2J4dU5sRHVEdC5qcyI+PC9zY3JpcHQ+CjwvYm9keT4KPC9odG1sPgo=",
           "desc": "无名小站，在线影视观看。",
-          "proxy": false
+          "proxy": true
         },
         {
           "title": "影视森林",
           "url": "https://www.549.tv/",
           "icon": "img/6a11d0a11dc171f8432601a5b88b75ca.webp",
           "desc": "一个在线影视观看网站，聚合各类影视资源。",
-          "proxy": false
+          "proxy": true
         },
         {
           "title": "azm.to",
@@ -260,21 +260,21 @@
           "url": "https://bangumi.moe/",
           "icon": "data:image/vnd.microsoft.icon;base64,PCFET0NUWVBFIGh0bWw+CjxodG1sIGxhbmc9ImVuIiBuZy1hcHA9InJpbiIgY2xhc3M9Im5vLWpzIj4KPGhlYWQ+CiAgICA8bWV0YSBjaGFyc2V0PSJ1dGYtOCI+CiAgICA8bWV0YSBodHRwLWVxdWl2PSJYLVVBLUNvbXBhdGlibGUiIGNvbnRlbnQ9IklFPWVkZ2UiPgogICAgPHRpdGxlIG5nLWJpbmQ9IihwYWdlVGl0bGUgfCB0cmFuc2xhdGUpICsgKHBhZ2VUaXRsZSA/ICcgLSAnIDogJycpICsgKHBhZ2VNb2RlbCB8IHRyYW5zbGF0ZSkgKyAocGFnZU1vZGVsID8gJyAtICcgOiAnJykgKyAoJ+eVque1hOOAgeiQjOOBiCcgfCB0cmFuc2xhdGUpIj7nlarntYTjgIHokIzjgYg8L3RpdGxlPgogICAgPCEtLVtpZiBsdCBJRSA5XT4KICAgIDxzY3JpcHQ+CiAgICAgICAgbG9jYXRpb24gPSAiaHR0cDovL291dGRhdGVkYnJvd3Nlci5jb20vIjsKICAgIDwvc2NyaXB0PgogICAgPCFbZW5kaWZdLS0+CiAgICA8bWV0YSBuYW1lPSJ2aWV3cG9ydCIgY29udGVudD0id2lkdGg9ZGV2aWNlLXdpZHRoLCBpbml0aWFsLXNjYWxlPTEiPgogICAgPGJhc2UgaHJlZj0iLyI+CiAgICA8bGluayByZWw9InN0eWxlc2hlZXQiIGhyZWY9Imh0dHBzOi8vc3RhdGljLmJhbmd1bWkubW9lL3N0eWxlcy9hcHAubWluLmNzcz92PTI1Y3o3enJ1c2g3Ii8+CiAgICA8c2NyaXB0IHNyYz0iaHR0cHM6Ly9zdGF0aWMuYmFuZ3VtaS5tb2Uvc2NyaXB0cy9yaW4uZGVwLm1pbi5qcz92PTI1Y3o3enJ1c2g3Ij48L3NjcmlwdD4KICAgIDxzY3JpcHQgc3JjPSJodHRwczovL3N0YXRpYy5iYW5ndW1pLm1vZS9zY3JpcHRzL3Jpbi5wci5taW4uanM/dj0yNWN6N3pydXNoNyI+PC9zY3JpcHQ+CiAgICA8IS0tIGN1c3RvbSBjb250ZW50IC0tPgoKPC9oZWFkPgo8Ym9keSBiYWNrZ3JvdW5kLWltYWdlIG5nLWludHJvLW1ldGhvZD0iaW50cm9TdGFydCIgbmctaW50cm8tb3B0aW9ucz0iaW50cm9PcHRpb25zIiBuZy1pbnRyby1vbmJlZm9yZWNoYW5nZT0iYmVmb3JlQ2hhbmdlRXZlbnQiIG5nLWludHJvLW9uY29tcGxldGU9ImludHJvQ29tcGxldGUiPgoKPGRpdiBpZD0ic2lkZWJhciIgbmctY29udHJvbGxlcj0iU2lkZWJhckN0cmwiPgogICAgPHVsIGNsYXNzPSJzYi1yaWdodCI+CiAgICAgICAgPGxpIGNsYXNzPSJmYWIgcmVkIiBuZy1jbGljaz0iZXhwYW5kKCRldmVudCkiIGlkPSJtYWluLW1lbnUtYnV0dG9uIj4KICAgICAgICAgICAgPGkgY2xhc3M9ImZhIGZhLWJhcnMgZmEtaWNvbiI+PC9pPgogICAgICAgIDwvbGk+CiAgICA8L3VsPgogICAgPHVsIGNsYXNzPSJzYi1yaWdodC1zdWIiIG5nLXNob3c9ImlzRXhwYW5kZWQiPgogICAgICAgIDxsaSBjbGFzcz0iZmFiIGZhYi1zbWFsbCBmYWItaW1hZ2UiIG5nLWNsaWNrPSJzaG93VXNlckRpYWxvZygkZXZlbnQpIj4KICAgICAgICAgICAgPGltZyBuZy1zcmM9Imh0dHBzOi8vc3RhdGljLmJhbmd1bWkubW9lL2F2YXRhci97e3VzZXIuZW1haWxIYXNofX0/cz02NCIvPgogICAgICAgICAgICA8bWQtdG9vbHRpcCBjbGFzcz0ic2lkZXJiYXItdG9vbHRpcCIgbWQtcG9zaXRpb249ImZpeGVkIiBtZC1kaXJlY3Rpb249ImxlZnQiPnt7dXNlci51c2VybmFtZX19PC9tZC10b29sdGlwPgogICAgICAgIDwvbGk+CiAgICAgICAgPGxpIGNsYXNzPSJmYWIgZmFiLXNtYWxsIG9yYW5nZSIgbmctY2xpY2s9InNob3dUZWFtRGlhbG9nKCRldmVudCkiPgogICAgICAgICAgICA8aSBjbGFzcz0iZmEgZmEtdXNlcnMiPjwvaT4KICAgICAgICAgICAgPG1kLXRvb2x0aXAgY2xhc3M9InNpZGVyYmFyLXRvb2x0aXAiIG1kLXBvc2l0aW9uPSJmaXhlZCIgbWQtZGlyZWN0aW9uPSJsZWZ0Ij57eyAnVGVhbScgfCB0cmFuc2xhdGUgfX08L21kLXRvb2x0aXA+CiAgICAgICAgPC9saT4KICAgICAgICA8bGkgY2xhc3M9ImZhYiBmYWItc21hbGwgYnJvd24iIG5nLWNsaWNrPSJzaG93QWRtaW5DdHJsKCRldmVudCkiIG5nLWlmPSJ1c2VyLmdyb3VwID09ICdhZG1pbicgfHwgdXNlci5ncm91cCA9PSAnc3RhZmYnIj4KICAgICAgICAgICAgPGkgY2xhc3M9ImZhIGZhLWFuY2hvciI+PC9pPgogICAgICAgICAgICA8bWQtdG9vbHRpcCBjbGFzcz0ic2lkZXJiYXItdG9vbHRpcCIgbWQtcG9zaXRpb249ImZpeGVkIiBtZC1kaXJlY3Rpb249ImxlZnQiPnt7ICdBZG1pbicgfCB0cmFuc2xhdGUgfX08L21kLXRvb2x0aXA+CiAgICAgICAgPC9saT4KICAgICAgICA8bGkgY2xhc3M9ImZhYiBmYWItc21hbGwgYmx1ZSIgbmctY2xpY2s9InNob3dQdWJsaXNoRGlhbG9nKCRldmVudCkiPgogICAgICAgICAgICA8aSBjbGFzcz0iZmEgZmEtcGVuY2lsIj48L2k+CiAgICAgICAgICAgIDxtZC10b29sdGlwIGNsYXNzPSJzaWRlcmJhci10b29sdGlwIiBtZC1wb3NpdGlvbj0iZml4ZWQiIG1kLWRpcmVjdGlvbj0ibGVmdCI+e3sgJ1B1Ymxpc2gnIHwgdHJhbnNsYXRlIH19PC9tZC10b29sdGlwPgogICAgICAgIDwvbGk+CiAgICAgICAgPGxpIGNsYXNzPSJmYWIgZmFiLXNtYWxsIGdyZWVuIiBuZy1jbGljaz0ic2lnbm91dCgpIj4KICAgICAgICAgICAgPGkgY2xhc3M9ImZhIGZhLXNpZ24tb3V0IiBzdHlsZT0ibWFyZ2luLWxlZnQ6IDFweCI+PC9pPgogICAgICAgICAgICA8bWQtdG9vbHRpcCBjbGFzcz0ic2lkZXJiYXItdG9vbHRpcCIgbWQtcG9zaXRpb249ImZpeGVkIiBtZC1kaXJlY3Rpb249ImxlZnQiPnt7ICdTaWdub3V0JyB8IHRyYW5zbGF0ZSB9fTwvbWQtdG9vbHRpcD4KICAgICAgICA8L2xpPgogICAgPC91bD4KICAgIDx1bCBjbGFzcz0ic2ItcmlnaHQgc2Nyb2xsdXAiPgogICAgICAgIDxsaSBjbGFzcz0iZmFiIGJsYWNrIj4KICAgICAgICAgICAgPGkgY2xhc3M9ImZhIGZhLWFuZ2xlLXVwIj48L2k+CiAgICAgICAgPC9saT4KICAgIDwvdWw+CjwvZGl2PgoKPGRpdiBpZD0ibWFpbiIgY2xhc3M9IiI+CiAgICA8ZGl2IGlkPSJoZWFkZXIiIGxheW91dD0icm93Ij4KICAgICAgICA8aDE+PGEgaHJlZj0iLyIgaWQ9ImFuaW1hdGVkLWhlYWRlciI+e3sgJ+eVque1hOOAgeiQjOOBiCcgfCB0cmFuc2xhdGUgfX08L2E+PC9oMT4mbmJzcDsKICAgICAgICA8aDM+PHNtYWxsPuWkp+WlveOBjeOBoOOCiDwvc21hbGw+PC9oMz4KICAgIDwvZGl2PgogICAgPGRpdiBjbGFzcz0iY29udGVudCIgdWktdmlldz48L2Rpdj4KICAgIDxkaXYgaWQ9ImZvb3RlciI+CiAgICAgICAgPGRpdiBjbGFzcz0iZm9vdGVyLWluZm8iPgogICAgICAgICAgICA8ZGl2IGxheW91dD0icm93IiBsYXlvdXQtYWxpZ249ImNlbnRlciBjZW50ZXIiPgogICAgICAgICAgICAgICAgPGRpdiBpZD0iZ3VpZGUtc2hvdy1idXR0b24iPjxhIGhyZWY9ImphdmFzY3JpcHQ6dm9pZCgwKSIgbmctY2xpY2s9ImludHJvKCkiPnt7ICdHdWlkZScgfCB0cmFuc2xhdGUgfX08L2E+PC9kaXY+CiAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzPSJkaXZpZGVyIj58PC9kaXY+CiAgICAgICAgICAgICAgICA8ZGl2PjxhIGhyZWY9Ii9oZWxwIj57eyAnSGVscCcgfCB0cmFuc2xhdGUgfX08L2E+PC9kaXY+CiAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzPSJkaXZpZGVyIj58PC9kaXY+CiAgICAgICAgICAgICAgICA8ZGl2PgogICAgICAgICAgICAgICAgICAgIDxtZC1idXR0b24gbmctaGlkZT0ic2hvd0FkZGl0aW9uTGFuZyIgbmctY2xpY2s9InNob3dBZGRpdGlvbkxhbmcgPSAhc2hvd0FkZGl0aW9uTGFuZyI+CiAgICAgICAgICAgICAgICAgICAgICAgIDxpIGNsYXNzPSJmYSBmYS1sYW5ndWFnZSI+PC9pPgogICAgICAgICAgICAgICAgICAgICAgICA8c3Bhbj57eyAnQ3VycmVudCBsYW5ndWFnZScgfCB0cmFuc2xhdGUgfX08L3NwYW4+CiAgICAgICAgICAgICAgICAgICAgPC9tZC1idXR0b24+CiAgICAgICAgICAgICAgICAgICAgPG1kLWJ1dHRvbiBuZy1zaG93PSJzaG93QWRkaXRpb25MYW5nIiBuZy1jbGljaz0ic3dpdGNoTGFuZygnemhfdHcnKSI+5q2j6auU5Lit5paHPC9tZC1idXR0b24+CiAgICAgICAgICAgICAgICAgICAgPG1kLWJ1dHRvbiBuZy1zaG93PSJzaG93QWRkaXRpb25MYW5nIiBuZy1jbGljaz0ic3dpdGNoTGFuZygnemhfY24nKSI+566A5L2T5Lit5paHPC9tZC1idXR0b24+CiAgICAgICAgICAgICAgICAgICAgPG1kLWJ1dHRvbiBuZy1jbGljaz0ic3dpdGNoTGFuZygnZW4nKSI+RW5nbGlzaDwvbWQtYnV0dG9uPgogICAgICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICA8aHIgY2xhc3M9ImdyYWRpZW50Ii8+CiAgICAgICAgICAgIDxzcGFuPsKpIDIwMTUgQmFuZ3VtaS5tb2UuIEFsbCByaWdodHMgcmVzZXJ2ZWQuPC9zcGFuPgogICAgICAgIDwvZGl2PgogICAgPC9kaXY+CjwvZGl2Pgo8c2NyaXB0IGRlZmVyIHNyYz0iaHR0cHM6Ly9zdGF0aWMuY2xvdWRmbGFyZWluc2lnaHRzLmNvbS9iZWFjb24ubWluLmpzL3ZjZDE1Y2JlNzc3MmY0OWMzOTljNmE1YmFiZjIyYzEyNDE3MTc2ODkxNzYwMTUiIGludGVncml0eT0ic2hhNTEyLVpwc09tbFJRVjZ5OTA3VEkwZEtCSHE5TWQyOW5uYUVJUGxrZjg0cm5hRVJucTZ6dld2UFVxcjJmdDhNMWFTMjhvTjcyUGRyQ3pTalk0VTZWYUF3MUVRPT0iIGRhdGEtY2YtYmVhY29uPSd7InZlcnNpb24iOiIyMDI0LjExLjAiLCJ0b2tlbiI6IjMyZjQzOThjMjMyNDQ3YTI4YjE3YjJjOTFkMzMxNTQ3IiwiciI6MSwic2VydmVyX3RpbWluZyI6eyJuYW1lIjp7ImNmQ2FjaGVTdGF0dXMiOnRydWUsImNmRWRnZSI6dHJ1ZSwiY2ZFeHRQcmkiOnRydWUsImNmTDQiOnRydWUsImNmT3JpZ2luIjp0cnVlLCJjZlNwZWVkQnJhaW4iOnRydWV9LCJsb2NhdGlvbl9zdGFydHN3aXRoIjpudWxsfX0nIGNyb3Nzb3JpZ2luPSJhbm9ueW1vdXMiPjwvc2NyaXB0Pgo8L2JvZHk+CjwvaHRtbD4K",
           "desc": "动漫BT下载站，提供简体和繁体资源。",
-          "proxy": false
+          "proxy": true
         },
         {
           "title": "蜜柑计划",
           "url": "https://mikanani.me/",
           "icon": "img/43d3a223d3fd531690b790ce05bd227b.webp",
           "desc": "自动化的动漫BT下载站，订阅番剧后可自动下载更新。",
-          "proxy": false
+          "proxy": true
         },
         {
           "title": "动漫花园",
           "url": "https://dmhy.anoneko.com/",
           "icon": "img/c700842300cbc04910f5cbc7bff14544.webp",
           "desc": "知名的动漫资源（BT下载）发布页，新番资源更新快。",
-          "proxy": false
+          "proxy": true
         },
         {
           "title": "小小漫迷",
@@ -360,7 +360,7 @@
           "url": "http://ww25.v1.nicotv.bet/?subid1=20251208-2252-0205-88ae-e4d8117a8683",
           "icon": "data:image/vnd.microsoft.icon;base64,PCFkb2N0eXBlIGh0bWw+CjxodG1sIGRhdGEtYWRibG9ja2tleT0iTUZ3d0RRWUpLb1pJaHZjTkFRRUJCUUFEU3dBd1NBSkJBTkRycDJsejdBT21BRGFOOHRBNTBMc1djakxGeVFGY2IvUDJUeGM1OG9ZT2VJTGIzdkJ3N0o2ZjRwYW1rQVFWU1F1cVlzS3gzWXpkVUhDdmJWWnZGVXNDQXdFQUFRPT1fbU5xTEtvNlJuQnU3VkVYVHQwem84M3VpRU0vdmsrb2diL0hBTGdzZitSNWs5T3d6VkFLcDJJdVkzT0txdkZ2SlNpME9zdU9IaHlDcU1ncmpOM1BGV2c9PSIgbGFuZz0iZW4iIHN0eWxlPSJiYWNrZ3JvdW5kOiAjMkIyQjJCOyI+CjxoZWFkPgogICAgPG1ldGEgY2hhcnNldD0idXRmLTgiPgogICAgPG1ldGEgbmFtZT0idmlld3BvcnQiIGNvbnRlbnQ9IndpZHRoPWRldmljZS13aWR0aCwgaW5pdGlhbC1zY2FsZT0xIj4KICAgIDxsaW5rIHJlbD0iaWNvbiIgaHJlZj0iZGF0YTppbWFnZS9wbmc7YmFzZTY0LGlWQk9SdzBLR2dvQUFBQU5TVWhFVWdBQUFBRUFBQUFCQ0FJQUFBQ1FkMVBlQUFBQURFbEVRVlFJMTJQNC8vOC9BQVgrQXY3Y3pGbm5BQUFBQUVsRlRrU3VRbUNDIj4KICAgIDxsaW5rIHJlbD0icHJlY29ubmVjdCIgaHJlZj0iaHR0cHM6Ly93d3cuZ29vZ2xlLmNvbSIgY3Jvc3NvcmlnaW4+CjwvaGVhZD4KPGJvZHk+CjxkaXYgaWQ9InRhcmdldCIgc3R5bGU9Im9wYWNpdHk6IDAiPjwvZGl2Pgo8c2NyaXB0PndpbmRvdy5wYXJrID0gImV5SjFkV2xrSWpvaU5qZGlNVEE1Tm1NdFptUXlaUzAwTXpFeUxXSTFPR1l0WVdNMk1tSmxZalppTVRkbUlpd2ljR0ZuWlY5MGFXMWxJam94TnpZMU1UazBOekkwTENKd1lXZGxYM1Z5YkNJNkltaDBkSEE2THk5M2R6STFMbll4TG01cFkyOTBkaTVpWlhRdlptRjJhV052Ymk1cFkyOGlMQ0p3WVdkbFgyMWxkR2h2WkNJNklrZEZWQ0lzSW5CaFoyVmZjbVZ4ZFdWemRDSTZlMzBzSW5CaFoyVmZhR1ZoWkdWeWN5STZlMzBzSW1odmMzUWlPaUozZHpJMUxuWXhMbTVwWTI5MGRpNWlaWFFpTENKcGNDSTZJakUyTUM0eU5UQXVNVE15TGpjeUluMEsiOzwvc2NyaXB0Pgo8c2NyaXB0IHNyYz0iL2JyU2V6UnVCcS5qcyI+PC9zY3JpcHQ+CjwvYm9keT4KPC9odG1sPgo=",
           "desc": "在线动漫番剧网站。",
-          "proxy": false
+          "proxy": true
         },
         {
           "title": "风车动漫",
@@ -380,7 +380,7 @@
           "url": "https://susuifa.com/",
           "icon": "img/5323142bfd491a4e616fd59a82d32e76.webp",
           "desc": "🥈影视资源分享站，提供阿里云盘链接。",
-          "proxy": false
+          "proxy": true
         },
         {
           "title": "皮皮虾资源",
@@ -394,7 +394,7 @@
           "url": "https://www.yysub.cc/",
           "icon": "img/8e63c4cb8938f8f2bb24240d55469d85.webp",
           "desc": "🥈知名影视字幕组站点，提供影视资讯、剧评和资源下载。",
-          "proxy": false
+          "proxy": true
         },
         {
           "title": "伪射手网",
@@ -457,7 +457,7 @@
           "url": "https://www.rrdynb.com/index.html",
           "icon": "img/ca226b7781611f5963986ef500c301d6.webp",
           "desc": "提供阿里云盘/百度云/迅雷云盘下载链接。",
-          "proxy": false
+          "proxy": true
         },
         {
           "title": "磁力熊",
@@ -541,7 +541,7 @@
           "url": "https://subs.kamigami.org/category/drama",
           "icon": "img/0335f92d99a5e3cd828428591222e0c1.webp",
           "desc": "日剧/日漫字幕组，提供种子/百度云下载。",
-          "proxy": false
+          "proxy": true
         },
         {
           "title": "幻月字幕组",
@@ -638,7 +638,7 @@
           "url": "https://zqbaba.net/",
           "icon": "https://zqbaba.net/favicon.ico",
           "desc": "以足球直播为主的体育直播网站。",
-          "proxy": false
+          "proxy": true
         },
         {
           "title": "365直播网",
@@ -721,7 +721,7 @@
           "title": "海盗直播网",
           "url": "https://www.hdzb.tv/%20",
           "desc": "主播推荐菠菜，请不要玩",
-          "proxy": false
+          "proxy": true
         },
         {
           "title": "720pier",
@@ -734,7 +734,7 @@
           "title": "JRS直播站",
           "url": "http://www.jrskbs.com",
           "desc": "JRS直播，提供NBA、足球等体育赛事直播。",
-          "proxy": false,
+          "proxy": true,
           "icon": "img/e6c95a021c103619d73468f9b74ef176.webp"
         }
       ]
@@ -769,7 +769,7 @@
           "url": "https://1music.cc/zh-CN",
           "icon": "https://1music.cc/favicon.ico",
           "desc": "简洁的在线音乐播放和下载网站。",
-          "proxy": false
+          "proxy": true
         },
         {
           "title": "下歌吧",
@@ -839,7 +839,7 @@
           "url": "https://tools.liumingye.cn/",
           "icon": "img/4233d242c95055356e622baa5c70e2c4.webp",
           "desc": "包含了国内各大音乐平台中的内容，可免费在线听和下载。",
-          "proxy": false
+          "proxy": true
         },
         {
           "title": "MyFreeMP3",
@@ -1123,7 +1123,7 @@
           "url": "https://forum.chineseaci.com/",
           "icon": "img/5d8606d43bfae7750017b3b4ee0fd3f2.webp",
           "desc": "主要翻译《空中浩劫》系列及航空题材纪录片。",
-          "proxy": false
+          "proxy": true
         },
         {
           "title": "电视眼",
@@ -1618,7 +1618,7 @@
           "url": "https://wallhaven.cc/",
           "icon": "img/a6939d06dc364a3a2df726d601e96ae7.webp",
           "desc": "知名的壁纸网站，资源超过70万张，质量高。",
-          "proxy": false
+          "proxy": true
         },
         {
           "title": "Lively Wallpaper",
@@ -1666,7 +1666,7 @@
           "url": "https://www.549.tv/",
           "icon": "img/6a11d0a11dc171f8432601a5b88b75ca.webp",
           "desc": "优质影视导航站，影视App、电视盒子、影视在线、下载等站点均有收录",
-          "proxy": false
+          "proxy": true
         },
         {
           "title": "大数据导航",
@@ -1736,7 +1736,7 @@
           "url": "https://axutongxue.com/",
           "icon": "img/660dffd9bea11a7659c8740110308a6a.webp",
           "desc": "知名资源博主阿虚的博客，分享海量实用软件、网站和资源。",
-          "proxy": false
+          "proxy": true
         },
         {
           "title": "影猫の仓库",
@@ -1778,7 +1778,7 @@
           "url": "https://heji.ru/",
           "icon": "data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22%3E%3Ctext y=%22.9em%22 font-size=%2290%22%3E🌐%3C/text%3E%3C/svg%3E",
           "desc": "3000+优质网站资源汇总，分类清晰，整理的都是合集，超级优质！",
-          "proxy": false
+          "proxy": true
         },
         {
           "title": "影视搜索",

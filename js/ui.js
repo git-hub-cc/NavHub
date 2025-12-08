@@ -41,6 +41,7 @@ export const dom = {
     cancelBtn: document.getElementById('cancel-btn'),
     siteIdInput: document.getElementById('site-id'),
     categoryIdInput: document.getElementById('category-id'),
+    siteCategoryNameInput: document.getElementById('site-category-name'), // 分类名称显示框
     siteUrlInput: document.getElementById('site-url'),
     siteTitleInput: document.getElementById('site-title'),
     siteIconInput: document.getElementById('site-icon'),
@@ -198,7 +199,6 @@ export function renderNavPage() {
         // 侧边栏链接 - 增加图标
         const categoryLink = document.createElement('a');
         categoryLink.href = `#${category.categoryId}`;
-        // 根据分类名称简单分配一个通用图标，也可以在数据源中扩展 icon 字段
         categoryLink.innerHTML = `<i class="ri-folder-3-line" style="margin-right:8px;font-size:16px;"></i> ${category.categoryName}`;
         dom.categoryList.appendChild(categoryLink);
 
@@ -216,9 +216,14 @@ export function renderNavPage() {
 
         if (isEditable) {
             section.classList.add('custom-source-section');
+            // 【关键修改】直接将 categoryName 绑定到 DOM 上，避免通过 ID 查找导致同名ID冲突
             actionsHTML = `
                 <div class="title-actions">
-                    <button id="add-site-btn" class="action-btn" data-category-id="${category.categoryId}"><i class="ri-add-line"></i> 新增</button>
+                    <button class="action-btn add-site-btn" 
+                        data-category-id="${category.categoryId}" 
+                        data-category-name="${category.categoryName}">
+                        <i class="ri-add-line"></i> 新增
+                    </button>
                     <button id="edit-site-btn" class="action-btn"><i class="ri-edit-line"></i> 编辑</button>
                     <button id="delete-site-btn" class="action-btn" style="color:var(--danger)"><i class="ri-delete-bin-line"></i> 删除</button>
                 </div>
@@ -253,7 +258,6 @@ function createCardHTML(site, isEditable) {
     const descPinyin = pinyinManager.convert(site.desc || '');
 
     // 仅在可编辑时生成遮罩层
-    // 更新逻辑：同时放入两个图标，通过 CSS 控制其显示/隐藏
     const editOverlay = isEditable ? `
         <div class="card-overlay-edit">
             <i class="ri-drag-move-2-line icon-drag"></i>
@@ -297,7 +301,6 @@ export function setupSidebarLinks() {
                     behavior: "smooth"
                 });
 
-                // 移动端点击后自动关闭侧边栏
                 if (window.innerWidth <= 768) {
                     closeMobileSidebar();
                 }
@@ -403,9 +406,30 @@ export function filterNavCards(query) {
 // #region 模态框控制
 // =========================================================================
 
-export function openSiteModal(mode, site = null, categoryId) {
+/**
+ * 打开网站编辑/新增模态框
+ * @param {string} mode - 'add' (新增) 或 'edit' (编辑)
+ * @param {object|null} site - 编辑模式下传入的网站对象
+ * @param {string} categoryId - 【关键】目标分类的ID
+ * @param {string} categoryName - 【关键】目标分类的名称 (优先使用此参数，避免ID重复导致查找错误)
+ */
+export function openSiteModal(mode, site = null, categoryId, categoryName = '') {
     dom.siteForm.reset();
-    dom.categoryIdInput.value = categoryId;
+
+    // 1. 设置隐藏的分类ID输入框
+    dom.categoryIdInput.value = categoryId || '';
+
+    // 2. 显示分类名称
+    // 优先使用直接传递进来的 categoryName，这最准确。
+    // 如果未传（极少数情况），则回退到使用 ID 查找（可能不准）。
+    let displayCategoryName = categoryName;
+
+    if (!displayCategoryName && categoryId) {
+        const category = state.siteData.categories.find(c => c.categoryId === categoryId);
+        if (category) displayCategoryName = category.categoryName;
+    }
+    dom.siteCategoryNameInput.value = displayCategoryName || '未知分类';
+
     if (mode === 'add') {
         dom.modalTitle.textContent = '新增网站';
         dom.siteIdInput.value = '';
@@ -446,13 +470,11 @@ export function toggleEditMode() {
     }
     const isNowEditing = dom.contentWrapper.classList.toggle('is-editing');
 
-    // 更新图标和文字
     document.querySelectorAll('#edit-site-btn').forEach(btn => {
         btn.classList.toggle('active', isNowEditing);
         btn.innerHTML = isNowEditing ? '<i class="ri-check-line"></i> 完成' : '<i class="ri-edit-line"></i> 编辑';
     });
 
-    // 只有在 custom-source-section 内的卡片才允许拖拽
     document.querySelectorAll('.custom-source-section .card').forEach(card => {
         card.draggable = isNowEditing;
     });
