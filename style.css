@@ -611,15 +611,17 @@ html[data-theme='dark'] .card:hover { background: rgba(30, 41, 59, 0.9); box-sha
     box-shadow: 0 0 5px var(--warning);
 }
 
-/* 拖拽样式 */
-.card.dragging { opacity: 0.4; transform: scale(0.95); }
+/* 拖拽样式 - 仅在可编辑的自定义部分生效 */
+.custom-source-section .card.dragging { opacity: 0.4; transform: scale(0.95); }
 .placeholder {
     background: rgba(102, 126, 234, 0.1);
     border: 2px dashed var(--primary-solid);
     border-radius: var(--radius-md);
 }
 
-/* 编辑模式覆盖层 */
+/* ==========================================================================
+   关键修改: 编辑/删除 模式覆盖层逻辑
+   ========================================================================== */
 .card-overlay-edit {
     position: absolute;
     inset: 0;
@@ -630,14 +632,38 @@ html[data-theme='dark'] .card:hover { background: rgba(30, 41, 59, 0.9); box-sha
     justify-content: center;
     border-radius: var(--radius-md);
     opacity: 0;
-    transition: opacity 0.2s;
+    transition: opacity 0.2s, background-color 0.2s;
     font-size: 24px;
     color: var(--text-primary);
 }
-.content-wrapper.is-editing .card:hover .card-overlay-edit,
-.content-wrapper.is-deleting .card:hover .card-overlay-edit {
-    opacity: 1;
+
+/* 默认隐藏内部所有图标 */
+.card-overlay-edit i {
+    display: none;
 }
+
+/* 1. 编辑模式 (Sorting/Drag) */
+.content-wrapper.is-editing .custom-source-section .card:hover .card-overlay-edit {
+    opacity: 1;
+    cursor: grab; /* 编辑模式显示抓手 */
+}
+/* 编辑模式下显示拖拽图标 */
+.content-wrapper.is-editing .card-overlay-edit .icon-drag {
+    display: block;
+}
+
+/* 2. 删除模式 (Deleting) */
+.content-wrapper.is-deleting .custom-source-section .card:hover .card-overlay-edit {
+    opacity: 1;
+    cursor: pointer; /* 删除模式显示手型 */
+    background: rgba(255, 71, 87, 0.8); /* 红色警示背景 */
+}
+/* 删除模式下显示删除图标 */
+.content-wrapper.is-deleting .card-overlay-edit .icon-delete {
+    display: block;
+    color: white; /* 红色背景上使用白色图标 */
+}
+
 
 /* ==========================================================================
    7. 模态框 (Modals)

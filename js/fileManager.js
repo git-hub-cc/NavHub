@@ -203,7 +203,7 @@ export async function handleDeleteSource() {
  */
 function generateCategoryId(name) {
     if (!name || !name.trim()) return `category-${Date.now()}`;
-    // 依赖全局的 pinyinConverter
+    // 依赖全局的 pinyinManager
     let pinyinName = pinyinManager.convert(name).full;
     let categoryId = pinyinName.toLowerCase().replace(/\s+/g, '-').replace(/[^a-z0-9-]/g, '');
     return categoryId || `category-${Date.now()}`;
@@ -291,10 +291,22 @@ function transformToNavFormat(sourceJson) {
                 }
                 results.push(newCategory);
             } else if (contentNode.nodeName === 'a') { // 链接 -> 网站
+                const url = contentNode.attributes?.href || '';
+                // 如果URL长度超过2000字符，则大概率不是一个有效的网站链接（可能是data URI），予以忽略。
+                if (url.length > 2000) {
+                    console.warn(`[Import] 已忽略一个URL超长的书签 (长度: ${url.length}): "${contentNode.children[0]?.textContent || '无标题'}"`);
+                    continue; // 跳过此条目
+                }
+                // 新标签页。
+                if (url === "chrome-native://newtab/") {
+                    console.warn(`[Import] 已忽略一个URL特殊的书签 newtab"`);
+                    continue; // 跳过此条目
+                }
+
                 results.push({
                     id: `bm-${Date.now()}-${Math.random()}`,
                     title: contentNode.children[0]?.textContent || '无标题',
-                    url: contentNode.attributes?.href || '',
+                    url: url,
                     icon: contentNode.attributes?.icon || '',
                     desc: '',
                     proxy: false,

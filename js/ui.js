@@ -211,9 +211,10 @@ export function renderNavPage() {
         titleContainer.className = 'category-title-container';
         let actionsHTML = '';
 
-        // 可编辑区域的按钮
-        const shouldShowActions = isCustomSource || category.categoryId === CUSTOM_CATEGORY_ID;
-        if (shouldShowActions) {
+        // 判断该区域是否可编辑 (自定义数据源 或 "我的导航" 分类)
+        const isEditable = isCustomSource || category.categoryId === CUSTOM_CATEGORY_ID;
+
+        if (isEditable) {
             section.classList.add('custom-source-section');
             actionsHTML = `
                 <div class="title-actions">
@@ -228,7 +229,8 @@ export function renderNavPage() {
 
         const cardGrid = document.createElement('div');
         cardGrid.className = 'card-grid';
-        category.sites.forEach(site => cardGrid.innerHTML += createCardHTML(site));
+        // 传递 isEditable 标志位到 createCardHTML
+        category.sites.forEach(site => cardGrid.innerHTML += createCardHTML(site, isEditable));
 
         section.appendChild(titleContainer);
         section.appendChild(cardGrid);
@@ -239,14 +241,25 @@ export function renderNavPage() {
 }
 
 /**
- * 创建单个网站卡片的HTML - 更新结构以适配新CSS
+ * 创建单个网站卡片的HTML
+ * @param {object} site - 网站数据对象
+ * @param {boolean} isEditable - 该卡片所属区域是否可编辑
  */
-function createCardHTML(site) {
+function createCardHTML(site, isEditable) {
     const defaultIcon = 'data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22%3E%3Ctext y=%22.9em%22 font-size=%2290%22%3E🌐%3C/text%3E%3C/svg%3E';
     const iconUrl = site.icon || defaultIcon;
     const proxyBadge = site.proxy ? '<div class="proxy-dot" title="需代理"></div>' : '';
     const titlePinyin = pinyinManager.convert(site.title);
     const descPinyin = pinyinManager.convert(site.desc || '');
+
+    // 仅在可编辑时生成遮罩层
+    // 更新逻辑：同时放入两个图标，通过 CSS 控制其显示/隐藏
+    const editOverlay = isEditable ? `
+        <div class="card-overlay-edit">
+            <i class="ri-drag-move-2-line icon-drag"></i>
+            <i class="ri-delete-bin-7-line icon-delete"></i>
+        </div>
+    ` : '';
 
     return `
         <div class="card"
@@ -256,10 +269,7 @@ function createCardHTML(site) {
              data-pinyin-initials="${titlePinyin.initials} ${descPinyin.initials}"
              draggable="false">
             ${proxyBadge}
-            <!-- 编辑/删除模式下的覆盖层 -->
-            <div class="card-overlay-edit">
-                <i class="ri-drag-move-2-line"></i>
-            </div>
+            ${editOverlay}
             
             <div class="card-header">
                 <div class="card-icon-wrapper">
@@ -442,6 +452,7 @@ export function toggleEditMode() {
         btn.innerHTML = isNowEditing ? '<i class="ri-check-line"></i> 完成' : '<i class="ri-edit-line"></i> 编辑';
     });
 
+    // 只有在 custom-source-section 内的卡片才允许拖拽
     document.querySelectorAll('.custom-source-section .card').forEach(card => {
         card.draggable = isNowEditing;
     });
