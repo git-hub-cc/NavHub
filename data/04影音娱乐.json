@@ -26,13 +26,6 @@
           "proxy": false
         },
         {
-          "title": "蓝光影院",
-          "url": "https://www.lgyy.cc/",
-          "icon": "https://www.lgyy.cc/favicon.ico",
-          "desc": "提供高清在线影视观看服务。",
-          "proxy": false
-        },
-        {
           "title": "在线之家",
           "url": "https://www.zxzjhd.com/",
           "icon": "img/df225de68dd689eedaa1dd7b7a56694b.webp",
@@ -41,8 +34,8 @@
         },
         {
           "title": "Gimy TV 剧迷",
-          "url": "https://gimy.app/",
-          "icon": "https://gimy.app/favicon.ico",
+          "url": "https://gimytv.ai/",
+          "icon": "https://gimytv.ai/favicon.ico",
           "desc": "台湾的在线影视剧网站，支持IDM下载。",
           "proxy": false
         },
@@ -51,13 +44,6 @@
           "url": "https://dsxys.com/",
           "icon": "img/07ba0cd0da1338042d039a3b1121041a.webp",
           "desc": "在线影视观看，资源丰富，支持IDM下载。",
-          "proxy": false
-        },
-        {
-          "title": "魔法解析",
-          "url": "https://wantwatch.me/",
-          "icon": "https://wantwatch.me/favicon.ico",
-          "desc": "🥇官方直解，提供高清在线影视播放服务。",
           "proxy": false
         },
         {
@@ -167,13 +153,6 @@
           "url": "https://www.138vcd.com/",
           "desc": "提供在线影视观看服务。",
           "icon": "img/ff001199e06a43fd7f15da20579a7eec.webp",
-          "proxy": false
-        },
-        {
-          "title": "就是短剧屋",
-          "url": "https://dd66.94djw.com/",
-          "icon": "http://dd66.94djw.com/favicon.ico",
-          "desc": "🥉专门提供短剧的在线观看网站。",
           "proxy": false
         },
         {
@@ -687,13 +666,6 @@
           "url": "https://hupu.us/",
           "icon": "img/bee742c3d78104c41bf43644b05b23db.webp",
           "desc": "👍简洁流畅的体育赛事直播站。",
-          "proxy": false
-        },
-        {
-          "title": "24直播吧",
-          "url": "https://24zhiboba.com/#/",
-          "icon": "https://24zhiboba.com/favicon.ico",
-          "desc": "体育赛事直播网站。",
           "proxy": false
         },
         {
@@ -2014,13 +1986,6 @@
           "url": "https://www.zhihu.com/consult/people/1262168587433316352",
           "icon": "img/2e583a4caa216ee0bd7cccdb14ad0284.webp",
           "desc": "提供一对一的付费咨询服务。",
-          "proxy": false
-        },
-        {
-          "title": "外卖/打车优惠券",
-          "url": "https://wework.qpic.cn/wwpic3az/340998_du_hB0AjQtGmtR__1751622063/0",
-          "icon": "https://wework.qpic.cn/favicon.ico",
-          "desc": "美团、饿了么、滴滴等平台优惠券天天可领！",
           "proxy": false
         },
         {

@@ -1589,13 +1589,6 @@
           "proxy": false
         },
         {
-          "title": "杂志天下",
-          "url": "https://www.fuyoutech.club/",
-          "icon": "https://www.fuyoutech.club/favicon.ico",
-          "desc": "在线杂志阅读网站。",
-          "proxy": false
-        },
-        {
           "title": "萌娘百科",
           "url": "https://zh.moegirl.org.cn:443/Mainpage",
           "icon": "img/1d23c39b68126cf52518275fe6ee1a1c.webp",

@@ -89,13 +89,6 @@
           "proxy": false
         },
         {
-          "title": "极客盟",
-          "url": "https://www.jkmeng.cn/",
-          "icon": "https://www.jkmeng.cn/favicon.ico",
-          "desc": "分享破解和绿色软件，提供城通网盘，关注公众号后可获取百度云+天翼下载。",
-          "proxy": false
-        },
-        {
           "title": "Get Into PC",
           "url": "https://igetintopc.com/",
           "icon": "img/ad4a4e18b7bea0c89833eee70bfeb70e.webp",
@@ -200,13 +193,6 @@
           "desc": "俄罗斯著名的软件“重新包装”网站，提供大量绿色便携版软件。",
           "proxy": true
         },
-        {
-          "title": "殁漂遥",
-          "url": "http://ww1.acold.xyz/?usid=26&utid=13438618146",
-          "icon": "https://acold.xyz/favicon.ico",
-          "desc": "分享绿色和破解软件，提供城通网盘，关注公众号可以获得蓝奏云下载。",
-          "proxy": true
-        }
       ]
     },
     {
@@ -316,13 +302,6 @@
           "url": "https://xclient.info/",
           "icon": "img/ae503c1bdf0c040bd62614f201a3cbc2.webp",
           "desc": "知名的Mac破解软件站，提供百度云和城通网盘。",
-          "proxy": false
-        },
-        {
-          "title": "爱奶酪",
-          "url": "https://www.icheese.org/",
-          "icon": "https://www.icheese.org/favicon.ico",
-          "desc": "Mac破解软件下载站，会员制。",
           "proxy": false
         },
         {

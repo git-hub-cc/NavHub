@@ -1550,13 +1550,6 @@
           "proxy": false
         },
         {
-          "title": "Library Genesis",
-          "url": "https://libgen.unblockit.bet/",
-          "icon": "https://libgen.is/favicon.ico",
-          "desc": "强大的外文文献和电子书搜索引擎。",
-          "proxy": true
-        },
-        {
           "title": "河洛中文网",
           "url": "https://www.horou.com/forum.php",
           "icon": "img/e6d27864e485bcb88155b72a2d285114.webp",
@@ -1673,13 +1666,6 @@
           "url": "https://kgbook.com/",
           "icon": "https://kgbook.com/favicon.ico",
           "desc": "Kindle电子书下载，提供多种格式。",
-          "proxy": false
-        },
-        {
-          "title": "知搜",
-          "url": "https://zhiso.cc/",
-          "icon": "https://zhiso.cc/favicon.ico",
-          "desc": "聚合型搜索，包含图书、学术、软件等多种资源搜索。",
           "proxy": false
         },
         {

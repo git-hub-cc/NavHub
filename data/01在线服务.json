@@ -47,13 +47,6 @@
           "proxy": false
         },
         {
-          "title": "百度解析",
-          "url": "https://bdpan.juyovo.com/#/index",
-          "icon": "https://bdpan.juyovo.com/favicon.ico",
-          "desc": "一个用于解析百度网盘链接以进行高速下载的在线工具。",
-          "proxy": false
-        },
-        {
           "title": "钛盘",
           "url": "https://www.tmp.link/",
           "icon": "img/402cf389969fb7d76446727b79e1796b.webp",
@@ -565,13 +558,6 @@
           "proxy": true
         },
         {
-          "title": "云际云短信",
-          "url": "https://yunjisms.xyz/",
-          "icon": "https://yunjisms.xyz/favicon.ico",
-          "desc": "提供免费的在线短信验证码接收服务。",
-          "proxy": false
-        },
-        {
           "title": "临时邮箱",
           "url": "https://www.linshiyouxiang.net/",
           "icon": "https://www.linshiyouxiang.net/favicon.ico",
@@ -591,13 +577,6 @@
       "categoryName": "安全检测与密码",
       "categoryId": "security-check-password",
       "sites": [
-        {
-          "title": "腾讯哈勃分析",
-          "url": "https://habo.qq.com/",
-          "icon": "https://habo.qq.com/img/favicon.ico",
-          "desc": "在线病毒检测，普通用户不超过30MB",
-          "proxy": false
-        },
         {
           "title": "Have I Been Pwned",
           "url": "https://haveibeenpwned.com/",

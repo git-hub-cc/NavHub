@@ -476,13 +476,6 @@
           "proxy": false
         },
         {
-          "title": "Windows激活",
-          "url": "https://docs.qq.com/doc/DYVR5S2NZWHVXaWRC",
-          "icon": "https://docs.qq.com/favicon.ico",
-          "desc": "提供多种Windows系统和Office软件的激活工具和方法。",
-          "proxy": false
-        },
-        {
           "title": "Everything",
           "url": "https://www.voidtools.com/zh-cn/downloads/",
           "icon": "img/43516830fce78bccd6a582984eaf12dd.webp",
@@ -528,13 +521,6 @@
           "url": "https://mp.weixin.qq.com/s/g-I3LJ7PAINnihwPacQzfA",
           "icon": "img/5281e972ec463897022f56464011b5ed.webp",
           "desc": "介绍多种在Windows上加密文件和文件夹的方法。",
-          "proxy": false
-        },
-        {
-          "title": "虚拟机",
-          "url": "https://docs.qq.com/doc/DYXZ0U0xpR3pqWFBj",
-          "icon": "https://docs.qq.com/favicon.ico",
-          "desc": "提供关于如何安装和使用VMware、VirtualBox等虚拟机软件的教程文档。",
           "proxy": false
         },
         {
@@ -1657,13 +1643,6 @@
           "icon": "img/b89976fceca0fd7b218418fb168b24cb.webp",
           "desc": "无损音乐下载站。",
           "proxy": false
-        },
-        {
-          "title": "ED2000资源分享",
-          "url": "https://www.ed2000.com/Type/%E9%9F%B3%E4%B9%90",
-          "icon": "https://www.ed2000.com/favicon.ico",
-          "desc": "ED2000的音乐资源区，提供eD2k链接。",
-          "proxy": true
         },
         {
           "title": "享乐音乐论坛",
