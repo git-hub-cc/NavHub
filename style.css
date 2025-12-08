@@ -364,10 +364,11 @@ html[data-theme='dark'] .category-list a.active { background: rgba(255,255,255,0
     z-index: 50;
 }
 
-/* 搜索 Tab */
+/* 搜索 Tab - 允许换行 */
 .search-tabs {
     display: flex;
     justify-content: center;
+    flex-wrap: wrap; /* 允许按钮多行排列 */
     gap: 12px;
     margin-bottom: 20px;
 }
@@ -381,6 +382,7 @@ html[data-theme='dark'] .category-list a.active { background: rgba(255,255,255,0
     cursor: pointer;
     transition: all 0.2s;
     font-weight: 500;
+    margin-bottom: 4px; /* 换行时增加垂直间距 */
 }
 .category-btn:hover { color: var(--text-primary); background: var(--bg-card); }
 .category-btn.active {
@@ -441,14 +443,16 @@ html[data-theme='dark'] .category-btn.active { background: var(--primary-solid);
 }
 .search-btn-submit:hover { transform: scale(1.05); }
 
-/* 搜索引擎选择 */
+/* 搜索引擎选择 - 允许换行 */
 .engine-selector {
     display: flex;
     justify-content: center;
+    flex-wrap: wrap; /* 允许复选框多行排列 */
     gap: 15px;
     margin-top: 15px;
     font-size: 13px;
     color: var(--text-secondary);
+    line-height: 1.8; /* 增加行高，防止多行时过于拥挤 */
 }
 .engine-checkbox { display: flex; align-items: center; gap: 4px; cursor: pointer; }
 .engine-checkbox input { accent-color: var(--primary-solid); }
