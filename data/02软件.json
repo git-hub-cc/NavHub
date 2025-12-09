@@ -1,6 +1,5 @@
 {
   "categories": [
-
     {
       "categoryName": "网盘与影视搜索",
       "categoryId": "cloud-drive-movie-search",
@@ -194,13 +193,6 @@
           "proxy": true
         },
         {
-          "title": "BT虎牙",
-          "url": "https://github.com/bthuyadizhi",
-          "icon": "",
-          "desc": "磁力搜索引擎的地址发布页 (Github)。",
-          "proxy": false
-        },
-        {
           "title": "磁力巴士",
           "url": "https://www.bvbus.com/",
           "desc": "一个磁力链接搜索和分享网站。",
@@ -232,13 +224,6 @@
           "url": "https://immortalproxy.com/",
           "icon": "img/346368c5c9db54bd6033510d1b56edf5.webp",
           "desc": "👍国外热门BT资源站的在线代理集合。",
-          "proxy": false
-        },
-        {
-          "title": "BTMET",
-          "url": "https://github.com/btmet/home",
-          "icon": "",
-          "desc": "磁力搜索引擎的地址发布页 (Github)。",
           "proxy": false
         },
         {
@@ -274,13 +259,6 @@
           "url": "https://katcr.to/",
           "desc": "国外磁力下载站",
           "icon": "img/31b7bae5cc5cb5bb117d3083308db325.webp",
-          "proxy": true
-        },
-        {
-          "title": "磁力狗1024",
-          "url": "https://github.com/ciligou/ciligou",
-          "icon": "",
-          "desc": "一个磁力与BT资源搜索引擎。",
           "proxy": true
         },
         {
@@ -386,13 +364,6 @@
           "proxy": false
         },
         {
-          "title": "桌面美化工具",
-          "url": "https://www.yuque.com/lixin-uxnsi/share/txgg0v",
-          "icon": "img/143932c4d87af62e01137b5e20a1cc38.webp",
-          "desc": "集合桌面美化工具，实现透明任务栏、实时网速监控、温度监控等功能。",
-          "proxy": false
-        },
-        {
           "title": "TranslucentTB",
           "url": "https://sspai.com/post/43178",
           "icon": "img/3dd4a876bcd5f806ef30f8772385b973.webp",
@@ -470,13 +441,6 @@
           "proxy": true
         },
         {
-          "title": "运行库",
-          "url": "https://www.yuque.com/lixin-uxnsi/share/wqoyvd",
-          "icon": "img/143932c4d87af62e01137b5e20a1cc38.webp",
-          "desc": "集合了常见的系统运行库，如Visual C++、.NET等，解决程序运行错误问题。",
-          "proxy": false
-        },
-        {
           "title": "Everything",
           "url": "https://www.voidtools.com/zh-cn/downloads/",
           "icon": "img/43516830fce78bccd6a582984eaf12dd.webp",
@@ -511,27 +475,6 @@
           "proxy": false
         },
         {
-          "title": "系统清理工具",
-          "url": "https://www.yuque.com/lixin-uxnsi/share/ti4yw0",
-          "icon": "img/143932c4d87af62e01137b5e20a1cc38.webp",
-          "desc": "推荐Windows和安卓平台上的系统垃圾清理和优化工具。",
-          "proxy": false
-        },
-        {
-          "title": "电脑文件加密／文件夹加密教程",
-          "url": "https://mp.weixin.qq.com/s/g-I3LJ7PAINnihwPacQzfA",
-          "icon": "img/5281e972ec463897022f56464011b5ed.webp",
-          "desc": "介绍多种在Windows上加密文件和文件夹的方法。",
-          "proxy": false
-        },
-        {
-          "title": "驱动管理",
-          "url": "https://www.yuque.com/lixin-uxnsi/share/mvpcsh",
-          "icon": "img/143932c4d87af62e01137b5e20a1cc38.webp",
-          "desc": "提供驱动管理和更新软件的推荐，如Driver Booster等。",
-          "proxy": false
-        },
-        {
           "title": "TreeSize Free",
           "url": "https://www.jam-software.com/treesize",
           "icon": "img/ab5871c9795879d3cad68678bade4e08.webp",
@@ -539,73 +482,10 @@
           "proxy": false
         },
         {
-          "title": "禁止更新",
-          "url": "https://www.yuque.com/lixin-uxnsi/share/xff04a",
-          "icon": "img/143932c4d87af62e01137b5e20a1cc38.webp",
-          "desc": "介绍如何有效禁止Windows系统自动更新的方法和工具。",
-          "proxy": false
-        },
-        {
-          "title": "资源管理器",
-          "url": "https://www.yuque.com/lixin-uxnsi/share/awm2zx",
-          "icon": "img/143932c4d87af62e01137b5e20a1cc38.webp",
-          "desc": "推荐增强型的Windows资源管理器替代工具，如QTTabBar、Clover。",
-          "proxy": false
-        },
-        {
           "title": "HelloWindows",
           "url": "https://hellowindows.cn/",
           "icon": "img/3f378fda8ebf8d02f1407a5c4e237f87.webp",
           "desc": "提供Windows原版系统镜像下载。",
-          "proxy": false
-        },
-        {
-          "title": "管理员权限",
-          "url": "https://www.yuque.com/lixin-uxnsi/share/kirv9m",
-          "icon": "img/143932c4d87af62e01137b5e20a1cc38.webp",
-          "desc": "讲解如何在Windows系统中获取和管理管理员权限。",
-          "proxy": false
-        },
-        {
-          "title": "文件加密",
-          "url": "https://www.yuque.com/lixin-uxnsi/share/ydfsag",
-          "icon": "img/143932c4d87af62e01137b5e20a1cc38.webp",
-          "desc": "分享各类文件和文件夹加密工具，保护个人隐私安全。",
-          "proxy": false
-        },
-        {
-          "title": "压缩包解密",
-          "url": "https://www.yuque.com/lixin-uxnsi/share/vf7wmo",
-          "icon": "img/143932c4d87af62e01137b5e20a1cc38.webp",
-          "desc": "分享用于破解和移除压缩包（ZIP/RAR）密码的工具。",
-          "proxy": false
-        },
-        {
-          "title": "解除占用",
-          "url": "https://www.yuque.com/lixin-uxnsi/share/ncd2qh",
-          "icon": "img/143932c4d87af62e01137b5e20a1cc38.webp",
-          "desc": "提供用于解决“文件正在被另一程序使用”问题的工具，如IObit Unlocker。",
-          "proxy": false
-        },
-        {
-          "title": "数据恢复",
-          "url": "https://www.yuque.com/lixin-uxnsi/share/nsze2u",
-          "icon": "img/143932c4d87af62e01137b5e20a1cc38.webp",
-          "desc": "介绍用于恢复误删除文件的数据恢复软件和使用方法。",
-          "proxy": false
-        },
-        {
-          "title": "小工具",
-          "url": "https://www.yuque.com/lixin-uxnsi/share/krs3k2",
-          "icon": "img/143932c4d87af62e01137b5e20a1cc38.webp",
-          "desc": "集合了各种实用但难以分类的便携小工具。",
-          "proxy": false
-        },
-        {
-          "title": "计算器",
-          "url": "https://www.yuque.com/lixin-uxnsi/share/tzg26e",
-          "icon": "img/143932c4d87af62e01137b5e20a1cc38.webp",
-          "desc": "推荐功能超越系统自带的科学计算器或专业计算器软件。",
           "proxy": false
         }
       ]
@@ -629,24 +509,10 @@
           "proxy": false
         },
         {
-          "title": "KeePass",
-          "url": "https://www.yuque.com/lixin-uxnsi/share/rmmkok",
-          "icon": "img/143932c4d87af62e01137b5e20a1cc38.webp",
-          "desc": "KeePass密码管理器的详细使用教程和技巧分享。",
-          "proxy": false
-        },
-        {
           "title": "Quicker",
           "url": "https://www.getquicker.net/",
           "icon": "img/ee0958459acc46b042d431061a891161.webp",
           "desc": "Windows上的效率神器，通过鼠标中键或自定义快捷键呼出面板，快速执行各种操作。",
-          "proxy": false
-        },
-        {
-          "title": "KeePass 使用教程+完整配置版",
-          "url": "https://mp.weixin.qq.com/s/8uPA0kJ7kmObh0XW8EJz8w",
-          "icon": "img/5281e972ec463897022f56464011b5ed.webp",
-          "desc": "本地化的开源密码管理器，安全性极高。",
           "proxy": false
         },
         {
@@ -692,20 +558,6 @@
           "proxy": false
         },
         {
-          "title": "ANKI",
-          "url": "https://www.yuque.com/lixin-uxnsi/share/ufmyag",
-          "icon": "img/143932c4d87af62e01137b5e20a1cc38.webp",
-          "desc": "Anki记忆卡片软件的使用教程、插件推荐和精品牌组分享。",
-          "proxy": false
-        },
-        {
-          "title": "Panda OCR",
-          "url": "https://github.com/miaomiaosoft/PandaOCR.Pro",
-          "icon": "",
-          "desc": "多功能OCR文字识别工具，支持多个OCR和翻译引擎。",
-          "proxy": false
-        },
-        {
           "title": "ProcessOn",
           "url": "https://www.processon.com/",
           "icon": "img/49ea72b62ec9835cd9521037afaa48ce.webp",
@@ -724,13 +576,6 @@
           "url": "https://app.diagrams.net/",
           "icon": "img/b2bf17349e4b50ce4ba311f079f8bf7d.webp",
           "desc": "功能强大的免费在线图表绘制工具，支持流程图、UML图、网络拓扑图等。",
-          "proxy": false
-        },
-        {
-          "title": "福昕PDF",
-          "url": "https://pan.baidu.com/share/init?surl=-30fk83zAK3aHoIDGrVADw",
-          "desc": "功能强大的PDF阅读和编辑器。提供专业版，提取码：q0u2",
-          "icon": "img/7f5e5f59ad32f86a36fe0ac4a9e62ed4.webp",
           "proxy": false
         },
         {
@@ -755,20 +600,6 @@
           "icon": "img/b1e6916f2f5eb012d47d3c1986e4def2.webp"
         },
         {
-          "title": "OCR",
-          "url": "https://www.yuque.com/lixin-uxnsi/share/aht6gh",
-          "icon": "img/143932c4d87af62e01137b5e20a1cc38.webp",
-          "desc": "推荐精准的OCR文字识别软件，可将图片、扫描件或PDF中的文字提取出来。",
-          "proxy": false
-        },
-        {
-          "title": "阿虚的笔记方案 ㆖",
-          "url": "https://mp.weixin.qq.com/s/LtbJIBl4MYp6-5kTFqFmvA",
-          "icon": "img/5281e972ec463897022f56464011b5ed.webp",
-          "desc": "永久原格式完美保存网页的笔记方法。",
-          "proxy": false
-        },
-        {
           "title": "智能PPT",
           "url": "https://aippt.wps.cn/welcome/",
           "desc": "PPT模板网站",
@@ -783,51 +614,9 @@
           "icon": "img/8100e8c6410e1d2aac79ad46634f9024.webp"
         },
         {
-          "title": "毕业答辩PPT模版72套",
-          "url": "https://www.aliyundrive.com/s/iBw7hLL4oWK",
-          "desc": "包含72套适用于毕业答辩的精美PPT模板。",
-          "proxy": false,
-          "icon": "img/060fbd5f9f928c5dd6c18a01e54407ed.webp"
-        },
-        {
-          "title": "XMind",
-          "url": "https://pan.baidu.com/share/init?surl=blS-w-v1zxGpr7z4LELe0g",
-          "desc": "专业的思维导图软件。提供破解版，提取码：8egm",
-          "icon": "img/7f5e5f59ad32f86a36fe0ac4a9e62ed4.webp",
-          "proxy": false
-        },
-        {
           "title": "PPT 超级市场",
           "url": "https://ppt.sotary.com/web/wxapp/index.html",
           "desc": "PPT模板网站",
-          "proxy": false
-        },
-        {
-          "title": "Office插件",
-          "url": "https://www.yuque.com/lixin-uxnsi/share/aon778",
-          "icon": "img/143932c4d87af62e01137b5e20a1cc38.webp",
-          "desc": "分享提高办公效率的Office插件，如iSlide、OneKeyTools等。",
-          "proxy": false
-        },
-        {
-          "title": "百度输入法去升级办法+精简去升级旧版",
-          "url": "https://flowus.cn/share/0bddec1b-9e04-4f02-b3e5-7d67fe2d1711?code=CZ3ECT",
-          "icon": "img/a7bbcaaff9b421c8065e6a3a46d0d813.webp",
-          "desc": "👍提供纯净版的百度输入法，避免自动更新和广告。",
-          "proxy": false
-        },
-        {
-          "title": "400份应届生简历模版",
-          "url": "https://www.aliyundrive.com/s/qSBzTH1WVe3",
-          "desc": "包含400份适合应届毕业生的简历模板。",
-          "proxy": false,
-          "icon": "img/060fbd5f9f928c5dd6c18a01e54407ed.webp"
-        },
-        {
-          "title": "阿虚的视频笔记方案 ㆖",
-          "url": "https://mp.weixin.qq.com/s/VapV7pN9rM2LbrKlfkY47Q",
-          "icon": "img/5281e972ec463897022f56464011b5ed.webp",
-          "desc": "视频转图片／精记录，高效整理视频笔记。",
           "proxy": false
         },
         {
@@ -838,13 +627,6 @@
           "proxy": false
         },
         {
-          "title": "PDF转换",
-          "url": "https://www.yuque.com/lixin-uxnsi/share/gxkpc4",
-          "icon": "img/143932c4d87af62e01137b5e20a1cc38.webp",
-          "desc": "集合各类PDF转换工具，支持PDF与Word、Excel、PPT、图片等格式的相互转换。",
-          "proxy": false
-        },
-        {
           "title": "华宇拼音",
           "url": "https://pinyin.thunisoft.com:443/index.html;jsessionid=node0pbb60xsofebq29nz4456oekj1026307.node0",
           "icon": "",
@@ -852,72 +634,9 @@
           "proxy": false
         },
         {
-          "title": "各行各业合同模板",
-          "url": "https://www.aliyundrive.com/s/XzeGEZ9Pdmw",
-          "desc": "提供各行各业通用的合同模板范本。",
-          "proxy": false,
-          "icon": "img/060fbd5f9f928c5dd6c18a01e54407ed.webp"
-        },
-        {
-          "title": "备考／辅助记忆神器推荐",
-          "url": "https://mp.weixin.qq.com/s/MZSyOguVVGHsiXQDb5CTlw",
-          "icon": "img/5281e972ec463897022f56464011b5ed.webp",
-          "desc": "👍介绍Anki等间隔重复记忆软件，提高学习效率。",
-          "proxy": false
-        },
-        {
-          "title": "PDF去水印",
-          "url": "https://www.yuque.com/lixin-uxnsi/share/igdd6b",
-          "icon": "img/143932c4d87af62e01137b5e20a1cc38.webp",
-          "desc": "介绍去除PDF文件中水印的工具和方法，方便阅读和使用。",
-          "proxy": false
-        },
-        {
           "title": "求职简历设计制作模板",
           "url": "https://www.lanzous.com/iXWAQn4pv5i",
           "desc": "提供多种风格的求职简历设计与制作模板。",
-          "proxy": false
-        },
-        {
-          "title": "各行各业的工作总结模板",
-          "url": "https://www.aliyundrive.com/s/qMiKcNUj2Vx",
-          "desc": "适用于各行各业的工作总结PPT模板合集。",
-          "proxy": false,
-          "icon": "img/060fbd5f9f928c5dd6c18a01e54407ed.webp"
-        },
-        {
-          "title": "流程图",
-          "url": "https://www.yuque.com/lixin-uxnsi/share/efsgg9",
-          "icon": "img/143932c4d87af62e01137b5e20a1cc38.webp",
-          "desc": "推荐Visio、Draw.io等流程图和思维导图制作工具。",
-          "proxy": false
-        },
-        {
-          "title": "微软 Microsoft Authenticator",
-          "url": "https://mp.weixin.qq.com/s/31sSHtSdKA6jxLyWgzHKMg#:~:text=2-,Microsoft%20Authenticator,-%E5%85%B3%E4%BA%8E%E5%AF%86%E7%A0%81%E7%AE%A1%E7%90%86",
-          "icon": "img/5281e972ec463897022f56464011b5ed.webp",
-          "desc": "微软官方的两步验证器，支持密码云同步和自动填充。",
-          "proxy": false
-        },
-        {
-          "title": "公文写作",
-          "url": "https://www.yuque.com/lixin-uxnsi/share/qmvc5d",
-          "icon": "img/143932c4d87af62e01137b5e20a1cc38.webp",
-          "desc": "提供公文写作的模板、范文和辅助工具，提升写作规范性和效率。",
-          "proxy": false
-        },
-        {
-          "title": "操作录制",
-          "url": "https://www.yuque.com/lixin-uxnsi/share/bgvkgf",
-          "icon": "img/143932c4d87af62e01137b5e20a1cc38.webp",
-          "desc": "介绍可录制键鼠操作并自动执行的工具，以及PDF编辑、分页等技巧。",
-          "proxy": false
-        },
-        {
-          "title": "原创保护",
-          "url": "https://www.yuque.com/lixin-uxnsi/share/luq4nx",
-          "icon": "img/143932c4d87af62e01137b5e20a1cc38.webp",
-          "desc": "介绍为原创图片、文章添加水印等，进行版权保护的方法。",
           "proxy": false
         },
         {
@@ -948,20 +667,6 @@
           "proxy": false
         },
         {
-          "title": "Office",
-          "url": "https://www.yuque.com/lixin-uxnsi/share/xt33pm",
-          "icon": "img/143932c4d87af62e01137b5e20a1cc38.webp",
-          "desc": "提供Office办公套件（Word/Excel/PPT）的安装、激活和使用教程。",
-          "proxy": false
-        },
-        {
-          "title": "WPS 2013-2019 各个版本",
-          "url": "https://pan.baidu.com/share/init?surl=RNqwERMA0nnli6g-ICCFaQ",
-          "icon": "img/7f5e5f59ad32f86a36fe0ac4a9e62ed4.webp",
-          "desc": "提取码: t3b2",
-          "proxy": false
-        },
-        {
           "title": "FitGirl Repacks",
           "url": "https://fitgirl-repacks.site/",
           "icon": "img/e410a24b3ef931098baa8b7d75417542.webp",
@@ -989,20 +694,6 @@
       "categoryId": "media-playback-editing",
       "sites": [
         {
-          "title": "PotPlayer 去广告版",
-          "url": "https://flowus.cn/share/4dc25551-ad00-4d81-9421-b3fee98757a9?code=CZ3ECT",
-          "icon": "img/a7bbcaaff9b421c8065e6a3a46d0d813.webp",
-          "desc": "👍Windows上最强大的视频播放器，提供去广告优化版。",
-          "proxy": false
-        },
-        {
-          "title": "PotPlayer",
-          "url": "https://chendandan.lanzoux.com/iwzU5dn2bqf",
-          "icon": "img/e2a12d30813a67034ecef52f8f5447d9.webp",
-          "desc": "最好用的本地视频播放器之一，资源内附带皮肤和直播源。",
-          "proxy": false
-        },
-        {
           "title": "必剪",
           "url": "https://bcut.drawyoo.com/",
           "icon": "img/f2d2896c488493e18c1b112cdd9bb1d9.webp",
@@ -1024,34 +715,6 @@
           "proxy": false
         },
         {
-          "title": "MPV",
-          "url": "https://url67.ctfile.com/f/14869667-892830234-ef3e54?p=kyon",
-          "icon": "img/b0076ef2d0bfc5573f2906e5208855a9.webp",
-          "desc": "开源、跨平台的极简播放器，可长按倍速播放。",
-          "proxy": false
-        },
-        {
-          "title": "截图",
-          "url": "https://www.yuque.com/lixin-uxnsi/share/mzsixd",
-          "icon": "img/143932c4d87af62e01137b5e20a1cc38.webp",
-          "desc": "分享多种功能强大的截图工具，如Snipaste、ShareX等。",
-          "proxy": false
-        },
-        {
-          "title": "Foobar2000",
-          "url": "https://flowus.cn/share/04271ab7-25f6-4c4a-ad2e-845fc2540aa4?code=CZ3ECT",
-          "icon": "img/a7bbcaaff9b421c8065e6a3a46d0d813.webp",
-          "desc": "轻量、强大的无损音乐播放器，提供最新版+单文件版。",
-          "proxy": false
-        },
-        {
-          "title": "剪映 Pro v1.2.1绿色便携版",
-          "url": "https://baozangku.lanzoui.com/i8yuyo9rbgh",
-          "icon": "img/e2a12d30813a67034ecef52f8f5447d9.webp",
-          "desc": "抖音官方出品的电脑端视频剪辑软件专业版。",
-          "proxy": false
-        },
-        {
           "title": "ScreenToGif",
           "url": "https://www.screentogif.com/",
           "icon": "img/49ac37a27acb4084b6786f3a9592a25e.webp",
@@ -1059,52 +722,10 @@
           "proxy": false
         },
         {
-          "title": "喵影剪辑绿色便携版",
-          "url": "https://pan.baidu.com/share/init?surl=dW_L1fyiXukYA3GkJT5_gg",
-          "icon": "img/7f5e5f59ad32f86a36fe0ac4a9e62ed4.webp",
-          "desc": "提取码: vp86",
-          "proxy": false
-        },
-        {
-          "title": "GoldWave",
-          "url": "https://url67.ctfile.com/f/14869667-1008081644-020f0c?p=kyon",
-          "icon": "img/b0076ef2d0bfc5573f2906e5208855a9.webp",
-          "desc": "专业的数字音频编辑软件，提供汉化单文件版。",
-          "proxy": false
-        },
-        {
-          "title": "Adobe 全家桶插件",
-          "url": "https://www.yuque.com/lixin-uxnsi/share/nemiv6",
-          "icon": "img/143932c4d87af62e01137b5e20a1cc38.webp",
-          "desc": "分享适用于Photoshop、Premiere、After Effects等Adobe软件的实用插件合集。",
-          "proxy": false
-        },
-        {
-          "title": "ShanaEncoder",
-          "url": "https://github.com/1265578519/ShanaEncoder/releases",
-          "icon": "",
-          "desc": "👍免费强大的视频压制和格式转换工具。",
-          "proxy": false
-        },
-        {
           "title": "Captura",
           "url": "https://mathewsachin.github.io/Captura/download/",
           "icon": "img/860ab6cda945bd7c50d07b19ece5867b.webp",
           "desc": "开源免费的屏幕录制软件。",
-          "proxy": false
-        },
-        {
-          "title": "万兴全能格式转换器+格式工厂",
-          "url": "https://flowus.cn/share/e5760e13-a099-4481-ab60-e9d056ce0c97?code=CZ3ECT",
-          "icon": "img/a7bbcaaff9b421c8065e6a3a46d0d813.webp",
-          "desc": "提供两款强大的视频格式转换工具。",
-          "proxy": false
-        },
-        {
-          "title": "Snipaste",
-          "url": "https://chendandan.lanzoux.com/iiiZZdn2byd",
-          "icon": "img/e2a12d30813a67034ecef52f8f5447d9.webp",
-          "desc": "强大且免费的截图贴图工具，极大地提升工作效率。",
           "proxy": false
         },
         {
@@ -1129,24 +750,10 @@
           "proxy": false
         },
         {
-          "title": "看图/压缩/重命名工具",
-          "url": "https://www.yuque.com/lixin-uxnsi/share/xayqbb",
-          "icon": "img/143932c4d87af62e01137b5e20a1cc38.webp",
-          "desc": "推荐好用的看图、解压缩及批量重命名工具，替代2345等流氓软件。",
-          "proxy": false
-        },
-        {
           "title": "QuickLook",
           "url": "https://www.microsoft.com/zh-cn/p/quicklook/9nv4bs3l1h4s",
           "icon": "img/12e3dac858061d088023b2bd48e2fa96.webp",
           "desc": "通过空格快捷键快速预览文件内容",
-          "proxy": false
-        },
-        {
-          "title": "FxSound2音响增强虚拟声",
-          "url": "https://wwi.lanzoui.com/iihDWpzhyzg",
-          "icon": "img/e2a12d30813a67034ecef52f8f5447d9.webp",
-          "desc": "电脑音效增强软件，提升音频播放效果。",
           "proxy": false
         },
         {
@@ -1174,13 +781,6 @@
           "url": "https://wwx.lanzouo.com/b073c7g4f",
           "icon": "img/e2a12d30813a67034ecef52f8f5447d9.webp",
           "desc": "🥇内置热门tracker版，强大的BT/HTTP/FTP下载工具。",
-          "proxy": false
-        },
-        {
-          "title": "IDM 破解版",
-          "url": "https://flowus.cn/share/9c0034df-735b-4e77-81c3-6568377d754b?code=CZ3ECT",
-          "icon": "img/a7bbcaaff9b421c8065e6a3a46d0d813.webp",
-          "desc": "Internet Download Manager，地表最强的多线程下载工具。",
           "proxy": false
         },
         {
@@ -1226,13 +826,6 @@
           "proxy": false
         },
         {
-          "title": "迅雷",
-          "url": "https://flowus.cn/share/b7500984-6034-46ed-9ae1-27379328183f?code=CZ3ECT",
-          "icon": "img/a7bbcaaff9b421c8065e6a3a46d0d813.webp",
-          "desc": "🥈提供多个定制版和去广告版的迅雷下载。",
-          "proxy": false
-        },
-        {
           "title": "Transmission",
           "url": "https://transmissionbt.com/download/",
           "icon": "img/00dfa29d1170da19977f88945df23885.webp",
@@ -1240,24 +833,10 @@
           "proxy": true
         },
         {
-          "title": "ytdlp-interface",
-          "url": "https://github.com/ErrorFlynn/ytdlp-interface/releases",
-          "icon": "",
-          "desc": "yt-dlp的图形化界面，方便下载YouTube等网站视频。",
-          "proxy": false
-        },
-        {
           "title": "茄子云盘",
           "url": "https://www.leidianxiazai.com/",
           "icon": "img/1f67586e8ad3345de17bd909d3dd70d3.webp",
           "desc": "支持磁力链接和BT的离线下载网盘。",
-          "proxy": false
-        },
-        {
-          "title": "百度云",
-          "url": "https://www.yuque.com/lixin-uxnsi/share/mw124g",
-          "icon": "img/143932c4d87af62e01137b5e20a1cc38.webp",
-          "desc": "分享各种突破百度网盘限速的下载工具和方法。",
           "proxy": false
         },
         {
@@ -1268,38 +847,10 @@
           "proxy": false
         },
         {
-          "title": "闪豆多平台视频批量下载器",
-          "url": "https://www.lanzoui.com/b015c0ksh/",
-          "icon": "img/e2a12d30813a67034ecef52f8f5447d9.webp",
-          "desc": "支持B站、抖音、YouTube等多个平台的视频批量下载。",
-          "proxy": false
-        },
-        {
-          "title": "PikPak",
-          "url": "https://flowus.cn/share/3b2b0026-afe1-4396-92eb-005da8a662f6",
-          "icon": "img/a7bbcaaff9b421c8065e6a3a46d0d813.webp",
-          "desc": "集离线下载、网盘存储、在线播放于一体的工具。",
-          "proxy": false
-        },
-        {
           "title": "全网热门 BitTorrent Tracker 列表",
           "url": "https://trackerslist.com/#/zh",
           "icon": "",
           "desc": "更新频繁的Tracker服务器列表，可用于加速BT下载。",
-          "proxy": false
-        },
-        {
-          "title": "Tartube",
-          "url": "https://github.com/axcore/tartube/releases",
-          "icon": "",
-          "desc": "功能丰富的yt-dlp图形界面，支持订阅频道批量下载。",
-          "proxy": false
-        },
-        {
-          "title": "抓包",
-          "url": "https://www.yuque.com/lixin-uxnsi/share/uxxw9p",
-          "icon": "img/143932c4d87af62e01137b5e20a1cc38.webp",
-          "desc": "介绍Fiddler、Charles等网络抓包工具的安装和使用，用于分析网络请求。",
           "proxy": false
         },
         {
@@ -1308,13 +859,6 @@
           "icon": "img/7ec3b35e645de5ae233e3df22f8121da.webp",
           "desc": "Cloudflare推出的免费网络流量加密与加速服务，保护隐私，提升网络访问速度和安全性。",
           "proxy": true
-        },
-        {
-          "title": "广告屏蔽",
-          "url": "https://www.yuque.com/docs/share/76788621-6209-4d5a-b2c7-7047bb48b322",
-          "icon": "img/143932c4d87af62e01137b5e20a1cc38.webp",
-          "desc": "推荐AdGuard、uBlock Origin等广告拦截工具，净化网页和应用环境。",
-          "proxy": false
         },
         {
           "title": "Offcloud",
@@ -1335,13 +879,6 @@
           "url": "https://winscp.net/eng/docs/lang:chs",
           "icon": "img/938bf95e2e0f0b04f66772c0100f0caf.webp",
           "desc": "Windows环境下流行的开源SFTP、FTP、WebDAV、S3 和 SCP 客户端，方便地进行远程文件传输。",
-          "proxy": false
-        },
-        {
-          "title": "网络修复",
-          "url": "https://www.yuque.com/lixin-uxnsi/share/fcfo34",
-          "icon": "img/143932c4d87af62e01137b5e20a1cc38.webp",
-          "desc": "提供网络连接问题的诊断和修复工具，以及DNS优选工具来提升网速。",
           "proxy": false
         },
         {
@@ -1577,13 +1114,6 @@
           "proxy": false
         },
         {
-          "title": "知轩藏书",
-          "url": "https://www.zxcs.me/",
-          "icon": "",
-          "desc": "精排网络小说下载站。👍",
-          "proxy": false
-        },
-        {
           "title": "搜漫",
           "url": "https://www.soman.com/",
           "icon": "img/459b63f2fae0a25f8c301def4916834c.webp",
@@ -1604,13 +1134,6 @@
       "categoryId": "music-resources-tools",
       "sites": [
         {
-          "title": "洛雪音乐助手",
-          "url": "https://flowus.cn/share/a0e26b04-624f-4582-a9be-896eaa8f1391?code=CZ3ECT",
-          "icon": "img/a7bbcaaff9b421c8065e6a3a46d0d813.webp",
-          "desc": "强大的全平台音乐搜索和下载工具。",
-          "proxy": false
-        },
-        {
           "title": "Uwants论坛",
           "url": "https://www.uwants.com/",
           "icon": "img/996bbeb3b07a5531a0182fe865ece6f3.webp",
@@ -1622,13 +1145,6 @@
           "url": "https://www.2t58.com/",
           "icon": "img/9e6c045cb3d02a9c5ef986be72299915.webp",
           "desc": "提供无损音乐下载。",
-          "proxy": false
-        },
-        {
-          "title": "音乐标签",
-          "url": "https://flowus.cn/share/04271ab7-25f6-4c4a-ad2e-845fc2540aa4?code=CZ3ECT",
-          "icon": "img/a7bbcaaff9b421c8065e6a3a46d0d813.webp",
-          "desc": "一键为音乐文件添加封面、歌词、专辑等元数据信息。",
           "proxy": false
         },
         {
@@ -1734,48 +1250,6 @@
           "desc": "不仅是图片库，还能搜到按钮、模板图标等，网站分类清晰",
           "icon": "img/bd65b5feb0dfebb391e3b7f97452518a.webp",
           "proxy": true
-        },
-        {
-          "title": "Lr预设-质感强烈的 HDR 人像",
-          "url": "https://pan.baidu.com/share/init?surl=ck8EjBGYWGZV9Qt9zIWLwA",
-          "icon": "img/7f5e5f59ad32f86a36fe0ac4a9e62ed4.webp",
-          "desc": "提取码：zylp",
-          "proxy": false
-        },
-        {
-          "title": "Lr预设-日系小清新人像",
-          "url": "https://pan.baidu.com/share/init?surl=4II2YVHT0rxK8wzWdJbUDw",
-          "icon": "img/7f5e5f59ad32f86a36fe0ac4a9e62ed4.webp",
-          "desc": "提取码：zqem",
-          "proxy": false
-        },
-        {
-          "title": "Lr预设-INS 网红旅拍电影胶片",
-          "url": "https://pan.baidu.com/share/init?surl=ZX0TGcm3GGT6AoyKVW7_7w",
-          "icon": "img/7f5e5f59ad32f86a36fe0ac4a9e62ed4.webp",
-          "desc": "提取码：srvp",
-          "proxy": false
-        },
-        {
-          "title": "PS笔刷-高清炫酷星光光效",
-          "url": "https://pan.baidu.com/share/init?surl=GqgbSjoT0Ta44yjBu1PdrA",
-          "icon": "img/7f5e5f59ad32f86a36fe0ac4a9e62ed4.webp",
-          "desc": "提取码：2cdw",
-          "proxy": false
-        },
-        {
-          "title": "PS笔刷-高清飞尘灰尘碎片颗粒",
-          "url": "https://pan.baidu.com/share/init?surl=YvmZoCWIWD_EqWf-imbGtA",
-          "icon": "img/7f5e5f59ad32f86a36fe0ac4a9e62ed4.webp",
-          "desc": "提取码：zt8d",
-          "proxy": false
-        },
-        {
-          "title": "PS笔刷-大型 CG 人物绘画",
-          "url": "https://pan.baidu.com/share/init?surl=4I4ZFICKIpS0CtZPLm01Mw",
-          "icon": "img/7f5e5f59ad32f86a36fe0ac4a9e62ed4.webp",
-          "desc": "提取码：docc",
-          "proxy": false
         }
       ]
     },
@@ -1816,13 +1290,6 @@
           "url": "https://33.agilestudio.cn/",
           "icon": "img/d294143ca64962c8944628a4dbb26cbf.webp",
           "desc": "通过台词搜索电影和电视剧片段。",
-          "proxy": false
-        },
-        {
-          "title": "今日热榜",
-          "url": "https://www.yuque.com/lixin-uxnsi/share/de4vqp",
-          "icon": "img/143932c4d87af62e01137b5e20a1cc38.webp",
-          "desc": "提供“今日热榜”网站的替代品或后续项目，聚合全网热点新闻。",
           "proxy": false
         },
         {
@@ -1930,13 +1397,6 @@
       "categoryId": "tutorials-diy",
       "sites": [
         {
-          "title": "文件复制",
-          "url": "https://www.yuque.com/lixin-uxnsi/share/oobnkc",
-          "icon": "img/143932c4d87af62e01137b5e20a1cc38.webp",
-          "desc": "介绍和推荐用于大文件、多文件快速复制的工具，如FastCopy。",
-          "proxy": false
-        },
-        {
           "title": "显示器流光溢彩DIY教程",
           "url": "https://blog.csdn.net/u012963827/article/details/89640175",
           "icon": "img/e9ebf92a3a99030928f6b16836a083cb.webp",
@@ -1944,31 +1404,10 @@
           "proxy": false
         },
         {
-          "title": "Everything使用技巧",
-          "url": "https://mp.weixin.qq.com/s/z82AcSj-NWocAkN_phxrtA",
-          "icon": "img/5281e972ec463897022f56464011b5ed.webp",
-          "desc": "Windows上最快的本地文件搜索工具使用指南。",
-          "proxy": false
-        },
-        {
           "title": "魔镜（MagicMirror）",
           "url": "https://onevcat.com/2021/04/magicmirror/",
           "icon": "img/01937db3fa8767fd3f155be18b0fa321.webp",
           "desc": "用树莓派打造一个超薄魔镜的简单教程。",
-          "proxy": false
-        },
-        {
-          "title": "全文搜索／正文搜索软件推荐",
-          "url": "https://mp.weixin.qq.com/s/lErH53BbOEurwDhMBFgE0g",
-          "icon": "img/5281e972ec463897022f56464011b5ed.webp",
-          "desc": "介绍支持文件内容搜索的工具，快速定位信息。",
-          "proxy": false
-        },
-        {
-          "title": "电脑文件加密／文件夹加密教程",
-          "url": "https://mp.weixin.qq.com/s/g-I3LJ7PAINnihwPacQzfA",
-          "icon": "img/5281e972ec463897022f56464011b5ed.webp",
-          "desc": "介绍多种在Windows上加密文件和文件夹的方法。",
           "proxy": false
         }
       ]
@@ -1989,13 +1428,6 @@
           "url": "https://www.lxapk.com/",
           "icon": "img/042c1ea4fd3a4c48656b8f44fe749467.webp",
           "desc": "安卓软件分享",
-          "proxy": false
-        },
-        {
-          "title": "软件商店",
-          "url": "https://www.yuque.com/lixin-uxnsi/share/nbucwz",
-          "icon": "img/143932c4d87af62e01137b5e20a1cc38.webp",
-          "desc": "推荐一些优质的第三方软件商店和软件发现平台。",
           "proxy": false
         },
         {
@@ -2257,13 +1689,6 @@
           "proxy": false
         },
         {
-          "title": "Best-App",
-          "url": "https://github.com/hzlzh/Best-App",
-          "icon": "",
-          "desc": "一个推荐优秀Mac应用的Github项目。",
-          "proxy": false
-        },
-        {
           "title": "Digit77",
           "url": "https://www.digit77.com/",
           "icon": "img/07563e9701da54a95a4675e1a2ceb224.webp",
@@ -2275,13 +1700,6 @@
           "url": "https://xclient.info/",
           "icon": "img/ae503c1bdf0c040bd62614f201a3cbc2.webp",
           "desc": "知名的Mac破解软件站，提供百度云和城通网盘。",
-          "proxy": false
-        },
-        {
-          "title": "awesome-mac",
-          "url": "https://github.com/jaywcjlove/awesome-mac/blob/master/README-zh.md",
-          "icon": "",
-          "desc": "一个收集了各种优秀Mac软件、工具和资源的Github项目。",
           "proxy": false
         },
         {
@@ -2310,162 +1728,7 @@
     {
       "categoryName": "破解与绿色软件",
       "categoryId": "cracked-green-software",
-      "sites": [
-        {
-          "title": "Adobe Flash Player v34.0.0.231 3in1 Silent",
-          "url": "https://www.lanzoui.com/izxQx01xay0j",
-          "icon": "img/e2a12d30813a67034ecef52f8f5447d9.webp",
-          "desc": "最近更新的破解版或绿色版软件，由爬虫自动更新。",
-          "proxy": false
-        },
-        {
-          "title": "极客卸载 Geek Uninstaller 1.4.9.151",
-          "url": "https://www.lanzoui.com/iac5c01xbp0b",
-          "icon": "img/e2a12d30813a67034ecef52f8f5447d9.webp",
-          "desc": "最近更新的破解版或绿色版软件，由爬虫自动更新。",
-          "proxy": false
-        },
-        {
-          "title": "CBox 5.0.1.2",
-          "url": "https://www.lanzoui.com/iMbpG01xex0h",
-          "icon": "img/e2a12d30813a67034ecef52f8f5447d9.webp",
-          "desc": "最近更新的破解版或绿色版软件，由爬虫自动更新。",
-          "proxy": false
-        },
-        {
-          "title": "爱奇艺 12.6.5",
-          "url": "https://www.lanzoui.com/iZ6t601tgl5i",
-          "icon": "img/e2a12d30813a67034ecef52f8f5447d9.webp",
-          "desc": "最近更新的破解版或绿色版软件，由爬虫自动更新。",
-          "proxy": false
-        },
-        {
-          "title": "加快系统开关机速度小软件",
-          "url": "https://www.lanzoui.com/ioK8b01tgq5i",
-          "icon": "img/e2a12d30813a67034ecef52f8f5447d9.webp",
-          "desc": "最近更新的破解版或绿色版软件，由爬虫自动更新。",
-          "proxy": false
-        },
-        {
-          "title": "酷狗音乐 V9.2.29",
-          "url": "https://www.lanzoui.com/i94oy01v7gyf",
-          "icon": "img/e2a12d30813a67034ecef52f8f5447d9.webp",
-          "desc": "最近更新的破解版或绿色版软件，由爬虫自动更新。",
-          "proxy": false
-        },
-        {
-          "title": "搜软资源 1.8",
-          "url": "https://www.lanzoui.com/iEjue01liw8b",
-          "icon": "img/e2a12d30813a67034ecef52f8f5447d9.webp",
-          "desc": "最近更新的破解版或绿色版软件，由爬虫自动更新。",
-          "proxy": false
-        },
-        {
-          "title": "证照裁剪工具",
-          "url": "https://www.lanzoui.com/ijjei01lj5li",
-          "icon": "img/e2a12d30813a67034ecef52f8f5447d9.webp",
-          "desc": "最近更新的破解版或绿色版软件，由爬虫自动更新。",
-          "proxy": false
-        },
-        {
-          "title": "大海视频 V2.1.2",
-          "url": "https://www.lanzoui.com/iJGEm01lixcb",
-          "icon": "img/e2a12d30813a67034ecef52f8f5447d9.webp",
-          "desc": "最近更新的破解版或绿色版软件，由爬虫自动更新。",
-          "proxy": false
-        },
-        {
-          "title": "小恐龙公文排版助手 1902 MSI版",
-          "url": "https://www.lanzoui.com/iyw7w01xby5a",
-          "icon": "img/e2a12d30813a67034ecef52f8f5447d9.webp",
-          "desc": "最近更新的破解版或绿色版软件，由爬虫自动更新。",
-          "proxy": false
-        },
-        {
-          "title": "biubiutv 电视直播接口模板",
-          "url": "https://www.lanzoul.com/iSuyg01ma1hc",
-          "icon": "img/e2a12d30813a67034ecef52f8f5447d9.webp",
-          "desc": "最近更新的破解版或绿色版软件，由爬虫自动更新。",
-          "proxy": false
-        },
-        {
-          "title": "FastStone Capture 8.4 (小巧截图工具)",
-          "url": "https://www.lanzoui.com/i3DqG01ljtkb",
-          "icon": "img/e2a12d30813a67034ecef52f8f5447d9.webp",
-          "desc": "最近更新的破解版或绿色版软件，由爬虫自动更新。",
-          "proxy": false
-        },
-        {
-          "title": "BiuBiu播放器 3.0.5",
-          "url": "https://www.lanzoul.com/indho01ma2lc",
-          "icon": "img/e2a12d30813a67034ecef52f8f5447d9.webp",
-          "desc": "最近更新的破解版或绿色版软件，由爬虫自动更新。",
-          "proxy": false
-        },
-        {
-          "title": "音视图万能格式转换",
-          "url": "https://www.lanzoui.com/ik7JA01p9v6d",
-          "icon": "img/e2a12d30813a67034ecef52f8f5447d9.webp",
-          "desc": "最近更新的破解版或绿色版软件，由爬虫自动更新。",
-          "proxy": false
-        },
-        {
-          "title": "微软常用运行库合集",
-          "url": "https://www.lanzoul.com/iuNx401ma4ve",
-          "icon": "img/e2a12d30813a67034ecef52f8f5447d9.webp",
-          "desc": "最近更新的破解版或绿色版软件，由爬虫自动更新。",
-          "proxy": false
-        },
-        {
-          "title": "VMOS Pro v2.2 VIP",
-          "url": "https://www.lanzoul.com/i8vc601ma54d",
-          "icon": "img/e2a12d30813a67034ecef52f8f5447d9.webp",
-          "desc": "最近更新的破解版或绿色版软件，由爬虫自动更新。",
-          "proxy": false
-        },
-        {
-          "title": "高德地图车机版 6.1.0",
-          "url": "https://www.lanzoul.com/iiRJ001ma7ub",
-          "icon": "img/e2a12d30813a67034ecef52f8f5447d9.webp",
-          "desc": "最近更新的破解版或绿色版软件，由爬虫自动更新。",
-          "proxy": false
-        },
-        {
-          "title": "猫影视TV v2.1.0.111",
-          "url": "https://www.lanzoul.com/iTygW01ma85c",
-          "icon": "img/e2a12d30813a67034ecef52f8f5447d9.webp",
-          "desc": "最近更新的破解版或绿色版软件，由爬虫自动更新。",
-          "proxy": false
-        },
-        {
-          "title": "IDM Patch",
-          "url": "https://www.lanzoul.com/iYnyf01q7ibe",
-          "icon": "img/e2a12d30813a67034ecef52f8f5447d9.webp",
-          "desc": "最近更新的破解版或绿色版软件，由爬虫自动更新。",
-          "proxy": false
-        },
-        {
-          "title": "MXPlayer TV v1.12.1G 盒子版",
-          "url": "https://www.lanzoul.com/ixt2i01q7kej",
-          "icon": "img/e2a12d30813a67034ecef52f8f5447d9.webp",
-          "desc": "最近更新的破解版或绿色版软件，由爬虫自动更新。",
-          "proxy": false
-        },
-        {
-          "title": "书签网址有效性检测",
-          "url": "https://www.lanzoul.com/ii5gg01q7p4j",
-          "icon": "img/e2a12d30813a67034ecef52f8f5447d9.webp",
-          "desc": "最近更新的破解版或绿色版软件，由爬虫自动更新。",
-          "proxy": false
-        },
-        {
-          "title": "CCleaner Pro v5.91.9357",
-          "url": "https://www.lanzoul.com/iC1T701ma3sf",
-          "icon": "img/e2a12d30813a67034ecef52f8f5447d9.webp",
-          "desc": "最近更新的破解版或绿色版软件，由爬虫自动更新。",
-          "proxy": false
-        }
-      ]
+      "sites": []
     },
     {
       "categoryName": "系统工具与维护",
@@ -2500,13 +1763,6 @@
           "proxy": false
         },
         {
-          "title": "单文件制作程序",
-          "url": "https://www.yuque.com/lixin-uxnsi/share/lkzlgp",
-          "icon": "img/143932c4d87af62e01137b5e20a1cc38.webp",
-          "desc": "介绍如何将一个程序及其依赖文件打包成单个可执行文件的工具，如Cameyo。",
-          "proxy": false
-        },
-        {
           "title": "Snipaste",
           "url": "https://docs.snipaste.com/zh-cn/getting-started",
           "desc": "强大易用的截图+贴图工具。",
@@ -2518,13 +1774,6 @@
           "url": "https://www.7-zip.org/",
           "icon": "img/f77d1f20686a6bb34ccbe769d2b7e575.webp",
           "desc": "开源免费的文件压缩软件，支持多种格式。",
-          "proxy": false
-        },
-        {
-          "title": "文件夹大小排序",
-          "url": "https://pan.baidu.com/share/init?surl=3v-ym1vnoxgF2K5eQJjIQQ",
-          "icon": "img/7f5e5f59ad32f86a36fe0ac4a9e62ed4.webp",
-          "desc": "显示文件夹大小并排序的工具，【提取码：rq43】。",
           "proxy": false
         },
         {
@@ -2548,24 +1797,10 @@
       "categoryId": "browsers-extensions",
       "sites": [
         {
-          "title": "Microsoft Edge",
-          "url": "https://flowus.cn/share/eaca0040-42b4-496b-bc73-6931858fb506?code=CZ3ECT",
-          "icon": "img/a7bbcaaff9b421c8065e6a3a46d0d813.webp",
-          "desc": "👍便携版＋正式版，基于Chromium，性能优秀且功能丰富。",
-          "proxy": false
-        },
-        {
           "title": "百分浏览器",
           "url": "https://www.centbrowser.cn/",
           "icon": "img/63a4f039191a699be400f582ef00eaf6.webp",
           "desc": "一款增强的Chrome浏览器，集成了许多实用功能。",
-          "proxy": false
-        },
-        {
-          "title": "Google Chrome",
-          "url": "https://flowus.cn/share/687fd978-7615-4b58-9502-5585c312cacb?code=CZ3ECT",
-          "icon": "img/a7bbcaaff9b421c8065e6a3a46d0d813.webp",
-          "desc": "便携版＋正式版，全球市场份额最高的浏览器。",
           "proxy": false
         },
         {
@@ -2580,13 +1815,6 @@
           "url": "https://bitbucket.org/xiu2/userscript/raw/master/GithubEnhanced-High-Speed-Download.user.js",
           "icon": "img/d9edf2a6f791120dea5f27ae4faf1212.webp",
           "desc": "为Github添加高速下载通道的油猴脚本。",
-          "proxy": false
-        },
-        {
-          "title": "Firefox",
-          "url": "https://flowus.cn/share/61172d7f-01b2-4db2-b2a3-0557dac478f0?code=CZ3ECT",
-          "icon": "img/a7bbcaaff9b421c8065e6a3a46d0d813.webp",
-          "desc": "便携版／正式版，开源、注重隐私的浏览器。",
           "proxy": false
         },
         {
@@ -2645,13 +1873,6 @@
           "proxy": false
         },
         {
-          "title": "资源嗅探",
-          "url": "https://www.yuque.com/lixin-uxnsi/share/aimzqw",
-          "icon": "img/143932c4d87af62e01137b5e20a1cc38.webp",
-          "desc": "利用浏览器扩展或专门工具嗅探和下载网页中的视频、音频等媒体资源。",
-          "proxy": false
-        },
-        {
           "title": "Parsevideo",
           "url": "https://pv.vlogdownloader.com/",
           "icon": "img/93fc65514aba6352337a9f61833a9257.webp",
@@ -2659,24 +1880,10 @@
           "proxy": false
         },
         {
-          "title": "soso music",
-          "url": "https://baozangku.lanzoui.com/iwe6Tmypjwh",
-          "desc": "Mac版本",
-          "icon": "img/e2a12d30813a67034ecef52f8f5447d9.webp",
-          "proxy": false
-        },
-        {
           "title": "洛雪音乐助手",
           "url": "https://lxmusic.toside.cn/",
           "icon": "img/cf404a6c1a352e360024ffd53334e8f2.webp",
           "desc": "一个聚合各大音乐平台资源的免费桌面音乐播放器。",
-          "proxy": false
-        },
-        {
-          "title": "洛雪音乐助手桌面版",
-          "url": "https://github.com/lyswhut/lx-music-desktop#readme",
-          "icon": "",
-          "desc": "一个基于 Electron + Vue 开发的音乐软件。",
           "proxy": false
         },
         {
@@ -2691,13 +1898,6 @@
           "url": "https://lizhi.shop/products/vidjuice-unitube?cid=ds7afku3",
           "icon": "img/7910dbe4c5dfa899bd01e1cb7c679226.webp",
           "desc": "支持1000+平台在线音视频下载工具，正版特惠仅需￥79永久！",
-          "proxy": false
-        },
-        {
-          "title": "SpleeterGui",
-          "url": "https://pan.baidu.com/share/init?surl=Mzihk3yJJIqxb09mNtMsWw",
-          "icon": "img/7f5e5f59ad32f86a36fe0ac4a9e62ed4.webp",
-          "desc": "消人声利器，可分离人声和伴奏，【提取码：ayx2】。",
           "proxy": false
         },
         {
@@ -2729,24 +1929,10 @@
           "icon": ""
         },
         {
-          "title": "听音5.04.37",
-          "url": "https://baozangku.lanzoui.com/ioQHlp20ebc",
-          "desc": "一款音乐识别和播放应用。",
-          "icon": "img/e2a12d30813a67034ecef52f8f5447d9.webp",
-          "proxy": false
-        },
-        {
           "title": "V视频助手",
           "url": "https://2025-12-08.sqllq.com/en/#nolanguage?ranks.xin",
           "icon": "img/985e992614e48c9b6a7120d4c5363ffb.webp",
           "desc": "支持腾讯、秒拍、微博、今日头条、快手等多个平台的视频下载。",
-          "proxy": false
-        },
-        {
-          "title": "soso music",
-          "url": "https://baozangku.lanzoui.com/iIAizmypkhi",
-          "desc": "Win版本",
-          "icon": "img/e2a12d30813a67034ecef52f8f5447d9.webp",
           "proxy": false
         }
       ]
@@ -2755,20 +1941,6 @@
       "categoryName": "设计图像与办公",
       "categoryId": "design-office",
       "sites": [
-        {
-          "title": "WPS",
-          "url": "https://mp.weixin.qq.com/s/60Jbep8yLuuuKHuKmD954A",
-          "icon": "img/5281e972ec463897022f56464011b5ed.webp",
-          "desc": "提供WPS Office的特别版本或去广告版本，以及使用技巧分享。",
-          "proxy": false
-        },
-        {
-          "title": "论文助手三件套",
-          "url": "https://www.lanzoul.com/i3vC701ma82j",
-          "icon": "img/e2a12d30813a67034ecef52f8f5447d9.webp",
-          "desc": "最近更新的破解版或绿色版软件，由爬虫自动更新。",
-          "proxy": false
-        },
         {
           "title": "MindMaster",
           "url": "https://mm.edrawsoft.cn/create",
@@ -2781,13 +1953,6 @@
           "url": "https://www.uupoop.com/ps/",
           "icon": "img/106f19286cad80e7175ef3643c4d1582.webp",
           "desc": "比官网快，支持证件照一键换底",
-          "proxy": false
-        },
-        {
-          "title": "Easyfind汉化包",
-          "url": "https://www.yuque.com/lixin-uxnsi/share/re1qak",
-          "icon": "img/143932c4d87af62e01137b5e20a1cc38.webp",
-          "desc": "提供macOS上文件搜索工具Easyfind的汉化补丁。",
           "proxy": false
         },
         {
@@ -2804,13 +1969,6 @@
       "categoryId": "downloaders-cloud",
       "sites": [
         {
-          "title": "Adobe全家桶2022直装版",
-          "url": "https://www.aliyundrive.com/s/WjvzfZUEX7z",
-          "icon": "img/060fbd5f9f928c5dd6c18a01e54407ed.webp",
-          "desc": "Adobe系列软件2022版，阿里云盘下载。",
-          "proxy": false
-        },
-        {
           "title": "1DM 破解版",
           "url": "https://yxssp.lanzoui.com/b478866/",
           "icon": "img/e2a12d30813a67034ecef52f8f5447d9.webp",
@@ -2822,13 +1980,6 @@
           "url": "https://tools.jb51.net/aideddesign/bt2mag",
           "icon": "img/fb5be7301a268ecbdcf032cc872347f1.webp",
           "desc": "脚本之家提供的BT种子与磁力链接互转工具。",
-          "proxy": false
-        },
-        {
-          "title": "MiPony",
-          "url": "https://www.yuque.com/lixin-uxnsi/share/ymd4ri",
-          "icon": "img/143932c4d87af62e01137b5e20a1cc38.webp",
-          "desc": "白马下载器（MiPony）的使用教程，支持从海量网盘下载文件。",
           "proxy": false
         },
         {
@@ -2846,31 +1997,10 @@
           "proxy": false
         },
         {
-          "title": "蓝奏云",
-          "url": "https://www.yuque.com/lixin-uxnsi/share/dgychd",
-          "icon": "img/143932c4d87af62e01137b5e20a1cc38.webp",
-          "desc": "分享蓝奏云网盘的各类脚本和工具，提升使用体验。",
-          "proxy": false
-        },
-        {
           "title": "迅雷-免会员精简去限速版",
           "url": "https://www.lanzous.com/i8mip2f",
           "icon": "",
           "desc": "安卓版迅雷，精简去广告。",
-          "proxy": false
-        },
-        {
-          "title": "微盘",
-          "url": "https://www.yuque.com/lixin-uxnsi/share/lexw6o",
-          "icon": "img/143932c4d87af62e01137b5e20a1cc38.webp",
-          "desc": "介绍新浪微盘的替代品或相关资源下载方法。",
-          "proxy": false
-        },
-        {
-          "title": "城通网盘下载器",
-          "url": "https://www.yuque.com/lixin-uxnsi/share/bfy9rl",
-          "icon": "img/143932c4d87af62e01137b5e20a1cc38.webp",
-          "desc": "提供针对城通网盘的专用下载工具，解决下载限速和弹窗问题。",
           "proxy": false
         }
       ]
@@ -2971,241 +2101,10 @@
           "proxy": false
         },
         {
-          "title": "Ryujinx模拟器",
-          "url": "https://pan.baidu.com/share/init?surl=PB0Yea9y471A_g7tQi4gHg",
-          "icon": "img/7f5e5f59ad32f86a36fe0ac4a9e62ed4.webp",
-          "desc": "提取码: uifi",
-          "proxy": false
-        },
-        {
-          "title": "Yuzu模拟器",
-          "url": "https://pan.baidu.com/share/init?surl=2y-Cac79Kldd8vnexfWV5g",
-          "icon": "img/7f5e5f59ad32f86a36fe0ac4a9e62ed4.webp",
-          "desc": "提取码: jspf",
-          "proxy": false
-        },
-        {
-          "title": "逍遥安卓模拟器",
-          "url": "https://pan.baidu.com/share/init?surl=RU6oMskoDM4ZaXp4RYEagw",
-          "icon": "img/7f5e5f59ad32f86a36fe0ac4a9e62ed4.webp",
-          "desc": "绿色无广告7.5.0版本",
-          "proxy": false
-        },
-        {
-          "title": "诸神将陨",
-          "url": "https://pan.baidu.com/s/1uovlSkUlvLaN4Ku0PFJGBQ#list/path=/",
-          "icon": "img/7f5e5f59ad32f86a36fe0ac4a9e62ed4.webp",
-          "desc": "免安装绿色中文版",
-          "proxy": false
-        },
-        {
-          "title": "20款街机游戏",
-          "url": "https://pan.baidu.com/share/init?surl=QPdG2oJXuQ8chX1zNIfR5A",
-          "icon": "img/7f5e5f59ad32f86a36fe0ac4a9e62ed4.webp",
-          "desc": "提取码: q5g1",
-          "proxy": false
-        },
-        {
-          "title": "PC移植游戏",
-          "url": "https://pan.baidu.com/share/init?surl=EX4BvH98gjBpEkEvOMgj3w",
-          "icon": "img/7f5e5f59ad32f86a36fe0ac4a9e62ed4.webp",
-          "desc": "（不兼容安卓10系统，尤其是华为的） 提取码: ck8z",
-          "proxy": false
-        },
-        {
-          "title": "10款战旗类游戏",
-          "url": "https://pan.baidu.com/share/init?surl=bM9e-yaTE1Diqx79wshEOw",
-          "icon": "img/7f5e5f59ad32f86a36fe0ac4a9e62ed4.webp",
-          "desc": "提取码: kyqu",
-          "proxy": false
-        },
-        {
-          "title": "26款策略塔防类游戏",
-          "url": "https://pan.baidu.com/share/init?surl=Nt3xvw25F8gX9bHUuHGg-w",
-          "icon": "img/7f5e5f59ad32f86a36fe0ac4a9e62ed4.webp",
-          "desc": "提取码: g1jt",
-          "proxy": false
-        },
-        {
-          "title": "15款回合制游戏",
-          "url": "https://pan.baidu.com/share/init?surl=Egn4v7DC7Ttr6VwWU9SNGw",
-          "icon": "img/7f5e5f59ad32f86a36fe0ac4a9e62ed4.webp",
-          "desc": "提取码: 8ewz",
-          "proxy": false
-        },
-        {
-          "title": "17款即时角色类",
-          "url": "https://pan.baidu.com/share/init?surl=KA8lGZKN45VAKpbLRtyhBA",
-          "icon": "img/7f5e5f59ad32f86a36fe0ac4a9e62ed4.webp",
-          "desc": "提取码: zrj7",
-          "proxy": false
-        },
-        {
-          "title": "22款 经营策略 游戏",
-          "url": "https://pan.baidu.com/share/init?surl=C7hqUlZ70CRVUE01AcZyvw",
-          "icon": "img/7f5e5f59ad32f86a36fe0ac4a9e62ed4.webp",
-          "desc": "提取码: i4k4",
-          "proxy": false
-        },
-        {
-          "title": "16款 卡牌类游戏",
-          "url": "https://pan.baidu.com/share/init?surl=apKYaxod4YUDvtniYZNN1g",
-          "icon": "img/7f5e5f59ad32f86a36fe0ac4a9e62ed4.webp",
-          "desc": "提取码: v7qe",
-          "proxy": false
-        },
-        {
-          "title": "动物园之星",
-          "url": "https://wwi.lanzoui.com/iVyyek7fe4f",
-          "desc": "由《过山车之星》团队打造的终极动物园模拟游戏。",
-          "icon": "img/e2a12d30813a67034ecef52f8f5447d9.webp",
-          "proxy": false
-        },
-        {
-          "title": "41款 射击类游戏合集",
-          "url": "https://pan.baidu.com/share/init?surl=6Atf30q5ry4afLaB7ymweQ",
-          "icon": "img/7f5e5f59ad32f86a36fe0ac4a9e62ed4.webp",
-          "desc": "提取码: w83r",
-          "proxy": false
-        },
-        {
           "title": "哈利波特与死亡圣器(下)简体中文版",
           "url": "https://pan.xunlei.com/s/VMgdBQ2hL3VIUuB9Z_rPIbkxA1",
           "desc": "《哈利·波特》系列同名电影改编的动作冒险游戏。",
           "icon": "img/7e2dc2c2ba1d625cb159d22da3744308.webp",
-          "proxy": false
-        },
-        {
-          "title": "NBA 2K20无条件试用金币",
-          "url": "https://pan.baidu.com/share/init?surl=5IRjh-DavpMWUpXwUBqMqw",
-          "icon": "img/7f5e5f59ad32f86a36fe0ac4a9e62ed4.webp",
-          "desc": "提取码: nxc2",
-          "proxy": false
-        },
-        {
-          "title": "22款解谜益智类",
-          "url": "https://pan.baidu.com/share/init?surl=K7NGAEq58QnUKvt0hVZUlQ",
-          "icon": "img/7f5e5f59ad32f86a36fe0ac4a9e62ed4.webp",
-          "desc": "提取码: xdzy",
-          "proxy": false
-        },
-        {
-          "title": "梦幻足球联盟2021内置菜单",
-          "url": "https://pan.baidu.com/share/init?surl=nWPyCJDd65IiL18VIgaFGQ",
-          "icon": "img/7f5e5f59ad32f86a36fe0ac4a9e62ed4.webp",
-          "desc": "提取码: adv9",
-          "proxy": false
-        },
-        {
-          "title": "smash club功夫大乱斗",
-          "url": "https://pan.baidu.com/share/init?surl=_QXBSAZlaJSL7bQZAx1njQ",
-          "icon": "img/7f5e5f59ad32f86a36fe0ac4a9e62ed4.webp",
-          "desc": "提取码: 8sun",
-          "proxy": false
-        },
-        {
-          "title": "马里奥赛车8",
-          "url": "https://pan.baidu.com/share/init?surl=OHew4U2U0Ee2aP5wCIStyw",
-          "icon": "img/7f5e5f59ad32f86a36fe0ac4a9e62ed4.webp",
-          "desc": "提取码: a57k",
-          "proxy": false
-        },
-        {
-          "title": "马力奥疯兔：王国之战",
-          "url": "https://pan.baidu.com/share/init?surl=uNVpXe3e5Lv6Omss-6obUg",
-          "icon": "img/7f5e5f59ad32f86a36fe0ac4a9e62ed4.webp",
-          "desc": "提取码: fc57",
-          "proxy": false
-        },
-        {
-          "title": "群星之间",
-          "url": "https://wwi.lanzoui.com/i1jQqtad9hi",
-          "desc": "动作元素的科幻策略游戏",
-          "icon": "img/e2a12d30813a67034ecef52f8f5447d9.webp",
-          "proxy": false
-        },
-        {
-          "title": "塞尔达传说：荒野之息",
-          "url": "https://pan.baidu.com/share/init?surl=s6Lhe6-hQSisdEioSBitOw",
-          "icon": "img/7f5e5f59ad32f86a36fe0ac4a9e62ed4.webp",
-          "desc": "模拟器版 提取码: 5j9t",
-          "proxy": false
-        },
-        {
-          "title": "怪物猎人崛起",
-          "url": "https://pan.baidu.com/share/init?surl=j3awq3XLV9vbgAZVSRGLug",
-          "icon": "img/7f5e5f59ad32f86a36fe0ac4a9e62ed4.webp",
-          "desc": "提取码: vnja",
-          "proxy": false
-        },
-        {
-          "title": "三位一体4：梦魇王子",
-          "url": "https://pan.baidu.com/share/init?surl=FYDLnj4VUpwmBY5tgfS8Fw",
-          "icon": "img/7f5e5f59ad32f86a36fe0ac4a9e62ed4.webp",
-          "desc": "激活码：2879663",
-          "proxy": false
-        },
-        {
-          "title": "古剑奇谭3",
-          "url": "https://pan.baidu.com/share/init?surl=6pkDFL2iOBpfITfkxNIq1Q",
-          "icon": "img/7f5e5f59ad32f86a36fe0ac4a9e62ed4.webp",
-          "desc": "提取码: kys5 (激活码：258997)",
-          "proxy": false
-        },
-        {
-          "title": "古剑奇谭1",
-          "url": "https://pan.baidu.com/share/init?surl=Ih07ePRFkW7gstZ4GKzkVg",
-          "icon": "img/7f5e5f59ad32f86a36fe0ac4a9e62ed4.webp",
-          "desc": "提取码: in2s",
-          "proxy": false
-        },
-        {
-          "title": "古剑奇谭2",
-          "url": "https://pan.baidu.com/share/init?surl=TzsmnfJ-ZOvWUX_e05f9qA",
-          "icon": "img/7f5e5f59ad32f86a36fe0ac4a9e62ed4.webp",
-          "desc": "提取码: 3y4v",
-          "proxy": false
-        },
-        {
-          "title": "暗黑血统2",
-          "url": "https://pan.baidu.com/share/init?surl=ePwyPq4gWvui73FoaID5zg",
-          "icon": "img/7f5e5f59ad32f86a36fe0ac4a9e62ed4.webp",
-          "desc": "提取码: 4gn3",
-          "proxy": false
-        },
-        {
-          "title": "暗黑血统战神版",
-          "url": "https://pan.baidu.com/share/init?surl=_eSw04gJYnvuKtxm0rmTSQ",
-          "icon": "img/7f5e5f59ad32f86a36fe0ac4a9e62ed4.webp",
-          "desc": "提取码: 9fpi",
-          "proxy": false
-        },
-        {
-          "title": "物质世界",
-          "url": "https://pan.baidu.com/share/init?surl=VME10TGBdkrd6okLIvKINQ",
-          "icon": "img/7f5e5f59ad32f86a36fe0ac4a9e62ed4.webp",
-          "desc": "提取码: u6dq",
-          "proxy": false
-        },
-        {
-          "title": "真三国无双",
-          "url": "https://pan.baidu.com/share/init?surl=Yc5Jqz_yeEbtLrw2O8fgqQ",
-          "icon": "img/7f5e5f59ad32f86a36fe0ac4a9e62ed4.webp",
-          "desc": "提取码: ezpx",
-          "proxy": false
-        },
-        {
-          "title": "禁闭求生",
-          "url": "https://pan.baidu.com/share/init?surl=Tzt8pNqyLbb242dYCmoyDA",
-          "icon": "img/7f5e5f59ad32f86a36fe0ac4a9e62ed4.webp",
-          "desc": "提取码: i48w 激活码：918331",
-          "proxy": false
-        },
-        {
-          "title": "零之曙光",
-          "url": "https://pan.baidu.com/share/init?surl=mbSSWZ1VOdPYULy72GTZ2Q",
-          "icon": "img/7f5e5f59ad32f86a36fe0ac4a9e62ed4.webp",
-          "desc": "提取码: 357445",
           "proxy": false
         },
         {
@@ -3229,13 +2128,6 @@
       "categoryId": "mobile-apps-selection",
       "sites": [
         {
-          "title": "开源阅读",
-          "url": "https://flowus.cn/share/cdd3abe6-25a0-468d-bd00-ba0acb46ada1?code=CZ3ECT",
-          "icon": "img/a7bbcaaff9b421c8065e6a3a46d0d813.webp",
-          "desc": "🥇👍安卓最强小说APP，通过导入书源可阅读全网小说。",
-          "proxy": false
-        },
-        {
           "title": "李跳跳",
           "url": "https://www.appinn.com/li-tiaotiao-for-android/",
           "icon": "img/b71efdc68de12a889b97c99c54fd7087.webp",
@@ -3247,13 +2139,6 @@
           "url": "https://viayoo.com/zh-cn/",
           "icon": "",
           "desc": "轻量、快速的安卓浏览器，支持安装JS插件。",
-          "proxy": false
-        },
-        {
-          "title": "旧版APP",
-          "url": "https://www.yuque.com/lixin-uxnsi/share/cnndxh",
-          "icon": "img/143932c4d87af62e01137b5e20a1cc38.webp",
-          "desc": "提供寻找和下载iOS及安卓应用历史旧版本的渠道和方法。",
           "proxy": false
         },
         {
@@ -3271,20 +2156,6 @@
           "proxy": false
         },
         {
-          "title": "TVBox",
-          "url": "https://flowus.cn/share/aac6bf05-ae48-411f-a67c-91977658e9af?code=CZ3ECT",
-          "icon": "img/a7bbcaaff9b421c8065e6a3a46d0d813.webp",
-          "desc": "👍开源的安卓TV盒子应用，配置接口后可观看VIP影视和电视直播。",
-          "proxy": false
-        },
-        {
-          "title": "TV Bro",
-          "url": "https://url67.ctfile.com/d/14869667-59641894-be1643?p=kyon",
-          "icon": "img/b0076ef2d0bfc5573f2906e5208855a9.webp",
-          "desc": "开源的TV端浏览器。",
-          "proxy": false
-        },
-        {
           "title": "Emotn Browser",
           "url": "https://www.ddooo.com/softdown/213370.htm",
           "icon": "img/32da0623ee4cc6ec0fee716973dc81a7.webp",
@@ -3296,20 +2167,6 @@
           "url": "https://www.tvmao.com/tvapp/63457.html",
           "icon": "img/8a9363054a4ee40a0dcf829d839fed86.webp",
           "desc": "TV端浏览器。",
-          "proxy": false
-        },
-        {
-          "title": "海阔视界",
-          "url": "https://flowus.cn/share/107a313d-9396-4ebc-bb2b-6dde2547a460?code=CZ3ECT",
-          "icon": "img/a7bbcaaff9b421c8065e6a3a46d0d813.webp",
-          "desc": "👍安卓端万能工具，通过规则可实现影视、音乐、阅读等多种功能。",
-          "proxy": false
-        },
-        {
-          "title": "Firefox TV 4.8",
-          "url": "https://url67.ctfile.com/f/14869667-1008083267-08aa45?p=kyon",
-          "icon": "img/b0076ef2d0bfc5573f2906e5208855a9.webp",
-          "desc": "Firefox官方TV版，适配电视遥控器操作。",
           "proxy": false
         },
         {
@@ -3348,52 +2205,10 @@
           "proxy": false
         },
         {
-          "title": "Via浏览器",
-          "url": "https://chendandan.lanzoux.com/iblm0ed",
-          "icon": "img/e2a12d30813a67034ecef52f8f5447d9.webp",
-          "desc": "安卓平台极简、快速的浏览器，体积小巧，功能强大。",
-          "proxy": false
-        },
-        {
-          "title": "Edge Canary（安卓）",
-          "url": "https://mp.weixin.qq.com/s/uOWkUIoUv45Yn3beZ5O8nQ",
-          "icon": "img/5281e972ec463897022f56464011b5ed.webp",
-          "desc": "👍安卓版Edge预览版，支持安装Chrome扩展。",
-          "proxy": false
-        },
-        {
-          "title": "异次元漫画APP+图源",
-          "url": "https://flowus.cn/share/73b97e8d-1463-4642-b9cb-a9a2a4e26874?code=CZ3ECT",
-          "icon": "img/a7bbcaaff9b421c8065e6a3a46d0d813.webp",
-          "desc": "👍安卓端最强漫画APP，通过导入图源可看全网漫画。",
-          "proxy": false
-        },
-        {
-          "title": "酷我音乐(破解版)",
-          "url": "https://chendandan.lanzoux.com/icicm2b",
-          "icon": "img/e2a12d30813a67034ecef52f8f5447d9.webp",
-          "desc": "安卓版酷我音乐，解锁VIP功能，免费下载无损音质。",
-          "proxy": false
-        },
-        {
-          "title": "往期公众号推荐过的软件目录 · 手机专区",
-          "url": "https://mp.weixin.qq.com/s/C6elCp_iWSjcnEu5VvRiUg",
-          "desc": "公众号推荐过的iOS软件目录合集。",
-          "icon": "img/5281e972ec463897022f56464011b5ed.webp",
-          "proxy": false
-        },
-        {
           "title": "nPlayer（iOS）",
           "url": "https://apps.apple.com/cn/app/nplayer/id1116905928",
           "icon": "img/3a63fe3971ed13681f630d66f940185c.webp",
           "desc": "（￥30.00）iOS上功能强大的视频播放器。",
-          "proxy": false
-        },
-        {
-          "title": "MusicFree",
-          "url": "https://flowus.cn/share/bafbf656-846c-4ec2-91ba-085c9dbd19cf?code=CZ3ECT",
-          "icon": "img/a7bbcaaff9b421c8065e6a3a46d0d813.webp",
-          "desc": "安卓端的插件化音乐播放器，可添加各类音源。",
           "proxy": false
         },
         {
@@ -3404,730 +2219,9 @@
           "proxy": false
         },
         {
-          "title": "安卓权限管理",
-          "url": "https://www.yuque.com/lixin-uxnsi/share/qeg055",
-          "icon": "img/52419f3f4f7d11945d272facc76c9e6a.webp",
-          "desc": "介绍安卓系统中的权限管理工具和方法，如App Ops、冰箱等。",
-          "proxy": false
-        },
-        {
-          "title": "扫描全能王(高级版)",
-          "url": "https://chendandan.lanzoux.com/iGf6Zdorfnc",
-          "icon": "img/e2a12d30813a67034ecef52f8f5447d9.webp",
-          "desc": "安卓版扫描全能王，解锁高级版功能，无限制使用。",
-          "proxy": false
-        },
-        {
-          "title": "BOX+文档扫描仪",
-          "url": "https://mp.weixin.qq.com/s/CZu6jBTwh4b6GDhV-X3XJQ",
-          "desc": "\"BOX\"和\"文档扫描仪\"两款iOS应用的合集。",
-          "icon": "img/5281e972ec463897022f56464011b5ed.webp",
-          "proxy": false
-        },
-        {
-          "title": "CCTV Viewer",
-          "url": "https://flowus.cn/share/c2fc6ed0-1db7-4bb3-88a3-9ef09674da7d?code=CZ3ECT",
-          "icon": "img/a7bbcaaff9b421c8065e6a3a46d0d813.webp",
-          "desc": "👍专为观看CCTV频道设计的电视直播APP。",
-          "proxy": false
-        },
-        {
-          "title": "安卓通知管理",
-          "url": "https://www.yuque.com/lixin-uxnsi/share/my3x7z",
-          "icon": "img/52419f3f4f7d11945d272facc76c9e6a.webp",
-          "desc": "分享管理和过滤安卓系统烦人通知的技巧和应用。",
-          "proxy": false
-        },
-        {
-          "title": "搜书大师",
-          "url": "https://chendandan.lanzoux.com/icj4jcb",
-          "icon": "img/e2a12d30813a67034ecef52f8f5447d9.webp",
-          "desc": "安卓端强大的小说搜书和阅读工具，聚合了海量书源。",
-          "proxy": false
-        },
-        {
-          "title": "Flaget-计划清单",
-          "url": "https://mp.weixin.qq.com/s/FqIZue0CImRxLOeXhcvaag",
-          "desc": "一款用于制定计划和管理清单的iOS应用。",
-          "icon": "img/5281e972ec463897022f56464011b5ed.webp",
-          "proxy": false
-        },
-        {
-          "title": "WebViewTvLive",
-          "url": "https://flowus.cn/share/c1117034-e047-4e96-bd8e-b517ff8c28b6?code=CZ3ECT",
-          "icon": "img/a7bbcaaff9b421c8065e6a3a46d0d813.webp",
-          "desc": "👍通过加载网页直播源实现电视直播的应用，稳定免费。",
-          "proxy": false
-        },
-        {
-          "title": "轻启动",
-          "url": "https://chendandan.lanzoux.com/igx0Sdceczg",
-          "icon": "img/e2a12d30813a67034ecef52f8f5447d9.webp",
-          "desc": "安卓App，可以自动跳过大多数应用的开屏广告。",
-          "proxy": false
-        },
-        {
-          "title": "GRE3000词",
-          "url": "https://mp.weixin.qq.com/s/Sx_gWUJN61Lex0wH43vXoA",
-          "desc": "帮助备考GRE考试的单词记忆应用。",
-          "icon": "img/5281e972ec463897022f56464011b5ed.webp",
-          "proxy": false
-        },
-        {
-          "title": "mytv",
-          "url": "https://flowus.cn/share/d049e3fe-d830-46c1-9f23-47da4919a696?code=CZ3ECT",
-          "icon": "img/a7bbcaaff9b421c8065e6a3a46d0d813.webp",
-          "desc": "👍简洁稳定的电视直播应用。",
-          "proxy": false
-        },
-        {
-          "title": "iFocusTime+桌面时钟",
-          "url": "https://mp.weixin.qq.com/s/E2wGToLTWlXsQM8slLRLdA",
-          "desc": "\"iFocusTime\"专注时钟和\"桌面时钟\"两款iOS时间管理应用。",
-          "icon": "img/5281e972ec463897022f56464011b5ed.webp",
-          "proxy": false
-        },
-        {
-          "title": "IPTV Pro",
-          "url": "https://flowus.cn/share/fedf619c-5d3f-4499-97e1-3e8b2f728541?code=CZ3ECT",
-          "icon": "img/a7bbcaaff9b421c8065e6a3a46d0d813.webp",
-          "desc": "（直播／可看港澳台）强大的IPTV客户端，导入直播源后可观看全球电视。",
-          "proxy": false
-        },
-        {
-          "title": "ink+解忧小猫咪",
-          "url": "https://mp.weixin.qq.com/s/mb0zpUA44VfQCaXYny6d5Q",
-          "desc": "\"ink\"笔记应用和\"解忧小猫咪\"趣味应用的合集。",
-          "icon": "img/5281e972ec463897022f56464011b5ed.webp",
-          "proxy": false
-        },
-        {
-          "title": "阿里云盘TV版",
-          "url": "https://flowus.cn/share/24e3173a-ccc5-4287-bb67-7229900ee2c7?code=CZ3ECT",
-          "icon": "img/a7bbcaaff9b421c8065e6a3a46d0d813.webp",
-          "desc": "第三方开发的阿里云盘TV客户端，方便在大屏设备上观看。",
-          "proxy": false
-        },
-        {
-          "title": "久坐时间+OneMore",
-          "url": "https://mp.weixin.qq.com/s/32QfK1CFC0Bv9LU-ClZnqA",
-          "desc": "\"久坐时间\"提醒应用和\"OneMore\"计数应用的合集。",
-          "icon": "img/5281e972ec463897022f56464011b5ed.webp",
-          "proxy": false
-        },
-        {
-          "title": "Kiwi－谷歌内核",
-          "url": "https://flowus.cn/share/5c092544-0048-4283-9f8f-b8944d3a42ec?code=CZ3ECT",
-          "icon": "img/a7bbcaaff9b421c8065e6a3a46d0d813.webp",
-          "desc": "安卓端支持Chrome扩展和PWA的浏览器。",
-          "proxy": false
-        },
-        {
-          "title": "List背单词",
-          "url": "https://mp.weixin.qq.com/s/s1g2beASv7a4UKTWPFhOfA",
-          "desc": "一款清单式背单词的iOS应用。",
-          "icon": "img/5281e972ec463897022f56464011b5ed.webp",
-          "proxy": false
-        },
-        {
-          "title": "Mooding心情摩天轮",
-          "url": "https://mp.weixin.qq.com/s/Kt2THC9vJBAQd7itYwKkMg",
-          "desc": "一款记录心情的日记应用。",
-          "icon": "img/5281e972ec463897022f56464011b5ed.webp",
-          "proxy": false
-        },
-        {
-          "title": "Nian",
-          "url": "https://mp.weixin.qq.com/s/5BYl1t2oJBUvGxj3eb3ZSw",
-          "desc": "一款记录想法和故事的创意日记应用。",
-          "icon": "img/5281e972ec463897022f56464011b5ed.webp",
-          "proxy": false
-        },
-        {
-          "title": "ttowa+目标笔记",
-          "url": "https://mp.weixin.qq.com/s/j6UPIMw5vTPaTyniUWqTvA",
-          "desc": "\"ttowa\"和\"目标笔记\"两款iOS笔记与目标管理应用。",
-          "icon": "img/5281e972ec463897022f56464011b5ed.webp",
-          "proxy": false
-        },
-        {
-          "title": "Timez、格子酱",
-          "url": "https://mp.weixin.qq.com/s/2z0Ykee3OfI0_uiOUccm3Q",
-          "desc": "\"Timez\"和\"格子酱\"两款iOS应用的合集。",
-          "icon": "img/5281e972ec463897022f56464011b5ed.webp",
-          "proxy": false
-        },
-        {
-          "title": "八点课程表+宇宙人日记",
-          "url": "https://mp.weixin.qq.com/s/jNhPqwKgMlSYlXt0HWDhiQ",
-          "desc": "\"八点课程表\"和\"宇宙人日记\"两款iOS应用的合集。",
-          "icon": "img/5281e972ec463897022f56464011b5ed.webp",
-          "proxy": false
-        },
-        {
-          "title": "ARPlan 3D",
-          "url": "https://wwi.lanzoui.com/i3yLJs11umh",
-          "desc": "会员高级版 需要配合Google.Ar使用",
-          "icon": "img/e2a12d30813a67034ecef52f8f5447d9.webp",
-          "proxy": false
-        },
-        {
-          "title": "白板+便利贴",
-          "url": "https://mp.weixin.qq.com/s/LatiMVuzcEgnyouEzBLehw",
-          "desc": "\"白板\"和\"便利贴\"两款iOS效率工具应用。",
-          "icon": "img/5281e972ec463897022f56464011b5ed.webp",
-          "proxy": false
-        },
-        {
-          "title": "Ai扫描 v1.0.0",
-          "url": "https://wwi.lanzoui.com/i1Fj7ql2tsb",
-          "desc": "一款使用AI技术的手机扫描应用。",
-          "icon": "img/e2a12d30813a67034ecef52f8f5447d9.webp",
-          "proxy": false
-        },
-        {
-          "title": "背个x啊",
-          "url": "https://mp.weixin.qq.com/s/Kt2THC9vJBAQd7itYwKkMg",
-          "desc": "一款趣味背单词的iOS应用。",
-          "icon": "img/5281e972ec463897022f56464011b5ed.webp",
-          "proxy": false
-        },
-        {
-          "title": "CAD看图王v4.3.0",
-          "url": "https://baozangku.lanzoui.com/iJBdDodssjc",
-          "desc": "手机端CAD看图软件，方便快捷浏览图纸。",
-          "icon": "img/e2a12d30813a67034ecef52f8f5447d9.webp",
-          "proxy": false
-        },
-        {
-          "title": "待办泡泡+收哪儿",
-          "url": "https://mp.weixin.qq.com/s/c2ScTpNnibfwIQ07Mkimcw",
-          "desc": "\"待办泡泡\"任务管理和\"收哪儿\"物品收纳两款iOS应用。",
-          "icon": "img/5281e972ec463897022f56464011b5ed.webp",
-          "proxy": false
-        },
-        {
-          "title": "Bluecoins 财务和预算 v11.5.1",
-          "url": "https://wwi.lanzoui.com/i4cW5qxdd1g",
-          "desc": "高级会员版",
-          "icon": "img/e2a12d30813a67034ecef52f8f5447d9.webp",
-          "proxy": false
-        },
-        {
-          "title": "典读",
-          "url": "https://mp.weixin.qq.com/s/5UaKFQEXlvKHqL71shXTvA",
-          "desc": "一款阅读中国古籍经典的iOS应用。",
-          "icon": "img/5281e972ec463897022f56464011b5ed.webp",
-          "proxy": false
-        },
-        {
-          "title": "Office三件套",
-          "url": "https://baozangku.lanzoux.com/iceKDiossgj",
-          "desc": "包含Word, Excel, PowerPoint的移动办公套件。",
-          "icon": "img/e2a12d30813a67034ecef52f8f5447d9.webp",
-          "proxy": false
-        },
-        {
-          "title": "飞观+岛读",
-          "url": "https://mp.weixin.qq.com/mp/wappoc_appmsgcaptcha?poc_token=HMC6NmmjxWGe_gO7F0zeN-ALNblGCJXsv_lKhfiK&target_url=https%3A%2F%2Fmp.weixin.qq.com%2Fs%2FnKO9-olmwepMQKMbsOLvFw",
-          "desc": "\"飞观\"和\"岛读\"两款iOS阅读应用的合集。",
-          "icon": "img/5281e972ec463897022f56464011b5ed.webp",
-          "proxy": false
-        },
-        {
-          "title": "Google.Ar.core",
-          "url": "https://wwi.lanzoui.com/idg3cs11uza",
-          "desc": "需要配合ARPlan 3D使用",
-          "icon": "img/e2a12d30813a67034ecef52f8f5447d9.webp",
-          "proxy": false
-        },
-        {
-          "title": "果蔬百科+读典籍",
-          "url": "https://mp.weixin.qq.com/s/RgjhHdBdwaOlAKNhQYaw7Q",
-          "desc": "\"果蔬百科\"和\"读典籍\"两款iOS知识类应用。",
-          "icon": "img/5281e972ec463897022f56464011b5ed.webp",
-          "proxy": false
-        },
-        {
-          "title": "PDF创作者",
-          "url": "https://www.lanzoui.com/i343Ej0frgh",
-          "desc": "用于在手机上创建PDF文件的工具。",
-          "icon": "img/e2a12d30813a67034ecef52f8f5447d9.webp",
-          "proxy": false
-        },
-        {
-          "title": "解忧星球+Timo笔记",
-          "url": "https://mp.weixin.qq.com/s/PDfsLLnWaKE_2DwMUBvm7g",
-          "desc": "\"解忧星球\"和\"Timo笔记\"两款iOS应用的合集。",
-          "icon": "img/5281e972ec463897022f56464011b5ed.webp",
-          "proxy": false
-        },
-        {
-          "title": "PDF Extra_会员高级版 合集",
-          "url": "https://wwi.lanzoui.com/b01cpc1tg",
-          "desc": "密码:ae2d",
-          "icon": "img/e2a12d30813a67034ecef52f8f5447d9.webp",
-          "proxy": false
-        },
-        {
-          "title": "靠谱背单词+英语阅读",
-          "url": "https://mp.weixin.qq.com/s/dzhrHmfTJ-WyQyfV77UvLQ",
-          "desc": "\"靠谱背单词\"和\"英语阅读\"两款iOS英语学习应用。",
-          "icon": "img/5281e972ec463897022f56464011b5ed.webp",
-          "proxy": false
-        },
-        {
-          "title": "PDF全能王 v2.3",
-          "url": "https://wwi.lanzoui.com/i0Fgzpbngqb",
-          "desc": "功能全面的PDF处理工具，集阅读、编辑、转换于一体。",
-          "icon": "img/e2a12d30813a67034ecef52f8f5447d9.webp",
-          "proxy": false
-        },
-        {
-          "title": "lemon点点+柠檬喝水",
-          "url": "https://mp.weixin.qq.com/s/p4klLbMHAGfg1HATRLra4A",
-          "desc": "\"lemon点点\"和\"柠檬喝水\"两款iOS健康习惯应用。",
-          "icon": "img/5281e972ec463897022f56464011b5ed.webp",
-          "proxy": false
-        },
-        {
-          "title": "Snaptube_v5.11.0.5111710_",
-          "url": "https://baozangku.lanzoux.com/iKidujzqx5i",
-          "desc": "国外视频下载",
-          "icon": "img/e2a12d30813a67034ecef52f8f5447d9.webp",
-          "proxy": false
-        },
-        {
-          "title": "奶茶打卡+习惯打卡养成",
-          "url": "https://mp.weixin.qq.com/s/zlKpOM4VeCtlhQbZP1hwaw",
-          "desc": "\"奶茶打卡\"和\"习惯打卡养成\"两款iOS习惯追踪应用。",
-          "icon": "img/5281e972ec463897022f56464011b5ed.webp",
-          "proxy": false
-        },
-        {
-          "title": "PDF转换大师 v2.1.6",
-          "url": "https://wwi.lanzoui.com/iHT2rs11vcd",
-          "desc": "会员版",
-          "icon": "img/e2a12d30813a67034ecef52f8f5447d9.webp",
-          "proxy": false
-        },
-        {
-          "title": "我的标记+工具象",
-          "url": "https://mp.weixin.qq.com/s/C2x2zAwUUWQH3H9PPJN_Zg",
-          "desc": "\"我的标记\"和\"工具象\"两款iOS效率工具应用。",
-          "icon": "img/5281e972ec463897022f56464011b5ed.webp",
-          "proxy": false
-        },
-        {
-          "title": "WPS 会员",
-          "url": "https://wwi.lanzoui.com/isaBrpqug1i",
-          "desc": "WPS Office会员版，解锁更多高级功能。",
-          "icon": "img/e2a12d30813a67034ecef52f8f5447d9.webp",
-          "proxy": false
-        },
-        {
-          "title": "我的番茄+小改变",
-          "url": "https://mp.weixin.qq.com/s/Ok0et8VMO-JpQMX6xwUugQ",
-          "desc": "\"我的番茄\"和\"小改变\"两款iOS时间与习惯管理应用。",
-          "icon": "img/5281e972ec463897022f56464011b5ed.webp",
-          "proxy": false
-        },
-        {
-          "title": "幕布 v2.15.0",
-          "url": "https://baozangku.lanzoui.com/i8ZYlkdtb4h",
-          "desc": "极简大纲笔记，一键生成思维导图。",
-          "icon": "img/e2a12d30813a67034ecef52f8f5447d9.webp",
-          "proxy": false
-        },
-        {
-          "title": "小A阅读+词根单词",
-          "url": "https://mp.weixin.qq.com/s/MuuVqyKxov7WBnUnfDstjg",
-          "desc": "\"小A阅读\"和\"词根单词\"两款iOS英语学习应用。",
-          "icon": "img/5281e972ec463897022f56464011b5ed.webp",
-          "proxy": false
-        },
-        {
-          "title": "Xodo_v7.0.3_[Premium_Mod PDF阅读",
-          "url": "https://wwi.lanzoui.com/iwKrDorddah",
-          "desc": "高级版PDF阅读和标注工具。",
-          "icon": "img/e2a12d30813a67034ecef52f8f5447d9.webp",
-          "proxy": false
-        },
-        {
-          "title": "小陪伴+决定喵",
-          "url": "https://mp.weixin.qq.com/s/MFDn7p4XjYNG7X-qTNFFXA",
-          "desc": "\"小陪伴\"和\"决定喵\"两款iOS趣味工具应用。",
-          "icon": "img/5281e972ec463897022f56464011b5ed.webp",
-          "proxy": false
-        },
-        {
-          "title": "电工计算器 v8.0.1",
-          "url": "https://baozangku.lanzoui.com/in7l9pcny1a",
-          "desc": "专为电工设计的计算工具应用。",
-          "icon": "img/e2a12d30813a67034ecef52f8f5447d9.webp",
-          "proxy": false
-        },
-        {
-          "title": "小熊倒数+Nian",
-          "url": "https://mp.weixin.qq.com/s/5BYl1t2oJBUvGxj3eb3ZSw",
-          "desc": "\"小熊倒数\"和\"Nian\"日记两款iOS应用的合集。",
-          "icon": "img/5281e972ec463897022f56464011b5ed.webp",
-          "proxy": false
-        },
-        {
-          "title": "代码编辑器v0.5.5",
-          "url": "https://wwi.lanzoui.com/iEfOypphtmd",
-          "desc": "手机端的代码编辑工具，支持多种编程语言。",
-          "icon": "img/e2a12d30813a67034ecef52f8f5447d9.webp",
-          "proxy": false
-        },
-        {
-          "title": "讯飞文档+i笛云",
-          "url": "https://mp.weixin.qq.com/s/am7ScO0LSEq46inPUP6x0w",
-          "desc": "\"讯飞文档\"和\"i笛云\"听写两款iOS办公学习应用。",
-          "icon": "img/5281e972ec463897022f56464011b5ed.webp",
-          "proxy": false
-        },
-        {
-          "title": "看图王高级版",
-          "url": "https://www.lanzoui.com/ipAqDfreg2j",
-          "desc": "手机端图片和CAD图纸查看工具的高级版。",
-          "icon": "img/e2a12d30813a67034ecef52f8f5447d9.webp",
-          "proxy": false
-        },
-        {
-          "title": "洋果证件照",
-          "url": "https://mp.weixin.qq.com/s/5UaKFQEXlvKHqL71shXTvA",
-          "desc": "一款在iOS上制作证件照的应用。",
-          "icon": "img/5281e972ec463897022f56464011b5ed.webp",
-          "proxy": false
-        },
-        {
-          "title": "好多纸1.2.2",
-          "url": "https://wwi.lanzoui.com/inu87klqp9g",
-          "desc": "一款记录和管理笔记的应用。",
-          "icon": "img/e2a12d30813a67034ecef52f8f5447d9.webp",
-          "proxy": false
-        },
-        {
-          "title": "英语听听",
-          "url": "https://mp.weixin.qq.com/s/Sx_gWUJN61Lex0wH43vXoA",
-          "desc": "一款练习英语听力的iOS应用。",
-          "icon": "img/5281e972ec463897022f56464011b5ed.webp",
-          "proxy": false
-        },
-        {
-          "title": "轻描_1.3.0.008",
-          "url": "https://www.lanzoui.com/i6891iome4h",
-          "desc": "一款轻量级的绘画或笔记应用。",
-          "icon": "img/e2a12d30813a67034ecef52f8f5447d9.webp",
-          "proxy": false
-        },
-        {
-          "title": "在手机桌面养猫猫吧",
-          "url": "https://mp.weixin.qq.com/s/FqIZue0CImRxLOeXhcvaag",
-          "desc": "一款可在iOS桌面养虚拟宠物的趣味应用。",
-          "icon": "img/5281e972ec463897022f56464011b5ed.webp",
-          "proxy": false
-        },
-        {
-          "title": "电子表格 v1.0.4",
-          "url": "https://wwi.lanzoui.com/iqfB6rbs07i",
-          "desc": "手机上的电子表格处理应用。",
-          "icon": "img/e2a12d30813a67034ecef52f8f5447d9.webp",
-          "proxy": false
-        },
-        {
-          "title": "电子表格制作 v1.13",
-          "url": "https://wwi.lanzoui.com/iMY70rbryxc",
-          "desc": "会员版",
-          "icon": "img/e2a12d30813a67034ecef52f8f5447d9.webp",
-          "proxy": false
-        },
-        {
-          "title": "配音神器v2.0.53",
-          "url": "https://baozangku.lanzoui.com/ioIebpqyzqb",
-          "desc": "提供多种音效和功能的手机配音工具。",
-          "icon": "img/e2a12d30813a67034ecef52f8f5447d9.webp",
-          "proxy": false
-        },
-        {
-          "title": "Logo设计君",
-          "url": "https://wwi.lanzoui.com/iSXebm7it6h",
-          "desc": "在手机上快速设计Logo的应用。",
-          "icon": "img/e2a12d30813a67034ecef52f8f5447d9.webp",
-          "proxy": false
-        },
-        {
-          "title": "拍照取字3.3.1",
-          "url": "https://baozangku.lanzoui.com/i6ZMUpdwqne",
-          "desc": "通过拍照快速识别图片中的文字。",
-          "icon": "img/e2a12d30813a67034ecef52f8f5447d9.webp",
-          "proxy": false
-        },
-        {
-          "title": "录音转文字助手v5.2.2",
-          "url": "https://wwi.lanzoui.com/iJc2cptdcla",
-          "desc": "VIP版",
-          "icon": "img/e2a12d30813a67034ecef52f8f5447d9.webp",
-          "proxy": false
-        },
-        {
-          "title": "扫描官 v1.2.4.3",
-          "url": "https://baozangku.lanzoui.com/ibHAqrsnu6j",
-          "desc": "手机扫描仪应用，可将纸质文件转为电子版。",
-          "icon": "img/e2a12d30813a67034ecef52f8f5447d9.webp",
-          "proxy": false
-        },
-        {
-          "title": "轮班规划表",
-          "url": "https://wwi.lanzoui.com/iuB7pjx64eb",
-          "desc": "用于安排和查看轮班工作表的应用。",
-          "icon": "img/e2a12d30813a67034ecef52f8f5447d9.webp",
-          "proxy": false
-        },
-        {
-          "title": "思维导图 v8.4.7",
-          "url": "https://baozangku.lanzoui.com/iltDJpv25jc",
-          "desc": "在手机上创建和编辑思维导图的应用。",
-          "icon": "img/e2a12d30813a67034ecef52f8f5447d9.webp",
-          "proxy": false
-        },
-        {
-          "title": "麻雀记_VIP高级版 合集",
-          "url": "https://wwi.lanzoui.com/b01cpc0ij",
-          "desc": "密码:25ac",
-          "icon": "img/e2a12d30813a67034ecef52f8f5447d9.webp",
-          "proxy": false
-        },
-        {
-          "title": "文字配音大师",
-          "url": "https://www.lanzoui.com/iOagFisc50d",
-          "desc": "将文字转换为语音并进行配音的工具。",
-          "icon": "img/e2a12d30813a67034ecef52f8f5447d9.webp",
-          "proxy": false
-        },
-        {
-          "title": "配音软件 v3.0.1132",
-          "url": "https://wwi.lanzoui.com/icidXs11u0f",
-          "desc": "超级会员高级版",
-          "icon": "img/e2a12d30813a67034ecef52f8f5447d9.webp",
-          "proxy": false
-        },
-        {
           "title": "文字转语音 1.4.1101",
           "url": "https://wwi.lanzoux.com/i96zHow89pi",
           "desc": "将输入的文字转换成语音朗读。",
-          "icon": "img/e2a12d30813a67034ecef52f8f5447d9.webp",
-          "proxy": false
-        },
-        {
-          "title": "图片扫一扫v1.41",
-          "url": "https://baozangku.lanzoui.com/ig5ZBma9dkj",
-          "desc": "通过扫描图片进行识别或搜索的工具。",
-          "icon": "img/e2a12d30813a67034ecef52f8f5447d9.webp",
-          "proxy": false
-        },
-        {
-          "title": "拍图秒识字 v1.0.1",
-          "url": "https://wwi.lanzoui.com/imvhcrvn43i",
-          "desc": "免费版",
-          "icon": "img/e2a12d30813a67034ecef52f8f5447d9.webp",
-          "proxy": false
-        },
-        {
-          "title": "迅捷PDF转换器 v4.9.0",
-          "url": "https://baozangku.lanzoui.com/ioeX7njn42b",
-          "desc": "手机端PDF格式转换工具。",
-          "icon": "img/e2a12d30813a67034ecef52f8f5447d9.webp",
-          "proxy": false
-        },
-        {
-          "title": "扫描君 扫描王全能宝 会员版 合集",
-          "url": "https://wwi.lanzoui.com/b01cpc5wd",
-          "desc": "密码:ebya",
-          "icon": "img/e2a12d30813a67034ecef52f8f5447d9.webp",
-          "proxy": false
-        },
-        {
-          "title": "言叶 1.9.5",
-          "url": "https://baozangku.lanzoui.com/i0YZbql2y1e",
-          "desc": "专业版",
-          "icon": "img/e2a12d30813a67034ecef52f8f5447d9.webp",
-          "proxy": false
-        },
-        {
-          "title": "文字识别_v1.8.8",
-          "url": "https://wwi.lanzoui.com/iAs3Mlnodbc",
-          "desc": "高效的OCR文字识别工具。",
-          "icon": "img/e2a12d30813a67034ecef52f8f5447d9.webp",
-          "proxy": false
-        },
-        {
-          "title": "洋果扫描王_1.5.4",
-          "url": "https://baozangku.lanzoux.com/isVBep9vx5i",
-          "desc": "一款手机扫描应用。",
-          "icon": "img/e2a12d30813a67034ecef52f8f5447d9.webp",
-          "proxy": false
-        },
-        {
-          "title": "讯飞语记_5.6.1302",
-          "url": "https://wwi.lanzoui.com/iFrNSlfjd7a",
-          "desc": "讯飞出品的语音笔记应用，支持语音转文字。",
-          "icon": "img/e2a12d30813a67034ecef52f8f5447d9.webp",
-          "proxy": false
-        },
-        {
-          "title": "语音合成助手v1.4.1090",
-          "url": "https://baozangku.lanzoux.com/iHJRkitm8vi",
-          "desc": "将文字合成为自然语音的工具。",
-          "icon": "img/e2a12d30813a67034ecef52f8f5447d9.webp",
-          "proxy": false
-        },
-        {
-          "title": "讯飞语记_v5.6.1305",
-          "url": "https://wwi.lanzoui.com/ihCbyo1g8gf",
-          "desc": "讯飞出品的语音笔记应用，支持语音转文字。",
-          "icon": "img/e2a12d30813a67034ecef52f8f5447d9.webp",
-          "proxy": false
-        },
-        {
-          "title": "智能PDF扫描仪 v1.0.0",
-          "url": "https://baozangku.lanzoui.com/iN2CFqj1vqd",
-          "desc": "智能化的PDF文档扫描工具。",
-          "icon": "img/e2a12d30813a67034ecef52f8f5447d9.webp",
-          "proxy": false
-        },
-        {
-          "title": "值班规划表 v2.0.1.6",
-          "url": "https://baozangku.lanzoui.com/idX99r6gwri",
-          "desc": "会员版",
-          "icon": "img/e2a12d30813a67034ecef52f8f5447d9.webp",
-          "proxy": false
-        },
-        {
-          "title": "IT之家 7.83",
-          "url": "https://wwi.lanzoui.com/b01cl9j4h",
-          "desc": "去广告版_密码:34gh",
-          "icon": "img/e2a12d30813a67034ecef52f8f5447d9.webp",
-          "proxy": false
-        },
-        {
-          "title": "See 第三方微博 高级版 合集",
-          "url": "https://wwi.lanzoui.com/b01cpccqj",
-          "desc": "密码:21bv",
-          "icon": "img/e2a12d30813a67034ecef52f8f5447d9.webp",
-          "proxy": false
-        },
-        {
-          "title": "UC浏览器纯净版",
-          "url": "https://www.lanzoui.com/iccy0gc0wza",
-          "desc": "去广告、无打扰的UC浏览器版本。",
-          "icon": "img/e2a12d30813a67034ecef52f8f5447d9.webp",
-          "proxy": false
-        },
-        {
-          "title": "WIFI万能钥匙v5.1.13国际版",
-          "url": "https://wwi.lanzoui.com/b01cl9ihe",
-          "desc": "密码:9f6q",
-          "icon": "img/e2a12d30813a67034ecef52f8f5447d9.webp",
-          "proxy": false
-        },
-        {
-          "title": "WPS Office_v14.6.1纯净专业中文版",
-          "url": "https://wwi.lanzoui.com/b01cl9isf",
-          "desc": "密码:3q9d",
-          "icon": "img/e2a12d30813a67034ecef52f8f5447d9.webp",
-          "proxy": false
-        },
-        {
-          "title": "QQ浏览器纯净版",
-          "url": "https://www.lanzoui.com/iUWWQgc0x6h",
-          "desc": "简洁无广告的QQ浏览器版本。",
-          "icon": "img/e2a12d30813a67034ecef52f8f5447d9.webp",
-          "proxy": false
-        },
-        {
-          "title": "家常菜v5.3.9纯净版",
-          "url": "https://baozangku.lanzoui.com/inYM1q0ij2f",
-          "desc": "一款无广告的家常菜谱应用。",
-          "icon": "img/e2a12d30813a67034ecef52f8f5447d9.webp",
-          "proxy": false
-        },
-        {
-          "title": "百度网盘倍速版",
-          "url": "https://www.lanzoui.com/iyuJSg4jh2d",
-          "desc": "支持倍速播放的百度网盘修改版。",
-          "icon": "img/e2a12d30813a67034ecef52f8f5447d9.webp",
-          "proxy": false
-        },
-        {
-          "title": "哔哩哔哩6.7.1纯净版",
-          "url": "https://www.lanzoui.com/i4MhLg4jkuj",
-          "desc": "精简去广告的哔哩哔哩客户端。",
-          "icon": "img/e2a12d30813a67034ecef52f8f5447d9.webp",
-          "proxy": false
-        },
-        {
-          "title": "抖音12.4.0【5.5M】",
-          "url": "https://www.lanzoui.com/i02DFg4jkwb",
-          "desc": "超小体积的抖音概念版。",
-          "icon": "img/e2a12d30813a67034ecef52f8f5447d9.webp",
-          "proxy": false
-        },
-        {
-          "title": "今日头条纯净版",
-          "url": "https://www.lanzoui.com/iHcLegc0x4f",
-          "desc": "无广告、界面清爽的今日头条版本。",
-          "icon": "img/e2a12d30813a67034ecef52f8f5447d9.webp",
-          "proxy": false
-        },
-        {
-          "title": "快牙 v5.10.6",
-          "url": "https://wwi.lanzoui.com/iPDehrhleyd",
-          "desc": "纯净版",
-          "icon": "img/e2a12d30813a67034ecef52f8f5447d9.webp",
-          "proxy": false
-        },
-        {
-          "title": "美图秀秀 会员版合集",
-          "url": "https://wwi.lanzoui.com/b01cpam0b",
-          "desc": "密码:5spn",
-          "icon": "img/e2a12d30813a67034ecef52f8f5447d9.webp",
-          "proxy": false
-        },
-        {
-          "title": "搜狗浏览器去广告版",
-          "url": "https://www.lanzoui.com/iuVITgc0xja",
-          "desc": "去除广告和多余功能的搜狗浏览器。",
-          "icon": "img/e2a12d30813a67034ecef52f8f5447d9.webp",
-          "proxy": false
-        },
-        {
-          "title": "贴吧_Lite_v4.0.0",
-          "url": "https://baozangku.lanzoux.com/ijvsMlebqfc",
-          "desc": "轻量级的百度贴吧客户端。",
-          "icon": "img/e2a12d30813a67034ecef52f8f5447d9.webp",
-          "proxy": false
-        },
-        {
-          "title": "网易邮箱v6.23.8",
-          "url": "https://wwi.lanzoui.com/iPc1Mpwu0mj",
-          "desc": "纯净版",
-          "icon": "img/e2a12d30813a67034ecef52f8f5447d9.webp",
-          "proxy": false
-        },
-        {
-          "title": "网易邮箱大师6.23.7",
-          "url": "https://wwi.lanzoui.com/iEsevpwu10d",
-          "desc": "纯净版",
-          "icon": "img/e2a12d30813a67034ecef52f8f5447d9.webp",
-          "proxy": false
-        },
-        {
-          "title": "网易云【极致精简版、只适合纯听歌的同学】",
-          "url": "https://www.lanzoui.com/iyWaXg4jlej",
-          "desc": "仅保留核心听歌功能的网易云音乐版本。",
           "icon": "img/e2a12d30813a67034ecef52f8f5447d9.webp",
           "proxy": false
         },
@@ -4139,660 +2233,9 @@
           "proxy": false
         },
         {
-          "title": "最右v5.7.15纯净无水印版",
-          "url": "https://wwi.lanzoui.com/b01cl9iob",
-          "desc": "密码:7bix",
-          "icon": "img/e2a12d30813a67034ecef52f8f5447d9.webp",
-          "proxy": false
-        },
-        {
-          "title": "知乎-内置模块",
-          "url": "https://wwi.lanzoui.com/iRxG0ma75pe",
-          "desc": "内置功能模块，提供更佳体验的知乎版本。",
-          "icon": "img/e2a12d30813a67034ecef52f8f5447d9.webp",
-          "proxy": false
-        },
-        {
-          "title": "知乎 精简养老版 v1.0.0",
-          "url": "https://baozangku.lanzoui.com/isRT8pv255i",
-          "desc": "极其精简的知乎客户端，适合纯粹阅读。",
-          "icon": "img/e2a12d30813a67034ecef52f8f5447d9.webp",
-          "proxy": false
-        },
-        {
-          "title": "Medisafe吃药提醒 v9.11.10710",
-          "url": "https://baozangku.lanzoui.com/i3Vdaqcaj3a",
-          "desc": "高级版",
-          "icon": "img/e2a12d30813a67034ecef52f8f5447d9.webp",
-          "proxy": false
-        },
-        {
-          "title": "怀孕v3.27.0",
-          "url": "https://wwi.lanzoui.com/iMj9Rn5uuyh",
-          "desc": "专为孕期妈妈设计的辅助应用。",
-          "icon": "img/e2a12d30813a67034ecef52f8f5447d9.webp",
-          "proxy": false
-        },
-        {
-          "title": "用药助手v12.2",
-          "url": "https://baozangku.lanzoui.com/iIfSMlkjoih",
-          "desc": "提供药品信息查询、用药指南的专业工具。",
-          "icon": "img/e2a12d30813a67034ecef52f8f5447d9.webp",
-          "proxy": false
-        },
-        {
-          "title": "有来急救百科v1.0.4",
-          "url": "https://wwi.lanzoui.com/igeOmk8odqb",
-          "desc": "提供常见急救知识和方法的科普应用。",
-          "icon": "img/e2a12d30813a67034ecef52f8f5447d9.webp",
-          "proxy": false
-        },
-        {
-          "title": "中医针灸_3.12.3",
-          "url": "https://baozangku.lanzoui.com/ilhsLpdwrah",
-          "desc": "中医针灸穴位查询和学习应用。",
-          "icon": "img/e2a12d30813a67034ecef52f8f5447d9.webp",
-          "proxy": false
-        },
-        {
-          "title": "Painter 无限绘画 高级版 v6.6.1",
-          "url": "https://baozangku.lanzoui.com/ik4pNqna2qh",
-          "desc": "功能强大的移动端绘画应用高级版。",
-          "icon": "img/e2a12d30813a67034ecef52f8f5447d9.webp",
-          "proxy": false
-        },
-        {
-          "title": "儿童画画v1.5.0.14",
-          "url": "https://wwi.lanzoui.com/iRmhSk5y9yh",
-          "desc": "专为儿童设计的绘画涂鸦应用。",
-          "icon": "img/e2a12d30813a67034ecef52f8f5447d9.webp",
-          "proxy": false
-        },
-        {
-          "title": "儿童绘画Drawing_for_Kids__v3_3.0.1.1",
-          "url": "https://baozangku.lanzoui.com/idEe6nos6ri",
-          "desc": "适合儿童的绘画启蒙应用。",
-          "icon": "img/e2a12d30813a67034ecef52f8f5447d9.webp",
-          "proxy": false
-        },
-        {
-          "title": "概念画板v20.210..8",
-          "url": "https://wwi.lanzoui.com/iLgU2ov0p5a",
-          "desc": "专业的矢量绘画和设计工具。",
-          "icon": "img/e2a12d30813a67034ecef52f8f5447d9.webp",
-          "proxy": false
-        },
-        {
-          "title": "画世界 v1.7.0",
-          "url": "https://wwi.lanzoui.com/ii0pqt4w23a",
-          "desc": "会员版",
-          "icon": "img/e2a12d30813a67034ecef52f8f5447d9.webp",
-          "proxy": false
-        },
-        {
-          "title": "画画类App汇总",
-          "url": "https://www.lanzoui.com/b01bnod9c",
-          "desc": "【密码:aabh】",
-          "icon": "img/e2a12d30813a67034ecef52f8f5447d9.webp",
-          "proxy": false
-        },
-        {
-          "title": "绘画桌_v5.8.3",
-          "url": "https://baozangku.lanzoui.com/inLMfo62qtc",
-          "desc": "模拟真实绘画体验的手机应用。",
-          "icon": "img/e2a12d30813a67034ecef52f8f5447d9.webp",
-          "proxy": false
-        },
-        {
-          "title": "素描大师SketchMaster_Pro_2.6",
-          "url": "https://baozangku.lanzoui.com/ikt6imypkzg",
-          "desc": "将照片转换为素描效果的专业工具。",
-          "icon": "img/e2a12d30813a67034ecef52f8f5447d9.webp",
-          "proxy": false
-        },
-        {
-          "title": "YAZIO v7.2.24",
-          "url": "https://wwi.lanzoui.com/ib2hxtad67a",
-          "desc": "会员版",
-          "icon": "img/e2a12d30813a67034ecef52f8f5447d9.webp",
-          "proxy": false
-        },
-        {
-          "title": "30天健身减肥",
-          "url": "https://baozangku.lanzoux.com/iBAgFkdtali",
-          "desc": "为用户规划为期30天的健身与减肥计划。",
-          "icon": "img/e2a12d30813a67034ecef52f8f5447d9.webp",
-          "proxy": false
-        },
-        {
-          "title": "每日锻炼Daily Workouts-v6.32",
-          "url": "https://wwi.lanzoui.com/iEB4Anxf16d",
-          "desc": "每日例行锻炼计划，帮助您在家中锻炼。",
-          "icon": "img/e2a12d30813a67034ecef52f8f5447d9.webp",
-          "proxy": false
-        },
-        {
-          "title": "燃脂运动_v1.0.11",
-          "url": "https://wwi.lanzoui.com/iFYqonpy6qj",
-          "desc": "专注于燃脂的有氧运动指导应用。",
-          "icon": "img/e2a12d30813a67034ecef52f8f5447d9.webp",
-          "proxy": false
-        },
-        {
-          "title": "Leap",
-          "url": "https://wwi.lanzoui.com/iSXJIlozk9e",
-          "desc": "免费健身教练",
-          "icon": "img/e2a12d30813a67034ecef52f8f5447d9.webp",
-          "proxy": false
-        },
-        {
-          "title": "Dumpster_Premium_v3.8.391",
-          "url": "https://baozangku.lanzoui.com/ilHNJmzw7vc",
-          "desc": "类似电脑回收站功能，可恢复误删文件的高级版。",
-          "icon": "img/e2a12d30813a67034ecef52f8f5447d9.webp",
-          "proxy": false
-        },
-        {
-          "title": "电脑+安卓：数据恢复App汇总",
-          "url": "https://wwi.lanzoui.com/b01byz52j",
-          "desc": "密码：hagw",
-          "icon": "img/e2a12d30813a67034ecef52f8f5447d9.webp",
-          "proxy": false
-        },
-        {
-          "title": "快剪辑 会员版",
-          "url": "https://pan.baidu.com/share/init?surl=WPfsi3lg7TKju4NL5vBxmg",
-          "icon": "img/7f5e5f59ad32f86a36fe0ac4a9e62ed4.webp",
-          "desc": "提取码: vvqk",
-          "proxy": false
-        },
-        {
-          "title": "手机数据恢复精灵 v10.1.0",
-          "url": "https://baozangku.lanzoui.com/iScHhqna28j",
-          "desc": "手机号注册登录即会员",
-          "icon": "img/e2a12d30813a67034ecef52f8f5447d9.webp",
-          "proxy": false
-        },
-        {
-          "title": "手机数据恢复精灵 v5.0",
-          "url": "https://wwi.lanzoui.com/iKJ9rql2t0d",
-          "desc": "VIP高级版",
-          "icon": "img/e2a12d30813a67034ecef52f8f5447d9.webp",
-          "proxy": false
-        },
-        {
-          "title": "手机数据恢复精灵_v3.0.0",
-          "url": "https://wwi.lanzoui.com/iWYI6oezrid",
-          "desc": "用于恢复手机上误删数据的工具。",
-          "icon": "img/e2a12d30813a67034ecef52f8f5447d9.webp",
-          "proxy": false
-        },
-        {
-          "title": "AE片头大师v2.0.1",
-          "url": "https://wwi.lanzoui.com/irRxck8oe7i",
-          "desc": "在手机上制作AE风格视频片头的工具。",
-          "icon": "img/e2a12d30813a67034ecef52f8f5447d9.webp",
-          "proxy": false
-        },
-        {
-          "title": "Filmigo_v5.0.0",
-          "url": "https://baozangku.lanzoux.com/ijfv0j1lu2d",
-          "desc": "一款视频剪辑和幻灯片制作应用。",
-          "icon": "img/e2a12d30813a67034ecef52f8f5447d9.webp",
-          "proxy": false
-        },
-        {
-          "title": "InShot_v1.701.1310",
-          "url": "https://wwi.lanzoui.com/isUqnn4ml6b",
-          "desc": "功能全面的视频编辑和制作工具。",
-          "icon": "img/e2a12d30813a67034ecef52f8f5447d9.webp",
-          "proxy": false
-        },
-        {
-          "title": "Knockout智能抠图_证件照 v4.1.1",
-          "url": "https://www.lanzoui.com/i7rociomdob",
-          "desc": "智能抠图并制作证件照的应用。",
-          "icon": "img/e2a12d30813a67034ecef52f8f5447d9.webp",
-          "proxy": false
-        },
-        {
-          "title": "Soloop&amp;#160;即录_1.21.2",
-          "url": "https://www.lanzoui.com/iOfGcinvihc",
-          "desc": "OPPO手机出品的智能视频剪辑工具。",
-          "icon": "img/e2a12d30813a67034ecef52f8f5447d9.webp",
-          "proxy": false
-        },
-        {
-          "title": "Tempo Pro_v2.1.6",
-          "url": "https://wwi.lanzoui.com/iNzmCkb3ebe",
-          "desc": "带有丰富模板和特效的音乐视频编辑器。",
-          "icon": "img/e2a12d30813a67034ecef52f8f5447d9.webp",
-          "proxy": false
-        },
-        {
-          "title": "VivaCut_v2.2.8",
-          "url": "https://wwi.lanzoui.com/iJDhsordcpg",
-          "desc": "专业的手机视频剪辑应用。",
-          "icon": "img/e2a12d30813a67034ecef52f8f5447d9.webp",
-          "proxy": false
-        },
-        {
-          "title": "VUE Vlog v3.21.1",
-          "url": "https://baozangku.lanzoux.com/iQGv7ks7rhe",
-          "desc": "简单易用的Vlog拍摄和剪辑工具。",
-          "icon": "img/e2a12d30813a67034ecef52f8f5447d9.webp",
-          "proxy": false
-        },
-        {
-          "title": "VUE Vlog v3.21.2",
-          "url": "https://wwi.lanzoui.com/i2IZCov0qyf",
-          "desc": "简单易用的Vlog拍摄和剪辑工具。",
-          "icon": "img/e2a12d30813a67034ecef52f8f5447d9.webp",
-          "proxy": false
-        },
-        {
-          "title": "爱剪辑 v62.6",
-          "url": "https://wwi.lanzoui.com/iCg6Xnqy85g",
-          "desc": "手机版的爱剪辑视频编辑软件。",
-          "icon": "img/e2a12d30813a67034ecef52f8f5447d9.webp",
-          "proxy": false
-        },
-        {
-          "title": "带壳录屏v1.2.8",
-          "url": "https://baozangku.lanzoui.com/iDIHHoo5w1g",
-          "desc": "录制屏幕视频并自动套上手机外壳的工具。",
-          "icon": "img/e2a12d30813a67034ecef52f8f5447d9.webp",
-          "proxy": false
-        },
-        {
-          "title": "风云格式工厂",
-          "url": "https://www.lanzoui.com/i8fuKidf1if",
-          "desc": "手机端的多功能音视频格式转换工具。",
-          "icon": "img/e2a12d30813a67034ecef52f8f5447d9.webp",
-          "proxy": false
-        },
-        {
-          "title": "格式工厂转换器",
-          "url": "https://www.lanzoui.com/iqPAyidf25i",
-          "desc": "手机端的格式转换工具。",
-          "icon": "img/e2a12d30813a67034ecef52f8f5447d9.webp",
-          "proxy": false
-        },
-        {
-          "title": "卡通动画FlipaClip Premium v2.5.0",
-          "url": "https://wwi.lanzoui.com/i5i6Ep0wrgf",
-          "desc": "高级版",
-          "icon": "img/e2a12d30813a67034ecef52f8f5447d9.webp",
-          "proxy": false
-        },
-        {
-          "title": "乐视频编辑器_9.1.3",
-          "url": "https://wwi.lanzoui.com/iHFf9pwu09g",
-          "desc": "VIP",
-          "icon": "img/e2a12d30813a67034ecef52f8f5447d9.webp",
-          "proxy": false
-        },
-        {
-          "title": "美绘1.3.6- VIP版",
-          "url": "https://wwi.lanzoui.com/ijtG7pndbwj",
-          "desc": "手绘视频制作",
-          "icon": "img/e2a12d30813a67034ecef52f8f5447d9.webp",
-          "proxy": false
-        },
-        {
-          "title": "清爽视频编辑器 v3.8.0",
-          "url": "https://baozangku.lanzoux.com/iMgqjiyi16h",
-          "desc": "一款界面清爽，功能全面的视频编辑App。",
-          "icon": "img/e2a12d30813a67034ecef52f8f5447d9.webp",
-          "proxy": false
-        },
-        {
-          "title": "巧影 会员专业版 长期更新链接",
-          "url": "https://wwi.lanzoui.com/b01cr9p8d",
-          "desc": "密码:9557",
-          "icon": "img/e2a12d30813a67034ecef52f8f5447d9.webp",
-          "proxy": false
-        },
-        {
-          "title": "趣制作",
-          "url": "https://www.lanzoui.com/i0YWainqgwf",
-          "desc": "提供趣味模板和特效的视频制作应用。",
-          "icon": "img/e2a12d30813a67034ecef52f8f5447d9.webp",
-          "proxy": false
-        },
-        {
-          "title": "视频压缩/转换GIF/合并/倒放/音频提取等功能",
-          "url": "https://www.lanzoui.com/ibKOainvmyd",
-          "desc": "集多种视频处理功能于一体的工具。",
-          "icon": "img/e2a12d30813a67034ecef52f8f5447d9.webp",
-          "proxy": false
-        },
-        {
-          "title": "视频转换器 3.6.0",
-          "url": "https://baozangku.lanzoui.com/iTHGqpv2bxc",
-          "desc": "手机上的视频格式转换工具。",
-          "icon": "img/e2a12d30813a67034ecef52f8f5447d9.webp",
-          "proxy": false
-        },
-        {
-          "title": "玩效v2.1.3",
-          "url": "https://wwi.lanzoui.com/if86Qo8n6ri",
-          "desc": "带有AR特效和趣味玩法的视频拍摄应用。",
-          "icon": "img/e2a12d30813a67034ecef52f8f5447d9.webp",
-          "proxy": false
-        },
-        {
-          "title": "小影v8.5.3",
-          "url": "https://baozangku.lanzoux.com/iWTgziostih",
-          "desc": "广受欢迎的手机视频剪辑与美化工具。",
-          "icon": "img/e2a12d30813a67034ecef52f8f5447d9.webp",
-          "proxy": false
-        },
-        {
-          "title": "熊猫视频压缩器 v1.1.27",
-          "url": "https://wwi.lanzoui.com/iXtbzotnp2d",
-          "desc": "高效的视频文件压缩工具。",
-          "icon": "img/e2a12d30813a67034ecef52f8f5447d9.webp",
-          "proxy": false
-        },
-        {
-          "title": "皮皮动画v2.25.0.2",
-          "url": "https://baozangku.lanzoui.com/iYxJLp5l2ng",
-          "desc": "视频制作",
-          "icon": "img/e2a12d30813a67034ecef52f8f5447d9.webp",
-          "proxy": false
-        },
-        {
-          "title": "Colorize_Premium_v2.3",
-          "url": "https://baozangku.lanzoui.com/isnoMpnilwj",
-          "desc": "为黑白照片上色的AI工具高级版。",
-          "icon": "img/e2a12d30813a67034ecef52f8f5447d9.webp",
-          "proxy": false
-        },
-        {
-          "title": "Facetune2 VIP",
-          "url": "https://wwi.lanzoui.com/iBLzTpkwevc",
-          "desc": "专业级人像精修美颜工具。",
-          "icon": "img/e2a12d30813a67034ecef52f8f5447d9.webp",
-          "proxy": false
-        },
-        {
-          "title": "Fotor-Pro-v6.2.5.916",
-          "url": "https://baozangku.lanzoux.com/iaO0kjnxp4j",
-          "desc": "全能型图片编辑和设计工具的专业版。",
-          "icon": "img/e2a12d30813a67034ecef52f8f5447d9.webp",
-          "proxy": false
-        },
-        {
           "title": "GIF助手v3.2.3",
           "url": "https://wwi.lanzoux.com/i4Lcdoiqtxa",
           "desc": "手机端GIF动图制作和编辑工具。",
-          "icon": "img/e2a12d30813a67034ecef52f8f5447d9.webp",
-          "proxy": false
-        },
-        {
-          "title": "Gif 助手",
-          "url": "https://baozangku.lanzoux.com/i9qqYk3ie9e",
-          "desc": "手机端GIF动图制作和编辑工具。",
-          "icon": "img/e2a12d30813a67034ecef52f8f5447d9.webp",
-          "proxy": false
-        },
-        {
-          "title": "GIF制作编辑器 1.6.618_Q",
-          "url": "https://baozangku.lanzoui.com/iWK6Tpbnfdc",
-          "desc": "功能丰富的GIF动图制作和编辑工具。",
-          "icon": "img/e2a12d30813a67034ecef52f8f5447d9.webp",
-          "proxy": false
-        },
-        {
-          "title": "Huji胶卷相机v2.4_VIP",
-          "url": "https://wwi.lanzoui.com/iHOD4p8phaf",
-          "desc": "模拟复古胶卷相机效果的拍照应用。",
-          "icon": "img/e2a12d30813a67034ecef52f8f5447d9.webp",
-          "proxy": false
-        },
-        {
-          "title": "Koloro 滤镜大师 v4.9.7",
-          "url": "https://baozangku.lanzoui.com/ihPvlqsah6h",
-          "desc": "高级版",
-          "icon": "img/e2a12d30813a67034ecef52f8f5447d9.webp",
-          "proxy": false
-        },
-        {
-          "title": "Lightroom v6.3.0",
-          "url": "https://baozangku.lanzoui.com/iLpGdqsafdc",
-          "desc": "高级版",
-          "icon": "img/e2a12d30813a67034ecef52f8f5447d9.webp",
-          "proxy": false
-        },
-        {
-          "title": "MIX_4.9.27_会员版",
-          "url": "https://wwi.lanzoui.com/iU4A2qn5a0j",
-          "desc": "强大的照片编辑应用，提供丰富滤镜和调节工具。",
-          "icon": "img/e2a12d30813a67034ecef52f8f5447d9.webp",
-          "proxy": false
-        },
-        {
-          "title": "OldRoll复古胶相 v1.4",
-          "url": "https://baozangku.lanzoui.com/itBtMomuhbe",
-          "desc": "模拟多种经典复古胶片相机效果。",
-          "icon": "img/e2a12d30813a67034ecef52f8f5447d9.webp",
-          "proxy": false
-        },
-        {
-          "title": "PickU",
-          "url": "https://baozangku.lanzoux.com/iAq0Ak3iehc",
-          "desc": "简单易用的抠图和照片编辑工具。",
-          "icon": "img/e2a12d30813a67034ecef52f8f5447d9.webp",
-          "proxy": false
-        },
-        {
-          "title": "PicsArt_v17.2.57",
-          "url": "https://baozangku.lanzoui.com/iUHx2quw34f",
-          "desc": "专业会员版",
-          "icon": "img/e2a12d30813a67034ecef52f8f5447d9.webp",
-          "proxy": false
-        },
-        {
-          "title": "PicsKit_v2.1.8",
-          "url": "https://baozangku.lanzoui.com/iOiqNomuhkd",
-          "desc": "全能图片编辑工具箱。",
-          "icon": "img/e2a12d30813a67034ecef52f8f5447d9.webp",
-          "proxy": false
-        },
-        {
-          "title": "PrettyUp_v3.0.1_Pro会员版",
-          "url": "https://baozangku.lanzoui.com/iqaYCtk008h",
-          "desc": "视频人像美颜美体编辑工具。",
-          "icon": "img/e2a12d30813a67034ecef52f8f5447d9.webp",
-          "proxy": false
-        },
-        {
-          "title": "ProKnockout智能抠图 v4.3.4",
-          "url": "https://wwi.lanzoui.com/iUTS6o1g7wf",
-          "desc": "专业的智能抠图P图工具。",
-          "icon": "img/e2a12d30813a67034ecef52f8f5447d9.webp",
-          "proxy": false
-        },
-        {
-          "title": "ToonApp v1.0.46",
-          "url": "https://wwi.lanzoui.com/iTFwJrr8g9c",
-          "desc": "会员版：一键换成漫画脸",
-          "icon": "img/e2a12d30813a67034ecef52f8f5447d9.webp",
-          "proxy": false
-        },
-        {
-          "title": "Toonme",
-          "url": "https://baozangku.lanzoui.com/iQE9zn5vt1e",
-          "desc": "将真人照片一键转换为卡通漫画风格。",
-          "icon": "img/e2a12d30813a67034ecef52f8f5447d9.webp",
-          "proxy": false
-        },
-        {
-          "title": "VSCO-X-v221_高级会员版",
-          "url": "https://wwi.lanzoui.com/iEOWsqixvyh",
-          "desc": "拥有海量高质量滤镜的照片编辑和分享社区。",
-          "icon": "img/e2a12d30813a67034ecef52f8f5447d9.webp",
-          "proxy": false
-        },
-        {
-          "title": "傲软抠图_会员版 合集",
-          "url": "https://wwi.lanzoui.com/b01cpbxha",
-          "desc": "密码:d4wg",
-          "icon": "img/e2a12d30813a67034ecef52f8f5447d9.webp",
-          "proxy": false
-        },
-        {
-          "title": "暴走P图_v2.9.2",
-          "url": "https://baozangku.lanzoui.com/igb8Vok4gze",
-          "desc": "制作搞笑暴走漫画风格图片的工具。",
-          "icon": "img/e2a12d30813a67034ecef52f8f5447d9.webp",
-          "proxy": false
-        },
-        {
-          "title": "大神P图_v4.5.0.1",
-          "url": "https://baozangku.lanzoux.com/iV3npix4nxg",
-          "desc": "一款功能强大的手机P图软件。",
-          "icon": "img/e2a12d30813a67034ecef52f8f5447d9.webp",
-          "proxy": false
-        },
-        {
-          "title": "大神P图_v4.5.2.0",
-          "url": "https://baozangku.lanzoui.com/iUptvl7ymrg",
-          "desc": "一款功能强大的手机P图软件。",
-          "icon": "img/e2a12d30813a67034ecef52f8f5447d9.webp",
-          "proxy": false
-        },
-        {
-          "title": "大神P图_v6.4.0.1-CN",
-          "url": "https://baozangku.lanzoui.com/iwsXdofww9c",
-          "desc": "一款功能强大的手机P图软件。",
-          "icon": "img/e2a12d30813a67034ecef52f8f5447d9.webp",
-          "proxy": false
-        },
-        {
-          "title": "拼图鸭相机_1.7.2",
-          "url": "https://wwi.lanzoui.com/i8UXmpm610j",
-          "desc": "VIP版",
-          "icon": "img/e2a12d30813a67034ecef52f8f5447d9.webp",
-          "proxy": false
-        },
-        {
-          "title": "泼辣修图 v6.0.40",
-          "url": "https://wwi.lanzoui.com/iA9Alpeypqj",
-          "desc": "VIP",
-          "icon": "img/e2a12d30813a67034ecef52f8f5447d9.webp",
-          "proxy": false
-        },
-        {
-          "title": "轻颜相机 VIP高级版 长期更新链接",
-          "url": "https://wwi.lanzoui.com/b01cr8d8f",
-          "desc": "密码:e8v6",
-          "icon": "img/e2a12d30813a67034ecef52f8f5447d9.webp",
-          "proxy": false
-        },
-        {
-          "title": "糖图作坊 v1.1.504",
-          "url": "https://wwi.lanzoui.com/iMVIwr3s00d",
-          "desc": "图片编辑和美化工具。",
-          "icon": "img/e2a12d30813a67034ecef52f8f5447d9.webp",
-          "proxy": false
-        },
-        {
-          "title": "无忧证件照_2.0.5",
-          "url": "https://baozangku.lanzoui.com/iqmFNp3cvsj",
-          "desc": "手机制作和美化各类证件照的应用。",
-          "icon": "img/e2a12d30813a67034ecef52f8f5447d9.webp",
-          "proxy": false
-        },
-        {
-          "title": "相机360_纯净高级版合集",
-          "url": "https://wwi.lanzoui.com/b01cpbz9e",
-          "desc": "密码:9ch0",
-          "icon": "img/e2a12d30813a67034ecef52f8f5447d9.webp",
-          "proxy": false
-        },
-        {
-          "title": "小男孩证件照",
-          "url": "https://www.lanzoui.com/inyjwgkibwh",
-          "desc": "一款用于制作证件照的应用。",
-          "icon": "img/e2a12d30813a67034ecef52f8f5447d9.webp",
-          "proxy": false
-        },
-        {
-          "title": "修图去水印v2.0.0.9",
-          "url": "https://wwi.lanzoui.com/ik04ppwu18b",
-          "desc": "高级版",
-          "icon": "img/e2a12d30813a67034ecef52f8f5447d9.webp",
-          "proxy": false
-        },
-        {
-          "title": "印象 v2.3.10",
-          "url": "https://www.lanzoui.com/iIvONiombbg",
-          "desc": "艺术滤镜和照片编辑工具。",
-          "icon": "img/e2a12d30813a67034ecef52f8f5447d9.webp",
-          "proxy": false
-        },
-        {
-          "title": "长图拼接大师 1.6.8",
-          "url": "https://wwi.lanzoui.com/irILhptddxi",
-          "desc": "高级版",
-          "icon": "img/e2a12d30813a67034ecef52f8f5447d9.webp",
-          "proxy": false
-        },
-        {
-          "title": "证件照片ID_P_o_v7.0.1",
-          "url": "https://wwi.lanzoui.com/ig34Rozq0id",
-          "desc": "专业证件照制作应用。",
-          "icon": "img/e2a12d30813a67034ecef52f8f5447d9.webp",
-          "proxy": false
-        },
-        {
-          "title": "最后一卷胶 v2.5",
-          "url": "https://baozangku.lanzoui.com/iyHuorx5u0f",
-          "desc": "模拟胶片质感的摄影应用。",
-          "icon": "img/e2a12d30813a67034ecef52f8f5447d9.webp",
-          "proxy": false
-        },
-        {
-          "title": "最美证件照v1.0.7",
-          "url": "https://www.lanzoui.com/iHP6siyakhe",
-          "desc": "轻松制作符合规范的精美证件照。",
-          "icon": "img/e2a12d30813a67034ecef52f8f5447d9.webp",
-          "proxy": false
-        },
-        {
-          "title": "马卡龙玩图 v4.6.6",
-          "url": "https://wwi.lanzoui.com/iLXbIrr8hqf",
-          "desc": "会员版",
-          "icon": "img/e2a12d30813a67034ecef52f8f5447d9.webp",
-          "proxy": false
-        },
-        {
-          "title": "微商做图__v1.7.6",
-          "url": "https://wwi.lanzoui.com/i6EI0omklgd",
-          "desc": "专为微商设计的产品图和营销图制作工具。",
-          "icon": "img/e2a12d30813a67034ecef52f8f5447d9.webp",
-          "proxy": false
-        },
-        {
-          "title": "微商做图v1.7.1",
-          "url": "https://wwi.lanzoui.com/iEzHikhxcli",
-          "desc": "专为微商设计的产品图和营销图制作工具。",
-          "icon": "img/e2a12d30813a67034ecef52f8f5447d9.webp",
-          "proxy": false
-        },
-        {
-          "title": "照片编辑器v6.5",
-          "url": "https://baozangku.lanzoui.com/idbIUo8nayj",
-          "desc": "一款多功能的手机照片编辑工具。",
-          "icon": "img/e2a12d30813a67034ecef52f8f5447d9.webp",
-          "proxy": false
-        },
-        {
-          "title": "Grammar英语语法详解",
-          "url": "https://baozangku.lanzoui.com/iqFtBs1jeeb",
-          "desc": "详细讲解英语语法的学习应用。",
           "icon": "img/e2a12d30813a67034ecef52f8f5447d9.webp",
           "proxy": false
         },
@@ -4804,244 +2247,6 @@
           "proxy": false
         },
         {
-          "title": "Quizlet_会员版_v5.13.2",
-          "url": "https://baozangku.lanzoui.com/iz9Wrnxgn1g",
-          "desc": "通过抽认卡、游戏等方式学习的工具。",
-          "icon": "img/e2a12d30813a67034ecef52f8f5447d9.webp",
-          "proxy": false
-        },
-        {
-          "title": "Beelinguapp PRO v2.561",
-          "url": "https://baozangku.lanzoux.com/iaRtMp9vxgj",
-          "desc": "通过阅读双语故事来学习外语。",
-          "icon": "img/e2a12d30813a67034ecef52f8f5447d9.webp",
-          "proxy": false
-        },
-        {
-          "title": "单词蛇 v1.0",
-          "url": "https://baozangku.lanzoui.com/i5DGyrbh2fc",
-          "desc": "通过游戏化的方式趣味记忆单词。",
-          "icon": "img/e2a12d30813a67034ecef52f8f5447d9.webp",
-          "proxy": false
-        },
-        {
-          "title": "单词城堡 v1.1.1",
-          "url": "https://baozangku.lanzoui.com/iZWYotef30b",
-          "desc": "游戏化的英语单词学习应用。",
-          "icon": "img/e2a12d30813a67034ecef52f8f5447d9.webp",
-          "proxy": false
-        },
-        {
-          "title": "单词城堡 v1.1.1 修改版",
-          "url": "https://baozangku.lanzoui.com/iudGWtef2ch",
-          "desc": "游戏化的英语单词学习应用（修改版）。",
-          "icon": "img/e2a12d30813a67034ecef52f8f5447d9.webp",
-          "proxy": false
-        },
-        {
-          "title": "多邻国-v5.13.4_VIP高级版",
-          "url": "https://baozangku.lanzoui.com/ioRIqq7v6pa",
-          "desc": "全球最受欢迎的免费语言学习应用之一，游戏化学习体验。",
-          "icon": "img/e2a12d30813a67034ecef52f8f5447d9.webp",
-          "proxy": false
-        },
-        {
-          "title": "法语助手 v7.9.9",
-          "url": "https://wwi.lanzoui.com/iuQl5mt1dwh",
-          "desc": "权威的法语词典和学习工具。",
-          "icon": "img/e2a12d30813a67034ecef52f8f5447d9.webp",
-          "proxy": false
-        },
-        {
-          "title": "韩语U学院",
-          "url": "https://baozangku.lanzoux.com/iQmUtitm9cf",
-          "desc": "系统学习韩语的在线课程应用。",
-          "icon": "img/e2a12d30813a67034ecef52f8f5447d9.webp",
-          "proxy": false
-        },
-        {
-          "title": "基础日语口语",
-          "url": "https://wwi.lanzoui.com/imdIqk7fcyd",
-          "desc": "专注于基础日语口语练习的应用。",
-          "icon": "img/e2a12d30813a67034ecef52f8f5447d9.webp",
-          "proxy": false
-        },
-        {
-          "title": "经济学人_v2.8.6",
-          "url": "https://baozangku.lanzoux.com/i6TpDjyek1i",
-          "desc": "《经济学人》官方阅读应用。",
-          "icon": "img/e2a12d30813a67034ecef52f8f5447d9.webp",
-          "proxy": false
-        },
-        {
-          "title": "可可英语 v4.5.4",
-          "url": "https://baozangku.lanzoui.com/iUGV5rr4t0h",
-          "desc": "会员版",
-          "icon": "img/e2a12d30813a67034ecef52f8f5447d9.webp",
-          "proxy": false
-        },
-        {
-          "title": "美剧听单词",
-          "url": "https://www.lanzoui.com/i6ZZxj0frlc",
-          "desc": "通过看美剧片段学习英语单词和听力。",
-          "icon": "img/e2a12d30813a67034ecef52f8f5447d9.webp",
-          "proxy": false
-        },
-        {
-          "title": "墨墨背单词",
-          "url": "https://wwi.lanzoui.com/irUjdqn5jyh",
-          "desc": "基于艾宾浩斯遗忘曲线的抗遗忘背单词软件。",
-          "icon": "img/e2a12d30813a67034ecef52f8f5447d9.webp",
-          "proxy": false
-        },
-        {
-          "title": "木瓜单词",
-          "url": "https://baozangku.lanzoux.com/itB76ohde7a",
-          "desc": "一款简洁高效的背单词应用。",
-          "icon": "img/e2a12d30813a67034ecef52f8f5447d9.webp",
-          "proxy": false
-        },
-        {
-          "title": "日语U学院_5.4.4",
-          "url": "https://www.lanzoui.com/iyRSDisc4re",
-          "desc": "系统学习日语的在线课程应用。",
-          "icon": "img/e2a12d30813a67034ecef52f8f5447d9.webp",
-          "proxy": false
-        },
-        {
-          "title": "完美万词王v1.5.0",
-          "url": "https://wwi.lanzoui.com/i9AtIk5y99c",
-          "desc": "采用“词根+词缀”记忆法的背单词软件。",
-          "icon": "img/e2a12d30813a67034ecef52f8f5447d9.webp",
-          "proxy": false
-        },
-        {
-          "title": "轻松学语言-Premium_v2.99.68",
-          "url": "https://baozangku.lanzoux.com/iXHKWk8plih",
-          "desc": "多语言学习平台，提供游戏化课程。",
-          "icon": "img/e2a12d30813a67034ecef52f8f5447d9.webp",
-          "proxy": false
-        },
-        {
-          "title": "有道词典",
-          "url": "https://www.lanzoui.com/il0s7inwj9g",
-          "desc": "网易出品的全能型词典翻译软件。",
-          "icon": "img/e2a12d30813a67034ecef52f8f5447d9.webp",
-          "proxy": false
-        },
-        {
-          "title": "雅思口语1000句_v2.1.2",
-          "url": "https://www.lanzoui.com/iFP69j8acxc",
-          "desc": "针对雅思口语的核心句型练习。",
-          "icon": "img/e2a12d30813a67034ecef52f8f5447d9.webp",
-          "proxy": false
-        },
-        {
-          "title": "忆术家-v2.94_25018",
-          "url": "https://wwi.lanzoui.com/iQFNkkz6s0j",
-          "desc": "可学习日韩美等数十种多国语言",
-          "icon": "img/e2a12d30813a67034ecef52f8f5447d9.webp",
-          "proxy": false
-        },
-        {
-          "title": "英语口语 v9.6.16",
-          "url": "https://wwi.lanzoui.com/iLWByqn59be",
-          "desc": "专注于英语口语练习和提升的应用。",
-          "icon": "img/e2a12d30813a67034ecef52f8f5447d9.webp",
-          "proxy": false
-        },
-        {
-          "title": "英语四级单词",
-          "url": "https://wwi.lanzoui.com/iPoukt030re",
-          "desc": "专为大学英语四级考试设计的单词记忆应用。",
-          "icon": "img/e2a12d30813a67034ecef52f8f5447d9.webp",
-          "proxy": false
-        },
-        {
-          "title": "英语音标精编-2.0.0",
-          "url": "https://baozangku.lanzoux.com/izHvqkvjs1e",
-          "desc": "系统的英语音标学习和发音练习工具。",
-          "icon": "img/e2a12d30813a67034ecef52f8f5447d9.webp",
-          "proxy": false
-        },
-        {
-          "title": "粤语U学院_v7.0.9",
-          "url": "https://baozangku.lanzoux.com/iEybpk5z21i",
-          "desc": "专业的粤语学习平台。",
-          "icon": "img/e2a12d30813a67034ecef52f8f5447d9.webp",
-          "proxy": false
-        },
-        {
-          "title": "走遍美国",
-          "url": "https://www.lanzoui.com/iaLV6inv5he",
-          "desc": "经典英语情景对话学习教材的配套应用。",
-          "icon": "img/e2a12d30813a67034ecef52f8f5447d9.webp",
-          "proxy": false
-        },
-        {
-          "title": "知米背单词 v4.8.6",
-          "url": "https://baozangku.lanzoui.com/iQGfhqxhj9e",
-          "desc": "会员版",
-          "icon": "img/e2a12d30813a67034ecef52f8f5447d9.webp",
-          "proxy": false
-        },
-        {
-          "title": "宝宝巴士_v7.7.2",
-          "url": "https://wwi.lanzoui.com/i8J2xo059jc",
-          "desc": "知名儿童启蒙品牌，提供丰富的益智互动内容。",
-          "icon": "img/e2a12d30813a67034ecef52f8f5447d9.webp",
-          "proxy": false
-        },
-        {
-          "title": "宝宝巴士儿歌_4.8.2",
-          "url": "https://baozangku.lanzoui.com/i50MEq4ekxc",
-          "desc": "会员版",
-          "icon": "img/e2a12d30813a67034ecef52f8f5447d9.webp",
-          "proxy": false
-        },
-        {
-          "title": "贝瓦儿歌_4.0.2电视机版本",
-          "url": "https://wwi.lanzoui.com/iC2uwnkv3jg",
-          "desc": "贝瓦儿歌TV版，适合在电视上播放。",
-          "icon": "img/e2a12d30813a67034ecef52f8f5447d9.webp",
-          "proxy": false
-        },
-        {
-          "title": "贝瓦儿歌_7.5.2",
-          "url": "https://baozangku.lanzoui.com/iNCIAp4g4va",
-          "desc": "包含海量高清儿歌、故事、动画的早教应用。",
-          "icon": "img/e2a12d30813a67034ecef52f8f5447d9.webp",
-          "proxy": false
-        },
-        {
-          "title": "儿歌点点_3.1.12",
-          "url": "https://baozangku.lanzoui.com/iDoXwp20fda",
-          "desc": "精选儿童早教儿歌动画的应用。",
-          "icon": "img/e2a12d30813a67034ecef52f8f5447d9.webp",
-          "proxy": false
-        },
-        {
-          "title": "口袋故事_10.22.111201",
-          "url": "https://baozangku.lanzoui.com/ixPQ9kz9j5i",
-          "desc": "专为儿童打造的有声故事平台。",
-          "icon": "img/e2a12d30813a67034ecef52f8f5447d9.webp",
-          "proxy": false
-        },
-        {
-          "title": "句读 v4.2.2",
-          "url": "https://baozangku.lanzoui.com/imIsjo05goj",
-          "desc": "一个优美句子和诗词的分享社区。",
-          "icon": "img/e2a12d30813a67034ecef52f8f5447d9.webp",
-          "proxy": false
-        },
-        {
-          "title": "Any.do",
-          "url": "https://baozangku.lanzoui.com/i4l64n79x6d",
-          "desc": "一款跨平台的任务管理和待办事项清单应用。",
-          "icon": "img/e2a12d30813a67034ecef52f8f5447d9.webp",
-          "proxy": false
-        },
-        {
           "title": "Dislike",
           "url": "https://ww.lanzoui.com/io96Lov8aud",
           "desc": "帮助用户戒除不良习惯的应用。",
@@ -5049,520 +2254,9 @@
           "proxy": false
         },
         {
-          "title": "Moo日记_v2.6.5-r6",
-          "url": "https://baozangku.lanzoui.com/iQ2s6o7oecb",
-          "desc": "一款设计可爱的日记应用。",
-          "icon": "img/e2a12d30813a67034ecef52f8f5447d9.webp",
-          "proxy": false
-        },
-        {
-          "title": "My Diary_v1.02.02.0108",
-          "url": "https://baozangku.lanzoux.com/iJXuEkb4y0j",
-          "desc": "一款带密码锁的个人日记本应用。",
-          "icon": "img/e2a12d30813a67034ecef52f8f5447d9.webp",
-          "proxy": false
-        },
-        {
-          "title": "Taskito v0.8.3",
-          "url": "https://wwi.lanzoui.com/iJOCVoykvuj",
-          "desc": "视觉化的任务管理和日程规划应用。",
-          "icon": "img/e2a12d30813a67034ecef52f8f5447d9.webp",
-          "proxy": false
-        },
-        {
-          "title": "Ticktick任务清单 v6.0.2.0",
-          "url": "https://baozangku.lanzoui.com/iAebHqxhjpa",
-          "desc": "全能的待办事项和任务提醒工具。",
-          "icon": "img/e2a12d30813a67034ecef52f8f5447d9.webp",
-          "proxy": false
-        },
-        {
-          "title": "ToDoList V1.01.39.0620",
-          "url": "https://wwi.lanzoui.com/iqFeGqxdd7c",
-          "desc": "VIP高级版",
-          "icon": "img/e2a12d30813a67034ecef52f8f5447d9.webp",
-          "proxy": false
-        },
-        {
-          "title": "Todo清单v3.3.8",
-          "url": "https://wwi.lanzoui.com/inhBPrkp3lg",
-          "desc": "会员",
-          "icon": "img/e2a12d30813a67034ecef52f8f5447d9.webp",
-          "proxy": false
-        },
-        {
-          "title": "Wow时钟v1.0.7",
-          "url": "https://baozangku.lanzoui.com/iE0V8ospdxi",
-          "desc": "一款设计精美的时钟应用。",
-          "icon": "img/e2a12d30813a67034ecef52f8f5447d9.webp",
-          "proxy": false
-        },
-        {
-          "title": "不做手机控v5.9.9.8会员",
-          "url": "https://wwi.lanzoui.com/i1Us5q0brti",
-          "desc": "帮助用户减少手机使用时间，保持专注的应用。",
-          "icon": "img/e2a12d30813a67034ecef52f8f5447d9.webp",
-          "proxy": false
-        },
-        {
-          "title": "禅定空间_2.7.7",
-          "url": "https://baozangku.lanzoui.com/iy0JEql306b",
-          "desc": "VIP会员",
-          "icon": "img/e2a12d30813a67034ecef52f8f5447d9.webp",
-          "proxy": false
-        },
-        {
-          "title": "打卡小日常 v1.1.0",
-          "url": "https://wwi.lanzoui.com/iJRiutad6wf",
-          "desc": "简单易用的习惯打卡和目标追踪工具。",
-          "icon": "img/e2a12d30813a67034ecef52f8f5447d9.webp",
-          "proxy": false
-        },
-        {
-          "title": "倒数日 Ver.1.5.3",
-          "url": "https://wwi.lanzoui.com/ibfwJrkp3sd",
-          "desc": "Pro会员解锁版",
-          "icon": "img/e2a12d30813a67034ecef52f8f5447d9.webp",
-          "proxy": false
-        },
-        {
-          "title": "倒数日_v0.7.4",
-          "url": "https://baozangku.lanzoux.com/iSdy0lrs84d",
-          "desc": "记录重要日子的倒计时应用。",
-          "icon": "img/e2a12d30813a67034ecef52f8f5447d9.webp",
-          "proxy": false
-        },
-        {
-          "title": "番茄todo_高级版 合集",
-          "url": "https://wwi.lanzoui.com/b01cpcdti",
-          "desc": "密码:f877",
-          "icon": "img/e2a12d30813a67034ecef52f8f5447d9.webp",
-          "proxy": false
-        },
-        {
-          "title": "番茄专注todo",
-          "url": "https://baozangku.lanzoui.com/iuJ1Wop52yf",
-          "desc": "结合番茄工作法和待办清单的时间管理工具。",
-          "icon": "img/e2a12d30813a67034ecef52f8f5447d9.webp",
-          "proxy": false
-        },
-        {
-          "title": "格志v1.8",
-          "url": "https://baozangku.lanzoux.com/iZ22Xk6o1of",
-          "desc": "模板化的问答式日记，引导用户进行深度思考和记录。",
-          "icon": "img/e2a12d30813a67034ecef52f8f5447d9.webp",
-          "proxy": false
-        },
-        {
-          "title": "解压屏幕",
-          "url": "https://baozangku.lanzoux.com/iCsDujmzmle",
-          "desc": "通过模拟挤压泡泡纸等方式来解压的趣味应用。",
-          "icon": "img/e2a12d30813a67034ecef52f8f5447d9.webp",
-          "proxy": false
-        },
-        {
-          "title": "可爱风笔记备忘录",
-          "url": "https://www.lanzoui.com/iIw01freiba",
-          "desc": "一款界面可爱的笔记和备忘录应用。",
-          "icon": "img/e2a12d30813a67034ecef52f8f5447d9.webp",
-          "proxy": false
-        },
-        {
-          "title": "蕾姆蕾姆闹钟-1.0.0",
-          "url": "https://wwi.lanzoui.com/iF8Ljpmlvti",
-          "desc": "以动漫角色“蕾姆”为主题的闹钟应用。",
-          "icon": "img/e2a12d30813a67034ecef52f8f5447d9.webp",
-          "proxy": false
-        },
-        {
-          "title": "魔法：伊雅（二次元闹钟）",
-          "url": "https://baozangku.lanzoui.com/iMq2frbh0sd",
-          "desc": "一款二次元风格的闹钟应用。",
-          "icon": "img/e2a12d30813a67034ecef52f8f5447d9.webp",
-          "proxy": false
-        },
-        {
-          "title": "三个目标会员版",
-          "url": "https://baozangku.lanzoux.com/ikXsAiq0kze",
-          "desc": "帮助用户专注于每天最重要的三个目标的效率工具。",
-          "icon": "img/e2a12d30813a67034ecef52f8f5447d9.webp",
-          "proxy": false
-        },
-        {
-          "title": "时间管理-YourHour",
-          "url": "https://baozangku.lanzoux.com/i0xqJkf8r3i",
-          "desc": "追踪和分析手机使用时间，帮助用户摆脱手机沉迷。",
-          "icon": "img/e2a12d30813a67034ecef52f8f5447d9.webp",
-          "proxy": false
-        },
-        {
-          "title": "下决定",
-          "url": "https://www.lanzoui.com/iec0Dg4jk0j",
-          "desc": "帮助选择困难症用户做决定的趣味工具。",
-          "icon": "img/e2a12d30813a67034ecef52f8f5447d9.webp",
-          "proxy": false
-        },
-        {
-          "title": "小.番.茄 v10.4",
-          "url": "https://baozangku.lanzoux.com/iRBD8jxbnmd",
-          "desc": "简洁的番茄工作法计时器。",
-          "icon": "img/e2a12d30813a67034ecef52f8f5447d9.webp",
-          "proxy": false
-        },
-        {
           "title": "小目标v3.4.2",
           "url": "https://www.lanzoux.com/i1Ueeozzkaj",
           "desc": "设定和追踪个人小目标的管理工具。",
-          "icon": "img/e2a12d30813a67034ecef52f8f5447d9.webp",
-          "proxy": false
-        },
-        {
-          "title": "小日常高级版",
-          "url": "https://www.lanzoui.com/i1heKfrem4h",
-          "desc": "简洁美观的习惯养成打卡应用。",
-          "icon": "img/e2a12d30813a67034ecef52f8f5447d9.webp",
-          "proxy": false
-        },
-        {
-          "title": "小习惯",
-          "url": "https://wwi.lanzoui.com/iG4Nck4ta7a",
-          "desc": "帮助用户养成良好习惯的打卡应用。",
-          "icon": "img/e2a12d30813a67034ecef52f8f5447d9.webp",
-          "proxy": false
-        },
-        {
-          "title": "远离手机_v4.7.7",
-          "url": "https://baozangku.lanzoui.com/ivkPZolk4cb",
-          "desc": "强制锁定手机，帮助用户专注学习和工作的应用。",
-          "icon": "img/e2a12d30813a67034ecef52f8f5447d9.webp",
-          "proxy": false
-        },
-        {
-          "title": "DJ多多",
-          "url": "https://wwi.lanzoui.com/i6pGSlcnctc",
-          "desc": "拥有海量DJ舞曲的手机音乐软件。",
-          "icon": "img/e2a12d30813a67034ecef52f8f5447d9.webp",
-          "proxy": false
-        },
-        {
-          "title": "201226哆啦A梦宝藏库文章",
-          "url": "https://baozangku.lanzoux.com/b00o5ckjg",
-          "desc": "网易云解锁灰色歌曲工具密码:eco8",
-          "icon": "img/e2a12d30813a67034ecef52f8f5447d9.webp",
-          "proxy": false
-        },
-        {
-          "title": "AH音乐",
-          "url": "https://wwi.lanzoui.com/iTxBHpmfirc",
-          "desc": "一款免费听歌和下载音乐的手机应用。",
-          "icon": "img/e2a12d30813a67034ecef52f8f5447d9.webp",
-          "proxy": false
-        },
-        {
-          "title": "AudioLab_PRO_v1.2",
-          "url": "https://baozangku.lanzoui.com/iq3Mlof3pli",
-          "desc": "专业的手机音频编辑、剪辑、混音工具。",
-          "icon": "img/e2a12d30813a67034ecef52f8f5447d9.webp",
-          "proxy": false
-        },
-        {
-          "title": "DPM节拍制作神器 v2.10.2",
-          "url": "https://baozangku.lanzoui.com/ih5pKqcagxc",
-          "desc": "高级版",
-          "icon": "img/e2a12d30813a67034ecef52f8f5447d9.webp",
-          "proxy": false
-        },
-        {
-          "title": "jetaudio+ v10.7.1",
-          "url": "https://wwi.lanzoui.com/iIRKOqixt6h",
-          "desc": "内购版",
-          "icon": "img/e2a12d30813a67034ecef52f8f5447d9.webp",
-          "proxy": false
-        },
-        {
-          "title": "MP3提取转换器",
-          "url": "https://wwi.lanzoui.com/iC6wwlui8eb",
-          "desc": "从视频中提取音频并转换为MP3格式的工具。",
-          "icon": "img/e2a12d30813a67034ecef52f8f5447d9.webp",
-          "proxy": false
-        },
-        {
-          "title": "音乐剪辑 6.0.3",
-          "url": "https://baozangku.lanzoui.com/iMo38pqyy0j",
-          "desc": "手机端的音频剪辑和铃声制作工具。",
-          "icon": "img/e2a12d30813a67034ecef52f8f5447d9.webp",
-          "proxy": false
-        },
-        {
-          "title": "全民音乐v1.0.4",
-          "url": "https://baozangku.lanzoui.com/ixjQdt04lyd",
-          "desc": "除了最后一个权限外，其他的都不用给",
-          "icon": "img/e2a12d30813a67034ecef52f8f5447d9.webp",
-          "proxy": false
-        },
-        {
-          "title": "全能视频音乐剪辑大师",
-          "url": "https://baozangku.lanzoui.com/ifkHXml26kb",
-          "desc": "集视频和音乐剪辑功能于一体的应用。",
-          "icon": "img/e2a12d30813a67034ecef52f8f5447d9.webp",
-          "proxy": false
-        },
-        {
-          "title": "冰钓",
-          "url": "https://wwi.lanzoui.com/iBgBBmxcwnc",
-          "desc": "一款模拟冰上钓鱼场景的白噪音或放松应用。",
-          "icon": "img/e2a12d30813a67034ecef52f8f5447d9.webp",
-          "proxy": false
-        },
-        {
-          "title": "极简音乐 v1.0",
-          "url": "https://wwi.lanzoui.com/ichKEtrdmta",
-          "desc": "一款界面简洁、功能纯粹的音乐播放应用。",
-          "icon": "img/e2a12d30813a67034ecef52f8f5447d9.webp",
-          "proxy": false
-        },
-        {
-          "title": "低音均衡器 v1.5.7",
-          "url": "https://baozangku.lanzoui.com/iooXrqna2xe",
-          "desc": "增强音乐低音效果的音效均衡器应用。",
-          "icon": "img/e2a12d30813a67034ecef52f8f5447d9.webp",
-          "proxy": false
-        },
-        {
-          "title": "铃声多多v8.8.46.0",
-          "url": "https://baozangku.lanzoui.com/i2dAYospf4b",
-          "desc": "提供海量手机铃声下载和设置的应用。",
-          "icon": "img/e2a12d30813a67034ecef52f8f5447d9.webp",
-          "proxy": false
-        },
-        {
-          "title": "灵悦_1561_修复版",
-          "url": "https://wwi.lanzoui.com/iQTh7q8rvah",
-          "desc": "一款免费听歌和下载音乐的应用。",
-          "icon": "img/e2a12d30813a67034ecef52f8f5447d9.webp",
-          "proxy": false
-        },
-        {
-          "title": "好听坊",
-          "url": "https://baozangku.lanzoui.com/iQszco1ffte",
-          "desc": "听书类App",
-          "icon": "img/e2a12d30813a67034ecef52f8f5447d9.webp",
-          "proxy": false
-        },
-        {
-          "title": "放松，只是水",
-          "url": "https://wwi.lanzoui.com/iHddsordboj",
-          "desc": "一款提供水声白噪音以帮助放松和睡眠的应用。",
-          "icon": "img/e2a12d30813a67034ecef52f8f5447d9.webp",
-          "proxy": false
-        },
-        {
-          "title": "清风DJ车载版",
-          "url": "https://wwi.lanzoui.com/iZTeslwc9mb",
-          "desc": "专为车载环境优化的DJ舞曲播放应用。",
-          "icon": "img/e2a12d30813a67034ecef52f8f5447d9.webp",
-          "proxy": false
-        },
-        {
-          "title": "轻音社_轻音社_1.4.3.0_VIP",
-          "url": "https://wwi.lanzoui.com/i1Ttmpeypxg",
-          "desc": "广播剧",
-          "icon": "img/e2a12d30813a67034ecef52f8f5447d9.webp",
-          "proxy": false
-        },
-        {
-          "title": "天天悦听v1.9正式版",
-          "url": "https://baozangku.lanzoui.com/i81cVquvj8j",
-          "desc": "一款免费听歌的手机音乐应用。",
-          "icon": "img/e2a12d30813a67034ecef52f8f5447d9.webp",
-          "proxy": false
-        },
-        {
-          "title": "音频裁剪大师v22.0.2",
-          "url": "https://www.lanzoui.com/izmRVikxi8h",
-          "desc": "手机端的音频剪辑和制作工具。",
-          "icon": "img/e2a12d30813a67034ecef52f8f5447d9.webp",
-          "proxy": false
-        },
-        {
-          "title": "音频裁剪大师v22.1.13",
-          "url": "https://wwi.lanzoui.com/iF65Hov0prc",
-          "desc": "手机端的音频剪辑和制作工具。",
-          "icon": "img/e2a12d30813a67034ecef52f8f5447d9.webp",
-          "proxy": false
-        },
-        {
-          "title": "蝎子王车载V1.1.21",
-          "url": "https://wwi.lanzoui.com/i0JJsjssh6d",
-          "desc": "一款车载DJ音乐播放应用。",
-          "icon": "img/e2a12d30813a67034ecef52f8f5447d9.webp",
-          "proxy": false
-        },
-        {
-          "title": "超级音乐编辑器_1.6.1",
-          "url": "https://baozangku.lanzoux.com/iBLScjhl8je",
-          "desc": "功能强大的手机音频编辑工具。",
-          "icon": "img/e2a12d30813a67034ecef52f8f5447d9.webp",
-          "proxy": false
-        },
-        {
-          "title": "Nfmovies_v1.0.13",
-          "url": "https://baozangku.lanzoui.com/iiQA6q4q7tc",
-          "desc": "画质高+稳定",
-          "icon": "img/e2a12d30813a67034ecef52f8f5447d9.webp",
-          "proxy": false
-        },
-        {
-          "title": "八一影院v5.0",
-          "url": "https://wwi.lanzoui.com/iVN0hpmfi7c",
-          "desc": "画质高",
-          "icon": "img/e2a12d30813a67034ecef52f8f5447d9.webp",
-          "proxy": false
-        },
-        {
-          "title": "毒舌电影_1.7.1",
-          "url": "https://wwi.lanzoui.com/i9qaVptdeyf",
-          "desc": "画质高",
-          "icon": "img/e2a12d30813a67034ecef52f8f5447d9.webp",
-          "proxy": false
-        },
-        {
-          "title": "饭团影院 1.8.0",
-          "url": "https://baozangku.lanzoui.com/ie3iArkq2kf",
-          "desc": "一款免费的影视观看应用。",
-          "icon": "img/e2a12d30813a67034ecef52f8f5447d9.webp",
-          "proxy": false
-        },
-        {
-          "title": "海胆影视v1.6.5",
-          "url": "https://baozangku.lanzoui.com/iWnD9p6m43a",
-          "desc": "画质高",
-          "icon": "img/e2a12d30813a67034ecef52f8f5447d9.webp",
-          "proxy": false
-        },
-        {
-          "title": "皇帝影视HDV1.4.1纯净版",
-          "url": "https://baozangku.lanzoui.com/iEOhMsmqnod",
-          "desc": "一款无广告的影视播放应用。",
-          "icon": "img/e2a12d30813a67034ecef52f8f5447d9.webp",
-          "proxy": false
-        },
-        {
-          "title": "看吧影视v3.0.8_纯净版",
-          "url": "https://wwi.lanzoui.com/iq0twpircif",
-          "desc": "无广告的影视聚合播放软件。",
-          "icon": "img/e2a12d30813a67034ecef52f8f5447d9.webp",
-          "proxy": false
-        },
-        {
-          "title": "蓝猫视频v1.5.3",
-          "url": "https://wwi.lanzoui.com/iNUrSpmfije",
-          "desc": "播放速度快",
-          "icon": "img/e2a12d30813a67034ecef52f8f5447d9.webp",
-          "proxy": false
-        },
-        {
-          "title": "荔枝动漫 v1.0.2",
-          "url": "https://baozangku.lanzoui.com/i8osfrr4tcj",
-          "desc": "一款专注于动漫的视频播放应用。",
-          "icon": "img/e2a12d30813a67034ecef52f8f5447d9.webp",
-          "proxy": false
-        },
-        {
-          "title": "零零七影视-v1.7.x",
-          "url": "https://baozangku.lanzoui.com/i0OUuponmyd",
-          "desc": "画质很高",
-          "icon": "img/e2a12d30813a67034ecef52f8f5447d9.webp",
-          "proxy": false
-        },
-        {
-          "title": "麻瓜视频v3.3.2",
-          "url": "https://wwi.lanzoui.com/ifhK4p5flof",
-          "desc": "一个免费的影视聚合应用。",
-          "icon": "img/e2a12d30813a67034ecef52f8f5447d9.webp",
-          "proxy": false
-        },
-        {
-          "title": "美剧侠Pro_v1.0.1无广告版",
-          "url": "https://wwi.lanzoui.com/iOZxDp1ztdi",
-          "desc": "专注于美剧资源的无广告播放应用。",
-          "icon": "img/e2a12d30813a67034ecef52f8f5447d9.webp",
-          "proxy": false
-        },
-        {
-          "title": "蘑菇影音 v5.5.6",
-          "url": "https://baozangku.lanzoui.com/in00Js53w3g",
-          "desc": "免费",
-          "icon": "img/e2a12d30813a67034ecef52f8f5447d9.webp",
-          "proxy": false
-        },
-        {
-          "title": "公主影视_去广告1000002",
-          "url": "https://baozangku.lanzoui.com/iePpvrx5ulg",
-          "desc": "一款去广告的影视播放应用。",
-          "icon": "img/e2a12d30813a67034ecef52f8f5447d9.webp",
-          "proxy": false
-        },
-        {
-          "title": "人人播放器v1.3.8_VIP",
-          "url": "https://wwi.lanzoui.com/ie6iFpgbi2h",
-          "desc": "一款影视播放器应用，VIP版解锁更多功能。",
-          "icon": "img/e2a12d30813a67034ecef52f8f5447d9.webp",
-          "proxy": false
-        },
-        {
-          "title": "嘶哩嘶哩",
-          "url": "https://wwi.lanzoui.com/iulnYpgfs2b",
-          "desc": "追番软件",
-          "icon": "img/e2a12d30813a67034ecef52f8f5447d9.webp",
-          "proxy": false
-        },
-        {
-          "title": "天使动漫v1.6.0",
-          "url": "https://baozangku.lanzoui.com/iWoZmpir5za",
-          "desc": "一款专注于动漫资源的手机应用。",
-          "icon": "img/e2a12d30813a67034ecef52f8f5447d9.webp",
-          "proxy": false
-        },
-        {
-          "title": "小草影视_V1.6.1",
-          "url": "https://wwi.lanzoui.com/iKLF5sjhjfi",
-          "desc": "一个免费的影视观看应用。",
-          "icon": "img/e2a12d30813a67034ecef52f8f5447d9.webp",
-          "proxy": false
-        },
-        {
-          "title": "黑枫视界 v2.0.0",
-          "url": "https://baozangku.lanzoui.com/iMtxktef0wf",
-          "desc": "手机版",
-          "icon": "img/e2a12d30813a67034ecef52f8f5447d9.webp",
-          "proxy": false
-        },
-        {
-          "title": "飞飞影视 v1.85",
-          "url": "https://wwi.lanzoui.com/i2Yodsssmyf",
-          "desc": "一款影视聚合播放应用。",
-          "icon": "img/e2a12d30813a67034ecef52f8f5447d9.webp",
-          "proxy": false
-        },
-        {
-          "title": "极速云播v1.1.4",
-          "url": "https://wwi.lanzoui.com/iFFITteyfda",
-          "desc": "画质不错",
-          "icon": "img/e2a12d30813a67034ecef52f8f5447d9.webp",
-          "proxy": false
-        },
-        {
-          "title": "星空视频v1.5.1无广告版",
-          "url": "https://wwi.lanzoui.com/iZ2LPteycsh",
-          "desc": "播放速度极快",
-          "icon": "img/e2a12d30813a67034ecef52f8f5447d9.webp",
-          "proxy": false
-        },
-        {
-          "title": "嘀嘀动漫",
-          "url": "https://wwi.lanzoui.com/b01cr8ccd",
-          "desc": "密码:8jid",
           "icon": "img/e2a12d30813a67034ecef52f8f5447d9.webp",
           "proxy": false
         }
@@ -5573,13 +2267,6 @@
       "categoryId": "social-communication-helpers",
       "sites": [
         {
-          "title": "微备份",
-          "url": "https://url67.ctfile.com/f/14869667-1008274064-41500b?p=kyon",
-          "icon": "img/b0076ef2d0bfc5573f2906e5208855a9.webp",
-          "desc": "微信聊天记录备份工具。",
-          "proxy": false
-        },
-        {
           "title": "微信朋友圈采集备份工具",
           "url": "https://mh-studio.cn/wxpyq",
           "icon": "img/ba9093e01abbc2dfaa65bed7650d7368.webp",
@@ -5587,94 +2274,10 @@
           "proxy": false
         },
         {
-          "title": "公众号下载",
-          "url": "https://www.yuque.com/lixin-uxnsi/share/bzvurq",
-          "icon": "img/143932c4d87af62e01137b5e20a1cc38.webp",
-          "desc": "分享工具用于批量下载微信公众号的文章、图片和视频。",
-          "proxy": false
-        },
-        {
-          "title": "微信聊天记录导出教程",
-          "url": "https://mp.weixin.qq.com/s/ziP-LUdbGxwiyN-lsk6HPg",
-          "icon": "img/5281e972ec463897022f56464011b5ed.webp",
-          "desc": "👍详细教程，教你如何备份和导出微信聊天记录。",
-          "proxy": false
-        },
-        {
           "title": "微信留痕",
           "url": "https://memotrace.cn/",
           "icon": "img/0ae044823ecba44545769c28da90bb07.webp",
           "desc": "自动备份微信聊天记录的工具。",
-          "proxy": false
-        },
-        {
-          "title": "微拾",
-          "url": "https://url67.ctfile.com/f/14869667-1316038930-7d7ea1?p=kyon",
-          "icon": "img/b0076ef2d0bfc5573f2906e5208855a9.webp",
-          "desc": "微信聊天记录查看和导出工具。",
-          "proxy": false
-        },
-        {
-          "title": "QQ相册",
-          "url": "https://www.yuque.com/lixin-uxnsi/share/wxx12y",
-          "icon": "img/143932c4d87af62e01137b5e20a1cc38.webp",
-          "desc": "分享批量下载和备份QQ空间相册的工具和脚本。",
-          "proxy": false
-        },
-        {
-          "title": "微信/QQ/TIM防撤回补丁",
-          "url": "https://github.com/huiyadanli/RevokeMsgPatcher",
-          "icon": "",
-          "desc": "开源的微信/QQ/TIM防撤回+多开补丁。",
-          "proxy": false
-        },
-        {
-          "title": "微信视频号下载",
-          "url": "https://mp.weixin.qq.com/s/Ro5AJVc2sr-wRGGgOY_wMA",
-          "icon": "img/5281e972ec463897022f56464011b5ed.webp",
-          "desc": "多种方法教你如何下载微信视频号的视频内容。",
-          "proxy": false
-        },
-        {
-          "title": "微信语音助手",
-          "url": "https://url67.ctfile.com/f/14869667-1008275909-155eb9?p=kyon",
-          "icon": "img/b0076ef2d0bfc5573f2906e5208855a9.webp",
-          "desc": "用于导出和合并微信语音消息。",
-          "proxy": false
-        },
-        {
-          "title": "微信／QQ防撤回方案推荐",
-          "url": "https://mp.weixin.qq.com/s/93Jhk8YUsUuE8UHbo8T7Vg",
-          "icon": "img/5281e972ec463897022f56464011b5ed.webp",
-          "desc": "PC和安卓端防止消息被撤回的方案。",
-          "proxy": false
-        },
-        {
-          "title": "真实好友",
-          "url": "https://url67.ctfile.com/f/14869667-1422285157-1a73a6?p=kyon",
-          "icon": "img/b0076ef2d0bfc5573f2906e5208855a9.webp",
-          "desc": "微信好友无打扰检测工具。",
-          "proxy": false
-        },
-        {
-          "title": "WeChatBackupNoRoot",
-          "url": "https://github.com/DarkLineX/WechatBackupNoRoot",
-          "icon": "",
-          "desc": "免Root的安卓微信聊天记录备份工具。",
-          "proxy": false
-        },
-        {
-          "title": "提取微信表情包",
-          "url": "https://mp.weixin.qq.com/s/hxDtsF1Hgi4jCQ_7wUHM8A",
-          "icon": "img/5281e972ec463897022f56464011b5ed.webp",
-          "desc": "教你如何将微信收藏的表情包导出为图片文件。",
-          "proxy": false
-        },
-        {
-          "title": "iOS微信双开",
-          "url": "https://mp.weixin.qq.com/s/RQzL5WjDq2PTRyGjFMld-w",
-          "icon": "img/5281e972ec463897022f56464011b5ed.webp",
-          "desc": "介绍在iOS设备上实现微信双开的方法。",
           "proxy": false
         }
       ]
@@ -5688,13 +2291,6 @@
           "url": "https://share.weiyun.com/9cLyaJ90",
           "icon": "img/bb7047fe697daac0afdc900014e63ca8.webp",
           "desc": "MATLAB／Maple／三大数学软件 (密码: fee8on)",
-          "proxy": false
-        },
-        {
-          "title": "WiFi",
-          "url": "https://www.yuque.com/lixin-uxnsi/share/qrenbp",
-          "icon": "img/143932c4d87af62e01137b5e20a1cc38.webp",
-          "desc": "介绍查看已连接WiFi密码和进行WiFi网络分析的工具。",
           "proxy": false
         },
         {
@@ -5717,13 +2313,6 @@
           "icon": "img/ce99ba4de4d54e2d09a3615caafa9f19.webp",
           "desc": "好用的在线工具集合",
           "proxy": true
-        },
-        {
-          "title": "动态二维码（部分已失效，待更新）",
-          "url": "https://www.yuque.com/lixin-uxnsi/share/yvvdgr",
-          "icon": "img/143932c4d87af62e01137b5e20a1cc38.webp",
-          "desc": "介绍制作动态二维码的方法，但部分服务可能已失效，内容待更新。",
-          "proxy": false
         }
       ]
     }

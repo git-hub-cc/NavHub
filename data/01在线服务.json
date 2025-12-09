@@ -240,13 +240,6 @@
           "proxy": false
         },
         {
-          "title": "GitHub",
-          "url": "https://github.com/",
-          "icon": "",
-          "desc": "全球最大的代码托管平台和开源社区。",
-          "proxy": false
-        },
-        {
           "title": "Carbon",
           "url": "https://carbon.now.sh/",
           "icon": "img/8b95af57e96141d1562f7281c467a4d7.webp",

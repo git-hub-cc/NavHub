@@ -82,6 +82,15 @@ body {
     -moz-osx-font-smoothing: grayscale;
 }
 
+/* SVG 图标通用样式 (新增) */
+.icon {
+    width: 1em;
+    height: 1em;
+    fill: currentColor; /* 跟随字体颜色 */
+    vertical-align: middle;
+    display: inline-block;
+}
+
 /* 背景装饰层 - 可以在这里添加背景图 */
 .background-layer {
     position: fixed;
@@ -191,6 +200,14 @@ body {
     transition: all 0.2s ease;
 }
 
+/* 侧边栏图标微调 */
+.category-list a .icon {
+    margin-right: 8px;
+    width: 16px;
+    height: 16px;
+    flex-shrink: 0;
+}
+
 .category-list a:hover {
     background: rgba(0, 0, 0, 0.03);
     color: var(--text-primary);
@@ -292,7 +309,11 @@ html[data-theme='dark'] .category-list a.active { background: rgba(255,255,255,0
     cursor: pointer;
     transition: all 0.2s;
 }
-.icon-btn-text i { font-size: 16px; margin-bottom: 2px; }
+.icon-btn-text .icon {
+    width: 16px;
+    height: 16px;
+    margin-bottom: 4px; /* 调整图标与文字间距 */
+}
 .icon-btn-text:hover { background: var(--bg-base); color: var(--text-primary); border-color: var(--text-tertiary); }
 .icon-btn-text.danger:hover { color: var(--danger); border-color: var(--danger); background: rgba(255, 71, 87, 0.05); }
 
@@ -305,10 +326,13 @@ html[data-theme='dark'] .category-list a.active { background: rgba(255,255,255,0
 }
 .social-links a {
     color: var(--text-secondary);
-    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     text-decoration: none;
     transition: color 0.2s;
 }
+.social-links a .icon { width: 20px; height: 20px; }
 .social-links a:hover { color: var(--primary-solid); }
 
 /* 主题切换 Toggle */
@@ -342,7 +366,13 @@ html[data-theme='dark'] .category-list a.active { background: rgba(255,255,255,0
 }
 .theme-switch-input:checked + .theme-switch-label { background: var(--bg-base); }
 .theme-switch-input:checked + .theme-switch-label::after { transform: translateX(20px); }
-.sun-icon, .moon-icon { font-size: 12px; color: var(--text-tertiary); z-index: 1; }
+
+.sun-icon, .moon-icon {
+    width: 12px;
+    height: 12px;
+    color: var(--text-tertiary);
+    z-index: 1;
+}
 .copyright { font-size: 11px; color: var(--text-tertiary); text-align: center; opacity: 0.6; }
 
 
@@ -415,7 +445,12 @@ html[data-theme='dark'] .category-btn.active { background: var(--primary-solid);
     transform: translateY(-2px);
 }
 
-.search-icon { font-size: 20px; color: var(--text-tertiary); margin-right: 12px; }
+.search-icon {
+    width: 20px;
+    height: 20px;
+    color: var(--text-tertiary);
+    margin-right: 12px;
+}
 
 #search-input {
     flex: 1;
@@ -434,13 +469,13 @@ html[data-theme='dark'] .category-btn.active { background: var(--primary-solid);
     border: none;
     background: var(--primary-gradient);
     color: #fff;
-    font-size: 20px;
     cursor: pointer;
     display: flex;
     align-items: center;
     justify-content: center;
     transition: transform 0.2s;
 }
+.search-btn-submit .icon { width: 20px; height: 20px; }
 .search-btn-submit:hover { transform: scale(1.05); }
 
 /* 搜索引擎选择 - 允许换行 */
@@ -489,16 +524,7 @@ html[data-theme='dark'] .category-btn.active { background: var(--primary-solid);
 .category-section {
     margin-bottom: 50px;
     scroll-margin-top: 20px;
-    /*
-     * 性能优化：content-visibility
-     * 告诉浏览器，如果该元素不在视口内，则跳过其布局和渲染计算。
-     * 这对拥有大量 DOM 节点的长列表页面有显著的性能提升。
-     */
     content-visibility: auto;
-    /*
-     * 设置预估高度，防止在 content-visibility 跳过渲染时滚动条发生剧烈抖动。
-     * 根据内容大致估算，例如一行标题 + 几行卡片的高度。
-     */
     contain-intrinsic-size: 1px 600px;
 }
 
@@ -519,8 +545,15 @@ html[data-theme='dark'] .category-btn.active { background: var(--primary-solid);
     letter-spacing: -0.5px;
 }
 
+.title-actions {
+    display: flex;
+    align-items: center;
+}
+
 /* 操作按钮 */
 .action-btn {
+    display: inline-flex;
+    align-items: center;
     padding: 6px 14px;
     font-size: 13px;
     background: var(--bg-card);
@@ -530,6 +563,11 @@ html[data-theme='dark'] .category-btn.active { background: var(--primary-solid);
     cursor: pointer;
     margin-left: 8px;
     transition: all 0.2s;
+}
+.action-btn .icon {
+    margin-right: 4px;
+    width: 14px;
+    height: 14px;
 }
 .action-btn:hover { color: var(--primary-solid); border-color: var(--primary-solid); background: #fff; }
 .action-btn.active { background: var(--primary-solid); color: #fff; border-color: transparent; }
@@ -647,13 +685,15 @@ html[data-theme='dark'] .card:hover { background: rgba(30, 41, 59, 0.9); box-sha
     border-radius: var(--radius-md);
     opacity: 0;
     transition: opacity 0.2s, background-color 0.2s;
-    font-size: 24px;
+    /* 移除 font-size，改用 flex 居中 SVG */
     color: var(--text-primary);
 }
 
 /* 默认隐藏内部所有图标 */
-.card-overlay-edit i {
+.card-overlay-edit .icon {
     display: none;
+    width: 32px;
+    height: 32px;
 }
 
 /* 1. 编辑模式 (Sorting/Drag) */
@@ -720,10 +760,14 @@ html[data-theme='dark'] .card:hover { background: rgba(30, 41, 59, 0.9); box-sha
 .close-modal-btn {
     background: transparent;
     border: none;
-    font-size: 24px;
     color: var(--text-secondary);
     cursor: pointer;
+    padding: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
+.close-modal-btn .icon { width: 24px; height: 24px; }
 
 /* 表单样式 */
 .form-item { margin-bottom: 16px; }
@@ -745,8 +789,15 @@ input[type="text"], input[type="url"], textarea {
 input:focus, textarea:focus { border-color: var(--primary-solid); }
 
 .input-with-icon { position: relative; }
-.input-with-icon i { position: absolute; left: 12px; top: 12px; color: var(--text-tertiary); }
-.input-with-icon input { padding-left: 36px; }
+.input-with-icon .icon {
+    position: absolute;
+    left: 12px;
+    top: 12px;
+    width: 18px; /* 调整图标大小 */
+    height: 18px;
+    color: var(--text-tertiary);
+}
+.input-with-icon input { padding-left: 38px; }
 
 .checkbox-item { display: flex; align-items: center; gap: 8px; margin-top: 10px; }
 .checkbox-item input { width: 16px; height: 16px; accent-color: var(--primary-solid); }
@@ -834,7 +885,17 @@ input:focus, textarea:focus { border-color: var(--primary-solid); }
         z-index: 90;
         border-bottom: 1px solid var(--border-light);
     }
-    .icon-btn { background: none; border: none; font-size: 24px; color: var(--text-primary); padding: 0; }
+    .icon-btn {
+        background: none;
+        border: none;
+        color: var(--text-primary);
+        padding: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .icon-btn .icon { width: 24px; height: 24px; }
+
     .mobile-logo { font-weight: 800; font-size: 18px; }
     .mobile-placeholder { width: 24px; }
 

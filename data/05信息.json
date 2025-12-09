@@ -346,13 +346,6 @@
           "proxy": false
         },
         {
-          "title": "P站",
-          "url": "https://www.yuque.com/lixin-uxnsi/share/zqwv97",
-          "icon": "img/143932c4d87af62e01137b5e20a1cc38.webp",
-          "desc": "介绍访问著名插画社区Pixiv（P站）的方法和相关工具。",
-          "proxy": false
-        },
-        {
           "title": "涂鸦王国",
           "url": "https://www.gracg.com/",
           "desc": "原创绘画社交网站",
@@ -379,13 +372,6 @@
           "icon": "img/ce096bcd3c9c3c96bc9c232941f00c71.webp",
           "desc": "提供海量PNG透明背景图片素材。",
           "proxy": true
-        },
-        {
-          "title": "原创保护",
-          "url": "https://www.yuque.com/lixin-uxnsi/share/luq4nx",
-          "icon": "img/143932c4d87af62e01137b5e20a1cc38.webp",
-          "desc": "介绍为原创图片、文章添加水印等，进行版权保护的方法。",
-          "proxy": false
         },
         {
           "title": "Cleanpng",
@@ -554,13 +540,6 @@
           "proxy": false
         },
         {
-          "title": "32张电脑分区壁纸",
-          "url": "https://mp.weixin.qq.com/s/Ctk5U1wap5oXNIqjPTh7fQ",
-          "desc": "提供32张带有功能分区的创意电脑壁纸。",
-          "icon": "img/5281e972ec463897022f56464011b5ed.webp",
-          "proxy": false
-        },
-        {
           "title": "3G壁纸",
           "url": "https://desk.3gbizhi.com/",
           "icon": "img/7d5c6277d6919e21ff6aafa36c669f41.webp",
@@ -572,13 +551,6 @@
           "url": "https://cloud.189.cn/web/share?code=vue2InzaQVnq",
           "desc": "知名画师WLOP的作品《鬼刀》系列高清壁纸合集。",
           "icon": "img/86b391792013c52a11bfcac413719a5f.webp",
-          "proxy": false
-        },
-        {
-          "title": "手机壁纸",
-          "url": "https://www.yuque.com/lixin-uxnsi/share/dshlh0",
-          "icon": "img/143932c4d87af62e01137b5e20a1cc38.webp",
-          "desc": "分享高质量手机壁纸的下载渠道和应用。",
           "proxy": false
         },
         {
@@ -665,13 +637,6 @@
       "categoryId": "templates-assets",
       "sites": [
         {
-          "title": "400份应届生简历模版",
-          "url": "https://www.aliyundrive.com/s/qSBzTH1WVe3",
-          "desc": "包含400份适合应届毕业生的简历模板。",
-          "proxy": false,
-          "icon": "img/060fbd5f9f928c5dd6c18a01e54407ed.webp"
-        },
-        {
           "title": "PPT 超级市场",
           "url": "https://ppt.sotary.com/web/wxapp/index.html",
           "desc": "PPT模板网站",
@@ -748,13 +713,6 @@
           "proxy": false
         },
         {
-          "title": "各行各业的工作总结模板",
-          "url": "https://www.aliyundrive.com/s/qMiKcNUj2Vx",
-          "desc": "适用于各行各业的工作总结PPT模板合集。",
-          "proxy": false,
-          "icon": "img/060fbd5f9f928c5dd6c18a01e54407ed.webp"
-        },
-        {
           "title": "爱给网",
           "url": "https://www.aigei.com/",
           "icon": "img/0d11d0b902d1bfd8b2c6ffa5fd8a7bbd.webp",
@@ -769,20 +727,6 @@
           "proxy": false
         },
         {
-          "title": "Adobe 全家桶插件",
-          "url": "https://www.yuque.com/lixin-uxnsi/share/nemiv6",
-          "icon": "img/143932c4d87af62e01137b5e20a1cc38.webp",
-          "desc": "分享适用于Photoshop、Premiere、After Effects等Adobe软件的实用插件合集。",
-          "proxy": false
-        },
-        {
-          "title": "毕业答辩PPT模版72套",
-          "url": "https://www.aliyundrive.com/s/iBw7hLL4oWK",
-          "desc": "包含72套适用于毕业答辩的精美PPT模板。",
-          "proxy": false,
-          "icon": "img/060fbd5f9f928c5dd6c18a01e54407ed.webp"
-        },
-        {
           "title": "Panzoid",
           "url": "https://panzoid.com/",
           "icon": "img/3f7bb35f9f9243cde68c6590b1389a08.webp",
@@ -790,73 +734,10 @@
           "proxy": false
         },
         {
-          "title": "小表情",
-          "url": "https://www.yuque.com/lixin-uxnsi/share/ogi481",
-          "icon": "img/143932c4d87af62e01137b5e20a1cc38.webp",
-          "desc": "分享各种有趣的文字小表情（颜文字）合集，方便复制粘贴。",
-          "proxy": false
-        },
-        {
-          "title": "各行各业合同模板",
-          "url": "https://www.aliyundrive.com/s/XzeGEZ9Pdmw",
-          "desc": "提供各行各业通用的合同模板范本。",
-          "proxy": false,
-          "icon": "img/060fbd5f9f928c5dd6c18a01e54407ed.webp"
-        },
-        {
-          "title": "小鹦鹉",
-          "url": "https://www.yuque.com/lixin-uxnsi/share/rfdn1x",
-          "icon": "img/143932c4d87af62e01137b5e20a1cc38.webp",
-          "desc": "集合了小鹦鹉（阿鲁）、AC娘、微博等经典网络表情包系列。",
-          "proxy": false
-        },
-        {
           "title": "小森平的免费下载音效",
           "url": "https://taira-komori.net/freesoundcn.html",
           "icon": "img/31edf8a00ef52410dea11ecc7d1da7bc.webp",
           "desc": "日本音效师小森平提供的免费音效素材。",
-          "proxy": false
-        },
-        {
-          "title": "Lr预设-质感强烈的 HDR 人像",
-          "url": "https://pan.baidu.com/share/init?surl=ck8EjBGYWGZV9Qt9zIWLwA",
-          "icon": "img/7f5e5f59ad32f86a36fe0ac4a9e62ed4.webp",
-          "desc": "提取码：zylp",
-          "proxy": false
-        },
-        {
-          "title": "Lr预设-日系小清新人像",
-          "url": "https://pan.baidu.com/share/init?surl=4II2YVHT0rxK8wzWdJbUDw",
-          "icon": "img/7f5e5f59ad32f86a36fe0ac4a9e62ed4.webp",
-          "desc": "提取码：zqem",
-          "proxy": false
-        },
-        {
-          "title": "Lr预设-INS 网红旅拍电影胶片",
-          "url": "https://pan.baidu.com/share/init?surl=ZX0TGcm3GGT6AoyKVW7_7w",
-          "icon": "img/7f5e5f59ad32f86a36fe0ac4a9e62ed4.webp",
-          "desc": "提取码：srvp",
-          "proxy": false
-        },
-        {
-          "title": "PS笔刷-高清炫酷星光光效",
-          "url": "https://pan.baidu.com/share/init?surl=GqgbSjoT0Ta44yjBu1PdrA",
-          "icon": "img/7f5e5f59ad32f86a36fe0ac4a9e62ed4.webp",
-          "desc": "提取码：2cdw",
-          "proxy": false
-        },
-        {
-          "title": "PS笔刷-高清飞尘灰尘碎片颗粒",
-          "url": "https://pan.baidu.com/share/init?surl=YvmZoCWIWD_EqWf-imbGtA",
-          "icon": "img/7f5e5f59ad32f86a36fe0ac4a9e62ed4.webp",
-          "desc": "提取码：zt8d",
-          "proxy": false
-        },
-        {
-          "title": "PS笔刷-大型 CG 人物绘画",
-          "url": "https://pan.baidu.com/share/init?surl=4I4ZFICKIpS0CtZPLm01Mw",
-          "icon": "img/7f5e5f59ad32f86a36fe0ac4a9e62ed4.webp",
-          "desc": "提取码：docc",
           "proxy": false
         }
       ]
@@ -915,13 +796,6 @@
           "proxy": false
         },
         {
-          "title": "RARBG全站380W资源备份",
-          "url": "https://flowus.cn/share/8b61bf4a-d647-4e08-ab78-896e7c072d8a?code=CZ3ECT",
-          "icon": "img/a7bbcaaff9b421c8065e6a3a46d0d813.webp",
-          "desc": "👍提供原RARBG网站所有磁力链接的种子文件备份。",
-          "proxy": false
-        },
-        {
           "title": "烂番茄",
           "url": "https://www.rottentomatoes.com/",
           "desc": "国外影评网站，安装了广告拦截插件无法用",
@@ -950,13 +824,6 @@
           "proxy": true
         },
         {
-          "title": "稳定永久免费看电视直播方案",
-          "url": "https://mp.weixin.qq.com/s/_1HVx3YNJOlLmtkPSX46-w",
-          "icon": "img/5281e972ec463897022f56464011b5ed.webp",
-          "desc": "👍提供多种稳定免费观看电视直播的APP和方法。",
-          "proxy": false
-        },
-        {
           "title": "A7美剧字幕站",
           "url": "https://www.addic7ed.com/",
           "desc": "国外著名的英文字幕下载站，更新速度快。",
@@ -976,13 +843,6 @@
           "desc": "提供最新的好莱坞电影资讯和预告片。",
           "icon": "img/556033a96f259488f98f7744152fe974.webp",
           "proxy": true
-        },
-        {
-          "title": "iOS稳定免费看VIP影视方案",
-          "url": "https://mp.weixin.qq.com/s/fh_tyrGkSEDEELs9HiG19w",
-          "icon": "img/5281e972ec463897022f56464011b5ed.webp",
-          "desc": "👍介绍在iOS设备上免费观看VIP影视的稳定方法。",
-          "proxy": false
         },
         {
           "title": "Podnapisi.NET",
@@ -1171,13 +1031,6 @@
           "proxy": false
         },
         {
-          "title": "FeedMe",
-          "url": "https://url67.ctfile.com/f/14869667-1433640400-91369b?p=kyon",
-          "icon": "img/b0076ef2d0bfc5573f2906e5208855a9.webp",
-          "desc": "安卓端功能强大的RSS阅读器。",
-          "proxy": false
-        },
-        {
           "title": "Inoreader",
           "url": "https://axu.lanzouj.com/iwqmE07gawmd",
           "icon": "img/e2a12d30813a67034ecef52f8f5447d9.webp",
@@ -1276,13 +1129,6 @@
           "proxy": true
         },
         {
-          "title": "利用RSS实现纯净阅读（上）",
-          "url": "https://mp.weixin.qq.com/s/wQh3BdeJnKWab7Q331l54Q",
-          "icon": "img/5281e972ec463897022f56464011b5ed.webp",
-          "desc": "RSS入门，聚合信息，摆脱算法推荐。",
-          "proxy": false
-        },
-        {
           "title": "旷视科技 (Megvii)",
           "url": "https://www.megvii.com/",
           "icon": "img/a89de837fc3e89300085ee6a67723a84.webp",
@@ -1317,13 +1163,6 @@
           "proxy": false
         },
         {
-          "title": "百度云／百度网盘高速下载教程",
-          "url": "https://flowus.cn/share/8423ce0d-88c8-4804-b259-ce6d192cc0b4?code=CZ3ECT",
-          "icon": "img/a7bbcaaff9b421c8065e6a3a46d0d813.webp",
-          "desc": "汇总多种百度网盘不限速下载的方法和工具。",
-          "proxy": false
-        },
-        {
           "title": "极简插件",
           "url": "https://chrome.zzzmh.cn/",
           "icon": "img/02f95305628acce35bb057262d4df77f.webp",
@@ -1335,13 +1174,6 @@
           "url": "https://www.superbed.cn/",
           "icon": "img/290c06311a5fd75cd509dbc31f2ec50b.webp",
           "desc": "免费图床，支持多家云存储，接口多，速度快。",
-          "proxy": false
-        },
-        {
-          "title": "PicsArt",
-          "url": "https://www.yuque.com/lixin-uxnsi/share/vsw652",
-          "icon": "img/143932c4d87af62e01137b5e20a1cc38.webp",
-          "desc": "提供PicsArt、VSCO等热门手机修图、滤镜应用的修改版或高级版资源。",
           "proxy": false
         },
         {
@@ -1359,20 +1191,6 @@
           "proxy": false
         },
         {
-          "title": "上网必学之网页广告拦截教程",
-          "url": "https://mp.weixin.qq.com/s/USvQbx7AwyEVkMDTPnzbQA",
-          "icon": "img/5281e972ec463897022f56464011b5ed.webp",
-          "desc": "👍详细教程，教你如何配置广告拦截规则，享受清爽的上网体验。",
-          "proxy": false
-        },
-        {
-          "title": "图片去水印",
-          "url": "https://www.yuque.com/lixin-uxnsi/share/pgtu7e",
-          "icon": "img/143932c4d87af62e01137b5e20a1cc38.webp",
-          "desc": "介绍使用软件（如Inpaint）或在线工具去除图片水印的技巧。",
-          "proxy": false
-        },
-        {
           "title": "Potplayer+MADVR最强画质教程",
           "url": "https://www.hangge.com/blog/cache/detail_1461.html",
           "icon": "img/fd1d506b848bb885a68b55f87e6b36ae.webp",
@@ -1384,13 +1202,6 @@
           "url": "https://developer.aliyun.com/mirror/",
           "icon": "img/35887422cee44083ae6e90dff5ad6588.webp",
           "desc": "阿里巴巴提供的开源镜像站，下载速度快，资源丰富。",
-          "proxy": false
-        },
-        {
-          "title": "猫抓",
-          "url": "https://github.com/xifangczy/cat-catch",
-          "icon": "",
-          "desc": "Chrome媒体嗅探插件，可以方便地下载网页上的视频、音频等资源。",
           "proxy": false
         },
         {
@@ -1419,13 +1230,6 @@
           "url": "https://mirrors.tuna.tsinghua.edu.cn/",
           "icon": "img/4bcf50351bf68b4814473483bd67cf16.webp",
           "desc": "提供各类开源软件、操作系统及Linux发行版的镜像下载服务。",
-          "proxy": false
-        },
-        {
-          "title": "单文件制作程序",
-          "url": "https://www.yuque.com/lixin-uxnsi/share/lkzlgp",
-          "icon": "img/143932c4d87af62e01137b5e20a1cc38.webp",
-          "desc": "介绍如何将一个程序及其依赖文件打包成单个可执行文件的工具，如Cameyo。",
           "proxy": false
         },
         {
@@ -1464,13 +1268,6 @@
           "proxy": false
         },
         {
-          "title": "图种",
-          "url": "https://www.yuque.com/lixin-uxnsi/share/pryog6",
-          "icon": "img/143932c4d87af62e01137b5e20a1cc38.webp",
-          "desc": "介绍“图种”的制作和使用方法，实现图片和文件的巧妙结合。",
-          "proxy": false
-        },
-        {
           "title": "豆瓣资源下载大师",
           "url": "https://greasyfork.org/en/scripts/329484-%E8%B1%86%E7%93%A3%E8%B5%84%E6%BA%90%E4%B8%8B%E8%BD%BD%E5%A4%A7%E5%B8%88-1%E7%A7%92%E6%90%9E%E5%AE%9A%E8%B1%86%E7%93%A3%E7%94%B5%E5%BD%B1-%E9%9F%B3%E4%B9%90-%E5%9B%BE%E4%B9%A6%E4%B8%8B%E8%BD%BD",
           "icon": "img/f6a78521c62eb84df1ac9322fc460ead.webp",
@@ -1490,20 +1287,6 @@
           "icon": "img/f6a78521c62eb84df1ac9322fc460ead.webp",
           "desc": "油猴脚本，可以直接下载天翼云盘的文件，无需安装客户端。",
           "proxy": true
-        },
-        {
-          "title": "图片去重",
-          "url": "https://www.yuque.com/lixin-uxnsi/share/varv8g",
-          "icon": "img/143932c4d87af62e01137b5e20a1cc38.webp",
-          "desc": "提供查找和删除电脑中重复或相似图片的工具，释放存储空间。",
-          "proxy": false
-        },
-        {
-          "title": "拼图",
-          "url": "https://www.yuque.com/lixin-uxnsi/share/gy42xw",
-          "icon": "img/143932c4d87af62e01137b5e20a1cc38.webp",
-          "desc": "推荐用于将多张图片拼接成一张的电脑软件和手机应用。",
-          "proxy": false
         }
       ]
     },

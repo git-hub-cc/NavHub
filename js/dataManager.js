@@ -15,7 +15,7 @@ export const DEFAULT_SITES_PATH = "data/03娱乐.json"; // 默认加载的数据
 
 // === 默认内置数据源列表 ===
 export const defaultSiteDataSources = [
-    {name: "阿里资源", path: "data/00阿里资源.json"},
+    {name: "资源", path: "data/00资源.json"},
     {name: "在线服务", path: "data/01在线服务.json"},
     {name: "软件", path: "data/02软件.json"},
     {name: "娱乐", path: "data/03娱乐.json"},

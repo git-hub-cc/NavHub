@@ -361,13 +361,6 @@
           "proxy": false
         },
         {
-          "title": "AI上色",
-          "url": "https://www.yuque.com/lixin-uxnsi/share/hvdnb5",
-          "icon": "img/143932c4d87af62e01137b5e20a1cc38.webp",
-          "desc": "利用人工智能为黑白老照片自动上色的工具和网站。",
-          "proxy": false
-        },
-        {
           "title": "Midjourney基础教程@言川Artie",
           "url": "https://www.uisdc.com/midjourney-7",
           "icon": "img/349c6e6ac85ea96780e42e58c3ac2b7c.webp",
@@ -386,13 +379,6 @@
           "url": "https://jiuge.thunlp.org/",
           "icon": "img/a60263561759aaf62cb3838863cdac47.webp",
           "desc": "清华大学自然语言处理实验室开发的AI诗歌写作系统。",
-          "proxy": false
-        },
-        {
-          "title": "图片放大",
-          "url": "https://www.yuque.com/lixin-uxnsi/share/xh7l62",
-          "icon": "img/143932c4d87af62e01137b5e20a1cc38.webp",
-          "desc": "使用AI无损放大工具（如Waifu2x）提升图片分辨率而不失真。",
           "proxy": false
         }
       ]
@@ -625,13 +611,6 @@
           "proxy": false
         },
         {
-          "title": "GitHub",
-          "url": "https://github.com/",
-          "icon": "",
-          "desc": "全球最大的代码托管平台和开源社区，汇集了海量项目与开发者。",
-          "proxy": false
-        },
-        {
           "title": "Cursor",
           "url": "https://cursor.com/cn",
           "icon": "img/047c0993f065cda34698ca3dc57a7083.webp",
@@ -644,13 +623,6 @@
           "icon": "img/490d1febdb6cec70a8607a1abcb44d6f.webp",
           "desc": "创意工作者们的社区。",
           "proxy": true
-        },
-        {
-          "title": "GitHub Copilot",
-          "url": "https://github.com/login?return_to=https%3A%2F%2Fgithub.com%2Fcopilot%2Fc%2Fc6eb74e4-33c5-408d-9d76-b9914f382998",
-          "icon": "",
-          "desc": "GitHub与OpenAI合作开发的AI代码补全工具，提升编程效率。",
-          "proxy": false
         },
         {
           "title": "Visual Studio Code",
@@ -678,13 +650,6 @@
           "icon": "img/bd9f5b52aab9a2fefb14a374cb3743d6.webp",
           "desc": "学的不仅仅是技术，更是梦想。提供各类编程入门教程。",
           "proxy": false
-        },
-        {
-          "title": "C语言课件",
-          "url": "https://wwi.lanzoui.com/b01cn1qkj",
-          "desc": "密码:awde",
-          "proxy": false,
-          "icon": "img/e2a12d30813a67034ecef52f8f5447d9.webp"
         },
         {
           "title": "丁香医生",
@@ -750,24 +715,10 @@
           "proxy": false
         },
         {
-          "title": "AI代码提升电脑使用效率实战教程",
-          "url": "https://mp.weixin.qq.com/s/uY0n1CchQzCAn3jTciz6ZA",
-          "icon": "img/5281e972ec463897022f56464011b5ed.webp",
-          "desc": "（纯小白也绝对能用上）介绍如何利用AI代码助手解决日常电脑使用问题。",
-          "proxy": false
-        },
-        {
           "title": "第一教程网",
           "url": "https://www.diyijc.com/",
           "icon": "img/d8e7ea46b544e213fae900d81f525937.webp",
           "desc": "提供中小学、考研、编程等各类免费视频教程。",
-          "proxy": false
-        },
-        {
-          "title": "Python-100-Days",
-          "url": "https://github.com/jackfrued/Python-100-Days",
-          "icon": "",
-          "desc": "GitHub项目，Python从新手到大师的100天学习路径。",
           "proxy": false
         },
         {
@@ -783,55 +734,6 @@
           "icon": "img/6d68ea4976bf3a3346d27f44911ed718.webp",
           "desc": "用视频方式普及医学知识的科普平台。",
           "proxy": true
-        },
-        {
-          "title": "尚硅谷Java学科全套教程",
-          "url": "https://pan.baidu.com/share/init?surl=5ocrWsdcODC8kA1VCkMaXQ",
-          "icon": "img/7f5e5f59ad32f86a36fe0ac4a9e62ed4.webp",
-          "desc": "提取码：57vp",
-          "proxy": false
-        },
-        {
-          "title": "java架构师视频教程",
-          "url": "https://pan.baidu.com/share/init?surl=WTxjrgppU4xQNT4teHvsLA",
-          "icon": "img/7f5e5f59ad32f86a36fe0ac4a9e62ed4.webp",
-          "desc": "提取码: si9a",
-          "proxy": false
-        },
-        {
-          "title": "博学谷C++",
-          "url": "https://pan.baidu.com/share/init?surl=bNhCJw_1lY2nCK4S1RBHNA",
-          "icon": "img/7f5e5f59ad32f86a36fe0ac4a9e62ed4.webp",
-          "desc": "提取码: nkc5",
-          "proxy": false
-        },
-        {
-          "title": "2020新版Go开发工程师完结",
-          "url": "https://pan.baidu.com/share/init?surl=TbPcT4OqKsva73vViqz9Zg",
-          "icon": "img/7f5e5f59ad32f86a36fe0ac4a9e62ed4.webp",
-          "desc": "提取码: 61jx",
-          "proxy": false
-        },
-        {
-          "title": "抖音热门引流变现秘籍",
-          "url": "https://pan.baidu.com/share/init?surl=b9EukwOhtYWY458r417JmQ",
-          "icon": "img/7f5e5f59ad32f86a36fe0ac4a9e62ed4.webp",
-          "desc": "提取码: g4gp",
-          "proxy": false
-        },
-        {
-          "title": "零基础主播带货成长计划",
-          "url": "https://pan.baidu.com/share/init?surl=FQHmjDKwL8RpsNmPJftELA",
-          "icon": "img/7f5e5f59ad32f86a36fe0ac4a9e62ed4.webp",
-          "desc": "提取码: 7a9x",
-          "proxy": false
-        },
-        {
-          "title": "动效训练营",
-          "url": "https://pan.baidu.com/share/init?surl=TLk94QNlmY0w5rSnpRKgWA",
-          "icon": "img/7f5e5f59ad32f86a36fe0ac4a9e62ed4.webp",
-          "desc": "提取码: 2yfv",
-          "proxy": false
         }
       ]
     },
@@ -882,13 +784,6 @@
           "proxy": false
         },
         {
-          "title": "无视加密网课100%下载教程",
-          "url": "https://mp.weixin.qq.com/s/f-ZEac96Q3DGnYa89I2ggQ",
-          "icon": "img/5281e972ec463897022f56464011b5ed.webp",
-          "desc": "👍教你如何下载被加密保护、无法直接下载的在线课程视频。",
-          "proxy": false
-        },
-        {
           "title": "浙江大学课程攻略共享计划",
           "url": "https://qsctech.github.io/zju-icicles/",
           "icon": "img/e565ddfa3bf22365b10813e07aa33314.webp",
@@ -928,20 +823,6 @@
           "url": "https://ustc-resource.github.io/USTC-Course/",
           "icon": "",
           "desc": "中科大学生整理的课程资源。",
-          "proxy": false
-        },
-        {
-          "title": "上海交大",
-          "url": "https://github.com/kxxwz/SJTU-Courses",
-          "icon": "",
-          "desc": "上海交通大学学生整理的课程资源(Github)。",
-          "proxy": false
-        },
-        {
-          "title": "东南大学",
-          "url": "https://github.com/zjdx1998/seucourseshare",
-          "icon": "",
-          "desc": "东南大学学生整理的课程资源(Github)。",
           "proxy": false
         },
         {
@@ -1049,13 +930,6 @@
           "proxy": false
         },
         {
-          "title": "一键搜题",
-          "url": "https://www.yuque.com/lixin-uxnsi/share/mk2ctz",
-          "icon": "img/143932c4d87af62e01137b5e20a1cc38.webp",
-          "desc": "分享用于网课、作业的搜题应用和脚本，快速找到答案和解析。",
-          "proxy": false
-        },
-        {
           "title": "论文狗",
           "url": "https://www.lunwengo.net/",
           "icon": "img/9bed60f6d2c9f4b8e2107b8075a817d3.webp",
@@ -1070,31 +944,10 @@
           "proxy": false
         },
         {
-          "title": "论文查重",
-          "url": "https://www.yuque.com/lixin-uxnsi/share/oaolfi",
-          "icon": "img/143932c4d87af62e01137b5e20a1cc38.webp",
-          "desc": "分享免费或低成本的论文查重方法和网站，帮助检测学术不端行为。",
-          "proxy": false
-        },
-        {
           "title": "公考公开真题库",
           "url": "https://www.gkzenti.cn/",
           "icon": "img/a6b5548b7d19e177efba5e1c52cc9bc9.webp",
           "desc": "提供公务员考试历年真题的在线题库。",
-          "proxy": false
-        },
-        {
-          "title": "程序员考公指南",
-          "url": "https://github.com/coder2gwy/coder2gwy",
-          "icon": "",
-          "desc": "Github高赞项目，为程序员提供考公指导和经验分享。",
-          "proxy": false
-        },
-        {
-          "title": "up考研资料分享",
-          "url": "https://www.yuque.com/qjl988/upky_ziliao",
-          "icon": "img/143932c4d87af62e01137b5e20a1cc38.webp",
-          "desc": "英语、政治、数学，资源新，免费分享",
           "proxy": false
         },
         {
@@ -1105,73 +958,10 @@
           "proxy": false
         },
         {
-          "title": "教师资格证",
-          "url": "https://www.yuque.com/lixin-uxnsi/share/bxxgzr",
-          "icon": "img/143932c4d87af62e01137b5e20a1cc38.webp",
-          "desc": "集合教师资格证考试相关的备考资料、视频教程和学习笔记。",
-          "proxy": false
-        },
-        {
           "title": "满小分论坛",
           "url": "https://www.manxiaofen.com/",
           "icon": "img/93340f2435aee280a7e98863e1ce14c1.webp",
           "desc": "考试资料共享平台，涉及建筑、会计、公考、外语、考研等。",
-          "proxy": false
-        },
-        {
-          "title": "数学 - 历年真题 (2023版)",
-          "url": "https://pan.baidu.com/share/init?surl=cZgwU9g0bDjiY5wYyDpf6w",
-          "icon": "img/7f5e5f59ad32f86a36fe0ac4a9e62ed4.webp",
-          "desc": "2023考研数学历年真题。提取码: 4guc",
-          "proxy": false
-        },
-        {
-          "title": "英语 - 历年真题 (2023版)",
-          "url": "https://pan.baidu.com/share/init?surl=ywPzaIrI4bSPnhjBz4CjBA",
-          "icon": "img/7f5e5f59ad32f86a36fe0ac4a9e62ed4.webp",
-          "desc": "2023考研英语历年真题。提取码: 7k2g",
-          "proxy": false
-        },
-        {
-          "title": "腿姐团队复试指导",
-          "url": "https://pan.baidu.com/share/init?surl=dsBwGk-fu3rSn3EtU6zXrw",
-          "icon": "img/7f5e5f59ad32f86a36fe0ac4a9e62ed4.webp",
-          "desc": "2022复试资料。提取码: 4q9s",
-          "proxy": false
-        },
-        {
-          "title": "文都特训复试班",
-          "url": "https://pan.baidu.com/share/init?surl=OE40p00CGfeHL8OieQjfcA",
-          "icon": "img/7f5e5f59ad32f86a36fe0ac4a9e62ed4.webp",
-          "desc": "2022复试资料。提取码: 6414",
-          "proxy": false
-        },
-        {
-          "title": "新东方复试特训车",
-          "url": "https://pan.baidu.com/share/init?surl=2bpDzNKM0N_Ts9eelhmvXg",
-          "icon": "img/7f5e5f59ad32f86a36fe0ac4a9e62ed4.webp",
-          "desc": "2022复试资料。提取码: er3x",
-          "proxy": false
-        },
-        {
-          "title": "复试技巧及简历模板",
-          "url": "https://pan.baidu.com/share/init?surl=Kn5_412RoX6udhg_PVjqMw",
-          "icon": "img/7f5e5f59ad32f86a36fe0ac4a9e62ed4.webp",
-          "desc": "往期版本，仍有参考价值。提取码: jusi",
-          "proxy": false
-        },
-        {
-          "title": "法硕复试系列",
-          "url": "https://pan.baidu.com/share/init?surl=ZwULkYOxc6_ObNejfHXOGg",
-          "icon": "img/7f5e5f59ad32f86a36fe0ac4a9e62ed4.webp",
-          "desc": "2022法硕复试资料。提取码: q9qy",
-          "proxy": false
-        },
-        {
-          "title": "计算机复试系列",
-          "url": "https://pan.baidu.com/share/init?surl=rmX4grvpHZphu2yteMeKsw",
-          "icon": "img/7f5e5f59ad32f86a36fe0ac4a9e62ed4.webp",
-          "desc": "2022计算机复试资料。提取码: tiiu",
           "proxy": false
         }
       ]
@@ -1180,13 +970,6 @@
       "categoryName": "语言学习与词典",
       "categoryId": "language-learning-dictionaries",
       "sites": [
-        {
-          "title": "ANKI",
-          "url": "https://www.yuque.com/lixin-uxnsi/share/ufmyag",
-          "icon": "img/143932c4d87af62e01137b5e20a1cc38.webp",
-          "desc": "Anki记忆卡片软件的使用教程、插件推荐和精品牌组分享。",
-          "proxy": false
-        },
         {
           "title": "专升本考试培训英语专项课",
           "url": "https://t.cn/A669ZNre",
@@ -1199,13 +982,6 @@
           "url": "https://www.eudic.net/v4/en/app/download",
           "icon": "img/e53c04d84c835422db2f842c2ff80842.webp",
           "desc": "专业的离线词典软件，支持加载多种词典库，提供精准的查词和翻译服务。",
-          "proxy": false
-        },
-        {
-          "title": "备考／辅助记忆神器推荐",
-          "url": "https://mp.weixin.qq.com/s/MZSyOguVVGHsiXQDb5CTlw",
-          "icon": "img/5281e972ec463897022f56464011b5ed.webp",
-          "desc": "👍介绍Anki等间隔重复记忆软件，提高学习效率。",
           "proxy": false
         },
         {
@@ -1242,34 +1018,6 @@
           "icon": "img/1838568881f9415e5e6dbde34106493a.webp",
           "desc": "英语语法、词语搭配和用法搜索引擎。",
           "proxy": false
-        },
-        {
-          "title": "大学英语四级 (CET-4)",
-          "url": "https://pan.baidu.com/share/init?surl=c5qXDATD9kVSlvLXkYh7oQ",
-          "icon": "img/7f5e5f59ad32f86a36fe0ac4a9e62ed4.webp",
-          "desc": "2021年四级备考资料。提取码: 9qb2",
-          "proxy": false
-        },
-        {
-          "title": "大学英语六级 (CET-6)",
-          "url": "https://pan.baidu.com/share/init?surl=Pmr4cNJd-4o_xuZIh08REg",
-          "icon": "img/7f5e5f59ad32f86a36fe0ac4a9e62ed4.webp",
-          "desc": "2021年六级备考资料。提取码: olp6",
-          "proxy": false
-        },
-        {
-          "title": "英语专业四级 (TEM-4)",
-          "url": "https://pan.baidu.com/share/init?surl=iQbSjBHnDoXq6rX34Lm2xQ",
-          "icon": "img/7f5e5f59ad32f86a36fe0ac4a9e62ed4.webp",
-          "desc": "英语专业四级备考资料。提取码: e30r",
-          "proxy": false
-        },
-        {
-          "title": "英语专业八级 (TEM-8)",
-          "url": "https://pan.baidu.com/share/init?surl=mXey9m2SIcQ3twzzD5w-9w",
-          "icon": "img/7f5e5f59ad32f86a36fe0ac4a9e62ed4.webp",
-          "desc": "英语专业八级备考资料。提取码: a3ip",
-          "proxy": false
         }
       ]
     },
@@ -1277,13 +1025,6 @@
       "categoryName": "办公软件与效率工具",
       "categoryId": "office-productivity-tools",
       "sites": [
-        {
-          "title": "Office",
-          "url": "https://www.yuque.com/lixin-uxnsi/share/xt33pm",
-          "icon": "img/143932c4d87af62e01137b5e20a1cc38.webp",
-          "desc": "提供Office办公套件（Word/Excel/PPT）的安装、激活和使用教程。",
-          "proxy": false
-        },
         {
           "title": "ProcessOn",
           "url": "https://www.processon.com/",
@@ -1299,13 +1040,6 @@
           "proxy": false
         },
         {
-          "title": "KeePass 使用教程+完整配置版",
-          "url": "https://mp.weixin.qq.com/s/8uPA0kJ7kmObh0XW8EJz8w",
-          "icon": "img/5281e972ec463897022f56464011b5ed.webp",
-          "desc": "本地化的开源密码管理器，安全性极高。",
-          "proxy": false
-        },
-        {
           "title": "Bitwarden",
           "url": "https://bitwarden.com/",
           "icon": "img/40e393625bfdcd387e6a903ebfedd049.webp",
@@ -1318,111 +1052,6 @@
           "icon": "img/52c3338d31ce20ecefa4d3750b19fb07.webp",
           "desc": "强大的 Office 部署工具，支持 Office 的下载、安装、激活与管理。",
           "proxy": false
-        },
-        {
-          "title": "PDF转换",
-          "url": "https://www.yuque.com/lixin-uxnsi/share/gxkpc4",
-          "icon": "img/143932c4d87af62e01137b5e20a1cc38.webp",
-          "desc": "集合各类PDF转换工具，支持PDF与Word、Excel、PPT、图片等格式的相互转换。",
-          "proxy": false
-        },
-        {
-          "title": "Panda OCR",
-          "url": "https://github.com/miaomiaosoft/PandaOCR.Pro",
-          "icon": "",
-          "desc": "多功能OCR文字识别工具，支持多个OCR和翻译引擎。",
-          "proxy": false
-        },
-        {
-          "title": "微软 Microsoft Authenticator",
-          "url": "https://mp.weixin.qq.com/s/31sSHtSdKA6jxLyWgzHKMg#:~:text=2-,Microsoft%20Authenticator,-%E5%85%B3%E4%BA%8E%E5%AF%86%E7%A0%81%E7%AE%A1%E7%90%86",
-          "icon": "img/5281e972ec463897022f56464011b5ed.webp",
-          "desc": "微软官方的两步验证器，支持密码云同步和自动填充。",
-          "proxy": false
-        },
-        {
-          "title": "PDF去水印",
-          "url": "https://www.yuque.com/lixin-uxnsi/share/igdd6b",
-          "icon": "img/143932c4d87af62e01137b5e20a1cc38.webp",
-          "desc": "介绍去除PDF文件中水印的工具和方法，方便阅读和使用。",
-          "proxy": false
-        },
-        {
-          "title": "Everything使用技巧",
-          "url": "https://mp.weixin.qq.com/s/z82AcSj-NWocAkN_phxrtA",
-          "icon": "img/5281e972ec463897022f56464011b5ed.webp",
-          "desc": "Windows上最快的本地文件搜索工具使用指南。",
-          "proxy": false
-        },
-        {
-          "title": "WPS 2013-2019 各个版本",
-          "url": "https://pan.baidu.com/share/init?surl=RNqwERMA0nnli6g-ICCFaQ",
-          "icon": "img/7f5e5f59ad32f86a36fe0ac4a9e62ed4.webp",
-          "desc": "提取码: t3b2",
-          "proxy": false
-        },
-        {
-          "title": "OCR",
-          "url": "https://www.yuque.com/lixin-uxnsi/share/aht6gh",
-          "icon": "img/143932c4d87af62e01137b5e20a1cc38.webp",
-          "desc": "推荐精准的OCR文字识别软件，可将图片、扫描件或PDF中的文字提取出来。",
-          "proxy": false
-        },
-        {
-          "title": "全文搜索／正文搜索软件推荐",
-          "url": "https://mp.weixin.qq.com/s/lErH53BbOEurwDhMBFgE0g",
-          "icon": "img/5281e972ec463897022f56464011b5ed.webp",
-          "desc": "介绍支持文件内容搜索的工具，快速定位信息。",
-          "proxy": false
-        },
-        {
-          "title": "福昕PDF",
-          "url": "https://pan.baidu.com/share/init?surl=-30fk83zAK3aHoIDGrVADw",
-          "desc": "功能强大的PDF阅读和编辑器。提供专业版，提取码：q0u2",
-          "icon": "img/7f5e5f59ad32f86a36fe0ac4a9e62ed4.webp",
-          "proxy": false
-        },
-        {
-          "title": "流程图",
-          "url": "https://www.yuque.com/lixin-uxnsi/share/efsgg9",
-          "icon": "img/143932c4d87af62e01137b5e20a1cc38.webp",
-          "desc": "推荐Visio、Draw.io等流程图和思维导图制作工具。",
-          "proxy": false
-        },
-        {
-          "title": "阿虚的笔记方案 ㆖",
-          "url": "https://mp.weixin.qq.com/s/LtbJIBl4MYp6-5kTFqFmvA",
-          "icon": "img/5281e972ec463897022f56464011b5ed.webp",
-          "desc": "永久原格式完美保存网页的笔记方法。",
-          "proxy": false
-        },
-        {
-          "title": "XMind",
-          "url": "https://pan.baidu.com/share/init?surl=blS-w-v1zxGpr7z4LELe0g",
-          "desc": "专业的思维导图软件。提供破解版，提取码：8egm",
-          "icon": "img/7f5e5f59ad32f86a36fe0ac4a9e62ed4.webp",
-          "proxy": false
-        },
-        {
-          "title": "公文写作",
-          "url": "https://www.yuque.com/lixin-uxnsi/share/qmvc5d",
-          "icon": "img/143932c4d87af62e01137b5e20a1cc38.webp",
-          "desc": "提供公文写作的模板、范文和辅助工具，提升写作规范性和效率。",
-          "proxy": false
-        },
-        {
-          "title": "阿虚的视频笔记方案 ㆖",
-          "url": "https://mp.weixin.qq.com/s/VapV7pN9rM2LbrKlfkY47Q",
-          "icon": "img/5281e972ec463897022f56464011b5ed.webp",
-          "desc": "视频转图片／精记录，高效整理视频笔记。",
-          "proxy": false
-        },
-        {
-          "title": "操作录制",
-          "url": "https://www.yuque.com/lixin-uxnsi/share/bgvkgf",
-          "icon": "img/143932c4d87af62e01137b5e20a1cc38.webp",
-          "desc": "介绍可录制键鼠操作并自动执行的工具，以及PDF编辑、分页等技巧。",
-          "proxy": false
         }
       ]
     },
@@ -1430,13 +1059,6 @@
       "categoryName": "电子书与文档",
       "categoryId": "ebooks-documents",
       "sites": [
-        {
-          "title": "2025最新zlibrary、Anna’s Archive国内访问与下载方法",
-          "url": "https://flowus.cn/share/f32b6cae-c0da-42f0-8a25-5997e4423117?code=CZ3ECT",
-          "icon": "img/a7bbcaaff9b421c8065e6a3a46d0d813.webp",
-          "desc": "👍🆕提供多种在国内访问和下载Z-Library和Anna's Archive资源的方法。",
-          "proxy": false
-        },
         {
           "title": "热点图书网",
           "url": "https://www.happydot.top/",
@@ -1492,13 +1114,6 @@
           "icon": "",
           "desc": "🥇Z-Library项目官方域名，可找到最新可用的Z-Lib镜像。",
           "proxy": true
-        },
-        {
-          "title": "文库下载",
-          "url": "https://www.yuque.com/lixin-uxnsi/share/dy1m9v",
-          "icon": "img/143932c4d87af62e01137b5e20a1cc38.webp",
-          "desc": "介绍使用冰点文库等工具免费下载百度文库、豆丁网等在线文档的方法。",
-          "proxy": false
         },
         {
           "title": "Project Gutenberg",
@@ -1703,24 +1318,10 @@
           "proxy": false
         },
         {
-          "title": "读秀下载",
-          "url": "https://www.yuque.com/lixin-uxnsi/share/gxoqd1",
-          "icon": "img/143932c4d87af62e01137b5e20a1cc38.webp",
-          "desc": "分享从读秀、超星等学术资源网站下载文献资料的方法和工具。",
-          "proxy": false
-        },
-        {
           "title": "免费AI论文解读/翻译",
           "url": "https://baoyueai.com/channel?utm_id=228200%20",
           "icon": "img/186250333695e0a9836248469f7754f6.webp",
           "desc": "论文对照翻译，改写润色，专业术语详解，一站式解决论文烦恼！",
-          "proxy": false
-        },
-        {
-          "title": "读秀百万书库资源免费下载教程",
-          "url": "https://mp.weixin.qq.com/s/1A3s9LFbn5A0v7d3_Yy1Zg",
-          "icon": "img/5281e972ec463897022f56464011b5ed.webp",
-          "desc": "教你如何免费获取读秀等学术数据库的文献资源。",
           "proxy": false
         },
         {
