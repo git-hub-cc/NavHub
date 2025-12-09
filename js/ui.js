@@ -1,5 +1,5 @@
 // =========================================================================
-// ui.js - UI管理器 (重构版)
+// ui.js - UI管理器 (重构版 - 性能优化)
 // =========================================================================
 
 import { state, CUSTOM_CATEGORY_ID, DEFAULT_SITES_PATH, NAV_DATA_SOURCE_PREFERENCE_KEY } from './dataManager.js';
@@ -188,6 +188,10 @@ export function updateDeleteButtonState() {
 }
 
 export function renderNavPage() {
+    // 使用 DocumentFragment 批量插入，减少回流
+    const sidebarFragment = document.createDocumentFragment();
+    const contentFragment = document.createDocumentFragment();
+
     dom.categoryList.innerHTML = '';
     dom.contentWrapper.innerHTML = '';
 
@@ -196,13 +200,13 @@ export function renderNavPage() {
     const isCustomSource = currentSource && !currentSource.path;
 
     state.siteData.categories.forEach(category => {
-        // 侧边栏链接 - 增加图标
+        // 1. 生成侧边栏链接 (Fragment)
         const categoryLink = document.createElement('a');
         categoryLink.href = `#${category.categoryId}`;
         categoryLink.innerHTML = `<i class="ri-folder-3-line" style="margin-right:8px;font-size:16px;"></i> ${category.categoryName}`;
-        dom.categoryList.appendChild(categoryLink);
+        sidebarFragment.appendChild(categoryLink);
 
-        // 主内容分类区
+        // 2. 生成主内容分类区块 (Fragment)
         const section = document.createElement('section');
         section.id = category.categoryId;
         section.className = 'category-section';
@@ -211,12 +215,10 @@ export function renderNavPage() {
         titleContainer.className = 'category-title-container';
         let actionsHTML = '';
 
-        // 判断该区域是否可编辑 (自定义数据源 或 "我的导航" 分类)
         const isEditable = isCustomSource || category.categoryId === CUSTOM_CATEGORY_ID;
 
         if (isEditable) {
             section.classList.add('custom-source-section');
-            // 【关键修改】直接将 categoryName 绑定到 DOM 上，避免通过 ID 查找导致同名ID冲突
             actionsHTML = `
                 <div class="title-actions">
                     <button class="action-btn add-site-btn" 
@@ -234,13 +236,21 @@ export function renderNavPage() {
 
         const cardGrid = document.createElement('div');
         cardGrid.className = 'card-grid';
-        // 传递 isEditable 标志位到 createCardHTML
-        category.sites.forEach(site => cardGrid.innerHTML += createCardHTML(site, isEditable));
+
+        // 性能优化重点：
+        // 1. 使用数组 map + join 拼接所有 HTML 字符串，避免在循环中反复操作 innerHTML
+        // 2. 一次性插入到 cardGrid 中
+        const cardsHTML = category.sites.map(site => createCardHTML(site, isEditable)).join('');
+        cardGrid.innerHTML = cardsHTML;
 
         section.appendChild(titleContainer);
         section.appendChild(cardGrid);
-        dom.contentWrapper.appendChild(section);
+        contentFragment.appendChild(section);
     });
+
+    // 最后一次性将 Fragment 挂载到 DOM
+    dom.categoryList.appendChild(sidebarFragment);
+    dom.contentWrapper.appendChild(contentFragment);
 
     setupSidebarLinks();
 }
@@ -254,10 +264,16 @@ function createCardHTML(site, isEditable) {
     const defaultIcon = 'data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22%3E%3Ctext y=%22.9em%22 font-size=%2290%22%3E🌐%3C/text%3E%3C/svg%3E';
     const iconUrl = site.icon || defaultIcon;
     const proxyBadge = site.proxy ? '<div class="proxy-dot" title="需代理"></div>' : '';
-    const titlePinyin = pinyinManager.convert(site.title);
-    const descPinyin = pinyinManager.convert(site.desc || '');
 
-    // 仅在可编辑时生成遮罩层
+    // 如果没有加载 pinyinManager，使用空字符串作为后备，防止报错
+    const titlePinyin = (window.pinyinManager && typeof window.pinyinManager.convert === 'function')
+        ? window.pinyinManager.convert(site.title)
+        : { full: '', initials: '' };
+
+    const descPinyin = (window.pinyinManager && typeof window.pinyinManager.convert === 'function')
+        ? window.pinyinManager.convert(site.desc || '')
+        : { full: '', initials: '' };
+
     const editOverlay = isEditable ? `
         <div class="card-overlay-edit">
             <i class="ri-drag-move-2-line icon-drag"></i>
@@ -265,6 +281,11 @@ function createCardHTML(site, isEditable) {
         </div>
     ` : '';
 
+    /*
+     * 性能优化重点：
+     * 添加 loading="lazy" 属性，启用原生懒加载。
+     * 这对于包含大量图片的页面至关重要，能显著减少首屏网络请求阻塞。
+     */
     return `
         <div class="card"
              data-id="${site.id}"
@@ -277,7 +298,7 @@ function createCardHTML(site, isEditable) {
             
             <div class="card-header">
                 <div class="card-icon-wrapper">
-                    <img src="${iconUrl}" alt="" class="card-icon" draggable="false" onerror="this.src='${defaultIcon}'">
+                    <img src="${iconUrl}" alt="" class="card-icon" draggable="false" loading="lazy" onerror="this.src='${defaultIcon}'">
                 </div>
                 <h3 class="card-title" title="${site.title}">${site.title}</h3>
             </div>

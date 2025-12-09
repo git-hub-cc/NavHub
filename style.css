@@ -486,7 +486,21 @@ html[data-theme='dark'] .category-btn.active { background: var(--primary-solid);
 /* ==========================================================================
    6. 内容卡片 (Cards & Content)
    ========================================================================== */
-.category-section { margin-bottom: 50px; scroll-margin-top: 20px; }
+.category-section {
+    margin-bottom: 50px;
+    scroll-margin-top: 20px;
+    /*
+     * 性能优化：content-visibility
+     * 告诉浏览器，如果该元素不在视口内，则跳过其布局和渲染计算。
+     * 这对拥有大量 DOM 节点的长列表页面有显著的性能提升。
+     */
+    content-visibility: auto;
+    /*
+     * 设置预估高度，防止在 content-visibility 跳过渲染时滚动条发生剧烈抖动。
+     * 根据内容大致估算，例如一行标题 + 几行卡片的高度。
+     */
+    contain-intrinsic-size: 1px 600px;
+}
 
 .category-title-container {
     display: flex;

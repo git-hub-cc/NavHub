@@ -11,17 +11,16 @@ export const NAV_DATA_SOURCE_PREFERENCE_KEY = 'nav-data-source-preference'; // �
 export const NAV_CUSTOM_SOURCES_KEY = 'nav-custom-data-sources'; // 存储所有自定义数据源
 export const NAV_CUSTOM_USER_SITES_KEY = 'nav-user-custom-sites-data'; // 存储“我的导航”数据
 export const CUSTOM_CATEGORY_ID = 'custom-user-sites'; // “我的导航”分类的固定ID
-export const DEFAULT_SITES_PATH = "data/04影音娱乐.json"; // 默认加载的数据源
+export const DEFAULT_SITES_PATH = "data/03影音娱乐.json"; // 默认加载的数据源
 
 // === 默认内置数据源列表 ===
 export const defaultSiteDataSources = [
     {name: "阿里资源", path: "data/00阿里资源.json"},
     {name: "在线服务", path: "data/01在线服务.json"},
-    {name: "工具", path: "data/02工具.json"},
-    {name: "软件", path: "data/03软件.json"},
-    {name: "影音娱乐", path: "data/04影音娱乐.json"},
-    {name: "生产力", path: "data/05生产力.json"},
-    {name: "信息", path: "data/06信息.json"}
+    {name: "软件", path: "data/02软件.json"},
+    {name: "影音娱乐", path: "data/03影音娱乐.json"},
+    {name: "生产力", path: "data/04生产力.json"},
+    {name: "信息", path: "data/05信息.json"}
 ];
 
 // === 全局状态对象 ===
