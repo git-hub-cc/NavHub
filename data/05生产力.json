@@ -159,13 +159,6 @@
           "proxy": false
         },
         {
-          "title": "GPT公益站",
-          "url": "https://ai27.gptforlove.com/",
-          "icon": "data:image/svg+xml;base64,PHN2ZyBpZD0ib3BlbmFpLXN5bWJvbCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB2aWV3Qm94PSIwIDAgMzIgMzIiPjxwYXRoIGQ9Ik0yOS43MSwxMy4wOUE4LjA5LDguMDksMCwwLDAsMjAuMzQsMi42OGE4LjA4LDguMDgsMCwwLDAtMTMuNywyLjlBOC4wOCw4LjA4LDAsMCwwLDIuMywxOC45LDgsOCwwLDAsMCwzLDI1LjQ1YTguMDgsOC4wOCwwLDAsMCw4LjY5LDMuODcsOCw4LDAsMCwwLDYsMi42OCw4LjA5LDguMDksMCwwLDAsNy43LTUuNjEsOCw4LDAsMCwwLDUuMzMtMy44NkE4LjA5LDguMDksMCwwLDAsMjkuNzEsMTMuMDlabS0xMiwxNi44MmE2LDYsMCwwLDEtMy44NC0xLjM5bC4xOS0uMTEsNi4zNy0zLjY4YTEsMSwwLDAsMCwuNTMtLjkxdi05bDIuNjksMS41NmEuMDguMDgsMCwwLDEsLjA1LjA3djcuNDRBNiw2LDAsMCwxLDE3LjY4LDI5LjkxWk00LjgsMjQuNDFhNiw2LDAsMCwxLS43MS00bC4xOS4xMSw2LjM3LDMuNjhhMSwxLDAsMCwwLDEsMGw3Ljc5LTQuNDlWMjIuOGEuMDkuMDksMCwwLDEsMCwuMDhMMTMsMjYuNkE2LDYsMCwwLDEsNC44LDI0LjQxWk0zLjEyLDEwLjUzQTYsNiwwLDAsMSw2LjI4LDcuOXY3LjU3YTEsMSwwLDAsMCwuNTEuOWw3Ljc1LDQuNDdMMTEuODUsMjIuNGEuMTQuMTQsMCwwLDEtLjA5LDBMNS4zMiwxOC42OGE2LDYsMCwwLDEtMi4yLTguMThabTIyLjEzLDUuMTQtNy43OC00LjUyTDIwLjE2LDkuNmEuMDguMDgsMCwwLDEsLjA5LDBsNi40NCwzLjcyYTYsNiwwLDAsMS0uOSwxMC44MVYxNi41NkExLjA2LDEuMDYsMCwwLDAsMjUuMjUsMTUuNjdabTIuNjgtNC0uMTktLjEyLTYuMzYtMy43YTEsMSwwLDAsMC0xLjA1LDBsLTcuNzgsNC40OVY5LjJhLjA5LjA5LDAsMCwxLDAtLjA5TDE5LDUuNGE2LDYsMCwwLDEsOC45MSw2LjIxWk0xMS4wOCwxNy4xNSw4LjM4LDE1LjZhLjE0LjE0LDAsMCwxLS4wNS0uMDhWOC4xYTYsNiwwLDAsMSw5Ljg0LTQuNjFMMTgsMy42LDExLjYxLDcuMjhhMSwxLDAsMCwwLS41My45MVpNMTIuNTQsMTQsMTYsMTJsMy40NywydjRMMTYsMjBsLTMuNDctMloiLz48L3N2Zz4=",
-          "desc": "免费提供GPT服务的公益网站。",
-          "proxy": true
-        },
-        {
           "title": "Wrtn",
           "url": "https://wrtn.ai/",
           "icon": "img/88fa77f854a744cd593e31ff4bcf8b1e.webp",
@@ -1694,12 +1687,6 @@
           "url": "https://www.linovelib.com/wenku/",
           "icon": "img/88b7f0e2ad5b02af25bbbf35bd2df2ab.webp",
           "desc": "轻小说在线阅读网站。",
-          "proxy": true
-        },
-        {
-          "title": "Z-Library",
-          "url": "http://ww1.zlib.shop/?sub1=11ef775c-d42d-11f0-973d-67d0f3229465",
-          "desc": "全球最大的数字图书馆，提供海量电子书下载。此为最新镜像入口。",
           "proxy": true
         }
       ]
