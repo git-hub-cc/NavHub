@@ -3,7 +3,8 @@
 // =========================================================================
 
 import { state, getThemePreference, loadAllDataSources, loadSearchConfig, performDataSourceSwitch, saveNavData, findSiteById, DEFAULT_SITES_PATH, NAV_DATA_SOURCE_PREFERENCE_KEY, CUSTOM_CATEGORY_ID } from './dataManager.js';
-import { dom, applyTheme, populateDataSourceSelector, renderNavPage, updateDeleteButtonState, showAlert, openSiteModal, closeSiteModal, closeImportNameModal, toggleEditMode, toggleDeleteMode, filterNavCards, renderSearchCategories, renderEngineCheckboxes, renderSuggestions, showConfirm, toggleMobileSidebar, closeMobileSidebar } from './ui.js';
+// 【修改】导入新增的 isolateSidebarScroll 函数
+import { dom, applyTheme, populateDataSourceSelector, renderNavPage, updateDeleteButtonState, showAlert, openSiteModal, closeSiteModal, closeImportNameModal, toggleEditMode, toggleDeleteMode, filterNavCards, renderSearchCategories, renderEngineCheckboxes, renderSuggestions, showConfirm, toggleMobileSidebar, closeMobileSidebar, isolateSidebarScroll } from './ui.js';
 import { handleExport, handleImportClick, handleFileSelect, handleImportNameSubmit, handleDeleteSource } from './fileManager.js';
 
 let currentSearchCategory = '';
@@ -45,6 +46,9 @@ function setupStaticEventListeners() {
     if (dom.sidebarOverlay) {
         dom.sidebarOverlay.addEventListener('click', closeMobileSidebar);
     }
+
+    // 【新增】初始化侧边栏滚动隔离，防止干扰主页面滚动
+    isolateSidebarScroll();
 
     // 主题切换
     dom.darkModeSwitch.addEventListener('change', () => applyTheme(dom.darkModeSwitch.checked ? 'dark' : 'light'));

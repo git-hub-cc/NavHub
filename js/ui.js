@@ -10,6 +10,8 @@ export const dom = {
     darkModeSwitch: document.getElementById('dark-mode-switch'),
     categoryList: document.querySelector('.category-list'),
     contentWrapper: document.getElementById('content-wrapper'),
+    // 【新增】侧边栏滚动区域，用于事件隔离
+    sidebarScrollArea: document.querySelector('.sidebar-scroll-area'),
     // 移动端控件
     mobileMenuBtn: document.getElementById('mobile-menu-btn'),
     sidebar: document.getElementById('sidebar'),
@@ -511,4 +513,32 @@ export function toggleDeleteMode() {
         btn.classList.toggle('active', isNowDeleting);
         btn.innerHTML = isNowDeleting ? '<i class="ri-check-line"></i> 完成' : '<i class="ri-delete-bin-line"></i> 删除';
     });
+}
+
+// =========================================================================
+// #region 交互增强
+// =========================================================================
+
+/**
+ * 【新增功能】
+ * 隔离侧边栏的滚动事件，防止在滚动到顶部或底部时，事件冒泡导致主页面滚动。
+ * 这提升了在触控板或鼠标滚轮快速滚动时的用户体验。
+ */
+export function isolateSidebarScroll() {
+    if (!dom.sidebarScrollArea) return;
+
+    dom.sidebarScrollArea.addEventListener('wheel', (e) => {
+        const { scrollTop, scrollHeight, clientHeight } = dom.sidebarScrollArea;
+        const deltaY = e.deltaY;
+
+        // 检查是否滚动到顶部且仍在向上滚动
+        if (scrollTop === 0 && deltaY < 0) {
+            e.preventDefault();
+        }
+
+        // 检查是否滚动到底部且仍在向下滚动 (使用一个小的容差值以提高鲁棒性)
+        if (scrollTop + clientHeight >= scrollHeight - 1 && deltaY > 0) {
+            e.preventDefault();
+        }
+    }, { passive: false }); // 需要设置 passive: false 才能调用 preventDefault
 }
