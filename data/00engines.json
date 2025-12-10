@@ -36,7 +36,6 @@
     {"label": "素材", "value": "material"},
     {"label": "表情", "value": "icon"},
     {"label": "PPT", "value": "ppt"},
-    {"label": "PDF", "value": "pdf"},
     {"label": "字体", "value": "font"},
     {"label": "学术", "value": "academic"},
     {"label": "问答", "value": "question"},
@@ -45,363 +44,361 @@
   ],
   "engines": {
     "search": [
-      {"name": "谷歌", "url": "https://www.google.com/search?q=%s"},
-      {"name": "百度", "url": "https://www.baidu.com/s?wd=%s"},
-      {"name": "必应", "url": "https://www.bing.com/search?q=%s&PC=U316&FORM=CHROMN"},
-      {"name": "DuckDuckGo", "url": "https://duckduckgo.com/?q=%s"},
-      {"name": "搜狗", "url": "https://www.sogou.com/web?query=%s"},
-      {"name": "360搜索", "url": "https://www.so.com/s?q=%s"},
-      {"name": "知乎", "url": "https://www.zhihu.com/search?q=%s"},
-      {"name": "微信", "url": "https://weixin.sogou.com/weixin?p=01030402&query=%s&type=2&ie=utf8"},
-      {"name": "今日头条", "url": "https://www.toutiao.com/search/?keyword=%s"}
+      {"name": "谷歌", "url": "https://www.google.com/search?q=%s", "proxy": true},
+      {"name": "百度", "url": "https://www.baidu.com/s?wd=%s", "proxy": false},
+      {"name": "必应", "url": "https://www.bing.com/search?q=%s&PC=U316&FORM=CHROMN", "proxy": false},
+      {"name": "DuckDuckGo", "url": "https://duckduckgo.com/?q=%s", "proxy": true},
+      {"name": "搜狗", "url": "https://www.sogou.com/web?query=%s", "proxy": false},
+      {"name": "360搜索", "url": "https://www.so.com/s?q=%s", "proxy": false},
+      {"name": "知乎", "url": "https://www.zhihu.com/search?q=%s", "proxy": false},
+      {"name": "微信", "url": "https://weixin.sogou.com/weixin?p=01030402&query=%s&type=2&ie=utf8", "proxy": false},
+      {"name": "今日头条", "url": "https://www.toutiao.com/search/?keyword=%s", "proxy": false}
     ],
     "ai": [
-      {"name": "秘塔搜索", "url": "https://metaso.cn/?q=%s"},
-      {"name": "Perplexity", "url": "https://www.perplexity.ai/search?q=%s"}
+      {"name": "秘塔搜索", "url": "https://metaso.cn/?q=%s", "proxy": false},
+      {"name": "Perplexity", "url": "https://www.perplexity.ai/search?q=%s", "proxy": true}
     ],
     "nav": [
-      {"name": "刘明野的工具箱", "url": "https://tool.liumingye.cn/search/%s/"},
-      {"name": "爱达杂货铺", "url": "https://adzhp.cc/?post_type=sites&s=%s"},
-      {"name": "SBKKO导航", "url": "https://nav.sbkko.com/?post_type=sites&s=%s"},
-      {"name": "gatherfind", "url": "https://www.gatherfind.com/search.php?q=%s"}
+      {"name": "刘明野的工具箱", "url": "https://tool.liumingye.cn/search/%s/", "proxy": false},
+      {"name": "爱达杂货铺", "url": "https://adzhp.cc/?post_type=sites&s=%s", "proxy": false},
+      {"name": "SBKKO导航", "url": "https://nav.sbkko.com/?post_type=sites&s=%s", "proxy": false},
+      {"name": "gatherfind", "url": "https://www.gatherfind.com/search.php?q=%s", "proxy": false}
     ],
     "cloud storage": [
-      {"name": "夸克", "url": "https://quark.sm.cn/s?q=%s"},
-      {"name": "维基百科", "url": "https://zh.wikipedia.org/wiki/Special:Search?search=%s"},
-      {"name": "小云搜", "url": "https://www.yunso.net/index/user/s?wd=%s"},
-      {"name": "学霸盘", "url": "https://www.xuebapan.com/s/%s-1.html"},
-      {"name": "大力盘", "url": "https://www.dalipan.com/#/main/search?keyword=%s&restype=0"},
-      {"name": "猫狸盘搜", "url": "https://www.alipansou.com/search?k=%s"},
-      {"name": "大圣盘", "url": "https://www.dashengpan.com/#/main/search?keyword=%s&restype=0"},
-      {"name": "pansearch", "url": "https://www.pansearch.me/search?keyword=%s&pan=aliyundrive"},
-      {"name": "up云搜", "url": "https://www.upyunso.com/search?keyword=%s&pan_channel=ali"},
-      {"name": "小马盘", "url": "https://www.xiaomapan.com/#/main/search?keyword=%s&restype=0"},
-      {"name": "飞猪盘", "url": "https://www.feizhupan.com/#/main/search?keyword=%s&restype=0"},
-      {"name": "熊猫搜盘", "url": "https://www.sopandas.com/e/%s"},
-      {"name": "夸克小站", "url": "https://pioz.cn/search?q=%s"},
-      {"name": "小力盘", "url": "https://www.xiaolipan.com/search.html?keyword=%s"},
-      {"name": "小宇搜索", "url": "https://xykmovie.com/s/1/%s"},
-      {"name": "混合盘", "url": "https://hunhepan.com/search?q=%s&type=ALY"}
+      {"name": "夸克", "url": "https://quark.sm.cn/s?q=%s", "proxy": false},
+      {"name": "维基百科", "url": "https://zh.wikipedia.org/wiki/Special:Search?search=%s", "proxy": true},
+      {"name": "小云搜", "url": "https://www.yunso.net/index/user/s?wd=%s", "proxy": false},
+      {"name": "学霸盘", "url": "https://www.xuebapan.com/s/%s-1.html", "proxy": false},
+      {"name": "大力盘", "url": "https://www.dalipan.com/#/main/search?keyword=%s&restype=0", "proxy": true},
+      {"name": "猫狸盘搜", "url": "https://www.alipansou.com/search?k=%s", "proxy": false},
+      {"name": "大圣盘", "url": "https://www.dashengpan.com/#/main/search?keyword=%s&restype=0", "proxy": false},
+      {"name": "pansearch", "url": "https://www.pansearch.me/search?keyword=%s&pan=aliyundrive", "proxy": true},
+      {"name": "up云搜", "url": "https://www.upyunso.com/search?keyword=%s&pan_channel=ali", "proxy": false},
+      {"name": "小马盘", "url": "https://www.xiaomapan.com/#/main/search?keyword=%s&restype=0", "proxy": false},
+      {"name": "飞猪盘", "url": "https://www.feizhupan.com/#/main/search?keyword=%s&restype=0", "proxy": false},
+      {"name": "熊猫搜盘", "url": "https://www.sopandas.com/e/%s", "proxy": false},
+      {"name": "夸克小站", "url": "https://pioz.cn/search?q=%s", "proxy": false},
+      {"name": "小力盘", "url": "https://www.xiaolipan.com/search.html?keyword=%s", "proxy": false},
+      {"name": "小宇搜索", "url": "https://xykmovie.com/s/1/%s", "proxy": false},
+      {"name": "混合盘", "url": "https://hunhepan.com/search?q=%s&type=ALY", "proxy": false}
     ],
     "bt": [
-      {"name": "海盗湾_1", "url": "https://thepiratebay11.com/search/%s/1/99/0"},
-      {"name": "海盗湾_2", "url": "https://thepiratebay10.xyz/search/%s/1/99/0"},
-      {"name": "RARBG", "url": "https://rargb.to/search/?search=%s"},
-      {"name": "无极磁链", "url": "https://xcili.net/search?q=%s"},
-      {"name": "磁力柠檬", "url": "https://lemonuo.top/search?keyword=%s"},
-      {"name": "rutracker", "url": "https://rutracker.org/forum/login.php?redirect=tracker.php?nm=%s"},
-      {"name": "katcr", "url": "https://katcr.to/usearch/%s/"},
-      {"name": "btchichi", "url": "https://tainanle8.btchichi.hair/search.html?name=%s"},
-      {"name": "东京图书馆", "url": "https://www.tokyotosho.info/search.php?terms=%s"},
-      {"name": "ACG", "url": "https://acg.rip/?term=%s"},
-      {"name": "1377x_1", "url": "https://www.1377x.to/srch?search=%s"},
-      {"name": "1377x_2", "url": "https://www.1337xx.to/search/%s/1/"}
+      {"name": "海盗湾_1", "url": "https://thepiratebay11.com/search/%s/1/99/0", "proxy": false},
+      {"name": "海盗湾_2", "url": "https://thepiratebay10.xyz/search/%s/1/99/0", "proxy": false},
+      {"name": "RARBG", "url": "https://rargb.to/search/?search=%s", "proxy": false},
+      {"name": "无极磁链", "url": "https://xcili.net/search?q=%s", "proxy": false},
+      {"name": "磁力柠檬", "url": "https://lemonuo.top/search?keyword=%s", "proxy": true},
+      {"name": "rutracker", "url": "https://rutracker.org/forum/login.php?redirect=tracker.php?nm=%s", "proxy": true},
+      {"name": "katcr", "url": "https://katcr.to/usearch/%s/", "proxy": true},
+      {"name": "btchichi", "url": "https://tainanle8.btchichi.hair/search.html?name=%s", "proxy": false},
+      {"name": "东京图书馆", "url": "https://www.tokyotosho.info/search.php?terms=%s", "proxy": true},
+      {"name": "ACG", "url": "https://acg.rip/?term=%s", "proxy": true},
+      {"name": "1377x_1", "url": "https://www.1377x.to/srch?search=%s", "proxy": false},
+      {"name": "1377x_2", "url": "https://www.1337xx.to/search/%s/1/", "proxy": false}
     ],
     "video": [
-      {"name": "YouTube", "url": "https://www.youtube.com/results?search_query=%s"},
-      {"name": "B站", "url": "https://search.bilibili.com/all?keyword=%s"},
-      {"name": "抖音", "url": "https://www.douyin.com/search/%s"},
-      {"name": "芒果TV", "url": "https://so.mgtv.com/so?k=%s"},
-      {"name": "腾讯视频", "url": "https://v.qq.com/x/search/?q=%s"},
-      {"name": "优酷", "url": "https://www.soku.com/search_video/q_%s"},
-      {"name": "A站", "url": "https://www.acfun.cn/search/?type=complex&keyword=%s"},
-      {"name": "Vimeo", "url": "https://vimeo.com/search?q=%s"},
-      {"name": "Dailymotion", "url": "https://www.dailymotion.com/search/%s"}
+      {"name": "YouTube", "url": "https://www.youtube.com/results?search_query=%s", "proxy": true},
+      {"name": "B站", "url": "https://search.bilibili.com/all?keyword=%s", "proxy": false},
+      {"name": "抖音", "url": "https://www.douyin.com/search/%s", "proxy": false},
+      {"name": "芒果TV", "url": "https://so.mgtv.com/so?k=%s", "proxy": false},
+      {"name": "腾讯视频", "url": "https://v.qq.com/x/search/?q=%s", "proxy": false},
+      {"name": "优酷", "url": "https://www.soku.com/search_video/q_%s", "proxy": false},
+      {"name": "A站", "url": "https://www.acfun.cn/search/?type=complex&keyword=%s", "proxy": false},
+      {"name": "Vimeo", "url": "https://vimeo.com/search?q=%s", "proxy": true},
+      {"name": "Dailymotion", "url": "https://www.dailymotion.com/search/%s", "proxy": true}
     ],
     "film reviews": [
-      {"name": "豆瓣", "url": "https://www.douban.com/search?q=%s"},
-      {"name": "IMDb", "url": "https://www.imdb.com/find/?q=%s"},
-      {"name": "烂番茄", "url": "https://www.rottentomatoes.com/search?search=%s"}
+      {"name": "豆瓣", "url": "https://www.douban.com/search?q=%s", "proxy": false},
+      {"name": "IMDb", "url": "https://www.imdb.com/find/?q=%s", "proxy": false},
+      {"name": "烂番茄", "url": "https://www.rottentomatoes.com/search?search=%s", "proxy": false}
     ],
     "film video": [
-      {"name": "grab4k", "url": "https://grab4k.com/vod/search.html?wd=%s"},
-      {"name": "修罗影视", "url": "https://v.xlys.ltd.ua/search/%s"},
-      {"name": "爱壹帆", "url": "https://www.iyf.lv/s/-------------/?wd=%s"},
-      {"name": "泥视频", "url": "https://www.nivod.vip/s/-------------/?wd=%s"},
-      {"name": "在线之家", "url": "https://www.zxzjhd.com/vodsearch/-------------.html?wd=%s&submit="},
-      {"name": "Gimy TV 剧迷", "url": "https://gimytv.ai/search/-------------.html?wd=%s"},
-      {"name": "大师兄影视", "url": "https://dsxys.com/sb/kemksmaksdl7nhZe3c1-.html?wd=%s"},
-      {"name": "蛋蛋赞影院", "url": "https://www.ppnix.com/search/%s--.html"},
-      {"name": "厂长资源", "url": "https://www.czzymovie.com/boss1O1?q=%s"},
-      {"name": "韩饭网", "url": "https://www.hanfan.cc/?s=%s"},
-      {"name": "影猫の仓库", "url": "https://www.ymck.pro/search.html?wd=%s"},
-      {"name": "Azmovies", "url": "https://azmovies.to/search?q=%s"},
-      {"name": "港剧屋", "url": "https://www.gj5.tv/search/--/?wd=%s&submit="},
-      {"name": "爱港剧", "url": "https://www.yueyu2.com/search/-------------.html?wd=%s"},
-      {"name": "电影先生", "url": "https://soupian.plus/movie/%s&from=dyxs-search"}
+      {"name": "grab4k", "url": "https://grab4k.com/vod/search.html?wd=%s", "proxy": false},
+      {"name": "修罗影视", "url": "https://v.xlys.ltd.ua/search/%s", "proxy": false},
+      {"name": "爱壹帆", "url": "https://www.iyf.lv/s/-------------/?wd=%s", "proxy": false},
+      {"name": "泥视频", "url": "https://www.nivod.vip/s/-------------/?wd=%s", "proxy": false},
+      {"name": "在线之家", "url": "https://www.zxzjhd.com/vodsearch/-------------.html?wd=%s&submit=", "proxy": false},
+      {"name": "Gimy TV 剧迷", "url": "https://gimytv.ai/search/-------------.html?wd=%s", "proxy": false},
+      {"name": "大师兄影视", "url": "https://dsxys.com/sb/kemksmaksdl7nhZe3c1-.html?wd=%s", "proxy": false},
+      {"name": "蛋蛋赞影院", "url": "https://www.ppnix.com/search/%s--.html", "proxy": true},
+      {"name": "厂长资源", "url": "https://www.czzymovie.com/boss1O1?q=%s", "proxy": false},
+      {"name": "韩饭网", "url": "https://www.hanfan.cc/?s=%s", "proxy": false},
+      {"name": "影猫の仓库", "url": "https://www.ymck.pro/search.html?wd=%s", "proxy": false},
+      {"name": "Azmovies", "url": "https://azmovies.to/search?q=%s", "proxy": false},
+      {"name": "港剧屋", "url": "https://www.gj5.tv/search/--/?wd=%s&submit=", "proxy": false},
+      {"name": "爱港剧", "url": "https://www.yueyu2.com/search/-------------.html?wd=%s", "proxy": false},
+      {"name": "电影先生", "url": "https://soupian.plus/movie/%s&from=dyxs-search", "proxy": false}
     ],
     "anime video": [
-      {"name": "ACFUN", "url": "https://www.acfun.cn/search?keyword=%s"},
-      {"name": "樱花动漫", "url": "https://yhdmoe.com/search?q=%s"},
-      {"name": "嘀哩嘀哩", "url": "https://dilidili.online/search?q=%s"},
-      {"name": "anime1", "url": "https://anime1.cc/search?q=%s"},
-      {"name": "搜片", "url": "https://soupian.pro/movie/%s"},
-      {"name": "许搜", "url": "https://www.xusou.cn/s/%s.html"},
-      {"name": "风车动漫", "url": "https://www.dmla8.com/search/-------------.html?wd=%s"},
-      {"name": "Mikan", "url": "https://mikanani.me/Home/Search?searchstr=%s"}
+      {"name": "ACFUN", "url": "https://www.acfun.cn/search?keyword=%s", "proxy": false},
+      {"name": "樱花动漫", "url": "https://yhdmoe.com/search?q=%s", "proxy": true},
+      {"name": "嘀哩嘀哩", "url": "https://dilidili.online/search?q=%s", "proxy": false},
+      {"name": "anime1", "url": "https://anime1.cc/search?q=%s", "proxy": false},
+      {"name": "搜片", "url": "https://soupian.pro/movie/%s", "proxy": false},
+      {"name": "许搜", "url": "https://www.xusou.cn/s/%s.html", "proxy": false},
+      {"name": "风车动漫", "url": "https://www.dmla8.com/search/-------------.html?wd=%s", "proxy": false},
+      {"name": "Mikan", "url": "https://mikanani.me/Home/Search?searchstr=%s", "proxy": true}
     ],
     "sports video": [
-      {"name": "虎牙直播", "url": "https://www.huya.com/search?hsk=%s"},
-      {"name": "新传宽频", "url": "https://www.zhibo.tv/newsearch?keyword=%s"},
-      {"name": "斗鱼", "url": "https://www.douyu.com/search?kw=%s"}
+      {"name": "虎牙直播", "url": "https://www.huya.com/search?hsk=%s", "proxy": false},
+      {"name": "新传宽频", "url": "https://www.zhibo.tv/newsearch?keyword=%s", "proxy": false},
+      {"name": "斗鱼", "url": "https://www.douyu.com/search?kw=%s", "proxy": false}
     ],
     "doc video": [
-      {"name": "纪录片之家", "url": "https://www.05jl.com/search/%s"},
-      {"name": "Top Documentary Films", "url": "https://topdocumentaryfilms.com/search/?s=%s"},
-      {"name": "Medici TV", "url": "https://www.medici.tv/en/search?q=%s"},
-      {"name": "盗火纪录片", "url": "https://docu-lib.com/search/titlesearch/?keyword=%s"},
-      {"name": "Documentary Storm", "url": "https://www.documentarystorm.com/?s=%s"}
+      {"name": "纪录片之家", "url": "https://www.05jl.com/search/%s", "proxy": false},
+      {"name": "Top Documentary Films", "url": "https://topdocumentaryfilms.com/search/?s=%s", "proxy": false},
+      {"name": "Medici TV", "url": "https://www.medici.tv/en/search?q=%s", "proxy": false},
+      {"name": "盗火纪录片", "url": "https://docu-lib.com/search/titlesearch/?keyword=%s", "proxy": false},
+      {"name": "Documentary Storm", "url": "https://www.documentarystorm.com/?s=%s", "proxy": false}
     ],
     "subtitles": [
-      {"name": "射手网", "url": "https://assrt.net/sub/?searchword=%s"},
-      {"name": "CHAOSPACE", "url": "https://www.chaospace.cc/?s=%s"},
-      {"name": "奇下载字幕", "url": "https://www.qixiazai.com/s/%s"},
-      {"name": "诸神字幕组", "url": "https://subs.kamigami.org/?s=%s"},
-      {"name": "subHD", "url": "https://subhd.tv/search/%s"}
+      {"name": "射手网", "url": "https://assrt.net/sub/?searchword=%s", "proxy": false},
+      {"name": "CHAOSPACE", "url": "https://www.chaospace.cc/?s=%s", "proxy": false},
+      {"name": "奇下载字幕", "url": "https://www.qixiazai.com/s/%s", "proxy": false},
+      {"name": "诸神字幕组", "url": "https://subs.kamigami.org/?s=%s", "proxy": false},
+      {"name": "subHD", "url": "https://subhd.tv/search/%s", "proxy": false}
     ],
     "line": [
-      {"name": "33台词", "url": "https://33.agilestudio.cn/?subtitleKeyword=%s"},
-      {"name": "quodb", "url": "https://www.quodb.com/search/%s"}
+      {"name": "33台词", "url": "https://33.agilestudio.cn/?subtitleKeyword=%s", "proxy": false},
+      {"name": "quodb", "url": "https://www.quodb.com/search/%s", "proxy": false}
     ],
     "niche music": [
-      {"name": "爱听音乐网", "url": "https://www.2t58.com/so/%s.html"},
-      {"name": "下歌吧", "url": "https://xiageba.com/s?keywords=%s"},
-      {"name": "放屁音乐网", "url": "https://www.fangpi.net/s/%s"},
-      {"name": "歌曲宝", "url": "https://www.gequbao.com/s/%s"},
-      {"name": "5song", "url": "https://www.5song.xyz/search.html?keyword=%s"}
+      {"name": "爱听音乐网", "url": "https://www.2t58.com/so/%s.html", "proxy": false},
+      {"name": "下歌吧", "url": "https://xiageba.com/s?keywords=%s", "proxy": false},
+      {"name": "放屁音乐网", "url": "https://www.fangpi.net/s/%s", "proxy": false},
+      {"name": "歌曲宝", "url": "https://www.gequbao.com/s/%s", "proxy": false},
+      {"name": "5song", "url": "https://www.5song.xyz/search.html?keyword=%s", "proxy": false}
     ],
     "sound": [
-      {"name": "耳聆网", "url": "https://www.ear0.com/search/word-%s"},
-      {"name": "淘声", "url": "https://www.tosound.com/search/word-%s"}
+      {"name": "耳聆网", "url": "https://www.ear0.com/search/word-%s", "proxy": false},
+      {"name": "淘声", "url": "https://www.tosound.com/search/word-%s", "proxy": false}
     ],
     "picture": [
-      {"name": "谷歌图片", "url": "https://www.google.com/search?tbm=isch&q=%s"},
-      {"name": "百度图片", "url": "https://image.baidu.com/search/index?tn=baiduimage&word=%s"},
-      {"name": "Yandex图片", "url": "https://yandex.com/images/search?text=%s"},
-      {"name": "Pexels", "url": "https://www.pexels.com/search/%s/"},
-      {"name": "Unsplash", "url": "https://unsplash.com/s/photos/%s"},
-      {"name": "Pixabay", "url": "https://pixabay.com/images/search/%s/"},
-      {"name": "Flickr", "url": "https://www.flickr.com/search/?text=%s"},
-      {"name": "500px", "url": "https://500px.com/search?q=%s&type=photos"},
-      {"name": "Freepik", "url": "https://www.freepik.com/search?query=%s"},
-      {"name": "ArtStation", "url": "https://www.artstation.com/search?sort_by=relevance&query=%s"},
-      {"name": "DeviantArt", "url": "https://www.deviantart.com/search?q=%s"},
-      {"name": "Pinterest", "url": "https://www.pinterest.com/search/pins/?q=%s"},
-      {"name": "wallhaven", "url": "https://wallhaven.cc/search?q=%s"},
-      {"name": "Wallhere", "url": "https://wallhere.com/zh/wallpapers?q=%s"}
+      {"name": "谷歌图片", "url": "https://www.google.com/search?tbm=isch&q=%s", "proxy": true},
+      {"name": "百度图片", "url": "https://image.baidu.com/search/index?tn=baiduimage&word=%s", "proxy": false},
+      {"name": "Yandex图片", "url": "https://yandex.com/images/search?text=%s", "proxy": false},
+      {"name": "Pexels", "url": "https://www.pexels.com/search/%s/", "proxy": false},
+      {"name": "Unsplash", "url": "https://unsplash.com/s/photos/%s", "proxy": false},
+      {"name": "Pixabay", "url": "https://pixabay.com/images/search/%s/", "proxy": false},
+      {"name": "Flickr", "url": "https://www.flickr.com/search/?text=%s", "proxy": true},
+      {"name": "500px", "url": "https://500px.com/search?q=%s&type=photos", "proxy": true},
+      {"name": "Freepik", "url": "https://www.freepik.com/search?query=%s", "proxy": false},
+      {"name": "ArtStation", "url": "https://www.artstation.com/search?sort_by=relevance&query=%s", "proxy": true},
+      {"name": "DeviantArt", "url": "https://www.deviantart.com/search?q=%s", "proxy": true},
+      {"name": "Pinterest", "url": "https://www.pinterest.com/search/pins/?q=%s", "proxy": true},
+      {"name": "wallhaven", "url": "https://wallhaven.cc/search?q=%s", "proxy": true},
+      {"name": "Wallhere", "url": "https://wallhere.com/zh/wallpapers?q=%s", "proxy": false}
     ],
     "comics": [
-      {"name": "哔哩哔哩漫画", "url": "https://manga.bilibili.com/search?keyword=%s"},
-      {"name": "有妖气", "url": "http://www.u17.com/search/comic.html?keyword=%s"},
-      {"name": "dm5", "url": "https://tel.dm5.com/search?title=%s&language=1"},
-      {"name": "包子漫画", "url": "https://www.baozimh.com/search?q=%s"},
-      {"name": "漫自由", "url": "https://mhx12.com/m/comic/search?q=%s"},
-      {"name": "goda漫画", "url": "https://godamh.com/s/%s"},
-      {"name": "拷贝漫画", "url": "https://www.mangacopy.com/search?q=%s&q_type="},
-      {"name": "搜漫", "url": "https://www.soman.com/search.html?keyword=%s"},
-      {"name": "咚漫", "url": "https://www.dongmanmanhua.cn/search?keyword=%s"}
+      {"name": "哔哩哔哩漫画", "url": "https://manga.bilibili.com/search?keyword=%s", "proxy": false},
+      {"name": "有妖气", "url": "http://www.u17.com/search/comic.html?keyword=%s", "proxy": false},
+      {"name": "dm5", "url": "https://tel.dm5.com/search?title=%s&language=1", "proxy": false},
+      {"name": "包子漫画", "url": "https://www.baozimh.com/search?q=%s", "proxy": false},
+      {"name": "漫自由", "url": "https://mhx12.com/m/comic/search?q=%s", "proxy": true},
+      {"name": "goda漫画", "url": "https://godamh.com/s/%s", "proxy": true},
+      {"name": "拷贝漫画", "url": "https://www.mangacopy.com/search?q=%s&q_type=", "proxy": false},
+      {"name": "搜漫", "url": "https://www.soman.com/search.html?keyword=%s", "proxy": true},
+      {"name": "咚漫", "url": "https://www.dongmanmanhua.cn/search?keyword=%s", "proxy": false}
     ],
     "work": [
-      {"name": "Boss直聘", "url": "https://www.zhipin.com/web/geek/job?query=%s"},
-      {"name": "企查查", "url": "https://www.qcc.com/search?key=%s"},
-      {"name": "天眼查", "url": "https://www.tianyancha.com/search?key=%s"},
-      {"name": "爱企查", "url": "https://aiqicha.baidu.com/s?q=123&t=0"}
+      {"name": "Boss直聘", "url": "https://www.zhipin.com/web/geek/job?query=%s", "proxy": false},
+      {"name": "企查查", "url": "https://www.qcc.com/search?key=%s", "proxy": false},
+      {"name": "天眼查", "url": "https://www.tianyancha.com/search?key=%s", "proxy": false},
+      {"name": "爱企查", "url": "https://aiqicha.baidu.com/s?q=123&t=0", "proxy": false}
     ],
     "ebook": [
-      {"name": "书格", "url": "https://new.shuge.org/search/%s/"},
-      {"name": "热点图书网", "url": "https://www.happydot.top/?s=%s"},
-      {"name": "书葵网", "url": "https://www.shukui.net/so/search.php?q=%s"},
-      {"name": "自由图书", "url": "https://book5678.com/search.php?q=%s"},
-      {"name": "zlibrary官方", "url": "https://z-lib.gd/s/%s?"},
-      {"name": "SaltyLeo 的书架", "url": "https://tstrs.me/search?search_type=default&q=%s"},
-      {"name": "sobooks", "url": "https://sobooks.cc/search/%s"},
-      {"name": "TheFuture", "url": "https://bks.thefuture.top/nc-captcha?q=%s"},
-      {"name": "一起读书", "url": "https://www.17dushu.cn/search/%s"},
-      {"name": "千秋书在", "url": "https://www.35ppt.com/?s=%s"},
-      {"name": "书栈网", "url": "https://www.bookstack.cn/search/result?wd=%s"},
-      {"name": "古登堡计划", "url": "https://www.gutenberg.org/ebooks/search/?query=%s"}
+      {"name": "书格", "url": "https://new.shuge.org/search/%s/", "proxy": false},
+      {"name": "热点图书网", "url": "https://www.happydot.top/?s=%s", "proxy": false},
+      {"name": "书葵网", "url": "https://www.shukui.net/so/search.php?q=%s", "proxy": false},
+      {"name": "自由图书", "url": "https://book5678.com/search.php?q=%s", "proxy": false},
+      {"name": "zlibrary官方", "url": "https://z-lib.gd/s/%s?", "proxy": true},
+      {"name": "SaltyLeo 的书架", "url": "https://tstrs.me/search?search_type=default&q=%s", "proxy": false},
+      {"name": "sobooks", "url": "https://sobooks.cc/search/%s", "proxy": false},
+      {"name": "TheFuture", "url": "https://bks.thefuture.top/nc-captcha?q=%s", "proxy": false},
+      {"name": "一起读书", "url": "https://www.17dushu.cn/search/%s", "proxy": false},
+      {"name": "千秋书在", "url": "https://www.35ppt.com/?s=%s", "proxy": false},
+      {"name": "书栈网", "url": "https://www.bookstack.cn/search/result?wd=%s", "proxy": false},
+      {"name": "古登堡计划", "url": "https://www.gutenberg.org/ebooks/search/?query=%s", "proxy": false}
     ],
     "tools": [
-      {"name": "Wolfram Alpha", "url": "https://www.wolframalpha.com/input?i=%s"},
-      {"name": "在线工具", "url": "https://tool.lu/search/?q=%s"},
-      {"name": "菜鸟工具", "url": "https://www.jyshare.com/index.php?s=%s"},
-      {"name": "百度指数", "url": "https://index.baidu.com/v2/main/index.html#/trend/%s?words=%s"},
-      {"name": "谷歌指数", "url": "https://trends.google.com/trends/explore?q=%s"},
-      {"name": "Wayback Machine", "url": "https://web.archive.org/web/*/%s"},
-      {"name": "Regex101", "url": "https://regex101.com/?regex=%s"}
+      {"name": "Wolfram Alpha", "url": "https://www.wolframalpha.com/input?i=%s", "proxy": false},
+      {"name": "在线工具", "url": "https://tool.lu/search/?q=%s", "proxy": false},
+      {"name": "菜鸟工具", "url": "https://www.jyshare.com/index.php?s=%s", "proxy": false},
+      {"name": "百度指数", "url": "https://index.baidu.com/v2/main/index.html#/trend/%s?words=%s", "proxy": false},
+      {"name": "谷歌指数", "url": "https://trends.google.com/trends/explore?q=%s", "proxy": true},
+      {"name": "Wayback Machine", "url": "https://web.archive.org/web/*/%s", "proxy": true},
+      {"name": "Regex101", "url": "https://regex101.com/?regex=%s", "proxy": false}
     ],
     "translate": [
-      {"name": "谷歌翻译", "url": "https://translate.google.com/?sl=auto&tl=zh-CN&text=%s&op=translate"},
-      {"name": "DeepL", "url": "https://www.deepl.com/translator#auto/zh/%s"},
-      {"name": "百度翻译", "url": "https://fanyi.baidu.com/#auto/zh/%s"},
-      {"name": "有道翻译", "url": "https://www.youdao.com/w/eng/%s/"},
-      {"name": "Linguee", "url": "https://www.linguee.com/english-chinese/search?source=auto&query=%s"}
+      {"name": "谷歌翻译", "url": "https://translate.google.com/?sl=auto&tl=zh-CN&text=%s&op=translate", "proxy": true},
+      {"name": "DeepL", "url": "https://www.deepl.com/translator#auto/zh/%s", "proxy": false},
+      {"name": "百度翻译", "url": "https://fanyi.baidu.com/#auto/zh/%s", "proxy": false},
+      {"name": "有道翻译", "url": "https://www.youdao.com/w/eng/%s/", "proxy": false},
+      {"name": "Linguee", "url": "https://www.linguee.com/english-chinese/search?source=auto&query=%s", "proxy": false}
     ],
     "map": [
-      {"name": "百度地图", "url": "https://map.baidu.com/search/%s"},
-      {"name": "高德地图", "url": "https://www.amap.com/search?query=%s"}
+      {"name": "百度地图", "url": "https://map.baidu.com/search/%s", "proxy": false},
+      {"name": "高德地图", "url": "https://www.amap.com/search?query=%s", "proxy": false}
     ],
     "shop": [
-      {"name": "淘宝", "url": "https://s.taobao.com/search?q=%s"},
-      {"name": "京东", "url": "https://search.jd.com/Search?keyword=%s"},
-      {"name": "什么值得买", "url": "https://search.smzdm.com/?s=%s"},
-      {"name": "亚马逊", "url": "https://www.amazon.com/s?k=%s"},
-      {"name": "eBay", "url": "https://www.ebay.com/sch/i.html?_nkw=%s"},
-      {"name": "天猫", "url": "https://list.tmall.com/search_product.htm?q=%s"},
-      {"name": "闲鱼", "url": "https://s.taobao.com/search?q=%s&from=sea_1_seller"},
-      {"name": "苏宁易购", "url": "https://search.suning.com/%s/"},
-      {"name": "慢慢买", "url": "https://s.manmanbuy.com/pc/search/result?keyword=%s&btnSearch=%E6%90%9C%E7%B4%A2"}
+      {"name": "淘宝", "url": "https://s.taobao.com/search?q=%s", "proxy": false},
+      {"name": "京东", "url": "https://search.jd.com/Search?keyword=%s", "proxy": false},
+      {"name": "什么值得买", "url": "https://search.smzdm.com/?s=%s", "proxy": false},
+      {"name": "亚马逊", "url": "https://www.amazon.com/s?k=%s", "proxy": false},
+      {"name": "eBay", "url": "https://www.ebay.com/sch/i.html?_nkw=%s", "proxy": true},
+      {"name": "天猫", "url": "https://list.tmall.com/search_product.htm?q=%s", "proxy": false},
+      {"name": "闲鱼", "url": "https://s.taobao.com/search?q=%s&from=sea_1_seller", "proxy": false},
+      {"name": "苏宁易购", "url": "https://search.suning.com/%s/", "proxy": false},
+      {"name": "慢慢买", "url": "https://s.manmanbuy.com/pc/search/result?keyword=%s&btnSearch=%E6%90%9C%E7%B4%A2", "proxy": false}
     ],
     "news": [
-      {"name": "谷歌新闻", "url": "https://news.google.com/search?q=%s"},
-      {"name": "百度新闻", "url": "https://www.baidu.com/s?rtt=1&bsst=1&tn=news&wd=%s"},
-      {"name": "财新网", "url": "https://search.caixin.com/search/search.jsp?keyword=%s"},
-      {"name": "美联社", "url": "https://apnews.com/search?q=%s"},
-      {"name": "BBC News", "url": "https://www.bbc.co.uk/search?q=%s"}
+      {"name": "谷歌新闻", "url": "https://news.google.com/search?q=%s", "proxy": true},
+      {"name": "百度新闻", "url": "https://www.baidu.com/s?rtt=1&bsst=1&tn=news&wd=%s", "proxy": false},
+      {"name": "财新网", "url": "https://search.caixin.com/search/search.jsp?keyword=%s", "proxy": false},
+      {"name": "美联社", "url": "https://apnews.com/search?q=%s", "proxy": false},
+      {"name": "BBC News", "url": "https://www.bbc.co.uk/search?q=%s", "proxy": true}
     ],
     "game": [
-      {"name": "小霸王", "url": "https://www.yikm.net/search?name=%s"},
-      {"name": "3dmgame", "url": "https://so.3dmgame.com/?keyword=%s&subsearch=1&type=1"},
-      {"name": "Taptap", "url": "https://www.taptap.cn/search/%s"},
-      {"name": "游侠搜索", "url": "https://so.ali213.net/s/c?keyword=%s&group=0"}
+      {"name": "小霸王", "url": "https://www.yikm.net/search?name=%s", "proxy": false},
+      {"name": "3dmgame", "url": "https://so.3dmgame.com/?keyword=%s&subsearch=1&type=1", "proxy": false},
+      {"name": "Taptap", "url": "https://www.taptap.cn/search/%s", "proxy": false},
+      {"name": "游侠搜索", "url": "https://so.ali213.net/s/c?keyword=%s&group=0", "proxy": false}
     ],
     "social": [
-      {"name": "微博", "url": "https://s.weibo.com/weibo?q=%s"},
-      {"name": "Twitter (X)", "url": "https://twitter.com/search?q=%s"},
-      {"name": "小红书", "url": "https://www.xiaohongshu.com/search_result?keyword=%s"},
-      {"name": "Reddit", "url": "https://www.reddit.com/search/?q=%s"}
+      {"name": "微博", "url": "https://s.weibo.com/weibo?q=%s", "proxy": false},
+      {"name": "Twitter (X)", "url": "https://twitter.com/search?q=%s", "proxy": true},
+      {"name": "小红书", "url": "https://www.xiaohongshu.com/search_result?keyword=%s", "proxy": false},
+      {"name": "Reddit", "url": "https://www.reddit.com/search/?q=%s", "proxy": true}
     ],
     "programming": [
-      {"name": "GitHub", "url": "https://github.com/search?q=%s"},
-      {"name": "Stack Overflow", "url": "https://stackoverflow.com/search?q=%s"},
-      {"name": "掘金", "url": "https://juejin.cn/search?query=%s"},
-      {"name": "思否", "url": "https://segmentfault.com/search?q=%s"},
-      {"name": "CSDN", "url": "https://so.csdn.net/so/search?q=%s"},
-      {"name": "MDN Web Docs", "url": "https://developer.mozilla.org/zh-CN/search?q=%s"},
-      {"name": "Devv", "url": "https://devv.ai/search?q=%s"},
-      {"name": "Gitee", "url": "https://search.gitee.com/?q=%s"},
-      {"name": "OSC开源社区", "url": "https://www.oschina.net/search/?scope=all&q=%s"},
-      {"name": "力扣", "url": "https://leetcode.cn/search/?q=%s"},
-      {"name": "菜鸟教程", "url": "https://www.runoob.com/?s=%s"},
-      {"name": "简书", "url": "https://www.jianshu.com/search?q=%s&page=1&type=note"},
-      {"name": "牛客", "url": "https://www.nowcoder.com/search/all?query=%s&type=all&searchType=%E9%A1%B6%E9%83%A8%E5%AF%BC%E8%88%AA%E6%A0%8F"}
+      {"name": "GitHub", "url": "https://github.com/search?q=%s", "proxy": true},
+      {"name": "Stack Overflow", "url": "https://stackoverflow.com/search?q=%s", "proxy": false},
+      {"name": "掘金", "url": "https://juejin.cn/search?query=%s", "proxy": false},
+      {"name": "思否", "url": "https://segmentfault.com/search?q=%s", "proxy": false},
+      {"name": "CSDN", "url": "https://so.csdn.net/so/search?q=%s", "proxy": false},
+      {"name": "MDN Web Docs", "url": "https://developer.mozilla.org/zh-CN/search?q=%s", "proxy": false},
+      {"name": "Devv", "url": "https://devv.ai/search?q=%s", "proxy": true},
+      {"name": "Gitee", "url": "https://search.gitee.com/?q=%s", "proxy": false},
+      {"name": "OSC开源社区", "url": "https://www.oschina.net/search/?scope=all&q=%s", "proxy": false},
+      {"name": "力扣", "url": "https://leetcode.cn/search/?q=%s", "proxy": false},
+      {"name": "菜鸟教程", "url": "https://www.runoob.com/?s=%s", "proxy": false},
+      {"name": "简书", "url": "https://www.jianshu.com/search?q=%s&page=1&type=note", "proxy": false},
+      {"name": "牛客", "url": "https://www.nowcoder.com/search/all?query=%s&type=all&searchType=%E9%A1%B6%E9%83%A8%E5%AF%BC%E8%88%AA%E6%A0%8F", "proxy": false}
     ],
     "front": [
-      {"name": "npmjs", "url": "https://www.npmjs.com/search?q=%s"},
-      {"name": "YarnPkg", "url": "https://yarnpkg.com/search?q=%s"},
-      {"name": "pnpm", "url": "https://pnpm.io/search?q=%s"},
-      {"name": "jsdelivr", "url": "https://www.jsdelivr.com/?query=%s"},
-      {"name": "unpkg", "url": "https://unpkg.com/browse/%s/"},
-      {"name": "cdnjs", "url": "https://cdnjs.com/libraries?q=%s"},
-      {"name": "Can I use...", "url": "https://caniuse.com/?search=%s"},
-      {"name": "BundlePhobia", "url": "https://bundlephobia.com/result?p=%s"}
+      {"name": "npmjs", "url": "https://www.npmjs.com/search?q=%s", "proxy": false},
+      {"name": "YarnPkg", "url": "https://yarnpkg.com/search?q=%s", "proxy": false},
+      {"name": "pnpm", "url": "https://pnpm.io/search?q=%s", "proxy": false},
+      {"name": "jsdelivr", "url": "https://www.jsdelivr.com/?query=%s", "proxy": false},
+      {"name": "unpkg", "url": "https://unpkg.com/browse/%s/", "proxy": false},
+      {"name": "cdnjs", "url": "https://cdnjs.com/libraries?q=%s", "proxy": false},
+      {"name": "Can I use...", "url": "https://caniuse.com/?search=%s", "proxy": false},
+      {"name": "BundlePhobia", "url": "https://bundlephobia.com/result?p=%s", "proxy": false}
     ],
     "software": [
-      {"name": "果核剥壳", "url": "https://www.ghxi.com/?s=%s"},
-      {"name": "少数派", "url": "https://sspai.com/search?q=%s"},
-      {"name": "Chrome商店", "url": "https://chrome.google.com/webstore/search/%s"},
-      {"name": "油猴", "url": "https://greasyfork.org/zh-CN/scripts?q=%s"},
-      {"name": "Steam", "url": "https://store.steampowered.com/search/?term=%s"},
-      {"name": "Filehippo", "url": "https://filehippo.com/search?q=%s"},
-      {"name": "Scoop", "url": "https://scoop.sh/#/apps?q=%s&o=false"},
-      {"name": "APKCombo", "url": "https://apkcombo.com/zh/search/%s"},
-      {"name": "CG资源网", "url": "https://www.cgown.com/?s=%s"},
-      {"name": "乐享", "url": "https://www.lxapk.com/?s=%s&type=post"},
-      {"name": "鸭先知", "url": "https://www.yxzhi.com/?post_type=post&s=%s"}
+      {"name": "果核剥壳", "url": "https://www.ghxi.com/?s=%s", "proxy": false},
+      {"name": "少数派", "url": "https://sspai.com/search?q=%s", "proxy": false},
+      {"name": "Chrome商店", "url": "https://chrome.google.com/webstore/search/%s", "proxy": true},
+      {"name": "油猴", "url": "https://greasyfork.org/zh-CN/scripts?q=%s", "proxy": true},
+      {"name": "Steam", "url": "https://store.steampowered.com/search/?term=%s", "proxy": true},
+      {"name": "Filehippo", "url": "https://filehippo.com/search?q=%s", "proxy": false},
+      {"name": "Scoop", "url": "https://scoop.sh/#/apps?q=%s&o=false", "proxy": false},
+      {"name": "APKCombo", "url": "https://apkcombo.com/zh/search/%s", "proxy": true},
+      {"name": "CG资源网", "url": "https://www.cgown.com/?s=%s", "proxy": false},
+      {"name": "乐享", "url": "https://www.lxapk.com/?s=%s&type=post", "proxy": false},
+      {"name": "鸭先知", "url": "https://www.yxzhi.com/?post_type=post&s=%s", "proxy": false}
     ],
     "crack software": [
-      {"name": "大眼仔", "url": "https://www.dayanzai.me/?s=%s"},
-      {"name": "反斗限免", "url": "https://free.apprcn.com/?s=%s"},
-      {"name": "423down", "url": "https://www.423down.com/search/%s"},
-      {"name": "佛系软件", "url": "https://foxirj.com/?s=%s"},
-      {"name": "mefcl", "url": "https://www.mefcl.com/?s=%s"},
-      {"name": "igetintopc", "url": "https://igetintopc.com/?s=%s"},
-      {"name": "异次元", "url": "https://www.iplaysoft.com/?s=%s"},
-      {"name": "taiwebs", "url": "https://en.taiwebs.com/s/?s=%s"},
-      {"name": "轻狂志", "url": "https://www.flighty.cn/plus/search.php?kwtype=0&q=%s"},
-      {"name": "破亿姐", "url": "https://www.ypojie.com/?s=%s"},
-      {"name": "小众软件", "url": "https://www.appinn.com/search/%s"},
-      {"name": "脑袋瓜子", "url": "https://www.naodai.org/search/%s/"},
-      {"name": "独孤求软", "url": "https://www.dugubest.com/?s=%s"}
+      {"name": "大眼仔", "url": "https://www.dayanzai.me/?s=%s", "proxy": false},
+      {"name": "反斗限免", "url": "https://free.apprcn.com/?s=%s", "proxy": false},
+      {"name": "423down", "url": "https://www.423down.com/search/%s", "proxy": false},
+      {"name": "佛系软件", "url": "https://foxirj.com/?s=%s", "proxy": false},
+      {"name": "mefcl", "url": "https://www.mefcl.com/?s=%s", "proxy": false},
+      {"name": "igetintopc", "url": "https://igetintopc.com/?s=%s", "proxy": false},
+      {"name": "异次元", "url": "https://www.iplaysoft.com/?s=%s", "proxy": false},
+      {"name": "taiwebs", "url": "https://en.taiwebs.com/s/?s=%s", "proxy": false},
+      {"name": "轻狂志", "url": "https://www.flighty.cn/plus/search.php?kwtype=0&q=%s", "proxy": false},
+      {"name": "破亿姐", "url": "https://www.ypojie.com/?s=%s", "proxy": false},
+      {"name": "小众软件", "url": "https://www.appinn.com/search/%s", "proxy": false},
+      {"name": "脑袋瓜子", "url": "https://www.naodai.org/search/%s/", "proxy": false},
+      {"name": "独孤求软", "url": "https://www.dugubest.com/?s=%s", "proxy": false}
     ],
     "mac software": [
-      {"name": "Mac毒", "url": "https://www.macdo.cn/?cat=&s=%s"},
-      {"name": "Macsky", "url": "https://www.macsky.net/?s=%s&cat="},
-      {"name": "Mac 金币", "url": "https://www.macjb.com/search/%s_1_1_1.html"},
-      {"name": "Mac 萌新网", "url": "https://www.macxin.com/?s=%s"},
-      {"name": "APPKED", "url": "https://www.macbed.com/?s=%s"},
-      {"name": "Xclient", "url": "https://xclient.info/search/s/%s/"},
-      {"name": "苹果软件盒子", "url": "https://www.macappbox.com/s.html?q=%s"},
-      {"name": "马可菠萝", "url": "https://www.macbl.com/search/%s"},
-      {"name": "史蒂芬周的博客", "url": "https://www.sdifen.com/?s=%s"},
-      {"name": "Mac毒", "url": "https://www.macat.vip/?cat=&s=%s"}
+      {"name": "Mac毒", "url": "https://www.macdo.cn/?cat=&s=%s", "proxy": false},
+      {"name": "Macsky", "url": "https://www.macsky.net/?s=%s&cat=", "proxy": false},
+      {"name": "Mac 金币", "url": "https://www.macjb.com/search/%s_1_1_1.html", "proxy": false},
+      {"name": "Mac 萌新网", "url": "https://www.macxin.com/?s=%s", "proxy": false},
+      {"name": "APPKED", "url": "https://www.macbed.com/?s=%s", "proxy": false},
+      {"name": "Xclient", "url": "https://xclient.info/search/s/%s/", "proxy": false},
+      {"name": "苹果软件盒子", "url": "https://www.macappbox.com/s.html?q=%s", "proxy": false},
+      {"name": "马可菠萝", "url": "https://www.macbl.com/search/%s", "proxy": false},
+      {"name": "史蒂芬周的博客", "url": "https://www.sdifen.com/?s=%s", "proxy": false},
+      {"name": "Mac毒", "url": "https://www.macat.vip/?cat=&s=%s", "proxy": false}
     ],
     "chrome plugin": [
-      {"name": "画夹", "url": "https://huajiakeji.com/search/%s"},
-      {"name": "极简插件", "url": "https://chrome.zzzmh.cn/search/%s"},
-      {"name": "插件小屋", "url": "https://www.chajianxw.com/plugin/search?q=%s"},
-      {"name": "CrxDL", "url": "https://crxdl.com/search?q=%s"},
-      {"name": "极简插件", "url": "https://chrome.zzzmh.cn/search/%s"},
-      {"name": "Crx搜搜", "url": "https://www.crxsoso.com/search?keyword=%s&store=chrome"},
-      {"name": "Crx4Chrome（英文）", "url": "https://www.crx4chrome.com/s.php?s=%s#gsc.tab=0&gsc.q=123&gsc.page=1"},
-      {"name": "Scriptcat脚本猫", "url": "https://scriptcat.org/zh-CN/search?keyword=%s"}
+      {"name": "画夹", "url": "https://huajiakeji.com/search/%s", "proxy": false},
+      {"name": "极简插件", "url": "https://chrome.zzzmh.cn/search/%s", "proxy": false},
+      {"name": "插件小屋", "url": "https://www.chajianxw.com/plugin/search?q=%s", "proxy": false},
+      {"name": "CrxDL", "url": "https://crxdl.com/search?q=%s", "proxy": false},
+      {"name": "极简插件", "url": "https://chrome.zzzmh.cn/search/%s", "proxy": false},
+      {"name": "Crx搜搜", "url": "https://www.crxsoso.com/search?keyword=%s&store=chrome", "proxy": false},
+      {"name": "Crx4Chrome（英文）", "url": "https://www.crx4chrome.com/s.php?s=%s#gsc.tab=0&gsc.q=123&gsc.page=1", "proxy": false},
+      {"name": "Scriptcat脚本猫", "url": "https://scriptcat.org/zh-CN/search?keyword=%s", "proxy": false}
     ],
     "design": [
-      {"name": "Pinterest", "url": "https://www.pinterest.com/search/pins/?q=%s"},
-      {"name": "花瓣", "url": "https://huaban.com/search?q=%s"},
-      {"name": "站酷(ZCOOL)", "url": "https://www.zcool.com.cn/search/content?word=%s"},
-      {"name": "Behance", "url": "https://www.behance.net/search/projects?search=%s"},
-      {"name": "UI中国", "url": "https://s.ui.cn/index.html?keywords=%s&type=all"},
-      {"name": "觅元素", "url": "https://www.51yuansu.com/tupian/%s.html"},
-      {"name": "站酷", "url": "https://www.zcool.com.cn/search/content?word=%s"},
-      {"name": "爱给网", "url": "https://www.aigei.com/s?q=%s"}
+      {"name": "Pinterest", "url": "https://www.pinterest.com/search/pins/?q=%s", "proxy": true},
+      {"name": "花瓣", "url": "https://huaban.com/search?q=%s", "proxy": false},
+      {"name": "站酷(ZCOOL)", "url": "https://www.zcool.com.cn/search/content?word=%s", "proxy": false},
+      {"name": "Behance", "url": "https://www.behance.net/search/projects?search=%s", "proxy": true},
+      {"name": "UI中国", "url": "https://s.ui.cn/index.html?keywords=%s&type=all", "proxy": false},
+      {"name": "觅元素", "url": "https://www.51yuansu.com/tupian/%s.html", "proxy": false},
+      {"name": "站酷", "url": "https://www.zcool.com.cn/search/content?word=%s", "proxy": false},
+      {"name": "爱给网", "url": "https://www.aigei.com/s?q=%s", "proxy": false}
     ],
     "material": [
-      {"name": "素材", "url": "https://www.zcool.com.cn/search/content?word=%s&recommendLevel=1"},
-      {"name": "触站", "url": "https://www.huashi6.com/search?searchText=%s"},
-      {"name": "stickpng", "url": "https://www.stickpng.com/search?q=%s&page=1"},
-      {"name": "Cleanpng", "url": "https://www.cleanpng.com/free/%s.html"},
-      {"name": "unDraw", "url": "https://undraw.co/search/%s"},
-      {"name": "PicJumbo", "url": "https://picjumbo.com/search/%s"}
+      {"name": "素材", "url": "https://www.zcool.com.cn/search/content?word=%s&recommendLevel=1", "proxy": false},
+      {"name": "触站", "url": "https://www.huashi6.com/search?searchText=%s", "proxy": false},
+      {"name": "stickpng", "url": "https://www.stickpng.com/search?q=%s&page=1", "proxy": false},
+      {"name": "Cleanpng", "url": "https://www.cleanpng.com/free/%s.html", "proxy": true},
+      {"name": "unDraw", "url": "https://undraw.co/search/%s", "proxy": false},
+      {"name": "PicJumbo", "url": "https://picjumbo.com/search/%s", "proxy": false}
     ],
     "icon": [
-      {"name": "IconFont", "url": "https://www.iconfont.cn/search/index?searchType=icon&q=%s"},
-      {"name": "Iconify", "url": "https://icon-sets.iconify.design/?keyword=%s"},
-      {"name": "EmoJiall", "url": "https://www.emojiall.com/zh-hant/search_results?keywords=%s"}
+      {"name": "IconFont", "url": "https://www.iconfont.cn/search/index?searchType=icon&q=%s", "proxy": false},
+      {"name": "Iconify", "url": "https://icon-sets.iconify.design/?keyword=%s", "proxy": false},
+      {"name": "EmoJiall", "url": "https://www.emojiall.com/zh-hant/search_results?keywords=%s", "proxy": false}
     ],
     "ppt": [
-      {"name": "优品ppt", "url": "https://www.ypppt.com/p/search.php?kwtype=1&q=%s"}
-    ],
-    "pdf": [
-      {"name": "吾道", "url": "https://www.woodo.cn/design/template/?keyword=%s"},
-      {"name": "officePLUS", "url": "https://www.officeplus.cn/PPT/template/?keywords=%s"}
+      {"name": "吾道", "url": "https://www.woodo.cn/design/template/?keyword=%s", "proxy": false},
+      {"name": "优品ppt", "url": "https://www.ypppt.com/p/search.php?kwtype=1&q=%s", "proxy": false},
+      {"name": "officePLUS", "url": "https://www.officeplus.cn/PPT/template/?keywords=%s", "proxy": false}
     ],
     "font": [
-      {"name": "字体天下", "url": "https://www.fonts.net.cn/font-search-result.html?q=%s"},
-      {"name": "字由", "url": "https://www.hellofont.cn/search?word=%s"},
-      {"name": "猫啃网", "url": "https://www.maoken.com/?s=%s"}
+      {"name": "字体天下", "url": "https://www.fonts.net.cn/font-search-result.html?q=%s", "proxy": false},
+      {"name": "字由", "url": "https://www.hellofont.cn/search?word=%s", "proxy": false},
+      {"name": "猫啃网", "url": "https://www.maoken.com/?s=%s", "proxy": false}
     ],
     "academic": [
-      {"name": "谷歌学术", "url": "https://scholar.google.com/scholar?q=%s"},
-      {"name": "百度学术", "url": "https://xueshu.baidu.com/s?wd=%s"},
-      {"name": "万方", "url": "https://s.wanfangdata.com.cn/paper?q=%s"},
-      {"name": "PubMed", "url": "https://pubmed.ncbi.nlm.nih.gov/?term=%s"},
-      {"name": "arXiv", "url": "https://arxiv.org/search/?query=%s&searchtype=all"}
+      {"name": "谷歌学术", "url": "https://scholar.google.com/scholar?q=%s", "proxy": true},
+      {"name": "百度学术", "url": "https://xueshu.baidu.com/s?wd=%s", "proxy": false},
+      {"name": "万方", "url": "https://s.wanfangdata.com.cn/paper?q=%s", "proxy": false},
+      {"name": "PubMed", "url": "https://pubmed.ncbi.nlm.nih.gov/?term=%s", "proxy": false},
+      {"name": "arXiv", "url": "https://arxiv.org/search/?query=%s&searchtype=all", "proxy": false}
     ],
     "question": [
-      {"name": "问答库", "url": "https://www.asklib.com/s/%s"},
-      {"name": "wikiHow", "url": "https://zh.wikihow.com/wikiHowTo?search=%s&Search="}
+      {"name": "问答库", "url": "https://www.asklib.com/s/%s", "proxy": true},
+      {"name": "wikiHow", "url": "https://zh.wikihow.com/wikiHowTo?search=%s&Search=", "proxy": false}
     ],
     "medical": [
-      {"name": "丁香医生", "url": "https://dxy.com/search/result?query=%s"},
-      {"name": "医学微视", "url": "https://www.mvyxws.cn/index.php/vod/search?key=%s"}
+      {"name": "丁香医生", "url": "https://dxy.com/search/result?query=%s", "proxy": false},
+      {"name": "医学微视", "url": "https://www.mvyxws.cn/index.php/vod/search?key=%s", "proxy": false}
     ],
     "ancient books": [
-      {"name": "古籍館", "url": "https://www.gujiguan.com/#/search?keyword=%s"},
-      {"name": "识典古籍", "url": "https://www.shidianguji.com/search/%s"},
-      {"name": "古诗文网", "url": "http://so.www.138vcd.com/chaxun/all/%s/"},
-      {"name": "苏州图书馆古籍库", "url": "https://fzk.szlib.com/pc/search?keyWord=%s"},
-      {"name": "中国古典文献资源", "url": "https://www.wenxianxue.cn/search.html?ks=%s"}
+      {"name": "古籍館", "url": "https://www.gujiguan.com/#/search?keyword=%s", "proxy": false},
+      {"name": "识典古籍", "url": "https://www.shidianguji.com/search/%s", "proxy": false},
+      {"name": "古诗文网", "url": "http://so.www.138vcd.com/chaxun/all/%s/", "proxy": false},
+      {"name": "苏州图书馆古籍库", "url": "https://fzk.szlib.com/pc/search?keyWord=%s", "proxy": false},
+      {"name": "中国古典文献资源", "url": "https://www.wenxianxue.cn/search.html?ks=%s", "proxy": false}
     ]
   }
 }
