@@ -12,31 +12,10 @@
           "proxy": false
         },
         {
-          "title": "清科投资界",
-          "url": "https://zdb.pedaily.cn/",
-          "icon": "img/64bb73341ffae6b1e7937950724f0cd5.webp",
-          "desc": "清科集团旗下，提供中国股权投资行业的数据和资讯。",
-          "proxy": false
-        },
-        {
-          "title": "天眼查",
-          "url": "https://www.tianyancha.com/",
-          "icon": "img/777efdaae6c8b83886dc80dd6291497b.webp",
-          "desc": "专业的企业信息查询平台，提供工商、法律、风险等多维度信息。",
-          "proxy": false
-        },
-        {
           "title": "199IT互联网数据中心",
           "url": "https://www.199it.com/",
           "icon": "img/983c15c6c160f4c284a270836a1a91d6.webp",
           "desc": "分享互联网行业数据和研究报告。",
-          "proxy": false
-        },
-        {
-          "title": "爱企查",
-          "url": "https://aiqicha.baidu.com/",
-          "icon": "img/ac5cb229ed9cda88b1ab1711c3dde250.webp",
-          "desc": "百度旗下的企业信息查询工具。",
           "proxy": false
         },
         {
@@ -58,13 +37,6 @@
           "url": "https://www.iimedia.cn/#shuju",
           "icon": "img/79c17761ed51449b641f231d973a7ad3.webp",
           "desc": "全球新经济产业第三方数据挖掘与分析机构。",
-          "proxy": false
-        },
-        {
-          "title": "企查查",
-          "url": "https://www.qcc.com/",
-          "icon": "img/58afe52931b60c7286645df8deaee539.webp",
-          "desc": "一站式企业信息查询服务平台，助力商业决策。",
           "proxy": false
         },
         {
@@ -90,7 +62,7 @@
         },
         {
           "title": "清科研究中心",
-          "url": "https://research.pedaily.cn/",
+          "url": "https://pedaily.cn/",
           "icon": "img/64bb73341ffae6b1e7937950724f0cd5.webp",
           "desc": "中国领先的创业与投资综合服务平台，提供深度行研报告。",
           "proxy": false
@@ -144,13 +116,6 @@
       "categoryId": "data-analysis-visualization",
       "sites": [
         {
-          "title": "百度指数",
-          "url": "http://index.baidu.com/v2/index.html",
-          "icon": "img/587c37488cb060f2dffa18bc0cc9a684.webp",
-          "desc": "以百度海量网民行为数据为基础的数据分享平台。",
-          "proxy": false
-        },
-        {
           "title": "高德交通报告",
           "url": "https://report.amap.com/index.do",
           "icon": "img/5a9e1b0489648a35514a9adf1190bc4b.webp",
@@ -190,6 +155,13 @@
           "url": "https://qianxi.baidu.com/",
           "icon": "img/2f643da610224121348d701b2e2e777e.webp",
           "desc": "基于百度定位大数据，动态、直观地展现人口迁徙轨迹。",
+          "proxy": false
+        },
+        {
+          "title": "大数据导航",
+          "url": "https://hao.199it.com/",
+          "icon": "img/983c15c6c160f4c284a270836a1a91d6.webp",
+          "desc": "各行各业、各门类的大数据分析网站导航。",
           "proxy": false
         },
         {
@@ -263,25 +235,11 @@
           "proxy": true
         },
         {
-          "title": "淘宝排行榜",
-          "url": "https://s.taobao.com",
-          "icon": "img/9d5172de4ef67f51c50ed74dcf64f1f9.webp",
-          "desc": "展示淘宝、天猫平台各类目下的热销商品排行。",
-          "proxy": false
-        },
-        {
           "title": "G2",
           "url": "https://g2.alipay.com/",
           "icon": "img/fa837e97ad933a81e0e144a4d83b5731.webp",
           "desc": "蚂蚁集团开源的一套基于图形语法的可视化引擎。",
           "proxy": false
-        },
-        {
-          "title": "Similarweb",
-          "url": "https://www.similarweb.com/",
-          "icon": "img/eada0bc665ba21a7ba3a4d45c95838d6.webp",
-          "desc": "提供网站和移动应用流量分析的强大工具。",
-          "proxy": true
         },
         {
           "title": "Google Charts",
@@ -318,41 +276,6 @@
       "categoryId": "design-resources-inspiration",
       "sites": [
         {
-          "title": "花瓣网",
-          "url": "https://huaban.com/",
-          "icon": "",
-          "desc": "一个设计师寻找灵感、采集和分享图片的图片社区。",
-          "proxy": false
-        },
-        {
-          "title": "优设导航",
-          "url": "https://hao.uisdc.com/",
-          "icon": "img/349c6e6ac85ea96780e42e58c3ac2b7c.webp",
-          "desc": "设计师必备的网站导航。",
-          "proxy": false
-        },
-        {
-          "title": "觅元素",
-          "url": "https://www.51yuansu.com/",
-          "icon": "img/6b4f0884a947ca25eeb7f0c52076adfa.webp",
-          "desc": "提供免抠PNG、背景、模板等设计素材，免费用户每天可下载4张。",
-          "proxy": false
-        },
-        {
-          "title": "创造狮导航",
-          "url": "https://chuangzaoshi.com/",
-          "icon": "img/009334cf187366626febb255acb481dd.webp",
-          "desc": "为创意工作者打造的资源导航站。",
-          "proxy": false
-        },
-        {
-          "title": "涂鸦王国",
-          "url": "https://www.gracg.com/",
-          "desc": "原创绘画社交网站",
-          "icon": "img/f8972532b89948e9a08f4bf11f41571e.webp",
-          "proxy": false
-        },
-        {
           "title": "天空之城-航拍摄影素材",
           "url": "https://www.skypixel.com/",
           "desc": "大疆旗下的航拍爱好者和专业摄影师作品分享社区。",
@@ -367,45 +290,10 @@
           "proxy": true
         },
         {
-          "title": "stickpng",
-          "url": "https://www.stickpng.com/",
-          "icon": "img/ce096bcd3c9c3c96bc9c232941f00c71.webp",
-          "desc": "提供海量PNG透明背景图片素材。",
-          "proxy": true
-        },
-        {
-          "title": "Cleanpng",
-          "url": "https://www.cleanpng.com/",
-          "icon": "img/e018a3e052f09a89a723a6fd81478ef8.webp",
-          "desc": "提供海量免费的透明背景PNG图片。",
-          "proxy": false
-        },
-        {
-          "title": "unDraw",
-          "url": "https://undraw.co/illustrations",
-          "icon": "img/63960fcaaa95b2acb08bc5cd13517e0d.webp",
-          "desc": "可免费商用、可在线修改颜色的扁平化插画图库。",
-          "proxy": true
-        },
-        {
           "title": "米画师",
           "url": "https://www.mihuashi.com/artworks",
           "desc": "专业的画师约稿和作品展示平台。",
           "icon": "img/d5b9be077e0efd56ca71670f49e4ffe0.webp",
-          "proxy": false
-        },
-        {
-          "title": "PicJumbo",
-          "url": "https://picjumbo.com/",
-          "desc": "提供免费个人和商业使用的图像，照片质量很不错",
-          "icon": "img/3e9724d783b52088707a4b9c914bd5f6.webp",
-          "proxy": true
-        },
-        {
-          "title": "Storyset",
-          "url": "https://storyset.com/",
-          "icon": "",
-          "desc": "免费的可定制化插图资源库。",
           "proxy": false
         }
       ]
@@ -414,20 +302,6 @@
       "categoryName": "图标、字体与配色",
       "categoryId": "icons-fonts-colors",
       "sites": [
-        {
-          "title": "Iconfont-阿里巴巴矢量图标库",
-          "url": "https://www.iconfont.cn/",
-          "icon": "",
-          "desc": "阿里巴巴官方图标库，资源丰富，但商用时需注意版权归属。",
-          "proxy": false
-        },
-        {
-          "title": "站酷出品的免费可商用字体",
-          "url": "https://www.zcool.com.cn/special/zcoolfonts/",
-          "icon": "img/67991633e2e80d4f09dd24b436f6abd5.webp",
-          "desc": "站酷网联合设计师推出的系列免费可商用字体。",
-          "proxy": false
-        },
         {
           "title": "IconPark 开源图标库",
           "url": "https://iconpark.oceanengine.com/home",
@@ -440,34 +314,6 @@
           "url": "https://zhongguose.com/",
           "icon": "img/8261509f231cfc9a581c290d2b528538.webp",
           "desc": "展示中国传统色彩的网站，提供CMYK和RGB值。",
-          "proxy": false
-        },
-        {
-          "title": "字由",
-          "url": "https://www.hellofont.cn/",
-          "icon": "img/1f0328f254f6f4d0a31daa984b3fa85d.webp",
-          "desc": "一个很方便预览、管理和下载可商用字体的软件。",
-          "proxy": false
-        },
-        {
-          "title": "字体天下",
-          "url": "https://www.fonts.net.cn/album/free-chinese-fonts-1.html",
-          "desc": "提供海量的中英文字体下载，无需注册VIP",
-          "proxy": false,
-          "icon": "img/fe8536f5791f788f2578c1c5eef4bda0.webp"
-        },
-        {
-          "title": "猫啃网",
-          "url": "https://www.maoken.com/",
-          "icon": "img/d80078550f48466de34d940b06d3ca2b.webp",
-          "desc": "收集整理了大量无版权问题的免费可商用中文字体。",
-          "proxy": false
-        },
-        {
-          "title": "Iconify",
-          "url": "https://icon-sets.iconify.design/",
-          "icon": "img/7a58863520afd30a2c45699a9f459210.webp",
-          "desc": "海量 SVG 图标集，一键复制使用。",
           "proxy": false
         },
         {
@@ -512,13 +358,6 @@
           "proxy": false
         },
         {
-          "title": "极简壁纸",
-          "url": "https://bz.zzzmh.cn/#index",
-          "icon": "",
-          "desc": "简洁无广告的电脑壁纸和手机壁纸下载站。",
-          "proxy": false
-        },
-        {
           "title": "故宫名画",
           "url": "https://minghuaji.dpm.org.cn/",
           "icon": "img/9635c980b966c513a1a498d1076bac1a.webp",
@@ -544,13 +383,6 @@
           "url": "https://desk.3gbizhi.com/",
           "icon": "img/7d5c6277d6919e21ff6aafa36c669f41.webp",
           "desc": "提供高清电脑和手机壁纸下载。",
-          "proxy": false
-        },
-        {
-          "title": "鬼刀动态静态4K/8K壁纸（2017-2021.06）",
-          "url": "https://cloud.189.cn/web/share?code=vue2InzaQVnq",
-          "desc": "知名画师WLOP的作品《鬼刀》系列高清壁纸合集。",
-          "icon": "img/86b391792013c52a11bfcac413719a5f.webp",
           "proxy": false
         },
         {
@@ -637,51 +469,10 @@
       "categoryId": "templates-assets",
       "sites": [
         {
-          "title": "PPT 超级市场",
-          "url": "https://ppt.sotary.com/web/wxapp/index.html",
-          "desc": "PPT模板网站",
-          "proxy": false
-        },
-        {
-          "title": "officePLUS",
-          "url": "https://www.officeplus.cn/",
-          "desc": "模板下载",
-          "proxy": false,
-          "icon": ""
-        },
-        {
-          "title": "吾道幻灯片",
-          "url": "https://www.woodo.cn/",
-          "desc": "PPT在线制作",
-          "proxy": false,
-          "icon": "img/b1e6916f2f5eb012d47d3c1986e4def2.webp"
-        },
-        {
-          "title": "PPT之家",
-          "url": "https://www.52ppt.com/",
-          "desc": "需关注微信公众号获取密码。",
-          "proxy": false,
-          "icon": "img/8100e8c6410e1d2aac79ad46634f9024.webp"
-        },
-        {
           "title": "极简简历",
           "url": "https://www.polebrief.com/edit",
           "icon": "img/de1c8dea9d743769c1b6dea27f9603e8.webp",
           "desc": "在线简历模板制作工具。",
-          "proxy": false
-        },
-        {
-          "title": "第一PPT",
-          "url": "https://www.1ppt.com/",
-          "desc": "PPT模板网站",
-          "proxy": false,
-          "icon": "img/e307167daf487977ab62d1bf86737c8c.webp"
-        },
-        {
-          "title": "耳聆网",
-          "url": "https://www.ear0.com/",
-          "icon": "img/d0d0135ba1d7f4982de714745526fc1a.webp",
-          "desc": "中文音效素材库，使用时需注意许可协议。",
           "proxy": false
         },
         {
@@ -699,25 +490,11 @@
           "icon": "img/22ee50d67db1d2c9030832585863637d.webp"
         },
         {
-          "title": "优品PPT",
-          "url": "https://www.ypppt.com/",
-          "icon": "img/80193a7eea48b9499bc599cd024f9fe4.webp",
-          "desc": "一个有情怀的免费PPT模板下载网站，质量很高。",
-          "proxy": false
-        },
-        {
           "title": "mixkit",
           "url": "https://mixkit.co/",
           "icon": "img/33ce98313217439de65cc34c06c9ca10.webp",
           "desc": "提供高质量的免费视频素材、音乐和音效，使用时需注意许可协议。",
           "proxy": false
-        },
-        {
-          "title": "爱给网",
-          "url": "https://www.aigei.com/",
-          "icon": "img/0d11d0b902d1bfd8b2c6ffa5fd8a7bbd.webp",
-          "desc": "提供音效、配乐、视频、游戏等素材，PR/AE模版提供高速下载。",
-          "proxy": true
         },
         {
           "title": "淘声网",
@@ -732,13 +509,6 @@
           "icon": "img/3f7bb35f9f9243cde68c6590b1389a08.webp",
           "desc": "免费的在线视频编辑器和片头制作工具，提供大量模板和素材。",
           "proxy": false
-        },
-        {
-          "title": "小森平的免费下载音效",
-          "url": "https://taira-komori.net/freesoundcn.html",
-          "icon": "img/31edf8a00ef52410dea11ecc7d1da7bc.webp",
-          "desc": "日本音效师小森平提供的免费音效素材。",
-          "proxy": false
         }
       ]
     },
@@ -751,20 +521,6 @@
           "url": "https://ent.huanqiu.com/movie/",
           "desc": "环球网的电影频道，提供电影资讯和影评。",
           "icon": "img/b36037a64ed35d42c8073fe2d80d002e.webp",
-          "proxy": false
-        },
-        {
-          "title": "豆瓣电影排行榜",
-          "url": "https://movie.douban.com/chart",
-          "icon": "img/27c1c294614d779e32bcfebf3a5b1cfe.webp",
-          "desc": "基于豆瓣用户评分和行为数据生成的电影榜单。",
-          "proxy": false
-        },
-        {
-          "title": "光合作用园艺",
-          "url": "https://passport.weibo.com/visitor/visitor?entry=miniblog&a=enter&url=https%3A%2F%2Fweibo.com%2Fghzyzmz&domain=weibo.com&ua=Mozilla%2F5.0%20%28Windows%20NT%2010.0%3B%20Win64%3B%20x64%29%20AppleWebKit%2F537.36%20%28KHTML%2C%20like%20Gecko%29%20Chrome%2F115.0.0.0%20Safari%2F537.36&_rand=1765195112911&sudaref=",
-          "icon": "img/d47292b6668d12a03d627245d89a2018.webp",
-          "desc": "专注翻译园艺题材的纪录片，微博发布。",
           "proxy": false
         },
         {
@@ -782,13 +538,6 @@
           "proxy": false
         },
         {
-          "title": "电影资源搜索攻略",
-          "url": "https://shimo.im/docs/3Gx6PcPRHQvgPd6W/read",
-          "icon": "img/a060d9d87e04d719c2401c7c06370655.webp",
-          "desc": "石墨文档，分享了寻找电影资源的技巧和网站。",
-          "proxy": false
-        },
-        {
           "title": "IMDb",
           "url": "https://www.imdb.com/?ref_=nv_home",
           "icon": "",
@@ -796,25 +545,11 @@
           "proxy": false
         },
         {
-          "title": "烂番茄",
-          "url": "https://www.rottentomatoes.com/",
-          "desc": "国外影评网站，安装了广告拦截插件无法用",
-          "icon": "img/12e316e31d261f8dde18ca7d70c0ff65.webp",
-          "proxy": true
-        },
-        {
           "title": "IMDB TOP250",
           "url": "https://www.imdb.com/chart/top",
           "icon": "img/a00f507810e886fe683c705a0582cdb2.webp",
           "desc": "全球权威的电影数据库，展示评分最高的250部电影。",
           "proxy": true
-        },
-        {
-          "title": "奇下载字幕",
-          "url": "https://www.qixiazai.com/",
-          "icon": "img/671e17e113bf89298f01f5705380effd.webp",
-          "desc": "字幕下载网站。",
-          "proxy": false
         },
         {
           "title": "ACI中文字幕社区",
@@ -850,13 +585,6 @@
           "icon": "img/964122d3b90340bd4333225c5f39ef61.webp",
           "desc": "提供多语言字幕下载，包含中文字幕。",
           "proxy": false
-        },
-        {
-          "title": "预告片世界",
-          "url": "https://www.yugaopian.cn/",
-          "desc": "汇集国内外最新电影预告片的网站。",
-          "icon": "img/f1dd281b5a773c04d135f5bd92d50ef7.webp",
-          "proxy": true
         }
       ]
     },
@@ -898,13 +626,6 @@
           "icon": "",
           "desc": "动漫BT下载资源发布站。",
           "proxy": false
-        },
-        {
-          "title": "诸神字幕组",
-          "url": "https://subs.kamigami.org/",
-          "desc": "知名的动漫字幕组，提供高质量的动漫字幕和熟肉资源。",
-          "icon": "img/0335f92d99a5e3cd828428591222e0c1.webp",
-          "proxy": true
         },
         {
           "title": "爱恋动漫",
@@ -956,23 +677,10 @@
           "proxy": false
         },
         {
-          "title": "梦蓝字幕组",
-          "url": "https://mlsub.net/",
-          "desc": "动漫字幕组发布站。",
-          "proxy": false
-        },
-        {
           "title": "VCB-Studio分享论坛（ACG字幕）",
           "url": "https://bbs.acgrip.com/",
           "icon": "img/e208d040ba799b69b6d692975154ce70.webp",
           "desc": "动漫（ACG）相关的字幕和资源分享论坛。",
-          "proxy": false
-        },
-        {
-          "title": "摸鱼网",
-          "url": "https://www.mooyuu.com/",
-          "desc": "面向二次元爱好者的插画、漫画分享社区。",
-          "icon": "img/9059ff348b9eda3280ee8abccb45b9a8.webp",
           "proxy": false
         },
         {
@@ -1007,34 +715,6 @@
           "url": "https://www.36kr.com/",
           "icon": "",
           "desc": "关注互联网创业的科技媒体，提供前沿商业和科技报道。",
-          "proxy": false
-        },
-        {
-          "title": "华为",
-          "url": "https://www.huawei.com/en/",
-          "icon": "",
-          "desc": "全球领先的ICT基础设施和智能终端提供商。",
-          "proxy": false
-        },
-        {
-          "title": "微软 (Microsoft)",
-          "url": "https://www.microsoft.com/",
-          "icon": "img/12e3dac858061d088023b2bd48e2fa96.webp",
-          "desc": "全球领先的软件、服务、设备和解决方案提供商。",
-          "proxy": true
-        },
-        {
-          "title": "阿里巴巴",
-          "url": "https://www.alibabagroup.com/",
-          "icon": "img/5532d49c800891b82815f5ad3d446e65.webp",
-          "desc": "中国领先的电子商务及技术公司，业务涵盖电商、金融、物流、云计算等。",
-          "proxy": false
-        },
-        {
-          "title": "Inoreader",
-          "url": "https://axu.lanzouj.com/iwqmE07gawmd",
-          "icon": "img/e2a12d30813a67034ecef52f8f5447d9.webp",
-          "desc": "强大的全平台RSS服务和阅读器。",
           "proxy": false
         },
         {
@@ -1087,31 +767,10 @@
           "proxy": false
         },
         {
-          "title": "Fluent Reader Lite",
-          "url": "https://www.123865.com/s/bjcA-bk3g",
-          "icon": "img/2428c06d936315c94c92b7452370a783.webp",
-          "desc": "一款美观、跨平台的RSS阅读器。",
-          "proxy": false
-        },
-        {
           "title": "爱范儿",
           "url": "https://www.ifanr.com/",
           "icon": "img/5597138be979a9d06fb5a14c537d4a2a.webp",
           "desc": "专注于消费科技领域的媒体，提供高品质的产品评测和行业洞察。",
-          "proxy": false
-        },
-        {
-          "title": "字节跳动",
-          "url": "https://www.bytedance.com/",
-          "icon": "",
-          "desc": "旗下拥有今日头条、抖音、TikTok等多款知名产品的科技公司。",
-          "proxy": false
-        },
-        {
-          "title": "百度大脑",
-          "url": "https://ai.baidu.com/",
-          "icon": "img/f841153a1e6ec8a12e3ea8ea3db6c9be.webp",
-          "desc": "百度AI核心技术引擎，全面开放AI能力，赋能各行各业。",
           "proxy": false
         },
         {
@@ -1120,34 +779,6 @@
           "icon": "img/8feebb0e5e89c47eda752e11be9b3ca8.webp",
           "desc": "知名技术博客，内容涵盖前后端技术、科技动态和个人思考。",
           "proxy": false
-        },
-        {
-          "title": "谷歌 (Google)",
-          "url": "https://about.google/",
-          "icon": "img/27c7f071d9b564e0778dce2c29b4f3f0.webp",
-          "desc": "全球领先的搜索引擎和技术公司，隶属于Alphabet Inc.",
-          "proxy": true
-        },
-        {
-          "title": "旷视科技 (Megvii)",
-          "url": "https://www.megvii.com/",
-          "icon": "img/a89de837fc3e89300085ee6a67723a84.webp",
-          "desc": "业界领先的人工智能产品和解决方案公司，聚焦物联网场景。",
-          "proxy": false
-        },
-        {
-          "title": "商汤科技",
-          "url": "https://www.sensetime.com/cn",
-          "icon": "img/cc590ba1866c503fe98ecae014340d35.webp",
-          "desc": "全球领先的人工智能软件公司，专注于计算机视觉和深度学习。",
-          "proxy": false
-        },
-        {
-          "title": "苹果 (Apple)",
-          "url": "https://www.apple.com/",
-          "icon": "img/38cfdb248210ffd12a6e774119609de8.webp",
-          "desc": "全球知名的科技公司，设计和销售消费电子产品、软件和在线服务。",
-          "proxy": true
         }
       ]
     },
@@ -1160,13 +791,6 @@
           "url": "https://picwish.cn/",
           "icon": "img/dbc34d7e2f391db52fbd9f95b7c3057b.webp",
           "desc": "在线AI抠图和图片处理工具，可免费下载2K分辨率图片。",
-          "proxy": false
-        },
-        {
-          "title": "极简插件",
-          "url": "https://chrome.zzzmh.cn/",
-          "icon": "img/02f95305628acce35bb057262d4df77f.webp",
-          "desc": "严选有趣、实用、适合国内的Chrome扩展插件，可直接下载。",
           "proxy": false
         },
         {
@@ -1188,13 +812,6 @@
           "url": "https://www.capcut.cn/",
           "icon": "img/fc859990f2f5675d7a2016fe90e67397.webp",
           "desc": "字节跳动出品的免费视频剪辑软件，功能强大，易于上手。",
-          "proxy": false
-        },
-        {
-          "title": "Potplayer+MADVR最强画质教程",
-          "url": "https://www.hangge.com/blog/cache/detail_1461.html",
-          "icon": "img/fd1d506b848bb885a68b55f87e6b36ae.webp",
-          "desc": "实现PC视频播放最强画质的教程。",
           "proxy": false
         },
         {
@@ -1233,20 +850,6 @@
           "proxy": false
         },
         {
-          "title": "Greasy Fork",
-          "url": "https://greasyfork.org/zh-CN",
-          "icon": "img/f6a78521c62eb84df1ac9322fc460ead.webp",
-          "desc": "最受欢迎的油猴脚本资源库。",
-          "proxy": true
-        },
-        {
-          "title": "GitHub加速",
-          "url": "https://chromewebstore.google.com/detail/empty-title/mfnkflidjnladnkldfonnaicljppahpg?utm_source=chrome-ntp-icon",
-          "icon": "img/75d78a3233b5e0672f48247200decdb0.webp",
-          "desc": "提高中国开发者访问GitHub的速度，提升克隆Git仓库的速度。",
-          "proxy": true
-        },
-        {
           "title": "图片助手(ImageAssistant)",
           "url": "https://www.pullywood.com/ImageAssistant/",
           "icon": "img/f89d3f54125eec277ffbe0167e9630f2.webp",
@@ -1266,27 +869,6 @@
           "icon": "img/203b488c59aa0ea8d6027c3bf3d6e924.webp",
           "desc": "免费版的Wallpaper Engine，可自定义动态桌面。",
           "proxy": false
-        },
-        {
-          "title": "豆瓣资源下载大师",
-          "url": "https://greasyfork.org/en/scripts/329484-%E8%B1%86%E7%93%A3%E8%B5%84%E6%BA%90%E4%B8%8B%E8%BD%BD%E5%A4%A7%E5%B8%88-1%E7%A7%92%E6%90%9E%E5%AE%9A%E8%B1%86%E7%93%A3%E7%94%B5%E5%BD%B1-%E9%9F%B3%E4%B9%90-%E5%9B%BE%E4%B9%A6%E4%B8%8B%E8%BD%BD",
-          "icon": "img/f6a78521c62eb84df1ac9322fc460ead.webp",
-          "desc": "油猴脚本，快速查找豆瓣电影、音乐、图书的下载资源。",
-          "proxy": true
-        },
-        {
-          "title": "Tampermonkey",
-          "url": "https://chromewebstore.google.com/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo",
-          "icon": "img/75d78a3233b5e0672f48247200decdb0.webp",
-          "desc": "一款免费的浏览器扩展和最为流行的用户脚本管理器。",
-          "proxy": true
-        },
-        {
-          "title": "天翼云盘跳过客户端下载",
-          "url": "https://greasyfork.org/zh-CN/scripts/423898-%E5%A4%A9%E7%BF%BC%E4%BA%91%E7%9B%98%E8%B7%B3%E8%BF%87%E5%AE%A2%E6%88%B7%E7%AB%AF%E4%B8%8B%E8%BD%BD%E6%96%87%E4%BB%B6",
-          "icon": "img/f6a78521c62eb84df1ac9322fc460ead.webp",
-          "desc": "油猴脚本，可以直接下载天翼云盘的文件，无需安装客户端。",
-          "proxy": true
         }
       ]
     },
@@ -1295,31 +877,10 @@
       "categoryId": "references-wikis-periodicals",
       "sites": [
         {
-          "title": "古籍館",
-          "url": "https://www.gujiguan.com/#/",
-          "icon": "img/3f53fc2afc2243c194149133c2a0cc89.webp",
-          "desc": "提供古籍在线阅读和检索。",
-          "proxy": false
-        },
-        {
-          "title": "识典古籍",
-          "url": "https://www.shidianguji.com/",
-          "icon": "img/28b584399d482cc8600f5b4652a29cdc.webp",
-          "desc": "字节跳动公益出品的古籍数字化平台。",
-          "proxy": false
-        },
-        {
           "title": "全历史",
           "url": "https://www.allhistory.com/",
           "icon": "img/13ab00c276bb330408dee99322ee98e0.webp",
           "desc": "以AI知识图谱为核心，通过时间地图、关系图谱等方式展现历史。",
-          "proxy": false
-        },
-        {
-          "title": "国家古籍数字化资源总平台",
-          "url": "https://www.guji.cn/",
-          "icon": "img/4c541541ba903dbfddf018de44e4c7a4.webp",
-          "desc": "汇集全国古籍资源的官方平台。",
           "proxy": false
         },
         {
@@ -1337,32 +898,11 @@
           "proxy": false
         },
         {
-          "title": "中国古典文献资源导航系统",
-          "url": "https://www.wenxianxue.cn/",
-          "icon": "img/d903bda89250a7b8cdf6a8a48d57d1dc.webp",
-          "desc": "汇集各大图书馆和机构的古典文献数据库。",
-          "proxy": false
-        },
-        {
           "title": "参考网",
           "url": "https://www.fx361.com/",
           "icon": "img/c68bec84338e29057daaa7855142b359.webp",
           "desc": "综合性资讯和文章阅读网站，内容丰富。",
           "proxy": false
-        },
-        {
-          "title": "苏州图书馆古籍库",
-          "url": "https://fzk.szlib.com/pc/",
-          "icon": "",
-          "desc": "苏州图书馆馆藏古籍的数字化查阅平台。",
-          "proxy": false
-        },
-        {
-          "title": "维基百科",
-          "url": "https://zh.wikipedia.org/zh-cn/",
-          "icon": "img/904ce6bd2ef5e1eaa6de1eb02164436b.webp",
-          "desc": "全球性的多语言网络百科全书，内容由志愿者共同编辑。",
-          "proxy": true
         },
         {
           "title": "中国哲学书电子化计划",

@@ -12,45 +12,10 @@
           "proxy": false
         },
         {
-          "title": "学霸盘",
-          "url": "https://www.xuebapan.com/",
-          "icon": "img/bef6da485473c038f0c79a3f522c7be9.webp",
-          "desc": "专注于学习资料的网盘搜索引擎。",
-          "proxy": false
-        },
-        {
-          "title": "大力盘",
-          "url": "https://www.dalipan.com/",
-          "icon": "img/ea26a61c443e238d04f7ace1f94cbbe1.webp",
-          "desc": "简洁高效的百度网盘资源搜索引擎。",
-          "proxy": true
-        },
-        {
-          "title": "阿里盘搜",
-          "url": "https://www.alipansou.com/",
-          "icon": "img/b15995f9a3a689f64e4f84655c499b69.webp",
-          "desc": "阿里云盘搜索，可直接搜索访问。",
-          "proxy": false
-        },
-        {
           "title": "超能搜",
           "url": "https://www.chaonengso.com/",
           "icon": "img/14c885ceabc0b1a2aa6e3bae21ef5226.webp",
           "desc": "网盘搜索引擎合集。",
-          "proxy": true
-        },
-        {
-          "title": "大圣盘",
-          "url": "https://www.dashengpan.com/",
-          "icon": "img/211b3d14d0cf52a40f5b94db925560bd.webp",
-          "desc": "需要关注公众号后，在可以获取资源",
-          "proxy": false
-        },
-        {
-          "title": "PanSearch",
-          "url": "https://www.pansearch.me/",
-          "icon": "img/25f213a0787a9446414604f1a310cc06.webp",
-          "desc": "聚合多个网盘的搜索引擎，快速查找全网资源。",
           "proxy": true
         },
         {
@@ -68,34 +33,6 @@
           "proxy": false
         },
         {
-          "title": "茶杯狐",
-          "url": "https://www.acupfox.com/",
-          "icon": "img/1e69e79934b0b0ae310b8b826371e559.webp",
-          "desc": "聚合全网影视资源的搜索引擎，让你轻松找到想看的影片。",
-          "proxy": false
-        },
-        {
-          "title": "UP云搜",
-          "url": "https://www.upyunso.com/",
-          "icon": "img/17913b5c2e20051647c939e698ed2df4.webp",
-          "desc": "阿里云盘搜索引擎。",
-          "proxy": false
-        },
-        {
-          "title": "小马盘",
-          "url": "https://www.xiaomapan.com/",
-          "icon": "img/b6e8bd8989788cb394b0ece3bff87fb7.webp",
-          "desc": "无需关注公众号等操作",
-          "proxy": false
-        },
-        {
-          "title": "无解搜",
-          "url": "https://wujiesou.com/",
-          "icon": "",
-          "desc": "多功能的聚合搜素引擎，支持网页、影视、音乐、软件、网盘等。",
-          "proxy": false
-        },
-        {
           "title": "盘友圈",
           "url": "https://panyq.com/",
           "icon": "img/cc75393776a99ba92aea78cdf9984155.webp",
@@ -110,38 +47,10 @@
           "proxy": true
         },
         {
-          "title": "电影狗",
-          "url": "https://www.dianyinggou.com/",
-          "icon": "",
-          "desc": "聚合搜索，一站查找多家影视站资源。",
-          "proxy": false
-        },
-        {
-          "title": "疯狂影视搜索",
-          "url": "https://ifkdy.com/",
-          "icon": "",
-          "desc": "聚合搜索，提供磁力链接等多种下载方式。",
-          "proxy": false
-        },
-        {
           "title": "熊猫搜盘",
           "url": "https://www.sopandas.com/",
           "icon": "img/daa41ba71a6bab1223b03e94df8372c7.webp",
           "desc": "网盘资源搜索引擎。",
-          "proxy": false
-        },
-        {
-          "title": "飞猪盘",
-          "url": "https://www.feizhupan.com/#/",
-          "icon": "img/03925df8a11b2289006c48d692531771.webp",
-          "desc": "网盘搜索，需关注公众号才能搜索。",
-          "proxy": false
-        },
-        {
-          "title": "橘子盘搜",
-          "url": "https://www.nmme.icu/",
-          "icon": "img/621efcac6ec986ee8acd5f12735c54d7.webp",
-          "desc": "🥈阿里云盘资源搜索引擎。",
           "proxy": false
         }
       ]
@@ -158,44 +67,10 @@
           "proxy": true
         },
         {
-          "title": "RARBG备份镜像",
-          "url": "https://rargb.to/movies/",
-          "icon": "img/988017a518155f4918dde174340c1f1f.webp",
-          "desc": "原RARBG关站后的替代品，电影资源丰富。",
-          "proxy": false
-        },
-        {
-          "title": "1337x",
-          "url": "https://www.1377x.to/",
-          "icon": "img/769362362d52b0cfc3271ecb6dec43fb.webp",
-          "desc": "综合性的BT资源站，包含电影、软件、游戏等。",
-          "proxy": true
-        },
-        {
           "title": "海盗湾",
           "url": "https://thepiratebay.org/index.html",
           "icon": "img/b407e86e0a33574c3079d83fe36e1da6.webp",
           "desc": "知名的 BT 磁力下载资源网站。",
-          "proxy": true
-        },
-        {
-          "title": "无极磁力",
-          "url": "https://xcili.net/",
-          "icon": "img/1ed7dd4e29ce129acb5773339d50ee96.webp",
-          "desc": "中文磁力搜索引擎。",
-          "proxy": false
-        },
-        {
-          "title": "磁力帝",
-          "url": "https://cldi.top/",
-          "icon": "",
-          "desc": "磁力搜索引擎地址发布页。",
-          "proxy": true
-        },
-        {
-          "title": "磁力巴士",
-          "url": "https://www.bvbus.com/",
-          "desc": "一个磁力链接搜索和分享网站。",
           "proxy": true
         },
         {
@@ -206,11 +81,11 @@
           "proxy": true
         },
         {
-          "title": "磁力柠檬",
-          "url": "https://lemongb.top/",
-          "icon": "img/41c7416537893cd13ccf9cac1e777543.webp",
-          "desc": "中文磁力搜索引擎。",
-          "proxy": false
+          "title": "海盗湾镜像",
+          "url": "https://thepiratebay10.xyz/",
+          "icon": "img/b407e86e0a33574c3079d83fe36e1da6.webp",
+          "desc": "需科学上网。",
+          "proxy": true
         },
         {
           "title": "磁力猫",
@@ -220,87 +95,11 @@
           "proxy": false
         },
         {
-          "title": "ImmortalProxy",
-          "url": "https://immortalproxy.com/",
-          "icon": "img/346368c5c9db54bd6033510d1b56edf5.webp",
-          "desc": "👍国外热门BT资源站的在线代理集合。",
-          "proxy": false
-        },
-        {
-          "title": "rutracker（俄国最大的破解论坛）",
-          "url": "https://rutracker.org/forum/index.php",
-          "icon": "img/bd0f81acc4504ea2fba0b90b571dd7a0.webp",
-          "desc": "俄罗斯最大的BT论坛，资源包罗万象，尤其软件和音乐资源。",
-          "proxy": true
-        },
-        {
-          "title": "BT吃力",
-          "url": "https://cursor.vip/vip",
-          "icon": "",
-          "desc": "磁力搜索引擎地址发布页。",
-          "proxy": true
-        },
-        {
-          "title": "Yiove 磁力搜索",
-          "url": "https://bt.iaaaaa.com/",
-          "icon": "img/9ebf0edf615e63200d421bf47ebeb197.webp",
-          "desc": "界面干净的磁力搜索引擎。",
-          "proxy": true
-        },
-        {
           "title": "磁力猫",
           "url": "https://xn--vur557cbpe6y0c.lol/",
           "icon": "",
           "desc": "磁力搜索引擎地址发布页。",
           "proxy": false
-        },
-        {
-          "title": "Kickass",
-          "url": "https://katcr.to/",
-          "desc": "国外磁力下载站",
-          "icon": "img/31b7bae5cc5cb5bb117d3083308db325.webp",
-          "proxy": true
-        },
-        {
-          "title": "海盗湾镜像",
-          "url": "https://thepiratebay10.xyz/",
-          "icon": "img/b407e86e0a33574c3079d83fe36e1da6.webp",
-          "desc": "需科学上网。",
-          "proxy": true
-        },
-        {
-          "title": "1337x",
-          "url": "https://1337xto.to/",
-          "icon": "img/769362362d52b0cfc3271ecb6dec43fb.webp",
-          "desc": "需科学上网。",
-          "proxy": true
-        },
-        {
-          "title": "EZTV片源",
-          "url": "https://eztvx.to/",
-          "desc": "国外磁力下载站",
-          "icon": "img/b00c7b49dfdb342eae3fdad09ddd66f0.webp",
-          "proxy": true
-        },
-        {
-          "title": "The Pirate Bay",
-          "url": "https://thepiratebay.xyz/",
-          "icon": "img/b407e86e0a33574c3079d83fe36e1da6.webp",
-          "desc": "海盗湾，全球最著名的BT种子服务器和磁力链接搜索引擎。",
-          "proxy": true
-        },
-        {
-          "title": "吴签磁力",
-          "url": "https://tech.imwuchong.net/feo/yLpKA0TAzj?_=001&p=1",
-          "icon": "img/9dcf726ef38a2ebb5c99e5328c0c70b0.webp",
-          "desc": "中文磁力搜索引擎。",
-          "proxy": false
-        },
-        {
-          "title": "LimeTorrents",
-          "url": "https://www.limetor.pro/",
-          "desc": "国外磁力下载站",
-          "proxy": true
         },
         {
           "title": "磁力猫",
@@ -317,16 +116,50 @@
           "proxy": false
         },
         {
-          "title": "Monova",
-          "url": "https://unblockit.onl/?domain=https://monova.unblockit.onl&status=410&removed=1&request=/",
+          "title": "磁力帝",
+          "url": "https://cldi.top/",
+          "icon": "",
+          "desc": "磁力搜索引擎地址发布页。",
+          "proxy": true
+        },
+        {
+          "title": "ImmortalProxy",
+          "url": "https://immortalproxy.com/",
+          "icon": "img/346368c5c9db54bd6033510d1b56edf5.webp",
+          "desc": "👍国外热门BT资源站的在线代理集合。",
+          "proxy": false
+        },
+        {
+          "title": "BT吃力",
+          "url": "https://cursor.vip/vip",
+          "icon": "",
+          "desc": "磁力搜索引擎地址发布页。",
+          "proxy": true
+        },
+        {
+          "title": "Yiove 磁力搜索",
+          "url": "https://bt.iaaaaa.com/",
+          "icon": "img/9ebf0edf615e63200d421bf47ebeb197.webp",
+          "desc": "界面干净的磁力搜索引擎。",
+          "proxy": true
+        },
+        {
+          "title": "EZTV片源",
+          "url": "https://eztvx.to/",
+          "desc": "国外磁力下载站",
+          "icon": "img/b00c7b49dfdb342eae3fdad09ddd66f0.webp",
+          "proxy": true
+        },
+        {
+          "title": "LimeTorrents",
+          "url": "https://www.limetor.pro/",
           "desc": "国外磁力下载站",
           "proxy": true
         },
         {
-          "title": "东京图书馆",
-          "url": "https://www.tokyotosho.info/",
+          "title": "Monova",
+          "url": "https://unblockit.onl/?domain=https://monova.unblockit.onl&status=410&removed=1&request=/",
           "desc": "国外磁力下载站",
-          "icon": "img/18559f076d430dfe8338ece630bec667.webp",
           "proxy": true
         }
       ]
@@ -392,20 +225,6 @@
           "proxy": false
         },
         {
-          "title": "7-zip",
-          "url": "https://www.7-zip.org/download.html",
-          "icon": "img/f77d1f20686a6bb34ccbe769d2b7e575.webp",
-          "desc": "开源免费的文件压缩/解压软件，支持多种格式，压缩率高。",
-          "proxy": false
-        },
-        {
-          "title": "腾讯哈勃分析",
-          "url": "https://habo.qq.com/",
-          "icon": "",
-          "desc": "在线病毒检测，普通用户不超过30MB",
-          "proxy": false
-        },
-        {
           "title": "Lively Wallpaper",
           "url": "https://www.rocksdanister.com/lively/",
           "icon": "img/203b488c59aa0ea8d6027c3bf3d6e924.webp",
@@ -448,23 +267,9 @@
           "proxy": false
         },
         {
-          "title": "3DM游戏运行库",
-          "url": "https://dl.3dmgame.com/patch/89066.html",
-          "icon": "img/b62511a2f7a054b05f7cc6b3d5a45a3c.webp",
-          "desc": "一键安装全部Windows系统必备常用运行库合集。",
-          "proxy": false
-        },
-        {
           "title": "Deskpins",
           "url": "https://efotinis.neocities.org/deskpins/",
           "desc": "简洁实用的窗口置顶小工具。",
-          "proxy": false
-        },
-        {
-          "title": "Recuva",
-          "url": "https://www.ccleaner.com/recuva",
-          "icon": "img/4c6f3de823f62f41d3e6fba169eaedc0.webp",
-          "desc": "由CCleaner公司出品的免费数据恢复软件，可以恢复误删除的文件。",
           "proxy": false
         },
         {
@@ -516,13 +321,6 @@
           "proxy": false
         },
         {
-          "title": "iLovePDF",
-          "url": "https://www.ilovepdf.com/zh-cn",
-          "icon": "img/e7f31a42ba09faf8dd3a2613afbeac14.webp",
-          "desc": "免费的在线PDF工具集，支持合并、拆分、压缩、转换、编辑PDF等多种操作。",
-          "proxy": false
-        },
-        {
           "title": "Obsidian",
           "url": "https://obsidian.md/",
           "icon": "img/a1bbd0ab1c28155ab65d4d4e41b95c4c.webp",
@@ -535,13 +333,6 @@
           "icon": "img/d7b1e292a867b36e33582927679ea5d7.webp",
           "desc": "Windows效率神器，提供快速文件搜索、程序启动和快捷操作，极大提升文件浏览和操作效率。",
           "proxy": false
-        },
-        {
-          "title": "Typora",
-          "url": "https://typora.io/",
-          "icon": "img/46202f2dfe4c80ed6043a81730bdc3ef.webp",
-          "desc": "一款所见即所得的极简 Markdown 编辑器，提供无缝的写作体验。",
-          "proxy": true
         },
         {
           "title": "Bitwarden",
@@ -593,13 +384,6 @@
           "icon": ""
         },
         {
-          "title": "吾道幻灯片",
-          "url": "https://www.woodo.cn/",
-          "desc": "PPT在线制作",
-          "proxy": false,
-          "icon": "img/b1e6916f2f5eb012d47d3c1986e4def2.webp"
-        },
-        {
           "title": "智能PPT",
           "url": "https://aippt.wps.cn/welcome/",
           "desc": "PPT模板网站",
@@ -612,39 +396,6 @@
           "desc": "需关注微信公众号获取密码。",
           "proxy": false,
           "icon": "img/8100e8c6410e1d2aac79ad46634f9024.webp"
-        },
-        {
-          "title": "PPT 超级市场",
-          "url": "https://ppt.sotary.com/web/wxapp/index.html",
-          "desc": "PPT模板网站",
-          "proxy": false
-        },
-        {
-          "title": "讯飞输入法",
-          "url": "https://srf.xunfei.cn/",
-          "icon": "img/32a9ae9bad493eba1ca18370da3b0af5.webp",
-          "desc": "讯飞出品的输入法，以语音输入为特色。",
-          "proxy": false
-        },
-        {
-          "title": "华宇拼音",
-          "url": "https://pinyin.thunisoft.com:443/index.html;jsessionid=node0pbb60xsofebq29nz4456oekj1026307.node0",
-          "icon": "",
-          "desc": "一款稳定、纯净的拼音输入法。",
-          "proxy": false
-        },
-        {
-          "title": "求职简历设计制作模板",
-          "url": "https://www.lanzous.com/iXWAQn4pv5i",
-          "desc": "提供多种风格的求职简历设计与制作模板。",
-          "proxy": false
-        },
-        {
-          "title": "手心输入法",
-          "url": "https://dl.360safe.com/netunion/20140425/MarketSetup_346394.exe",
-          "icon": "",
-          "desc": "👍一款稳定、纯净、无广告的拼音输入法。",
-          "proxy": false
         }
       ]
     },
@@ -652,20 +403,6 @@
       "categoryName": "软件与应用下载",
       "categoryId": "software-app-downloads",
       "sites": [
-        {
-          "title": "3DMGAME",
-          "url": "https://www.3dmgame.com/",
-          "icon": "img/b62511a2f7a054b05f7cc6b3d5a45a3c.webp",
-          "desc": "老牌的单机游戏门户网站，提供游戏资讯和资源下载。",
-          "proxy": false
-        },
-        {
-          "title": "游侠网",
-          "url": "https://www.ali213.net/",
-          "icon": "img/eb8cada58a37156b8c0351131a024545.webp",
-          "desc": "老牌单机游戏网站，提供破解游戏和MOD资源。",
-          "proxy": false
-        },
         {
           "title": "FitGirl Repacks",
           "url": "https://fitgirl-repacks.site/",
@@ -678,13 +415,6 @@
           "url": "https://www.macwk.com/",
           "icon": "img/2d767c1f99474bd39e7bb4dbc8c34aa9.webp",
           "desc": "界面UI优秀的Mac软件站，分类齐全。",
-          "proxy": false
-        },
-        {
-          "title": "资源否",
-          "url": "https://www.yxzhi.com/",
-          "icon": "img/9fbd98deaef754df53b6e98ce17638cc.webp",
-          "desc": "一个提供软件、源码、模板等资源的分享站。",
           "proxy": false
         }
       ]
@@ -777,13 +507,6 @@
       "categoryId": "network-download-tools",
       "sites": [
         {
-          "title": "比特彗星 BitComet",
-          "url": "https://wwx.lanzouo.com/b073c7g4f",
-          "icon": "img/e2a12d30813a67034ecef52f8f5447d9.webp",
-          "desc": "🥇内置热门tracker版，强大的BT/HTTP/FTP下载工具。",
-          "proxy": false
-        },
-        {
           "title": "磁力空间",
           "url": "https://cilikongjian.com/login",
           "icon": "img/199460b2d30765567dc44545e9a7ee8f.webp",
@@ -809,13 +532,6 @@
           "url": "https://pan.quark.cn/",
           "icon": "img/d1915a670d360513a0fdf6f188a420d8.webp",
           "desc": "夸克浏览器内置网盘，支持离线下载，会员功能更强。",
-          "proxy": false
-        },
-        {
-          "title": "qBittorrent",
-          "url": "https://pan.lanpw.com/b073dnr7g",
-          "icon": "img/e2a12d30813a67034ecef52f8f5447d9.webp",
-          "desc": "🥇内置热门tracker版，开源免费的BT下载客户端。",
           "proxy": false
         },
         {
@@ -916,20 +632,6 @@
           "proxy": false
         },
         {
-          "title": "卡通站",
-          "url": "https://www.ktkkt.top/",
-          "icon": "",
-          "desc": "提供国语、粤语版动画片。",
-          "proxy": false
-        },
-        {
-          "title": "动漫Raw",
-          "url": "https://nc.raws.dev/0:/",
-          "icon": "",
-          "desc": "动漫生肉资源下载。",
-          "proxy": false
-        },
-        {
           "title": "哔嘀影视",
           "url": "https://www.baidu.com/",
           "icon": "img/717b138033a41361b32b60fc5062ab2a.webp",
@@ -958,20 +660,6 @@
           "icon": "img/7f437b3f90f58d53723c1e5fb3368cd4.webp"
         },
         {
-          "title": "Grab4K（蓝光）",
-          "url": "https://grab4k.com/",
-          "icon": "img/3a17dd27cd3d8a6b794193d990914759.webp",
-          "desc": "4K蓝光电影资源，提供磁力/115网盘下载。",
-          "proxy": false
-        },
-        {
-          "title": "MaGeDN",
-          "url": "https://loli.magedn.com/",
-          "icon": "",
-          "desc": "蓝光磁力(IDM)，提供高清影视资源的磁力链接。",
-          "proxy": true
-        },
-        {
           "title": "人人影视下载分享",
           "url": "https://dmesg.app/redirect.html",
           "icon": "img/ad3a8ac997cc66a5cf86e04d206a45dd.webp",
@@ -993,49 +681,11 @@
           "proxy": true
         },
         {
-          "title": "人人电影网",
-          "url": "https://www.rrdyw.cc/",
-          "desc": "迅雷云盘、115、百度网盘",
-          "proxy": true
-        },
-        {
-          "title": "漫不同日漫下载",
-          "url": "https://www.manbutong.com/",
-          "desc": "提供日本动漫资源下载的网站。",
-          "proxy": false
-        },
-        {
           "title": "6V电影",
           "url": "https://www.6v520.com/",
           "icon": "img/80c52e974106fcdb10405cf28f8e3d07.webp",
           "desc": "提供磁力下载。（备用：hao6v.com, 6vhao.tv）",
           "proxy": false
-        },
-        {
-          "title": "91日剧",
-          "url": "https://www.wwmulu.com/",
-          "desc": "高清日剧下载、日剧排行榜、日剧推荐。",
-          "proxy": false
-        },
-        {
-          "title": "片库 磁力链接为主",
-          "url": "https://www.mypianku.net/",
-          "desc": "以磁力链接形式提供影视资源下载。",
-          "proxy": false
-        },
-        {
-          "title": "东京不够热",
-          "url": "https://www.tokyonothot.com/",
-          "icon": "",
-          "desc": "日剧资源下载站。",
-          "proxy": false
-        },
-        {
-          "title": "ACG.RIP",
-          "url": "https://acg.rip/",
-          "desc": "一个提供动漫资源BT下载的网站。",
-          "icon": "img/9bb362d505dce0e45828ac53b48790e5.webp",
-          "proxy": true
         }
       ]
     },
@@ -1051,46 +701,11 @@
           "proxy": false
         },
         {
-          "title": "动漫屋",
-          "url": "https://tel.dm5.com/",
-          "icon": "img/8cc3e3ad2a637e6b41862da338cb4d3a.webp",
-          "desc": "老牌漫画网站，提供国漫、日漫等在线观看。",
-          "proxy": false
-        },
-        {
-          "title": "包子漫画",
-          "url": "https://www.baozimh.com/classify",
-          "icon": "img/c872ed6b3e2b30ef63082242152d18de.webp",
-          "desc": "各国漫画在线观看，国漫、耽美漫画较多。",
-          "proxy": false
-        },
-        {
-          "title": "漫自由",
-          "url": "https://mhx12.com/",
-          "icon": "img/bed8f5747434b9910defba61d306901e.webp",
-          "desc": "👍高质量在线漫画阅读网站。",
-          "proxy": true
-        },
-        {
-          "title": "G站漫画",
-          "url": "https://godamh.com/",
-          "icon": "img/cd6000af4281a475e733d2c309a9dd58.webp",
-          "desc": "各国漫画在线观看，资源丰富。",
-          "proxy": true
-        },
-        {
           "title": "漫猫动漫BT下载 - 漫画",
           "url": "https://www.comicat.org/public/html/start/#continue",
           "icon": "",
           "desc": "提供漫画资源的BT下载。",
           "proxy": false
-        },
-        {
-          "title": "静然书屋",
-          "url": "https://books.andrewjr.workers.dev/0:/",
-          "icon": "",
-          "desc": "界面简洁的电子书网盘，资源质量高。👍👍👍",
-          "proxy": true
         },
         {
           "title": "爱恋动漫BT下载－漫画",
@@ -1100,25 +715,11 @@
           "proxy": false
         },
         {
-          "title": "拷贝漫画",
-          "url": "https://www.mangacopy.com/",
-          "icon": "img/00feaa0366c338be1de2c1eecc9b91e8.webp",
-          "desc": "日漫为主的在线漫画网站。",
-          "proxy": false
-        },
-        {
           "title": "MOX.MOE",
           "url": "https://kzz.moe",
           "icon": "img/cd56e000dbf672ff8faefad93779244b.webp",
           "desc": "👍在线漫画阅读及分享，体验极佳。",
           "proxy": false
-        },
-        {
-          "title": "搜漫",
-          "url": "https://www.soman.com/",
-          "icon": "img/459b63f2fae0a25f8c301def4916834c.webp",
-          "desc": "通用漫画搜索引擎。👍",
-          "proxy": true
         },
         {
           "title": "漫画160",
@@ -1139,13 +740,6 @@
           "icon": "img/996bbeb3b07a5531a0182fe865ece6f3.webp",
           "desc": "香港论坛，内有音乐分享板块。",
           "proxy": true
-        },
-        {
-          "title": "爱听音乐网",
-          "url": "https://www.2t58.com/",
-          "icon": "img/9e6c045cb3d02a9c5ef986be72299915.webp",
-          "desc": "提供无损音乐下载。",
-          "proxy": false
         },
         {
           "title": "易音音乐论坛",
@@ -1188,39 +782,12 @@
       "categoryName": "设计资源与素材",
       "categoryId": "design-resources-assets",
       "sites": [
-        {
-          "title": "IconPark",
-          "url": "https://iconpark.oceanengine.com/official",
-          "icon": "",
-          "desc": "字节出品，支持在线调整图标",
-          "proxy": false
-        },
-        {
-          "title": "CG资源网",
-          "url": "https://www.cgown.com/",
-          "icon": "img/83427c661c96b61924bd6db76bcdbbf5.webp",
-          "desc": "分享AE/PR模板及插件等CG资源。👍",
-          "proxy": false
-        },
+
         {
           "title": "中国色",
           "url": "https://zhongguose.com/#anyuzi",
           "icon": "img/8261509f231cfc9a581c290d2b528538.webp",
           "desc": "收集了各种中国传统颜色的在线配色网站。",
-          "proxy": false
-        },
-        {
-          "title": "字体天下",
-          "url": "https://www.fonts.net.cn/commercial-free/fonts-zh-1.html",
-          "icon": "img/fe8536f5791f788f2578c1c5eef4bda0.webp",
-          "desc": "提供大量免费可商用字体下载。",
-          "proxy": false
-        },
-        {
-          "title": "站酷",
-          "url": "https://www.zcool.com.cn/",
-          "icon": "img/67991633e2e80d4f09dd24b436f6abd5.webp",
-          "desc": "国内知名的设计师互动平台。",
           "proxy": false
         },
         {
@@ -1258,39 +825,11 @@
       "categoryId": "image-specialty-search",
       "sites": [
         {
-          "title": "企查查",
-          "url": "https://www.qcc.com/",
-          "icon": "img/58afe52931b60c7286645df8deaee539.webp",
-          "desc": "提供企业工商信息、股东、高管、法律诉讼等信息的查询服务。",
-          "proxy": false
-        },
-        {
-          "title": "企查查",
-          "url": "https://www.qcc.com/",
-          "icon": "img/58afe52931b60c7286645df8deaee539.webp",
-          "desc": "提供企业工商信息、股东、高管、法律诉讼等信息的查询服务。",
-          "proxy": false
-        },
-        {
-          "title": "DuckDuckGo",
-          "url": "https://duckduckgo.com/",
-          "icon": "img/0a362a1a0cf4cc6bc56d65db8049dd6f.webp",
-          "desc": "一个注重隐私保护，不会追踪用户搜索记录的搜索引擎。",
-          "proxy": true
-        },
-        {
           "title": "谷歌识图",
           "url": "https://images.google.com/",
           "icon": "img/e8972ce34a4545b33c3926a20c306b71.webp",
           "desc": "谷歌的图片搜索和识图功能，功能强大。",
           "proxy": true
-        },
-        {
-          "title": "33台词",
-          "url": "https://33.agilestudio.cn/",
-          "icon": "img/d294143ca64962c8944628a4dbb26cbf.webp",
-          "desc": "通过台词搜索电影和电视剧片段。",
-          "proxy": false
         },
         {
           "title": "Trace.moe",
@@ -1328,24 +867,10 @@
           "proxy": true
         },
         {
-          "title": "QubDB",
-          "url": "https://www.quodb.com/",
-          "icon": "img/e141f60434b787a17f829abc53cfa330.webp",
-          "desc": "通过台词搜索电影、电视剧片段的英文网站。",
-          "proxy": true
-        },
-        {
           "title": "Bing",
           "url": "https://www.bing.com/?mkt=zh-CN",
           "icon": "img/da597791be3b6e732f0bc8b20e38ee62.webp",
           "desc": "微软出品的搜索引擎，提供高质量的网页和图片搜索。",
-          "proxy": false
-        },
-        {
-          "title": "33台词",
-          "url": "https://33.agilestudio.cn/",
-          "icon": "img/d294143ca64962c8944628a4dbb26cbf.webp",
-          "desc": "通过台词搜索电影和电视剧片段。",
           "proxy": false
         },
         {
@@ -1368,13 +893,6 @@
           "icon": "img/181c0a395de78f89c4817f81a6ea0fb2.webp",
           "desc": "强大的插画、P站图片反向搜索引擎。",
           "proxy": false
-        },
-        {
-          "title": "QubDB",
-          "url": "https://www.quodb.com/",
-          "icon": "img/e141f60434b787a17f829abc53cfa330.webp",
-          "desc": "通过台词搜索电影、电视剧片段的英文网站。",
-          "proxy": true
         },
         {
           "title": "TinEye",
@@ -1417,38 +935,10 @@
       "categoryId": "software-hubs",
       "sites": [
         {
-          "title": "异次元软件世界",
-          "url": "https://www.iplaysoft.com/",
-          "icon": "img/50673d4f96759081d776fd9760a9622b.webp",
-          "desc": "“爱免费，爱软件”，分享有趣、实用、免费的软件和网络服务。",
-          "proxy": false
-        },
-        {
-          "title": "乐享网",
-          "url": "https://www.lxapk.com/",
-          "icon": "img/042c1ea4fd3a4c48656b8f44fe749467.webp",
-          "desc": "安卓软件分享",
-          "proxy": false
-        },
-        {
           "title": "吾爱破解",
           "url": "https://www.52pojie.cn/",
           "icon": "",
           "desc": "国内知名的安全技术交流论坛，分享各类软件、逆向工程及安全知识。",
-          "proxy": false
-        },
-        {
-          "title": "大眼仔旭",
-          "url": "https://www.dayanzai.me/",
-          "icon": "img/e0860e500cc740d67ac369e4263774bd.webp",
-          "desc": "分享免费、优秀、实用的 Windows、Android 软件资源。",
-          "proxy": false
-        },
-        {
-          "title": "反斗限免",
-          "url": "https://free.apprcn.com/",
-          "icon": "img/0f379fc0428f7abf0fc2e64bfe32ba92.webp",
-          "desc": "分享Windows、Mac、iOS、Android等平台的限免软件。",
           "proxy": false
         },
         {
@@ -1459,38 +949,10 @@
           "proxy": true
         },
         {
-          "title": "423down",
-          "url": "https://www.423down.com/",
-          "icon": "img/013541699a919b36c708bd3d36e650ff.webp",
-          "desc": "专注分享绿色、便携、优质的 Windows 软件资源。",
-          "proxy": false
-        },
-        {
-          "title": "佛系软件",
-          "url": "https://foxirj.com/",
-          "icon": "img/054737cb3b178b10b73ede994a75ff7f.webp",
-          "desc": "分享破解和绿色软件，提供Onedrive下载。",
-          "proxy": false
-        },
-        {
-          "title": "mefcl'blog",
-          "url": "https://www.mefcl.com/",
-          "icon": "img/21a69a5e36b9a6deb1c7ddc04e759750.webp",
-          "desc": "分享各类软件资源，提供多种网盘下载方式。",
-          "proxy": false
-        },
-        {
           "title": "NSANE FORUMS",
           "url": "https://nsaneforums.com/forum/48-software-updates/",
           "icon": "img/916c12ab6fb7b4c2c0ace9897bcb4f6d.webp",
           "desc": "一个关注软件更新和破解的论坛。",
-          "proxy": false
-        },
-        {
-          "title": "反斗软件",
-          "url": "https://www.apprcn.com/",
-          "icon": "img/0f379fc0428f7abf0fc2e64bfe32ba92.webp",
-          "desc": "分享免费、优秀、有趣的软件。",
           "proxy": false
         },
         {
@@ -1508,59 +970,10 @@
           "proxy": false
         },
         {
-          "title": "portableapps",
-          "url": "https://portableapps.com/zh-cn",
-          "icon": "img/321dddc3d993c842c08bbbebc5460398.webp",
-          "desc": "提供大量开源和免费软件的便携版。",
-          "proxy": false
-        },
-        {
           "title": "爱纯净",
           "url": "https://www.aichunjing.com/",
           "icon": "img/036aedaccad59201cef45614dae4c901.webp",
           "desc": "分享纯净版软件和系统，提供百度＋城通＋蓝奏云下载。",
-          "proxy": false
-        },
-        {
-          "title": "轻狂志",
-          "url": "https://www.flighty.cn/",
-          "icon": "img/149003ab7141a2953c56309701fc08de.webp",
-          "desc": "分享绿色和破解软件，提供城通＋比邻＋蓝奏云下载。",
-          "proxy": true
-        },
-        {
-          "title": "亿破姐",
-          "url": "https://www.ypojie.com/",
-          "icon": "img/06de9994991cf6c58f724c3145487865.webp",
-          "desc": "知名的软件破解和资源分享站，提供城通网盘，关注公众号可获得百度云下载。",
-          "proxy": false
-        },
-        {
-          "title": "果核剥壳",
-          "url": "https://www.ghxi.com/",
-          "icon": "img/0b8e423bddb6f2e7e60cda1697c1a61a.webp",
-          "desc": "提供各类电脑软件、安卓应用和教程的资源分享网站。",
-          "proxy": false
-        },
-        {
-          "title": "孤独求软",
-          "url": "https://www.dugubest.com/",
-          "icon": "img/d301d982c78d4735c23e6bcf7011e404.webp",
-          "desc": "分享绿色和破解软件，提供蓝奏云＋百度云下载。",
-          "proxy": false
-        },
-        {
-          "title": "阿萨姆软件",
-          "url": "https://www.sssam.com/",
-          "icon": "img/319abe463f747a2e68d19858ce2ac4ff.webp",
-          "desc": "互联网资源分享平台，提供绿色软件下载。",
-          "proxy": false
-        },
-        {
-          "title": "脑袋瓜子",
-          "url": "https://www.naodai.org/",
-          "icon": "img/e4b78f2bdc3c3d1bea2037d9ca0583b4.webp",
-          "desc": "有软件简介、安装教程等，此为官网",
           "proxy": false
         },
         {
@@ -1576,13 +989,6 @@
           "icon": "img/d4b7557dc08ee86a49060415550c273a.webp",
           "desc": "俄罗斯的破解软件（Repack）分享站。",
           "proxy": true
-        },
-        {
-          "title": "盒子部落",
-          "url": "https://www.hezibuluo.com/",
-          "icon": "img/3eb6be7ac4dffa29ac91f9edf8c65c12.webp",
-          "desc": "分享各类软件资源，提供城通网盘，关注公众号可获得百度云下载。",
-          "proxy": false
         },
         {
           "title": "LiberKey",
@@ -1605,31 +1011,10 @@
       "categoryId": "mac-app-hubs",
       "sites": [
         {
-          "title": "Mac毒",
-          "url": "https://www.macdo.cn/",
-          "icon": "",
-          "desc": "Mac破解软件下载站，会员制。",
-          "proxy": false
-        },
-        {
-          "title": "MACSKY",
-          "url": "https://www.macsky.net/",
-          "icon": "",
-          "desc": "Mac破解软件下载站，会员制。",
-          "proxy": false
-        },
-        {
           "title": "马克喵",
           "url": "https://www.macat.vip/",
           "icon": "img/92c74752db6b852722f547ed34a0eca7.webp",
           "desc": "精品Mac破解软件下载站，资源更新及时。",
-          "proxy": false
-        },
-        {
-          "title": "少数派",
-          "url": "https://sspai.com/mall",
-          "icon": "img/3dd4a876bcd5f806ef30f8772385b973.webp",
-          "desc": "少数派的软件商城，提供正版Mac和Windows软件。",
           "proxy": false
         },
         {
@@ -1640,59 +1025,10 @@
           "proxy": false
         },
         {
-          "title": "Mac金币",
-          "url": "https://www.macjb.com/",
-          "icon": "img/6d44c50d5095958996df5ecabc340eb7.webp",
-          "desc": "Mac破解软件下载站，会员制。",
-          "proxy": false
-        },
-        {
-          "title": "MAC萌新网",
-          "url": "https://www.macxin.com/",
-          "icon": "",
-          "desc": "Mac破解软件下载站，可下Adobe破解资源。",
-          "proxy": false
-        },
-        {
-          "title": "玩转苹果",
-          "url": "https://www.ifunmac.com/",
-          "icon": "img/c96fef50cbeb3bb213d0b85024998c3a.webp",
-          "desc": "Mac破解软件下载站，会员制。",
-          "proxy": false
-        },
-        {
           "title": "Downie 4 (Mac)",
           "url": "https://lizhi.shop/products/downie?cid=ds7afku3",
           "icon": "img/7910dbe4c5dfa899bd01e1cb7c679226.webp",
           "desc": "Mac上强大的视频下载工具，支持1000+网站，正版特惠仅需99永久！",
-          "proxy": false
-        },
-        {
-          "title": "苹果软件盒子",
-          "url": "https://www.macappbox.com/",
-          "icon": "img/631e29a87827aa2a0559a92cdc9b4a43.webp",
-          "desc": "提供Mac破解软件下载，高速直链需付费。",
-          "proxy": false
-        },
-        {
-          "title": "淘宝",
-          "url": "https://www.taobao.com/",
-          "icon": "img/9d5172de4ef67f51c50ed74dcf64f1f9.webp",
-          "desc": "可以在淘宝上以较低价格购买到正版Mac软件的激活码。",
-          "proxy": false
-        },
-        {
-          "title": "APPKED",
-          "url": "https://www.macbed.com/",
-          "icon": "img/e5166f11ca161f51a7d717299533c993.webp",
-          "desc": "国外Mac破解软件站，提供国外网盘资源，下载较慢。",
-          "proxy": false
-        },
-        {
-          "title": "Digit77",
-          "url": "https://www.digit77.com/",
-          "icon": "img/07563e9701da54a95a4675e1a2ceb224.webp",
-          "desc": "Mac破解软件下载，无需注册，提供多种下载方式。",
           "proxy": false
         },
         {
@@ -1708,27 +1044,8 @@
           "icon": "img/241cafc05e9f4413c2bf16c9f6210e66.webp",
           "desc": "国内知名的正版软件代理商，提供Mac和Windows软件。",
           "proxy": false
-        },
-        {
-          "title": "马可菠萝",
-          "url": "https://www.macbl.com/",
-          "icon": "img/d9e9c10d30eb6501ecd4eb1843f3a202.webp",
-          "desc": "Mac破解软件下载站，提供百度云和城通网盘。",
-          "proxy": false
-        },
-        {
-          "title": "史蒂芬周的博客",
-          "url": "https://www.sdifen.com/",
-          "icon": "img/76213d41a0b0a9f29409a708d77b197b.webp",
-          "desc": "分享Mac破解软件的博客，部分付费，有永久会员。",
-          "proxy": false
         }
       ]
-    },
-    {
-      "categoryName": "破解与绿色软件",
-      "categoryId": "cracked-green-software",
-      "sites": []
     },
     {
       "categoryName": "系统工具与维护",
@@ -1763,27 +1080,6 @@
           "proxy": false
         },
         {
-          "title": "Snipaste",
-          "url": "https://docs.snipaste.com/zh-cn/getting-started",
-          "desc": "强大易用的截图+贴图工具。",
-          "proxy": false,
-          "icon": "img/c992b0f907b2fbf557b5c608cea70a1b.webp"
-        },
-        {
-          "title": "7-zip",
-          "url": "https://www.7-zip.org/",
-          "icon": "img/f77d1f20686a6bb34ccbe769d2b7e575.webp",
-          "desc": "开源免费的文件压缩软件，支持多种格式。",
-          "proxy": false
-        },
-        {
-          "title": "Everything",
-          "url": "https://www.voidtools.com/zh-cn/",
-          "icon": "img/43516830fce78bccd6a582984eaf12dd.webp",
-          "desc": "速度最快的文件名搜索神器。",
-          "proxy": false
-        },
-        {
           "title": "ReNamer",
           "url": "https://www.den4b.com/products/renamer",
           "icon": "img/9730aadc4f88a90fe0d5e35302ab714d.webp",
@@ -1811,13 +1107,6 @@
           "proxy": false
         },
         {
-          "title": "Github增强高速下载",
-          "url": "https://bitbucket.org/xiu2/userscript/raw/master/GithubEnhanced-High-Speed-Download.user.js",
-          "icon": "img/d9edf2a6f791120dea5f27ae4faf1212.webp",
-          "desc": "为Github添加高速下载通道的油猴脚本。",
-          "proxy": false
-        },
-        {
           "title": "图片助手－图片批量下载",
           "url": "https://www.pullywood.com/ImageAssistant/",
           "icon": "img/f89d3f54125eec277ffbe0167e9630f2.webp",
@@ -1830,34 +1119,6 @@
           "icon": "img/b6bc9763c1d31f799419e0da1e695e7e.webp",
           "desc": "奔跑中的奶酪定制优化版的Chrome浏览器。",
           "proxy": false
-        },
-        {
-          "title": "Tampermonkey（篡改猴）",
-          "url": "https://www.crxsoso.com/webstore/detail/dhdgffkkebhmkfjojejmpbldmpobfkfo",
-          "icon": "img/2a35cebd25625e439b489f45192dee37.webp",
-          "desc": "最流行的用户脚本管理器。",
-          "proxy": false
-        },
-        {
-          "title": "Ublock origin",
-          "url": "https://www.crxsoso.com/webstore/detail/cjpalhdlnbpafiamejdnhcphjbkeiagm",
-          "icon": "img/2a35cebd25625e439b489f45192dee37.webp",
-          "desc": "最高效的广告拦截扩展程序。",
-          "proxy": false
-        },
-        {
-          "title": "ViolentMonkey（暴力猴）",
-          "url": "https://www.crxsoso.com/webstore/detail/jinjaccalgkegednnccohejagnlnfdag",
-          "icon": "img/2a35cebd25625e439b489f45192dee37.webp",
-          "desc": "一个开源的用户脚本管理器，Tampermonkey的替代品。",
-          "proxy": false
-        },
-        {
-          "title": "Video Speed Controller",
-          "url": "https://www.crxsoso.com/webstore/detail/nffaoalbilbmmfgbnbgppjihopabppdk",
-          "icon": "img/2a35cebd25625e439b489f45192dee37.webp",
-          "desc": "让HTML5视频支持倍速播放，最快可达16倍。",
-          "proxy": false
         }
       ]
     },
@@ -1865,13 +1126,6 @@
       "categoryName": "影音播放与处理",
       "categoryId": "multimedia-playback-processing",
       "sites": [
-        {
-          "title": "抖音视频去水印下载工具",
-          "url": "https://wwx.lanzoui.com/idvlEmlnbbi",
-          "icon": "img/e2a12d30813a67034ecef52f8f5447d9.webp",
-          "desc": "PC端抖音视频去水印下载工具，【密码:eyyg】。",
-          "proxy": false
-        },
         {
           "title": "Parsevideo",
           "url": "https://pv.vlogdownloader.com/",
@@ -1887,20 +1141,6 @@
           "proxy": false
         },
         {
-          "title": "Potplayer",
-          "url": "https://potplayer.daum.net/",
-          "icon": "img/a5a7af20eb9f4b0bb38e467222c56200.webp",
-          "desc": "功能强大的全能影音播放器。",
-          "proxy": true
-        },
-        {
-          "title": "VidJuice UniTube",
-          "url": "https://lizhi.shop/products/vidjuice-unitube?cid=ds7afku3",
-          "icon": "img/7910dbe4c5dfa899bd01e1cb7c679226.webp",
-          "desc": "支持1000+平台在线音视频下载工具，正版特惠仅需￥79永久！",
-          "proxy": false
-        },
-        {
           "title": "ZY Player",
           "url": "https://zyplayer.fun/",
           "icon": "img/5692fcc5bb1512090573e29334ba20d5.webp",
@@ -1908,31 +1148,10 @@
           "proxy": false
         },
         {
-          "title": "小丸工具箱",
-          "url": "https://www.lanzoux.com/iyDOvf5ye3g",
-          "icon": "img/e2a12d30813a67034ecef52f8f5447d9.webp",
-          "desc": "一款用于处理音视频等多媒体文件的软件。",
-          "proxy": false
-        },
-        {
           "title": "哔哩哔哩（B站）下载",
           "url": "https://www.jijidown.com/",
           "icon": "img/bbe938946bbf0344371c7404f3638739.webp",
           "desc": "唧唧，B站视频在线解析下载工具，支持封面、弹幕等。",
-          "proxy": false
-        },
-        {
-          "title": "618G免费解析",
-          "url": "https://jx.618g.com/",
-          "desc": "提供各大视频网站VIP视频免费解析服务。",
-          "proxy": false,
-          "icon": ""
-        },
-        {
-          "title": "V视频助手",
-          "url": "https://2025-12-08.sqllq.com/en/#nolanguage?ranks.xin",
-          "icon": "img/985e992614e48c9b6a7120d4c5363ffb.webp",
-          "desc": "支持腾讯、秒拍、微博、今日头条、快手等多个平台的视频下载。",
           "proxy": false
         }
       ]
@@ -1969,20 +1188,6 @@
       "categoryId": "downloaders-cloud",
       "sites": [
         {
-          "title": "1DM 破解版",
-          "url": "https://yxssp.lanzoui.com/b478866/",
-          "icon": "img/e2a12d30813a67034ecef52f8f5447d9.webp",
-          "desc": "安卓端强大的多线程下载工具。",
-          "proxy": false
-        },
-        {
-          "title": "在线BT种子／磁力转换工具",
-          "url": "https://tools.jb51.net/aideddesign/bt2mag",
-          "icon": "img/fb5be7301a268ecbdcf032cc872347f1.webp",
-          "desc": "脚本之家提供的BT种子与磁力链接互转工具。",
-          "proxy": false
-        },
-        {
           "title": "西边云-在线磁力链接转种子",
           "url": "https://www.xibianyun.com/convert/",
           "icon": "img/8a77c2416a7bdeba3aa14d83254d9d38.webp",
@@ -1994,13 +1199,6 @@
           "url": "https://instant.io/",
           "icon": "img/5b9f43683ea4a59d699d4cdc4ff9e723.webp",
           "desc": "在线BT客户端，可直接在网页上进行BT下载和做种。",
-          "proxy": false
-        },
-        {
-          "title": "迅雷-免会员精简去限速版",
-          "url": "https://www.lanzous.com/i8mip2f",
-          "icon": "",
-          "desc": "安卓版迅雷，精简去广告。",
           "proxy": false
         }
       ]
@@ -2014,13 +1212,6 @@
           "url": "https://www.zhifool.com/",
           "icon": "img/35f6bea7be41990c09ec406344819378.webp",
           "desc": "（看广告每日领10小时加速时长）",
-          "proxy": false
-        },
-        {
-          "title": "3DM游戏网",
-          "url": "https://dl.3dmgame.com/",
-          "icon": "img/b62511a2f7a054b05f7cc6b3d5a45a3c.webp",
-          "desc": "国内老牌的单机游戏门户网站，提供游戏资讯、攻略和资源下载。",
           "proxy": false
         },
         {
@@ -2038,31 +1229,10 @@
           "proxy": false
         },
         {
-          "title": "蓝叠安卓模拟器",
-          "url": "https://www.52pojie.cn/forum.php?mod=viewthread&tid=1567094&highlight=%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD",
-          "icon": "",
-          "desc": "市面上兼容性最好的安卓模拟器之一",
-          "proxy": false
-        },
-        {
-          "title": "TapTap",
-          "url": "https://www.taptap.cn/",
-          "icon": "img/09824ff335e8382c1bee7fb676b1d554.webp",
-          "desc": "发现好游戏，一个高质量的手机游戏分享社区。",
-          "proxy": false
-        },
-        {
           "title": "biubiu加速器",
           "url": "https://www.biubiu001.com/",
           "icon": "img/cd108d03603cd92059564199662eff2e.webp",
           "desc": "（兑换码：阿虚 ⇨ 送3天）网易出品的游戏加速器。",
-          "proxy": false
-        },
-        {
-          "title": "游侠网",
-          "url": "https://down.ali213.net/pcgame/",
-          "icon": "img/eb8cada58a37156b8c0351131a024545.webp",
-          "desc": "国内知名的单机游戏网站，提供丰富的游戏资源、MOD和汉化补丁。",
           "proxy": false
         },
         {
@@ -2099,27 +1269,6 @@
           "icon": "img/693810457df4dab7d9423e24b6ad8a2c.webp",
           "desc": "提供海量掌机和家用机模拟器游戏ROM下载。",
           "proxy": false
-        },
-        {
-          "title": "哈利波特与死亡圣器(下)简体中文版",
-          "url": "https://pan.xunlei.com/s/VMgdBQ2hL3VIUuB9Z_rPIbkxA1",
-          "desc": "《哈利·波特》系列同名电影改编的动作冒险游戏。",
-          "icon": "img/7e2dc2c2ba1d625cb159d22da3744308.webp",
-          "proxy": false
-        },
-        {
-          "title": "Golink",
-          "url": "https://sfdl.360safe.com/netunion/20140425/golink_yq_346394.exe",
-          "icon": "img/328f96d68d2b5d5998ce6fa6ab2ad7f7.webp",
-          "desc": "（可暂停）电脑端每天可领时长的免费游戏加速器。",
-          "proxy": false
-        },
-        {
-          "title": "雷神加速器",
-          "url": "https://sfdl.360safe.com/netunion/20140425/73ucYutfwO4PJ3RYag49_346394.exe",
-          "icon": "img/44d8c226ba25394cc8e637452155f08b.webp",
-          "desc": "（兑换码：阿虚 ⇨ 送50小时）按小时计费的游戏加速器。",
-          "proxy": false
         }
       ]
     },
@@ -2153,13 +1302,6 @@
           "url": "https://www.123684.com/s/bjcA-BQHg",
           "icon": "img/2428c06d936315c94c92b7452370a783.webp",
           "desc": "安卓端最受欢迎的视频播放器之一，提供破解版。",
-          "proxy": false
-        },
-        {
-          "title": "Emotn Browser",
-          "url": "https://www.ddooo.com/softdown/213370.htm",
-          "icon": "img/32da0623ee4cc6ec0fee716973dc81a7.webp",
-          "desc": "专为TV设计的浏览器。",
           "proxy": false
         },
         {
@@ -2216,48 +1358,6 @@
           "url": "https://www.voiceclub.cn/#/",
           "desc": "免费、录音转文字",
           "icon": "img/05e451b7cbaa6fcb9808d95e6a28405e.webp",
-          "proxy": false
-        },
-        {
-          "title": "文字转语音 1.4.1101",
-          "url": "https://wwi.lanzoux.com/i96zHow89pi",
-          "desc": "将输入的文字转换成语音朗读。",
-          "icon": "img/e2a12d30813a67034ecef52f8f5447d9.webp",
-          "proxy": false
-        },
-        {
-          "title": "有道云笔记v7.1.1",
-          "url": "https://wwi.lanzoux.com/ixfgSow88tg",
-          "desc": "一款多平台记录、同步的笔记软件。",
-          "icon": "img/e2a12d30813a67034ecef52f8f5447d9.webp",
-          "proxy": false
-        },
-        {
-          "title": "GIF助手v3.2.3",
-          "url": "https://wwi.lanzoux.com/i4Lcdoiqtxa",
-          "desc": "手机端GIF动图制作和编辑工具。",
-          "icon": "img/e2a12d30813a67034ecef52f8f5447d9.webp",
-          "proxy": false
-        },
-        {
-          "title": "IELTS-雅思",
-          "url": "https://wwi.lanzoux.com/iynFioxnive",
-          "desc": "专为雅思考生设计的备考学习工具。",
-          "icon": "img/e2a12d30813a67034ecef52f8f5447d9.webp",
-          "proxy": false
-        },
-        {
-          "title": "Dislike",
-          "url": "https://ww.lanzoui.com/io96Lov8aud",
-          "desc": "帮助用户戒除不良习惯的应用。",
-          "icon": "img/e2a12d30813a67034ecef52f8f5447d9.webp",
-          "proxy": false
-        },
-        {
-          "title": "小目标v3.4.2",
-          "url": "https://www.lanzoux.com/i1Ueeozzkaj",
-          "desc": "设定和追踪个人小目标的管理工具。",
-          "icon": "img/e2a12d30813a67034ecef52f8f5447d9.webp",
           "proxy": false
         }
       ]

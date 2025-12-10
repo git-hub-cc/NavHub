@@ -152,24 +152,10 @@
           "proxy": true
         },
         {
-          "title": "AIchatOS",
-          "url": "https://x.aichatoszx.com/",
-          "icon": "img/5117fe869fe89fc2094c8d4fdbd7127a.webp",
-          "desc": "一个开源的AI聊天解决方案，提供免费体验。",
-          "proxy": false
-        },
-        {
           "title": "Wrtn",
           "url": "https://wrtn.ai/",
           "icon": "img/88fa77f854a744cd593e31ff4bcf8b1e.webp",
           "desc": "韩国的AI写作和创作平台。",
-          "proxy": true
-        },
-        {
-          "title": "PizzaGPT",
-          "url": "https://www.pizzagpt.it/",
-          "icon": "img/cc7777de71317456b2c673983167f814.webp",
-          "desc": "一个意大利的免费GPT访问网站。",
           "proxy": true
         }
       ]
@@ -274,13 +260,6 @@
           "url": "https://app.klingai.com/cn/",
           "icon": "img/576e18d93eba2f85fbe6fc35bbfa370e.webp",
           "desc": "快手推出的AI视频生成大模型，能够生成长达2分钟、高分辨率的视频内容。",
-          "proxy": false
-        },
-        {
-          "title": "6pen Art",
-          "url": "https://www.6pen.pro/",
-          "icon": "",
-          "desc": "国产AI绘画平台。",
           "proxy": false
         },
         {
@@ -409,13 +388,6 @@
           "proxy": false
         },
         {
-          "title": "阿里心流AI",
-          "url": "https://www.iflow.cn/?invite_code=ujFap9MUTZLRwWHnKvpf%2BA%3D%3D",
-          "icon": "img/06f14ac182fd3ce42b1abab7f81e408f.webp",
-          "desc": "阿里出品的AI搜索引擎。",
-          "proxy": false
-        },
-        {
           "title": "昆仑天工AI",
           "url": "https://www.tiangong.cn/login?invite_code=ab0d845b0024e779d0a71cfd8e0fb8a6",
           "icon": "img/f2647eb60bf37d9d875075bc6a5da040.webp",
@@ -437,25 +409,11 @@
           "proxy": false
         },
         {
-          "title": "HOTIQ 烧脑社区",
-          "url": "https://hotiq.cn/category/aimx",
-          "icon": "img/f7a3aee6038d7b96ddd8e47418e4709c.webp",
-          "desc": "分享Stable Diffusion模型和资源的社区。",
-          "proxy": false
-        },
-        {
           "title": "Huggingface",
           "url": "https://huggingface.co/",
           "icon": "img/0e5d25ee5f414850bc012d99b0cf3252.webp",
           "desc": "全球最大的AI模型和数据集社区，可下载Stable Diffusion模型。",
           "proxy": true
-        },
-        {
-          "title": "小红书－点点",
-          "url": "https://sj.qq.com/appdetail/com.liveverse.diandian",
-          "icon": "img/f3c5ed7cd83a1b21e0157521bb989cee.webp",
-          "desc": "小红书出品的AI问答应用。",
-          "proxy": false
         },
         {
           "title": "秘塔AI",
@@ -555,27 +513,6 @@
           "proxy": false
         },
         {
-          "title": "掘金",
-          "url": "https://juejin.cn/",
-          "icon": "img/34e40ef833c6bb45489f31eac56a60e5.webp",
-          "desc": "一个帮助开发者成长的社区。",
-          "proxy": false
-        },
-        {
-          "title": "MATLAB",
-          "url": "https://share.weiyun.com/9cLyaJ90",
-          "icon": "img/bb7047fe697daac0afdc900014e63ca8.webp",
-          "desc": "MATLAB／Maple／三大数学软件 (密码: fee8on)",
-          "proxy": false
-        },
-        {
-          "title": "CSDN",
-          "url": "https://www.csdn.net/",
-          "icon": "img/e9ebf92a3a99030928f6b16836a083cb.webp",
-          "desc": "全球知名中文IT技术交流平台。",
-          "proxy": false
-        },
-        {
           "title": "字节旗下AI代码助手",
           "url": "https://www.trae.cn/?utm_source=advertising&utm_medium=axutongxue_ug_cpa&utm_term=hw_trae_axutongxue",
           "icon": "img/98405406dcfc40174dc6115d6df4e2c7.webp",
@@ -597,13 +534,6 @@
           "proxy": false
         },
         {
-          "title": "HelloGitHub",
-          "url": "https://hellogithub.com/",
-          "icon": "",
-          "desc": "分享有趣、入门级的开源项目。",
-          "proxy": false
-        },
-        {
           "title": "CSDN－C知道",
           "url": "https://ai.csdn.net/chat/",
           "icon": "img/c87fc648f8cd36fcf2dcd1465838dc07.webp",
@@ -618,24 +548,10 @@
           "proxy": false
         },
         {
-          "title": "V2EX",
-          "url": "https://www.v2ex.com/",
-          "icon": "img/490d1febdb6cec70a8607a1abcb44d6f.webp",
-          "desc": "创意工作者们的社区。",
-          "proxy": true
-        },
-        {
           "title": "Visual Studio Code",
           "url": "https://code.visualstudio.com/Download",
           "icon": "img/92357ff83d959b411c04558295f392a4.webp",
           "desc": "微软出品的免费、开源、跨平台的代码编辑器，生态强大。",
-          "proxy": false
-        },
-        {
-          "title": "Can I use...",
-          "url": "https://caniuse.com/",
-          "icon": "img/50467551ab6b0b568fca80e685edc06e.webp",
-          "desc": "前端兼容性查询，开发必备。",
           "proxy": false
         }
       ]
@@ -644,20 +560,6 @@
       "categoryName": "教程与技能学习",
       "categoryId": "tutorials-skill-learning",
       "sites": [
-        {
-          "title": "菜鸟教程",
-          "url": "https://www.runoob.com/",
-          "icon": "img/bd9f5b52aab9a2fefb14a374cb3743d6.webp",
-          "desc": "学的不仅仅是技术，更是梦想。提供各类编程入门教程。",
-          "proxy": false
-        },
-        {
-          "title": "丁香医生",
-          "url": "https://dxy.com/",
-          "icon": "img/a4ddb016f8e6684ccf1629d6d5fdef10.webp",
-          "desc": "丁香园旗下的医学健康科普平台。",
-          "proxy": false
-        },
         {
           "title": "JavaGuide",
           "url": "https://javaguide.cn/",
@@ -687,13 +589,6 @@
           "proxy": false
         },
         {
-          "title": "VBS声音平衡系统",
-          "url": "https://v.qq.com/s/videoplus/373586260",
-          "icon": "img/6f1693a16c62920ab9a623f9409582b0.webp",
-          "desc": "阿虚墙裂推荐，腾讯视频上的科学发声和歌唱教学课程。",
-          "proxy": false
-        },
-        {
           "title": "w3school",
           "url": "https://www.w3school.com.cn/",
           "icon": "img/39aed8cfead8e00ca96bc041c43e8a12.webp",
@@ -705,13 +600,6 @@
           "url": "https://topbook.cc/overview",
           "icon": "img/bcfd8271d23ab91809be559a0e07c2c3.webp",
           "desc": "一个结构化知识学习平台，提供高效的技能学习路径。",
-          "proxy": false
-        },
-        {
-          "title": "我要自学网",
-          "url": "https://www.51zxw.net/",
-          "icon": "img/353dc1ab5b854d9ecd343c9c86ffb6aa.webp",
-          "desc": "提供电脑、设计、办公等领域的视频教程。",
           "proxy": false
         },
         {
@@ -727,13 +615,6 @@
           "icon": "img/c5511490af21557df95133fa4d900a34.webp",
           "desc": "建筑行业的学习和交流社区，分享各专业的图纸和资料。",
           "proxy": false
-        },
-        {
-          "title": "医学微视",
-          "url": "https://www.mvyxws.cn",
-          "icon": "img/6d68ea4976bf3a3346d27f44911ed718.webp",
-          "desc": "用视频方式普及医学知识的科普平台。",
-          "proxy": true
         }
       ]
     },
@@ -741,13 +622,6 @@
       "categoryName": "在线课程与慕课",
       "categoryId": "online-courses-mooc",
       "sites": [
-        {
-          "title": "喜马拉雅、得到教程资源",
-          "url": "https://cloud.189.cn/web/share?code=e6ZZRbZNzMNn",
-          "icon": "img/86b391792013c52a11bfcac413719a5f.webp",
-          "desc": "超过1T的教程资源合集，【访问码：3lpc】。",
-          "proxy": false
-        },
         {
           "title": "网易公开课",
           "url": "https://open.163.com/",
@@ -791,13 +665,6 @@
           "proxy": false
         },
         {
-          "title": "知乎Live精品内容合集",
-          "url": "https://cloud.189.cn/web/share?code=meI3iqVNnuUf",
-          "icon": "img/86b391792013c52a11bfcac413719a5f.webp",
-          "desc": "200个知乎收费LIVE精品内容合集，【访问码:qae2】。",
-          "proxy": false
-        },
-        {
           "title": "清华大学",
           "url": "https://rekcarc-tsc-uht.readthedocs.io/en/latest/",
           "icon": "img/edeafd3c07ed7d60e5e3b878d8227985.webp",
@@ -824,13 +691,6 @@
           "icon": "",
           "desc": "中科大学生整理的课程资源。",
           "proxy": false
-        },
-        {
-          "title": "樊登读书会合集",
-          "url": "https://cloud.189.cn/web/share?code=JfQzQbANNBFr",
-          "icon": "img/86b391792013c52a11bfcac413719a5f.webp",
-          "desc": "樊登读书会2013-2020年全网最全合集，【访问码：tss2】。",
-          "proxy": false
         }
       ]
     },
@@ -838,13 +698,6 @@
       "categoryName": "考试与考研",
       "categoryId": "exams-prep",
       "sites": [
-        {
-          "title": "问答库",
-          "url": "https://www.asklib.com/",
-          "icon": "",
-          "desc": "题库问答和学习平台。",
-          "proxy": false
-        },
         {
           "title": "PaperFree",
           "url": "https://www.paperfree.cn/",
@@ -956,13 +809,6 @@
           "icon": "img/bb44feefd80d6541316f0a21cb5cb824.webp",
           "desc": "一个集合了教资、事业单位、公务员、英语、考研等多种考试资源的网站。",
           "proxy": false
-        },
-        {
-          "title": "满小分论坛",
-          "url": "https://www.manxiaofen.com/",
-          "icon": "img/93340f2435aee280a7e98863e1ce14c1.webp",
-          "desc": "考试资料共享平台，涉及建筑、会计、公考、外语、考研等。",
-          "proxy": false
         }
       ]
     },
@@ -970,13 +816,6 @@
       "categoryName": "语言学习与词典",
       "categoryId": "language-learning-dictionaries",
       "sites": [
-        {
-          "title": "专升本考试培训英语专项课",
-          "url": "https://t.cn/A669ZNre",
-          "icon": "img/7cfb7b6da2496ea66bdb0c4f3f6e6e28.webp",
-          "desc": "专升本英语专项课程资源。",
-          "proxy": false
-        },
         {
           "title": "欧路词典",
           "url": "https://www.eudic.net/v4/en/app/download",
@@ -1060,27 +899,6 @@
       "categoryId": "ebooks-documents",
       "sites": [
         {
-          "title": "热点图书网",
-          "url": "https://www.happydot.top/",
-          "icon": "",
-          "desc": "🥈电子书资源分享站。",
-          "proxy": false
-        },
-        {
-          "title": "自由图书",
-          "url": "https://book5678.com/",
-          "icon": "img/05a6ea2a767ff690388878e7a507b2ac.webp",
-          "desc": "🥈电子书资源下载站，提供多种格式。",
-          "proxy": false
-        },
-        {
-          "title": "恩京的书房",
-          "url": "https://www.enjing.net/",
-          "icon": "img/4c0860a75932cd1d8f894cfbe75f0c0c.webp",
-          "desc": "🥈电子书资源分享博客。",
-          "proxy": false
-        },
-        {
           "title": "24h搜书（IPFS）",
           "url": "https://24hbook.store/",
           "icon": "img/cbd0cdc7bcea5641ad5ffc1fa01f1116.webp",
@@ -1088,59 +906,10 @@
           "proxy": false
         },
         {
-          "title": "小力盘",
-          "url": "https://www.xiaolipan.com/index.html",
-          "icon": "img/f8f55af26500d56b89942694a3444041.webp",
-          "desc": "🥈一个专注于电子书资源的网盘搜索引擎。",
-          "proxy": true
-        },
-        {
-          "title": "书葵网",
-          "url": "https://www.shukui.net/",
-          "icon": "img/4a226d91d872bbf1cc71de687b266594.webp",
-          "desc": "🥈电子书资源分享站。",
-          "proxy": false
-        },
-        {
-          "title": "Anna’s Archive",
-          "url": "https://zh.annas-archive.org/",
-          "icon": "img/989ac03e6b8daade6d2dbcd4716ecfb1.webp",
-          "desc": "🥇全球最大的在线影子图书馆，整合Z-Library、LibGen等资源。",
-          "proxy": true
-        },
-        {
-          "title": "zlibrary官方",
-          "url": "https://z-lib.gd/",
-          "icon": "",
-          "desc": "🥇Z-Library项目官方域名，可找到最新可用的Z-Lib镜像。",
-          "proxy": true
-        },
-        {
-          "title": "Project Gutenberg",
-          "url": "https://www.gutenberg.org/",
-          "icon": "img/95cbf4200caf014685901e0b8bf2f535.webp",
-          "desc": "古登堡计划，提供大量版权已过期的免费电子书。",
-          "proxy": false
-        },
-        {
-          "title": "书栈网",
-          "url": "https://www.bookstack.cn/",
-          "icon": "img/b894702ecf0001241a6460eb0ef42149.webp",
-          "desc": "开源书籍和IT文档分享，可在线阅读和下载。",
-          "proxy": false
-        },
-        {
           "title": "NMOD",
           "url": "https://www.nmod.net/",
           "icon": "img/38d572509cb24141f2609456d1962f7b.webp",
           "desc": "🥉电子书资源下载站。",
-          "proxy": false
-        },
-        {
-          "title": "鸠摩搜书",
-          "url": "https://www.jiumodiary.com/",
-          "icon": "img/d67490429800b51dd9ef26f8fe377f55.webp",
-          "desc": "强大的电子书聚合搜索引擎。",
           "proxy": false
         },
         {
@@ -1172,45 +941,10 @@
           "proxy": false
         },
         {
-          "title": "一起读书",
-          "url": "https://www.17dushu.cn/",
-          "icon": "",
-          "desc": "🥈电子书资源分享博客。",
-          "proxy": true
-        },
-        {
-          "title": "知轩藏书",
-          "url": "https://zxcs.me/",
-          "icon": "",
-          "desc": "精排校对网络小说下载，提供TXT格式。",
-          "proxy": false
-        },
-        {
-          "title": "sobooks",
-          "url": "https://sobooks.net/index.html",
-          "icon": "",
-          "desc": "一个优质的免费电子书资源下载网站。",
-          "proxy": false
-        },
-        {
           "title": "SF轻小说",
           "url": "https://book.sfacg.com/",
           "icon": "img/c217f554f66a0cc1e0b9efe8aa1f742b.webp",
           "desc": "原创轻小说发布和阅读平台。",
-          "proxy": false
-        },
-        {
-          "title": "TheFuture",
-          "url": "https://bks.thefuture.top/",
-          "icon": "",
-          "desc": "电子书搜索引擎，TG群：futuresearch。",
-          "proxy": false
-        },
-        {
-          "title": "千秋书在",
-          "url": "https://www.35ppt.com/",
-          "icon": "img/bf23de7e39e4cd1f17c2ade15d07c203.webp",
-          "desc": "🥈电子书分享博客。",
           "proxy": false
         },
         {
@@ -1219,13 +953,6 @@
           "icon": "img/2ed2a79a8c2bd45629c4bb58ef40677d.webp",
           "desc": "知轩藏书的镜像站，解决原站访问问题。",
           "proxy": true
-        },
-        {
-          "title": "SaltyLeo 的书架",
-          "url": "https://tstrs.me/",
-          "icon": "",
-          "desc": "👍一个收集了大量电子书的个人书库，资源丰富。",
-          "proxy": false
         },
         {
           "title": "推书君",
@@ -1267,20 +994,6 @@
           "url": "https://kgbook.com/",
           "icon": "",
           "desc": "Kindle电子书下载，提供多种格式。",
-          "proxy": false
-        },
-        {
-          "title": "轻之国度",
-          "url": "https://www.lightnovel.us/",
-          "icon": "",
-          "desc": "老牌轻小说论坛和在线阅读网站。",
-          "proxy": true
-        },
-        {
-          "title": "笔趣阁",
-          "url": "https://www.ibiqu.net/",
-          "icon": "",
-          "desc": "知名网络小说阅读和更新网站。",
           "proxy": false
         },
         {

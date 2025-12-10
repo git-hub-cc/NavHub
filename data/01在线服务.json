@@ -19,13 +19,6 @@
           "proxy": false
         },
         {
-          "title": "MUSE",
-          "url": "https://musetransfer.com/",
-          "icon": "img/2f83fddac244aedb592a7a82680d6c62.webp",
-          "desc": "大文件传输工具，不登录最大10G，不限速。",
-          "proxy": false
-        },
-        {
           "title": "轻松传",
           "url": "https://easychuan.cn/",
           "icon": "img/7213a0b2bdcd1dd2f806adbc41c12ddc.webp",
@@ -102,20 +95,6 @@
           "proxy": false
         },
         {
-          "title": "PDF24 Tools",
-          "url": "https://tools.pdf24.org/zh/",
-          "icon": "img/06e147e46d283d73afe9a14adc60878e.webp",
-          "desc": "免费且易于使用的在线PDF工具箱。",
-          "proxy": false
-        },
-        {
-          "title": "iLovePDF",
-          "url": "https://www.ilovepdf.com/zh-cn",
-          "icon": "img/e7f31a42ba09faf8dd3a2613afbeac14.webp",
-          "desc": "强大的在线PDF工具集，文件限制100M，每天限4次。",
-          "proxy": false
-        },
-        {
           "title": "Smallpdf",
           "url": "https://smallpdf.com/cn",
           "icon": "img/ef904a31b347051353d7d3c9765a833e.webp",
@@ -185,13 +164,6 @@
           "proxy": false
         },
         {
-          "title": "iLoveIMG",
-          "url": "https://www.iloveimg.com/zh-cn",
-          "icon": "img/b5774e2dc378bc0d0a5fee3366234c45.webp",
-          "desc": "功能全面的在线图片处理工具，能批量压缩、转换格式等。",
-          "proxy": false
-        },
-        {
           "title": "waifu2x",
           "url": "https://www.waifu2x.net/index.zh-CN.html",
           "icon": "img/372a5e4a913a86d8aef9937b86d34371.webp",
@@ -219,24 +191,10 @@
       "categoryId": "developer-tools-community",
       "sites": [
         {
-          "title": "Gitee",
-          "url": "https://gitee.com/explore",
-          "icon": "img/54a5811e46ae339fe0748c7e19ee13cf.webp",
-          "desc": "国内领先的代码托管和协作开发平台，提供Git仓库服务。",
-          "proxy": false
-        },
-        {
           "title": "BeJSON",
           "url": "https://www.bejson.com/",
           "icon": "img/b0b49cb09728f433a67752f237e19bd3.webp",
           "desc": "强大的在线工具集，提供JSON格式化、代码转换等多种功能。",
-          "proxy": false
-        },
-        {
-          "title": "OSChina 在线工具",
-          "url": "https://tool.oschina.net/",
-          "icon": "img/5ac828d62ba8712aca9f0c9475625ef7.webp",
-          "desc": "开源中国提供的在线工具箱，包含代码压缩、编解码等。",
           "proxy": false
         },
         {
@@ -251,20 +209,6 @@
           "url": "https://hoppscotch.io/",
           "icon": "img/fc7c203f3d13a354da3aa64a5fc1ba8b.webp",
           "desc": "一个开源的API请求构建器，是Postman的轻量级网页替代品。",
-          "proxy": false
-        },
-        {
-          "title": "CSDN",
-          "url": "https://www.csdn.net/",
-          "icon": "img/e9ebf92a3a99030928f6b16836a083cb.webp",
-          "desc": "全球知名的中文IT技术交流平台，提供博客、论坛、资源下载等服务。",
-          "proxy": false
-        },
-        {
-          "title": "在线工具",
-          "url": "https://tool.lu/",
-          "icon": "img/444fc3404459c811d21400de1805ee48.webp",
-          "desc": "程序员的工具箱，提供代码格式化、编解码、正则测试等多种工具。",
           "proxy": false
         },
         {
@@ -285,13 +229,6 @@
           "url": "https://gitmind.cn/",
           "icon": "img/3efb8fa76255e0166848b6ef6d8061b1.webp",
           "desc": "免费在线思维导图制作网站。",
-          "proxy": false
-        },
-        {
-          "title": "Iconfont",
-          "url": "https://www.iconfont.cn/",
-          "icon": "",
-          "desc": "阿里巴巴矢量图标库，功能强大，图标内容丰富，设计师和开发者必备。",
           "proxy": false
         },
         {
@@ -371,114 +308,10 @@
           "proxy": false
         },
         {
-          "title": "优品PPT",
-          "url": "https://www.ypppt.com/",
-          "icon": "img/80193a7eea48b9499bc599cd024f9fe4.webp",
-          "desc": "免费PPT模板下载",
-          "proxy": false
-        },
-        {
           "title": "Cobalt",
           "url": "https://cobalt.tools/",
           "icon": "img/2c6ca14c1717d44e0d160b7637191e7c.webp",
           "desc": "一个友好、无广告、注重隐私的媒体下载器。",
-          "proxy": false
-        },
-        {
-          "title": "虫部落",
-          "url": "https://www.chongbuluo.com/",
-          "icon": "img/f644dfb38b112dcdd510aa6d7047f183.webp",
-          "desc": "强大的聚合搜索引擎入口，帮你快速切换不同引擎找到所需信息。",
-          "proxy": false
-        },
-        {
-          "title": "鸠摩搜索",
-          "url": "https://www.jiumodiary.com/",
-          "icon": "img/d67490429800b51dd9ef26f8fe377f55.webp",
-          "desc": "强大的电子书资源聚合搜索引擎，界面简洁无广告。",
-          "proxy": false
-        }
-      ]
-    },
-    {
-      "categoryName": "浏览器扩展与脚本",
-      "categoryId": "browser-extensions-scripts",
-      "sites": [
-        {
-          "title": "画夹插件",
-          "url": "https://huajiakeji.com/",
-          "icon": "img/a59e8a1ed8d7e7b7ef0dd225afcf5b43.webp",
-          "desc": "Chrome插件下载站。",
-          "proxy": true
-        },
-        {
-          "title": "极简插件",
-          "url": "https://chrome.zzzmh.cn/index",
-          "icon": "img/02f95305628acce35bb057262d4df77f.webp",
-          "desc": "Chrome浏览器扩展插件下载站。",
-          "proxy": false
-        },
-        {
-          "title": "插件小屋",
-          "url": "https://www.chajianxw.com/",
-          "icon": "img/02f95305628acce35bb057262d4df77f.webp",
-          "desc": "Chrome扩展插件下载和推荐。",
-          "proxy": false
-        },
-        {
-          "title": "常用Crx离线安装包下载",
-          "url": "https://yurl.sinaapp.com/crx2.php",
-          "icon": "img/7636f33fac61c32bf2babb9407427894.webp",
-          "desc": "提供常用Chrome扩展的离线安装包。",
-          "proxy": false
-        },
-        {
-          "title": "收藏猫插件",
-          "url": "https://chrome.pictureknow.com/",
-          "icon": "img/e51f2df1e28de74f0ce18d344e31c22a.webp",
-          "desc": "Chrome插件下载站。",
-          "proxy": false
-        },
-        {
-          "title": "Greasyfork.ICU",
-          "url": "https://greasyfork.icu/zh-CN/",
-          "icon": "",
-          "desc": "油猴脚本站Greasy Fork的镜像，解决访问问题。",
-          "proxy": false
-        },
-        {
-          "title": "Crx搜搜",
-          "url": "https://www.crxsoso.com/",
-          "icon": "img/2a35cebd25625e439b489f45192dee37.webp",
-          "desc": "👍Chrome、Edge、Firefox扩展插件搜索和下载。",
-          "proxy": false
-        },
-        {
-          "title": "CrxDL.COM",
-          "url": "https://crxdl.com/",
-          "icon": "img/29894269ac3339442015636600748ec3.webp",
-          "desc": "👍提供Chrome扩展程序的CRX文件下载。",
-          "proxy": false
-        },
-        {
-          "title": "Crx4Chrome（英文）",
-          "url": "https://www.crx4chrome.com/",
-          "icon": "img/eeead5c07676f0e8f4dc7343116b8b17.webp",
-          "desc": "英文的Chrome扩展下载站。",
-          "proxy": false
-        },
-        {
-          "title": "Scriptcat脚本猫",
-          "url": "https://scriptcat.org/zh-CN",
-          "icon": "img/c70825460801b04ee45b3aadb35109dd.webp",
-          "desc": "一个开源的油猴脚本托管平台。",
-          "proxy": false
-        },
-        {
-          "title": "OpenUserjs",
-          "url": "https://openuserjs.org/",
-          "icon": "img/6e65199c106209757de4d206da21519b.webp",
-          "desc": "另一个开放的油猴脚本托管平台。",
           "proxy": false
         }
       ]
@@ -601,61 +434,6 @@
       ]
     },
     {
-      "categoryName": "在线工具箱",
-      "categoryId": "online-toolkits",
-      "sites": [
-        {
-          "title": "草料二维码",
-          "url": "https://cli.im/",
-          "icon": "img/127f7a2c67045447809551d5ea903351.webp",
-          "desc": "专业的二维码在线生成和美化工具。",
-          "proxy": false
-        },
-        {
-          "title": "蛙蛙工具",
-          "url": "https://www.iamwawa.cn/",
-          "icon": "img/0a6dc332f9fa5b27270078b3c2357c63.webp",
-          "desc": "提供图片、PDF、音视频处理等多种在线工具。",
-          "proxy": false
-        },
-        {
-          "title": "数字帝国",
-          "url": "https://zh.numberempire.com/",
-          "icon": "img/e0c651eddb946b6ad483118679f7736a.webp",
-          "desc": "一个强大的在线数学工具集合网站。",
-          "proxy": false
-        },
-        {
-          "title": "全能工具箱",
-          "url": "https://www.dute.org/",
-          "icon": "img/8bc9b72ce2291a15ad4c0f748b16cdee.webp",
-          "desc": "一个集合了生活、开发、查询等多种功能的在线工具网站。",
-          "proxy": false
-        },
-        {
-          "title": "奇迹秀工具箱",
-          "url": "https://www.qijishow.com/down/index.html",
-          "icon": "img/c5a5654a43dcb9dcff113e1cc45749fe.webp",
-          "desc": "提供设计、开发、生活等领域的在线工具集合。",
-          "proxy": false
-        },
-        {
-          "title": "MikuTools - 一个轻量的工具集合",
-          "url": "https://tools.miku.ac/",
-          "icon": "img/976c3693264ea02a0c0d21d14463abac.webp",
-          "desc": "集合了开发、媒体、图片、生活等多种在线小工具。",
-          "proxy": false
-        },
-        {
-          "title": "刘明野的工具箱",
-          "url": "https://tool.liumingye.cn/",
-          "icon": "img/4233d242c95055356e622baa5c70e2c4.webp",
-          "desc": "提供好用、易用的工具，网站简洁明了。",
-          "proxy": false
-        }
-      ]
-    },
-    {
       "categoryName": "生活实用",
       "categoryId": "life-utilities",
       "sites": [
@@ -688,13 +466,6 @@
           "proxy": false
         },
         {
-          "title": "什么值得买",
-          "url": "https://www.smzdm.com/",
-          "icon": "img/8f67abc6859d51a0b9922b3de42312ba.webp",
-          "desc": "一个集导购、媒体、工具、社区于一体的消费决策平台。",
-          "proxy": false
-        },
-        {
           "title": "Windy",
           "url": "https://www.windy.com/",
           "icon": "img/1c8e9f691f883a5cf33e70032af9fa10.webp",
@@ -706,13 +477,6 @@
           "url": "https://time.is/",
           "icon": "img/9cff263763847985d9a49625660a7525.webp",
           "desc": "世界各地的时间",
-          "proxy": false
-        },
-        {
-          "title": "wikihow",
-          "url": "https://zh.wikihow.com/%E9%A6%96%E9%A1%B5",
-          "icon": "img/5106d025478b3248f32bf27a2ba6b485.webp",
-          "desc": "互联网上最有用的万事指南。",
           "proxy": false
         },
         {
@@ -838,13 +602,6 @@
           "url": "https://cybermap.kaspersky.com/",
           "icon": "img/d0af373291cbc4107eb4853f16a782fd.webp",
           "desc": "实时可视化全球网络攻击的动态地图。",
-          "proxy": false
-        },
-        {
-          "title": "诺基亚短信图片生成器",
-          "url": "https://zzkia.noddl.me/",
-          "icon": "",
-          "desc": "可以生成带有任意文字的诺基亚经典短信照片。",
           "proxy": false
         },
         {

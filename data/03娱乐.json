@@ -1,272 +1,14 @@
 {
   "categories": [
     {
-      "categoryName": "在线影视",
-      "categoryId": "online-movies-tv",
-      "sites": [
-        {
-          "title": "修罗影视",
-          "url": "https://v.xlys.ltd.ua/",
-          "icon": "img/52be64df2a2845e5463dab19aaa9e074.webp",
-          "desc": "🥈简洁的在线影视站，提供多条播放线路。",
-          "proxy": false
-        },
-        {
-          "title": "爱壹帆",
-          "url": "https://www.iyf.lv/",
-          "icon": "img/8399d77818e0a5b2b0efb07e4c630bf5.webp",
-          "desc": "🥈海外华人在线视频站，资源丰富，更新及时。",
-          "proxy": false
-        },
-        {
-          "title": "泥视频",
-          "url": "https://www.nivod.vip/",
-          "icon": "img/719483c2fc8c46012d27abe8fb9de021.webp",
-          "desc": "🥇资源丰富的在线影视站，支持高清播放。",
-          "proxy": false
-        },
-        {
-          "title": "在线之家",
-          "url": "https://www.zxzjhd.com/",
-          "icon": "img/df225de68dd689eedaa1dd7b7a56694b.webp",
-          "desc": "🥈高清在线影视站，无国产剧。",
-          "proxy": false
-        },
-        {
-          "title": "Gimy TV 剧迷",
-          "url": "https://gimytv.ai/",
-          "icon": "",
-          "desc": "台湾的在线影视剧网站，支持IDM下载。",
-          "proxy": true
-        },
-        {
-          "title": "大师兄影视",
-          "url": "https://dsxys.com/",
-          "icon": "img/07ba0cd0da1338042d039a3b1121041a.webp",
-          "desc": "在线影视观看，资源丰富，支持IDM下载。",
-          "proxy": false
-        },
-        {
-          "title": "天空影视",
-          "url": "https://2025-12-08.sqllq.com/en/#nolanguage?tkys.tv",
-          "icon": "img/985e992614e48c9b6a7120d4c5363ffb.webp",
-          "desc": "在线影视站，更新快，支持IDM下载。",
-          "proxy": false
-        },
-        {
-          "title": "奈非影视【高清、超清资源】",
-          "url": "https://www.nfmovies.com/",
-          "desc": "提供高清、超清画质的影视资源在线观看。",
-          "proxy": false
-        },
-        {
-          "title": "蛋蛋赞影院",
-          "url": "https://www.ppnix.com/",
-          "desc": "提供电影、电视剧、动漫、综艺等在线观看。",
-          "icon": "img/c133b5fbfa625b72a1fa3b7930b7e917.webp",
-          "proxy": false
-        },
-        {
-          "title": "电影先生",
-          "url": "https://dyxs11.com/",
-          "desc": "提供高清电影和电视剧在线观看。",
-          "icon": "img/ee118ade94a8b12bb916988bce9020dc.webp",
-          "proxy": false
-        },
-        {
-          "title": "片吧",
-          "url": "https://www.pianba.tv/",
-          "icon": "",
-          "desc": "提供高清电影和剧集在线观看。",
-          "proxy": true
-        },
-        {
-          "title": "厂长资源",
-          "url": "https://www.czzy.site",
-          "icon": "",
-          "desc": "🥇高清影视资源站，更新快，提供在线观看和下载。",
-          "proxy": false
-        },
-        {
-          "title": "韩饭网",
-          "url": "https://www.hanfan.cc/",
-          "desc": "专注于韩国影视、综艺、音乐的粉丝网站。",
-          "icon": "img/6f353133e8d90f2e03f7ebd3fbd5e171.webp",
-          "proxy": false
-        },
-        {
-          "title": "Gimy TV",
-          "url": "https://gimy.co/",
-          "desc": "剧迷TV，提供海量电影、电视剧、综艺、动漫在线观看。",
-          "proxy": true
-        },
-        {
-          "title": "韩剧集网",
-          "url": "https://www.juji.tv/",
-          "desc": "一个专门提供韩剧在线观看的网站。",
-          "proxy": true,
-          "icon": ""
-        },
-        {
-          "title": "夸克短剧",
-          "url": "https://pioz.cn/",
-          "icon": "img/d3ec47c362ffd8cfcf0f07742e870ca2.webp",
-          "desc": "仅短剧，通过夸克网盘分享的短剧资源。",
-          "proxy": false
-        },
-        {
-          "title": "韩剧网",
-          "url": "http://ww25.2hanju.com/?subid1=20251208-2251-461b-a59a-0f5f50d9910f",
-          "desc": "提供最新韩剧在线观看和下载。",
-          "icon": "",
-          "proxy": true
-        },
-        {
-          "title": "港剧屋",
-          "url": "https://www.gj5.tv/",
-          "icon": "img/0c6d4edf8410984fac5f348fdd0a7c26.webp",
-          "desc": "港剧资源丰富的在线观看网站。",
-          "proxy": false
-        },
-        {
-          "title": "港剧网",
-          "url": "https://www.yueyu2.com/",
-          "icon": "img/c6735ac0639b31e7d6fbca640f68c956.webp",
-          "desc": "粤语影院，提供粤语港剧在线观看。",
-          "proxy": false
-        },
-        {
-          "title": "FreeOK",
-          "url": "https://link3.cc/freeok",
-          "icon": "img/fc9c0588f35c98c4ffe3f63a52ab370a.webp",
-          "desc": "免费在线影视站，提供最新最全的影视资源。",
-          "proxy": false
-        },
-        {
-          "title": "嘀哩哩",
-          "url": "https://www.dililitv.com/",
-          "desc": "欧美、日韩、港台影视剧",
-          "proxy": true
-        },
-        {
-          "title": "爱尚影视",
-          "url": "https://www.138vcd.com/",
-          "desc": "提供在线影视观看服务。",
-          "icon": "img/ff001199e06a43fd7f15da20579a7eec.webp",
-          "proxy": true
-        },
-        {
-          "title": "奈飞星影视",
-          "url": "https://nfstar.net/",
-          "desc": "一个仿Netflix界面的在线影视网站。",
-          "proxy": false
-        },
-        {
-          "title": "追剧吧",
-          "url": "https://www.huaxiab.com/",
-          "desc": "清晰度一般，线路倒是挺多",
-          "proxy": false
-        },
-        {
-          "title": "真不卡电影网",
-          "url": "https://www.zhenbuka.com/",
-          "desc": "一个以流畅播放为特点的在线影视网站。",
-          "proxy": true
-        },
-        {
-          "title": "奈飞星",
-          "url": "https://nfxhd.com/?btwaf=93399898",
-          "desc": "一个提供高清影视资源的在线网站。",
-          "proxy": false
-        },
-        {
-          "title": "BTNull",
-          "url": "https://www.btnull.re/",
-          "icon": "",
-          "desc": "无名小站，在线影视观看。",
-          "proxy": true
-        },
-        {
-          "title": "影视森林",
-          "url": "https://www.549.tv/",
-          "icon": "img/6a11d0a11dc171f8432601a5b88b75ca.webp",
-          "desc": "一个在线影视观看网站，聚合各类影视资源。",
-          "proxy": true
-        },
-        {
-          "title": "azm.to",
-          "url": "https://azmovies.to/verify",
-          "icon": "",
-          "desc": "在线影视观看，需科学上网。",
-          "proxy": true
-        },
-        {
-          "title": "新视觉影视",
-          "url": "https://blaring-truth.com/cGnHR-i.PJ2KJLiMP_TOEP2QMRD-AT0UJVmWJ_jYPZTaEb4-JdmeJfpgY_ji0jxkMlz-UnzoNpSqZ_isctzu1vi-axWyRzkAZ_XCIDyEJFm-NH1IPJTKg_wMNNzOYP4-NRzSRTlUZ_jWgXxYNZ2-Mb0cZdTel_kgYhTiBji-NlmmNnkoZ_Dqcr2sOtD-Yv2wZxmyQ_0AJBmCRD0-aFzG0HxIO_TKgL4MJNT-NPCQVRkS4_lUMV0WIXx-JZTaNbCcM_SeZfkgdhT-0j4kMlDmc_2oOpDqcr0-ZtWuYv4wM_TydzjANBG-UD5EZFGGE_wIYJjKZLj-ZNGOQP3QN_jSgT2UNVm-ZXkYNZCaZ_ycZdWeYf9-ahHiRj0kc_HmMnloMp0-ErlsMtkuY_lwMxkyYz4-MBHClD5EM_yG5HjIbJ2-0LlMMNkOY_mQcRnSJTp-ZVDW0XzYN_lalbzcQd0-1f6gMh2i9_wkWlWmNny-MpGqZrhsc_WuxvNwdxn-JzmAUBHCh_lEeFWGkHm-cJnKNLsMP_TOEPyQMRT-kTwUOVSWZ_yYcZ3aJbj-PdXeJf0gY_ii1j1kcl1-9nzocpnqY_msct0ulvk-PxWy9z0Aa_GCVDyEJFn-NHJIZJDKI_9MONDOBP5-eRTSMTuUY_2W9XtYJZn-NbhcPdTeU_4gOhDiYj2-MlymUnzoQ_jqEr3sNtj-UvxwOxTyU_wAMBTCADm-dFDG1H3IL_jKAL1MbNE-xPKQSRDSg_xUNVGWNX0-NZ0aVbFce_Eeof1gZhX-FjnkdlVmF_soap2qprv-WtDuUvywN_1yVzqAaBn-dDfESFUGd_GIZJXKdLB-cN0O8P2QO_TSFTTUUVk-kXxYdZUax_QcRdjeFfn-RhFi8j3kZ_GmMnyoUpk-FrasatEuh_nwax0y1zW-bB1CZDsEM_1G9HoISJm-pL2MdNDOZ_fQbR1ScT3-eVFWVXGYU_FadbScSd0-ZflgShliV_CkelkmRnG-SpUqxrpsZ_mu1vGwVxD-NzOAWBXCF_rEbFUGFHS-YJWKVLHMR_1OVPhQaRU-tTHUTVGWJ_0YQZkapbB-QdkehfEga_nihjLkNlH-onwoapjqJ_isMt2upv3-OxFy9zWAW_HChDLESFU-JHsIVJ3KV_jMSNHOpPk-cRGSlTSUR_mWZX5YXZz-NbNcMdTeg_wgYh2iwjx-NlkmlnNoa_zqRrzsYtn-dvowYxmyx_qARBXCVD0-SFVGEHyIe_TKFLLMZN2-dPHQMRlSp_CUYV1WZXF-LZkadbxcX_1e9fpgbhn-gjukWlkm1_loVpDqNry-Qtmu1vGwc_my9zSAcB1-9D6EVFlGV_BIZJHKYL0-dNGOJPOQQ_VSJTCUQVX-RXzYRZka1_EcYdXeFf2-Mh3iBjlkR_DmFnGobpj-RrXsTtDuB_Cwbxmylzq-SB2C4D1EU_TGkHuINJm-lLNMaNkOs_yQZRXSIT4-cVXWVXLYb_1akb2ccdH-FfLgVh2iw_5kMlEm1nG-TpVqRrjsU_WuVvhwOxX-FzJAUBUCN_3EWFWGJHM-RJDKZLOMY_yO4P3QVRU-xTuUaVFWF_IYYZTaRbB-YdleZfTgT_1iVjBkUl2-1nVoRplqF_psStluVv3-Qx0yhzNAV_GCtDfEdFm-1HSIWJEKx_HMZNmONPx-WRjSJTNUM_UWpXYYUZ3-NbJccdGe9_1gWhFigj1-TlUm9nFoM_1qlrHsNt2-5vjwYxTyR_CAQBlCZDS-aFTGJHNIM_EKML1MbN1-pPHQWRWSs_xUNVUWZXW-ZZ3aZblcW_nepfjgWhm-ZjTkblXmd_GobpCq5rV-dt1uNvkwa_VyBzzAOBU-VDFETF0G0_3IOJWK5LG-cNUONPKQX_3SJTDUUVE-hXfYWZDaZ_HcSdleJfq-dhniljkkM_FmQnuocp0-cr3sZtGut_FwLxmyxzP-dBVCdDQEU_WG9H6ITJX-hLFMbNWOJ_KQaRDSNTD-cVWWFXBYc_XaZbFccd2-df0gRh3iB_ikLlmmhnk-cp0qgrysZ_2uNv4wexn-dzGAYB0CZ_hELFnGhHo-OJCK4LyMQ_lOAPyQeRC-4T0UTVEWR_qYNZHaZba-Xd0elfKgX_zicjwkZlG-5n0obpWq1_1sRtnugv5-exmyJzLAR_UCVDUEbF2-hHzISJmKp_NMZNkOtP2-dRWS8TtU",
-          "icon": "",
-          "desc": "提供高清电影、电视剧、综艺、动漫等在线观看服务。",
-          "proxy": false
-        }
-      ]
-    },
-    {
       "categoryName": "动漫番剧",
       "categoryId": "anime-streaming",
       "sites": [
-        {
-          "title": "Bilibili",
-          "url": "https://www.bilibili.com/",
-          "icon": "img/f2d2896c488493e18c1b112cdd9bb1d9.webp",
-          "desc": "国内领先的年轻人文化社区。",
-          "proxy": false
-        },
-        {
-          "title": "嘛哩嘛哩【看番】",
-          "url": "https://www.malimali.com/",
-          "desc": "一个专注动漫番剧的在线视频站。",
-          "icon": "img/55c94e04a483ce5affa1046b190c3c6b.webp",
-          "proxy": false
-        },
-        {
-          "title": "A站 (AcFun)",
-          "url": "https://www.acfun.cn/",
-          "icon": "img/cb5a3fa413fe100f6c195f03553f13e4.webp",
-          "desc": "中国最早的弹幕视频网站，硬核二次元文化社区。",
-          "proxy": false
-        },
-        {
-          "title": "嘶哩嘶哩",
-          "url": "https://www.silisili.cc/",
-          "icon": "img/903aabffe3cdf15c32dbd317cba4bb70.webp",
-          "desc": "一个在线动漫观看与分享网站。",
-          "proxy": false
-        },
-        {
-          "title": "樱花动漫",
-          "url": "https://yhdmoe.com/",
-          "icon": "img/6c9bc716a7baf327d93f49737b8a4af7.webp",
-          "desc": "在线观看日本动漫，更新及时。",
-          "proxy": false
-        },
-        {
-          "title": "bilibili番剧",
-          "url": "https://www.bilibili.com/anime/",
-          "icon": "img/f2d2896c488493e18c1b112cdd9bb1d9.webp",
-          "desc": "哔哩哔哩（B站）官方动漫番剧频道。",
-          "proxy": false
-        },
         {
           "title": "萌番组",
           "url": "https://bangumi.moe/",
           "icon": "",
           "desc": "动漫BT下载站，提供简体和繁体资源。",
-          "proxy": true
-        },
-        {
-          "title": "蜜柑计划",
-          "url": "https://mikanani.me/",
-          "icon": "img/43d3a223d3fd531690b790ce05bd227b.webp",
-          "desc": "自动化的动漫BT下载站，订阅番剧后可自动下载更新。",
           "proxy": true
         },
         {
@@ -284,90 +26,11 @@
           "proxy": false
         },
         {
-          "title": "嘶哩嘶哩",
-          "url": "https://www.silisili.in/",
-          "icon": "",
-          "desc": "在线动漫观看，提供百度云下载。",
-          "proxy": false
-        },
-        {
-          "title": "AGE动漫",
-          "url": "https://www.agedm.io/",
-          "icon": "img/af5b4d16f39b53aa48f6b7f0d6312a9d.webp",
-          "desc": "资源非常全面的在线动漫网站。",
-          "proxy": false
-        },
-        {
-          "title": "樱花动漫",
-          "url": "https://www.imomoe.live/",
-          "desc": "专注动漫的门户网站。",
-          "proxy": false
-        },
-        {
-          "title": "飞极速在线",
-          "url": "https://feijisu7.com/",
-          "desc": "提供动漫和影视剧在线观看。",
-          "proxy": false
-        },
-        {
-          "title": "天乐动漫",
-          "url": "https://www.kudm.net/index.html",
-          "desc": "提供最新最全的动漫在线观看。",
-          "proxy": false
-        },
-        {
-          "title": "嘀哩嘀哩",
-          "url": "https://dilidili.online/",
-          "icon": "img/d27a1e8b7aacb8c9cadc03fd000021bf.webp",
-          "desc": "在线动漫番剧网站。",
-          "proxy": false
-        },
-        {
-          "title": "风车动漫",
-          "url": "https://www.dmla8.com/",
-          "icon": "img/cd201384967b7e3a18831e35eee35146.webp",
-          "desc": "老牌在线动漫网站。",
-          "proxy": false
-        },
-        {
           "title": "Nyaa",
           "url": "https://nyaa.si/",
           "icon": "img/aa61391a2f19f8428edbeda7a3af849a.webp",
           "desc": "动漫BT下载站。",
           "proxy": true
-        },
-        {
-          "title": "Anime1",
-          "url": "https://anime1.cc/",
-          "icon": "img/140011d3cf224821344685c8cb4fecfa.webp",
-          "desc": "简洁无广告的在线动漫网站。",
-          "proxy": false
-        },
-        {
-          "title": "233动漫网",
-          "url": "https://trinerriffzoomfiles.cloud/indexactiverevenue.php?flow_id=109&conversion=XsFt2GPMWi4&bid=0.00595&source_subid=dm233.tv&banner=7129866&carrier=Ez+Technology+Company&IP=160.250.132.72&campaign=1726932&query=jon&state=",
-          "desc": "提供在线动漫观看的网站。",
-          "proxy": false
-        },
-        {
-          "title": "EDD动漫",
-          "url": "https://filter.explorads.com/filter?q=%E5%A9%9A%E7%B4%97&i=hhkJEsWKLUE_0&ci=6044033874629560329&t=286911370&h=43",
-          "desc": "提供新番和完结动漫在线观看。",
-          "proxy": false
-        },
-        {
-          "title": "妮可动漫",
-          "url": "http://ww25.v1.nicotv.bet/?subid1=20251208-2252-0205-88ae-e4d8117a8683",
-          "icon": "",
-          "desc": "在线动漫番剧网站。",
-          "proxy": true
-        },
-        {
-          "title": "风车动漫",
-          "url": "https://bcvn2.com/?stag=33636_6936bbe3b458464bd6d5311f&auto_mode=1&trace_id=BBSTSA-1765194724538&s=n&od=bcall-main.vstwerxerbc.top&i=4cxse6dr&utm_source=4cxse6dr",
-          "desc": "老牌动漫在线观看网站。",
-          "proxy": false,
-          "icon": "img/4eecab98eaf2bfce5a68dcf99cdaa71f.webp"
         }
       ]
     },
@@ -397,13 +60,6 @@
           "proxy": true
         },
         {
-          "title": "伪射手网",
-          "url": "https://assrt.net/",
-          "icon": "img/e99d7ab591c563b129911e485eb4b900.webp",
-          "desc": "知名的中文字幕下载网站。",
-          "proxy": false
-        },
-        {
           "title": "Sub HD",
           "url": "https://subhd.tv/",
           "icon": "img/91af51ab1285fee616030f84ba8b969b.webp",
@@ -415,13 +71,6 @@
           "url": "https://www.chaospace.cc/",
           "icon": "img/7f437b3f90f58d53723c1e5fb3368cd4.webp",
           "desc": "🥇影视资源分享博客，提供阿里云盘下载。",
-          "proxy": false
-        },
-        {
-          "title": "SOZMZ (人人影视镜像)",
-          "url": "https://v.dsb.ink/#/",
-          "icon": "img/9fe4bb71dd91ed6d1edd2034206cae1b.webp",
-          "desc": "提供人人影视往日的所有影片信息及资源。",
           "proxy": false
         },
         {
@@ -467,13 +116,6 @@
           "proxy": false
         },
         {
-          "title": "片库Btnull",
-          "url": "https://www.gying.in/user/login",
-          "icon": "img/8ff5bdc4957020beeb25a7ef5959102f.webp",
-          "desc": "🥈提供电影、剧集磁力链接下载，推荐使用IDM。",
-          "proxy": false
-        },
-        {
           "title": "高清电影天堂",
           "url": "https://www.gaoqing888.com/",
           "icon": "img/a976d227e5d1dcf62f5f7e623211dd1b.webp",
@@ -488,24 +130,10 @@
           "proxy": false
         },
         {
-          "title": "漫威电影合集",
-          "url": "https://share.weiyun.com/54ygigl",
-          "icon": "img/bb7047fe697daac0afdc900014e63ca8.webp",
-          "desc": "漫威20部电影 (密码: pq7qrz)",
-          "proxy": false
-        },
-        {
           "title": "不太灵影视",
           "url": "https://web5.mukaku.com?F=3BT0",
           "icon": "img/331a38e0d51d37abe37151cbc68cb337.webp",
           "desc": "🥈提供电影和剧集的磁力与网盘下载。",
-          "proxy": false
-        },
-        {
-          "title": "射手网（伪）",
-          "url": "https://assrt.net/",
-          "icon": "img/e99d7ab591c563b129911e485eb4b900.webp",
-          "desc": "伪射手网，提供大量中文字幕下载。",
           "proxy": false
         },
         {
@@ -549,13 +177,6 @@
           "icon": "img/d55f5ad7e980f60113901e116626a592.webp",
           "desc": "查询影片是否有4K蓝光版的权威网站。",
           "proxy": false
-        },
-        {
-          "title": "找台词",
-          "url": "https://zhaotaici.cn/",
-          "icon": "",
-          "desc": "中文台词搜索",
-          "proxy": false
         }
       ]
     },
@@ -571,20 +192,6 @@
           "proxy": false
         },
         {
-          "title": "虎牙直播",
-          "url": "https://www.huya.com/",
-          "icon": "img/dd244ce9ccc63a63e43e5a37a57a162a.webp",
-          "desc": "中国领先的游戏直播平台之一，以游戏内容为核心。",
-          "proxy": false
-        },
-        {
-          "title": "斗鱼",
-          "url": "https://www.douyu.com/",
-          "icon": "img/3b4d019cecbdf6198f776d160a436c0f.webp",
-          "desc": "中国领先的以游戏直播为主的弹幕式直播分享网站。",
-          "proxy": false
-        },
-        {
           "title": "腾讯体育直播",
           "url": "https://sports.qq.com/kbsweb/",
           "desc": "腾讯官方体育赛事直播平台。",
@@ -596,13 +203,6 @@
           "url": "https://www.zhibo8.com/",
           "icon": "img/dcdd658311cb97fd7689c3ba82d2d22f.webp",
           "desc": "国内知名的体育信息、直播、社区平台。",
-          "proxy": false
-        },
-        {
-          "title": "中国体育直播",
-          "url": "https://www.zhibo.tv/",
-          "icon": "img/d3502b51d319df1da11595697cbecce5.webp",
-          "desc": "官方体育赛事直播平台。",
           "proxy": false
         },
         {
@@ -662,24 +262,10 @@
           "proxy": false
         },
         {
-          "title": "2020东京奥运会赛程",
-          "url": "https://tiyu.baidu.com/tokyoly/home/tab/%E8%B5%9B%E7%A8%8B/type/all",
-          "desc": "提供2020东京奥运会的详细比赛日程。",
-          "icon": "img/cb68c20f7cf60b11460e4d124c2365a5.webp",
-          "proxy": false
-        },
-        {
           "title": "体育比赛下载",
           "url": "https://www.txzqw.me/",
           "icon": "img/7aa6836b0515255a24762cdd224c5999.webp",
           "desc": "提供体育比赛录像下载。",
-          "proxy": false
-        },
-        {
-          "title": "直播快吧",
-          "url": "https://www.zhibok8.com/bbs/",
-          "desc": "提供体育直播链接和赛事讨论的论坛。",
-          "icon": "",
           "proxy": false
         },
         {
@@ -688,12 +274,6 @@
           "desc": "国外的体育赛事视频资源博客。",
           "proxy": true,
           "icon": "img/59a0c7b6e4848ccdabcea0636efda02b.webp"
-        },
-        {
-          "title": "海盗直播网",
-          "url": "https://www.hdzb.tv/%20",
-          "desc": "主播推荐菠菜，请不要玩",
-          "proxy": true
         },
         {
           "title": "720pier",
@@ -715,20 +295,6 @@
       "categoryName": "音乐与有声内容",
       "categoryId": "music-audio",
       "sites": [
-        {
-          "title": "网易云音乐",
-          "url": "https://music.163.com/",
-          "icon": "img/b49a6b034b20a868e838773a5a25335d.webp",
-          "desc": "专注于发现与分享的音乐产品，以个性化推荐和乐评著称。",
-          "proxy": false
-        },
-        {
-          "title": "昔枫网易云音乐免费下载",
-          "url": "https://mu-jie.cc/musicBox/",
-          "icon": "img/42fcc1231eab1b84192e61374b3bf6ba.webp",
-          "desc": "👍在线音乐播放和无损下载工具。",
-          "proxy": false
-        },
         {
           "title": "铜钟",
           "url": "https://tonzhon.com/",
@@ -765,13 +331,6 @@
           "proxy": false
         },
         {
-          "title": "放屁音乐网",
-          "url": "https://www.fangpi.net/",
-          "icon": "img/31116ea831836dd427fde79403aa3e1c.webp",
-          "desc": "聚合各大音乐平台的在线播放和下载工具。",
-          "proxy": false
-        },
-        {
           "title": "歌曲宝",
           "url": "https://www.gequbao.com/",
           "icon": "img/31116ea831836dd427fde79403aa3e1c.webp",
@@ -786,78 +345,10 @@
           "proxy": false
         },
         {
-          "title": "MyFreeMP3",
-          "url": "https://tools.liumingye.cn/",
-          "icon": "img/4233d242c95055356e622baa5c70e2c4.webp",
-          "desc": "包含了国内各大音乐平台中的内容，可免费在线听和下载。",
-          "proxy": true
-        },
-        {
-          "title": "MyFreeMP3",
-          "url": "https://myfreemp3music.com/",
-          "desc": "下载全世界的音乐，资源非常丰富。",
-          "proxy": false
-        },
-        {
           "title": "听书网",
           "url": "https://www.ting13.cc",
           "icon": "img/9b75c2dc84281bd37a192ae4b0cb4b1a.webp",
           "desc": "提供有声小说在线收听。",
-          "proxy": false
-        }
-      ]
-    },
-    {
-      "categoryName": "游戏中心",
-      "categoryId": "gaming-hub",
-      "sites": [
-        {
-          "title": "网易游戏",
-          "url": "https://game.163.com/",
-          "icon": "img/cfa74de1adff19638bc722027d352da7.webp",
-          "desc": "网易公司旗下游戏业务部门，开发和运营众多知名游戏。",
-          "proxy": false
-        },
-        {
-          "title": "游侠网",
-          "url": "https://down.ali213.net/pcgame/",
-          "icon": "img/eb8cada58a37156b8c0351131a024545.webp",
-          "desc": "国内知名的单机游戏网站，提供丰富的游戏资源、MOD和汉化补丁。",
-          "proxy": false
-        },
-        {
-          "title": "腾讯游戏",
-          "url": "https://game.qq.com/",
-          "icon": "img/d40041b9bb508753174d9f99e281e8eb.webp",
-          "desc": "腾讯公司旗下负责游戏业务的品牌，全球领先的游戏开发和发行平台。",
-          "proxy": false
-        },
-        {
-          "title": "3DM游戏网",
-          "url": "https://dl.3dmgame.com/",
-          "icon": "img/b62511a2f7a054b05f7cc6b3d5a45a3c.webp",
-          "desc": "国内老牌的单机游戏门户网站，提供游戏资讯、攻略和资源下载。",
-          "proxy": false
-        },
-        {
-          "title": "TapTap",
-          "url": "https://www.taptap.cn/",
-          "icon": "img/09824ff335e8382c1bee7fb676b1d554.webp",
-          "desc": "发现好游戏，一个高质量的手机游戏分享社区。",
-          "proxy": false
-        },
-        {
-          "title": "任天堂 (Nintendo)",
-          "url": "https://www.nintendo.com/region-selector/",
-          "icon": "img/e9fcbb0fa9705adae88db3c0467c463e.webp",
-          "desc": "全球知名的电子游戏和消费电子产品制造商。",
-          "proxy": true
-        },
-        {
-          "title": "小霸王",
-          "url": "https://www.yikm.net/",
-          "icon": "img/a436bb8bff097b1587c2a68c64913c4f.webp",
-          "desc": "在线红白机(FC/NES)游戏模拟器，重温童年经典游戏。",
           "proxy": false
         }
       ]
@@ -909,24 +400,10 @@
           "proxy": false
         },
         {
-          "title": "飞观",
-          "url": "https://www.fillgreat.com/#/download",
-          "icon": "img/e86a15cc436714428157879aed0efe65.webp",
-          "desc": "一款纪录片APP，资源丰富。",
-          "proxy": false
-        },
-        {
           "title": "乐视网",
           "url": "https://jilu.le.com/",
           "icon": "img/f9b2ac37c01f8a1c86b3d791647f3303.webp",
           "desc": "乐视纪录片频道，与BBC/国家地理/BTV等合作。",
-          "proxy": false
-        },
-        {
-          "title": "Bilibili纪录",
-          "url": "https://www.bilibili.com/documentary/",
-          "icon": "img/f2d2896c488493e18c1b112cdd9bb1d9.webp",
-          "desc": "B站官方纪录片频道，提供海量正版高清纪录片。",
           "proxy": false
         },
         {
@@ -935,20 +412,6 @@
           "icon": "img/6f1693a16c62920ab9a623f9409582b0.webp",
           "desc": "腾讯视频纪录片频道，与BBC/国家地理/HBO/Discovery等合作。",
           "proxy": false
-        },
-        {
-          "title": "纪录片之家",
-          "url": "https://www.05jl.com/",
-          "desc": "一个分享各类纪录片的网站。",
-          "icon": "img/000bf649cc8f6bf27cfb04d1bcdcd3c7.webp",
-          "proxy": false
-        },
-        {
-          "title": "YouTube",
-          "url": "https://www.youtube.com/",
-          "icon": "img/d7e3203e7a7c36b1406dbe3ca42539ba.webp",
-          "desc": "全球最大的视频分享网站。",
-          "proxy": true
         },
         {
           "title": "bilibili纪录片之家",
@@ -972,52 +435,10 @@
           "proxy": false
         },
         {
-          "title": "公开课纪录片下载网",
-          "url": "https://www.opclass.com/",
-          "desc": "提供国内外知名大学公开课和纪录片下载。",
-          "icon": "img/fa696e013ec0de66e7a3a18922e89e46.webp",
-          "proxy": false
-        },
-        {
-          "title": "B站",
-          "url": "https://www.bilibili.com/documentary/",
-          "icon": "img/f2d2896c488493e18c1b112cdd9bb1d9.webp",
-          "desc": "B站纪录片频道，与央视/BBC/Discovery/国家地理等合作。",
-          "proxy": false
-        },
-        {
           "title": "CCTV节目官网",
           "url": "https://tv.cctv.com/",
           "icon": "img/dbe194c88ae6739d44d8111ced8512b5.webp",
           "desc": "观看电视剧还需要flash，可以看央视节目",
-          "proxy": false
-        },
-        {
-          "title": "Documentary Storm",
-          "url": "https://www.documentarystorm.com/",
-          "desc": "一个提供纪录片在线观看的网站，收录了世界各地的纪录片视频",
-          "proxy": true,
-          "icon": "img/af32666cbcea25d206c04c911440604b.webp"
-        },
-        {
-          "title": "夏末秋字幕组",
-          "url": "https://passport.weibo.com/visitor/visitor?entry=miniblog&a=enter&url=https%3A%2F%2Fweibo.com%2Fxiamoqiuzmz&domain=weibo.com&ua=Mozilla%2F5.0%20%28Windows%20NT%2010.0%3B%20Win64%3B%20x64%29%20AppleWebKit%2F537.36%20%28KHTML%2C%20like%20Gecko%29%20Chrome%2F115.0.0.0%20Safari%2F537.36&_rand=1765194780318&sudaref=",
-          "icon": "img/d47292b6668d12a03d627245d89a2018.webp",
-          "desc": "微博 (专门翻译BBC纪录片)。",
-          "proxy": false
-        },
-        {
-          "title": "Top Documentary Films",
-          "url": "https://topdocumentaryfilms.com/",
-          "icon": "img/4918ad2cd817b113300b86c823fbbb1d.webp",
-          "desc": "国外纪录片在线观看及字幕信息。",
-          "proxy": true
-        },
-        {
-          "title": "西瓜视频",
-          "url": "https://www.douyin.com/jingxuan?xigua_webid=7581453800760100406",
-          "icon": "img/c0737d9a5f1c91847f71e6252b4e734c.webp",
-          "desc": "西瓜视频纪录片频道，与BBC/Discovery合作。",
           "proxy": false
         },
         {
@@ -1032,20 +453,6 @@
           "url": "https://www.tvyan.com/",
           "icon": "img/ea9cac731cbbafe6f4a882db1e51d430.webp",
           "desc": "电视节目信息和收视率数据。",
-          "proxy": false
-        },
-        {
-          "title": "Medici TV",
-          "url": "https://www.medici.tv/en",
-          "icon": "img/b70a77f03a4dd28d1e02f758e07f6102.webp",
-          "desc": "是世界古典音乐最大的在线收藏平台",
-          "proxy": true
-        },
-        {
-          "title": "盗火纪录片",
-          "url": "https://docu-lib.com",
-          "icon": "img/5a6d731373d1d6fec8c1100845382fd5.webp",
-          "desc": "独立纪录片分享网站。",
           "proxy": false
         }
       ]
@@ -1075,20 +482,6 @@
       "categoryId": "design-assets",
       "sites": [
         {
-          "title": "Iconfont",
-          "url": "https://www.iconfont.cn/",
-          "icon": "",
-          "desc": "阿里巴巴矢量图标库，功能强大，图标内容丰富，设计师和开发者必备。",
-          "proxy": false
-        },
-        {
-          "title": "PICKFREE",
-          "url": "https://www.pickfree.cn/",
-          "icon": "img/c71579daf82fb07ca18f8c304e53d8f7.webp",
-          "desc": "免费、免版权设计素材资源导航网站。",
-          "proxy": false
-        },
-        {
           "title": "中国色",
           "url": "https://zhongguose.com/",
           "icon": "img/8261509f231cfc9a581c290d2b528538.webp",
@@ -1108,48 +501,6 @@
           "icon": "img/f73a770fcd4cc4196667f60f1f631a65.webp",
           "desc": "故宫博物院官方出品的精美壁纸。",
           "proxy": false
-        },
-        {
-          "title": "pixiv镜像",
-          "url": "https://www.huashi6.com/",
-          "icon": "img/22487bca499fd1a2f6d1881473d621af.webp",
-          "desc": "一个Pixiv的镜像网站，方便访问和浏览P站插画作品。",
-          "proxy": false
-        },
-        {
-          "title": "字体天下",
-          "url": "https://www.fonts.net.cn/album/free-chinese-fonts-1.html",
-          "icon": "img/fe8536f5791f788f2578c1c5eef4bda0.webp",
-          "desc": "提供海量的中英文字体下载，无需注册VIP",
-          "proxy": false
-        },
-        {
-          "title": "第一PPT",
-          "url": "https://www.1ppt.com/",
-          "icon": "img/e307167daf487977ab62d1bf86737c8c.webp",
-          "desc": "提供海量免费PPT模板、图表、背景和素材下载。",
-          "proxy": false
-        },
-        {
-          "title": "极简壁纸",
-          "url": "https://bz.zzzmh.cn/index",
-          "icon": "",
-          "desc": "一个提供高质量、简洁风格壁纸的网站。",
-          "proxy": false
-        },
-        {
-          "title": "优品PPT",
-          "url": "https://www.ypppt.com/",
-          "icon": "img/80193a7eea48b9499bc599cd024f9fe4.webp",
-          "desc": "一个有情怀的免费PPT模板下载网站，质量很高。",
-          "proxy": false
-        },
-        {
-          "title": "WallHave",
-          "url": "https://wallhaven.cc/",
-          "icon": "img/a6939d06dc364a3a2df726d601e96ae7.webp",
-          "desc": "知名的壁纸网站，资源超过70万张，质量高。",
-          "proxy": true
         },
         {
           "title": "Lively Wallpaper",
@@ -1179,20 +530,6 @@
           "proxy": false
         },
         {
-          "title": "奔跑中的奶酪",
-          "url": "https://www.runningcheese.com/",
-          "icon": "img/b6bc9763c1d31f799419e0da1e695e7e.webp",
-          "desc": "致力于分享高效办公方法、优质软件和浏览器使用技巧的博客。",
-          "proxy": false
-        },
-        {
-          "title": "搜片",
-          "url": "https://soupian.pro/",
-          "icon": "img/55d82fc6ebaecfebd307d094264f99ed.webp",
-          "desc": "🥇强大的影视资源聚合搜索引擎。",
-          "proxy": false
-        },
-        {
           "title": "森林影视",
           "url": "https://www.549.tv/",
           "icon": "img/6a11d0a11dc171f8432601a5b88b75ca.webp",
@@ -1200,24 +537,10 @@
           "proxy": true
         },
         {
-          "title": "大数据导航",
-          "url": "https://hao.199it.com/",
-          "icon": "img/983c15c6c160f4c284a270836a1a91d6.webp",
-          "desc": "各行各业、各门类的大数据分析网站导航。",
-          "proxy": false
-        },
-        {
           "title": "影搜",
           "url": "https://xn--p3tv7h.com/",
           "icon": "",
           "desc": "🥇简洁高效的影视资源搜索引擎。",
-          "proxy": false
-        },
-        {
-          "title": "iMyShare 资源导航",
-          "url": "https://imyshare.com/",
-          "icon": "img/b95a1aca5d18d8442fb150bc1ec7cf78.webp",
-          "desc": "汇集优质软件工具、学习资源和网站的综合性导航站。",
           "proxy": false
         },
         {
@@ -1228,24 +551,10 @@
           "proxy": false
         },
         {
-          "title": "爱达杂货铺",
-          "url": "https://adzhp.cc/#term-25",
-          "icon": "img/8998584c5bdf2a60534c64d0eb65dc73.webp",
-          "desc": "我愿称之为国内数一数二的优质导航站，墙裂推荐",
-          "proxy": false
-        },
-        {
           "title": "7080影视搜",
           "url": "https://7080.wang/",
           "icon": "",
           "desc": "🥈影视资源搜索引擎，怀旧影片较多。",
-          "proxy": false
-        },
-        {
-          "title": "果核剥壳",
-          "url": "https://www.ghxi.com/",
-          "icon": "img/0b8e423bddb6f2e7e60cda1697c1a61a.webp",
-          "desc": "发现优秀软件，分享各种类型的软件应用与玩机技巧。",
           "proxy": false
         },
         {
@@ -1256,13 +565,6 @@
           "proxy": false
         },
         {
-          "title": "iMyShare",
-          "url": "https://imyshare.com/navigation/",
-          "icon": "img/b95a1aca5d18d8442fb150bc1ec7cf78.webp",
-          "desc": "汇集优质的软件工具，学习资源，网站导航",
-          "proxy": false
-        },
-        {
           "title": "阿虚的储物间",
           "url": "https://axutongxue.com/",
           "icon": "img/660dffd9bea11a7659c8740110308a6a.webp",
@@ -1270,52 +572,10 @@
           "proxy": true
         },
         {
-          "title": "影猫の仓库",
-          "url": "https://www.ymck.pro/",
-          "icon": "img/1215c430edbc2657aeb9cc1f674b281d.webp",
-          "desc": "🥇高质量的影视资源搜索和推荐博客。",
-          "proxy": false
-        },
-        {
-          "title": "小宇搜索",
-          "url": "https://xykmovie.com/",
-          "icon": "img/621efcac6ec986ee8acd5f12735c54d7.webp",
-          "desc": "🥈影视资源搜索引擎。",
-          "proxy": false
-        },
-        {
-          "title": "BT搜索导航",
-          "url": "https://www.gatherfind.com/tags-13.html",
-          "icon": "img/11127eab4c2fdc6a8a5b4337cb1046c2.webp",
-          "desc": "BT磁力下载资源网站导航。",
-          "proxy": false
-        },
-        {
           "title": "搜网通",
           "url": "https://www.s5t.com/",
           "icon": "img/11088b2077e1eb649688d9d56d8cc43a.webp",
           "desc": "优质资源聚合站，很多合集和优质站点分享",
-          "proxy": false
-        },
-        {
-          "title": "合集网",
-          "url": "https://heji.ru/",
-          "icon": "",
-          "desc": "3000+优质网站资源汇总，分类清晰，整理的都是合集，超级优质！",
-          "proxy": true
-        },
-        {
-          "title": "影视搜索",
-          "url": "http://ww25.wb3.470c.com/?subid1=20251208-2253-50f6-88a3-9918dc61c9df",
-          "icon": "",
-          "desc": "🥉影视资源搜索引擎。",
-          "proxy": false
-        },
-        {
-          "title": "SBKKO导航",
-          "url": "https://nav.sbkko.com/",
-          "icon": "img/06d7da44894f992e9b1e90448bb0fba7.webp",
-          "desc": "一个简洁、高效的网址导航站。",
           "proxy": false
         },
         {
@@ -1345,47 +605,6 @@
           "icon": "img/a503d6ef505999c2cad181724f9db22b.webp",
           "desc": "一个收集了多个在线影视网站的导航页。",
           "proxy": false
-        },
-        {
-          "title": "茶杯狐",
-          "url": "https://cupfox.love/",
-          "icon": "img/41349e650cac0293da1543ff24cff648.webp",
-          "desc": "聚合全网影视资源，提供在线播放和下载链接。",
-          "proxy": false
-        }
-      ]
-    },
-    {
-      "categoryName": "云盘与邮箱",
-      "categoryId": "cloud-email",
-      "sites": [
-        {
-          "title": "阿里云盘",
-          "url": "https://www.alipan.com/",
-          "icon": "img/060fbd5f9f928c5dd6c18a01e54407ed.webp",
-          "desc": "不限速的网盘，你的数字世界。",
-          "proxy": false
-        },
-        {
-          "title": "QQ邮箱",
-          "url": "https://mail.qq.com/",
-          "icon": "img/b2b09c0b26e7014c5f1c95cfbf293172.webp",
-          "desc": "简洁直观，安全稳定的电子邮件服务。",
-          "proxy": false
-        },
-        {
-          "title": "Google Drive",
-          "url": "https://workspace.google.com/intl/en-US/products/drive/",
-          "icon": "img/5385d464775791db11874d1a3ee2b5ed.webp",
-          "desc": "Google 云端硬盘，安全存储、共享和协作处理您的所有文件。",
-          "proxy": true
-        },
-        {
-          "title": "Gmail",
-          "url": "https://accounts.google.com/v3/signin/identifier?continue=https%3A%2F%2Fmail.google.com%2Fmail%2Fu%2F0%2F&dsh=S103236853%3A1765194857933718&emr=1&followup=https%3A%2F%2Fmail.google.com%2Fmail%2Fu%2F0%2F&ifkv=Ac2yZaX4e2w-8Lo0v3GobNZuMN0PVNgcdnK42w2gSXbjx3AxgsYouzmmkv0vJZJZw5hr45C13gXT&osid=1&passive=1209600&service=mail&flowName=GlifWebSignIn&flowEntry=ServiceLogin",
-          "icon": "img/f3418a443e7d841097c714d69ec4bcb8.webp",
-          "desc": "Google 提供的免费、强大的电子邮件服务。",
-          "proxy": true
         }
       ]
     },
@@ -1394,24 +613,10 @@
       "categoryId": "lifestyle-deals",
       "sites": [
         {
-          "title": "微信支付",
-          "url": "https://pay.weixin.qq.com/",
-          "icon": "img/be217e49e61ac231c36ca912c8d2571b.webp",
-          "desc": "腾讯公司推出的集成在微信客户端的支付功能。",
-          "proxy": false
-        },
-        {
           "title": "阿虚的特价会员商城",
           "url": "https://axu.xpsup.cn/index",
           "icon": "img/81dd2dd2684d90308de631712d5318f1.webp",
           "desc": "全网会员低至４折的特惠充值商城。",
-          "proxy": false
-        },
-        {
-          "title": "电影票８折购！",
-          "url": "https://m.qianzhu8.com/cinema/?platformId=10123&subPlatformId=515380071",
-          "icon": "img/717a0fe19462765aa3602628c2e121f7.webp",
-          "desc": "提供特价电影票购买服务。",
           "proxy": false
         },
         {
@@ -1429,116 +634,11 @@
           "proxy": false
         },
         {
-          "title": "永辉超市",
-          "url": "https://www.yonghui.com.cn/",
-          "icon": "img/5a2e24a3712d8ce8a4e26d89e2899122.webp",
-          "desc": "中国大陆首批将生鲜农产品引进现代超市的流通企业之一。",
-          "proxy": false
-        },
-        {
-          "title": "星巴克",
-          "url": "https://www.starbucks.com.cn/",
-          "icon": "img/2b25c69459fd1ecf7fc15ceb92dac79b.webp",
-          "desc": "全球著名的咖啡连锁店，积极探索数字化新零售。",
-          "proxy": false
-        },
-        {
           "title": "阿虚的流量卡小店",
           "url": "https://api.simhaoka.com/h5/index?uc=kTNQ3GWi6a",
           "icon": "",
           "desc": "🔥提供大流量低月租的手机流量卡（低至19/月192G）。",
           "proxy": false
-        },
-        {
-          "title": "支付宝",
-          "url": "https://www.alipay.com/",
-          "icon": "img/b899d797cf47069bfbbd78cac8c72401.webp",
-          "desc": "中国领先的第三方支付平台，提供支付、理财、生活服务等。",
-          "proxy": false
-        },
-        {
-          "title": "喜茶",
-          "url": "https://www.heytea.com/",
-          "icon": "",
-          "desc": "新式茶饮的开创者，深受年轻人喜爱的新消费品牌。",
-          "proxy": false
-        },
-        {
-          "title": "蚂蚁集团",
-          "url": "https://www.antgroup.com/",
-          "icon": "img/ad77b94423f6c375c46a94c2d1129cf6.webp",
-          "desc": "源于支付宝的科技公司，致力于为世界带来普惠、绿色的金融服务。",
-          "proxy": false
-        },
-        {
-          "title": "慢慢买",
-          "url": "https://www.manmanbuy.com/",
-          "icon": "img/51740a181d9269a96287114317e3135b.webp",
-          "desc": "提供商品历史价格查询和全网比价服务。",
-          "proxy": false
-        },
-        {
-          "title": "滴滴出行",
-          "url": "https://www.didiglobal.com/",
-          "icon": "img/61aa34ca1f2248464ecf423f8d1b1418.webp",
-          "desc": "全球卓越的移动出行和生活服务平台。",
-          "proxy": false
-        },
-        {
-          "title": "沃尔玛",
-          "url": "https://www.walmart.com/",
-          "icon": "img/ddcd1fc4443c01a06f5c6a34aad39ef2.webp",
-          "desc": "全球最大的零售连锁企业，持续进行数字化转型。",
-          "proxy": true
-        },
-        {
-          "title": "小鹏汽车",
-          "url": "https://www.xiaopeng.com/",
-          "icon": "img/966aaaaef238f5d548f53f97d3bb1c3e.webp",
-          "desc": "中国领先的智能电动汽车设计及制造商。",
-          "proxy": false
-        },
-        {
-          "title": "喵小二",
-          "url": "https://sj.qq.com/appdetail/com.miaoxiaoer.app?rand=859107",
-          "icon": "img/f3c5ed7cd83a1b21e0157521bb989cee.webp",
-          "desc": "（特惠加油／全平台网购自购返利）一个综合性的生活优惠服务平台。",
-          "proxy": false
-        },
-        {
-          "title": "阿虚的知乎付费咨询",
-          "url": "https://www.zhihu.com/consult/people/1262168587433316352",
-          "icon": "img/2e583a4caa216ee0bd7cccdb14ad0284.webp",
-          "desc": "提供一对一的付费咨询服务。",
-          "proxy": false
-        },
-        {
-          "title": "小马智行 (Pony.ai)",
-          "url": "https://www.pony.ai/",
-          "icon": "img/81268f18b4b6b2eb98129e52df6f2528.webp",
-          "desc": "全球领先的自动驾驶技术公司。",
-          "proxy": false
-        },
-        {
-          "title": "同盾科技",
-          "url": "https://www.tongdun.cn/",
-          "icon": "img/019be2bbe87112e7f06763184a9d29a0.webp",
-          "desc": "领先的智能风控和分析决策服务提供商。",
-          "proxy": false
-        },
-        {
-          "title": "陆金所",
-          "url": "https://www.lu.com/",
-          "icon": "img/e3982e381a336f5628ed17c17cd6069f.webp",
-          "desc": "中国平安集团旗下的在线财富管理平台。",
-          "proxy": false
-        },
-        {
-          "title": "Waymo",
-          "url": "https://waymo.com/",
-          "icon": "img/9f1f32881dac24cfe61c0c50cfeb2a08.webp",
-          "desc": "Alphabet旗下的自动驾驶汽车开发公司。",
-          "proxy": true
         }
       ]
     }

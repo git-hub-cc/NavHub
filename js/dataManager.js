@@ -156,7 +156,7 @@ export function getThemePreference() {
  */
 export async function loadSearchConfig() {
     try {
-        const response = await fetch('data/engines.json');
+        const response = await fetch('data/00engines.json');
         if (!response.ok) throw new Error(`HTTP error! status: ${response.status}`);
         state.searchConfig = await response.json();
     } catch (error) {
