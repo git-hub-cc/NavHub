@@ -5,7 +5,7 @@ import tldextract # 需要先安装 pip install tldextract
 
 # ================= 配置区域 =================
 # 和其他脚本保持一致
-DATA_DIR = 'data'
+DATA_DIR = '../data'
 TARGET_EXT = '.json'
 EXCLUDED_FILES = ['package-lock.json', 'engines.json', 'pinyin-map.json']
 

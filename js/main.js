@@ -2,9 +2,8 @@
 // main.js - 主程序 / 事件协调器 (适配新设计)
 // =========================================================================
 
-import { state, getThemePreference, loadAllDataSources, loadSearchConfig, performDataSourceSwitch, saveNavData, findSiteById, DEFAULT_SITES_PATH, NAV_DATA_SOURCE_PREFERENCE_KEY, CUSTOM_CATEGORY_ID } from './dataManager.js';
-// 【修改】导入新增的 isolateSidebarScroll 函数
-import { dom, applyTheme, populateDataSourceSelector, renderNavPage, updateDeleteButtonState, showAlert, openSiteModal, closeSiteModal, closeImportNameModal, toggleEditMode, toggleDeleteMode, filterNavCards, renderSearchCategories, renderEngineCheckboxes, renderSuggestions, showConfirm, toggleMobileSidebar, closeMobileSidebar, isolateSidebarScroll } from './ui.js';
+import { state, getThemePreference, getProxyMode, setProxyMode, loadAllDataSources, loadSearchConfig, performDataSourceSwitch, saveNavData, findSiteById, DEFAULT_SITES_PATH, NAV_DATA_SOURCE_PREFERENCE_KEY, CUSTOM_CATEGORY_ID } from './dataManager.js';
+import { dom, applyTheme, applyProxyMode, populateDataSourceSelector, renderNavPage, updateDeleteButtonState, showAlert, openSiteModal, closeSiteModal, closeImportNameModal, toggleEditMode, toggleDeleteMode, filterNavCards, renderSearchCategories, renderEngineCheckboxes, renderSuggestions, showConfirm, toggleMobileSidebar, closeMobileSidebar, isolateSidebarScroll } from './ui.js';
 import { handleExport, handleImportClick, handleFileSelect, handleImportNameSubmit, handleDeleteSource } from './fileManager.js';
 
 let currentSearchCategory = '';
@@ -16,7 +15,10 @@ let suggestionTimer = null;
 // =========================================================================
 
 async function init() {
+    // 1. 初始化偏好 (主题 + 代理模式)
     applyTheme(getThemePreference());
+    applyProxyMode(getProxyMode()); // 【新增】初始化代理模式显示
+
     loadAllDataSources();
     setupStaticEventListeners();
     setupDynamicEventListeners();
@@ -47,11 +49,22 @@ function setupStaticEventListeners() {
         dom.sidebarOverlay.addEventListener('click', closeMobileSidebar);
     }
 
-    // 【新增】初始化侧边栏滚动隔离，防止干扰主页面滚动
+    // 初始化侧边栏滚动隔离，防止干扰主页面滚动
     isolateSidebarScroll();
 
     // 主题切换
     dom.darkModeSwitch.addEventListener('change', () => applyTheme(dom.darkModeSwitch.checked ? 'dark' : 'light'));
+
+    // 【新增】代理模式切换
+    if (dom.proxyModeSwitch) {
+        dom.proxyModeSwitch.addEventListener('change', () => {
+            const isChecked = dom.proxyModeSwitch.checked;
+            applyProxyMode(isChecked);
+            setProxyMode(isChecked);
+            // 切换模式后，必须重新渲染搜索引擎复选框，因为它们被过滤了
+            renderEngineCheckboxes(currentSearchCategory);
+        });
+    }
 
     // 自定义数据源选择器
     dom.customSelectTrigger.addEventListener('click', (e) => {
@@ -116,7 +129,7 @@ function setupDynamicEventListeners() {
         // 1. 点击“新增”按钮
         if (addSiteBtn) {
             const categoryId = addSiteBtn.dataset.categoryId;
-            // 【关键修改】同时获取分类名称，避免 ID 重复导致显示错误
+            // 获取分类名称，避免 ID 重复导致显示错误
             const categoryName = addSiteBtn.dataset.categoryName;
             // 传入 categoryName 作为第四个参数
             openSiteModal('add', null, categoryId, categoryName);
@@ -148,7 +161,7 @@ function setupDynamicEventListeners() {
                 // 编辑卡片时，同时获取 site 和 category
                 const { site, category } = findSiteById(card.dataset.id);
                 if (site && category) {
-                    // 【关键修改】传入 category.categoryName
+                    // 传入 category.categoryName
                     openSiteModal('edit', site, category.categoryId, category.categoryName);
                 }
             } else {
@@ -285,10 +298,6 @@ async function handleSiteFormSubmit(e) {
         proxy: dom.siteProxyInput.checked
     };
 
-    // 这里查找目标分类时，如果存在ID冲突，仍然会归类到第一个匹配的ID分类中。
-    // 在文件导入逻辑中，最好确保生成的ID是唯一的（例如加上随机数或时间戳），
-    // 但鉴于当前只能修改前端UI逻辑，暂无法根治已存在的脏数据归类问题，
-    // 至少 UI 显示是正确的。
     let targetCategory = state.siteData.categories.find(c => c.categoryId === targetCategoryId);
 
     if (siteId) {

@@ -11,7 +11,7 @@ from concurrent.futures import ThreadPoolExecutor, as_completed
 
 # ================= 配置区域 =================
 # 数据目录
-DATA_DIR = 'data'
+DATA_DIR = '../data'
 # 要处理的文件扩展名
 TARGET_EXT = '.json'
 # 需要排除的配置文件

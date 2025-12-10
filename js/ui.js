@@ -2,15 +2,16 @@
 // ui.js - UI管理器 (重构版 - 性能优化)
 // =========================================================================
 
-import { state, CUSTOM_CATEGORY_ID, DEFAULT_SITES_PATH, NAV_DATA_SOURCE_PREFERENCE_KEY } from './dataManager.js';
+import { state, CUSTOM_CATEGORY_ID, DEFAULT_SITES_PATH, NAV_DATA_SOURCE_PREFERENCE_KEY, getProxyMode } from './dataManager.js';
 
 // === DOM 元素缓存 ===
 export const dom = {
     // 基础布局
     darkModeSwitch: document.getElementById('dark-mode-switch'),
+    proxyModeSwitch: document.getElementById('proxy-mode-switch'), // 【新增】代理模式开关
     categoryList: document.querySelector('.category-list'),
     contentWrapper: document.getElementById('content-wrapper'),
-    // 【新增】侧边栏滚动区域，用于事件隔离
+    // 侧边栏滚动区域，用于事件隔离
     sidebarScrollArea: document.querySelector('.sidebar-scroll-area'),
     // 移动端控件
     mobileMenuBtn: document.getElementById('mobile-menu-btn'),
@@ -152,6 +153,15 @@ export function applyTheme(theme) {
     if (dom.darkModeSwitch) dom.darkModeSwitch.checked = theme === 'dark';
 }
 
+/**
+ * 【新增】应用代理显示模式状态
+ * 切换 documentElement 的属性，触发 CSS 显隐规则
+ */
+export function applyProxyMode(isProxyOn) {
+    document.documentElement.setAttribute('data-proxy-mode', String(isProxyOn));
+    if (dom.proxyModeSwitch) dom.proxyModeSwitch.checked = isProxyOn;
+}
+
 export function populateDataSourceSelector() {
     if (!dom.customSelect) return;
 
@@ -283,6 +293,9 @@ function createCardHTML(site, isEditable) {
         </div>
     ` : '';
 
+    // 【关键修改】添加 data-proxy 属性，配合 CSS 实现开关控制显隐
+    const proxyAttr = site.proxy ? 'data-proxy="true"' : 'data-proxy="false"';
+
     /*
      * 性能优化重点：
      * 添加 loading="lazy" 属性，启用原生懒加载。
@@ -290,6 +303,7 @@ function createCardHTML(site, isEditable) {
      */
     return `
         <div class="card"
+             ${proxyAttr}
              data-id="${site.id}"
              data-url="${site.url}"
              data-pinyin-full="${titlePinyin.full} ${descPinyin.full}"
@@ -362,9 +376,23 @@ export function renderSearchCategories() {
     });
 }
 
+/**
+ * 【修改】渲染搜索引擎复选框，增加代理过滤逻辑
+ */
 export function renderEngineCheckboxes(currentSearchCategory) {
     dom.searchEngineCheckboxesContainer.innerHTML = '';
-    const engines = state.searchConfig.engines[currentSearchCategory] || [];
+
+    // 获取原始引擎列表
+    let engines = state.searchConfig.engines[currentSearchCategory] || [];
+
+    // 【关键】检查代理模式状态
+    const showProxy = getProxyMode();
+
+    // 如果开关关闭，过滤掉 proxy 为 true 的引擎
+    if (!showProxy) {
+        engines = engines.filter(engine => !engine.proxy);
+    }
+
     engines.forEach((engine, index) => {
         const label = document.createElement('label');
         label.className = 'engine-checkbox';
@@ -520,9 +548,7 @@ export function toggleDeleteMode() {
 // =========================================================================
 
 /**
- * 【新增功能】
  * 隔离侧边栏的滚动事件，防止在滚动到顶部或底部时，事件冒泡导致主页面滚动。
- * 这提升了在触控板或鼠标滚轮快速滚动时的用户体验。
  */
 export function isolateSidebarScroll() {
     if (!dom.sidebarScrollArea) return;

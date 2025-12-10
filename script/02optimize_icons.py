@@ -9,8 +9,8 @@ from concurrent.futures import ThreadPoolExecutor, as_completed
 from PIL import Image, UnidentifiedImageError
 
 # ================= 配置区域 =================
-DATA_DIR = 'data'
-IMG_DIR = 'img'
+DATA_DIR = '../data'
+IMG_DIR = '../img'
 TARGET_HEIGHT = 42
 IMAGE_QUALITY = 80
 MAX_WORKERS = 16

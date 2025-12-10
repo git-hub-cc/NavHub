@@ -24,6 +24,7 @@
     --danger: #ff4757;
     --warning: #ffa502;
     --success: #2ed573;
+    --proxy-on-color: #2ed573; /* 绿色表示连通 */
 
     /* 边框与分割线 */
     --border-light: rgba(0, 0, 0, 0.06);
@@ -82,7 +83,7 @@ body {
     -moz-osx-font-smoothing: grayscale;
 }
 
-/* SVG 图标通用样式 (新增) */
+/* SVG 图标通用样式 */
 .icon {
     width: 1em;
     height: 1em;
@@ -324,6 +325,10 @@ html[data-theme='dark'] .category-list a.active { background: rgba(255,255,255,0
     align-items: center;
     margin-bottom: 12px;
 }
+.social-links {
+    flex: 1; /* 占据剩余空间 */
+    display: flex;
+}
 .social-links a {
     color: var(--text-secondary);
     display: flex;
@@ -335,9 +340,10 @@ html[data-theme='dark'] .category-list a.active { background: rgba(255,255,255,0
 .social-links a .icon { width: 20px; height: 20px; }
 .social-links a:hover { color: var(--primary-solid); }
 
-/* 主题切换 Toggle */
+/* 通用开关 Toggle (主题 + 代理) */
 .theme-toggle-wrapper {
     position: relative;
+    cursor: pointer;
 }
 .theme-switch-input { display: none; }
 .theme-switch-label {
@@ -351,6 +357,7 @@ html[data-theme='dark'] .category-list a.active { background: rgba(255,255,255,0
     padding: 2px 4px;
     cursor: pointer;
     position: relative;
+    box-sizing: border-box;
 }
 .theme-switch-label::after {
     content: '';
@@ -363,16 +370,34 @@ html[data-theme='dark'] .category-list a.active { background: rgba(255,255,255,0
     left: 2px;
     transition: transform 0.3s cubic-bezier(0.4, 0.0, 0.2, 1);
     box-shadow: 0 1px 3px rgba(0,0,0,0.2);
+    z-index: 2;
 }
 .theme-switch-input:checked + .theme-switch-label { background: var(--bg-base); }
 .theme-switch-input:checked + .theme-switch-label::after { transform: translateX(20px); }
 
+/* 代理开关特定样式 */
+.proxy-label .globe-icon, .proxy-label .shield-icon {
+    width: 12px;
+    height: 12px;
+    color: var(--text-tertiary);
+    z-index: 1;
+}
+/* 当开启代理模式时，改变背景色提示 */
+.theme-switch-input:checked + .proxy-label {
+    background-color: rgba(46, 213, 115, 0.15); /* 微弱的绿色背景 */
+}
+.theme-switch-input:checked + .proxy-label .globe-icon {
+    color: var(--proxy-on-color); /* 绿色地球 */
+}
+
+/* 主题图标 */
 .sun-icon, .moon-icon {
     width: 12px;
     height: 12px;
     color: var(--text-tertiary);
     z-index: 1;
 }
+
 .copyright { font-size: 11px; color: var(--text-tertiary); text-align: center; opacity: 0.6; }
 
 
@@ -524,7 +549,6 @@ html[data-theme='dark'] .category-btn.active { background: var(--primary-solid);
 .category-section {
     margin-bottom: 50px;
     scroll-margin-top: 20px;
-    content-visibility: auto;
     contain-intrinsic-size: 1px 600px;
 }
 
@@ -597,6 +621,14 @@ html[data-theme='dark'] .category-btn.active { background: var(--primary-solid);
     user-select: none;
 }
 html[data-theme='dark'] .card { border-color: rgba(255,255,255,0.05); }
+
+/*
+   【核心修改】代理资源显隐控制
+   默认情况下（data-proxy-mode 不为 "true"），隐藏所有 data-proxy="true" 的卡片
+*/
+html:not([data-proxy-mode="true"]) .card[data-proxy="true"] {
+    display: none !important;
+}
 
 /* 卡片悬停特效 */
 .card:hover {

@@ -83,7 +83,7 @@ def generate_compact_json(input_path: str, output_path: str):
         print(f"发生未知错误: {e}")
 
 if __name__ == "__main__":
-    input_file = os.path.join('data', '00engines.json')
-    output_file = os.path.join('data', '00engines_compact_formatted.json')
+    input_file = os.path.join('../data', '00engines.json')
+    output_file = os.path.join('../data', '00engines_compact_formatted.json')
 
     generate_compact_json(input_file, output_file)

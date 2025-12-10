@@ -10,6 +10,7 @@ export const NAV_DATA_STORAGE_KEY = 'my-awesome-nav-data'; // 用于缓存默认
 export const NAV_DATA_SOURCE_PREFERENCE_KEY = 'nav-data-source-preference'; // 用户最后选择的数据源
 export const NAV_CUSTOM_SOURCES_KEY = 'nav-custom-data-sources'; // 存储所有自定义数据源
 export const NAV_CUSTOM_USER_SITES_KEY = 'nav-user-custom-sites-data'; // 存储“我的导航”数据
+export const PROXY_MODE_KEY = 'proxy-mode-preference'; // 【新增】存储代理模式开关状态
 export const CUSTOM_CATEGORY_ID = 'custom-user-sites'; // “我的导航”分类的固定ID
 export const DEFAULT_SITES_PATH = "data/02服务.json"; // 默认加载的数据源
 
@@ -26,6 +27,37 @@ export const state = {
     allSiteDataSources: [], // 所有可用数据源（默认+自定义）的列表
     originalDataSourceValue: null, // 用于在数据源切换失败时，恢复到上一个有效的值
 };
+
+// =========================================================================
+// #region 偏好设置管理 (Theme & Proxy)
+// =========================================================================
+
+/**
+ * 获取用户的主题偏好设置。
+ * @returns {'dark' | 'light'} - 主题名称。
+ */
+export function getThemePreference() {
+    const storedTheme = localStorage.getItem(THEME_STORAGE_KEY);
+    if (storedTheme) return storedTheme;
+    // 根据系统偏好设置默认主题
+    return window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+}
+
+/**
+ * 获取用户的代理模式偏好。
+ * @returns {boolean} - 是否开启代理显示模式。
+ */
+export function getProxyMode() {
+    return localStorage.getItem(PROXY_MODE_KEY) === 'true';
+}
+
+/**
+ * 保存用户的代理模式偏好。
+ * @param {boolean} isProxyOn - 代理模式是否开启。
+ */
+export function setProxyMode(isProxyOn) {
+    localStorage.setItem(PROXY_MODE_KEY, String(isProxyOn));
+}
 
 // =========================================================================
 // #region 数据源处理
@@ -135,17 +167,6 @@ export async function performDataSourceSwitch(identifier, useCache = false, onSw
 // =========================================================================
 // #region 数据读写与查询
 // =========================================================================
-
-/**
- * 获取用户的主题偏好设置。
- * @returns {'dark' | 'light'} - 主题名称。
- */
-export function getThemePreference() {
-    const storedTheme = localStorage.getItem(THEME_STORAGE_KEY);
-    if (storedTheme) return storedTheme;
-    // 根据系统偏好设置默认主题
-    return window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
-}
 
 /**
  * 从文件加载搜索引擎配置。

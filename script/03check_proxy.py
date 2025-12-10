@@ -6,7 +6,7 @@ from urllib.parse import urlparse
 from concurrent.futures import ThreadPoolExecutor, as_completed
 
 # ================= 配置区域 =================
-DATA_DIR = 'data'
+DATA_DIR = '../data'
 TARGET_EXT = '.json'
 EXCLUDED_FILES = ['package-lock.json', 'engines.json', 'pinyin-map.json']
 

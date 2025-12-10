@@ -7,7 +7,7 @@ from concurrent.futures import ThreadPoolExecutor, as_completed
 
 # ================= 配置区域 =================
 # 目标文件位于 data 目录下
-DATA_DIR = 'data'
+DATA_DIR = '../data'
 TARGET_FILE = '00engines.json'
 
 # 请求设置

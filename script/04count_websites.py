@@ -5,7 +5,7 @@ from collections import Counter
 
 # ================= 配置区域 =================
 # 和 03_check_proxy.py 脚本保持一致，方便用户理解
-DATA_DIR = 'data'
+DATA_DIR = '../data'
 TARGET_EXT = '.json'
 EXCLUDED_FILES = ['package-lock.json', 'engines.json', 'pinyin-map.json']
 # ===========================================
