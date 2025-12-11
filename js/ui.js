@@ -284,7 +284,7 @@ export function renderNavPage() {
 
         const isEditable = isCustomSource || category.categoryId === CUSTOM_CATEGORY_ID;
 
-        // 如果是自定义数据源或“我的导航”分类，则添加编辑/删除按钮
+        // 如果是自定义数据源或“我的导航”分类，则添加编辑/删除/清空按钮
         if (isEditable) {
             section.classList.add('custom-source-section');
             actionsHTML = `
@@ -294,6 +294,7 @@ export function renderNavPage() {
                     </button>
                     <button id="edit-site-btn" class="action-btn"><svg class="icon" viewBox="0 0 24 24"><path d="M12.8995 6.85453L17.1421 11.0972L7.24264 20.9967H3V16.754L12.8995 6.85453ZM14.3137 5.44032L16.435 3.319C16.8256 2.92848 17.4587 2.92848 17.8492 3.319L20.6777 6.14743C21.0682 6.53795 21.0682 7.17112 20.6777 7.56164L18.5563 9.68296L14.3137 5.44032Z" fill="currentColor"></path></svg> 编辑</button>
                     <button id="delete-site-btn" class="action-btn" style="color:var(--danger)"><svg class="icon" viewBox="0 0 24 24"><path d="M17 6H22V8H20V21C20 21.5523 19.5523 22 19 22H5C4.44772 22 4 21.5523 4 21V8H2V6H7V3C7 2.44772 7.44772 2 8 2H16C16.5523 2 17 2.44772 17 3V6ZM18 8H6V20H18V8ZM9 11H11V17H9V11ZM13 11H15V17H13V11ZM9 4V6H15V4H9Z" fill="currentColor"></path></svg> 删除</button>
+                    <button class="action-btn clear-category-btn" data-category-id="${category.categoryId}" data-category-name="${category.categoryName}" style="color:var(--danger)"><svg class="icon" viewBox="0 0 24 24"><path d="M17 6H22V8H20V21C20 21.5523 19.5523 22 19 22H5C4.44772 22 4 21.5523 4 21V8H2V6H7V3C7 2.44772 7.44772 2 8 2H16C16.5523 2 17 2.44772 17 3V6ZM18 8H6V20H18V8Z" fill="currentColor"></path></svg> 清空</button>
                 </div>
             `;
         }

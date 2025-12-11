@@ -29,7 +29,6 @@ async function init() {
     await Promise.all([
         performDataSourceSwitch(lastUsedSource, true, onDataSourceSwitchSuccess, onDataSourceSwitchFail),
         loadSearchConfig()
-        // 移除: pinyinManager 加载逻辑
     ]);
 
     initEnhancedSearch();
@@ -129,18 +128,17 @@ function setupStaticEventListeners() {
 
 function setupDynamicEventListeners() {
     dom.contentWrapper.addEventListener('click', e => {
-        // 使用 class 选择器捕获新增按钮
+        // 使用 class 选择器捕获所有操作按钮
         const addSiteBtn = e.target.closest('.add-site-btn');
         const editSiteBtn = e.target.closest('#edit-site-btn');
         const deleteSiteBtn = e.target.closest('#delete-site-btn');
+        const clearCategoryBtn = e.target.closest('.clear-category-btn'); // 【新增】捕获清空按钮
         const card = e.target.closest('.card');
 
         // 1. 点击“新增”按钮
         if (addSiteBtn) {
             const categoryId = addSiteBtn.dataset.categoryId;
-            // 获取分类名称，避免 ID 重复导致显示错误
             const categoryName = addSiteBtn.dataset.categoryName;
-            // 传入 categoryName 作为第四个参数
             openSiteModal('add', null, categoryId, categoryName);
             return;
         }
@@ -157,7 +155,15 @@ function setupDynamicEventListeners() {
             return;
         }
 
-        // 4. 点击具体卡片
+        // 4. 【新增】点击分类标题栏的“清空”按钮
+        if (clearCategoryBtn) {
+            const categoryId = clearCategoryBtn.dataset.categoryId;
+            const categoryName = clearCategoryBtn.dataset.categoryName;
+            handleClearCategory(categoryId, categoryName);
+            return;
+        }
+
+        // 5. 点击具体卡片
         if (card) {
             e.preventDefault();
             const isInEditMode = dom.contentWrapper.classList.contains('is-editing');
@@ -167,10 +173,8 @@ function setupDynamicEventListeners() {
             if (isInDeleteMode && isEditable) {
                 handleCardDelete(card);
             } else if (isInEditMode && isEditable) {
-                // 编辑卡片时，同时获取 site 和 category
                 const { site, category } = findSiteById(card.dataset.id);
                 if (site && category) {
-                    // 传入 category.categoryName
                     openSiteModal('edit', site, category.categoryId, category.categoryName);
                 }
             } else {
@@ -364,6 +368,36 @@ async function handleCardDelete(cardElement) {
 
     saveNavData(dom.customSelect.dataset.value);
 }
+
+/**
+ * 【新增】处理清空分类下的所有书签
+ * @param {string} categoryId 要清空的分类ID
+ * @param {string} categoryName 要清空的分类名称，用于提示
+ */
+async function handleClearCategory(categoryId, categoryName) {
+    // 鲁棒性检查
+    if (!categoryId || !categoryName) return;
+
+    // 弹出确认对话框，防止误操作
+    const confirmed = await showConfirm(`确定要清空分类 "${categoryName}" 下的所有书签吗？\n此操作不可撤销。`, "清空确认");
+    if (!confirmed) return;
+
+    // 在全局状态中找到对应的分类
+    const category = state.siteData.categories.find(c => c.categoryId === categoryId);
+    if (category) {
+        // 清空该分类的 sites 数组
+        category.sites = [];
+        // 保存数据更改
+        saveNavData(dom.customSelect.dataset.value);
+        // 重新渲染整个页面以更新UI
+        renderNavPage();
+        showAlert(`分类 "${categoryName}" 已被清空。`, '操作成功');
+    } else {
+        // 如果找不到分类，给予错误提示
+        showAlert(`操作失败：找不到分类 (ID: ${categoryId})`, '错误');
+    }
+}
+
 
 // =========================================================================
 // #region 增强搜索逻辑

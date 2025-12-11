@@ -48,6 +48,7 @@
       {"name": "谷歌", "url": "https://www.google.com/search?q=%s", "proxy": true, "desc": "全球最大的搜索引擎，索引全面，技术领先。"},
       {"name": "百度", "url": "https://www.baidu.com/s?wd=%s", "proxy": false, "desc": "全球最大的中文搜索引擎，更懂中国互联网。"},
       {"name": "必应", "url": "https://www.bing.com/search?q=%s&PC=U316&FORM=CHROMN", "proxy": false, "desc": "微软出品，国际版搜索质量高，深度整合 AI 功能。"},
+      {"name": "夸克", "url": "https://quark.sm.cn/s?q=%s", "proxy": false, "desc": "阿里巴巴旗下智能搜索，资源整合能力强。"},
       {"name": "DuckDuckGo", "url": "https://duckduckgo.com/?q=%s", "proxy": true, "desc": "主打隐私保护，承诺不追踪用户数据的搜索引擎。"},
       {"name": "Yandex", "url": "https://yandex.com/search/?text=%s", "proxy": false, "desc": "俄罗斯搜索巨头，擅长图片、地图与本地化内容。"},
       {"name": "搜狗", "url": "https://www.sogou.com/web?query=%s", "proxy": false, "desc": "腾讯旗下，独家支持微信公众号与文章搜索。"},
@@ -60,7 +61,7 @@
       {"name": "秘塔搜索", "url": "https://metaso.cn/?q=%s", "proxy": false, "desc": "无广告的 AI 搜索引擎，提供结构化信息整理。"},
       {"name": "Perplexity", "url": "https://www.perplexity.ai/search?q=%s", "proxy": true, "desc": "结合 GPT 的智能对话式搜索，提供精准引用来源。"},
       {"name": "You.com", "url": "https://you.com/search?q=%s", "proxy": true, "desc": "AI 驱动的问答式搜索，支持插件与多模式信息展示。"},
-      {"name": "ChatGPT Search（实验）", "url": "https://chatgpt.com/?q=%s", "proxy": true, "desc": "OpenAI 新版交互式查询，融合 GPT 结果与网页引用。"}
+      {"name": "ChatGPT Search（实验）", "url": "https://chatgpt.com/?prompt=%s", "proxy": true, "desc": "OpenAI 新版交互式查询，融合 GPT 结果与网页引用。"}
     ],
     "nav": [
       {"name": "刘明野的工具箱", "url": "https://tool.liumingye.cn/search/%s/", "proxy": false, "desc": "老牌实用的在线工具与资源聚合导航。"},
@@ -70,7 +71,6 @@
       {"name": "酷库博客", "url": "https://www.zxki.cn/?keyword=%s", "proxy": false, "desc": "收录工具、软件、效率、资源等综合导航平台。"}
     ],
     "pan_search": [
-      {"name": "夸克", "url": "https://quark.sm.cn/s?q=%s", "proxy": false, "desc": "阿里巴巴旗下智能搜索，资源整合能力强。"},
       {"name": "小云搜", "url": "https://www.yunso.net/index/user/s?wd=%s", "proxy": false, "desc": "专注于百度网盘资源的聚合搜索。"},
       {"name": "学霸盘", "url": "https://www.xuebapan.com/s/%s-1.html", "proxy": false, "desc": "侧重于考研、学习资料的网盘资源搜索。"},
       {"name": "大力盘", "url": "https://www.dalipan.com/#/main/search?keyword=%s&restype=0", "proxy": true, "desc": "专业的网盘资源搜索工具，支持多网盘。"},

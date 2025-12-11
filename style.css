@@ -998,24 +998,4 @@ input:focus, textarea:focus { border-color: var(--primary-solid); }
     .hero-section { padding: 20px 0 40px; }
     .search-input-group { padding: 4px 4px 4px 16px; }
     #search-input { height: 44px; font-size: 16px; }
-    .search-btn-submit { width: 44px; height: 44px; }
-    .category-btn { padding: 4px 12px; font-size: 13px; }
-
-    /* 卡片网格调整 */
-    .card-grid {
-        grid-template-columns: repeat(2, 1fr); /* 手机端强制两列 */
-        gap: 12px;
-    }
-    .card { padding: 12px; }
-    .card-icon-wrapper { width: 32px; height: 32px; margin-right: 10px; }
-    .card-icon { width: 18px; height: 18px; }
-    .card-title { font-size: 13px; }
-    .card-desc { font-size: 11px; -webkit-line-clamp: 2; margin-top: 4px; min-height: 2em; }
-    .proxy-dot { top: 8px; right: 8px; width: 6px; height: 6px; }
-}
-
-/* 动画 */
-@keyframes fadeIn {
-    from { opacity: 0; transform: translateY(-5px); }
-    to { opacity: 1; transform: translateY(0); }
 }
