@@ -99,12 +99,12 @@
 
             <!-- 操作按钮组 -->
             <div class="action-grid">
-                <button id="import-btn" class="icon-btn-text" title="导入">
+                <button id="import-btn" class="icon-btn-text" title="导入书签或json数据源">
                     <!-- SVG: Upload Cloud -->
                     <svg class="icon" viewBox="0 0 24 24"><path d="M4 19H20V12H22V20C22 20.5523 21.5523 21 21 21H3C2.44772 21 2 20.5523 2 20V12H4V19ZM13 9V16H11V9H6L12 3L18 9H13Z" fill="currentColor"></path></svg>
                     <span>导入</span>
                 </button>
-                <button id="export-btn" class="icon-btn-text" title="导出">
+                <button id="export-btn" class="icon-btn-text" title="导出json数据源">
                     <!-- SVG: Download Cloud -->
                     <svg class="icon" viewBox="0 0 24 24"><path d="M4 19H20V12H22V20C22 20.5523 21.5523 21 21 21H3C2.44772 21 2 20.5523 2 20V12H4V19ZM13 9H18L12 15L6 9H11V2H13V9Z" fill="currentColor"></path></svg>
                     <span>导出</span>
@@ -208,7 +208,7 @@
                     </a>
                     <a href="https://github.com/mozillazg/pinyin-data" target="_blank" rel="noopener noreferrer" class="mini-card">
                         <span class="ack-card-title">pinyin-data</span>
-                        <span class="ack-card-subtitle">汉字转拼音</span>
+                        <span class="ack-card-subtitle">汉字转拼音 (已移除)</span>
                     </a>
                     <a href="https://link3.cc/studyship" target="_blank" rel="noopener noreferrer" class="mini-card">
                         <span class="ack-card-title">学习资源船舱</span>
@@ -316,15 +316,30 @@
     </div>
 </div>
 
-<!-- 导入命名模态框 -->
+<!-- 导入命名模态框 (已修改) -->
 <div id="import-name-modal" class="modal-overlay modal-hidden">
     <div class="modal-glass small-modal">
-        <h3>命名数据源</h3>
+        <h3>导入书签</h3>
         <form id="import-name-form" class="modal-form">
+            <!-- 新增: 导入模式选择 -->
+            <div class="form-item import-mode-options">
+                <label>请选择导入方式：</label>
+                <div class="radio-option">
+                    <input type="radio" id="import-mode-new" name="import-mode" value="new-source" checked>
+                    <label for="import-mode-new">作为新的数据源</label>
+                </div>
+                <div class="radio-option">
+                    <input type="radio" id="import-mode-merge" name="import-mode" value="merge-to-custom">
+                    <label for="import-mode-merge">全部添加到当前“我的导航”分类</label>
+                </div>
+            </div>
+
+            <!-- 命名输入框 -->
             <div class="form-item">
                 <input type="text" id="import-name-input" required placeholder="例如：我的工作台">
                 <p id="import-name-error" class="error-msg"></p>
             </div>
+
             <div class="modal-footer">
                 <button type="button" id="cancel-import-name-btn" class="btn-ghost">取消</button>
                 <button type="submit" class="btn-primary-glass">确认</button>
@@ -348,7 +363,7 @@
 </div>
 
 <!-- 脚本加载 -->
-<script src="./js/pinyinManager.js"></script>
+<!-- 移除：<script src="./js/pinyinManager.js"></script> -->
 <script type="module" src="./js/main.js"></script>
 
 </body>

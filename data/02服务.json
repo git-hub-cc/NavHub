@@ -980,6 +980,13 @@
       "categoryId": "ruanjianxiazaiyupojieziyuan",
       "sites": [
         {
+          "title": "小众软件",
+          "url": "https://www.appinn.com/",
+          "icon": "img/b71efdc68de12a889b97c99c54fd7087.webp",
+          "desc": "分享免费、小巧、实用、有趣、绿色的软件。",
+          "proxy": false
+        },
+        {
           "title": "MSDN, I tell you",
           "url": "https://msdn.itellyou.cn/",
           "icon": "img/17dc68832fc6b61141e0dfc0c390dd93.webp",
@@ -1419,6 +1426,34 @@
       "categoryId": "yingshiguankanyuzimu",
       "sites": [
         {
+          "title": "在线影视网站汇总",
+          "url": "https://iui.su/531/",
+          "icon": "img/a503d6ef505999c2cad181724f9db22b.webp",
+          "desc": "一个收集了多个在线影视网站的导航页。",
+          "proxy": false
+        },
+        {
+          "title": "7080影视搜",
+          "url": "https://7080.wang/",
+          "icon": "",
+          "desc": "🥈影视资源搜索引擎，怀旧影片较多。",
+          "proxy": false
+        },
+        {
+          "title": "森林影视",
+          "url": "https://www.549.tv/",
+          "icon": "img/6a11d0a11dc171f8432601a5b88b75ca.webp",
+          "desc": "优质影视导航站，影视App、电视盒子、影视在线、下载等站点均有收录",
+          "proxy": true
+        },
+        {
+          "title": "影搜",
+          "url": "https://xn--p3tv7h.com/",
+          "icon": "",
+          "desc": "🥇简洁高效的影视资源搜索引擎。",
+          "proxy": false
+        },
+        {
           "title": "奈非Pro",
           "url": "https://hezu.pro/m/?rid=98idf",
           "icon": "img/696abc50b3d8314af89e81014c9e2ed0.webp",
@@ -1459,13 +1494,6 @@
           "icon": "img/33281cd6428d575bd0f171ec9aee283e.webp",
           "desc": "海量电影高清截图网站，是学习光影和氛围的绝佳素材库。",
           "proxy": true
-        },
-        {
-          "title": "菜鸟工具",
-          "url": "https://www.jyshare.com/",
-          "icon": "img/c1d2e341ecece16d41ffc910e934370d.webp",
-          "desc": "菜鸟教程出品的在线工具箱，包含各种开发和常用工具。",
-          "proxy": false
         },
         {
           "title": "SuSu's Share",
@@ -2305,13 +2333,6 @@
           "proxy": false
         },
         {
-          "title": "清华九歌（诗歌）",
-          "url": "https://jiuge.thunlp.org/",
-          "icon": "img/a60263561759aaf62cb3838863cdac47.webp",
-          "desc": "清华大学自然语言处理实验室开发的AI诗歌写作系统。",
-          "proxy": false
-        },
-        {
           "title": "免费AI论文解读/翻译",
           "url": "https://baoyueai.com/channel?utm_id=228200%20",
           "icon": "img/186250333695e0a9836248469f7754f6.webp",
@@ -2623,6 +2644,13 @@
       "categoryName": "🛠️ 开发者与技术资讯",
       "categoryId": "kaifazheyujishuzixun",
       "sites": [
+        {
+          "title": "编程导航",
+          "url": "https://www.codefather.cn/",
+          "icon": "img/d251904a1fe3dc3fc07f75c402e10337.webp",
+          "desc": "为程序员和开发者提供的资源导航。",
+          "proxy": false
+        },
         {
           "title": "Cobalt",
           "url": "https://cobalt.tools/",
@@ -3580,6 +3608,13 @@
           "proxy": false
         },
         {
+          "title": "清华九歌（诗歌）",
+          "url": "https://jiuge.thunlp.org/",
+          "icon": "img/a60263561759aaf62cb3838863cdac47.webp",
+          "desc": "清华大学自然语言处理实验室开发的AI诗歌写作系统。",
+          "proxy": false
+        },
+        {
           "title": "全景故宫",
           "url": "https://pano.dpm.org.cn/",
           "icon": "img/f0ce79f5658b40401b8b2263284f9cb5.webp",
@@ -3699,45 +3734,10 @@
           "proxy": false
         },
         {
-          "title": "小众软件",
-          "url": "https://www.appinn.com/",
-          "icon": "img/b71efdc68de12a889b97c99c54fd7087.webp",
-          "desc": "分享免费、小巧、实用、有趣、绿色的软件。",
-          "proxy": false
-        },
-        {
-          "title": "森林影视",
-          "url": "https://www.549.tv/",
-          "icon": "img/6a11d0a11dc171f8432601a5b88b75ca.webp",
-          "desc": "优质影视导航站，影视App、电视盒子、影视在线、下载等站点均有收录",
-          "proxy": true
-        },
-        {
-          "title": "影搜",
-          "url": "https://xn--p3tv7h.com/",
-          "icon": "",
-          "desc": "🥇简洁高效的影视资源搜索引擎。",
-          "proxy": false
-        },
-        {
           "title": "addog",
           "url": "https://www.addog.vip/",
           "icon": "img/497ddc672d34101a19d32f96e620c41f.webp",
           "desc": "为新媒体人、广告人打造的网址导航。",
-          "proxy": false
-        },
-        {
-          "title": "7080影视搜",
-          "url": "https://7080.wang/",
-          "icon": "",
-          "desc": "🥈影视资源搜索引擎，怀旧影片较多。",
-          "proxy": false
-        },
-        {
-          "title": "编程导航",
-          "url": "https://www.codefather.cn/",
-          "icon": "img/d251904a1fe3dc3fc07f75c402e10337.webp",
-          "desc": "为程序员和开发者提供的资源导航。",
           "proxy": false
         },
         {
@@ -3766,13 +3766,6 @@
           "url": "https://ruby-china.org/sites",
           "icon": "img/29699004166382d7db0f2ce96c44df50.webp",
           "desc": "由Ruby China社区成员分享的酷站导航。",
-          "proxy": false
-        },
-        {
-          "title": "在线影视网站汇总",
-          "url": "https://iui.su/531/",
-          "icon": "img/a503d6ef505999c2cad181724f9db22b.webp",
-          "desc": "一个收集了多个在线影视网站的导航页。",
           "proxy": false
         },
         {

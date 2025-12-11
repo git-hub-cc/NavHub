@@ -1,14 +1,16 @@
 // =========================================================================
-// ui.js - UI管理器 (重构版 - 性能优化)
+// ui.js - UI管理器 (重构版 - 移除拼音依赖)
+// 职责: 管理和渲染所有用户界面元素、处理UI事件、显示模态框等。
 // =========================================================================
 
 import { state, CUSTOM_CATEGORY_ID, DEFAULT_SITES_PATH, NAV_DATA_SOURCE_PREFERENCE_KEY, getProxyMode } from './dataManager.js';
 
 // === DOM 元素缓存 ===
+// 缓存所有需要操作的DOM元素，避免重复查询，提高性能。
 export const dom = {
     // 基础布局
     darkModeSwitch: document.getElementById('dark-mode-switch'),
-    proxyModeSwitch: document.getElementById('proxy-mode-switch'), // 【新增】代理模式开关
+    proxyModeSwitch: document.getElementById('proxy-mode-switch'),
     categoryList: document.querySelector('.category-list'),
     contentWrapper: document.getElementById('content-wrapper'),
     // 侧边栏滚动区域，用于事件隔离
@@ -36,6 +38,9 @@ export const dom = {
     importNameInput: document.getElementById('import-name-input'),
     importNameError: document.getElementById('import-name-error'),
     cancelImportNameBtn: document.getElementById('cancel-import-name-btn'),
+    // 新增: 导入模式单选按钮
+    importModeNewRadio: document.getElementById('import-mode-new'),
+    importModeMergeRadio: document.getElementById('import-mode-merge'),
 
     // 网站编辑模态框
     siteModal: document.getElementById('site-modal'),
@@ -44,7 +49,7 @@ export const dom = {
     cancelBtn: document.getElementById('cancel-btn'),
     siteIdInput: document.getElementById('site-id'),
     categoryIdInput: document.getElementById('category-id'),
-    siteCategoryNameInput: document.getElementById('site-category-name'), // 分类名称显示框
+    siteCategoryNameInput: document.getElementById('site-category-name'),
     siteUrlInput: document.getElementById('site-url'),
     siteTitleInput: document.getElementById('site-title'),
     siteIconInput: document.getElementById('site-icon'),
@@ -70,7 +75,9 @@ export const dom = {
 // #region 移动端侧边栏控制
 // =========================================================================
 
-/** 切换移动端侧边栏状态 */
+/**
+ * 切换移动端侧边栏的显示/隐藏状态。
+ */
 export function toggleMobileSidebar() {
     const isOpen = dom.sidebar.classList.contains('open');
     if (isOpen) {
@@ -82,7 +89,9 @@ export function toggleMobileSidebar() {
     }
 }
 
-/** 关闭移动端侧边栏 */
+/**
+ * 强制关闭移动端侧边栏。
+ */
 export function closeMobileSidebar() {
     dom.sidebar.classList.remove('open');
     dom.sidebarOverlay.classList.remove('visible');
@@ -92,14 +101,31 @@ export function closeMobileSidebar() {
 // #region 模态框与对话框
 // =========================================================================
 
+/**
+ * 显示一个指定的模态框元素。
+ * @param {HTMLElement} modalElement - 要显示的模态框。
+ */
 function showModal(modalElement) {
-    modalElement.classList.remove('modal-hidden');
+    if (modalElement) modalElement.classList.remove('modal-hidden');
 }
 
+/**
+ * 隐藏一个指定的模态框元素。
+ * @param {HTMLElement} modalElement - 要隐藏的模态框。
+ */
 function hideModal(modalElement) {
-    modalElement.classList.add('modal-hidden');
+    if (modalElement) modalElement.classList.add('modal-hidden');
 }
 
+/**
+ * 显示一个通用的对话框（警告/确认），并返回一个 Promise。
+ * @param {object} options - 对话框配置。
+ * @param {string} options.title - 对话框标题。
+ * @param {string} options.message - 对话框消息内容。
+ * @param {string} options.okText - 确认按钮的文本。
+ * @param {string|null} options.cancelText - 取消按钮的文本，如果为null则不显示。
+ * @returns {Promise<boolean>} - 用户点击确认返回 true，否则返回 false。
+ */
 function _showDialog(options) {
     return new Promise(resolve => {
         dom.alertConfirmTitle.textContent = options.title;
@@ -111,22 +137,25 @@ function _showDialog(options) {
         ];
         const listeners = [];
 
+        // 清理函数，用于移除监听器并解决Promise
         const cleanup = (result) => {
             hideModal(dom.alertConfirmModal);
             listeners.forEach(({ el, type, handler }) => el.removeEventListener(type, handler));
             resolve(result);
         };
 
+        // 点击模态框背景层时，视为取消
         const overlayHandler = (e) => { if (e.target === dom.alertConfirmModal) cleanup(false); };
         dom.alertConfirmModal.addEventListener('click', overlayHandler);
         listeners.push({ el: dom.alertConfirmModal, type: 'click', handler: overlayHandler });
 
+        // 为按钮绑定一次性点击事件
         buttons.forEach(btnConfig => {
             btnConfig.el.textContent = btnConfig.text;
             btnConfig.el.style.display = btnConfig.style;
             if (btnConfig.text) {
                 const handler = () => cleanup(btnConfig.value);
-                btnConfig.el.addEventListener('click', handler);
+                btnConfig.el.addEventListener('click', handler, { once: true });
                 listeners.push({ el: btnConfig.el, type: 'click', handler });
             }
         });
@@ -135,10 +164,22 @@ function _showDialog(options) {
     });
 }
 
+/**
+ * 显示一个警告框。
+ * @param {string} message - 警告消息。
+ * @param {string} [title='提示'] - 警告框标题。
+ * @returns {Promise<boolean>}
+ */
 export function showAlert(message, title = '提示') {
     return _showDialog({ title, message, okText: '确认', cancelText: null });
 }
 
+/**
+ * 显示一个确认框。
+ * @param {string} message - 确认消息。
+ * @param {string} [title='请确认'] - 确认框标题。
+ * @returns {Promise<boolean>}
+ */
 export function showConfirm(message, title = '请确认') {
     return _showDialog({ title, message, okText: '确认', cancelText: '取消' });
 }
@@ -147,6 +188,10 @@ export function showConfirm(message, title = '请确认') {
 // #region 核心UI渲染
 // =========================================================================
 
+/**
+ * 应用并持久化主题设置。
+ * @param {'dark' | 'light'} theme - 要应用的主题。
+ */
 export function applyTheme(theme) {
     document.documentElement.setAttribute('data-theme', theme);
     localStorage.setItem('theme-preference', theme);
@@ -154,21 +199,24 @@ export function applyTheme(theme) {
 }
 
 /**
- * 【新增】应用代理显示模式状态
- * 切换 documentElement 的属性，触发 CSS 显隐规则
+ * 应用代理显示模式，通过切换HTML根元素的属性来触发CSS规则。
+ * @param {boolean} isProxyOn - 代理模式是否开启。
  */
 export function applyProxyMode(isProxyOn) {
     document.documentElement.setAttribute('data-proxy-mode', String(isProxyOn));
     if (dom.proxyModeSwitch) dom.proxyModeSwitch.checked = isProxyOn;
 }
 
+/**
+ * 填充数据源下拉选择器，并设置当前选中的项。
+ */
 export function populateDataSourceSelector() {
     if (!dom.customSelect) return;
 
     const selectedIdentifier = localStorage.getItem(NAV_DATA_SOURCE_PREFERENCE_KEY) || DEFAULT_SITES_PATH;
-    let selectedText = '默认数据';
+    let selectedText = '服务'; // 默认值
 
-    dom.customSelectOptions.innerHTML = '';
+    dom.customSelectOptions.innerHTML = ''; // 清空旧选项
     state.allSiteDataSources.forEach(source => {
         const option = document.createElement('div');
         option.className = 'custom-select-option';
@@ -189,21 +237,28 @@ export function populateDataSourceSelector() {
     updateDeleteButtonState();
 }
 
+/**
+ * 更新“删除数据源”按钮的可用状态和样式。
+ */
 export function updateDeleteButtonState() {
     if (!dom.deleteSourceBtn || !dom.customSelect) return;
     const selectedIdentifier = dom.customSelect.dataset.value;
     const source = state.allSiteDataSources.find(s => (s.path || s.name) === selectedIdentifier);
-    dom.deleteSourceBtn.disabled = !source || !!source.path;
-    // 视觉上也置灰
-    dom.deleteSourceBtn.style.opacity = (!source || !!source.path) ? '0.5' : '1';
-    dom.deleteSourceBtn.style.pointerEvents = (!source || !!source.path) ? 'none' : 'auto';
+    const isDisabled = !source || !!source.path; // 内置数据源（有path）不可删除
+
+    dom.deleteSourceBtn.disabled = isDisabled;
+    dom.deleteSourceBtn.style.opacity = isDisabled ? '0.5' : '1';
+    dom.deleteSourceBtn.style.pointerEvents = isDisabled ? 'none' : 'auto';
 }
 
+/**
+ * 渲染整个导航页面，包括侧边栏和主内容区。
+ */
 export function renderNavPage() {
-    // 使用 DocumentFragment 批量插入，减少回流
     const sidebarFragment = document.createDocumentFragment();
     const contentFragment = document.createDocumentFragment();
 
+    // 清空现有内容
     dom.categoryList.innerHTML = '';
     dom.contentWrapper.innerHTML = '';
 
@@ -212,13 +267,13 @@ export function renderNavPage() {
     const isCustomSource = currentSource && !currentSource.path;
 
     state.siteData.categories.forEach(category => {
-        // 1. 生成侧边栏链接 (Fragment)
+        // 1. 生成侧边栏链接
         const categoryLink = document.createElement('a');
         categoryLink.href = `#${category.categoryId}`;
-        categoryLink.innerHTML = `<i class="ri-folder-3-line" style="margin-right:8px;font-size:16px;"></i> ${category.categoryName}`;
+        categoryLink.innerHTML = ` ${category.categoryName}`;
         sidebarFragment.appendChild(categoryLink);
 
-        // 2. 生成主内容分类区块 (Fragment)
+        // 2. 生成主内容分类区块
         const section = document.createElement('section');
         section.id = category.categoryId;
         section.className = 'category-section';
@@ -229,17 +284,16 @@ export function renderNavPage() {
 
         const isEditable = isCustomSource || category.categoryId === CUSTOM_CATEGORY_ID;
 
+        // 如果是自定义数据源或“我的导航”分类，则添加编辑/删除按钮
         if (isEditable) {
             section.classList.add('custom-source-section');
             actionsHTML = `
                 <div class="title-actions">
-                    <button class="action-btn add-site-btn" 
-                        data-category-id="${category.categoryId}" 
-                        data-category-name="${category.categoryName}">
-                        <i class="ri-add-line"></i> 新增
+                    <button class="action-btn add-site-btn" data-category-id="${category.categoryId}" data-category-name="${category.categoryName}">
+                        <svg class="icon" viewBox="0 0 24 24"><path d="M11 11V5H13V11H19V13H13V19H11V13H5V11H11Z" fill="currentColor"></path></svg> 新增
                     </button>
-                    <button id="edit-site-btn" class="action-btn"><i class="ri-edit-line"></i> 编辑</button>
-                    <button id="delete-site-btn" class="action-btn" style="color:var(--danger)"><i class="ri-delete-bin-line"></i> 删除</button>
+                    <button id="edit-site-btn" class="action-btn"><svg class="icon" viewBox="0 0 24 24"><path d="M12.8995 6.85453L17.1421 11.0972L7.24264 20.9967H3V16.754L12.8995 6.85453ZM14.3137 5.44032L16.435 3.319C16.8256 2.92848 17.4587 2.92848 17.8492 3.319L20.6777 6.14743C21.0682 6.53795 21.0682 7.17112 20.6777 7.56164L18.5563 9.68296L14.3137 5.44032Z" fill="currentColor"></path></svg> 编辑</button>
+                    <button id="delete-site-btn" class="action-btn" style="color:var(--danger)"><svg class="icon" viewBox="0 0 24 24"><path d="M17 6H22V8H20V21C20 21.5523 19.5523 22 19 22H5C4.44772 22 4 21.5523 4 21V8H2V6H7V3C7 2.44772 7.44772 2 8 2H16C16.5523 2 17 2.44772 17 3V6ZM18 8H6V20H18V8ZM9 11H11V17H9V11ZM13 11H15V17H13V11ZM9 4V6H15V4H9Z" fill="currentColor"></path></svg> 删除</button>
                 </div>
             `;
         }
@@ -249,9 +303,7 @@ export function renderNavPage() {
         const cardGrid = document.createElement('div');
         cardGrid.className = 'card-grid';
 
-        // 性能优化重点：
-        // 1. 使用数组 map + join 拼接所有 HTML 字符串，避免在循环中反复操作 innerHTML
-        // 2. 一次性插入到 cardGrid 中
+        // 使用 map + join 批量生成HTML字符串，然后一次性插入，以提高性能
         const cardsHTML = category.sites.map(site => createCardHTML(site, isEditable)).join('');
         cardGrid.innerHTML = cardsHTML;
 
@@ -260,55 +312,40 @@ export function renderNavPage() {
         contentFragment.appendChild(section);
     });
 
-    // 最后一次性将 Fragment 挂载到 DOM
+    // 将生成的文档片段一次性挂载到DOM树
     dom.categoryList.appendChild(sidebarFragment);
     dom.contentWrapper.appendChild(contentFragment);
 
+    // 重新绑定侧边栏链接的平滑滚动和高亮逻辑
     setupSidebarLinks();
 }
 
 /**
- * 创建单个网站卡片的HTML
- * @param {object} site - 网站数据对象
- * @param {boolean} isEditable - 该卡片所属区域是否可编辑
+ * 根据网站数据对象创建单个卡片的HTML字符串。
+ * @param {object} site - 网站数据对象。
+ * @param {boolean} isEditable - 该卡片所属区域是否可编辑。
+ * @returns {string} - 生成的HTML字符串。
  */
 function createCardHTML(site, isEditable) {
     const defaultIcon = 'data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22%3E%3Ctext y=%22.9em%22 font-size=%2290%22%3E🌐%3C/text%3E%3C/svg%3E';
     const iconUrl = site.icon || defaultIcon;
     const proxyBadge = site.proxy ? '<div class="proxy-dot" title="需代理"></div>' : '';
 
-    // 如果没有加载 pinyinManager，使用空字符串作为后备，防止报错
-    const titlePinyin = (window.pinyinManager && typeof window.pinyinManager.convert === 'function')
-        ? window.pinyinManager.convert(site.title)
-        : { full: '', initials: '' };
-
-    const descPinyin = (window.pinyinManager && typeof window.pinyinManager.convert === 'function')
-        ? window.pinyinManager.convert(site.desc || '')
-        : { full: '', initials: '' };
-
     const editOverlay = isEditable ? `
         <div class="card-overlay-edit">
-            <i class="ri-drag-move-2-line icon-drag"></i>
-            <i class="ri-delete-bin-7-line icon-delete"></i>
+            <svg class="icon icon-drag" viewBox="0 0 24 24"><path d="M18 11V8L22 12L18 16V13H13V18H16L12 22L8 18H11V13H6V16L2 12L6 8V11H11V6H8L12 2L16 6H13V11H18Z" fill="currentColor"></path></svg>
+            <svg class="icon icon-delete" viewBox="0 0 24 24"><path d="M17 6H22V8H20V21C20 21.5523 19.5523 22 19 22H5C4.44772 22 4 21.5523 4 21V8H2V6H7V3C7 2.44772 7.44772 2 8 2H16C16.5523 2 17 2.44772 17 3V6ZM18 8H6V20H18V8ZM9 11H11V17H9V11ZM13 11H15V17H13V11ZM9 4V6H15V4H9Z" fill="currentColor"></path></svg>
         </div>
     ` : '';
 
-    // 【关键修改】添加 data-proxy 属性，配合 CSS 实现开关控制显隐
     const proxyAttr = site.proxy ? 'data-proxy="true"' : 'data-proxy="false"';
 
-    /*
-     * 性能优化重点：
-     * 添加 loading="lazy" 属性，启用原生懒加载。
-     * 这对于包含大量图片的页面至关重要，能显著减少首屏网络请求阻塞。
-     */
     return `
         <div class="card"
              ${proxyAttr}
              data-id="${site.id}"
              data-url="${site.url}"
-             data-pinyin-full="${titlePinyin.full} ${descPinyin.full}"
-             data-pinyin-initials="${titlePinyin.initials} ${descPinyin.initials}"
-             draggable="false">
+             draggable="${isEditable ? 'true' : 'false'}">
             ${proxyBadge}
             ${editOverlay}
             
@@ -322,6 +359,9 @@ function createCardHTML(site, isEditable) {
         </div>`;
 }
 
+/**
+ * 为侧边栏链接设置平滑滚动和滚动监听高亮。
+ */
 export function setupSidebarLinks() {
     const links = dom.categoryList.querySelectorAll('a');
     links.forEach(link => {
@@ -329,7 +369,7 @@ export function setupSidebarLinks() {
             e.preventDefault();
             const targetElement = document.querySelector(this.getAttribute('href'));
             if (targetElement) {
-                const headerOffset = 80; // 留出头部空间
+                const headerOffset = 80; // 为移动端顶部导航栏留出空间
                 const elementPosition = targetElement.getBoundingClientRect().top;
                 const offsetPosition = elementPosition + window.pageYOffset - headerOffset;
 
@@ -346,6 +386,9 @@ export function setupSidebarLinks() {
     });
 
     const sections = document.querySelectorAll('.category-section');
+    if (sections.length === 0) return;
+
+    // 使用 IntersectionObserver 监听滚动，实现侧边栏链接高亮
     const observer = new IntersectionObserver(entries => {
         entries.forEach(entry => {
             if (entry.isIntersecting) {
@@ -356,7 +399,7 @@ export function setupSidebarLinks() {
                 }
             }
         });
-    }, { rootMargin: "-20% 0px -60% 0px" });
+    }, { rootMargin: "-20% 0px -60% 0px" }); // 调整视窗范围，优化高亮时机
     sections.forEach(section => observer.observe(section));
 }
 
@@ -364,6 +407,9 @@ export function setupSidebarLinks() {
 // #region 搜索相关UI
 // =========================================================================
 
+/**
+ * 渲染搜索类别按钮。
+ */
 export function renderSearchCategories() {
     dom.searchCategoryButtonsContainer.innerHTML = '';
     state.searchConfig.categories.forEach((cat, index) => {
@@ -377,18 +423,15 @@ export function renderSearchCategories() {
 }
 
 /**
- * 【修改】渲染搜索引擎复选框，增加代理过滤逻辑
+ * 渲染指定类别的搜索引擎复选框，并根据代理模式进行过滤。
+ * @param {string} currentSearchCategory - 当前选中的搜索类别值。
  */
 export function renderEngineCheckboxes(currentSearchCategory) {
     dom.searchEngineCheckboxesContainer.innerHTML = '';
-
-    // 获取原始引擎列表
     let engines = state.searchConfig.engines[currentSearchCategory] || [];
 
-    // 【关键】检查代理模式状态
     const showProxy = getProxyMode();
-
-    // 如果开关关闭，过滤掉 proxy 为 true 的引擎
+    // 如果代理开关关闭，则过滤掉需要代理的搜索引擎
     if (!showProxy) {
         engines = engines.filter(engine => !engine.proxy);
     }
@@ -396,16 +439,26 @@ export function renderEngineCheckboxes(currentSearchCategory) {
     engines.forEach((engine, index) => {
         const label = document.createElement('label');
         label.className = 'engine-checkbox';
+        // 【关键修改】将搜索引擎的描述(desc)作为 title 属性，实现悬浮提示
+        if (engine.desc) {
+            label.title = engine.desc;
+        }
+
         const checkbox = document.createElement('input');
         checkbox.type = 'checkbox';
         checkbox.value = engine.url;
-        checkbox.checked = (index === 0);
+        checkbox.checked = (index === 0); // 默认选中第一个
+
         label.appendChild(checkbox);
         label.appendChild(document.createTextNode(` ${engine.name}`));
         dom.searchEngineCheckboxesContainer.appendChild(label);
     });
 }
 
+/**
+ * 渲染搜索建议下拉列表。
+ * @param {string[]} suggestions - 建议词条数组。
+ */
 export function renderSuggestions(suggestions) {
     dom.suggestionsList.innerHTML = '';
     if (suggestions.length > 0) {
@@ -421,10 +474,15 @@ export function renderSuggestions(suggestions) {
     }
 }
 
+/**
+ * 根据搜索查询过滤导航卡片的显示。
+ * @param {string} query - 用户的搜索输入。
+ */
 export function filterNavCards(query) {
     const searchTerm = query.toLowerCase().trim();
     const sections = document.querySelectorAll('.category-section');
 
+    // 如果搜索词为空，则显示所有内容
     if (searchTerm === '') {
         sections.forEach(section => {
             section.style.display = '';
@@ -433,22 +491,24 @@ export function filterNavCards(query) {
         return;
     }
 
+    // 遍历每个分类区块
     sections.forEach(section => {
         let visibleCardsInSection = 0;
         const cards = section.querySelectorAll('.card');
+        // 遍历区块内的每个卡片
         cards.forEach(card => {
             const title = card.querySelector('.card-title').textContent.toLowerCase();
             const desc = card.querySelector('.card-desc').textContent.toLowerCase();
             const url = card.dataset.url.toLowerCase();
-            const pinyinFull = card.dataset.pinyinFull || '';
-            const pinyinInitials = card.dataset.pinyinInitials || '';
 
-            const isMatch = title.includes(searchTerm) || desc.includes(searchTerm) || url.includes(searchTerm) || pinyinFull.includes(searchTerm) || pinyinInitials.includes(searchTerm);
+            // 匹配逻辑：标题、描述或URL中包含搜索词
+            const isMatch = title.includes(searchTerm) || desc.includes(searchTerm) || url.includes(searchTerm);
 
             card.style.display = isMatch ? '' : 'none';
             if (isMatch) visibleCardsInSection++;
         });
 
+        // 如果区块内没有可见卡片，则隐藏整个区块
         section.style.display = visibleCardsInSection > 0 ? '' : 'none';
     });
 }
@@ -458,23 +518,18 @@ export function filterNavCards(query) {
 // =========================================================================
 
 /**
- * 打开网站编辑/新增模态框
- * @param {string} mode - 'add' (新增) 或 'edit' (编辑)
- * @param {object|null} site - 编辑模式下传入的网站对象
- * @param {string} categoryId - 【关键】目标分类的ID
- * @param {string} categoryName - 【关键】目标分类的名称 (优先使用此参数，避免ID重复导致查找错误)
+ * 打开网站编辑或新增模态框。
+ * @param {'add' | 'edit'} mode - 模态框的模式。
+ * @param {object|null} site - 编辑模式下要编辑的网站对象。
+ * @param {string} categoryId - 目标分类的ID。
+ * @param {string} [categoryName=''] - 目标分类的名称。
  */
 export function openSiteModal(mode, site = null, categoryId, categoryName = '') {
     dom.siteForm.reset();
-
-    // 1. 设置隐藏的分类ID输入框
     dom.categoryIdInput.value = categoryId || '';
 
-    // 2. 显示分类名称
-    // 优先使用直接传递进来的 categoryName，这最准确。
-    // 如果未传（极少数情况），则回退到使用 ID 查找（可能不准）。
+    // 优先使用传入的 categoryName，如果为空则通过 categoryId 查找
     let displayCategoryName = categoryName;
-
     if (!displayCategoryName && categoryId) {
         const category = state.siteData.categories.find(c => c.categoryId === categoryId);
         if (category) displayCategoryName = category.categoryName;
@@ -496,18 +551,31 @@ export function openSiteModal(mode, site = null, categoryId, categoryName = '') 
     showModal(dom.siteModal);
 }
 
+/**
+ * 关闭网站编辑/新增模态框。
+ */
 export function closeSiteModal() {
     hideModal(dom.siteModal);
 }
 
+/**
+ * 打开导入数据源命名模态框。
+ */
 export function openImportNameModal() {
+    // 每次打开时重置为默认状态
+    dom.importModeNewRadio.checked = true;
+    dom.importNameInput.disabled = false;
     showModal(dom.importNameModal);
     dom.importNameInput.focus();
 }
 
+/**
+ * 关闭导入数据源命名模态框，并重置表单。
+ */
 export function closeImportNameModal() {
     hideModal(dom.importNameModal);
     dom.importNameForm.reset();
+    dom.importNameInput.disabled = false; // 确保输入框在关闭后恢复可用
     dom.importNameError.style.display = 'none';
 }
 
@@ -515,31 +583,42 @@ export function closeImportNameModal() {
 // #region 编辑/删除模式切换
 // =========================================================================
 
+/**
+ * 切换内容区的编辑模式（拖拽排序）。
+ */
 export function toggleEditMode() {
+    // 确保删除模式被关闭
     if (dom.contentWrapper.classList.contains('is-deleting')) {
         toggleDeleteMode();
     }
     const isNowEditing = dom.contentWrapper.classList.toggle('is-editing');
 
+    // 更新所有编辑按钮的状态和文本
     document.querySelectorAll('#edit-site-btn').forEach(btn => {
         btn.classList.toggle('active', isNowEditing);
-        btn.innerHTML = isNowEditing ? '<i class="ri-check-line"></i> 完成' : '<i class="ri-edit-line"></i> 编辑';
+        btn.innerHTML = isNowEditing ? '<svg class="icon" viewBox="0 0 24 24"><path d="M10 15.172L19.192 5.979L20.607 7.393L10 18L3.636 11.636L5.05 10.222L10 15.172Z" fill="currentColor"></path></svg> 完成' : '<svg class="icon" viewBox="0 0 24 24"><path d="M12.8995 6.85453L17.1421 11.0972L7.24264 20.9967H3V16.754L12.8995 6.85453ZM14.3137 5.44032L16.435 3.319C16.8256 2.92848 17.4587 2.92848 17.8492 3.319L20.6777 6.14743C21.0682 6.53795 21.0682 7.17112 20.6777 7.56164L18.5563 9.68296L14.3137 5.44032Z" fill="currentColor"></path></svg> 编辑';
     });
 
+    // 启用或禁用可编辑区域卡片的可拖拽属性
     document.querySelectorAll('.custom-source-section .card').forEach(card => {
         card.draggable = isNowEditing;
     });
 }
 
+/**
+ * 切换内容区的删除模式。
+ */
 export function toggleDeleteMode() {
+    // 确保编辑模式被关闭
     if (dom.contentWrapper.classList.contains('is-editing')) {
         toggleEditMode();
     }
     const isNowDeleting = dom.contentWrapper.classList.toggle('is-deleting');
 
+    // 更新所有删除按钮的状态和文本
     document.querySelectorAll('#delete-site-btn').forEach(btn => {
         btn.classList.toggle('active', isNowDeleting);
-        btn.innerHTML = isNowDeleting ? '<i class="ri-check-line"></i> 完成' : '<i class="ri-delete-bin-line"></i> 删除';
+        btn.innerHTML = isNowDeleting ? '<svg class="icon" viewBox="0 0 24 24"><path d="M10 15.172L19.192 5.979L20.607 7.393L10 18L3.636 11.636L5.05 10.222L10 15.172Z" fill="currentColor"></path></svg> 完成' : '<svg class="icon" viewBox="0 0 24 24"><path d="M17 6H22V8H20V21C20 21.5523 19.5523 22 19 22H5C4.44772 22 4 21.5523 4 21V8H2V6H7V3C7 2.44772 7.44772 2 8 2H16C16.5523 2 17 2.44772 17 3V6ZM18 8H6V20H18V8ZM9 11H11V17H9V11ZM13 11H15V17H13V11ZM9 4V6H15V4H9Z" fill="currentColor"></path></svg> 删除';
     });
 }
 
@@ -562,7 +641,7 @@ export function isolateSidebarScroll() {
             e.preventDefault();
         }
 
-        // 检查是否滚动到底部且仍在向下滚动 (使用一个小的容差值以提高鲁棒性)
+        // 检查是否滚动到底部且仍在向下滚动
         if (scrollTop + clientHeight >= scrollHeight - 1 && deltaY > 0) {
             e.preventDefault();
         }

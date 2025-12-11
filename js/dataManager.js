@@ -10,7 +10,7 @@ export const NAV_DATA_STORAGE_KEY = 'my-awesome-nav-data'; // 用于缓存默认
 export const NAV_DATA_SOURCE_PREFERENCE_KEY = 'nav-data-source-preference'; // 用户最后选择的数据源
 export const NAV_CUSTOM_SOURCES_KEY = 'nav-custom-data-sources'; // 存储所有自定义数据源
 export const NAV_CUSTOM_USER_SITES_KEY = 'nav-user-custom-sites-data'; // 存储“我的导航”数据
-export const PROXY_MODE_KEY = 'proxy-mode-preference'; // 【新增】存储代理模式开关状态
+export const PROXY_MODE_KEY = 'proxy-mode-preference'; // 存储代理模式开关状态
 export const CUSTOM_CATEGORY_ID = 'custom-user-sites'; // “我的导航”分类的固定ID
 export const DEFAULT_SITES_PATH = "data/02服务.json"; // 默认加载的数据源
 

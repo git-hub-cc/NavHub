@@ -862,6 +862,43 @@ input:focus, textarea:focus { border-color: var(--primary-solid); }
 .modal-footer { display: flex; gap: 10px; margin-top: 24px; }
 .center-footer { justify-content: center; }
 
+/* 新增：导入模态框 - 导入模式选择样式 */
+.import-mode-options {
+    margin-bottom: 20px;
+}
+.import-mode-options > label { /* 直接子label，即“请选择导入方式：” */
+    display: block;
+    margin-bottom: 10px;
+    font-size: 14px;
+    font-weight: 500;
+    color: var(--text-secondary);
+}
+.radio-option {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 8px 0;
+}
+.radio-option input[type="radio"] {
+    width: 16px;
+    height: 16px;
+    accent-color: var(--primary-solid);
+    cursor: pointer;
+}
+.radio-option label { /* radio按钮旁边的label */
+    margin-bottom: 0;
+    color: var(--text-primary);
+    cursor: pointer;
+    font-size: 14px;
+}
+/* 新增：命名输入框禁用时的样式 */
+#import-name-input:disabled {
+    background-color: var(--bg-base);
+    opacity: 0.5;
+    cursor: not-allowed;
+}
+
+
 /* ==========================================================================
    8. 底部致谢 (Footer)
    ========================================================================== */

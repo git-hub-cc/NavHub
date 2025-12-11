@@ -1,5 +1,5 @@
 // =========================================================================
-// main.js - 主程序 / 事件协调器 (适配新设计)
+// main.js - 主程序 / 事件协调器 (适配新设计，移除拼音依赖)
 // =========================================================================
 
 import { state, getThemePreference, getProxyMode, setProxyMode, loadAllDataSources, loadSearchConfig, performDataSourceSwitch, saveNavData, findSiteById, DEFAULT_SITES_PATH, NAV_DATA_SOURCE_PREFERENCE_KEY, CUSTOM_CATEGORY_ID } from './dataManager.js';
@@ -17,7 +17,7 @@ let suggestionTimer = null;
 async function init() {
     // 1. 初始化偏好 (主题 + 代理模式)
     applyTheme(getThemePreference());
-    applyProxyMode(getProxyMode()); // 【新增】初始化代理模式显示
+    applyProxyMode(getProxyMode()); // 初始化代理模式显示
 
     loadAllDataSources();
     setupStaticEventListeners();
@@ -28,9 +28,8 @@ async function init() {
 
     await Promise.all([
         performDataSourceSwitch(lastUsedSource, true, onDataSourceSwitchSuccess, onDataSourceSwitchFail),
-        loadSearchConfig(),
-        // 确保 pinyinManager 已加载
-        (window.pinyinManager ? window.pinyinManager.loadMap('data/pinyin-map.json') : Promise.resolve())
+        loadSearchConfig()
+        // 移除: pinyinManager 加载逻辑
     ]);
 
     initEnhancedSearch();
@@ -55,7 +54,7 @@ function setupStaticEventListeners() {
     // 主题切换
     dom.darkModeSwitch.addEventListener('change', () => applyTheme(dom.darkModeSwitch.checked ? 'dark' : 'light'));
 
-    // 【新增】代理模式切换
+    // 代理模式切换
     if (dom.proxyModeSwitch) {
         dom.proxyModeSwitch.addEventListener('change', () => {
             const isChecked = dom.proxyModeSwitch.checked;
@@ -100,6 +99,16 @@ function setupStaticEventListeners() {
     dom.importNameModal.addEventListener('click', e => {
         if (e.target === dom.importNameModal) closeImportNameModal();
     });
+
+    // 新增: 导入模式切换的交互逻辑
+    if (dom.importModeNewRadio && dom.importModeMergeRadio) {
+        dom.importModeNewRadio.addEventListener('change', () => {
+            dom.importNameInput.disabled = false;
+        });
+        dom.importModeMergeRadio.addEventListener('change', () => {
+            dom.importNameInput.disabled = true;
+        });
+    }
 
     // 网站编辑模态框
     dom.siteForm.addEventListener('submit', handleSiteFormSubmit);

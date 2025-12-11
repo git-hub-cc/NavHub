@@ -4,7 +4,7 @@
 // 包括：导出JSON文件、处理文件导入（JSON和HTML书签）、解析HTML书签、管理自定义数据源（新增、删除）。
 // =========================================================================
 
-import { state, getCustomSources, loadAllDataSources, saveNavData, performDataSourceSwitch, CUSTOM_CATEGORY_ID, DEFAULT_SITES_PATH, NAV_DATA_SOURCE_PREFERENCE_KEY } from './dataManager.js';
+import { state, getCustomSources, loadAllDataSources, saveNavData, performDataSourceSwitch, CUSTOM_CATEGORY_ID, DEFAULT_SITES_PATH, NAV_DATA_SOURCE_PREFERENCE_KEY, NAV_CUSTOM_SOURCES_KEY } from './dataManager.js';
 import { dom, showAlert, showConfirm, populateDataSourceSelector, renderNavPage, updateDeleteButtonState, closeImportNameModal, openImportNameModal } from './ui.js';
 
 let pendingImportData = null; // 用于暂存待导入的数据
@@ -25,13 +25,14 @@ export function handleExport() {
     // 导出前，确保所有分类和网站都有ID，保证数据的完整性和可再导入性
     dataToExport.categories.forEach(category => {
         if (!category.categoryId) {
-            category.categoryId = generateCategoryId(category.categoryName);
+            // 注意：这里使用了一个简单的ID生成器，因为我们移除了拼音管理器
+            category.categoryId = `category-${Date.now()}-${Math.random().toString(36).substring(2, 7)}`;
             console.warn(`[Export] 为分类 "${category.categoryName}" 添加了缺失的 categoryId: ${category.categoryId}`);
         }
         if (category.sites && Array.isArray(category.sites)) {
             category.sites.forEach(site => {
                 if (!site.id) {
-                    site.id = `site-${Date.now()}-${Math.random()}`;
+                    site.id = `site-${Date.now()}-${Math.random().toString(36).substring(2, 7)}`;
                     console.warn(`[Export] 为网站 "${site.title}" 添加了缺失的 id: ${site.id}`);
                 }
             });
@@ -39,7 +40,7 @@ export function handleExport() {
     });
 
     // 导出时不应包含任何空的分类，除非它是受保护的“我的导航”
-    dataToExport.categories = dataToExport.categories.filter(c => c.sites.length > 0 || c.categoryId === CUSTOM_CATEGORY_ID);
+    dataToExport.categories = dataToExport.categories.filter(c => (c.sites && c.sites.length > 0) || c.categoryId === CUSTOM_CATEGORY_ID);
 
     const dataStr = JSON.stringify(dataToExport, null, 2);
     const blob = new Blob([dataStr], { type: 'application/json' });
@@ -122,33 +123,67 @@ export function handleFileSelect(event) {
  */
 export function handleImportNameSubmit(e) {
     e.preventDefault();
-    const newName = dom.importNameInput.value.trim();
-    if (!newName || !pendingImportData) return;
+    if (!pendingImportData) return;
 
-    if (state.allSiteDataSources.some(source => source.name === newName)) {
-        dom.importNameError.textContent = '此名称已存在，请换一个。';
-        dom.importNameError.style.display = 'block';
-        return;
-    }
+    const importMode = dom.importNameForm.querySelector('input[name="import-mode"]:checked').value;
 
-    const customSources = getCustomSources();
-    const newCustomSource = {
-        name: newName,
-        data: pendingImportData
-    };
-    customSources.push(newCustomSource);
-    localStorage.setItem('nav-custom-data-sources', JSON.stringify(customSources));
+    if (importMode === 'new-source') {
+        // --- 逻辑分支1: 作为新的数据源导入 ---
+        const newName = dom.importNameInput.value.trim();
+        if (!newName) {
+            dom.importNameError.textContent = '请输入数据源名称。';
+            dom.importNameError.style.display = 'block';
+            return;
+        }
 
-    // 重新加载并刷新UI
-    loadAllDataSources();
+        if (state.allSiteDataSources.some(source => source.name === newName)) {
+            dom.importNameError.textContent = '此名称已存在，请换一个。';
+            dom.importNameError.style.display = 'block';
+            return;
+        }
 
-    // 导入后，立即切换到这个新的数据源
-    performDataSourceSwitch(newName, false, (identifier) => {
-        populateDataSourceSelector(); // 在成功后填充，以保证UI正确
+        const customSources = getCustomSources();
+        const newCustomSource = {
+            name: newName,
+            data: pendingImportData
+        };
+        customSources.push(newCustomSource);
+        localStorage.setItem(NAV_CUSTOM_SOURCES_KEY, JSON.stringify(customSources));
+
+        loadAllDataSources();
+        performDataSourceSwitch(newName, false, (identifier) => {
+            populateDataSourceSelector();
+            renderNavPage();
+            updateDeleteButtonState();
+            localStorage.setItem(NAV_DATA_SOURCE_PREFERENCE_KEY, identifier);
+        });
+
+    } else if (importMode === 'merge-to-custom') {
+        // --- 逻辑分支2: 合并到“我的导航” ---
+        let customCategory = state.siteData.categories.find(c => c.categoryId === CUSTOM_CATEGORY_ID);
+        // 如果当前数据中没有“我的导航”分类，则创建一个
+        if (!customCategory) {
+            customCategory = {
+                categoryName: '我的导航',
+                categoryId: CUSTOM_CATEGORY_ID,
+                sites: []
+            };
+            state.siteData.categories.unshift(customCategory);
+        }
+
+        // 遍历导入的数据，将所有网站追加到“我的导航”中
+        pendingImportData.categories.forEach(importedCategory => {
+            if (importedCategory.sites && importedCategory.sites.length > 0) {
+                customCategory.sites.push(...importedCategory.sites);
+            }
+        });
+
+        // 保存更改并刷新UI
+        const currentSourceIdentifier = dom.customSelect.dataset.value;
+        saveNavData(currentSourceIdentifier);
         renderNavPage();
-        updateDeleteButtonState();
-        localStorage.setItem(NAV_DATA_SOURCE_PREFERENCE_KEY, identifier);
-    });
+        showAlert('书签已成功添加到“我的导航”分类中。', '导入成功');
+    }
 
     closeImportNameModal();
     pendingImportData = null;
@@ -177,15 +212,31 @@ export async function handleDeleteSource() {
     // 从LocalStorage中删除
     const customSources = getCustomSources();
     const updatedCustomSources = customSources.filter(s => s.name !== source.name);
-    localStorage.setItem('nav-custom-data-sources', JSON.stringify(updatedCustomSources));
+    localStorage.setItem(NAV_CUSTOM_SOURCES_KEY, JSON.stringify(updatedCustomSources));
 
     // 重新加载数据源列表并切换到默认数据源
     loadAllDataSources();
     const safeSourcePath = DEFAULT_SITES_PATH;
     localStorage.setItem(NAV_DATA_SOURCE_PREFERENCE_KEY, safeSourcePath);
-    populateDataSourceSelector(); // 更新选择器UI
 
-    performDataSourceSwitch(safeSourcePath, false, () => {
+    // 手动更新选择器UI并执行切换
+    handleDataSourceChange(safeSourcePath);
+}
+
+/**
+ * 辅助函数，用于在删除源后手动触发数据源切换和UI更新。
+ * （此函数在handleDeleteSource中使用，因为performDataSourceSwitch本身不会更新选择器显示）
+ */
+function handleDataSourceChange(newIdentifier) {
+    const option = dom.customSelectOptions.querySelector(`[data-value="${newIdentifier}"]`);
+    if (option) {
+        dom.customSelectSelectedText.textContent = option.textContent;
+        dom.customSelect.dataset.value = newIdentifier;
+        const oldSelected = dom.customSelectOptions.querySelector('.selected');
+        if (oldSelected) oldSelected.classList.remove('selected');
+        option.classList.add('selected');
+    }
+    performDataSourceSwitch(newIdentifier, false, () => {
         renderNavPage();
         updateDeleteButtonState();
     });
@@ -193,35 +244,28 @@ export async function handleDeleteSource() {
 // #endregion
 
 // =========================================================================
-// #region 书签HTML解析助手函数
+// #region 书签HTML解析助手函数 (已移除拼音依赖)
 // =========================================================================
 
 /**
- * 根据分类名称生成一个唯一的、URL友好的ID。
+ * 根据分类名称生成一个唯一的ID。
  * @param {string} name - 分类名称。
  * @returns {string} - 生成的ID。
  */
 function generateCategoryId(name) {
-    // 生成一个简短的唯一后缀 (基于时间戳和随机数)，以确保ID的唯一性
+    // 使用时间戳和随机数生成唯一ID，不依赖拼音转换
     const uniqueSuffix = Date.now().toString(36) + Math.random().toString(36).substring(2, 7);
 
     if (!name || !name.trim()) {
         return `category-untitled-${uniqueSuffix}`;
     }
-    // 依赖全局的 pinyinManager
-    let pinyinName = pinyinManager.convert(name).full;
-    // 将拼音转换为对URL友好的基础ID
-    let baseId = pinyinName
-        .toLowerCase()
+
+    // 将名称简单化处理为基础ID
+    let baseId = name
         .replace(/\s+/g, '-') // 将空格替换为连字符
-        .replace(/[^a-z0-9-]/g, ''); // 移除非字母、数字、连字符的字符
+        .replace(/[^a-zA-Z0-9\u4e00-\u9fa5-]/g, ''); // 移除非中英文字符、数字、连字符
 
-    // 防止处理后 baseId 为空
-    if (!baseId) {
-        baseId = 'category';
-    }
-
-    // 截断过长的ID并拼接唯一后缀，以保持ID的可管理性
+    // 截断过长的ID并拼接唯一后缀
     return `${baseId.substring(0, 50)}-${uniqueSuffix}`;
 }
 
