@@ -1,46 +1,47 @@
 {
   "categories": [
-    {"label": "搜索", "value": "search"},
-    {"label": "AI", "value": "ai"},
-    {"label": "导航", "value": "nav"},
-    {"label": "网盘", "value": "pan_search"},
-    {"label": "磁力", "value": "bt"},
-    {"label": "视频", "value": "video"},
-    {"label": "影视点评", "value": "movie_review"},
-    {"label": "电影", "value": "movie_streaming"},
-    {"label": "动漫番剧", "value": "anime"},
-    {"label": "体育赛事", "value": "sports"},
-    {"label": "纪录片", "value": "documentary"},
-    {"label": "字幕", "value": "subtitles"},
-    {"label": "台词", "value": "quotes"},
-    {"label": "小众音乐", "value": "music"},
-    {"label": "音效", "value": "sound"},
-    {"label": "图片", "value": "image"},
-    {"label": "漫画", "value": "manga"},
-    {"label": "工作", "value": "jobs"},
-    {"label": "电子书", "value": "ebook"},
-    {"label": "工具", "value": "tools"},
-    {"label": "翻译", "value": "translate"},
-    {"label": "地图", "value": "map"},
-    {"label": "消费", "value": "shopping"},
-    {"label": "新闻", "value": "news"},
-    {"label": "游戏", "value": "game"},
-    {"label": "社交", "value": "social"},
-    {"label": "编程", "value": "programming"},
-    {"label": "前端库", "value": "frontend"},
-    {"label": "软件", "value": "software"},
-    {"label": "破解软件", "value": "software_crack"},
-    {"label": "苹果软件", "value": "mac_software"},
-    {"label": "浏览器插件", "value": "extension"},
-    {"label": "设计", "value": "design"},
-    {"label": "素材", "value": "design_assets"},
-    {"label": "表情", "value": "icons_emojis"},
-    {"label": "PPT", "value": "ppt"},
-    {"label": "字体", "value": "font"},
-    {"label": "学术", "value": "academic"},
-    {"label": "问答", "value": "question"},
-    {"label": "医疗", "value": "medical"},
-    {"label": "古籍", "value": "ancient_text"}
+    {"label": "🔍 搜索", "value": "search"},
+    {"label": "🤖 AI", "value": "ai"},
+    {"label": "🧭 导航", "value": "nav"},
+    {"label": "🗂️ 网盘", "value": "pan_search"},
+    {"label": "🧲 磁力", "value": "bt"},
+    {"label": "📺 视频", "value": "video"},
+    {"label": "🎬 影视点评", "value": "movie_review"},
+    {"label": "🎞️ 电影", "value": "movie_streaming"},
+    {"label": "📚 动漫番剧", "value": "anime"},
+    {"label": "🏅 体育赛事", "value": "sports"},
+    {"label": "🎥 纪录片", "value": "documentary"},
+    {"label": "💬 字幕", "value": "subtitles"},
+    {"label": "📝 台词", "value": "quotes"},
+    {"label": "🎧 小众音乐", "value": "music"},
+    {"label": "🔊 音效", "value": "sound"},
+    {"label": "🖼️ 图片", "value": "image"},
+    {"label": "📖 漫画", "value": "manga"},
+    {"label": "💼 工作", "value": "jobs"},
+    {"label": "📘 电子书", "value": "ebook"},
+    {"label": "🛠️ 工具", "value": "tools"},
+    {"label": "🌐 翻译", "value": "translate"},
+    {"label": "🗺️ 地图", "value": "map"},
+    {"label": "🛒 消费", "value": "shopping"},
+    {"label": "📰 新闻", "value": "news"},
+    {"label": "🎮 游戏", "value": "game"},
+    {"label": "💬 社交", "value": "social"},
+    {"label": "📚 百科", "value": "encyclopedia"},
+    {"label": "💻 编程", "value": "programming"},
+    {"label": "🧩 前端库", "value": "frontend"},
+    {"label": "🖥️ 软件", "value": "software"},
+    {"label": "🔓 破解软件", "value": "software_crack"},
+    {"label": "🍎 苹果软件", "value": "mac_software"},
+    {"label": "🧩 浏览器插件", "value": "extension"},
+    {"label": "🎨 设计", "value": "design"},
+    {"label": "🪄 素材", "value": "design_assets"},
+    {"label": "🔣 Icon", "value": "icons_emojis"},
+    {"label": "📊 PPT", "value": "ppt"},
+    {"label": "🔤 字体", "value": "font"},
+    {"label": "🎓 学术", "value": "academic"},
+    {"label": "❓ 问答", "value": "question"},
+    {"label": "🩺 医疗", "value": "medical"},
+    {"label": "📜 古籍", "value": "ancient_text"}
   ],
   "engines": {
     "search": [
@@ -48,6 +49,7 @@
       {"name": "百度", "url": "https://www.baidu.com/s?wd=%s", "proxy": false, "desc": "全球最大的中文搜索引擎，更懂中国互联网。"},
       {"name": "必应", "url": "https://www.bing.com/search?q=%s&PC=U316&FORM=CHROMN", "proxy": false, "desc": "微软出品，国际版搜索质量高，深度整合 AI 功能。"},
       {"name": "DuckDuckGo", "url": "https://duckduckgo.com/?q=%s", "proxy": true, "desc": "主打隐私保护，承诺不追踪用户数据的搜索引擎。"},
+      {"name": "Yandex", "url": "https://yandex.com/search/?text=%s", "proxy": false, "desc": "俄罗斯搜索巨头，擅长图片、地图与本地化内容。"},
       {"name": "搜狗", "url": "https://www.sogou.com/web?query=%s", "proxy": false, "desc": "腾讯旗下，独家支持微信公众号与文章搜索。"},
       {"name": "360搜索", "url": "https://www.so.com/s?q=%s", "proxy": false, "desc": "侧重安全防护，拦截恶意网站的综合搜索。"},
       {"name": "知乎", "url": "https://www.zhihu.com/search?q=%s", "proxy": false, "desc": "高质量中文问答社区，搜索专业知识与经验分享。"},
@@ -56,19 +58,21 @@
     ],
     "ai": [
       {"name": "秘塔搜索", "url": "https://metaso.cn/?q=%s", "proxy": false, "desc": "无广告的 AI 搜索引擎，提供结构化信息整理。"},
-      {"name": "Perplexity", "url": "https://www.perplexity.ai/search?q=%s", "proxy": true, "desc": "结合 GPT 的智能对话式搜索，提供精准的引用来源。"}
+      {"name": "Perplexity", "url": "https://www.perplexity.ai/search?q=%s", "proxy": true, "desc": "结合 GPT 的智能对话式搜索，提供精准引用来源。"},
+      {"name": "You.com", "url": "https://you.com/search?q=%s", "proxy": true, "desc": "AI 驱动的问答式搜索，支持插件与多模式信息展示。"},
+      {"name": "ChatGPT Search（实验）", "url": "https://chatgpt.com/?q=%s", "proxy": true, "desc": "OpenAI 新版交互式查询，融合 GPT 结果与网页引用。"}
     ],
     "nav": [
-      {"name": "刘明野的工具箱", "url": "https://tool.liumingye.cn/search/%s/", "proxy": true, "desc": "老牌实用的在线工具与资源聚合导航。"},
+      {"name": "刘明野的工具箱", "url": "https://tool.liumingye.cn/search/%s/", "proxy": false, "desc": "老牌实用的在线工具与资源聚合导航。"},
       {"name": "爱达杂货铺", "url": "https://adzhp.cc/?post_type=sites&s=%s", "proxy": false, "desc": "收集各类实用软件、网站资源的综合导航。"},
       {"name": "SBKKO导航", "url": "https://nav.sbkko.com/?post_type=sites&s=%s", "proxy": false, "desc": "专注于收录优质实用网站的极简导航。"},
-      {"name": "gatherfind", "url": "https://www.gatherfind.com/search.php?q=%s", "proxy": false, "desc": "聚合多种搜索源的极简起始页。"}
+      {"name": "gatherfind", "url": "https://www.gatherfind.com/search.php?q=%s", "proxy": false, "desc": "聚合多种搜索源的极简起始页。"},
+      {"name": "酷库博客", "url": "https://www.zxki.cn/?keyword=%s", "proxy": false, "desc": "收录工具、软件、效率、资源等综合导航平台。"}
     ],
     "pan_search": [
       {"name": "夸克", "url": "https://quark.sm.cn/s?q=%s", "proxy": false, "desc": "阿里巴巴旗下智能搜索，资源整合能力强。"},
-      {"name": "维基百科", "url": "https://zh.wikipedia.org/wiki/Special:Search?search=%s", "proxy": true, "desc": "全球协作的自由百科全书，知识查阅首选。"},
-      {"name": "小云搜", "url": "https://www.yunso.net/index/user/s?wd=%s", "proxy": true, "desc": "专注于百度网盘资源的聚合搜索。"},
-      {"name": "学霸盘", "url": "https://www.xuebapan.com/s/%s-1.html", "proxy": true, "desc": "侧重于考研、学习资料的网盘资源搜索。"},
+      {"name": "小云搜", "url": "https://www.yunso.net/index/user/s?wd=%s", "proxy": false, "desc": "专注于百度网盘资源的聚合搜索。"},
+      {"name": "学霸盘", "url": "https://www.xuebapan.com/s/%s-1.html", "proxy": false, "desc": "侧重于考研、学习资料的网盘资源搜索。"},
       {"name": "大力盘", "url": "https://www.dalipan.com/#/main/search?keyword=%s&restype=0", "proxy": true, "desc": "专业的网盘资源搜索工具，支持多网盘。"},
       {"name": "猫狸盘搜", "url": "https://www.alipansou.com/search?k=%s", "proxy": false, "desc": "专注于阿里云盘资源的第三方搜索。"},
       {"name": "大圣盘", "url": "https://www.dashengpan.com/#/main/search?keyword=%s&restype=0", "proxy": false, "desc": "综合性网盘搜索，资源更新较快。"},
@@ -78,18 +82,18 @@
       {"name": "飞猪盘", "url": "https://www.feizhupan.com/#/main/search?keyword=%s&restype=0", "proxy": false, "desc": "支持百度网盘与阿里云盘的资源搜索。"},
       {"name": "熊猫搜盘", "url": "https://www.sopandas.com/e/%s", "proxy": false, "desc": "聚合各类学习、娱乐资源的网盘搜索。"},
       {"name": "夸克小站", "url": "https://pioz.cn/search?q=%s", "proxy": false, "desc": "专门针对夸克网盘资源的分享社区。"},
-      {"name": "小力盘", "url": "https://www.xiaolipan.com/search.html?keyword=%s", "proxy": true, "desc": "界面清爽的网盘资源搜索工具。"},
+      {"name": "小力盘", "url": "https://www.xiaolipan.com/search.html?keyword=%s", "proxy": false, "desc": "界面清爽的网盘资源搜索工具。"},
       {"name": "小宇搜索", "url": "https://xykmovie.com/s/1/%s", "proxy": false, "desc": "综合性资源搜索，支持影视与软件。"},
-      {"name": "混合盘", "url": "https://hunhepan.com/search?q=%s&type=ALY", "proxy": true, "desc": "同时支持阿里云盘、百度盘等多种网盘搜索。"}
+      {"name": "混合盘", "url": "https://hunhepan.com/search?q=%s&type=ALY", "proxy": false, "desc": "同时支持阿里云盘、百度盘等多种网盘搜索。"}
     ],
     "bt": [
-      {"name": "海盗湾_1", "url": "https://thepiratebay11.com/search/%s/1/99/0", "proxy": true, "desc": "全球最著名的老牌 BT 种子搜索网站。"},
-      {"name": "海盗湾_2", "url": "https://thepiratebay10.xyz/search/%s/1/99/0", "proxy": true, "desc": "海盗湾的镜像站点之一，保持资源同步。"},
-      {"name": "RARBG", "url": "https://rargb.to/search/?search=%s", "proxy": true, "desc": "以高质量影视资源著称的种子站（存档查询）。"},
-      {"name": "无极磁链", "url": "https://xcili.net/search?q=%s", "proxy": true, "desc": "索引量大的磁力链接搜索引擎。"},
+      {"name": "海盗湾_1", "url": "https://thepiratebay11.com/search/%s/1/99/0", "proxy": false, "desc": "全球最著名的老牌 BT 种子搜索网站。"},
+      {"name": "海盗湾_2", "url": "https://thepiratebay10.xyz/search/%s/1/99/0", "proxy": false, "desc": "海盗湾的镜像站点之一，保持资源同步。"},
+      {"name": "RARBG", "url": "https://rargb.to/search/?search=%s", "proxy": false, "desc": "以高质量影视资源著称的种子站（存档查询）。"},
+      {"name": "无极磁链", "url": "https://xcili.net/search?q=%s", "proxy": false, "desc": "索引量大的磁力链接搜索引擎。"},
       {"name": "rutracker", "url": "https://rutracker.org/forum/login.php?redirect=tracker.php?nm=%s", "proxy": true, "desc": "俄罗斯最大的资源论坛，无损音乐和冷门资源圣地。"},
       {"name": "katcr", "url": "https://katcr.to/usearch/%s/", "proxy": true, "desc": "Kickass Torrents 的复活或镜像站。"},
-      {"name": "btchichi", "url": "https://tainanle8.btchichi.hair/search.html?name=%s", "proxy": true, "desc": "专注于日语资源的 BT 搜索引擎。"},
+      {"name": "btchichi", "url": "https://tainanle8.btchichi.hair/search.html?name=%s", "proxy": false, "desc": "专注于日语资源的 BT 搜索引擎。"},
       {"name": "东京图书馆", "url": "https://www.tokyotosho.info/search.php?terms=%s", "proxy": true, "desc": "专注于 ACG 资源的发布与索引站。"},
       {"name": "ACG", "url": "https://acg.rip/?term=%s", "proxy": true, "desc": "国内知名的动漫资源 BT 发布站。"}
     ],
@@ -100,38 +104,48 @@
       {"name": "芒果TV", "url": "https://so.mgtv.com/so?k=%s", "proxy": false, "desc": "湖南卫视旗下视频平台，综艺资源丰富。"},
       {"name": "腾讯视频", "url": "https://v.qq.com/x/search/?q=%s", "proxy": false, "desc": "腾讯旗下综合视频平台，独家剧集众多。"},
       {"name": "优酷", "url": "https://www.soku.com/search_video/q_%s", "proxy": false, "desc": "阿里旗下视频平台，经典老剧与独家综艺丰富。"},
+      {"name": "TikTok", "url": "https://www.tiktok.com/search?q=%s", "proxy": true, "desc": "国际版短视频平台，全球流行文化内容聚集地。"},
       {"name": "A站", "url": "https://www.acfun.cn/search/?type=complex&keyword=%s", "proxy": false, "desc": "AcFun，中国弹幕视频网站鼻祖，硬核二次元。"},
       {"name": "Vimeo", "url": "https://vimeo.com/search?q=%s", "proxy": true, "desc": "专注于高清、艺术与创意视频的分享平台。"},
       {"name": "Dailymotion", "url": "https://www.dailymotion.com/search/%s", "proxy": true, "desc": "法国视频分享平台，YouTube 的主要竞品之一。"}
     ],
     "movie_review": [
       {"name": "豆瓣", "url": "https://www.douban.com/search?q=%s", "proxy": false, "desc": "中国最具影响力的书影音评分与评论社区。"},
-      {"name": "IMDb", "url": "https://www.imdb.com/find/?q=%s", "proxy": true, "desc": "全球最大的电影数据库，评分具有国际公信力。"},
-      {"name": "烂番茄", "url": "https://www.rottentomatoes.com/search?search=%s", "proxy": false, "desc": "以新鲜度著称的专业影评聚合网站。"}
+      {"name": "IMDb", "url": "https://www.imdb.com/find/?q=%s", "proxy": false, "desc": "全球最大的电影数据库，评分具有国际公信力。"},
+      {"name": "烂番茄", "url": "https://www.rottentomatoes.com/search?search=%s", "proxy": false, "desc": "以新鲜度著称的专业影评聚合网站。"},
+      {"name": "Metacritic", "url": "https://www.metacritic.com/search/%s/", "proxy": false, "desc": "媒体综合评分网站，对电影、游戏、剧集都有权威评价。"},
+      {"name": "Letterboxd", "url": "https://letterboxd.com/search/%s/", "proxy": false, "desc": "全球影迷聚集地，提供观影记录、影评与片单功能。"},
+      {"name": "CineMaterial", "url": "https://www.cinematerial.com/search?q=%s", "proxy": false, "desc": "全球电影海报资料库，可按片名搜索相关素材。"},
+      {"name": "FilmAffinity", "url": "https://www.filmaffinity.com/en/search.php?stext=%s", "proxy": false, "desc": "西班牙大型电影推荐网站，评分具有区域特色。"},
+      {"name": "AllMovie", "url": "https://www.allmovie.com/search/all/%s", "proxy": false, "desc": "专业电影资料库，提供剧情分析、风格标签与影评。"}
     ],
     "movie_streaming": [
       {"name": "grab4k", "url": "https://grab4k.com/vod/search.html?wd=%s", "proxy": false, "desc": "提供 4K 高清画质的影视资源下载与播放。"},
-      {"name": "修罗影视", "url": "https://v.xlys.ltd.ua/search/%s", "proxy": true, "desc": "资源更新快，播放线路多的在线影院。"},
-      {"name": "爱壹帆", "url": "https://www.iyf.lv/s/-------------/?wd=%s", "proxy": true, "desc": "海外华人常用的高清影视在线观看平台。"},
-      {"name": "泥视频", "url": "https://www.nivod.vip/s/-------------/?wd=%s", "proxy": true, "desc": "针对海外用户的影视平台，加载速度快。"},
-      {"name": "在线之家", "url": "https://www.zxzjhd.com/vodsearch/-------------.html?wd=%s&submit=", "proxy": true, "desc": "主打美剧、韩剧等海外剧集的高清在线看。"},
-      {"name": "Gimy TV 剧迷", "url": "https://gimytv.ai/search/-------------.html?wd=%s", "proxy": true, "desc": "港台地区流行的综合影视剧集网站。"},
+      {"name": "修罗影视", "url": "https://v.xlys.ltd.ua/search/%s", "proxy": false, "desc": "资源更新快，播放线路多的在线影院。"},
+      {"name": "爱壹帆", "url": "https://www.iyf.lv/s/-------------/?wd=%s", "proxy": false, "desc": "海外华人常用的高清影视在线观看平台。"},
+      {"name": "泥视频", "url": "https://www.nivod.vip/s/-------------/?wd=%s", "proxy": false, "desc": "针对海外用户的影视平台，加载速度快。"},
+      {"name": "在线之家", "url": "https://www.zxzjhd.com/vodsearch/-------------.html?wd=%s&submit=", "proxy": false, "desc": "主打美剧、韩剧等海外剧集的高清在线看。"},
+      {"name": "Gimy TV 剧迷", "url": "https://gimytv.ai/search/-------------.html?wd=%s", "proxy": false, "desc": "港台地区流行的综合影视剧集网站。"},
       {"name": "大师兄影视", "url": "https://dsxys.com/sb/kemksmaksdl7nhZe3c1-.html?wd=%s", "proxy": false, "desc": "老牌影视站，资源全且更新及时。"},
-      {"name": "蛋蛋赞影院", "url": "https://www.ppnix.com/search/%s--.html", "proxy": true, "desc": "聚合全网影视资源，智能推荐线路。"},
+      {"name": "蛋蛋赞影院", "url": "https://www.ppnix.com/search/%s--.html", "proxy": false, "desc": "聚合全网影视资源，智能推荐线路。"},
       {"name": "厂长资源", "url": "https://www.czzymovie.com/boss1O1?q=%s", "proxy": false, "desc": "界面简洁，提供高质量在线观看与下载。"},
       {"name": "韩饭网", "url": "https://www.hanfan.cc/?s=%s", "proxy": false, "desc": "专注于韩国娱乐、综艺与韩剧的资讯站。"},
-      {"name": "影猫の仓库", "url": "https://www.ymck.pro/search.html?wd=%s", "proxy": true, "desc": "只有 4K 高清资源的影视下载站。"},
-      {"name": "Azmovies", "url": "https://azmovies.to/search?q=%s", "proxy": true, "desc": "专注于提供高清电影资源的英文网站。"},
+      {"name": "影猫の仓库", "url": "https://www.ymck.pro/search.html?wd=%s", "proxy": false, "desc": "只有 4K 高清资源的影视下载站。"},
+      {"name": "Azmovies", "url": "https://azmovies.to/search?q=%s", "proxy": false, "desc": "专注于提供高清电影资源的英文网站。"},
       {"name": "港剧屋", "url": "https://www.gj5.tv/search/--/?wd=%s&submit=", "proxy": false, "desc": "专门收集最新与经典 TVB 港剧的网站。"},
       {"name": "爱港剧", "url": "https://www.yueyu2.com/search/-------------.html?wd=%s", "proxy": false, "desc": "专注于粤语港剧在线观看的平台。"},
-      {"name": "电影先生", "url": "https://soupian.plus/movie/%s&from=dyxs-search", "proxy": true, "desc": "界面现代，适配多端的在线影视站。"}
+      {"name": "电影先生", "url": "https://soupian.plus/movie/%s&from=dyxs-search", "proxy": false, "desc": "界面现代，适配多端的在线影视站。"}
     ],
     "anime": [
+      {"name": "Bilibili 番剧", "url": "https://www.bilibili.com/search?keyword=%s&from_source=anime", "proxy": false, "desc": "国内最合法的新番、日漫中文正版播放平台。"},
+      {"name": "腾讯视频 动漫", "url": "https://v.qq.com/x/search/?q=%s&stype=0&filter=label%3Danime", "proxy": false, "desc": "提供部分正版日本动漫、动画电影资源。"},
+      {"name": "爱奇艺 动漫", "url": "https://so.iqiyi.com/so/q_%s?source=anime", "proxy": false, "desc": "正版新番、国漫与动画电影合集。"},
+      {"name": "Netflix Anime", "url": "https://www.netflix.com/search?q=%s", "proxy": false, "desc": "全球最大的正版动漫片库之一，拥有大量独家版权。"},
       {"name": "ACFUN", "url": "https://www.acfun.cn/search?keyword=%s", "proxy": false, "desc": "硬核二次元聚集地，拥有众多独家番剧。"},
-      {"name": "樱花动漫", "url": "https://yhdmoe.com/search?q=%s", "proxy": true, "desc": "资源最全的老牌在线动漫网站之一。"},
-      {"name": "嘀哩嘀哩", "url": "https://dilidili.online/search?q=%s", "proxy": true, "desc": "D 站，提供丰富的动漫新番在线观看。"},
-      {"name": "anime1", "url": "https://anime1.cc/search?q=%s", "proxy": true, "desc": "界面极简的动漫站，专注于番剧播放。"},
-      {"name": "搜片", "url": "https://soupian.pro/movie/%s", "proxy": true, "desc": "聚合搜索全网影视与动漫资源。"},
+      {"name": "樱花动漫", "url": "https://yhdmoe.com/search?q=%s", "proxy": false, "desc": "资源最全的老牌在线动漫网站之一。"},
+      {"name": "嘀哩嘀哩", "url": "https://dilidili.online/search?q=%s", "proxy": false, "desc": "D 站，提供丰富的动漫新番在线观看。"},
+      {"name": "anime1", "url": "https://anime1.cc/search?q=%s", "proxy": false, "desc": "界面极简的动漫站，专注于番剧播放。"},
+      {"name": "搜片", "url": "https://soupian.pro/movie/%s", "proxy": false, "desc": "聚合搜索全网影视与动漫资源。"},
       {"name": "许搜", "url": "https://www.xusou.cn/s/%s.html", "proxy": false, "desc": "综合性资源搜索，涵盖动漫与剧集。"},
       {"name": "风车动漫", "url": "https://www.dmla8.com/search/-------------.html?wd=%s", "proxy": false, "desc": "经典的在线动漫观看网站，资源库庞大。"},
       {"name": "Mikan", "url": "https://mikanani.me/Home/Search?searchstr=%s", "proxy": true, "desc": "蜜柑计划，最全的新番 BT 下载索引页。"}
@@ -139,44 +153,61 @@
     "sports": [
       {"name": "虎牙直播", "url": "https://www.huya.com/search?hsk=%s", "proxy": false, "desc": "以游戏直播为主，涵盖各类体育赛事直播。"},
       {"name": "新传宽频", "url": "https://www.zhibo.tv/newsearch?keyword=%s", "proxy": false, "desc": "提供体育赛事导航与直播聚合。"},
-      {"name": "斗鱼", "url": "https://www.douyu.com/search?kw=%s", "proxy": false, "desc": "弹幕式直播分享网站，包含丰富的体育频道。"}
+      {"name": "斗鱼", "url": "https://www.douyu.com/search?kw=%s", "proxy": false, "desc": "弹幕式直播分享网站，包含丰富的体育频道。"},
+      {"name": "ESPN", "url": "https://www.espn.com/search/results?q=%s", "proxy": false, "desc": "全球著名体育媒体，提供新闻、赛果和球员资料。"},
+      {"name": "FIFA", "url": "https://www.fifa.com/en/search?q=%s", "proxy": false, "desc": "国际足联官方网站，提供世界杯及国际赛事信息。"}
     ],
     "documentary": [
-      {"name": "纪录片之家", "url": "https://www.05jl.com/search/%s", "proxy": false, "desc": "专注于收录国内外优秀纪录片的社区。"},
-      {"name": "Top Documentary Films", "url": "https://topdocumentaryfilms.com/search/?s=%s", "proxy": true, "desc": "收集网络上免费合法纪录片的英文站。"},
-      {"name": "Medici TV", "url": "https://www.medici.tv/en/search?q=%s", "proxy": true, "desc": "专注于古典音乐、歌剧与舞蹈的视频平台。"},
-      {"name": "盗火纪录片", "url": "https://docu-lib.com/search/titlesearch/?keyword=%s", "proxy": false, "desc": "收集整理各类具有思想深度的纪录片。"},
-      {"name": "Documentary Storm", "url": "https://www.documentarystorm.com/?s=%s", "proxy": false, "desc": "整理来自各个视频源的免费纪录片。"}
+      {"name": "纪录片之家", "url": "https://www.05jl.com/search/%s", "proxy": false, "desc": "国内最活跃的纪录片交流社区，更新快、资源全。"},
+      {"name": "Top Documentary Films", "url": "https://topdocumentaryfilms.com/search/?s=%s", "proxy": false, "desc": "英文纪录片老牌站点，提供大量免费正版内容。"},
+      {"name": "Medici TV", "url": "https://www.medici.tv/en/search?q=%s", "proxy": false, "desc": "古典音乐、歌剧、芭蕾纪录片与演出最权威平台。"},
+      {"name": "盗火纪录片", "url": "https://docu-lib.com/search/titlesearch/?keyword=%s", "proxy": false, "desc": "深度思想类纪录片收集整理站，有较多稀缺资源。"},
+      {"name": "Documentary Storm", "url": "https://www.documentarystorm.com/?s=%s", "proxy": false, "desc": "免费英文纪录片聚合，分类清晰。"},
+      {"name": "BBC Documentary", "url": "https://www.bbc.co.uk/search?q=%s+documentary", "proxy": true, "desc": "BBC 官方内容搜索入口，涵盖自然、科学及历史纪录片。"},
+      {"name": "NHK Documentary", "url": "https://www3.nhk.or.jp/nhkworld/en/search/?q=%s", "proxy": false, "desc": "NHK World 国际纪录片搜索，日本高质量人文与科技内容。"},
+      {"name": "PBS Documentaries", "url": "https://www.pbs.org/search/?q=%s", "proxy": true, "desc": "美国公共电视 PBS 纪录片资源，关注社会文化议题。"}
     ],
     "subtitles": [
       {"name": "射手网", "url": "https://assrt.net/sub/?searchword=%s", "proxy": false, "desc": "继承了老牌字幕站的数据，资源丰富。"},
       {"name": "CHAOSPACE", "url": "https://www.chaospace.cc/?s=%s", "proxy": false, "desc": "炒饭超空间，简洁的字幕搜索。"},
-      {"name": "奇下载字幕", "url": "https://www.qixiazai.com/s/%s", "proxy": true, "desc": "提供电影、美剧等中文字幕下载。"},
-      {"name": "诸神字幕组", "url": "https://subs.kamigami.org/?s=%s", "proxy": true, "desc": "专注于日剧、动画的高质量双语字幕。"},
-      {"name": "subHD", "url": "https://subhd.tv/search/%s", "proxy": true, "desc": "热门的字幕下载站，支持影视元数据匹配。"}
+      {"name": "奇下载字幕", "url": "https://www.qixiazai.com/s/%s", "proxy": false, "desc": "提供电影、美剧等中文字幕下载。"},
+      {"name": "诸神字幕组", "url": "https://subs.kamigami.org/?s=%s", "proxy": false, "desc": "专注于日剧、动画字幕，质量高。"},
+      {"name": "subHD", "url": "https://subhd.tv/search/%s", "proxy": false, "desc": "热门字幕下载站，支持影视元数据匹配。"},
+      {"name": "Zimuku 字幕库", "url": "https://zimuku.org/search?q=%s", "proxy": false, "desc": "国内最大中文字幕下载站之一，影视覆盖广。"},
+      {"name": "OpenSubtitles", "url": "https://www.opensubtitles.org/en/search2/sublanguageid-all/moviename-%s", "proxy": false, "desc": "全球最大字幕数据库，多语言支持。"}
     ],
     "quotes": [
       {"name": "33台词", "url": "https://33.agilestudio.cn/?subtitleKeyword=%s", "proxy": false, "desc": "通过台词搜索电影画面，英语学习与剪辑利器。"},
-      {"name": "quodb", "url": "https://www.quodb.com/search/%s", "proxy": true, "desc": "全球最大的电影与剧集台词数据库。"}
+      {"name": "quodb", "url": "https://www.quodb.com/search/%s", "proxy": false, "desc": "全球最大的电影与剧集台词数据库。"},
+      {"name": "Playphrase.me", "url": "https://www.playphrase.me/#/search?q=%s", "proxy": false, "desc": "输入一句英文台词，即刻播放相关视频片段。"},
+      {"name": "GetYarn", "url": "https://getyarn.io/yarn-find?text=%s", "proxy": false, "desc": "可搜索电影/剧集 GIF 与片段，适合剪辑和表情包。"},
+      {"name": "AllMovie Quotes", "url": "https://www.allmovie.com/search/all/%s", "proxy": false, "desc": "AllMovie 全站搜索，可检索电影相关名台词与剧情信息。"}
     ],
     "music": [
       {"name": "爱听音乐网", "url": "https://www.2t58.com/so/%s.html", "proxy": false, "desc": "提供高品质音乐试听与下载。"},
-      {"name": "下歌吧", "url": "https://xiageba.com/s?keywords=%s", "proxy": true, "desc": "专注于无损高品质音乐的免费下载。"},
+      {"name": "下歌吧", "url": "https://xiageba.com/s?keywords=%s", "proxy": false, "desc": "专注于无损高品质音乐的免费下载。"},
       {"name": "放屁音乐网", "url": "https://www.fangpi.net/s/%s", "proxy": false, "desc": "提供各类音乐资源的搜索。"},
       {"name": "歌曲宝", "url": "https://www.gequbao.com/s/%s", "proxy": false, "desc": "界面简洁的 MP3 音乐搜索与下载工具。"},
       {"name": "5song", "url": "https://www.5song.xyz/search.html?keyword=%s", "proxy": false, "desc": "简单的音乐搜索站，支持试听。"}
     ],
     "sound": [
       {"name": "耳聆网", "url": "https://www.ear0.com/search/word-%s", "proxy": false, "desc": "国内专业的非营利性声音分享平台。"},
-      {"name": "淘声", "url": "https://www.tosound.com/search/word-%s", "proxy": false, "desc": "聚合全球海量声音资源的音效搜索引擎。"}
+      {"name": "淘声", "url": "https://www.tosound.com/search/word-%s", "proxy": false, "desc": "聚合全球海量声音资源的音效搜索引擎。"},
+      {"name": "FreeSound", "url": "https://freesound.org/search/?q=%s", "proxy": false, "desc": "世界最大免费音效社区，支持 CC 授权。"},
+      {"name": "Mixkit Sounds", "url": "https://mixkit.co/free-sound-effects/discover/%s/", "proxy": false, "desc": "高质量免费音效库，适合视频制作。"},
+      {"name": "ZapSplat", "url": "https://www.zapsplat.com/?s=%s", "proxy": false, "desc": "超过 10 万+ 高品质音效免费下载。"},
+      {"name": "Orange Free Sounds", "url": "https://www.orangefreesounds.com/?s=%s", "proxy": false, "desc": "免费提供音乐、音效和循环声音资源。"},
+      {"name": "SoundBible", "url": "https://soundbible.com/tags-%s.html", "proxy": false, "desc": "提供免版税音效，支持 MP3 和 WAV 下载。"},
+      {"name": "PixaBay Sound", "url": "https://pixabay.com/sound-effects/search/%s", "proxy": false, "desc": "Pixabay 提供的免费高质量音效库。"},
+      {"name": "99Sounds", "url": "https://99sounds.org/?s=%s", "proxy": false, "desc": "精选音效包与音频库，适合音乐与视频制作者。"}
     ],
     "image": [
       {"name": "谷歌图片", "url": "https://www.google.com/search?tbm=isch&q=%s", "proxy": true, "desc": "强大的以图搜图与图片关键词搜索。"},
       {"name": "百度图片", "url": "https://image.baidu.com/search/index?tn=baiduimage&word=%s", "proxy": false, "desc": "国内资源最丰富的图片搜索。"},
       {"name": "Yandex图片", "url": "https://yandex.com/images/search?text=%s", "proxy": false, "desc": "俄罗斯引擎，以强大的反向搜图能力著称。"},
-      {"name": "Pexels", "url": "https://www.pexels.com/search/%s/", "proxy": true, "desc": "提供高质量免费可商用的素材图库。"},
-      {"name": "Unsplash", "url": "https://unsplash.com/s/photos/%s", "proxy": true, "desc": "全球知名的免费高分辨率摄影图片社区。"},
-      {"name": "Pixabay", "url": "https://pixabay.com/images/search/%s/", "proxy": true, "desc": "拥有海量免费照片、插画、矢量图的图库。"},
+      {"name": "Pexels", "url": "https://www.pexels.com/search/%s/", "proxy": false, "desc": "提供高质量免费可商用的素材图库。"},
+      {"name": "Unsplash", "url": "https://unsplash.com/s/photos/%s", "proxy": false, "desc": "全球知名的免费高分辨率摄影图片社区。"},
+      {"name": "Pixabay", "url": "https://pixabay.com/images/search/%s/", "proxy": false, "desc": "拥有海量免费照片、插画、矢量图的图库。"},
       {"name": "Flickr", "url": "https://www.flickr.com/search/?text=%s", "proxy": true, "desc": "雅虎旗下，摄影师云集的图片存储与分享社区。"},
       {"name": "500px", "url": "https://500px.com/search?q=%s&type=photos", "proxy": true, "desc": "全球顶尖的专业摄影师社区与图片交易平台。"},
       {"name": "Freepik", "url": "https://www.freepik.com/search?query=%s", "proxy": false, "desc": "提供高质量矢量图、PSD 与照片素材下载。"},
@@ -184,7 +215,7 @@
       {"name": "DeviantArt", "url": "https://www.deviantart.com/search?q=%s", "proxy": true, "desc": "欧美老牌数字艺术与同人创作社区。"},
       {"name": "Pinterest", "url": "https://www.pinterest.com/search/pins/?q=%s", "proxy": true, "desc": "瀑布流式的灵感收集与图片分享平台。"},
       {"name": "wallhaven", "url": "https://wallhaven.cc/search?q=%s", "proxy": true, "desc": "质量极高的二次元与风景壁纸站。"},
-      {"name": "Wallhere", "url": "https://wallhere.com/zh/wallpapers?q=%s", "proxy": true, "desc": "资源丰富的综合性壁纸分享社区。"}
+      {"name": "Wallhere", "url": "https://wallhere.com/zh/wallpapers?q=%s", "proxy": false, "desc": "资源丰富的综合性壁纸分享社区。"}
     ],
     "manga": [
       {"name": "哔哩哔哩漫画", "url": "https://manga.bilibili.com/search?keyword=%s", "proxy": false, "desc": "B 站官方漫画平台，拥有大量正版日漫国漫。"},
@@ -192,16 +223,20 @@
       {"name": "dm5", "url": "https://tel.dm5.com/search?title=%s&language=1", "proxy": false, "desc": "动漫屋，老牌的在线漫画阅读网站。"},
       {"name": "包子漫画", "url": "https://www.baozimh.com/search?q=%s", "proxy": false, "desc": "资源更新快，阅读体验流畅的免费漫画站。"},
       {"name": "漫自由", "url": "https://mhx12.com/m/comic/search?q=%s", "proxy": true, "desc": "支持 Kindle 格式推送的漫画下载站。"},
-      {"name": "goda漫画", "url": "https://godamh.com/s/%s", "proxy": true, "desc": "界面清爽的在线漫画阅读平台。"},
+      {"name": "goda漫画", "url": "https://godamh.com/s/%s", "proxy": false, "desc": "界面清爽的在线漫画阅读平台。"},
       {"name": "拷贝漫画", "url": "https://www.mangacopy.com/search?q=%s&q_type=", "proxy": false, "desc": "资源丰富、加载速度快的漫画站。"},
       {"name": "搜漫", "url": "https://www.soman.com/search.html?keyword=%s", "proxy": true, "desc": "聚合全网漫画资源的搜索引擎。"},
       {"name": "咚漫", "url": "https://www.dongmanmanhua.cn/search?keyword=%s", "proxy": false, "desc": "韩漫资源丰富的条漫阅读平台。"}
     ],
     "jobs": [
       {"name": "Boss直聘", "url": "https://www.zhipin.com/web/geek/job?query=%s", "proxy": false, "desc": "主打“直接与老板谈”的即时沟通招聘应用。"},
+      {"name": "爱企查", "url": "https://aiqicha.baidu.com/s?q=%s&t=0", "proxy": false, "desc": "百度出品的免费企业信息查询平台。"},
+      {"name": "前程无忧", "url": "https://search.51job.com/list/000000,000000,0000,00,9,99,%s,2,1.html", "proxy": false, "desc": "老牌招聘网站，职位、公司搜索丰富。"},
+      {"name": "猎聘", "url": "https://www.liepin.com/zhaopin/?key=%s", "proxy": false, "desc": "中高端招聘平台，适合专业职位搜索。"},
+      {"name": "拉勾", "url": "https://www.lagou.com/jobs/list_%s", "proxy": false, "desc": "专注互联网行业的招聘平台。"},
+      {"name": "Indeed", "url": "https://www.indeed.com/jobs?q=%s", "proxy": false, "desc": "全球最大的招聘搜索引擎，涵盖多国就业数据。"},
       {"name": "企查查", "url": "https://www.qcc.com/search?key=%s", "proxy": false, "desc": "专业的企业信用信息查询工具。"},
-      {"name": "天眼查", "url": "https://www.tianyancha.com/search?key=%s", "proxy": false, "desc": "权威的商业查询平台，查公司、查老板。"},
-      {"name": "爱企查", "url": "https://aiqicha.baidu.com/s?q=123&t=0", "proxy": false, "desc": "百度出品的免费企业信息查询平台。"}
+      {"name": "天眼查", "url": "https://www.tianyancha.com/search?key=%s", "proxy": false, "desc": "权威的商业查询平台，查公司、查老板。"}
     ],
     "ebook": [
       {"name": "书格", "url": "https://new.shuge.org/search/%s/", "proxy": false, "desc": "专注于分享有品格的数字古籍图书馆。"},
@@ -224,24 +259,29 @@
       {"name": "百度指数", "url": "https://index.baidu.com/v2/main/index.html#/trend/%s?words=%s", "proxy": false, "desc": "以百度搜索数据为基础的数据分享平台。"},
       {"name": "谷歌指数", "url": "https://trends.google.com/trends/explore?q=%s", "proxy": true, "desc": "探索 Google 全球搜索热度趋势。"},
       {"name": "Wayback Machine", "url": "https://web.archive.org/web/*/%s", "proxy": true, "desc": "互联网档案馆，可查看网页的历史存档。"},
-      {"name": "Regex101", "url": "https://regex101.com/?regex=%s", "proxy": false, "desc": "强大的在线正则表达式测试与调试工具。"}
+      {"name": "Regex101", "url": "https://regex101.com/?regex=%s", "proxy": false, "desc": "强大的在线正则表达式测试与调试工具。"},
+      {"name": "Shodan", "url": "https://www.shodan.io/search?query=%s", "proxy": false, "desc": "互联网设备搜索引擎，可查询开放端口与网络设备。"},
+      {"name": "VirusTotal", "url": "https://www.virustotal.com/gui/search/%s", "proxy": false, "desc": "多引擎文件与网址安全检测平台。"}
     ],
     "translate": [
       {"name": "谷歌翻译", "url": "https://translate.google.com/?sl=auto&tl=zh-CN&text=%s&op=translate", "proxy": true, "desc": "支持语言最多，翻译准确度高的在线翻译。"},
-      {"name": "DeepL", "url": "https://www.deepl.com/translator#auto/zh/%s", "proxy": true, "desc": "AI 驱动的翻译工具，以地道自然的译文著称。"},
+      {"name": "DeepL", "url": "https://www.deepl.com/translator#auto/zh/%s", "proxy": false, "desc": "AI 驱动的翻译工具，以地道自然的译文著称。"},
       {"name": "百度翻译", "url": "https://fanyi.baidu.com/#auto/zh/%s", "proxy": false, "desc": "中文翻译质量优秀，支持文言文互译。"},
       {"name": "有道翻译", "url": "https://www.youdao.com/w/eng/%s/", "proxy": false, "desc": "网易出品，词典功能强大，适合语言学习。"},
       {"name": "Linguee", "url": "https://www.linguee.com/english-chinese/search?source=auto&query=%s", "proxy": false, "desc": "结合了词典与例句搜索的辅助翻译工具。"}
     ],
     "map": [
       {"name": "百度地图", "url": "https://map.baidu.com/search/%s", "proxy": false, "desc": "国内数据详尽，生活服务信息丰富。"},
-      {"name": "高德地图", "url": "https://www.amap.com/search?query=%s", "proxy": false, "desc": "导航精准，路况更新及时的地图服务。"}
+      {"name": "高德地图", "url": "https://www.amap.com/search?query=%s", "proxy": false, "desc": "导航精准，路况更新及时的地图服务。"},
+      {"name": "谷歌地图", "url": "https://www.google.com/maps/search/%s", "proxy": true, "desc": "全球覆盖最广，国际地图与街景最完善。"},
+      {"name": "必应地图", "url": "https://www.bing.com/maps?q=%s", "proxy": false, "desc": "微软 Bing 地图，包含航拍图与路线规划。"},
+      {"name": "OpenStreetMap", "url": "https://www.openstreetmap.org/search?query=%s", "proxy": true, "desc": "开源地图，由全球志愿者持续更新。"}
     ],
     "shopping": [
       {"name": "淘宝", "url": "https://s.taobao.com/search?q=%s", "proxy": false, "desc": "亚洲最大的综合性网络零售商圈。"},
       {"name": "京东", "url": "https://search.jd.com/Search?keyword=%s", "proxy": false, "desc": "以物流速度快、正品保障著称的电商平台。"},
       {"name": "什么值得买", "url": "https://search.smzdm.com/?s=%s", "proxy": false, "desc": "中立的消费决策平台，推荐高性价比商品。"},
-      {"name": "亚马逊", "url": "https://www.amazon.com/s?k=%s", "proxy": true, "desc": "全球最大的跨境电商平台。"},
+      {"name": "亚马逊", "url": "https://www.amazon.com/s?k=%s", "proxy": false, "desc": "全球最大的跨境电商平台。"},
       {"name": "eBay", "url": "https://www.ebay.com/sch/i.html?_nkw=%s", "proxy": true, "desc": "全球知名的线上拍卖与购物网站。"},
       {"name": "天猫", "url": "https://list.tmall.com/search_product.htm?q=%s", "proxy": false, "desc": "阿里旗下品质购物平台，品牌直营为主。"},
       {"name": "闲鱼", "url": "https://s.taobao.com/search?q=%s&from=sea_1_seller", "proxy": false, "desc": "阿里巴巴旗下最大的二手物品交易平台。"},
@@ -252,27 +292,48 @@
       {"name": "谷歌新闻", "url": "https://news.google.com/search?q=%s", "proxy": true, "desc": "聚合全球媒体报道，提供多角度资讯。"},
       {"name": "百度新闻", "url": "https://www.baidu.com/s?rtt=1&bsst=1&tn=news&wd=%s", "proxy": false, "desc": "聚合国内主流媒体资讯的新闻平台。"},
       {"name": "财新网", "url": "https://search.caixin.com/search/search.jsp?keyword=%s", "proxy": false, "desc": "提供高质量、深度的财经新闻报道。"},
-      {"name": "美联社", "url": "https://apnews.com/search?q=%s", "proxy": true, "desc": "全球最大的通讯社之一，新闻源头。"},
-      {"name": "BBC News", "url": "https://www.bbc.co.uk/search?q=%s", "proxy": true, "desc": "英国广播公司新闻，国际视野。"}
+      {"name": "美联社", "url": "https://apnews.com/search?q=%s", "proxy": false, "desc": "全球最大的通讯社之一，新闻源头。"},
+      {"name": "BBC News", "url": "https://www.bbc.co.uk/search?q=%s", "proxy": true, "desc": "英国广播公司新闻，国际视野。"},
+      {"name": "路透社", "url": "https://www.reuters.com/site-search/?query=%s", "proxy": true, "desc": "国际知名通讯社，以快速、权威著称。"},
+      {"name": "纽约时报", "url": "https://www.nytimes.com/search?query=%s", "proxy": true, "desc": "美国最具影响力的新闻媒体之一。"},
+      {"name": "华尔街日报", "url": "https://www.wsj.com/search?query=%s", "proxy": true, "desc": "全球知名财经新闻媒体，深度分析强。"},
+      {"name": "新浪新闻", "url": "https://search.sina.com.cn/?q=%s&c=news", "proxy": false, "desc": "覆盖全面的国内新闻平台。"}
     ],
     "game": [
       {"name": "小霸王", "url": "https://www.yikm.net/search?name=%s", "proxy": false, "desc": "在线玩 FC、GBA 等经典怀旧游戏。"},
       {"name": "3dmgame", "url": "https://so.3dmgame.com/?keyword=%s&subsearch=1&type=1", "proxy": false, "desc": "国内知名的单机游戏门户与论坛。"},
       {"name": "Taptap", "url": "https://www.taptap.cn/search/%s", "proxy": false, "desc": "发现好游戏，以高品质玩家评价著称的社区。"},
-      {"name": "游侠搜索", "url": "https://so.ali213.net/s/c?keyword=%s&group=0", "proxy": false, "desc": "老牌单机游戏门户，提供资讯与补丁。"}
+      {"name": "游侠搜索", "url": "https://so.ali213.net/s/c?keyword=%s&group=0", "proxy": false, "desc": "老牌单机游戏门户，提供资讯与补丁。"},
+      {"name": "Steam", "url": "https://store.steampowered.com/search/?term=%s", "proxy": true, "desc": "全球最大的 PC 游戏发行平台。"},
+      {"name": "itch.io", "url": "https://itch.io/search?q=%s", "proxy": true, "desc": "独立游戏的天堂，创意十足的游戏作品聚集地。"},
+      {"name": "游民星空", "url": "https://so.gamersky.com/?s=%s", "proxy": false, "desc": "热门单机与主机游戏资讯站。"},
+      {"name": "九游", "url": "https://www.9game.cn/search/?keyword=%s", "proxy": false, "desc": "国内手游平台，提供下载与玩家评分。"}
     ],
     "social": [
       {"name": "微博", "url": "https://s.weibo.com/weibo?q=%s", "proxy": false, "desc": "随时随地发现新鲜事，中国版 Twitter。"},
       {"name": "Twitter (X)", "url": "https://twitter.com/search?q=%s", "proxy": true, "desc": "全球最具影响力的社交网络与微博客服务。"},
       {"name": "小红书", "url": "https://www.xiaohongshu.com/search_result?keyword=%s", "proxy": false, "desc": "年轻人的生活方式平台，种草与经验分享。"},
-      {"name": "Reddit", "url": "https://www.reddit.com/search/?q=%s", "proxy": true, "desc": "“互联网的首页”，拥有海量兴趣小组的论坛。"}
+      {"name": "Reddit", "url": "https://www.reddit.com/search/?q=%s", "proxy": true, "desc": "“互联网的首页”，拥有海量兴趣小组的论坛。"},
+      {"name": "Pinterest", "url": "https://www.pinterest.com/search/pins/?q=%s", "proxy": true, "desc": "灵感图板平台，适合寻找设计与创意素材。"},
+      {"name": "Facebook", "url": "https://www.facebook.com/search/top?q=%s", "proxy": true, "desc": "全球最大社交网络平台之一。"}
+    ],
+    "encyclopedia": [
+      {"name": "维基百科", "url": "https://zh.wikipedia.org/wiki/Special:Search?search=%s", "proxy": true, "desc": "全球协作的自由百科全书，知识查阅首选。"},
+      {"name": "百度百科", "url": "https://baike.baidu.com/item/%s/", "proxy": false, "desc": "中文领域最全面的百科知识库，由百度维护。"},
+      {"name": "互动百科", "url": "https://www.baike.com/wiki/%s", "proxy": false, "desc": "用户参与编辑的中文百科社区，条目广泛。"},
+      {"name": "知乎百科（知识搜索）", "url": "https://www.zhihu.com/search?q=%s", "proxy": false, "desc": "基于知乎内容的知识型搜索，适合快速理解概念。"},
+      {"name": "Britannica（大英百科）", "url": "https://www.britannica.com/search?query=%s", "proxy": false, "desc": "全球最权威的传统百科全书之一，内容严谨。"},
+      {"name": "Quora", "url": "https://www.quora.com/search?q=%s", "proxy": true, "desc": "全球性的知识问答社区，可获取概念解释与观点。"},
+      {"name": "Scholarpedia", "url": "http://www.scholarpedia.org/w/index.php?search=%s", "proxy": false, "desc": "由专家撰写与审核的学术版百科全书。"},
+      {"name": "百度文库搜索", "url": "https://wenku.baidu.com/search?word=%s", "proxy": false, "desc": "文档型知识库，可查论文、笔记、教材资料。"},
+      {"name": "搜狗百科", "url": "https://baike.sogou.com/v90569.htm?fromTitle=%s", "proxy": false, "desc": "搜狗提供的百科系统，内容清晰易读。"}
     ],
     "programming": [
-      {"name": "GitHub", "url": "https://github.com/search?q=%s", "proxy": false, "desc": "全球最大的代码托管与开源社区。"},
+      {"name": "GitHub", "url": "https://github.com/search?q=%s", "proxy": true, "desc": "全球最大的代码托管与开源社区。"},
       {"name": "Stack Overflow", "url": "https://stackoverflow.com/search?q=%s", "proxy": false, "desc": "全球最大的程序员问答社区。"},
       {"name": "掘金", "url": "https://juejin.cn/search?query=%s", "proxy": false, "desc": "帮助开发者成长的技术社区，干货多。"},
       {"name": "CSDN", "url": "https://so.csdn.net/so/search?q=%s", "proxy": false, "desc": "老牌中文 IT 技术交流平台。"},
-      {"name": "MDN Web Docs", "url": "https://developer.mozilla.org/zh-CN/search?q=%s", "proxy": true, "desc": "Web 标准（HTML/CSS/JS）权威文档。"},
+      {"name": "MDN Web Docs", "url": "https://developer.mozilla.org/zh-CN/search?q=%s", "proxy": false, "desc": "Web 标准（HTML/CSS/JS）权威文档。"},
       {"name": "Devv", "url": "https://devv.ai/search?q=%s", "proxy": true, "desc": "专为开发者设计的 AI 搜索引擎。"},
       {"name": "Gitee", "url": "https://search.gitee.com/?q=%s", "proxy": false, "desc": "码云，国内领先的代码托管平台。"},
       {"name": "OSC开源社区", "url": "https://www.oschina.net/search/?scope=all&q=%s", "proxy": false, "desc": "开源中国，关注开源软件与资讯。"},
@@ -282,20 +343,20 @@
       {"name": "牛客", "url": "https://www.nowcoder.com/search/all?query=%s&type=all&searchType=%E9%A1%B6%E9%83%A8%E5%AF%BC%E8%88%AA%E6%A0%8F", "proxy": false, "desc": "专注于程序员求职刷题与面经分享。"}
     ],
     "frontend": [
-      {"name": "npmjs", "url": "https://www.npmjs.com/search?q=%s", "proxy": true, "desc": "Node.js 的包管理器，全球最大软件注册表。"},
-      {"name": "YarnPkg", "url": "https://yarnpkg.com/search?q=%s", "proxy": true, "desc": "快速、可靠、安全的依赖管理工具搜索。"},
+      {"name": "npmjs", "url": "https://www.npmjs.com/search?q=%s", "proxy": false, "desc": "Node.js 的包管理器，全球最大软件注册表。"},
+      {"name": "YarnPkg", "url": "https://yarnpkg.com/search?q=%s", "proxy": false, "desc": "快速、可靠、安全的依赖管理工具搜索。"},
       {"name": "pnpm", "url": "https://pnpm.io/search?q=%s", "proxy": false, "desc": "速度快、节省磁盘空间的包管理工具搜索。"},
-      {"name": "jsdelivr", "url": "https://www.jsdelivr.com/?query=%s", "proxy": true, "desc": "免费快速的开源 CDN 服务。"},
-      {"name": "unpkg", "url": "https://unpkg.com/browse/%s/", "proxy": true, "desc": "访问 npm 上所有文件的 CDN。"},
-      {"name": "cdnjs", "url": "https://cdnjs.com/libraries?q=%s", "proxy": true, "desc": "著名的 Web 开发库 CDN 服务。"},
+      {"name": "jsdelivr", "url": "https://www.jsdelivr.com/?query=%s", "proxy": false, "desc": "免费快速的开源 CDN 服务。"},
+      {"name": "unpkg", "url": "https://unpkg.com/browse/%s/", "proxy": false, "desc": "访问 npm 上所有文件的 CDN。"},
+      {"name": "cdnjs", "url": "https://cdnjs.com/libraries?q=%s", "proxy": false, "desc": "著名的 Web 开发库 CDN 服务。"},
       {"name": "Can I use...", "url": "https://caniuse.com/?search=%s", "proxy": false, "desc": "查询 Web 前端技术在各类浏览器的兼容性。"},
-      {"name": "BundlePhobia", "url": "https://bundlephobia.com/result?p=%s", "proxy": true, "desc": "分析 npm 包的大小及其对性能的影响。"}
+      {"name": "BundlePhobia", "url": "https://bundlephobia.com/result?p=%s", "proxy": false, "desc": "分析 npm 包的大小及其对性能的影响。"}
     ],
     "software": [
       {"name": "少数派", "url": "https://sspai.com/search?q=%s", "proxy": false, "desc": "高质量数字生活指南，推荐优质应用。"},
       {"name": "Chrome商店", "url": "https://chrome.google.com/webstore/search/%s", "proxy": true, "desc": "Chrome 浏览器官方扩展插件市场。"},
       {"name": "油猴", "url": "https://greasyfork.org/zh-CN/scripts?q=%s", "proxy": true, "desc": "提供各类用户脚本下载。"},
-      {"name": "Steam", "url": "https://store.steampowered.com/search/?term=%s", "proxy": false, "desc": "全球最大的综合性数字游戏发行平台。"},
+      {"name": "Steam", "url": "https://store.steampowered.com/search/?term=%s", "proxy": true, "desc": "全球最大的综合性数字游戏发行平台。"},
       {"name": "Filehippo", "url": "https://filehippo.com/search?q=%s", "proxy": false, "desc": "老牌的软件下载站，提供软件历史版本。"},
       {"name": "Scoop", "url": "https://scoop.sh/#/apps?q=%s&o=false", "proxy": false, "desc": "Windows 命令行包管理工具的软件搜索。"},
       {"name": "APKCombo", "url": "https://apkcombo.com/zh/search/%s", "proxy": true, "desc": "可以直接下载 Google Play 应用安装包的网站。"},
@@ -308,12 +369,12 @@
       {"name": "反斗限免", "url": "https://free.apprcn.com/?s=%s", "proxy": false, "desc": "推荐正版软件限时免费资讯。"},
       {"name": "423down", "url": "https://www.423down.com/search/%s", "proxy": false, "desc": "专注于软件去广告绿色版制作与分享。"},
       {"name": "mefcl", "url": "https://www.mefcl.com/?s=%s", "proxy": false, "desc": "提供多平台破解软件下载。"},
-      {"name": "igetintopc", "url": "https://igetintopc.com/?s=%s", "proxy": true, "desc": "国外著名的破解软件下载站。"},
+      {"name": "igetintopc", "url": "https://igetintopc.com/?s=%s", "proxy": false, "desc": "国外著名的破解软件下载站。"},
       {"name": "异次元", "url": "https://www.iplaysoft.com/?s=%s", "proxy": false, "desc": "极具影响力的软件推荐与技术生活博客。"},
-      {"name": "taiwebs", "url": "https://en.taiwebs.com/s/?s=%s", "proxy": true, "desc": "资源丰富的国外软件下载站。"},
+      {"name": "taiwebs", "url": "https://en.taiwebs.com/s/?s=%s", "proxy": false, "desc": "资源丰富的国外软件下载站。"},
       {"name": "轻狂志", "url": "https://www.flighty.cn/plus/search.php?kwtype=0&q=%s", "proxy": false, "desc": "专注于精简版与绿色版软件分享。"},
       {"name": "小众软件", "url": "https://www.appinn.com/search/%s", "proxy": false, "desc": "分享免费、小巧、有趣、实用软件的博客。"},
-      {"name": "脑袋瓜子", "url": "https://www.naodai.org/search/%s/", "proxy": true, "desc": "综合软件分享博客。"},
+      {"name": "脑袋瓜子", "url": "https://www.naodai.org/search/%s/", "proxy": false, "desc": "综合软件分享博客。"},
       {"name": "独孤求软", "url": "https://www.dugubest.com/?s=%s", "proxy": false, "desc": "个人维护的软件分享站。"}
     ],
     "mac_software": [
@@ -321,7 +382,7 @@
       {"name": "Macsky", "url": "https://www.macsky.net/?s=%s&cat=", "proxy": false, "desc": "收录大量 Mac 破解软件。"},
       {"name": "Mac 金币", "url": "https://www.macjb.com/search/%s_1_1_1.html", "proxy": false, "desc": "综合性 Mac 软件下载站。"},
       {"name": "Mac 萌新网", "url": "https://www.macxin.com/?s=%s", "proxy": false, "desc": "适合新手的 Mac 软件与教程站。"},
-      {"name": "APPKED", "url": "https://www.macbed.com/?s=%s", "proxy": true, "desc": "国外知名的 Mac 破解软件站。"},
+      {"name": "APPKED", "url": "https://www.macbed.com/?s=%s", "proxy": false, "desc": "国外知名的 Mac 破解软件站。"},
       {"name": "苹果软件盒子", "url": "https://www.macappbox.com/s.html?q=%s", "proxy": false, "desc": "专注于 Mac 软件搜集。"},
       {"name": "马可菠萝", "url": "https://www.macbl.com/search/%s", "proxy": false, "desc": "分享 Mac 软件与素材。"},
       {"name": "史蒂芬周的博客", "url": "https://www.sdifen.com/?s=%s", "proxy": false, "desc": "个人博主维护的优质 Mac 软件分享。"},
@@ -334,7 +395,7 @@
       {"name": "CrxDL", "url": "https://crxdl.com/search?q=%s", "proxy": false, "desc": "提供 Chrome 扩展文件的直接下载。"},
       {"name": "极简插件", "url": "https://chrome.zzzmh.cn/search/%s", "proxy": false, "desc": "无需翻墙即可下载 Chrome 插件（镜像）。"},
       {"name": "Crx搜搜", "url": "https://www.crxsoso.com/search?keyword=%s&store=chrome", "proxy": false, "desc": "专业的浏览器扩展搜索引擎。"},
-      {"name": "Crx4Chrome（英文）", "url": "https://www.crx4chrome.com/s.php?s=%s#gsc.tab=0&gsc.q=123&gsc.page=1", "proxy": true, "desc": "英文的 Chrome 插件历史版本下载站。"},
+      {"name": "Crx4Chrome（英文）", "url": "https://www.crx4chrome.com/s.php?s=%s#gsc.tab=0&gsc.q=123&gsc.page=1", "proxy": false, "desc": "英文的 Chrome 插件历史版本下载站。"},
       {"name": "Scriptcat脚本猫", "url": "https://scriptcat.org/zh-CN/search?keyword=%s", "proxy": false, "desc": "支持后台运行的脚本管理器与脚本站。"}
     ],
     "design": [
@@ -350,25 +411,38 @@
     "design_assets": [
       {"name": "素材", "url": "https://www.zcool.com.cn/search/content?word=%s&recommendLevel=1", "proxy": false, "desc": "站酷精选设计素材搜索。"},
       {"name": "触站", "url": "https://www.huashi6.com/search?searchText=%s", "proxy": false, "desc": "高清 P 站画师作品与画师入驻平台。"},
-      {"name": "stickpng", "url": "https://www.stickpng.com/search?q=%s&page=1", "proxy": true, "desc": "提供透明背景 PNG 图片的搜索。"},
-      {"name": "Cleanpng", "url": "https://www.cleanpng.com/free/%s.html", "proxy": true, "desc": "免费的高质量透明 PNG 素材库。"},
-      {"name": "unDraw", "url": "https://undraw.co/search/%s", "proxy": true, "desc": "风格统一的开源扁平化插画库。"},
-      {"name": "PicJumbo", "url": "https://picjumbo.com/search/%s", "proxy": true, "desc": "提供完全免费的高分辨率照片。"}
+      {"name": "stickpng", "url": "https://www.stickpng.com/search?q=%s&page=1", "proxy": false, "desc": "提供透明背景 PNG 图片的搜索。"},
+      {"name": "Cleanpng", "url": "https://www.cleanpng.com/free/%s.html", "proxy": false, "desc": "免费的高质量透明 PNG 素材库。"},
+      {"name": "unDraw", "url": "https://undraw.co/search/%s", "proxy": false, "desc": "风格统一的开源扁平化插画库。"},
+      {"name": "PicJumbo", "url": "https://picjumbo.com/search/%s", "proxy": false, "desc": "提供完全免费的高分辨率照片。"}
     ],
     "icons_emojis": [
       {"name": "IconFont", "url": "https://www.iconfont.cn/search/index?searchType=icon&q=%s", "proxy": false, "desc": "阿里巴巴矢量图标库，设计师必备。"},
       {"name": "Iconify", "url": "https://icon-sets.iconify.design/?keyword=%s", "proxy": false, "desc": "统一的图标框架，包含数十万图标。"},
-      {"name": "EmoJiall", "url": "https://www.emojiall.com/zh-hant/search_results?keywords=%s", "proxy": false, "desc": "表情符号词典，提供 Emoji 含义与复制。"}
+      {"name": "EmoJiall", "url": "https://www.emojiall.com/zh-hant/search_results?keywords=%s", "proxy": false, "desc": "表情符号词典，提供 Emoji 含义与复制。"},
+      {"name": "Flaticon", "url": "https://www.flaticon.com/search?word=%s", "proxy": false, "desc": "全球最大图标库之一，提供图标与贴纸下载。"},
+      {"name": "Icons8", "url": "https://icons8.com/icons/set/%s", "proxy": false, "desc": "提供统一风格的图标、插画与表情包。"},
+      {"name": "Noun Project", "url": "https://thenounproject.com/search/icons/?q=%s", "proxy": false, "desc": "高质量黑白图标库，适合创意设计。"},
+      {"name": "emojipedia", "url": "https://emojipedia.org/search?q=%s", "proxy": false, "desc": "最方便快速复制 Emoji 的站点之一。"},
+      {"name": "Bootstrap Icons", "url": "https://icons.getbootstrap.com/?q=%s", "proxy": false, "desc": "Bootstrap 官方图标库，简洁现代。"}
     ],
     "ppt": [
       {"name": "吾道", "url": "https://www.woodo.cn/design/template/?keyword=%s", "proxy": false, "desc": "在线协作 PPT 设计与模板工具。"},
       {"name": "优品ppt", "url": "https://www.ypppt.com/p/search.php?kwtype=1&q=%s", "proxy": false, "desc": "提供高质量免费 PPT 模板下载。"},
-      {"name": "officePLUS", "url": "https://www.officeplus.cn/PPT/template/?keywords=%s", "proxy": false, "desc": "微软官方提供的 PPT 模板库。"}
+      {"name": "officePLUS", "url": "https://www.officeplus.cn/PPT/template/?keywords=%s", "proxy": false, "desc": "微软官方提供的 PPT 模板库。"},
+      {"name": "Canva", "url": "https://www.canva.cn/templates/?query=%s", "proxy": false, "desc": "全球热门在线设计平台，包含 PPT 模板。"},
+      {"name": "Slidesgo", "url": "https://slidesgo.com/search?q=%s", "proxy": false, "desc": "优质免费可商用的 PPT 与 Google Slides 模板。"}
     ],
     "font": [
       {"name": "字体天下", "url": "https://www.fonts.net.cn/font-search-result.html?q=%s", "proxy": false, "desc": "提供海量中英文字体免费下载。"},
       {"name": "字由", "url": "https://www.hellofont.cn/search?word=%s", "proxy": false, "desc": "设计师专用的字体管理与预览工具。"},
-      {"name": "猫啃网", "url": "https://www.maoken.com/?s=%s", "proxy": false, "desc": "专注于收集免费商用中文字体。"}
+      {"name": "猫啃网", "url": "https://www.maoken.com/?s=%s", "proxy": false, "desc": "专注于收集免费商用中文字体。"},
+      {"name": "Google Fonts", "url": "https://fonts.google.com/?query=%s", "proxy": true, "desc": "全球最完整的免费商用字体库。"},
+      {"name": "Font Squirrel", "url": "https://www.fontsquirrel.com/fonts/list/find_fonts?q%5Bterm%5D=%s", "proxy": false, "desc": "高质量免费商用字体精选。"},
+      {"name": "DaFont", "url": "https://www.dafont.com/search.php?q=%s", "proxy": false, "desc": "全球最知名的个性字体下载站。"},
+      {"name": "1001Fonts", "url": "https://www.1001fonts.com/search.html?search=%s", "proxy": false, "desc": "涵盖各种风格的免费字体。"},
+      {"name": "UrbanFonts", "url": "https://www.urbanfonts.com/fontsearch?search=%s", "proxy": false, "desc": "提供各类装饰字体与创意字体。"},
+      {"name": "FontSpace", "url": "https://www.fontspace.com/search?q=%s", "proxy": false, "desc": "社区驱动的字体分享平台，支持免费商用筛选。"}
     ],
     "academic": [
       {"name": "谷歌学术", "url": "https://scholar.google.com/scholar?q=%s", "proxy": true, "desc": "免费搜索学术文章的权威引擎。"},
@@ -379,18 +453,31 @@
     ],
     "question": [
       {"name": "问答库", "url": "https://www.asklib.com/s/%s", "proxy": true, "desc": "聚合各类考试题库的搜索引擎。"},
-      {"name": "wikiHow", "url": "https://zh.wikihow.com/wikiHowTo?search=%s&Search=", "proxy": true, "desc": "值得信赖的“如何做”指南，生活百科。"}
+      {"name": "wikiHow", "url": "https://zh.wikihow.com/wikiHowTo?search=%s&Search=", "proxy": false, "desc": "值得信赖的“如何做”指南，生活百科。"},
+      {"name": "知乎搜索", "url": "https://www.zhihu.com/search?q=%s", "proxy": false, "desc": "中文最大的知识问答社区。"},
+      {"name": "Quora", "url": "https://www.quora.com/search?q=%s", "proxy": true, "desc": "全球性的开放问答平台，有深度回答。"},
+      {"name": "百度知道", "url": "https://zhidao.baidu.com/search?word=%s", "proxy": false, "desc": "庞大的中文问答库，生活类问题丰富。"},
+      {"name": "知乎盐选百科", "url": "https://www.zhihu.com/search?type=content&q=%s", "proxy": false, "desc": "知乎内容精选的深度百科式回答。"},
+      {"name": "Reddit Ask", "url": "https://www.reddit.com/search/?q=%s%20flair%3A%22question%22", "proxy": true, "desc": "全球社区的问答与经验分享。"},
+      {"name": "SuperUser", "url": "https://superuser.com/search?q=%s", "proxy": false, "desc": "系统、电脑、软件类问题专属问答平台。"}
     ],
     "medical": [
       {"name": "丁香医生", "url": "https://dxy.com/search/result?query=%s", "proxy": false, "desc": "大众信赖的健康医疗科普平台。"},
-      {"name": "医学微视", "url": "https://www.mvyxws.cn/index.php/vod/search?key=%s", "proxy": false, "desc": "以视频形式普及医学知识的平台。"}
+      {"name": "医学微视", "url": "https://www.mvyxws.cn/index.php/vod/search?key=%s", "proxy": false, "desc": "以视频形式普及医学知识的平台。"},
+      {"name": "中国医学百科", "url": "https://www.a-hospital.com/w/%s", "proxy": false, "desc": "中文医学百科全书，全面的医学条目。"},
+      {"name": "WebMD", "url": "https://www.webmd.com/search/search_results/default.aspx?query=%s", "proxy": false, "desc": "美国大众医学信息平台，涵盖疾病与药物。"},
+      {"name": "Mayo Clinic", "url": "https://www.mayoclinic.org/search/search-results?q=%s", "proxy": false, "desc": "全球知名医疗中心提供的权威健康科普。"},
+      {"name": "MedlinePlus", "url": "https://medlineplus.gov/search/?query=%s", "proxy": false, "desc": "美国国立医学图书馆提供的医学资源。"},
+      {"name": "Drugs.com", "url": "https://www.drugs.com/search.php?searchterm=%s", "proxy": false, "desc": "提供全球药品资料与副作用信息。"},
+      {"name": "英国 NHS", "url": "https://www.nhs.uk/search/?q=%s", "proxy": false, "desc": "英国国家医疗服务体系提供的健康指南。"},
+      {"name": "默沙东诊疗手册", "url": "https://www.msdmanuals.cn/search?query=%s", "proxy": false, "desc": "全球权威医学手册的中文版本。"}
     ],
     "ancient_text": [
       {"name": "古籍館", "url": "https://www.gujiguan.com/#/search?keyword=%s", "proxy": false, "desc": "在线古籍阅读与检索平台。"},
       {"name": "识典古籍", "url": "https://www.shidianguji.com/search/%s", "proxy": false, "desc": "字节跳动推出的免费古籍数字化平台。"},
-      {"name": "古诗文网", "url": "http://so.www.138vcd.com/chaxun/all/%s/", "proxy": false, "desc": "最全的古诗文检索、赏析与学习网站。"},
       {"name": "苏州图书馆古籍库", "url": "https://fzk.szlib.com/pc/search?keyWord=%s", "proxy": false, "desc": "提供珍贵古籍的数字化阅览。"},
-      {"name": "中国古典文献资源", "url": "https://www.wenxianxue.cn/search.html?ks=%s", "proxy": false, "desc": "专业的古典文献导航与资源站。"}
+      {"name": "中国古典文献资源", "url": "https://www.wenxianxue.cn/search.html?ks=%s", "proxy": false, "desc": "专业的古典文献导航与资源站。"},
+      {"name": "中国哲学书电子化计划", "url": "https://ctext.org/searchbooks.pl?searchu=%s", "proxy": false, "desc": "收录大量先秦至明清典籍，支持原文与译文检索。"}
     ]
   }
 }
