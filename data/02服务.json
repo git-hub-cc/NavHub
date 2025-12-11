@@ -972,6 +972,76 @@
           "icon": "img/0ae044823ecba44545769c28da90bb07.webp",
           "desc": "自动备份微信聊天记录的工具。",
           "proxy": false
+        },
+        {
+          "title": "PPT之家",
+          "url": "https://www.52ppt.com/",
+          "desc": "需关注微信公众号获取密码。",
+          "proxy": false,
+          "icon": "img/8100e8c6410e1d2aac79ad46634f9024.webp"
+        },
+        {
+          "title": "第一PPT",
+          "url": "https://www.1ppt.com/",
+          "desc": "PPT模板网站",
+          "proxy": false,
+          "icon": "img/e307167daf487977ab62d1bf86737c8c.webp"
+        },
+        {
+          "title": "PDF24 Tools",
+          "url": "https://tools.pdf24.org/zh/",
+          "icon": "img/06e147e46d283d73afe9a14adc60878e.webp",
+          "desc": "免费且易于使用的在线PDF工具箱。",
+          "proxy": false
+        },
+        {
+          "title": "iLovePDF",
+          "url": "https://www.ilovepdf.com/zh-cn",
+          "icon": "img/e7f31a42ba09faf8dd3a2613afbeac14.webp",
+          "desc": "强大的在线PDF工具集，文件限制100M，每天限4次。",
+          "proxy": false
+        },
+        {
+          "title": "iLoveIMG",
+          "url": "https://www.iloveimg.com/zh-cn",
+          "icon": "img/b5774e2dc378bc0d0a5fee3366234c45.webp",
+          "desc": "功能全面的在线图片处理工具，能批量压缩、转换格式等。",
+          "proxy": false
+        },
+        {
+          "title": "蛙蛙工具",
+          "url": "https://www.iamwawa.cn/",
+          "icon": "img/0a6dc332f9fa5b27270078b3c2357c63.webp",
+          "desc": "提供图片、PDF、音视频处理等多种在线工具。",
+          "proxy": false
+        },
+        {
+          "title": "数字帝国",
+          "url": "https://zh.numberempire.com/",
+          "icon": "img/e0c651eddb946b6ad483118679f7736a.webp",
+          "desc": "一个强大的在线数学工具集合网站。",
+          "proxy": false
+        },
+        {
+          "title": "奇迹秀工具箱",
+          "url": "https://www.qijishow.com/down/index.html",
+          "icon": "img/c5a5654a43dcb9dcff113e1cc45749fe.webp",
+          "desc": "提供设计、开发、生活等领域的在线工具集合。",
+          "proxy": false
+        },
+        {
+          "title": "MikuTools - 一个轻量的工具集合",
+          "url": "https://tools.miku.ac/",
+          "icon": "img/976c3693264ea02a0c0d21d14463abac.webp",
+          "desc": "集合了开发、媒体、图片、生活等多种在线小工具。",
+          "proxy": false
+        },
+        {
+          "title": "iLovePDF",
+          "url": "https://www.ilovepdf.com/zh-cn",
+          "icon": "img/e7f31a42ba09faf8dd3a2613afbeac14.webp",
+          "desc": "免费的在线PDF工具集，支持合并、拆分、压缩、转换、编辑PDF等多种操作。",
+          "proxy": false
         }
       ]
     },
@@ -1013,6 +1083,13 @@
           "icon": "",
           "desc": "国内知名的安全技术交流论坛，分享各类软件、逆向工程及安全知识。",
           "proxy": false
+        },
+        {
+          "title": "V2EX",
+          "url": "https://www.v2ex.com/",
+          "icon": "img/490d1febdb6cec70a8607a1abcb44d6f.webp",
+          "desc": "创意工作者们的社区。",
+          "proxy": true
         },
         {
           "title": "Mobilism",
@@ -1418,6 +1495,34 @@
           "icon": "img/c12cba11719f602316d8349208df1071.webp",
           "desc": "一款开源、跨平台、轻量级的高速下载器，支持HTTP、BT、磁力等协议。",
           "proxy": false
+        },
+        {
+          "title": "虫部落",
+          "url": "https://www.chongbuluo.com/",
+          "icon": "img/f644dfb38b112dcdd510aa6d7047f183.webp",
+          "desc": "强大的聚合搜索引擎入口，帮你快速切换不同引擎找到所需信息。",
+          "proxy": false
+        },
+        {
+          "title": "PICKFREE",
+          "url": "https://www.pickfree.cn/",
+          "icon": "img/c71579daf82fb07ca18f8c304e53d8f7.webp",
+          "desc": "免费、免版权设计素材资源导航网站。",
+          "proxy": false
+        },
+        {
+          "title": "奔跑中的奶酪",
+          "url": "https://www.runningcheese.com/",
+          "icon": "img/b6bc9763c1d31f799419e0da1e695e7e.webp",
+          "desc": "致力于分享高效办公方法、优质软件和浏览器使用技巧的博客。",
+          "proxy": false
+        },
+        {
+          "title": "iMyShare 资源导航",
+          "url": "https://imyshare.com/",
+          "icon": "img/b95a1aca5d18d8442fb150bc1ec7cf78.webp",
+          "desc": "汇集优质软件工具、学习资源和网站的综合性导航站。",
+          "proxy": false
         }
       ]
     },
@@ -1732,6 +1837,20 @@
           "icon": "img/964122d3b90340bd4333225c5f39ef61.webp",
           "desc": "提供多语言字幕下载，包含中文字幕。",
           "proxy": false
+        },
+        {
+          "title": "公开课纪录片下载网",
+          "url": "https://www.opclass.com/",
+          "desc": "提供国内外知名大学公开课和纪录片下载。",
+          "icon": "img/fa696e013ec0de66e7a3a18922e89e46.webp",
+          "proxy": false
+        },
+        {
+          "title": "预告片世界",
+          "url": "https://www.yugaopian.cn/",
+          "desc": "汇集国内外最新电影预告片的网站。",
+          "icon": "img/f1dd281b5a773c04d135f5bd92d50ef7.webp",
+          "proxy": true
         }
       ]
     },
@@ -3558,6 +3677,27 @@
           "icon": "img/f44ac0510315dd4425ab95442f2d44e2.webp",
           "desc": "👍提供中外知名杂志、报纸、漫画、有声书下载，收费。",
           "proxy": false
+        },
+        {
+          "title": "恩京的书房",
+          "url": "https://www.enjing.net/",
+          "icon": "img/4c0860a75932cd1d8f894cfbe75f0c0c.webp",
+          "desc": "🥈电子书资源分享博客。",
+          "proxy": false
+        },
+        {
+          "title": "Anna’s Archive",
+          "url": "https://zh.annas-archive.org/",
+          "icon": "img/989ac03e6b8daade6d2dbcd4716ecfb1.webp",
+          "desc": "🥇全球最大的在线影子图书馆，整合Z-Library、LibGen等资源。",
+          "proxy": true
+        },
+        {
+          "title": "鸠摩搜书",
+          "url": "https://www.jiumodiary.com/",
+          "icon": "img/d67490429800b51dd9ef26f8fe377f55.webp",
+          "desc": "强大的电子书聚合搜索引擎。",
+          "proxy": false
         }
       ]
     },
@@ -3759,6 +3899,20 @@
           "url": "https://shadiao.pro/",
           "icon": "img/b7ee1700e4dadde5ae90eabf02479532.webp",
           "desc": "收录各种有趣、沙雕网站的导航。",
+          "proxy": false
+        },
+        {
+          "title": "创造狮导航",
+          "url": "https://chuangzaoshi.com/",
+          "icon": "img/009334cf187366626febb255acb481dd.webp",
+          "desc": "为创意工作者打造的资源导航站。",
+          "proxy": false
+        },
+        {
+          "title": "优设导航",
+          "url": "https://hao.uisdc.com/",
+          "icon": "img/349c6e6ac85ea96780e42e58c3ac2b7c.webp",
+          "desc": "设计师必备的网站导航。",
           "proxy": false
         },
         {

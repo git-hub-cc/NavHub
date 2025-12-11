@@ -1,5 +1,5 @@
 // =========================================================================
-// dataManager - 数据管理器
+// dataManager.js - 数据管理器
 // 职责: 管理应用的核心数据、状态和业务逻辑。
 // 包括：定义常量、管理全局状态、处理数据源的加载/切换、与LocalStorage交互等。
 // =========================================================================
@@ -12,7 +12,7 @@ export const NAV_CUSTOM_SOURCES_KEY = 'nav-custom-data-sources'; // 存储所有
 export const NAV_CUSTOM_USER_SITES_KEY = 'nav-user-custom-sites-data'; // 存储“我的导航”数据
 export const PROXY_MODE_KEY = 'proxy-mode-preference'; // 存储代理模式开关状态
 export const CUSTOM_CATEGORY_ID = 'custom-user-sites'; // “我的导航”分类的固定ID
-export const DEFAULT_SITES_PATH = "data/02服务.json"; // 默认加载的数据源
+export const DEFAULT_SITES_PATH = "data/02服务.json"; // 默认加载的主数据源
 
 // === 默认内置数据源列表 ===
 export const defaultSiteDataSources = [
@@ -102,8 +102,9 @@ export async function performDataSourceSwitch(identifier, useCache = false, onSw
         source = state.allSiteDataSources.find(s => s.path === identifier);
     }
 
-    // 步骤 2: 尝试从缓存加载数据 (仅在初次加载时，且针对默认数据源)。
-    if (useCache && source && source.path) {
+    // 步骤 2: 尝试从缓存加载数据 (仅在初次加载时，且仅针对主默认数据源)。
+    // 【关键修复】将缓存读取的条件限制为仅当目标源是主默认源时，避免加载错误的缓存数据。
+    if (useCache && source && source.path === DEFAULT_SITES_PATH) {
         const storedBaseData = localStorage.getItem(NAV_DATA_STORAGE_KEY);
         if (storedBaseData) {
             try {
@@ -222,10 +223,13 @@ export function saveNavData(currentSourceIdentifier) {
             localStorage.setItem(NAV_CUSTOM_USER_SITES_KEY, JSON.stringify(customCategory));
         }
 
-        // 将不含用户自定义分类的基础数据缓存起来 (用于下次快速加载)
-        const baseData = JSON.parse(JSON.stringify(state.siteData));
-        baseData.categories = baseData.categories.filter(c => c.categoryId !== CUSTOM_CATEGORY_ID);
-        localStorage.setItem(NAV_DATA_STORAGE_KEY, JSON.stringify(baseData));
+        // 【关键修复】只缓存主默认数据源的数据，以避免切换到其他内置源后刷新页面导致数据错乱
+        if (currentSourceIdentifier === DEFAULT_SITES_PATH) {
+            // 将不含用户自定义分类的基础数据缓存起来 (用于下次快速加载)
+            const baseData = JSON.parse(JSON.stringify(state.siteData));
+            baseData.categories = baseData.categories.filter(c => c.categoryId !== CUSTOM_CATEGORY_ID);
+            localStorage.setItem(NAV_DATA_STORAGE_KEY, JSON.stringify(baseData));
+        }
     }
 }
 

@@ -3088,161 +3088,161 @@
           "title": "GitHub",
           "url": "https://github.com/",
           "desc": "全球最大的代码托管平台和开源社区，汇集了海量项目与开发者。",
-          "icon": "",
+          "icon": "img/a3b83d9ea6dc3eb100473b6c628efcb1.webp",
           "proxy": false
         },
         {
           "title": "BT虎牙",
           "url": "https://github.com/bthuyadizhi",
           "desc": "磁力搜索引擎的地址发布页 (Github)。",
-          "icon": "",
+          "icon": "img/a3b83d9ea6dc3eb100473b6c628efcb1.webp",
           "proxy": false
         },
         {
           "title": "BTMET",
           "url": "https://github.com/btmet/home",
           "desc": "磁力搜索引擎的地址发布页 (Github)。",
-          "icon": "",
+          "icon": "img/a3b83d9ea6dc3eb100473b6c628efcb1.webp",
           "proxy": false
         },
         {
           "title": "磁力狗1024",
           "url": "https://github.com/ciligou/ciligou",
           "desc": "一个磁力与BT资源搜索引擎。",
-          "icon": "",
+          "icon": "img/a3b83d9ea6dc3eb100473b6c628efcb1.webp",
           "proxy": true
         },
         {
           "title": "Panda OCR",
           "url": "https://github.com/miaomiaosoft/PandaOCR.Pro",
           "desc": "多功能OCR文字识别工具，支持多个OCR和翻译引擎。",
-          "icon": "",
+          "icon": "img/a3b83d9ea6dc3eb100473b6c628efcb1.webp",
           "proxy": false
         },
         {
           "title": "ShanaEncoder",
           "url": "https://github.com/1265578519/ShanaEncoder/releases",
           "desc": "👍免费强大的视频压制和格式转换工具。",
-          "icon": "",
+          "icon": "img/a3b83d9ea6dc3eb100473b6c628efcb1.webp",
           "proxy": false
         },
         {
           "title": "ytdlp-interface",
           "url": "https://github.com/ErrorFlynn/ytdlp-interface/releases",
           "desc": "yt-dlp的图形化界面，方便下载YouTube等网站视频。",
-          "icon": "",
+          "icon": "img/a3b83d9ea6dc3eb100473b6c628efcb1.webp",
           "proxy": false
         },
         {
           "title": "Tartube",
           "url": "https://github.com/axcore/tartube/releases",
           "desc": "功能丰富的yt-dlp图形界面，支持订阅频道批量下载。",
-          "icon": "",
+          "icon": "img/a3b83d9ea6dc3eb100473b6c628efcb1.webp",
           "proxy": false
         },
         {
           "title": "Best-App",
           "url": "https://github.com/hzlzh/Best-App",
           "desc": "一个推荐优秀Mac应用的Github项目。",
-          "icon": "",
+          "icon": "img/a3b83d9ea6dc3eb100473b6c628efcb1.webp",
           "proxy": false
         },
         {
           "title": "awesome-mac",
           "url": "https://github.com/jaywcjlove/awesome-mac/blob/master/README-zh.md",
           "desc": "一个收集了各种优秀Mac软件、工具和资源的Github项目。",
-          "icon": "",
+          "icon": "img/a3b83d9ea6dc3eb100473b6c628efcb1.webp",
           "proxy": false
         },
         {
           "title": "洛雪音乐助手桌面版",
           "url": "https://github.com/lyswhut/lx-music-desktop#readme",
           "desc": "一个基于 Electron + Vue 开发的音乐软件。",
-          "icon": "",
+          "icon": "img/a3b83d9ea6dc3eb100473b6c628efcb1.webp",
           "proxy": false
         },
         {
           "title": "微信/QQ/TIM防撤回补丁",
           "url": "https://github.com/huiyadanli/RevokeMsgPatcher",
           "desc": "开源的微信/QQ/TIM防撤回+多开补丁。",
-          "icon": "",
+          "icon": "img/a3b83d9ea6dc3eb100473b6c628efcb1.webp",
           "proxy": false
         },
         {
           "title": "WeChatBackupNoRoot",
           "url": "https://github.com/DarkLineX/WechatBackupNoRoot",
           "desc": "免Root的安卓微信聊天记录备份工具。",
-          "icon": "",
+          "icon": "img/a3b83d9ea6dc3eb100473b6c628efcb1.webp",
           "proxy": false
         },
         {
           "title": "YesPlayMusic",
           "url": "https://github.com/qier222/YesPlayMusic",
           "desc": "高颜值的第三方网易云播放器。",
-          "icon": "",
+          "icon": "img/a3b83d9ea6dc3eb100473b6c628efcb1.webp",
           "proxy": false
         },
         {
           "title": "洛雪音乐助手",
           "url": "https://github.com/lyswhut/lx-music-desktop/releases",
           "desc": "免费开源的全网音乐聚合和下载工具，支持Windows和Mac。",
-          "icon": "",
+          "icon": "img/a3b83d9ea6dc3eb100473b6c628efcb1.webp",
           "proxy": false
         },
         {
           "title": "GitHub",
           "url": "https://github.com/",
           "desc": "全球最大的代码托管平台和开源社区，汇集了海量项目与开发者。",
-          "icon": "",
+          "icon": "img/a3b83d9ea6dc3eb100473b6c628efcb1.webp",
           "proxy": false
         },
         {
           "title": "GitHub Copilot",
           "url": "https://github.com/login?return_to=https%3A%2F%2Fgithub.com%2Fcopilot%2Fc%2Fc6eb74e4-33c5-408d-9d76-b9914f382998",
           "desc": "GitHub与OpenAI合作开发的AI代码补全工具，提升编程效率。",
-          "icon": "",
+          "icon": "img/a3b83d9ea6dc3eb100473b6c628efcb1.webp",
           "proxy": false
         },
         {
           "title": "Python-100-Days",
           "url": "https://github.com/jackfrued/Python-100-Days",
           "desc": "GitHub项目，Python从新手到大师的100天学习路径。",
-          "icon": "",
+          "icon": "img/a3b83d9ea6dc3eb100473b6c628efcb1.webp",
           "proxy": false
         },
         {
           "title": "上海交大",
           "url": "https://github.com/kxxwz/SJTU-Courses",
           "desc": "上海交通大学学生整理的课程资源(Github)。",
-          "icon": "",
+          "icon": "img/a3b83d9ea6dc3eb100473b6c628efcb1.webp",
           "proxy": false
         },
         {
           "title": "东南大学",
           "url": "https://github.com/zjdx1998/seucourseshare",
           "desc": "东南大学学生整理的课程资源(Github)。",
-          "icon": "",
+          "icon": "img/a3b83d9ea6dc3eb100473b6c628efcb1.webp",
           "proxy": false
         },
         {
           "title": "程序员考公指南",
           "url": "https://github.com/coder2gwy/coder2gwy",
           "desc": "Github高赞项目，为程序员提供考公指导和经验分享。",
-          "icon": "",
+          "icon": "img/a3b83d9ea6dc3eb100473b6c628efcb1.webp",
           "proxy": false
         },
         {
           "title": "Panda OCR",
           "url": "https://github.com/miaomiaosoft/PandaOCR.Pro",
           "desc": "多功能OCR文字识别工具，支持多个OCR和翻译引擎。",
-          "icon": "",
+          "icon": "img/a3b83d9ea6dc3eb100473b6c628efcb1.webp",
           "proxy": false
         },
         {
           "title": "猫抓",
           "url": "https://github.com/xifangczy/cat-catch",
           "desc": "Chrome媒体嗅探插件，可以方便地下载网页上的视频、音频等资源。",
-          "icon": "",
+          "icon": "img/a3b83d9ea6dc3eb100473b6c628efcb1.webp",
           "proxy": false
         }
       ]
