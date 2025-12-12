@@ -130,8 +130,10 @@ function setupDynamicEventListeners() {
     dom.contentWrapper.addEventListener('click', e => {
         // 使用 class 选择器捕获所有操作按钮
         const addSiteBtn = e.target.closest('.add-site-btn');
-        const editSiteBtn = e.target.closest('#edit-site-btn');
-        const deleteSiteBtn = e.target.closest('#delete-site-btn');
+        // 修改说明: 适配 ui.js 中的修改，将 id 选择器改为 class 选择器 .edit-site-btn
+        const editSiteBtn = e.target.closest('.edit-site-btn');
+        // 修改说明: 适配 ui.js 中的修改，将 id 选择器改为 class 选择器 .delete-site-btn
+        const deleteSiteBtn = e.target.closest('.delete-site-btn');
         const clearCategoryBtn = e.target.closest('.clear-category-btn'); // 【新增】捕获清空按钮
         const card = e.target.closest('.card');
 

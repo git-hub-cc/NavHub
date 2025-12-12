@@ -285,6 +285,8 @@ export function renderNavPage() {
         const isEditable = isCustomSource || category.categoryId === CUSTOM_CATEGORY_ID;
 
         // 如果是自定义数据源或“我的导航”分类，则添加编辑/删除/清空按钮
+        // 修改说明: 将 id="edit-site-btn" 改为 class="action-btn edit-site-btn"
+        // 修改说明: 将 id="delete-site-btn" 改为 class="action-btn delete-site-btn"
         if (isEditable) {
             section.classList.add('custom-source-section');
             actionsHTML = `
@@ -292,8 +294,8 @@ export function renderNavPage() {
                     <button class="action-btn add-site-btn" data-category-id="${category.categoryId}" data-category-name="${category.categoryName}">
                         <svg class="icon" viewBox="0 0 24 24"><path d="M11 11V5H13V11H19V13H13V19H11V13H5V11H11Z" fill="currentColor"></path></svg> 新增
                     </button>
-                    <button id="edit-site-btn" class="action-btn"><svg class="icon" viewBox="0 0 24 24"><path d="M12.8995 6.85453L17.1421 11.0972L7.24264 20.9967H3V16.754L12.8995 6.85453ZM14.3137 5.44032L16.435 3.319C16.8256 2.92848 17.4587 2.92848 17.8492 3.319L20.6777 6.14743C21.0682 6.53795 21.0682 7.17112 20.6777 7.56164L18.5563 9.68296L14.3137 5.44032Z" fill="currentColor"></path></svg> 编辑</button>
-                    <button id="delete-site-btn" class="action-btn" style="color:var(--danger)"><svg class="icon" viewBox="0 0 24 24"><path d="M17 6H22V8H20V21C20 21.5523 19.5523 22 19 22H5C4.44772 22 4 21.5523 4 21V8H2V6H7V3C7 2.44772 7.44772 2 8 2H16C16.5523 2 17 2.44772 17 3V6ZM18 8H6V20H18V8ZM9 11H11V17H9V11ZM13 11H15V17H13V11ZM9 4V6H15V4H9Z" fill="currentColor"></path></svg> 删除</button>
+                    <button class="action-btn edit-site-btn"><svg class="icon" viewBox="0 0 24 24"><path d="M12.8995 6.85453L17.1421 11.0972L7.24264 20.9967H3V16.754L12.8995 6.85453ZM14.3137 5.44032L16.435 3.319C16.8256 2.92848 17.4587 2.92848 17.8492 3.319L20.6777 6.14743C21.0682 6.53795 21.0682 7.17112 20.6777 7.56164L18.5563 9.68296L14.3137 5.44032Z" fill="currentColor"></path></svg> 编辑</button>
+                    <button class="action-btn delete-site-btn" style="color:var(--danger)"><svg class="icon" viewBox="0 0 24 24"><path d="M17 6H22V8H20V21C20 21.5523 19.5523 22 19 22H5C4.44772 22 4 21.5523 4 21V8H2V6H7V3C7 2.44772 7.44772 2 8 2H16C16.5523 2 17 2.44772 17 3V6ZM18 8H6V20H18V8ZM9 11H11V17H9V11ZM13 11H15V17H13V11ZM9 4V6H15V4H9Z" fill="currentColor"></path></svg> 删除</button>
                     <button class="action-btn clear-category-btn" data-category-id="${category.categoryId}" data-category-name="${category.categoryName}" style="color:var(--danger)"><svg class="icon" viewBox="0 0 24 24"><path d="M17 6H22V8H20V21C20 21.5523 19.5523 22 19 22H5C4.44772 22 4 21.5523 4 21V8H2V6H7V3C7 2.44772 7.44772 2 8 2H16C16.5523 2 17 2.44772 17 3V6ZM18 8H6V20H18V8Z" fill="currentColor"></path></svg> 清空</button>
                 </div>
             `;
@@ -595,9 +597,10 @@ export function toggleEditMode() {
     const isNowEditing = dom.contentWrapper.classList.toggle('is-editing');
 
     // 更新所有编辑按钮的状态和文本
-    document.querySelectorAll('#edit-site-btn').forEach(btn => {
+    // 修改说明: 使用 class 选择器 .edit-site-btn，并将文本改为“退出编辑”以消除歧义
+    document.querySelectorAll('.edit-site-btn').forEach(btn => {
         btn.classList.toggle('active', isNowEditing);
-        btn.innerHTML = isNowEditing ? '<svg class="icon" viewBox="0 0 24 24"><path d="M10 15.172L19.192 5.979L20.607 7.393L10 18L3.636 11.636L5.05 10.222L10 15.172Z" fill="currentColor"></path></svg> 完成' : '<svg class="icon" viewBox="0 0 24 24"><path d="M12.8995 6.85453L17.1421 11.0972L7.24264 20.9967H3V16.754L12.8995 6.85453ZM14.3137 5.44032L16.435 3.319C16.8256 2.92848 17.4587 2.92848 17.8492 3.319L20.6777 6.14743C21.0682 6.53795 21.0682 7.17112 20.6777 7.56164L18.5563 9.68296L14.3137 5.44032Z" fill="currentColor"></path></svg> 编辑';
+        btn.innerHTML = isNowEditing ? '<svg class="icon" viewBox="0 0 24 24"><path d="M10 15.172L19.192 5.979L20.607 7.393L10 18L3.636 11.636L5.05 10.222L10 15.172Z" fill="currentColor"></path></svg> 退出编辑' : '<svg class="icon" viewBox="0 0 24 24"><path d="M12.8995 6.85453L17.1421 11.0972L7.24264 20.9967H3V16.754L12.8995 6.85453ZM14.3137 5.44032L16.435 3.319C16.8256 2.92848 17.4587 2.92848 17.8492 3.319L20.6777 6.14743C21.0682 6.53795 21.0682 7.17112 20.6777 7.56164L18.5563 9.68296L14.3137 5.44032Z" fill="currentColor"></path></svg> 编辑';
     });
 
     // 启用或禁用可编辑区域卡片的可拖拽属性
@@ -617,9 +620,10 @@ export function toggleDeleteMode() {
     const isNowDeleting = dom.contentWrapper.classList.toggle('is-deleting');
 
     // 更新所有删除按钮的状态和文本
-    document.querySelectorAll('#delete-site-btn').forEach(btn => {
+    // 修改说明: 使用 class 选择器 .delete-site-btn，并将文本改为“退出删除”以消除歧义
+    document.querySelectorAll('.delete-site-btn').forEach(btn => {
         btn.classList.toggle('active', isNowDeleting);
-        btn.innerHTML = isNowDeleting ? '<svg class="icon" viewBox="0 0 24 24"><path d="M10 15.172L19.192 5.979L20.607 7.393L10 18L3.636 11.636L5.05 10.222L10 15.172Z" fill="currentColor"></path></svg> 完成' : '<svg class="icon" viewBox="0 0 24 24"><path d="M17 6H22V8H20V21C20 21.5523 19.5523 22 19 22H5C4.44772 22 4 21.5523 4 21V8H2V6H7V3C7 2.44772 7.44772 2 8 2H16C16.5523 2 17 2.44772 17 3V6ZM18 8H6V20H18V8ZM9 11H11V17H9V11ZM13 11H15V17H13V11ZM9 4V6H15V4H9Z" fill="currentColor"></path></svg> 删除';
+        btn.innerHTML = isNowDeleting ? '<svg class="icon" viewBox="0 0 24 24"><path d="M10 15.172L19.192 5.979L20.607 7.393L10 18L3.636 11.636L5.05 10.222L10 15.172Z" fill="currentColor"></path></svg> 退出删除' : '<svg class="icon" viewBox="0 0 24 24"><path d="M17 6H22V8H20V21C20 21.5523 19.5523 22 19 22H5C4.44772 22 4 21.5523 4 21V8H2V6H7V3C7 2.44772 7.44772 2 8 2H16C16.5523 2 17 2.44772 17 3V6ZM18 8H6V20H18V8ZM9 11H11V17H9V11ZM13 11H15V17H13V11ZM9 4V6H15V4H9Z" fill="currentColor"></path></svg> 删除';
     });
 }
 

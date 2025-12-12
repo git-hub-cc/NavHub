@@ -7,7 +7,7 @@
     {"label": "🧲 磁力", "value": "bt"},
     {"label": "📺 视频", "value": "video"},
     {"label": "🎬 影视点评", "value": "movie_review"},
-    {"label": "🎞️ 电影", "value": "movie_streaming"},
+    {"label": "🎞️ 小众视频", "value": "movie_streaming"},
     {"label": "📚 动漫番剧", "value": "anime"},
     {"label": "🏅 体育赛事", "value": "sports"},
     {"label": "🎥 纪录片", "value": "documentary"},
