@@ -800,20 +800,6 @@
           "proxy": false
         },
         {
-          "title": "QuickLook",
-          "url": "https://www.microsoft.com/zh-cn/p/quicklook/9nv4bs3l1h4s",
-          "icon": "img/12e3dac858061d088023b2bd48e2fa96.webp",
-          "desc": "通过空格快捷键快速预览文件内容",
-          "proxy": false
-        },
-        {
-          "title": "Ditto Clipboard",
-          "url": "https://www.microsoft.com/zh-cn/p/ditto-clipboard/9nblggh3zbjq?activetab=pivot:overviewtab",
-          "icon": "img/12e3dac858061d088023b2bd48e2fa96.webp",
-          "desc": "一款免费的管理剪贴板",
-          "proxy": false
-        },
-        {
           "title": "WindowTop",
           "url": "https://www.appinn.com/windowtop/",
           "icon": "img/b71efdc68de12a889b97c99c54fd7087.webp",
@@ -852,13 +838,6 @@
           "url": "https://app.diagrams.net/",
           "icon": "img/b2bf17349e4b50ce4ba311f079f8bf7d.webp",
           "desc": "强大免费的在线图表绘制工具，支持流程图、UML、网络拓扑图等。",
-          "proxy": false
-        },
-        {
-          "title": "知页简历",
-          "url": "https://www.zhiyeapp.com/",
-          "icon": "img/ad57a218b19ae06e13d7c0f4df664e63.webp",
-          "desc": "免费领取简历模板",
           "proxy": false
         },
         {
@@ -2089,20 +2068,6 @@
           "proxy": false
         },
         {
-          "title": "AK加速器",
-          "url": "https://www.akspeedy.com/html/invite_new/invite_download.html?inviter=8eB3rEmS",
-          "icon": "img/fa67d6b5e9e40f95b492c88c95f21edd.webp",
-          "desc": "（兑换码：阿虚 ⇨ 送66小时丨每天00:00－14:00免费）",
-          "proxy": false
-        },
-        {
-          "title": "biubiu加速器",
-          "url": "https://www.biubiu001.com/",
-          "icon": "img/cd108d03603cd92059564199662eff2e.webp",
-          "desc": "（兑换码：阿虚 ⇨ 送3天）网易出品的游戏加速器。",
-          "proxy": false
-        },
-        {
           "title": "Tap加速器",
           "url": "https://www.taptap.cn/app/180786",
           "icon": "img/09824ff335e8382c1bee7fb676b1d554.webp",
@@ -2693,13 +2658,6 @@
           "icon": "img/0e5d25ee5f414850bc012d99b0cf3252.webp",
           "desc": "全球最大的AI模型和数据集社区，可下载Stable Diffusion模型。",
           "proxy": true
-        },
-        {
-          "title": "秘塔AI",
-          "url": "https://metaso.cn/",
-          "icon": "img/c7c356fae0facff9406b9b7bac770c2a.webp",
-          "desc": "AI驱动的学术搜索和智能写作工具。",
-          "proxy": false
         },
         {
           "title": "无涯问知",
@@ -3920,27 +3878,6 @@
           "url": "https://ruby-china.org/sites",
           "icon": "img/29699004166382d7db0f2ce96c44df50.webp",
           "desc": "由Ruby China社区成员分享的酷站导航。",
-          "proxy": false
-        },
-        {
-          "title": "爱优腾、网易云、B站、网盘，低价会员合集",
-          "url": "https://pay.pdf365.cn/foxitreader/88vip.html?agent=zhsw&MD=axtx",
-          "icon": "",
-          "desc": "🔥提供各大平台会员的低价充值服务。",
-          "proxy": false
-        },
-        {
-          "title": "免费领取 3 个月 iCloud 会员",
-          "url": "https://icloud.qsios.com/yun/#/ilink/wx36",
-          "icon": "",
-          "desc": "🆕（限时活动）免费领取50GB的iCloud存储空间。",
-          "proxy": false
-        },
-        {
-          "title": "阿虚的流量卡小店",
-          "url": "https://api.simhaoka.com/h5/index?uc=kTNQ3GWi6a",
-          "icon": "",
-          "desc": "🔥提供大流量低月租的手机流量卡（低至19/月192G）。",
           "proxy": false
         },
         {

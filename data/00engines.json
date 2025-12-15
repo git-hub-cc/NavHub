@@ -41,7 +41,8 @@
     {"label": "🎓 学术", "value": "academic"},
     {"label": "❓ 问答", "value": "question"},
     {"label": "🩺 医疗", "value": "medical"},
-    {"label": "📜 古籍", "value": "ancient_text"}
+    {"label": "📜 古籍", "value": "ancient_text"},
+    {"label": "🔍 CSE", "value": "cse"}
   ],
   "engines": {
     "ai": [
@@ -83,7 +84,6 @@
       {"name": "飞猪盘", "url": "https://www.feizhupan.com/#/main/search?keyword=%s&restype=0", "proxy": false, "desc": "支持百度网盘与阿里云盘的资源搜索。"},
       {"name": "熊猫搜盘", "url": "https://www.sopandas.com/e/%s", "proxy": false, "desc": "聚合各类学习、娱乐资源的网盘搜索。"},
       {"name": "夸克小站", "url": "https://pioz.cn/search?q=%s", "proxy": false, "desc": "专门针对夸克网盘资源的分享社区。"},
-      {"name": "小力盘", "url": "https://www.xiaolipan.com/search.html?keyword=%s", "proxy": false, "desc": "界面清爽的网盘资源搜索工具。"},
       {"name": "小宇搜索", "url": "https://xykmovie.com/s/1/%s", "proxy": false, "desc": "综合性资源搜索，支持影视与软件。"},
       {"name": "混合盘", "url": "https://hunhepan.com/search?q=%s&type=ALY", "proxy": false, "desc": "同时支持阿里云盘、百度盘等多种网盘搜索。"}
     ],
@@ -122,14 +122,12 @@
     ],
     "movie_streaming": [
       {"name": "grab4k", "url": "https://grab4k.com/vod/search.html?wd=%s", "proxy": false, "desc": "提供 4K 高清画质的影视资源下载与播放。"},
-      {"name": "修罗影视", "url": "https://v.xlys.ltd.ua/search/%s", "proxy": false, "desc": "资源更新快，播放线路多的在线影院。"},
       {"name": "爱壹帆", "url": "https://www.iyf.lv/s/-------------/?wd=%s", "proxy": false, "desc": "海外华人常用的高清影视在线观看平台。"},
       {"name": "泥视频", "url": "https://www.nivod.vip/s/-------------/?wd=%s", "proxy": false, "desc": "针对海外用户的影视平台，加载速度快。"},
       {"name": "在线之家", "url": "https://www.zxzjhd.com/vodsearch/-------------.html?wd=%s&submit=", "proxy": false, "desc": "主打美剧、韩剧等海外剧集的高清在线看。"},
       {"name": "Gimy TV 剧迷", "url": "https://gimytv.ai/search/-------------.html?wd=%s", "proxy": false, "desc": "港台地区流行的综合影视剧集网站。"},
       {"name": "大师兄影视", "url": "https://dsxys.com/sb/kemksmaksdl7nhZe3c1-.html?wd=%s", "proxy": false, "desc": "老牌影视站，资源全且更新及时。"},
       {"name": "蛋蛋赞影院", "url": "https://www.ppnix.com/search/%s--.html", "proxy": false, "desc": "聚合全网影视资源，智能推荐线路。"},
-      {"name": "厂长资源", "url": "https://www.czzymovie.com/boss1O1?q=%s", "proxy": false, "desc": "界面简洁，提供高质量在线观看与下载。"},
       {"name": "韩饭网", "url": "https://www.hanfan.cc/?s=%s", "proxy": false, "desc": "专注于韩国娱乐、综艺与韩剧的资讯站。"},
       {"name": "影猫の仓库", "url": "https://www.ymck.pro/search.html?wd=%s", "proxy": false, "desc": "只有 4K 高清资源的影视下载站。"},
       {"name": "Azmovies", "url": "https://azmovies.to/search?q=%s", "proxy": false, "desc": "专注于提供高清电影资源的英文网站。"},
@@ -185,6 +183,7 @@
       {"name": "AllMovie Quotes", "url": "https://www.allmovie.com/search/all/%s", "proxy": false, "desc": "AllMovie 全站搜索，可检索电影相关名台词与剧情信息。"}
     ],
     "music": [
+      {"name": "Spotify", "url": "https://open.spotify.com/search/%s", "proxy": false, "desc": ""},
       {"name": "爱听音乐网", "url": "https://www.2t58.com/so/%s.html", "proxy": false, "desc": "提供高品质音乐试听与下载。"},
       {"name": "下歌吧", "url": "https://xiageba.com/s?keywords=%s", "proxy": false, "desc": "专注于无损高品质音乐的免费下载。"},
       {"name": "放屁音乐网", "url": "https://www.fangpi.net/s/%s", "proxy": false, "desc": "提供各类音乐资源的搜索。"},
@@ -479,6 +478,20 @@
       {"name": "苏州图书馆古籍库", "url": "https://fzk.szlib.com/pc/search?keyWord=%s", "proxy": false, "desc": "提供珍贵古籍的数字化阅览。"},
       {"name": "中国古典文献资源", "url": "https://www.wenxianxue.cn/search.html?ks=%s", "proxy": false, "desc": "专业的古典文献导航与资源站。"},
       {"name": "中国哲学书电子化计划", "url": "https://ctext.org/searchbooks.pl?searchu=%s", "proxy": false, "desc": "收录大量先秦至明清典籍，支持原文与译文检索。"}
+    ],
+    "cse": [
+      {
+        "name": "微信读书",
+        "url": "https://cse.google.com/cse?cx=a56f3b6c0a4a44ba9&q=%s",
+        "proxy": true,
+        "desc": "在微信读书中进行搜索。"
+      },
+      {
+        "name": "V2EX",
+        "url": "https://cse.google.com/cse?cx=804418eadda7c4c61&q=%s",
+        "proxy": true,
+        "desc": "在 V2EX 社区内搜索。"
+      }
     ]
   }
 }
