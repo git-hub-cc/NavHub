@@ -1534,7 +1534,7 @@
       ]
     },
     {
-      "categoryName": "🛠️系统与办公工具 (P1)",
+      "categoryName": "🛠️系统与办公工具",
       "categoryId": "aliyunpan-xitongyubangonggongju-part-1",
       "sites": [
         {
@@ -1816,13 +1816,7 @@
           "desc": "LRC字幕歌词转换与编辑制作软件",
           "icon": "img/060fbd5f9f928c5dd6c18a01e54407ed.webp",
           "proxy": false
-        }
-      ]
-    },
-    {
-      "categoryName": "🛠️系统与办公工具 (P2)",
-      "categoryId": "aliyunpan-xitongyubangonggongju-part-2",
-      "sites": [
+        },
         {
           "title": "实时语音转文字",
           "url": "https://www.aliyundrive.com/s/eNc2NpdvRRp",
@@ -2845,7 +2839,7 @@
       ]
     },
     {
-      "categoryName": "百度网盘-其他资源",
+      "categoryName": "百度网盘-综合",
       "categoryId": "baiduwangpan-qitaziyuan",
       "sites": [
         {
@@ -3485,7 +3479,7 @@
       ]
     },
     {
-      "categoryName": "📝安卓学习与办公 (P1)",
+      "categoryName": "📝安卓学习与办公",
       "categoryId": "lanzouyun-anzhuoxuexiyubangong-part-1",
       "sites": [
         {
@@ -3767,13 +3761,7 @@
           "desc": "会员版",
           "icon": "img/e2a12d30813a67034ecef52f8f5447d9.webp",
           "proxy": false
-        }
-      ]
-    },
-    {
-      "categoryName": "📝安卓学习与办公 (P2)",
-      "categoryId": "lanzouyun-anzhuoxuexiyubangong-part-2",
-      "sites": [
+        },
         {
           "title": "WPS 会员",
           "url": "https://www.lanzoux.com/isaBrpqug1i",
@@ -4322,7 +4310,7 @@
       ]
     },
     {
-      "categoryName": "📺安卓影音娱乐 (P1)",
+      "categoryName": "📺安卓影音娱乐",
       "categoryId": "lanzouyun-anzhuoyingyinyule-part-1",
       "sites": [
         {
@@ -4604,13 +4592,7 @@
           "desc": "画质高",
           "icon": "img/e2a12d30813a67034ecef52f8f5447d9.webp",
           "proxy": false
-        }
-      ]
-    },
-    {
-      "categoryName": "📺安卓影音娱乐 (P2)",
-      "categoryId": "lanzouyun-anzhuoyingyinyule-part-2",
-      "sites": [
+        },
         {
           "title": "皇帝影视HDV1.4.1纯净版",
           "url": "https://www.lanzoux.com/iEOhMsmqnod",
@@ -5440,7 +5422,7 @@
       ]
     },
     {
-      "categoryName": "蓝奏云-其他安卓应用",
+      "categoryName": "蓝奏云-综合",
       "categoryId": "lanzouyun-qitaanzhuoyingyong",
       "sites": [
         {

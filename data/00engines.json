@@ -490,7 +490,13 @@
         "name": "V2EX",
         "url": "https://cse.google.com/cse?cx=804418eadda7c4c61&q=%s",
         "proxy": true,
-        "desc": "在 V2EX 社区内搜索。"
+        "desc": "在V2EX社区内搜索。"
+      },
+      {
+        "name": "gov.cn",
+        "url": "https://cse.google.com/cse?cx=90c97e82edc2d4d77&q=%s",
+        "proxy": true,
+        "desc": "在中国政府内搜索。"
       }
     ]
   }
