@@ -497,6 +497,12 @@
         "url": "https://cse.google.com/cse?cx=90c97e82edc2d4d77&q=%s",
         "proxy": true,
         "desc": "在中国政府内搜索。"
+      },
+      {
+        "name": "electronjs",
+        "url": "https://cse.google.com/cse?cx=f5bb1a9a424824083&q=%s",
+        "proxy": true,
+        "desc": "electron框架。"
       }
     ]
   }
