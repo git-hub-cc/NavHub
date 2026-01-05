@@ -121,7 +121,6 @@
       {"name": "AllMovie", "url": "https://www.allmovie.com/search/all/%s", "proxy": false, "desc": "专业电影资料库，提供剧情分析、风格标签与影评。"}
     ],
     "movie_streaming": [
-      {"name": "grab4k", "url": "https://grab4k.com/vod/search.html?wd=%s", "proxy": false, "desc": "提供 4K 高清画质的影视资源下载与播放。"},
       {"name": "爱壹帆", "url": "https://www.iyf.lv/s/-------------/?wd=%s", "proxy": false, "desc": "海外华人常用的高清影视在线观看平台。"},
       {"name": "泥视频", "url": "https://www.nivod.vip/s/-------------/?wd=%s", "proxy": false, "desc": "针对海外用户的影视平台，加载速度快。"},
       {"name": "在线之家", "url": "https://www.zxzjhd.com/vodsearch/-------------.html?wd=%s&submit=", "proxy": false, "desc": "主打美剧、韩剧等海外剧集的高清在线看。"},
@@ -133,6 +132,7 @@
       {"name": "Azmovies", "url": "https://azmovies.to/search?q=%s", "proxy": false, "desc": "专注于提供高清电影资源的英文网站。"},
       {"name": "港剧屋", "url": "https://www.gj5.tv/search/--/?wd=%s&submit=", "proxy": false, "desc": "专门收集最新与经典 TVB 港剧的网站。"},
       {"name": "爱港剧", "url": "https://www.yueyu2.com/search/-------------.html?wd=%s", "proxy": false, "desc": "专注于粤语港剧在线观看的平台。"},
+      {"name": "grab4k", "url": "https://grab4k.com/vod/search.html?wd=%s", "proxy": false, "desc": "提供 4K 高清画质的影视资源下载与播放。"},
       {"name": "电影先生", "url": "https://soupian.plus/movie/%s&from=dyxs-search", "proxy": false, "desc": "界面现代，适配多端的在线影视站。"}
     ],
     "anime": [

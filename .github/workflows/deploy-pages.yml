@@ -1,0 +1,63 @@
+# ======================================================================
+# NavHub 项目 GitHub Pages 自动部署工作流
+# ======================================================================
+
+name: Deploy to GitHub Pages
+
+# 触发工作流的事件
+on:
+  # 1. 当代码推送到 `main` 分支时自动触发
+  push:
+    branches: [ "main" ]
+
+  # 2. 允许在 GitHub Actions 页面手动触发此工作流
+  workflow_dispatch:
+
+# 设置工作流的权限
+# 这是使用现代 GitHub Pages 部署操作所必需的
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+# 并发控制
+# 确保同一时间只有一个部署任务在运行，并自动取消旧的、正在进行的任务
+concurrency:
+  group: "pages"
+  cancel-in-progress: true
+
+jobs:
+  # 定义一个名为 "deploy" 的作业
+  deploy:
+    # 设置部署环境
+    environment:
+      name: github-pages
+      # 在工作流运行摘要中显示部署后的网站URL
+      url: ${{ steps.deployment.outputs.page_url }}
+
+    # 指定运行此作业的虚拟机环境
+    runs-on: ubuntu-latest
+
+    steps:
+      # 步骤 1: 检出（下载）你的仓库代码
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      # 步骤 2: 设置 GitHub Pages 环境
+      - name: Set up GitHub Pages
+        uses: actions/configure-pages@v4
+
+      # 步骤 3: 构建项目产物
+      # 由于您的项目是纯静态文件，不需要编译或构建。
+      # 我们直接将整个项目目录打包成 GitHub Pages 的产物。
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          # 指定要上传的文件夹路径。'.' 代表整个仓库根目录。
+          # 这将包含 index.html, style.css, data/, js/, img/ 等所有文件。
+          path: '.'
+
+      # 步骤 4: 部署到 GitHub Pages
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
