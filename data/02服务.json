@@ -1251,6 +1251,13 @@
           "icon": "img/013541699a919b36c708bd3d36e650ff.webp",
           "desc": "由@vposy大神整理的 Adobe 全家桶系列，包含2020、2021等多个版本及Mac版，安全稳定。原HTML内所有Adobe资源均出自此处。",
           "proxy": false
+        },
+        {
+          "title": "克隆窝",
+          "url": "https://www.uy5.net/",
+          "icon": "img/eac8070bdb2a3e371de30260a736d3c8.webp",
+          "desc": "有着丰富的软件资源",
+          "proxy": false
         }
       ]
     },
@@ -3885,6 +3892,13 @@
           "url": "https://zh.moegirl.org.cn:443/Mainpage",
           "icon": "img/1d23c39b68126cf52518275fe6ee1a1c.webp",
           "desc": "一个以ACGN文化为主题的在线百科全书。",
+          "proxy": false
+        },
+        {
+          "title": "内容核",
+          "url": "https://contentcore.xyz/",
+          "icon": "img/bf13f0d6a8532fd28a22ac13870aa183.webp",
+          "desc": "含有多款产品运镜",
           "proxy": false
         }
       ]
