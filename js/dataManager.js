@@ -1,18 +1,26 @@
 // =========================================================================
-// dataManager.js - 数据管理器
-// 职责: 管理应用的核心数据、状态和业务逻辑。
-// 包括：定义常量、管理全局状态、处理数据源的加载/切换、与LocalStorage交互等。
+// dataManager.js - 数据管理器 (增强版: 支持 GitHub 同步)
+// 职责: 管理应用的核心数据、状态、业务逻辑以及与 GitHub 的数据同步。
 // =========================================================================
+
+import { githubClient } from './githubClient.js';
+import { showAlert } from './ui.js'; // 仅用于关键错误提示，避免循环依赖
 
 // === 常量定义 ===
 export const THEME_STORAGE_KEY = 'theme-preference';
-export const NAV_DATA_STORAGE_KEY = 'my-awesome-nav-data'; // 用于缓存默认数据源的基础数据
-export const NAV_DATA_SOURCE_PREFERENCE_KEY = 'nav-data-source-preference'; // 用户最后选择的数据源
-export const NAV_CUSTOM_SOURCES_KEY = 'nav-custom-data-sources'; // 存储所有自定义数据源
-export const NAV_CUSTOM_USER_SITES_KEY = 'nav-user-custom-sites-data'; // 存储“我的导航”数据
-export const PROXY_MODE_KEY = 'proxy-mode-preference'; // 存储代理模式开关状态
-export const CUSTOM_CATEGORY_ID = 'custom-user-sites'; // “我的导航”分类的固定ID
-export const DEFAULT_SITES_PATH = "data/02服务.json"; // 默认加载的主数据源
+export const NAV_DATA_STORAGE_KEY = 'my-awesome-nav-data'; // 本地缓存的基础数据
+export const NAV_DATA_SOURCE_PREFERENCE_KEY = 'nav-data-source-preference'; // 用户最后选择的数据源标识
+export const NAV_CUSTOM_SOURCES_KEY = 'nav-custom-data-sources'; // 本地自定义源
+export const NAV_CUSTOM_USER_SITES_KEY = 'nav-user-custom-sites-data'; // 本地“我的导航”数据
+export const PROXY_MODE_KEY = 'proxy-mode-preference';
+export const CUSTOM_CATEGORY_ID = 'custom-user-sites';
+export const DEFAULT_SITES_PATH = "data/02服务.json";
+
+// === GitHub 相关常量 ===
+export const GITHUB_TOKEN_KEY = 'navhub-github-token';
+export const GITHUB_REPO_KEY = 'navhub-github-repo';
+export const GITHUB_DATA_FILE = 'navhub-data.json';
+export const DEFAULT_REPO_NAME = 'navhub-data'; // 默认创建的仓库名
 
 // === 默认内置数据源列表 ===
 export const defaultSiteDataSources = [
@@ -22,108 +30,269 @@ export const defaultSiteDataSources = [
 
 // === 全局状态对象 ===
 export const state = {
-    siteData: { categories: [] }, // 当前导航页面的数据
-    searchConfig: { categories: [], engines: {} }, // 搜索引擎配置
-    allSiteDataSources: [], // 所有可用数据源（默认+自定义）的列表
-    originalDataSourceValue: null, // 用于在数据源切换失败时，恢复到上一个有效的值
+    siteData: { categories: [] }, // 当前页面数据
+    searchConfig: { categories: [], engines: {} },
+    allSiteDataSources: [], // 所有可用数据源
+    originalDataSourceValue: null,
+
+    // GitHub 同步状态
+    github: {
+        token: null,
+        user: null,
+        repo: null, // full_name: username/repo
+        remoteSha: null, // 远程文件的 SHA，用于乐观锁更新
+        isSyncing: false,
+        lastSyncTime: null,
+        syncStatus: 'idle' // idle, syncing, success, error, conflict
+    }
 };
 
 // =========================================================================
-// #region 偏好设置管理 (Theme & Proxy)
+// #region 偏好设置管理
 // =========================================================================
 
-/**
- * 获取用户的主题偏好设置。
- * @returns {'dark' | 'light'} - 主题名称。
- */
 export function getThemePreference() {
     const storedTheme = localStorage.getItem(THEME_STORAGE_KEY);
     if (storedTheme) return storedTheme;
-    // 根据系统偏好设置默认主题
     return window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
 }
 
-/**
- * 获取用户的代理模式偏好。
- * @returns {boolean} - 是否开启代理显示模式。
- */
 export function getProxyMode() {
     return localStorage.getItem(PROXY_MODE_KEY) === 'true';
 }
 
-/**
- * 保存用户的代理模式偏好。
- * @param {boolean} isProxyOn - 代理模式是否开启。
- */
 export function setProxyMode(isProxyOn) {
     localStorage.setItem(PROXY_MODE_KEY, String(isProxyOn));
+}
+
+// =========================================================================
+// #region GitHub 核心逻辑 (新增)
+// =========================================================================
+
+/**
+ * 初始化 GitHub 客户端
+ * 尝试从 localStorage 读取 Token 并验证，如果有效则设置 state
+ */
+export async function initGitHub() {
+    const token = localStorage.getItem(GITHUB_TOKEN_KEY);
+    const savedRepo = localStorage.getItem(GITHUB_REPO_KEY);
+
+    if (!token) return false;
+
+    try {
+        githubClient.setToken(token);
+        const user = await githubClient.getUser();
+
+        state.github.token = token;
+        state.github.user = user;
+
+        // 确定仓库名称
+        let repoName = savedRepo;
+        if (!repoName) {
+            // 如果没存过，先检查默认仓库是否存在
+            const exists = await githubClient.checkRepoExists(user.login, DEFAULT_REPO_NAME);
+            if (exists) {
+                repoName = `${user.login}/${DEFAULT_REPO_NAME}`;
+            }
+        } else if (!repoName.includes('/')) {
+            // 兼容只存了 repo 名的情况
+            repoName = `${user.login}/${repoName}`;
+        }
+
+        if (repoName) {
+            state.github.repo = repoName;
+            githubClient.setRepo(repoName);
+            localStorage.setItem(GITHUB_REPO_KEY, repoName);
+        }
+
+        console.log(`[GitHub] 已登录: ${user.login}, 仓库: ${state.github.repo || '未设置'}`);
+        return true;
+    } catch (e) {
+        console.warn("[GitHub] 初始化失败:", e);
+        // Token 失效，清除本地存储防止死循环
+        if (e.message.includes("无效")) {
+            localStorage.removeItem(GITHUB_TOKEN_KEY);
+        }
+        return false;
+    }
+}
+
+/**
+ * 绑定 GitHub 账号
+ * @param {string} token
+ * @param {string} [customRepoName] 可选的自定义仓库名
+ */
+export async function bindGitHub(token, customRepoName) {
+    githubClient.setToken(token);
+    const user = await githubClient.getUser(); // 验证 Token
+
+    // 确定仓库
+    let targetRepoName = customRepoName || DEFAULT_REPO_NAME;
+    let fullRepoName = `${user.login}/${targetRepoName}`;
+
+    // 检查仓库是否存在，不存在则创建
+    const exists = await githubClient.checkRepoExists(user.login, targetRepoName);
+    if (!exists) {
+        try {
+            await githubClient.createRepo(targetRepoName);
+            console.log(`[GitHub] 自动创建仓库: ${fullRepoName}`);
+        } catch (e) {
+            throw new Error(`无法创建仓库 ${targetRepoName}: ${e.message}`);
+        }
+    }
+
+    // 保存状态
+    localStorage.setItem(GITHUB_TOKEN_KEY, token);
+    localStorage.setItem(GITHUB_REPO_KEY, fullRepoName);
+
+    state.github.token = token;
+    state.github.user = user;
+    state.github.repo = fullRepoName;
+    githubClient.setRepo(fullRepoName);
+
+    return true;
+}
+
+/**
+ * 从 GitHub 拉取数据并同步到本地
+ * @param {Function} onStatusChange 状态回调
+ */
+export async function syncFromGitHub(onStatusChange) {
+    if (!state.github.token || !state.github.repo) return;
+
+    if (onStatusChange) onStatusChange('syncing');
+
+    try {
+        const fileData = await githubClient.getFile(GITHUB_DATA_FILE);
+
+        if (fileData) {
+            const { content, sha } = fileData;
+            state.github.remoteSha = sha; // 记录 SHA 用于下次更新
+
+            // 1. 同步“我的导航”数据
+            if (content.customUserSites) {
+                localStorage.setItem(NAV_CUSTOM_USER_SITES_KEY, JSON.stringify(content.customUserSites));
+            }
+
+            // 2. 同步自定义源数据
+            if (content.customSources) {
+                localStorage.setItem(NAV_CUSTOM_SOURCES_KEY, JSON.stringify(content.customSources));
+            }
+
+            // 3. 同步偏好设置
+            if (content.preferences) {
+                if (content.preferences.theme) applyThemeAndSave(content.preferences.theme);
+                if (content.preferences.proxyMode !== undefined) {
+                    setProxyMode(content.preferences.proxyMode);
+                    // 注意：这里只更新数据，UI更新需由调用者处理
+                }
+            }
+
+            state.github.lastSyncTime = Date.now();
+            console.log("[GitHub] 数据拉取成功 (SHA: " + sha.substring(0, 7) + ")");
+        } else {
+            console.log("[GitHub] 远程文件不存在，将在首次保存时创建。");
+        }
+
+        if (onStatusChange) onStatusChange('success');
+    } catch (e) {
+        console.error("[GitHub] 同步失败:", e);
+        if (onStatusChange) onStatusChange('error');
+    }
+}
+
+/**
+ * 推送数据到 GitHub
+ * 包含防抖逻辑在调用层实现，此处为核心原子操作
+ */
+export async function syncToGitHub() {
+    if (!state.github.token || !state.github.repo) return;
+
+    // 收集所有需要同步的数据
+    const dataToSync = {
+        updatedAt: Date.now(),
+        preferences: {
+            theme: getThemePreference(),
+            proxyMode: getProxyMode()
+        },
+        // 读取最新的本地数据
+        customUserSites: JSON.parse(localStorage.getItem(NAV_CUSTOM_USER_SITES_KEY) || 'null'),
+        customSources: JSON.parse(localStorage.getItem(NAV_CUSTOM_SOURCES_KEY) || '[]')
+    };
+
+    try {
+        // 如果我们没有 remoteSha，说明还没拉取过，或者文件不存在
+        // 为了安全，先尝试拉取一次获取 SHA，避免覆盖冲突
+        if (!state.github.remoteSha) {
+            try {
+                const existing = await githubClient.getFile(GITHUB_DATA_FILE);
+                if (existing) state.github.remoteSha = existing.sha;
+            } catch (ignore) {}
+        }
+
+        const res = await githubClient.saveFile(GITHUB_DATA_FILE, dataToSync, state.github.remoteSha);
+
+        // 更新 SHA
+        state.github.remoteSha = res.content.sha;
+        state.github.lastSyncTime = Date.now();
+        state.github.syncStatus = 'success';
+        console.log("[GitHub] 数据推送成功, 新 SHA:", res.content.sha.substring(0, 7));
+
+        return true;
+    } catch (e) {
+        console.error("[GitHub] 推送失败:", e);
+        state.github.syncStatus = 'error';
+        throw e;
+    }
+}
+
+// 辅助：内部更新主题并保存本地（用于同步下载后的应用）
+function applyThemeAndSave(theme) {
+    localStorage.setItem(THEME_STORAGE_KEY, theme);
+    document.documentElement.setAttribute('data-theme', theme);
 }
 
 // =========================================================================
 // #region 数据源处理
 // =========================================================================
 
-/**
- * 从 localStorage 获取所有自定义数据源。
- * @returns {Array} 自定义数据源对象数组。
- */
 export function getCustomSources() {
     try {
         return JSON.parse(localStorage.getItem(NAV_CUSTOM_SOURCES_KEY)) || [];
     } catch {
-        // 解析失败时返回空数组，防止应用崩溃
         return [];
     }
 }
 
-/**
- * 加载所有数据源（默认+自定义）到全局状态 `state.allSiteDataSources` 中。
- */
 export function loadAllDataSources() {
     const customSources = getCustomSources();
     state.allSiteDataSources = [...defaultSiteDataSources, ...customSources];
 }
 
-/**
- * 执行数据源切换的核心逻辑。
- * @param {string} identifier - 数据源的唯一标识 (路径或名称)。
- * @param {boolean} useCache - 是否尝试使用缓存的导航数据 (仅用于应用初次加载)。
- * @param {Function} onSwitchSuccess - 切换成功后的回调函数，接收 identifier。
- * @param {Function} onSwitchFail - 切换失败后的回调函数，接收源名称和错误对象。
- */
 export async function performDataSourceSwitch(identifier, useCache = false, onSwitchSuccess, onSwitchFail) {
     let newBaseData;
     let source = state.allSiteDataSources.find(s => (s.path || s.name) === identifier);
 
-    // 步骤 1: 处理数据源不存在的情况（例如，被删除后），回退到默认源。
     if (!source) {
-        console.warn(`数据源 "${identifier}" 未找到, 回退到默认源.`);
+        console.warn(`数据源 "${identifier}" 未找到, 回退默认.`);
         identifier = DEFAULT_SITES_PATH;
         source = state.allSiteDataSources.find(s => s.path === identifier);
     }
 
-    // 步骤 2: 尝试从缓存加载数据 (仅在初次加载时，且仅针对主默认数据源)。
-    // 【关键修复】将缓存读取的条件限制为仅当目标源是主默认源时，避免加载错误的缓存数据。
     if (useCache && source && source.path === DEFAULT_SITES_PATH) {
         const storedBaseData = localStorage.getItem(NAV_DATA_STORAGE_KEY);
         if (storedBaseData) {
-            try {
-                newBaseData = JSON.parse(storedBaseData);
-            } catch (e) {
-                console.error("解析缓存数据失败，将从网络重新获取。", e);
-            }
+            try { newBaseData = JSON.parse(storedBaseData); } catch (e) {}
         }
     }
 
-    // 步骤 3: 如果无缓存数据，则从源头获取。
     if (!newBaseData) {
         try {
-            if (source.path) { // 默认数据源，从文件加载
+            if (source.path) {
                 const response = await fetch(source.path);
-                if (!response.ok) throw new Error(`HTTP error! status: ${response.status}`);
+                if (!response.ok) throw new Error(`HTTP error! ${response.status}`);
                 newBaseData = await response.json();
-            } else { // 自定义数据源，从 state 中直接获取
-                // 深拷贝以防意外修改 state.allSiteDataSources 中的原始数据
+            } else {
                 newBaseData = JSON.parse(JSON.stringify(source.data));
             }
         } catch (error) {
@@ -132,11 +301,11 @@ export async function performDataSourceSwitch(identifier, useCache = false, onSw
         }
     }
 
-    // 步骤 4: 合并用户的“我的导航”数据。
     let finalData;
-    if (source && source.path) { // 默认数据源需要合并“我的导航”
+    if (source && source.path) {
         let customCategory;
         try {
+            // 这里的数据可能已经被 syncFromGitHub 更新过了
             const customDataRaw = localStorage.getItem(NAV_CUSTOM_USER_SITES_KEY);
             customCategory = customDataRaw ? JSON.parse(customDataRaw) : {
                 categoryName: '我的导航',
@@ -144,100 +313,100 @@ export async function performDataSourceSwitch(identifier, useCache = false, onSw
                 sites: []
             };
         } catch (e) {
-            console.error("解析用户自定义网站失败，已重置。", e);
             customCategory = {categoryName: '我的导航', categoryId: CUSTOM_CATEGORY_ID, sites: []};
         }
-        // 确保 "我的导航" 分类始终存在且在最前面
+
+        // 确保“我的导航”数据结构有效
+        if (!customCategory.categoryId) customCategory.categoryId = CUSTOM_CATEGORY_ID;
+        if (!customCategory.sites) customCategory.sites = [];
+
         const otherCategories = newBaseData.categories.filter(c => c.categoryId !== CUSTOM_CATEGORY_ID);
         finalData = { ...newBaseData, categories: [customCategory, ...otherCategories] };
-    } else { // 自定义数据源其数据本身就是完整的，无需合并。
+    } else {
         finalData = newBaseData;
     }
 
-    // 深拷贝最终数据到主状态，防止后续操作意外修改源数据
     state.siteData = JSON.parse(JSON.stringify(finalData));
-
-    // 步骤 5: 持久化偏好设置并记录当前成功的值
     state.originalDataSourceValue = identifier;
     localStorage.setItem(NAV_DATA_SOURCE_PREFERENCE_KEY, identifier);
 
     if (onSwitchSuccess) onSwitchSuccess(identifier);
 }
-// #endregion
 
 // =========================================================================
-// #region 数据读写与查询
+// #region 数据读写与保存
 // =========================================================================
 
-/**
- * 从文件加载搜索引擎配置。
- */
 export async function loadSearchConfig() {
     try {
         const response = await fetch('data/00engines.json');
-        if (!response.ok) throw new Error(`HTTP error! status: ${response.status}`);
         state.searchConfig = await response.json();
     } catch (error) {
-        console.error("无法加载或处理搜索配置文件:", error);
-        // 提供一个空的回退配置，防止应用崩溃
         state.searchConfig = {categories: [], engines: {}};
     }
 }
 
+// 防抖计时器
+let saveDebounceTimer = null;
+
 /**
- * 保存当前导航数据。此函数能智能区分默认源和自定义源的保存逻辑。
- * @param {string} currentSourceIdentifier - 当前正在编辑的数据源的标识符。
+ * 保存导航数据 (本地 + 触发云同步)
+ * @param {string} currentSourceIdentifier
  */
 export function saveNavData(currentSourceIdentifier) {
     const currentSource = state.allSiteDataSources.find(s => (s.path || s.name) === currentSourceIdentifier);
-    if (!currentSource) {
-        console.warn(`保存数据时未找到数据源: ${currentSourceIdentifier}`);
-        return;
-    }
+    if (!currentSource) return;
 
-    // 1. 如果正在编辑的是自定义数据源 (没有 path 属性)
+    // 1. 本地持久化逻辑
     if (!currentSource.path) {
+        // 自定义源
         const customSources = getCustomSources();
         const sourceIndex = customSources.findIndex(s => s.name === currentSource.name);
         if (sourceIndex > -1) {
             const updatedData = JSON.parse(JSON.stringify(state.siteData));
-            // 清理掉空的分类，除了受保护的“我的导航”
             updatedData.categories = updatedData.categories.filter(c => c.sites.length > 0 || c.categoryId === CUSTOM_CATEGORY_ID);
 
-            // 更新持久化数据
             customSources[sourceIndex].data = updatedData;
             localStorage.setItem(NAV_CUSTOM_SOURCES_KEY, JSON.stringify(customSources));
 
-            // 同步更新内存中的 state.allSiteDataSources，确保不刷新页面时数据也是最新的
             const inMemorySource = state.allSiteDataSources.find(s => !s.path && s.name === currentSource.name);
-            if (inMemorySource) {
-                inMemorySource.data = updatedData;
-            }
+            if (inMemorySource) inMemorySource.data = updatedData;
         }
-    }
-    // 2. 如果正在编辑的是默认数据源 (有 path 属性)
-    else {
-        // 只持久化用户的“我的导航”分类
+    } else {
+        // 默认源，只保存“我的导航”
         const customCategory = state.siteData.categories.find(c => c.categoryId === CUSTOM_CATEGORY_ID);
         if (customCategory) {
             localStorage.setItem(NAV_CUSTOM_USER_SITES_KEY, JSON.stringify(customCategory));
         }
 
-        // 【关键修复】只缓存主默认数据源的数据，以避免切换到其他内置源后刷新页面导致数据错乱
         if (currentSourceIdentifier === DEFAULT_SITES_PATH) {
-            // 将不含用户自定义分类的基础数据缓存起来 (用于下次快速加载)
             const baseData = JSON.parse(JSON.stringify(state.siteData));
             baseData.categories = baseData.categories.filter(c => c.categoryId !== CUSTOM_CATEGORY_ID);
             localStorage.setItem(NAV_DATA_STORAGE_KEY, JSON.stringify(baseData));
         }
     }
+
+    // 2. 触发 GitHub 同步 (防抖 2秒)
+    if (state.github.token && state.github.repo) {
+        if (saveDebounceTimer) clearTimeout(saveDebounceTimer);
+
+        // 通知 UI 正在等待同步 (可选: 通过回调或事件)
+        const event = new CustomEvent('navhub-sync-status', { detail: { status: 'pending' } });
+        window.dispatchEvent(event);
+
+        saveDebounceTimer = setTimeout(() => {
+            const eventStart = new CustomEvent('navhub-sync-status', { detail: { status: 'syncing' } });
+            window.dispatchEvent(eventStart);
+
+            syncToGitHub().then(() => {
+                window.dispatchEvent(new CustomEvent('navhub-sync-status', { detail: { status: 'success' } }));
+            }).catch(() => {
+                window.dispatchEvent(new CustomEvent('navhub-sync-status', { detail: { status: 'error' } }));
+            });
+        }, 2000);
+    }
 }
 
-/**
- * 根据站点ID查找站点及其所属分类。
- * @param {string} siteId - 要查找的站点ID。
- * @returns {{site: object|null, category: object|null}} 包含站点和分类对象的元组。
- */
 export function findSiteById(siteId) {
     for (const category of state.siteData.categories) {
         const site = category.sites.find(s => s.id === siteId);
@@ -245,4 +414,3 @@ export function findSiteById(siteId) {
     }
     return {site: null, category: null};
 }
-// #endregion

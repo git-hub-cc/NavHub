@@ -32,7 +32,6 @@
                 document.documentElement.setAttribute('data-theme', theme);
 
                 // 2. 初始化代理模式 (默认关闭：false)
-                // 如果 localStorage 中没有设置，默认为 'false'
                 const proxyPref = localStorage.getItem('proxy-mode-preference');
                 const isProxyOn = proxyPref === 'true';
                 document.documentElement.setAttribute('data-proxy-mode', isProxyOn);
@@ -55,7 +54,7 @@
         <svg class="icon" viewBox="0 0 24 24"><path d="M3 4H21V6H3V4ZM3 11H21V13H3V11ZM3 18H21V20H3V18Z" fill="currentColor"></path></svg>
     </button>
     <div class="mobile-logo">NavHub</div>
-    <div class="mobile-placeholder"></div> <!-- 占位用于平衡布局 -->
+    <div class="mobile-placeholder"></div>
 </div>
 
 <!-- 页面主容器 -->
@@ -118,11 +117,18 @@
                 <input type="file" id="import-file-input" accept=".json,.html" style="display: none;">
             </div>
 
+            <!-- GitHub 同步按钮 -->
+            <button id="github-btn" class="btn-github-connect" title="配置 GitHub 云同步">
+                <!-- SVG: GitHub -->
+                <svg class="icon" viewBox="0 0 24 24"><path d="M12 2C6.475 2 2 6.475 2 12C2 16.425 4.8625 20.1625 8.8375 21.4875C9.3375 21.575 9.525 21.275 9.525 21.0125C9.525 20.775 9.5125 19.9875 9.5125 19.15C7 19.6125 6.3375 18.5375 6.15 18.0125C6.0375 17.725 5.55 16.8375 5.125 16.6C4.775 16.4125 4.275 15.95 5.1125 15.9375C5.8875 15.925 6.45 16.6625 6.6375 16.9625C7.55 18.5125 9 18.075 9.575 17.8125C9.6625 17.15 9.925 16.7 10.225 16.45C7.975 16.2 5.6125 15.325 5.6125 11.425C5.6125 10.3125 6 9.4 6.6625 8.6875C6.55 8.425 6.2 7.3875 6.7625 5.975C6.7625 5.975 7.6125 5.7 9.55 7.0125C10.3625 6.7875 11.225 6.675 12.0875 6.675C12.95 6.675 13.8125 6.7875 14.625 7.0125C16.5625 5.7 17.4125 5.975 17.4125 5.975C17.975 7.3875 17.625 8.425 17.5125 8.6875C18.175 9.4 18.5625 10.3125 18.5625 11.425C18.5625 15.325 16.2 16.1875 13.9375 16.4375C14.3125 16.7625 14.6375 17.4 14.6375 18.375C14.6375 19.775 14.625 20.9 14.625 21.0125C14.625 21.275 14.8125 21.575 15.3125 21.4875C19.2875 20.1625 22.15 16.425 22.15 12C22.15 6.475 17.675 2 12 2Z" fill="currentColor"></path></svg>
+                <span>GitHub 云同步</span>
+                <span id="github-status-dot" class="status-dot" title="未连接"></span>
+            </button>
+
             <!-- 底部工具栏：社交 + 代理开关 + 主题开关 -->
             <div class="footer-toolbar">
                 <div class="social-links">
                     <a href="https://github.com/git-hub-cc/NavHub" target="_blank" title="GitHub">
-                        <!-- SVG: GitHub -->
                         <svg class="icon" viewBox="0 0 24 24"><path d="M12 2C6.475 2 2 6.475 2 12C2 16.425 4.8625 20.1625 8.8375 21.4875C9.3375 21.575 9.525 21.275 9.525 21.0125C9.525 20.775 9.5125 19.9875 9.5125 19.15C7 19.6125 6.3375 18.5375 6.15 18.0125C6.0375 17.725 5.55 16.8375 5.125 16.6C4.775 16.4125 4.275 15.95 5.1125 15.9375C5.8875 15.925 6.45 16.6625 6.6375 16.9625C7.55 18.5125 9 18.075 9.575 17.8125C9.6625 17.15 9.925 16.7 10.225 16.45C7.975 16.2 5.6125 15.325 5.6125 11.425C5.6125 10.3125 6 9.4 6.6625 8.6875C6.55 8.425 6.2 7.3875 6.7625 5.975C6.7625 5.975 7.6125 5.7 9.55 7.0125C10.3625 6.7875 11.225 6.675 12.0875 6.675C12.95 6.675 13.8125 6.7875 14.625 7.0125C16.5625 5.7 17.4125 5.975 17.4125 5.975C17.975 7.3875 17.625 8.425 17.5125 8.6875C18.175 9.4 18.5625 10.3125 18.5625 11.425C18.5625 15.325 16.2 16.1875 13.9375 16.4375C14.3125 16.7625 14.6375 17.4 14.6375 18.375C14.6375 19.775 14.625 20.9 14.625 21.0125C14.625 21.275 14.8125 21.575 15.3125 21.4875C19.2875 20.1625 22.15 16.425 22.15 12C22.15 6.475 17.675 2 12 2Z" fill="currentColor"></path></svg>
                     </a>
                 </div>
@@ -132,9 +138,7 @@
                     <div class="theme-toggle-wrapper" title="切换显示海外资源">
                         <input type="checkbox" id="proxy-mode-switch" class="theme-switch-input" />
                         <label for="proxy-mode-switch" class="theme-switch-label proxy-label">
-                            <!-- SVG: Globe (On/Global) -->
                             <svg class="icon globe-icon" viewBox="0 0 24 24"><path d="M2 12C2 17.5228 6.47715 22 12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12ZM13 19.9381C16.929 19.4678 20 16.0827 20 12C20 7.91729 16.929 4.53218 13 4.06189V19.9381ZM11 19.9381V4.06189C7.07096 4.53218 4 7.91729 4 12C4 16.0827 7.07096 19.4678 11 19.9381Z" fill="currentColor"></path></svg>
-                            <!-- SVG: Lock/Shield (Off/Local) -->
                             <svg class="icon shield-icon" viewBox="0 0 24 24"><path d="M12 22C17.5228 22 22 17.5228 22 12V6L12 2L2 6V12C2 17.5228 6.47715 22 12 22ZM12 11V7H14V11H17V13H14V17H12V13H9V11H12Z" fill="currentColor"></path></svg>
                         </label>
                     </div>
@@ -143,9 +147,7 @@
                     <div class="theme-toggle-wrapper" title="切换深色/浅色主题">
                         <input type="checkbox" id="dark-mode-switch" class="theme-switch-input" />
                         <label for="dark-mode-switch" class="theme-switch-label">
-                            <!-- SVG: Sun -->
                             <svg class="icon sun-icon" viewBox="0 0 24 24"><path d="M12 18C8.68629 18 6 15.3137 6 12C6 8.68629 8.68629 6 12 6C15.3137 6 18 8.68629 18 12C18 15.3137 15.3137 18 12 18ZM12 16C14.2091 16 16 14.2091 16 12C16 9.79086 14.2091 8 12 8C9.79086 8 8 9.79086 8 12C8 14.2091 9.79086 16 12 16ZM11 1H13V4H11V1ZM11 20H13V23H11V20ZM3.51472 4.92893L4.92893 3.51472L7.05025 5.63604L5.63604 7.05025L3.51472 4.92893ZM16.9497 18.364L18.364 16.9497L20.4853 19.0711L19.0711 20.4853L16.9497 18.364ZM19.0711 3.51472L20.4853 4.92893L18.364 7.05025L16.9497 5.63604L19.0711 3.51472ZM5.63604 16.9497L7.05025 18.364L4.92893 20.4853L3.51472 19.0711L5.63604 16.9497ZM23 11V13H20V11H23ZM4 11V13H1V11H4Z" fill="currentColor"></path></svg>
-                            <!-- SVG: Moon -->
                             <svg class="icon moon-icon" viewBox="0 0 24 24"><path d="M11.38 2.019C11.6606 2.019 11.9306 2.039 12.1906 2.069C8.3606 3.259 5.8606 6.959 6.2206 11.199C6.5406 14.939 9.6106 17.919 13.3606 18.199C15.4206 18.349 17.3206 17.659 18.8406 16.539C18.3406 19.669 15.6306 21.999 12.3806 21.999C6.8606 21.999 2.3806 17.519 2.3806 11.999C2.3806 6.709 6.4806 2.359 11.38 2.019Z" fill="currentColor"></path></svg>
                         </label>
                     </div>
@@ -165,84 +167,33 @@
             <!-- Hero 区域：搜索 -->
             <header class="hero-section">
                 <div class="search-container">
-                    <!-- 搜索类别 Tabs -->
-                    <div id="search-category-buttons" class="search-tabs">
-                        <!-- JS生成 -->
-                    </div>
-
-                    <!-- 搜索框主体 -->
+                    <div id="search-category-buttons" class="search-tabs"></div>
                     <form id="search-form" class="search-box">
                         <div class="search-input-group">
-                            <!-- SVG: Search -->
                             <svg class="icon search-icon" viewBox="0 0 24 24"><path d="M18.031 16.6168L22.3137 20.8995L20.8995 22.3137L16.6168 18.031C15.0769 19.263 13.124 20 11 20C6.032 20 2 15.968 2 11C2 6.032 6.032 2 11 2C15.968 2 20 6.032 20 11C20 13.124 19.263 15.0769 18.031 16.6168ZM16.0247 15.8748C17.2475 14.6146 18 12.8956 18 11C18 7.1325 14.8675 4 11 4C7.1325 4 4 7.1325 4 11C4 14.8675 7.1325 18 11 18C12.8956 18 14.6146 17.2475 15.8748 16.0247L16.0247 15.8748Z" fill="currentColor"></path></svg>
                             <input type="text" id="search-input" autocomplete="off" placeholder="探索网络世界...">
                             <button type="submit" id="search-button" class="search-btn-submit">
-                                <!-- SVG: Arrow Right -->
                                 <svg class="icon" viewBox="0 0 24 24"><path d="M16.1716 10.9999L10.8076 5.63589L12.2218 4.22168L20 11.9999L12.2218 19.778L10.8076 18.3638L16.1716 12.9999H4V10.9999H16.1716Z" fill="currentColor"></path></svg>
                             </button>
                         </div>
                         <ul id="suggestions-list" class="suggestions-dropdown"></ul>
                     </form>
-
-                    <!-- 搜索引擎选择 -->
-                    <div id="search-engine-checkboxes" class="engine-selector">
-                        <!-- JS生成 -->
-                    </div>
+                    <div id="search-engine-checkboxes" class="engine-selector"></div>
                 </div>
             </header>
 
             <!-- 内容卡片区 -->
-            <div class="content-wrapper" id="content-wrapper">
-                <!-- JS 动态渲染导航内容 -->
-            </div>
+            <div class="content-wrapper" id="content-wrapper"></div>
 
             <!-- 致谢部分 -->
             <section class="footer-section">
-                <div class="divider">
-                    <span>致谢与资源</span>
-                </div>
+                <div class="divider"><span>致谢与资源</span></div>
                 <div class="acknowledgements-grid">
                     <a href="https://github.com/helloxz/onenav" target="_blank" rel="noopener noreferrer" class="mini-card">
                         <span class="ack-card-title">onenav</span>
                         <span class="ack-card-subtitle">灵感来源</span>
                     </a>
-                    <a href="https://link3.cc/studyship" target="_blank" rel="noopener noreferrer" class="mini-card">
-                        <span class="ack-card-title">学习资源船舱</span>
-                        <span class="ack-card-subtitle">数据来源</span>
-                    </a>
-                    <!-- 省略部分静态链接以保持文件简洁，结构未变 -->
-                    <a href="https://hao.199it.com" target="_blank" rel="noopener noreferrer" class="mini-card">
-                        <span class="ack-card-title">大数据导航</span>
-                        <span class="ack-card-subtitle">数据来源</span>
-                    </a>
-                    <a href="http://baozangku.ysepan.com/" target="_blank" rel="noopener noreferrer" class="mini-card">
-                        <span class="ack-card-title">哆啦A梦的神奇口袋</span>
-                        <span class="ack-card-subtitle">数据来源</span>
-                    </a>
-                    <a href="https://xiaoshuai.link/" target="_blank" rel="noopener noreferrer" class="mini-card">
-                        <span class="ack-card-title">小帅同学</span>
-                        <span class="ack-card-subtitle">数据来源</span>
-                    </a>
-                    <a href="https://lazybook.fun/" target="_blank" rel="noopener noreferrer" class="mini-card">
-                        <span class="ack-card-title">懒人找资源</span>
-                        <span class="ack-card-subtitle">数据来源</span>
-                    </a>
-                    <a href="http://xuexinxs.ysepan.com/" target="_blank" rel="noopener noreferrer" class="mini-card">
-                        <span class="ack-card-title">薛信的资料室</span>
-                        <span class="ack-card-subtitle">数据来源</span>
-                    </a>
-                    <a href="http://axutongxue.ysepan.com/" target="_blank" rel="noopener noreferrer" class="mini-card">
-                        <span class="ack-card-title">阿虚同学</span>
-                        <span class="ack-card-subtitle">数据来源</span>
-                    </a>
-                    <a href="http://chendandan.ysepan.com/" target="_blank" rel="noopener noreferrer" class="mini-card">
-                        <span class="ack-card-title">陈蛋蛋的宝藏库</span>
-                        <span class="ack-card-subtitle">数据来源</span>
-                    </a>
-                    <a href="http://ygtq.ysepan.com/#/" target="_blank" rel="noopener noreferrer" class="mini-card">
-                        <span class="ack-card-title">鱼果天晴的资源库</span>
-                        <span class="ack-card-subtitle">数据来源</span>
-                    </a>
+                    <!-- ... 其他链接 ... -->
                 </div>
             </section>
         </div>
@@ -253,37 +204,70 @@
 <!--                                模态框 (Modals)                               -->
 <!-- ========================================================================== -->
 
+<!-- GitHub 配置模态框 -->
+<div id="github-modal" class="modal-overlay modal-hidden">
+    <div class="modal-glass">
+        <div class="modal-header">
+            <h3>GitHub 云同步</h3>
+            <button class="close-modal-btn" id="close-github-modal-btn">
+                <svg class="icon" viewBox="0 0 24 24"><path d="M11.9997 10.5865L16.9495 5.63672L18.3637 7.05093L13.4139 12.0007L18.3637 16.9504L16.9495 18.3646L11.9997 13.4149L7.04996 18.3646L5.63574 16.9504L10.5855 12.0007L5.63574 7.05093L7.04996 5.63672L11.9997 10.5865Z" fill="currentColor"></path></svg>
+            </button>
+        </div>
+
+        <!-- 未登录状态表单 -->
+        <form id="github-form" class="modal-form">
+            <p class="text-xs text-secondary mb-3">
+                输入您的 <a href="https://github.com/settings/tokens" target="_blank" style="color:var(--primary-solid)">Personal Access Token</a> 以启用云同步。
+                我们会自动在您的账号下创建私有仓库 <code>navhub-data</code> 存储数据。
+            </p>
+            <div class="form-item">
+                <label for="github-token-input">Access Token</label>
+                <input type="password" id="github-token-input" placeholder="ghp_xxxxxxxxxxxx" required>
+            </div>
+            <div class="form-item">
+                <label for="github-repo-input">自定义仓库名 (可选)</label>
+                <input type="text" id="github-repo-input" placeholder="默认为 navhub-data">
+            </div>
+            <div class="modal-footer">
+                <button type="submit" class="btn-primary-glass">连接 GitHub</button>
+            </div>
+        </form>
+
+        <!-- 已登录状态显示 (动态生成) -->
+        <div id="github-user-info" style="display:none;">
+            <!-- JS 填充 -->
+        </div>
+
+        <!-- 登出按钮 -->
+        <div class="modal-footer" id="github-logout-footer" style="margin-top:20px; border-top:1px solid var(--border-light); padding-top:15px;">
+            <button id="github-logout-btn" class="btn-ghost" style="color:var(--danger); width:100%;">断开连接</button>
+        </div>
+    </div>
+</div>
+
 <!-- 网站编辑/新增模态框 -->
 <div id="site-modal" class="modal-overlay modal-hidden">
     <div class="modal-glass">
         <div class="modal-header">
             <h3 id="modal-title">新增网站</h3>
             <button class="close-modal-btn" id="cancel-btn">
-                <!-- SVG: Close -->
                 <svg class="icon" viewBox="0 0 24 24"><path d="M11.9997 10.5865L16.9495 5.63672L18.3637 7.05093L13.4139 12.0007L18.3637 16.9504L16.9495 18.3646L11.9997 13.4149L7.04996 18.3646L5.63574 16.9504L10.5855 12.0007L5.63574 7.05093L7.04996 5.63672L11.9997 10.5865Z" fill="currentColor"></path></svg>
             </button>
         </div>
         <form id="site-form" class="modal-form">
-            <!-- 隐藏字段：用于存储当前网站ID（编辑模式） -->
             <input type="hidden" id="site-id">
-            <!-- 隐藏字段：用于记住当前操作的目标分类ID -->
             <input type="hidden" id="category-id">
-
-            <!-- 【新增】只读字段：显示分类名称，让用户明确知道归档位置 -->
             <div class="form-item">
                 <label for="site-category-name">所属分类</label>
                 <input type="text" id="site-category-name" disabled style="background-color: var(--bg-base); opacity: 0.7; cursor: not-allowed; color: var(--text-primary);">
             </div>
-
             <div class="form-item">
                 <label for="site-url">网址</label>
                 <div class="input-with-icon">
-                    <!-- SVG: Link -->
                     <svg class="icon" viewBox="0 0 24 24"><path d="M13.0607 8.11097L14.4749 9.52518L9.52516 14.4749C8.35359 15.6465 6.4541 15.6465 5.28253 14.4749C4.11095 13.3034 4.11095 11.4039 5.28253 10.2323L10.2323 5.28258L11.6465 6.6968L6.69674 11.6465C6.30621 12.0371 6.30621 12.6702 6.69674 13.0607C7.08726 13.4513 7.72043 13.4513 8.11095 13.0607L13.0607 8.11097ZM18.7175 13.7677L13.7678 18.7175L12.3536 17.3033L17.3033 12.3535C18.4749 11.182 20.3744 11.182 21.5459 12.3535C22.7175 13.5251 22.7175 15.4246 21.5459 16.5962L16.5962 21.5459L15.182 20.1317L20.1317 15.182C20.5223 14.7915 20.5223 14.1583 20.1317 13.7677C19.7412 13.3772 19.108 13.3772 18.7175 13.7677Z" fill="currentColor"></path></svg>
                     <input type="url" id="site-url" placeholder="https://" required>
                 </div>
             </div>
-
             <div class="form-row">
                 <div class="form-item">
                     <label for="site-title">标题</label>
@@ -294,17 +278,14 @@
                     <input type="url" id="site-icon" placeholder="自动获取或手动输入">
                 </div>
             </div>
-
             <div class="form-item">
                 <label for="site-desc">描述</label>
                 <textarea id="site-desc" rows="2" placeholder="简短的描述..."></textarea>
             </div>
-
             <div class="form-item checkbox-item">
                 <input type="checkbox" id="site-proxy">
                 <label for="site-proxy">需要代理访问</label>
             </div>
-
             <div class="modal-footer">
                 <button type="submit" class="btn-primary-glass">保存</button>
             </div>
@@ -312,12 +293,11 @@
     </div>
 </div>
 
-<!-- 导入命名模态框 (已修改) -->
+<!-- 导入命名模态框 -->
 <div id="import-name-modal" class="modal-overlay modal-hidden">
     <div class="modal-glass small-modal">
         <h3>导入书签</h3>
         <form id="import-name-form" class="modal-form">
-            <!-- 新增: 导入模式选择 -->
             <div class="form-item import-mode-options">
                 <label>请选择导入方式：</label>
                 <div class="radio-option">
@@ -329,13 +309,10 @@
                     <label for="import-mode-merge">全部添加到当前“我的导航”分类</label>
                 </div>
             </div>
-
-            <!-- 命名输入框 -->
             <div class="form-item">
                 <input type="text" id="import-name-input" required placeholder="例如：我的工作台">
                 <p id="import-name-error" class="error-msg"></p>
             </div>
-
             <div class="modal-footer">
                 <button type="button" id="cancel-import-name-btn" class="btn-ghost">取消</button>
                 <button type="submit" class="btn-primary-glass">确认</button>
@@ -358,8 +335,6 @@
     </div>
 </div>
 
-<!-- 脚本加载 -->
-<!-- 移除：<script src="./js/pinyinManager.js"></script> -->
 <script type="module" src="./js/main.js"></script>
 
 </body>

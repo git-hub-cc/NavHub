@@ -1,9 +1,50 @@
 // =========================================================================
-// main.js - 主程序 / 事件协调器 (适配新设计，移除拼音依赖)
+// main.js - 主程序 / 事件协调器 (增强版: 增加 GitHub 自动登录与同步初始化)
 // =========================================================================
 
-import { state, getThemePreference, getProxyMode, setProxyMode, loadAllDataSources, loadSearchConfig, performDataSourceSwitch, saveNavData, findSiteById, DEFAULT_SITES_PATH, NAV_DATA_SOURCE_PREFERENCE_KEY, CUSTOM_CATEGORY_ID } from './dataManager.js';
-import { dom, applyTheme, applyProxyMode, populateDataSourceSelector, renderNavPage, updateDeleteButtonState, showAlert, openSiteModal, closeSiteModal, closeImportNameModal, toggleEditMode, toggleDeleteMode, filterNavCards, renderSearchCategories, renderEngineCheckboxes, renderSuggestions, showConfirm, toggleMobileSidebar, closeMobileSidebar, isolateSidebarScroll } from './ui.js';
+import {
+    state,
+    getThemePreference,
+    getProxyMode,
+    setProxyMode,
+    loadAllDataSources,
+    loadSearchConfig,
+    performDataSourceSwitch,
+    saveNavData,
+    findSiteById,
+    DEFAULT_SITES_PATH,
+    NAV_DATA_SOURCE_PREFERENCE_KEY,
+    CUSTOM_CATEGORY_ID,
+    initGitHub,         // 新增
+    syncFromGitHub,     // 新增
+    GITHUB_TOKEN_KEY    // 新增
+} from './dataManager.js';
+
+import {
+    dom,
+    applyTheme,
+    applyProxyMode,
+    populateDataSourceSelector,
+    renderNavPage,
+    updateDeleteButtonState,
+    showAlert,
+    openSiteModal,
+    closeSiteModal,
+    closeImportNameModal,
+    toggleEditMode,
+    toggleDeleteMode,
+    filterNavCards,
+    renderSearchCategories,
+    renderEngineCheckboxes,
+    renderSuggestions,
+    showConfirm,
+    toggleMobileSidebar,
+    closeMobileSidebar,
+    isolateSidebarScroll,
+    initGithubUI,               // 新增
+    updateGithubStatusIndicator // 新增
+} from './ui.js';
+
 import { handleExport, handleImportClick, handleFileSelect, handleImportNameSubmit, handleDeleteSource } from './fileManager.js';
 
 let currentSearchCategory = '';
@@ -15,10 +56,33 @@ let suggestionTimer = null;
 // =========================================================================
 
 async function init() {
+    // 0. URL Token 解析 (处理 GitHub 自动登录)
+    // 允许通过 URL hash 传递 token: /#token=ghp_xxxx
+    const hash = window.location.hash;
+    if (hash && hash.includes('token=')) {
+        try {
+            const params = new URLSearchParams(hash.substring(1)); // 去掉 #
+            const token = params.get('token');
+            if (token) {
+                localStorage.setItem(GITHUB_TOKEN_KEY, token);
+                // 清除 URL 中的 Token，保护隐私
+                history.replaceState(null, null, window.location.pathname);
+                console.log("[Main] 检测到 URL Token，已自动保存");
+            }
+        } catch (e) {
+            console.error("Token 解析失败", e);
+        }
+    }
+
     // 1. 初始化偏好 (主题 + 代理模式)
     applyTheme(getThemePreference());
-    applyProxyMode(getProxyMode()); // 初始化代理模式显示
+    applyProxyMode(getProxyMode());
 
+    // 2. 初始化 GitHub 状态与 UI
+    const isGithubLoggedIn = await initGitHub();
+    initGithubUI(); // 绑定 GitHub 相关按钮事件
+
+    // 3. 加载本地数据源
     loadAllDataSources();
     setupStaticEventListeners();
     setupDynamicEventListeners();
@@ -26,12 +90,32 @@ async function init() {
     const lastUsedSource = localStorage.getItem(NAV_DATA_SOURCE_PREFERENCE_KEY) || DEFAULT_SITES_PATH;
     populateDataSourceSelector();
 
+    // 4. 加载页面数据 (优先加载本地，随后尝试云同步)
     await Promise.all([
         performDataSourceSwitch(lastUsedSource, true, onDataSourceSwitchSuccess, onDataSourceSwitchFail),
         loadSearchConfig()
     ]);
 
     initEnhancedSearch();
+
+    // 5. 如果已登录 GitHub，触发后台静默同步
+    if (isGithubLoggedIn) {
+        // 延迟执行，不阻塞首屏交互
+        setTimeout(() => {
+            syncFromGitHub((status) => {
+                updateGithubStatusIndicator(status);
+                if (status === 'success') {
+                    // 同步成功后，重新渲染当前页面以显示最新数据
+                    // 只有当当前显示的是默认源(含我的导航)或自定义源时才刷新
+                    const currentSource = dom.customSelect.dataset.value;
+                    performDataSourceSwitch(currentSource, false, () => {
+                        renderNavPage();
+                        console.log("[Main] 云端数据已应用");
+                    });
+                }
+            });
+        }, 1000);
+    }
 }
 
 function setupStaticEventListeners() {
@@ -42,12 +126,11 @@ function setupStaticEventListeners() {
             toggleMobileSidebar();
         });
     }
-    // 点击遮罩层关闭侧边栏
     if (dom.sidebarOverlay) {
         dom.sidebarOverlay.addEventListener('click', closeMobileSidebar);
     }
 
-    // 初始化侧边栏滚动隔离，防止干扰主页面滚动
+    // 侧边栏滚动隔离
     isolateSidebarScroll();
 
     // 主题切换
@@ -59,7 +142,6 @@ function setupStaticEventListeners() {
             const isChecked = dom.proxyModeSwitch.checked;
             applyProxyMode(isChecked);
             setProxyMode(isChecked);
-            // 切换模式后，必须重新渲染搜索引擎复选框，因为它们被过滤了
             renderEngineCheckboxes(currentSearchCategory);
         });
     }
@@ -99,7 +181,6 @@ function setupStaticEventListeners() {
         if (e.target === dom.importNameModal) closeImportNameModal();
     });
 
-    // 新增: 导入模式切换的交互逻辑
     if (dom.importModeNewRadio && dom.importModeMergeRadio) {
         dom.importModeNewRadio.addEventListener('change', () => {
             dom.importNameInput.disabled = false;
@@ -128,16 +209,12 @@ function setupStaticEventListeners() {
 
 function setupDynamicEventListeners() {
     dom.contentWrapper.addEventListener('click', e => {
-        // 使用 class 选择器捕获所有操作按钮
         const addSiteBtn = e.target.closest('.add-site-btn');
-        // 修改说明: 适配 ui.js 中的修改，将 id 选择器改为 class 选择器 .edit-site-btn
         const editSiteBtn = e.target.closest('.edit-site-btn');
-        // 修改说明: 适配 ui.js 中的修改，将 id 选择器改为 class 选择器 .delete-site-btn
         const deleteSiteBtn = e.target.closest('.delete-site-btn');
-        const clearCategoryBtn = e.target.closest('.clear-category-btn'); // 【新增】捕获清空按钮
+        const clearCategoryBtn = e.target.closest('.clear-category-btn');
         const card = e.target.closest('.card');
 
-        // 1. 点击“新增”按钮
         if (addSiteBtn) {
             const categoryId = addSiteBtn.dataset.categoryId;
             const categoryName = addSiteBtn.dataset.categoryName;
@@ -145,19 +222,16 @@ function setupDynamicEventListeners() {
             return;
         }
 
-        // 2. 点击分类标题栏的“编辑”按钮
         if (editSiteBtn) {
             toggleEditMode();
             return;
         }
 
-        // 3. 点击分类标题栏的“删除”按钮
         if (deleteSiteBtn) {
             toggleDeleteMode();
             return;
         }
 
-        // 4. 【新增】点击分类标题栏的“清空”按钮
         if (clearCategoryBtn) {
             const categoryId = clearCategoryBtn.dataset.categoryId;
             const categoryName = clearCategoryBtn.dataset.categoryName;
@@ -165,7 +239,6 @@ function setupDynamicEventListeners() {
             return;
         }
 
-        // 5. 点击具体卡片
         if (card) {
             e.preventDefault();
             const isInEditMode = dom.contentWrapper.classList.contains('is-editing');
@@ -211,9 +284,7 @@ function setupDynamicEventListeners() {
                 const rect = overCard.getBoundingClientRect();
                 const midpointY = rect.top + rect.height / 2;
                 const midpointX = rect.left + rect.width / 2;
-
                 const isAfter = (e.clientY > midpointY) || (e.clientX > midpointX && Math.abs(e.clientY - midpointY) < 50);
-
                 overCard.parentNode.insertBefore(placeholder, isAfter ? overCard.nextSibling : overCard);
             } else if (overGrid && !overGrid.querySelector('.placeholder')) {
                 overGrid.appendChild(placeholder);
@@ -371,35 +442,20 @@ async function handleCardDelete(cardElement) {
     saveNavData(dom.customSelect.dataset.value);
 }
 
-/**
- * 【新增】处理清空分类下的所有书签
- * @param {string} categoryId 要清空的分类ID
- * @param {string} categoryName 要清空的分类名称，用于提示
- */
 async function handleClearCategory(categoryId, categoryName) {
-    // 鲁棒性检查
     if (!categoryId || !categoryName) return;
-
-    // 弹出确认对话框，防止误操作
     const confirmed = await showConfirm(`确定要清空分类 "${categoryName}" 下的所有书签吗？\n此操作不可撤销。`, "清空确认");
     if (!confirmed) return;
-
-    // 在全局状态中找到对应的分类
     const category = state.siteData.categories.find(c => c.categoryId === categoryId);
     if (category) {
-        // 清空该分类的 sites 数组
         category.sites = [];
-        // 保存数据更改
         saveNavData(dom.customSelect.dataset.value);
-        // 重新渲染整个页面以更新UI
         renderNavPage();
         showAlert(`分类 "${categoryName}" 已被清空。`, '操作成功');
     } else {
-        // 如果找不到分类，给予错误提示
         showAlert(`操作失败：找不到分类 (ID: ${categoryId})`, '错误');
     }
 }
-
 
 // =========================================================================
 // #region 增强搜索逻辑
