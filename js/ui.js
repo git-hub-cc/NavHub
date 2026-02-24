@@ -189,10 +189,16 @@ function openGithubModal() {
             pullBtn.disabled = true;
             pullBtn.innerHTML = '拉取中...';
             await syncFromGitHub((s) => updateGithubStatusIndicator(s));
-            // 拉取后刷新页面数据
+            // 拉取后刷新页面数据与偏好设置
+            const theme = localStorage.getItem('theme-preference') || (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+            const proxyMode = localStorage.getItem('proxy-mode-preference') === 'true';
+            applyTheme(theme);
+            applyProxyMode(proxyMode);
+
             const currentSource = dom.customSelect.dataset.value;
             performDataSourceSwitch(currentSource, false, () => {
                 renderNavPage();
+                renderEngineCheckboxes(state.searchConfig.categories[0]?.value || ''); // 尽量刷新引擎列表
                 showAlert("数据已从云端更新。", "同步完成");
                 pullBtn.disabled = false;
                 pullBtn.innerHTML = '立即拉取';

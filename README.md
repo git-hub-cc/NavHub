@@ -97,6 +97,9 @@ NavHub/
 *   **GitHub Pages**: Push 代码到仓库，在 Settings -> Pages 中开启。
 *   **Vercel / Netlify**: 关联 GitHub 仓库即可自动部署。
 *   **Nginx / Apache**: 将根目录指向项目文件夹。
+```
+python -m http.server 80
+```
 
 ### Actions
 1. **配置仓库设置**:

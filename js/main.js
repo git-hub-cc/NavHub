@@ -105,11 +105,16 @@ async function init() {
             syncFromGitHub((status) => {
                 updateGithubStatusIndicator(status);
                 if (status === 'success') {
-                    // 同步成功后，重新渲染当前页面以显示最新数据
-                    // 只有当当前显示的是默认源(含我的导航)或自定义源时才刷新
+                    // 同步成功后，应用偏好设置并重新渲染当前页面
+                    const theme = getThemePreference();
+                    const proxyMode = getProxyMode();
+                    applyTheme(theme);
+                    applyProxyMode(proxyMode);
+
                     const currentSource = dom.customSelect.dataset.value;
                     performDataSourceSwitch(currentSource, false, () => {
                         renderNavPage();
+                        renderEngineCheckboxes(currentSearchCategory); // 确保搜索建议的代理状态也更新
                         console.log("[Main] 云端数据已应用");
                     });
                 }
@@ -134,7 +139,10 @@ function setupStaticEventListeners() {
     isolateSidebarScroll();
 
     // 主题切换
-    dom.darkModeSwitch.addEventListener('change', () => applyTheme(dom.darkModeSwitch.checked ? 'dark' : 'light'));
+    dom.darkModeSwitch.addEventListener('change', () => {
+        applyTheme(dom.darkModeSwitch.checked ? 'dark' : 'light');
+        saveNavData(dom.customSelect.dataset.value);
+    });
 
     // 代理模式切换
     if (dom.proxyModeSwitch) {
@@ -143,6 +151,7 @@ function setupStaticEventListeners() {
             applyProxyMode(isChecked);
             setProxyMode(isChecked);
             renderEngineCheckboxes(currentSearchCategory);
+            saveNavData(dom.customSelect.dataset.value);
         });
     }
 

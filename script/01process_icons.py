@@ -10,6 +10,7 @@ JSON_INPUT_FILE = '02服务.json'
 JSON_OUTPUT_FILE = '02服务_updated.json'
 IMAGE_OUTPUT_DIR = 'img'
 IMAGE_SIZE = (32, 32)
+OVERWRITE_INPUT = True  # 是否直接覆盖输入文件
 
 def process_image_url(url, session):
     """
@@ -30,13 +31,22 @@ def process_image_url(url, session):
         hash_name = hasher.hexdigest()
 
         # 定义新的文件名和路径
-        new_filename = f"{hash_name}.webp"
+        is_svg = url.lower().endswith('.svg') or b'<svg' in image_data[:500].lower()
+        ext = "svg" if is_svg else "webp"
+        new_filename = f"{hash_name}.{ext}"
         local_path = os.path.join(IMAGE_OUTPUT_DIR, new_filename)
         json_path = f"{IMAGE_OUTPUT_DIR}/{new_filename}" # JSON 中使用正斜杠
 
         # 如果文件已存在，则跳过处理，直接返回路径
         if os.path.exists(local_path):
             print(f"  -> 已存在, 跳过: {local_path}")
+            return json_path
+
+        if is_svg:
+            # SVG 直接保存
+            with open(local_path, 'wb') as f:
+                f.write(image_data)
+            print(f"  -> SVG 成功保存到: {local_path}")
             return json_path
 
         # 使用 Pillow 处理图片
@@ -65,6 +75,10 @@ def main():
     """
     主函数，读取、处理并保存 JSON 文件。
     """
+    # 切换到脚本所在目录，确保相对路径正确
+    script_dir = os.path.dirname(os.path.abspath(__file__))
+    os.chdir(script_dir)
+
     # 检查输入文件是否存在
     if not os.path.exists(JSON_INPUT_FILE):
         print(f"错误: 输入文件 '{JSON_INPUT_FILE}' 不存在。")
@@ -108,8 +122,9 @@ def main():
                     # 这里我们保留原URL，并在日志中打印错误
                     print(f"  -> 保留原始URL: {site.get('title')}")
 
-    # 将更新后的数据写入新文件
-    with open(JSON_OUTPUT_FILE, 'w', encoding='utf-8') as f:
+    # 将更新后的数据写入文件
+    output_file = JSON_INPUT_FILE if OVERWRITE_INPUT else JSON_OUTPUT_FILE
+    with open(output_file, 'w', encoding='utf-8') as f:
         # ensure_ascii=False 保证中文字符正常显示
         # indent=2 使 JSON 文件格式化，易于阅读
         json.dump(data, f, ensure_ascii=False, indent=2)
@@ -117,7 +132,7 @@ def main():
     print("\n--- 处理完成 ---")
     print(f"总计检查了 {total_sites} 个网站条目。")
     print(f"处理了 {processed_urls} 个 icon URL。")
-    print(f"更新后的 JSON 文件已保存到: '{JSON_OUTPUT_FILE}'")
+    print(f"更新后的 JSON 文件已保存到: '{output_file}'")
     print(f"图片文件已保存到: '{IMAGE_OUTPUT_DIR}/' 目录。")
 
 

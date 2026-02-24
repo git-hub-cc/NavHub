@@ -24,8 +24,8 @@ export const DEFAULT_REPO_NAME = 'navhub-data'; // 默认创建的仓库名
 
 // === 默认内置数据源列表 ===
 export const defaultSiteDataSources = [
-    {name: "资源", path: "data/01资源.json"},
-    {name: "服务", path: "data/02服务.json"}
+    { name: "资源", path: "data/01资源.json" },
+    { name: "服务", path: "data/02服务.json" }
 ];
 
 // === 全局状态对象 ===
@@ -181,11 +181,7 @@ export async function syncFromGitHub(onStatusChange) {
 
             // 3. 同步偏好设置
             if (content.preferences) {
-                if (content.preferences.theme) applyThemeAndSave(content.preferences.theme);
-                if (content.preferences.proxyMode !== undefined) {
-                    setProxyMode(content.preferences.proxyMode);
-                    // 注意：这里只更新数据，UI更新需由调用者处理
-                }
+                saveSyncPreferences(content.preferences.theme, content.preferences.proxyMode);
             }
 
             state.github.lastSyncTime = Date.now();
@@ -227,7 +223,7 @@ export async function syncToGitHub() {
             try {
                 const existing = await githubClient.getFile(GITHUB_DATA_FILE);
                 if (existing) state.github.remoteSha = existing.sha;
-            } catch (ignore) {}
+            } catch (ignore) { }
         }
 
         const res = await githubClient.saveFile(GITHUB_DATA_FILE, dataToSync, state.github.remoteSha);
@@ -246,10 +242,10 @@ export async function syncToGitHub() {
     }
 }
 
-// 辅助：内部更新主题并保存本地（用于同步下载后的应用）
-function applyThemeAndSave(theme) {
-    localStorage.setItem(THEME_STORAGE_KEY, theme);
-    document.documentElement.setAttribute('data-theme', theme);
+// 辅助：内部持久化数据（用于同步下载后的应用）
+function saveSyncPreferences(theme, proxyMode) {
+    if (theme) localStorage.setItem(THEME_STORAGE_KEY, theme);
+    if (proxyMode !== undefined) localStorage.setItem(PROXY_MODE_KEY, String(proxyMode));
 }
 
 // =========================================================================
@@ -282,7 +278,7 @@ export async function performDataSourceSwitch(identifier, useCache = false, onSw
     if (useCache && source && source.path === DEFAULT_SITES_PATH) {
         const storedBaseData = localStorage.getItem(NAV_DATA_STORAGE_KEY);
         if (storedBaseData) {
-            try { newBaseData = JSON.parse(storedBaseData); } catch (e) {}
+            try { newBaseData = JSON.parse(storedBaseData); } catch (e) { }
         }
     }
 
@@ -313,7 +309,7 @@ export async function performDataSourceSwitch(identifier, useCache = false, onSw
                 sites: []
             };
         } catch (e) {
-            customCategory = {categoryName: '我的导航', categoryId: CUSTOM_CATEGORY_ID, sites: []};
+            customCategory = { categoryName: '我的导航', categoryId: CUSTOM_CATEGORY_ID, sites: [] };
         }
 
         // 确保“我的导航”数据结构有效
@@ -342,7 +338,7 @@ export async function loadSearchConfig() {
         const response = await fetch('data/00engines.json');
         state.searchConfig = await response.json();
     } catch (error) {
-        state.searchConfig = {categories: [], engines: {}};
+        state.searchConfig = { categories: [], engines: {} };
     }
 }
 
@@ -410,7 +406,7 @@ export function saveNavData(currentSourceIdentifier) {
 export function findSiteById(siteId) {
     for (const category of state.siteData.categories) {
         const site = category.sites.find(s => s.id === siteId);
-        if (site) return {site, category};
+        if (site) return { site, category };
     }
-    return {site: null, category: null};
+    return { site: null, category: null };
 }
