@@ -121,8 +121,7 @@
       {"name": "AllMovie", "url": "https://www.allmovie.com/search/all/%s", "proxy": false, "desc": "专业电影资料库，提供剧情分析、风格标签与影评。"}
     ],
     "movie_streaming": [
-      {"name": "爱壹帆", "url": "https://www.iyf.lv/s/-------------/?wd=%s", "proxy": false, "desc": "海外华人常用的高清影视在线观看平台。"},
-      {"name": "泥视频", "url": "https://www.nivod.vip/s/-------------/?wd=%s", "proxy": false, "desc": "针对海外用户的影视平台，加载速度快。"},
+      {"name": "爱壹帆", "url": "https://www.iyf.tv/search/%s", "proxy": false, "desc": "海外华人常用的高清影视在线观看平台。"},
       {"name": "在线之家", "url": "https://www.zxzjhd.com/vodsearch/-------------.html?wd=%s&submit=", "proxy": false, "desc": "主打美剧、韩剧等海外剧集的高清在线看。"},
       {"name": "Gimy TV 剧迷", "url": "https://gimytv.ai/search/-------------.html?wd=%s", "proxy": false, "desc": "港台地区流行的综合影视剧集网站。"},
       {"name": "大师兄影视", "url": "https://dsxys.com/sb/kemksmaksdl7nhZe3c1-.html?wd=%s", "proxy": false, "desc": "老牌影视站，资源全且更新及时。"},
